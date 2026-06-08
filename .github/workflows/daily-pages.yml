@@ -1,0 +1,69 @@
+name: 每日标讯更新
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 7 * * *"
+      timezone: "Asia/Shanghai"
+  push:
+    branches: ["main"]
+    paths:
+      - "site/**"
+      - "src/**"
+      - "config/**"
+      - ".github/workflows/daily-pages.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 获取项目
+        uses: actions/checkout@v6
+
+      - name: 设置 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 采集公开标讯
+        env:
+          PYTHONPATH: src
+          TZ: Asia/Shanghai
+        run: python -m tender_agent.site update
+
+      - name: 保存更新结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/latest.json site/data/state.json
+          git diff --cached --quiet || git commit -m "更新每日标讯"
+          git push
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传网页
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
