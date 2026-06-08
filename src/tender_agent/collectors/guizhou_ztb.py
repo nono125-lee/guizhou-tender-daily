@@ -70,7 +70,11 @@ def _plain_text(content: str) -> str:
     ).strip()
 
 
-def _fetch_json(url: str, retries: int = 2) -> dict | None:
+def _fetch_json(
+    url: str,
+    retries: int = 2,
+    timeout: int = 15,
+) -> dict | None:
     request = Request(
         url,
         headers={
@@ -80,7 +84,7 @@ def _fetch_json(url: str, retries: int = 2) -> dict | None:
     )
     for attempt in range(retries + 1):
         try:
-            with urlopen(request, timeout=15) as response:
+            with urlopen(request, timeout=timeout) as response:
                 return json.loads(response.read().decode("utf-8-sig"))
         except HTTPError as error:
             if error.code == 404:
@@ -171,7 +175,7 @@ def collect(
     state_path: str | Path,
     existing_path: str | Path,
     max_scan: int = 800,
-    stop_after_misses: int = 120,
+    stop_after_misses: int = 20,
 ) -> dict:
     state_file = Path(state_path)
     existing_file = Path(existing_path)
@@ -192,7 +196,11 @@ def collect(
     misses = 0
 
     for tender_id in range(last_id + 1, last_id + max_scan + 1):
-        data = _fetch_json(f"{DETAIL_API}/{tender_id}")
+        data = _fetch_json(
+            f"{DETAIL_API}/{tender_id}",
+            retries=0,
+            timeout=4,
+        )
         if not data or not data.get("Title"):
             misses += 1
             if misses >= stop_after_misses:
