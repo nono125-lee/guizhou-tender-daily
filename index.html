@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#102f2a">
+    <meta
+      name="description"
+      content="贵州省图文广告行业每日标讯，自动更新、关键词筛选、原文直达。"
+    >
+    <title>贵州标讯晨报</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <div class="paper-noise" aria-hidden="true"></div>
+    <header class="masthead">
+      <div class="edition">GUIZHOU · DAILY TENDER BRIEF</div>
+      <h1>贵州标讯晨报</h1>
+      <div class="masthead-rule">
+        <span id="update-date">正在读取...</span>
+        <span>图文广告行业</span>
+        <span>每天 8:00 前更新</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="lead">
+        <div>
+          <p class="kicker">今日情报</p>
+          <h2>把分散的招标公告，整理成一张可行动的清单。</h2>
+          <p id="coverage" class="coverage"></p>
+        </div>
+        <div class="numbers" aria-label="数据摘要">
+          <div><strong id="total-count">0</strong><span>有效标讯</span></div>
+          <div><strong id="today-count">0</strong><span>今日新增</span></div>
+          <div><strong id="source-count">0</strong><span>公开来源</span></div>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="筛选标讯">
+        <label>
+          <span>搜索</span>
+          <input id="search" type="search" placeholder="项目、采购人、关键词">
+        </label>
+        <label>
+          <span>地区</span>
+          <select id="region"><option value="">全部地区</option></select>
+        </label>
+        <label>
+          <span>时间</span>
+          <select id="date-range">
+            <option value="7">最近 7 天</option>
+            <option value="14">最近 14 天</option>
+            <option value="45">最近 45 天</option>
+          </select>
+        </label>
+      </section>
+
+      <div id="warning" class="warning" hidden></div>
+      <section id="list" class="tender-list" aria-live="polite"></section>
+      <p id="empty" class="empty" hidden>没有符合当前筛选条件的标讯。</p>
+    </main>
+
+    <footer>
+      <p>信息仅供筛选参考，报名和投标前请以原公告为准。</p>
+      <p>自动采集出现验证码或网站异常时，会保留上次成功数据。</p>
+    </footer>
+
+    <template id="card-template">
+      <article class="tender-card">
+        <div class="card-index"></div>
+        <div class="card-main">
+          <div class="card-meta">
+            <time></time>
+            <span class="location"></span>
+            <span class="source"></span>
+          </div>
+          <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
+          <p class="summary"></p>
+          <dl>
+            <div class="budget-row"><dt>预算</dt><dd class="budget"></dd></div>
+            <div class="buyer-row"><dt>采购人</dt><dd class="buyer"></dd></div>
+            <div class="deadline-row"><dt>截止</dt><dd class="deadline"></dd></div>
+          </dl>
+          <div class="keywords"></div>
+        </div>
+        <a class="read-more" target="_blank" rel="noopener noreferrer">查看原公告 ↗</a>
+      </article>
+    </template>
+
+    <script src="./assets/app.js" defer></script>
+  </body>
+</html>
+
