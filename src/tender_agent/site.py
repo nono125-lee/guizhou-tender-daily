@@ -6,7 +6,11 @@ from pathlib import Path
 
 from .collectors.guizhou_ztb import collect
 from .importers import load_keywords
-from .public_export import export_public_snapshot
+from .public_export import (
+    export_public_snapshot,
+    load_source_names,
+    normalize_public_item,
+)
 from .repository import Repository
 
 
@@ -29,6 +33,26 @@ def update(args: argparse.Namespace) -> int:
         args.state,
         args.output,
         args.max_scan,
+    )
+    print(json.dumps(payload["stats"], ensure_ascii=False))
+    return 0
+
+
+def normalize(args: argparse.Namespace) -> int:
+    payload = json.loads(args.input.read_text(encoding="utf-8"))
+    source_names = load_source_names(args.source_names)
+    payload["items"] = [
+        normalize_public_item(item, source_names)
+        for item in payload.get("items", [])
+        if item.get("url")
+    ]
+    payload["stats"]["total"] = len(payload["items"])
+    payload["stats"]["sources"] = len(
+        {item["source_name"] for item in payload["items"]}
+    )
+    args.output.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
     )
     print(json.dumps(payload["stats"], ensure_ascii=False))
     return 0
@@ -62,6 +86,20 @@ def build_parser() -> argparse.ArgumentParser:
     )
     update_parser.add_argument("--max-scan", type=int, default=800)
     update_parser.set_defaults(handler=update)
+
+    normalize_parser = subparsers.add_parser("normalize")
+    normalize_parser.add_argument(
+        "--input", type=Path, default=ROOT / "site/data/latest.json"
+    )
+    normalize_parser.add_argument(
+        "--output", type=Path, default=ROOT / "site/data/latest.json"
+    )
+    normalize_parser.add_argument(
+        "--source-names",
+        type=Path,
+        default=ROOT / "config/source_names.json",
+    )
+    normalize_parser.set_defaults(handler=normalize)
     return parser
 
 
@@ -82,4 +120,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -11,10 +11,12 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from ..normalize import clean_text, matched_keywords
+from ..public_export import normalize_date, normalize_public_item
 
 
 BASE_URL = "http://ztb.guizhou.gov.cn"
 DETAIL_API = f"{BASE_URL}/api/trade"
+DETAIL_ID_RE = re.compile(r"[?&]id=(\d+)")
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 MONEY_RE = re.compile(
@@ -29,6 +31,34 @@ DEADLINE_PATTERNS = [
     re.compile(
         r"(?:开标时间|投标截止时间)[：:\s]*"
         r"(\d{4}年\d{1,2}月\d{1,2}日[^，。；<]{0,20})"
+    ),
+]
+REGISTRATION_PATTERNS = [
+    re.compile(
+        r"(?:获取|购买|领取)(?:采购|磋商|招标|询比)?文件.{0,20}?"
+        r"(?:时间|期限)[：:\s]*"
+        r"(?P<start>\d{4}年\d{1,2}月\d{1,2}日)"
+        r".{0,20}?(?:至|到|-)"
+        r"(?P<end>\d{4}年\d{1,2}月\d{1,2}日)"
+    ),
+    re.compile(
+        r"报名时间[：:\s]*"
+        r"(?P<start>\d{4}年\d{1,2}月\d{1,2}日)"
+        r".{0,20}?(?:至|到|-)"
+        r"(?P<end>\d{4}年\d{1,2}月\d{1,2}日)"
+    ),
+]
+PROJECT_CONTENT_PATTERNS = [
+    re.compile(
+        r"(?:采购主要内容|招标内容|采购内容及主要技术参数|采购需求)"
+        r"[：:\s]*(.{8,320}?)"
+        r"(?=(?:采购数量|采购预算|最高限价|项目类型|服务期|工期|本项目|"
+        r"[一二三四五六七八九十]+、|\d+[、.]))"
+    ),
+    re.compile(
+        r"(?:简要技术要求、服务和安全要求|项目基本概况介绍、用途)"
+        r"[：:\s]*(.{8,260}?)"
+        r"(?=(?:服务期|服务期限|交货期|本项目|[一二三四五六七八九十]+、|\d+[、.]))"
     ),
 ]
 
@@ -73,6 +103,62 @@ def _deadline(text: str) -> str:
         if value:
             return value
     return ""
+
+
+def _registration_period(text: str, publish_date: str) -> str:
+    for pattern in REGISTRATION_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            start = normalize_date(match.group("start"), publish_date, False)
+            end = normalize_date(match.group("end"), publish_date, False)
+            return f"{start}至{end}"
+    return ""
+
+
+def _project_content(text: str, fallback: str = "") -> str:
+    for pattern in PROJECT_CONTENT_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            value = clean_text(match.group(1)).strip("：:；;。 ")
+            if (
+                value
+                and not value.startswith("详见")
+                and value not in {"详见采购文件", "详见磋商文件", "详见招标文件"}
+            ):
+                return value
+    return clean_text(fallback) or text[:300]
+
+
+def _enrich_existing_item(item: dict) -> dict:
+    url = item.get("url", "")
+    match = DETAIL_ID_RE.search(url)
+    if "ztb.guizhou.gov.cn" not in url or not match:
+        return normalize_public_item(item)
+    needs_content = (
+        not item.get("project_content")
+        or len(item.get("project_content", "")) > 400
+        or item.get("project_content", "").startswith("详见")
+    )
+    needs_registration = not item.get("registration_period")
+    needs_deadline = not item.get("bid_deadline")
+    if not (needs_content or needs_registration or needs_deadline):
+        return normalize_public_item(item)
+    data = _fetch_json(f"{DETAIL_API}/{match.group(1)}")
+    if not data:
+        return normalize_public_item(item)
+    content = _plain_text(data.get("Content", ""))
+    enriched = dict(item)
+    if needs_content and content:
+        enriched["project_content"] = _project_content(
+            content, item.get("summary", "")
+        )
+    if needs_registration:
+        enriched["registration_period"] = _registration_period(
+            content, item.get("published_at", "")
+        )
+    if needs_deadline:
+        enriched["bid_deadline"] = _deadline(content)
+    return normalize_public_item(enriched)
 
 
 def collect(
@@ -121,26 +207,37 @@ def collect(
         if url in seen_urls:
             continue
         new_items.append(
-            {
+            normalize_public_item(
+                {
                 "published_at": publish_date,
                 "title": title,
                 "url": url,
                 "budget": _extract(MONEY_RE, content),
-                "summary": content[:180],
+                "summary": _project_content(content),
+                "project_content": _project_content(content),
                 "location": "贵州省",
                 "buyer": clean_text(data.get("Source")),
                 "bid_deadline": _deadline(content),
                 "registration_deadline": "",
+                "registration_period": _registration_period(
+                    content, publish_date
+                ),
                 "matched_keywords": matches,
                 "source_name": "贵州省招标投标公共服务平台",
-            }
+                }
+            )
         )
         seen_urls.add(url)
 
     cutoff = date.today() - timedelta(days=45)
-    merged = new_items + existing.get("items", [])
+    merged = new_items + [
+        _enrich_existing_item(item)
+        for item in existing.get("items", [])
+    ]
     kept = []
     for item in merged:
+        if not item.get("url"):
+            continue
         try:
             item_date = datetime.fromisoformat(item["published_at"][:10]).date()
         except (ValueError, TypeError, KeyError):

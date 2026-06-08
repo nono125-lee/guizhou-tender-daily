@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T21:19:13.392617+08:00",
+  "updated_at": "2026-06-08T21:46:05.582058+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -9,14 +9,16 @@
       "summary": "活动室阵地标准化、规范化、特色化整体建设，包含整体布局设计、党建文化墙、门牌、党徽盒、报刊架、制度牌等设计、制作、运输、安装、验收",
       "location": "铜仁市",
       "buyer": "贵州省铜仁市中级人民法院",
-      "bid_deadline": "06-10 18:00",
+      "bid_deadline": "2026-06-10 18:00",
       "registration_deadline": "06-10 17:00",
       "matched_keywords": [
         "文化",
         "党建"
       ],
       "published_at": "2026-06-08",
-      "source_name": "政采云"
+      "source_name": "贵州-在线询价",
+      "registration_period": "2026-06-08至2026-06-10",
+      "project_content": "活动室阵地标准化、规范化、特色化整体建设，包含整体布局设计、党建文化墙、门牌、党徽盒、报刊架、制度牌等设计、制作、运输、安装、验收"
     },
     {
       "title": "中国烟草总公司贵州省公司法治宣传服务采购",
@@ -25,13 +27,15 @@
       "summary": "主要包括普法学习教育宣传资料设计与制作、普法学习教育宣传视频策划与制作、法律法规知识竞赛策划与协办服务等",
       "location": "贵阳市",
       "buyer": "中国烟草总公司贵州省公司",
-      "bid_deadline": "06-15 10:00",
+      "bid_deadline": "2026-06-15 10:00",
       "registration_deadline": "06-09 14:30",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-06-08",
-      "source_name": "烟草行业采购平台"
+      "source_name": "中烟电子采购平台",
+      "registration_period": "2026-06-08至2026-06-09",
+      "project_content": "主要包括普法学习教育宣传资料设计与制作、普法学习教育宣传视频策划与制作、法律法规知识竞赛策划与协办服务等"
     },
     {
       "title": "凯里农商银行户外宣传广告牌制作项目",
@@ -40,14 +44,16 @@
       "summary": "中标供应商根据采购人要求，在大风洞、炉山、龙场、湾水、旁海、凯棠、挂丁、排乐、开怀、鸭塘、舟溪、万潮共12个乡镇交通要道布设统一规格的户外广告。采购数量：24块采购预算：单价40976元/块（含制作、安装、基础维护）",
       "location": "凯里市",
       "buyer": "贵州凯里农村商业银行股份有限公司",
-      "bid_deadline": "06-17 15:00",
+      "bid_deadline": "2026-06-17 15:00",
       "registration_deadline": "06-12 17:00",
       "matched_keywords": [
         "广告",
         "宣传"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "中标供应商 根据 采购人 要求， 在 大风洞、炉山、龙场、湾水 、 旁海、凯棠、挂丁、排乐、开怀、鸭塘、舟溪、万潮共 12 个乡镇交通要道布设统一规格的户外广告",
+      "registration_period": "2026-06-08至2026-06-12"
     },
     {
       "title": "2026年贵阳卷烟厂《贵烟之窗》印制",
@@ -56,13 +62,15 @@
       "summary": "2026年贵阳卷烟厂《贵烟之窗》印制，全年12期，每月一期",
       "location": "贵阳市",
       "buyer": "贵州中烟工业有限责任公司",
-      "bid_deadline": "06-30 09:30",
+      "bid_deadline": "2026-06-30 09:30",
       "registration_deadline": "06-12 17:00",
       "matched_keywords": [
         "印制"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "2026年贵阳卷烟厂《贵烟之窗》印制，全年12期，每月一期。 （具体要求详见“第五章 招标人基本需求说明”）",
+      "registration_period": "2026-06-08至2026-06-12"
     },
     {
       "title": "贵州交通职业大学校园图文服务中心服务商招采项目",
@@ -71,14 +79,16 @@
       "summary": "校园文印店",
       "location": "清镇市",
       "buyer": "贵州交通职业大学",
-      "bid_deadline": "06-18 14:30",
+      "bid_deadline": "2026-06-18 14:30",
       "registration_deadline": "06-12 17:00",
       "matched_keywords": [
         "文印",
         "图文"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "校园文印店",
+      "registration_period": "2026-06-08至2026-06-12"
     },
     {
       "title": "贵州互联网行业党建双提升项目",
@@ -87,13 +97,15 @@
       "summary": "互联网行业党建双提升",
       "location": "贵阳市",
       "buyer": "贵州省互联网信息办公室",
-      "bid_deadline": "06-15 14:00",
+      "bid_deadline": "2026-06-15 14:00",
       "registration_deadline": "06-11 17:00",
       "matched_keywords": [
         "党建"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "互联网行业党建双提升",
+      "registration_period": "2026-06-08至2026-06-11"
     },
     {
       "title": "畅达国际广场 B2 地块标识标牌制作安装工程（一期）",
@@ -102,14 +114,16 @@
       "summary": "畅达国际广场B2地块标识标牌制作安装",
       "location": "凯里市",
       "buyer": "黔东南州畅达城市更新建设发展有限公司",
-      "bid_deadline": "06-15 15:00",
+      "bid_deadline": "2026-06-15 15:00",
       "registration_deadline": "06-11 17:00",
       "matched_keywords": [
         "标识",
         "标牌"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "畅达国际广场B2地块标识标牌制作安装工程（一期） 简要规格描述或项目基本概况介绍、用途 :畅达国际广场B2地块标识标牌制作安装工程（一期）",
+      "registration_period": "2026-06-08至2026-06-11"
     },
     {
       "title": "《毕节年鉴（2026）》排版设计印刷出版",
@@ -118,13 +132,15 @@
       "summary": "《毕节年鉴(2026)》排版设计印刷出版项目",
       "location": "毕节市",
       "buyer": "中共毕节市委党史研究室(毕节市地方志编纂委员会办公室)",
-      "bid_deadline": "06-15 09:30",
+      "bid_deadline": "2026-06-15 09:30",
       "registration_deadline": "06-11 17:00",
       "matched_keywords": [
         "印刷"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "《毕节年鉴（2026）》排版设计印刷出版项目（详见磋商文件附件）",
+      "registration_period": "2026-06-08至2026-06-11"
     },
     {
       "title": "贵州交投高新科技有限公司广告制作中心业务外包",
@@ -133,13 +149,15 @@
       "summary": "将广告制作中心的业务外包，引入专业第三方团队负责全流程运营， 包括生产加工、现场管理、安装服务及售后服务等；外包方需自担人员管理、安全生产及相关设备投入责任，发包方保留核心决策权与客户资源",
       "location": "贵阳市",
       "buyer": "贵州交投高新科技有限公司",
-      "bid_deadline": "06-15 09:30",
+      "bid_deadline": "2026-06-15 09:30",
       "registration_deadline": "06-09 18:00",
       "matched_keywords": [
         "广告"
       ],
       "published_at": "2026-06-08",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "将广告制作中心的业务外包，引入专业第三方团队负责全流程运营， 包括生产加工、现场管理、安装服务及售后服务等；外包方需自担人员管理、安全生产及相关设备投入责任，发包方保留核心决策权与客户资源",
+      "registration_period": "2026-06-08至2026-06-09"
     },
     {
       "title": "毕节市应急管理局2026年全市“安全生产月”活动宣传服务项目",
@@ -148,13 +166,15 @@
       "summary": "活动宣传",
       "location": "毕节市",
       "buyer": "毕节市应急管理局",
-      "bid_deadline": "06-06 10:00",
+      "bid_deadline": "2026-06-06 10:00",
       "registration_deadline": "06-05 17:30",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-06-03",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "毕节市应急管理局2026年全市“安全生产月”活动宣传服务项目（详见采购文件附件）",
+      "registration_period": "2026-06-03至2026-06-05"
     },
     {
       "title": "贵阳石油分公司2026年常规物料制作服务项目",
@@ -163,7 +183,7 @@
       "summary": "通过框架招标方式选取二家常规物料制作服务商，为贵阳石油分公司提供工作所需相关标识、标牌、宣传资料等物料的制作与安装服务，",
       "location": "贵阳市",
       "buyer": "中国石化销售股份有限公司贵州贵阳石油分公司",
-      "bid_deadline": "06-22 14:00",
+      "bid_deadline": "2026-06-22 14:00",
       "registration_deadline": "06-09 17:00",
       "matched_keywords": [
         "宣传",
@@ -172,7 +192,9 @@
         "物料"
       ],
       "published_at": "2026-06-03",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "拟通过框架招标方式选取二家常规物料制作服务商，为贵阳石油分公司提供工作所需相关标识、标牌、宣传资料等物料的制作与安装服务，具体情况以实际数量为准",
+      "registration_period": "2026-06-03至2026-06-09"
     },
     {
       "title": "2026年度基本公卫、重大公卫及优生优育项目宣传品采购",
@@ -181,13 +203,15 @@
       "summary": "医院宣传品",
       "location": "兴义市",
       "buyer": "黔西南布依族苗族自治州妇幼保健院",
-      "bid_deadline": "06-09 10:00",
+      "bid_deadline": "2026-06-09 10:00",
       "registration_deadline": "06-05 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-06-03",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "2026年度基本公卫、重大公卫及优生优育项目宣传品采购 （2）",
+      "registration_period": "2026-06-03至2026-06-05"
     },
     {
       "title": "贵州省卫生健康宣传教育中心2026——2027年“贵州卫生健康”墙报（二次）",
@@ -196,13 +220,15 @@
       "summary": "60万份墙报制作 （25年中标单位：万事达、24年中标单位：喜上梢）",
       "location": "贵阳市",
       "buyer": "贵州省卫生健康宣传教育中心",
-      "bid_deadline": "06-09 15:00",
+      "bid_deadline": "2026-06-09 15:00",
       "registration_deadline": "06-05 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-06-03",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "贵州省卫生健康宣传教育中心 2026——2027年“贵州卫生健康”墙报（二次） （ 2）",
+      "registration_period": "2026-06-03至2026-06-05"
     },
     {
       "title": "贵阳市第一人民医院广告宣传制品制作服务市场询价",
@@ -211,7 +237,7 @@
       "summary": "医院标识标牌、宣传册、折页、海报、展板、展架、易拉宝、横幅、背景板等，主要用于院内标识指引、环境布置、健康宣教、学术活动、公益宣传及医院品牌形象展示等",
       "location": "贵阳市",
       "buyer": "贵阳市第一人民医院",
-      "bid_deadline": "06-04 14:30",
+      "bid_deadline": "2026-06-04 14:30",
       "registration_deadline": "06-03 17:00",
       "matched_keywords": [
         "广告",
@@ -226,7 +252,9 @@
         "展架"
       ],
       "published_at": "2026-06-01",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "为采购人提供 宣传制品服务，包括但不限于医院标识标牌、宣传册、海报、展架、易拉宝、横幅等 内容",
+      "registration_period": "2026-06-01至2026-06-03"
     },
     {
       "title": "贵州省消防救援总队2026年度消防宣传活动服务采购项目（二次）",
@@ -235,13 +263,15 @@
       "summary": "一是举行新业态从业人员开展消防宣传进家庭志愿服务活动；二是举办第三届消防科普嘉年华活动",
       "location": "贵阳市",
       "buyer": "贵州省消防救援总队",
-      "bid_deadline": "06-04 14:30",
+      "bid_deadline": "2026-06-04 14:30",
       "registration_deadline": "06-03 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-06-01",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "7、服务地点及",
+      "registration_period": "2026-06-01至2026-06-03"
     },
     {
       "title": "中国邮政储蓄银行六盘水市分行图文印制服务采购项目",
@@ -250,7 +280,7 @@
       "summary": "六盘水市邮政机关及辖内支行图文印制服务",
       "location": "六盘水市",
       "buyer": "中国邮政储蓄银行股份有限公司六盘水市分行",
-      "bid_deadline": "06-23 09:30",
+      "bid_deadline": "2026-06-23 09:30",
       "registration_deadline": "06-04 17:00",
       "matched_keywords": [
         "印制",
@@ -258,7 +288,9 @@
         "图文"
       ],
       "published_at": "2026-06-01",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "六盘水市邮政机关及辖内支行图文印制服务",
+      "registration_period": "2026-06-01至2026-06-04"
     },
     {
       "title": "贵阳市息烽磷煤化工园区安全整治提升配套基础设施建设项目-货运停车场（导视牌）",
@@ -267,13 +299,15 @@
       "summary": "完成5处导视牌方案设计、制作安装等全部工作内容",
       "location": "贵阳市",
       "buyer": "贵阳息烽恒立兴工程有限公司",
-      "bid_deadline": "06-09 10:00",
+      "bid_deadline": "2026-06-09 10:00",
       "registration_deadline": "06-05 17:00",
       "matched_keywords": [
         "导视"
       ],
       "published_at": "2026-06-01",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "完成5处导视牌方案设计、制作安装等全部工作内容",
+      "registration_period": "2026-05-29至2026-06-05"
     },
     {
       "title": "凯里学院学报学刊2027-2029年印刷服务采购项目",
@@ -282,13 +316,15 @@
       "summary": "凯里学院学报学刊2027-2029年印刷服务采购",
       "location": "凯里市",
       "buyer": "凯里学院",
-      "bid_deadline": "06-09 09:30",
+      "bid_deadline": "2026-06-09 09:30",
       "registration_deadline": "06-05 17:00",
       "matched_keywords": [
         "印刷"
       ],
       "published_at": "2026-06-01",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "凯里学院学报学刊2027-2029年印刷服务采购项目 合同履行期限：三年",
+      "registration_period": "2026-06-01至2026-06-05"
     },
     {
       "title": "贵州中医药大学文化创意产品开发合作项目遴选采购",
@@ -297,13 +333,15 @@
       "summary": "文化创意产品",
       "location": "贵阳市",
       "buyer": "贵州中医药大学",
-      "bid_deadline": "06-11 14:30",
+      "bid_deadline": "2026-06-11 14:30",
       "registration_deadline": "06-05 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-06-01",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "贵州中医药大学文化创意产品开发合作项目遴选，具体内容详见采购文件",
+      "registration_period": "2026-06-01至2026-06-05"
     },
     {
       "title": "贵州省第四次全国农业普查印刷服务-需求公示",
@@ -320,7 +358,9 @@
         "海报"
       ],
       "published_at": "2026-06-01",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-06-01至采购意向公示阶段",
+      "project_content": "普查员手册 普查宣传海报 普查公报 普查告知书 普查登记用表 印刷"
     },
     {
       "title": "贵州电网有限责任公司服务类2026年第一批安全文化建设项目",
@@ -329,14 +369,16 @@
       "summary": "包1：遵义供电局2026年安全文化建设项目: 包2：毕节供电局2026年安全文化建设服务 包3：遵义供电局2026年安全生产领域宣传活动及警示教育微视频制作。 包4：贵阳供电局2026年安全文化建设服务项目技术服务",
       "location": "包1：遵义市 包2：毕节市 包3：遵义市 包4：贵阳市",
       "buyer": "贵州电网有限责任公司",
-      "bid_deadline": "06-23 09:00",
+      "bid_deadline": "2026-06-23 09:00",
       "registration_deadline": "06-04 17：00",
       "matched_keywords": [
         "宣传",
         "文化"
       ],
       "published_at": "2026-06-01",
-      "source_name": "其他公开来源"
+      "source_name": "中国南方电网供应链统一服务平台",
+      "registration_period": "2026-06-01至06-04 17：00",
+      "project_content": "包1：遵义供电局2026年安全文化建设项目: 包2：毕节供电局2026年安全文化建设服务 包3：遵义供电局2026年安全生产领域宣传活动及警示教育微视频制作。 包4：贵阳供电局2026年安全文化建设服务项目技术服务"
     },
     {
       "title": "贵阳市第一人民医院健康科普宣传品制作及短视频拍摄服务项目",
@@ -354,7 +396,9 @@
         "展板"
       ],
       "published_at": "2026-05-27",
-      "source_name": "其他公开来源"
+      "source_name": "贵阳市第一人民医院",
+      "registration_period": "2026-05-27至2026-05-29",
+      "project_content": "宣传展板制作 展板内容更新 活动易拉宝 活动横幅 科普手册设计印制 定制红马褂 科普短视频制作"
     },
     {
       "title": "地方病与少数民族疾病教育部重点实验室文化展示墙建设采购项目（二次）",
@@ -363,14 +407,16 @@
       "summary": "文化墙制作安装",
       "location": "贵阳市",
       "buyer": "贵州医科大学",
-      "bid_deadline": "06-02 09:30",
+      "bid_deadline": "2026-06-02 09:30",
       "registration_deadline": "05-30 16:00",
       "matched_keywords": [
         "文化",
         "展示"
       ],
       "published_at": "2026-05-27",
-      "source_name": "其他公开来源"
+      "source_name": "贵州医科大学",
+      "registration_period": "2026-05-27至2026-05-30",
+      "project_content": "文化墙制作安装"
     },
     {
       "title": "山花牛奶安全标识牌制作询比价",
@@ -379,13 +425,15 @@
       "summary": "危险标识牌制作",
       "location": "贵阳市",
       "buyer": "山花牛奶",
-      "bid_deadline": "05-29 17：10",
+      "bid_deadline": "2026-05-29 17:10",
       "registration_deadline": "05-29 17：00",
       "matched_keywords": [
         "标识"
       ],
       "published_at": "2026-05-27",
-      "source_name": "其他公开来源"
+      "source_name": "微信公众平台",
+      "registration_period": "2026-05-27至05-29 17：00",
+      "project_content": "危险标识牌制作"
     },
     {
       "title": "观山湖区2026年“文化和自然遗产日”宣传展示活动采购",
@@ -394,7 +442,7 @@
       "summary": "活动宣传、展示",
       "location": "贵阳市",
       "buyer": "贵阳市观山湖区文体广电旅游局",
-      "bid_deadline": "05-29 10:30",
+      "bid_deadline": "2026-05-29 10:30",
       "registration_deadline": "05-28 17:00",
       "matched_keywords": [
         "宣传",
@@ -402,7 +450,9 @@
         "展示"
       ],
       "published_at": "2026-05-27",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "活动宣传、展示",
+      "registration_period": "2026-05-27至2026-05-28"
     },
     {
       "title": "贵州大学2026年试卷印刷服务-采购意向公示",
@@ -417,7 +467,9 @@
         "印刷"
       ],
       "published_at": "2026-05-27",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-05-27至采购意向公示阶段",
+      "project_content": "一、印刷数量:约1950000份(双面) 二、参数 70克双胶纸，用纸规格两种:18开纸，尺寸38X27厘米;2长4开纸，78x27厘米 贵州大学内设有驻点（承诺中标后设定），以便随时接收各院老师送达的试卷或补考卷（1 份起印），确保能随时印刷；"
     },
     {
       "title": "贵州省第三人民医院文化走廊建设项目",
@@ -426,13 +478,15 @@
       "summary": "文化墙建设",
       "location": "贵阳市",
       "buyer": "贵州省第三人民医院",
-      "bid_deadline": "06-04 09:30",
+      "bid_deadline": "2026-06-04 09:30",
       "registration_deadline": "05-29 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-27",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省第三人民医院",
+      "registration_period": "2026-05-27至2026-05-29",
+      "project_content": "文化墙建设"
     },
     {
       "title": "中国烟草总公司贵州省公司2026年烟叶收购物资—标签采购项目采购公告",
@@ -441,13 +495,15 @@
       "summary": "2026年烟叶收购物资-标签约552万张",
       "location": "贵阳",
       "buyer": "中国烟草总公司贵州省公司",
-      "bid_deadline": "06-09 10:00",
+      "bid_deadline": "2026-06-09 10:00",
       "registration_deadline": "05-29 17:30",
       "matched_keywords": [
         "标签"
       ],
       "published_at": "2026-05-26",
-      "source_name": "烟草行业采购平台"
+      "source_name": "中烟电子采购平台",
+      "registration_period": "2026-05-26至2026-05-29",
+      "project_content": "2026年烟叶收购物资-标签约552万张"
     },
     {
       "title": "贵州燃气集团锦屏县燃气有限公司-2026.05.19-广告制作及文印服务",
@@ -456,7 +512,7 @@
       "summary": "黑白打印、彩色打印、广告物料、标识标牌、氛围物料",
       "location": "黔东南州锦屏县",
       "buyer": "贵州燃气集团锦屏县燃气有限公司",
-      "bid_deadline": "05-28 10:00",
+      "bid_deadline": "2026-05-28 10:00",
       "registration_deadline": "05-27 18:00",
       "matched_keywords": [
         "文印",
@@ -467,7 +523,9 @@
         "氛围"
       ],
       "published_at": "2026-05-25",
-      "source_name": "其他公开来源"
+      "source_name": "贵州能源集团电子招标采购交易平台",
+      "registration_period": "2026-05-25至2026-05-27",
+      "project_content": "黑白打印、彩色打印、广告物料、标识标牌、氛围物料"
     },
     {
       "title": "贵州黔西泰来矿业有限责任公司广告物资报价",
@@ -476,7 +534,7 @@
       "summary": "铝板加写真覆膜、镜框、pvc、横幅等",
       "location": "贵州黔西",
       "buyer": "贵州黔西泰来矿业有限责任公司",
-      "bid_deadline": "05-27 16:00",
+      "bid_deadline": "2026-05-27 16:00",
       "registration_deadline": "05-26 16：30",
       "matched_keywords": [
         "广告",
@@ -485,7 +543,9 @@
         "铝板"
       ],
       "published_at": "2026-05-25",
-      "source_name": "其他公开来源"
+      "source_name": "贵州能源集团电子招标采购交易平台",
+      "registration_period": "2026-05-25至05-26 16：30",
+      "project_content": "铝板加写真覆膜、镜框、pvc、横幅等"
     },
     {
       "title": "玉贝公司企业文化墙项目",
@@ -494,13 +554,15 @@
       "summary": "企业文化墙建设",
       "location": "贵阳市",
       "buyer": "贵阳玉贝商务有限责任公司",
-      "bid_deadline": "05-29 14:00",
+      "bid_deadline": "2026-05-29 14:00",
       "registration_deadline": "05-28 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "企业文化墙建设",
+      "registration_period": "2026-05-25至2026-05-28"
     },
     {
       "title": "贵州烟叶复烤有限责任公司2026年度标签标识采购项目",
@@ -509,14 +571,16 @@
       "summary": "标签标识制作",
       "location": "贵阳复烤厂 遵义复烤厂 毕节复烤厂 黔西南复烤厂 铜仁复烤厂",
       "buyer": "贵州烟叶复烤有限责任公司",
-      "bid_deadline": "06-05 10:00",
+      "bid_deadline": "2026-06-05 10:00",
       "registration_deadline": "05-29 17:00",
       "matched_keywords": [
         "标识",
         "标签"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "标签标识制作",
+      "registration_period": "2026-05-25至2026-05-29"
     },
     {
       "title": "贵州食品工程职业学院中华文化书院建设项目（二次）",
@@ -525,13 +589,15 @@
       "summary": "对中华文化书院所需相关桌椅柜和投影设备进行采购及安装，并对中华文化书院物理空间进行墙面装饰（含墙柜）、地板铺设、线路改造、文化布展等。",
       "location": "清镇",
       "buyer": "贵州食品工程职业学院",
-      "bid_deadline": "06-05 10:00",
+      "bid_deadline": "2026-06-05 10:00",
       "registration_deadline": "05-29 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "对中华文化书院所需相关桌椅柜和投影设备进行采购及安装，并对中华文化书院物理空间进行墙面装饰（含墙柜）、地板铺设、线路改造、文化布展等。 5 、",
+      "registration_period": "2026-05-25至2026-05-29"
     },
     {
       "title": "毕节市第三人民医院2026年度宣传物料制作服务采购项目",
@@ -540,14 +606,16 @@
       "summary": "医院宣传物料",
       "location": "毕节市",
       "buyer": "毕节市第三人民医院",
-      "bid_deadline": "05-27 15:00",
+      "bid_deadline": "2026-05-27 15:00",
       "registration_deadline": "05-26 17:00",
       "matched_keywords": [
         "宣传",
         "物料"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "采购毕节市第三人民医院 2026年度宣传物料制作服务采购项目 详见采购清单 （ 2 ）",
+      "registration_period": "2026-05-25至2026-05-26"
     },
     {
       "title": "新发市场采购2026年度零星广告制作、安装、维护服务",
@@ -556,7 +624,7 @@
       "summary": "喷绘广告520喷布 写真广告 横幅广告 车贴广告 UV、KT板广告制作 破损广告维护 其它广告项目(如肩章、袖标、停车 票、餐票、灯笼等特殊定制广告等)",
       "location": "贵阳市",
       "buyer": "贵州华工工具 注塑有限公司新发市场",
-      "bid_deadline": "05-26 17:00",
+      "bid_deadline": "2026-05-26 17:00",
       "registration_deadline": "无需报名",
       "matched_keywords": [
         "广告",
@@ -565,7 +633,9 @@
         "KT板"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "投标人廉洁自律承诺书.doc 报价单.doc 新发市场采购 2026年度零星广告制作、安装、维护.pdf",
+      "registration_period": "2026-05-25至无需报名"
     },
     {
       "title": "新发市场采购2026年度高杆广告服务",
@@ -574,13 +644,15 @@
       "summary": "高杆广告",
       "location": "贵阳市",
       "buyer": "贵州华工工具 注塑有限公司新发市场",
-      "bid_deadline": "05-26 17:00",
+      "bid_deadline": "2026-05-26 17:00",
       "registration_deadline": "无需报名",
       "matched_keywords": [
         "广告"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "投标人廉洁自律承诺书.doc 高杆广告服务商招标报价表(1)(1).docx 新发市场采购2026年度高杆广告.pdf",
+      "registration_period": "2026-05-25至无需报名"
     },
     {
       "title": "农村供水科普与宣传采购",
@@ -589,13 +661,15 @@
       "summary": "活动宣传",
       "location": "贵州省内",
       "buyer": "贵州省水利厅",
-      "bid_deadline": "06-01 09：30",
+      "bid_deadline": "2026-06-01 09:30",
       "registration_deadline": "05-29 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "农村供水科普与宣传，详见采购文件",
+      "registration_period": "2026-05-25至2026-05-29"
     },
     {
       "title": "贵州装备制造职业学院“校园宣传阵地建设”项目",
@@ -604,13 +678,15 @@
       "summary": "贵州装备制造职业学院“校园宣传阵地建设”项目",
       "location": "清镇",
       "buyer": "贵州装备制造职业学院",
-      "bid_deadline": "06-01 14:00",
+      "bid_deadline": "2026-06-01 14:00",
       "registration_deadline": "05-28 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-25",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "贵州装备制造职业学院“校园宣传阵地建设”项目",
+      "registration_period": "2026-05-25至2026-05-28"
     },
     {
       "title": "遵医附院印刷服务项目定点竞价",
@@ -619,14 +695,16 @@
       "summary": "医院常规物料印刷",
       "location": "遵义市",
       "buyer": "遵义医科大学附属医院采购工作专班",
-      "bid_deadline": "05-26 18：00",
+      "bid_deadline": "2026-05-26 18:00",
       "registration_deadline": "05-26 18:00",
       "matched_keywords": [
         "印刷",
         "物料"
       ],
       "published_at": "2026-05-22",
-      "source_name": "政采云"
+      "source_name": "政采云 一站式政府采购云服务平台",
+      "registration_period": "2026-05-22至2026-05-26",
+      "project_content": "医院常规物料印刷"
     },
     {
       "title": "遵义市奥体中心标识标牌、场馆维修改造",
@@ -635,14 +713,16 @@
       "summary": "标识标牌制作及安装、场馆改造",
       "location": "遵义市",
       "buyer": "遵义市教育体育局",
-      "bid_deadline": "06-01 10:00",
+      "bid_deadline": "2026-06-01 10:00",
       "registration_deadline": "05-27 17:00",
       "matched_keywords": [
         "标识",
         "标牌"
       ],
       "published_at": "2026-05-21",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "遵义市奥体中心标识标牌、场馆维修改造，具体详见第三章采购需求。 合同履行期限： 合同签订之日起 15天内完成 合同履行地点： 采购人指定地点 质量标准及验收办法： 符合国家现行有关质量验收规范标准，满足采购人的要求",
+      "registration_period": "2026-05-21至2026-05-27"
     },
     {
       "title": "安顺市第一高级中学在校驻点文印服务",
@@ -651,13 +731,15 @@
       "summary": "校内文印室入驻",
       "location": "安顺市",
       "buyer": "安顺市第一高级中学",
-      "bid_deadline": "06-01 15:00",
+      "bid_deadline": "2026-06-01 15:00",
       "registration_deadline": "05-27 17:00",
       "matched_keywords": [
         "文印"
       ],
       "published_at": "2026-05-21",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "安顺市第一高级中学在校驻点文印服务 项目预算： 0元（据实结算） 简要技术要求、服务和安全要求 :详见磋商文件 其他事项（如样品提交、现场踏勘等） :无",
+      "registration_period": "2026-05-21至2026-05-27"
     },
     {
       "title": "贵州省第四次全国农业普查印刷服务-采购需求公示",
@@ -673,23 +755,9 @@
         "海报"
       ],
       "published_at": "2026-05-21",
-      "source_name": "其他公开来源"
-    },
-    {
-      "title": "《汇川年鉴》（2026）卷印刷出版",
-      "url": "",
-      "budget": "7.3万元",
-      "summary": "文化创意邮册/出版物/徽章; 《汇川年鉴（2026）》出版项目”:《汇川年鉴（2026）》的书号申请、排版设计、编校、印刷出版，印数300册，精装，字数60万字左右",
-      "location": "遵义市",
-      "buyer": "遵义市汇川区档案馆",
-      "bid_deadline": "05-26 18:00",
-      "registration_deadline": "05-25 18:00",
-      "matched_keywords": [
-        "印刷",
-        "文化"
-      ],
-      "published_at": "2026-05-21",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-05-21至采购需求公示",
+      "project_content": "手册、海报、需求书印刷"
     },
     {
       "title": "2026年贵州足球青训夏训夏赛宣传项目",
@@ -698,13 +766,15 @@
       "summary": "赛事活动宣传（线上+线下媒体宣传）",
       "location": "贵阳市",
       "buyer": "贵州省体育文化宣传信息中心",
-      "bid_deadline": "06-01 10:00",
+      "bid_deadline": "2026-06-01 10:00",
       "registration_deadline": "05-26 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "贵州新阳光项目管理有限公司",
+      "registration_period": "2026-05-20至2026-05-26",
+      "project_content": "赛事活动宣传（线上+线下媒体宣传）"
     },
     {
       "title": "2026年贵州省乡村运动会宣传项目",
@@ -713,13 +783,15 @@
       "summary": "赛事活动宣传（线上+线下媒体宣传）",
       "location": "贵阳市",
       "buyer": "贵州省体育文化宣传信息中心",
-      "bid_deadline": "06-01 10:00",
+      "bid_deadline": "2026-06-01 10:00",
       "registration_deadline": "05-26 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "贵州新阳光项目管理有限公司",
+      "registration_period": "2026-05-20至2026-05-26",
+      "project_content": "赛事活动宣传（线上+线下媒体宣传）"
     },
     {
       "title": "北京积水潭医院贵州医院文化墙建设服务",
@@ -728,7 +800,7 @@
       "summary": "医院门诊大厅一楼母婴室及对侧的两面墙体文化墙建设 一个是将医院科室的发展历程制作成一棵“树”型展示图，要能清晰展示科室的发展脉络；另一个是专家栏，用于展示医院专家及所擅长的特色技术 注意事项： 1.上传至少2名以上高级设计师证复印件，并提供官网查询截图及供应商为其缴纳的2026年任意3个月社保证明； 2.竞价时上传设计效果图，要求与本医院的整体文化氛围相吻合，效果图完全不吻合的可视为无效竞价； 3..本项目需要配备1名焊工，并提供职业技能资格证书或特种作业操作证复印件及2026年任意3个月缴纳的社保证明并加盖公章为证明材料 以上1和3我们满足不了",
       "location": "白云区",
       "buyer": "北京积水潭医院贵州医院",
-      "bid_deadline": "05-21 17:00",
+      "bid_deadline": "2026-05-21 17:00",
       "registration_deadline": "05-21 17:00",
       "matched_keywords": [
         "文化",
@@ -737,7 +809,9 @@
         "证书"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "北京积水潭医院贵州医院",
+      "registration_period": "2026-05-20至2026-05-21",
+      "project_content": "医院门诊大厅一楼母婴室及对侧的两面墙体文化墙建设 一个是将医院科室的发展历程制作成一棵“树”型展示图，要能清晰展示科室的发展脉络；另一个是专家栏，用于展示医院专家及所擅长的特色技术 注意事项： 1.上传至少2名以上高级设计师证复印件，并提供官网查询截图及供应商为其缴纳的2026年任意3个月社保证明； 2.竞价时上传设计效果图，要求与本医院的整体文化氛围相吻合，效果图完全不吻合的可视为无效竞价； 3..本项目需要配备1名焊工，并提供职业技能资格证书或特种作业操作证复印件及2026年任意3个月缴纳的社保证明并加盖公章为证明材料 以上1和3我们满足不了"
     },
     {
       "title": "遵义长征文化培训中心有限公司业务合作供应商框架协议采购",
@@ -746,14 +820,16 @@
       "summary": "广告服务商入库不少于10家",
       "location": "遵义长征文化培训中心有限公司（或指定地点）",
       "buyer": "遵义长征文化培训中心有限公司",
-      "bid_deadline": "06-09 14:00",
+      "bid_deadline": "2026-06-09 14:00",
       "registration_deadline": "06-07 17:00",
       "matched_keywords": [
         "广告",
         "文化"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "新点电子交易平台",
+      "registration_period": "2026-05-20至2026-06-07",
+      "project_content": "广告服务商入库不少于10家"
     },
     {
       "title": "振华集团深圳电子有限公司贵阳分公司-标识标牌制作（2026-01）",
@@ -762,7 +838,7 @@
       "summary": "一批标识标牌物料制作及安装，包含部分标识标牌的设计、制作和安装 需提供访客证样品（根据采购需求制作的访客证，包含红底及蓝底各一份。需在样品背面印制不可擦除的供应商名称全称或简称）",
       "location": "贵阳市",
       "buyer": "振华集团深圳电子有限公司贵阳分公司",
-      "bid_deadline": "05-22 14:00",
+      "bid_deadline": "2026-05-22 14:00",
       "registration_deadline": "05-21 16:00",
       "matched_keywords": [
         "印制",
@@ -771,7 +847,9 @@
         "物料"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "CEC电子采购平台",
+      "registration_period": "2026-05-20至2026-05-21",
+      "project_content": "一批标识标牌物料制作及安装，包含部分标识标牌的设计、制作和安装 需提供访客证样品（根据采购需求制作的访客证，包含红底及蓝底各一份。需在样品背面印制不可擦除的供应商名称全称或简称）"
     },
     {
       "title": "华润雪花啤酒(黔南)有限公司黔南工厂标识卡询价",
@@ -780,13 +858,15 @@
       "summary": "黔南工厂标识卡询价",
       "location": "黔南州",
       "buyer": "华润雪花啤酒(黔南)有限公司",
-      "bid_deadline": "05-25 10:00",
+      "bid_deadline": "2026-05-25 10:00",
       "registration_deadline": "05-24 18:00",
       "matched_keywords": [
         "标识"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "华润集团守正电子招标平台",
+      "registration_period": "2026-05-20至2026-05-24",
+      "project_content": "黔南工厂标识卡询价"
     },
     {
       "title": "福能(贵州)发电有限公司安健环培训宣传等物资采购",
@@ -795,13 +875,15 @@
       "summary": "宣传物资制作",
       "location": "六枝县",
       "buyer": "福能(贵州)发电有限公司",
-      "bid_deadline": "05-25 14:30",
+      "bid_deadline": "2026-05-25 14:30",
       "registration_deadline": "05-24 18:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "华润集团守正电子招标平台",
+      "registration_period": "2026-05-20至2026-05-24",
+      "project_content": "宣传物资制作"
     },
     {
       "title": "贵州轮胎股份有限公司-生产部安全标识标牌制作和安装",
@@ -810,14 +892,16 @@
       "summary": "标识标牌制作及安装",
       "location": "贵阳市",
       "buyer": "贵州轮胎股份有限公司",
-      "bid_deadline": "05-22 09:31",
+      "bid_deadline": "2026-05-22 09:31",
       "registration_deadline": "05-22 09:21",
       "matched_keywords": [
         "标识",
         "标牌"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "贵州轮胎采购供应链协同SRM系统",
+      "registration_period": "2026-05-20至2026-05-22",
+      "project_content": "标识标牌制作及安装"
     },
     {
       "title": "2026年第四届全国城市生活垃圾分类宣传周项目",
@@ -826,13 +910,15 @@
       "summary": "活动宣传",
       "location": "贵阳市",
       "buyer": "贵阳市环境卫生管理服务中心",
-      "bid_deadline": "05-25 10:00",
+      "bid_deadline": "2026-05-25 10:00",
       "registration_deadline": "05-22 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-20",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "本项目为 2026 年第四届全国城市生活垃圾分类宣传周项目，具体服务内容详见竞争性谈判文件",
+      "registration_period": "2026-05-20至2026-05-22"
     },
     {
       "title": "南方电网贵州电动汽车服务有限公司2026-2027年宣传服务项目",
@@ -841,13 +927,15 @@
       "summary": "？",
       "location": "贵州省",
       "buyer": "南方电网贵州电动汽车服务有限公司",
-      "bid_deadline": "05-26 09:00",
+      "bid_deadline": "2026-05-26 09:00",
       "registration_deadline": "",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-20",
-      "source_name": "其他公开来源"
+      "source_name": "中国南方电网供应链统一服务平台",
+      "registration_period": "2026-05-20",
+      "project_content": "？"
     },
     {
       "title": "黔东南工厂常规广告物料制作安装项目",
@@ -856,14 +944,16 @@
       "summary": "常规广告物料制作及安装",
       "location": "黔东南",
       "buyer": "华润雪花啤酒（黔东南）有限公司",
-      "bid_deadline": "05-22 10:00",
+      "bid_deadline": "2026-05-22 10:00",
       "registration_deadline": "05-21 17:00",
       "matched_keywords": [
         "广告",
         "物料"
       ],
       "published_at": "2026-05-19",
-      "source_name": "其他公开来源"
+      "source_name": "华润集团守正电子招标平台",
+      "registration_period": "2026-05-19至2026-05-21",
+      "project_content": "常规广告物料制作及安装"
     },
     {
       "title": "贵阳市乌当区第四中学招聘广告服务合作商家-校外",
@@ -872,14 +962,16 @@
       "summary": "学校文印室合作",
       "location": "贵阳市",
       "buyer": "贵阳市乌当区第四中学",
-      "bid_deadline": "05-21 14:00",
+      "bid_deadline": "2026-05-21 14:00",
       "registration_deadline": "05-20 17:00",
       "matched_keywords": [
         "文印",
         "广告"
       ],
       "published_at": "2026-05-19",
-      "source_name": "其他公开来源"
+      "source_name": "微信公众平台",
+      "registration_period": "2026-05-19至2026-05-20",
+      "project_content": "学校文印室合作"
     },
     {
       "title": "贵州省卫生健康宣传教育中心2026——2027年“贵州卫生健康”墙报采购",
@@ -888,13 +980,15 @@
       "summary": "60万份墙报制作 （25年中标单位：万事达、24年中标单位：喜上梢）",
       "location": "贵阳市",
       "buyer": "贵州省卫生健康宣传教育中心",
-      "bid_deadline": "05-29 15:00",
+      "bid_deadline": "2026-05-29 15:00",
       "registration_deadline": "05-25 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-19",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "贵州省卫生健康宣传教育中心 2026——2027年“贵州卫生健康”墙报 （ 2）",
+      "registration_period": "2026-05-19至2026-05-25"
     },
     {
       "title": "钟山区红岩街道东风西路嵌入式综合养老服务中心公共信息图形标志标牌项目",
@@ -903,14 +997,16 @@
       "summary": "标志标牌制作及安装",
       "location": "六盘水市",
       "buyer": "六盘水市钟山区民政局",
-      "bid_deadline": "05-29 15:00",
+      "bid_deadline": "2026-05-29 15:00",
       "registration_deadline": "05-28 16:30",
       "matched_keywords": [
         "标牌",
         "标志"
       ],
       "published_at": "2026-05-19",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "钟山区红岩街道东风西路嵌入式综合养老服务中心公共信息图形标志标牌项目 （五）",
+      "registration_period": "2026-05-19至2026-05-28"
     },
     {
       "title": "2026年“红城美育季·艺术润人心”公益文化活动",
@@ -919,14 +1015,16 @@
       "summary": "文化活动宣传",
       "location": "遵义市",
       "buyer": "遵义市文化旅游发展中心",
-      "bid_deadline": "05-28 10:00",
+      "bid_deadline": "2026-05-28 10:00",
       "registration_deadline": "05-22 17：00",
       "matched_keywords": [
         "宣传",
         "文化"
       ],
       "published_at": "2026-05-19",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "具体详见第二章采购需求",
+      "registration_period": "2026-05-19至05-22 17：00"
     },
     {
       "title": "贵州乌江水电开发有限责任公司乌江渡发电厂企业文化设计、党建阵地建设及广告宣传制作询比采购",
@@ -935,7 +1033,7 @@
       "summary": "企业文化设计、党建阵地建设及广告宣传制作",
       "location": "乌江渡发电厂",
       "buyer": "贵州乌江水电开发有限责任公司乌江渡发电厂",
-      "bid_deadline": "05-20 16:00",
+      "bid_deadline": "2026-05-20 16:00",
       "registration_deadline": "05-19 17:00",
       "matched_keywords": [
         "广告",
@@ -944,7 +1042,9 @@
         "党建"
       ],
       "published_at": "2026-05-18",
-      "source_name": "其他公开来源"
+      "source_name": "中国华电集团电子商务平台",
+      "registration_period": "2026-05-18至2026-05-19",
+      "project_content": "企业文化设计、党建阵地建设及广告宣传制作"
     },
     {
       "title": "贵阳海螺盘江水泥有限责任公司广告标识牌制作安装",
@@ -953,7 +1053,7 @@
       "summary": "喷绘、写真、PVC板、铝板、胶装、打印等",
       "location": "贵阳站街镇",
       "buyer": "贵阳海螺盘江水泥有限责任公司、贵阳绿色建材有限公司、海螺（贵州）控股有限公司",
-      "bid_deadline": "06-13 15:00",
+      "bid_deadline": "2026-06-13 15:00",
       "registration_deadline": "05-21 18:00",
       "matched_keywords": [
         "广告",
@@ -963,7 +1063,9 @@
         "铝板"
       ],
       "published_at": "2026-05-18",
-      "source_name": "其他公开来源"
+      "source_name": "海螺集团招采平台",
+      "registration_period": "2026-05-18至2026-05-21",
+      "project_content": "喷绘、写真、PVC板、铝板、胶装、打印等"
     },
     {
       "title": "贵阳市第三人民医院宣传服务采购项目采购公告",
@@ -972,13 +1074,15 @@
       "summary": "宣传服务采购",
       "location": "贵阳市",
       "buyer": "贵阳市第三人民医院",
-      "bid_deadline": "05-21 14:00",
+      "bid_deadline": "2026-05-21 14:00",
       "registration_deadline": "05-20 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-18",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "宣传服务采购",
+      "registration_period": "2026-05-15至2026-05-20"
     },
     {
       "title": "贵阳贵安面向社会和中小微企业开展工伤预防宣传项目",
@@ -995,7 +1099,9 @@
         "展架"
       ],
       "published_at": "2026-05-18",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-05-18至采购意向公示阶段",
+      "project_content": "地铁广告宣传设计、宣传品制作（骑行头盔、车身反光贴、易拉宝展架及展画）、工行预防培训"
     },
     {
       "title": "首钢水钢标识牌欧贝采购",
@@ -1004,13 +1110,15 @@
       "summary": "六盘水市钟山区首钢水钢工厂标识牌采购",
       "location": "贵阳市",
       "buyer": "首钢水城钢铁(集团)有限责任公司",
-      "bid_deadline": "05-19 14:00",
+      "bid_deadline": "2026-05-19 14:00",
       "registration_deadline": "05-18 14:00",
       "matched_keywords": [
         "标识"
       ],
       "published_at": "2026-05-15",
-      "source_name": "其他公开来源"
+      "source_name": "欧贝",
+      "registration_period": "2026-05-15至2026-05-18",
+      "project_content": "六盘水市钟山区首钢水钢工厂标识牌采购"
     },
     {
       "title": "贵州大方发电有限公司大方公司全厂安全标识标牌、展板制作及安装（第三次）",
@@ -1019,7 +1127,7 @@
       "summary": "全厂安全标识标牌、展板制作及安装",
       "location": "毕节市",
       "buyer": "贵州大方发电有限公司",
-      "bid_deadline": "05-20 09:00",
+      "bid_deadline": "2026-05-20 09:00",
       "registration_deadline": "",
       "matched_keywords": [
         "标识",
@@ -1027,7 +1135,9 @@
         "展板"
       ],
       "published_at": "2026-05-15",
-      "source_name": "其他公开来源"
+      "source_name": "中国华电集团电子商务平台",
+      "registration_period": "2026-05-15",
+      "project_content": "全厂安全标识标牌、展板制作及安装"
     },
     {
       "title": "双鹤天安药业(贵州)股份有限公司2026-2027年华润集团纸箱类物料集中采购项目标段16(贵阳地 区）",
@@ -1036,13 +1146,15 @@
       "summary": "纸箱类物料采购",
       "location": "贵阳市",
       "buyer": "双鹤天安药业(贵州)股份有限公司",
-      "bid_deadline": "05-25 18:00",
+      "bid_deadline": "2026-05-25 18:00",
       "registration_deadline": "05-24 17:00",
       "matched_keywords": [
         "物料"
       ],
       "published_at": "2026-05-15",
-      "source_name": "其他公开来源"
+      "source_name": "华润集团守正电子招标平台",
+      "registration_period": "2026-05-15至2026-05-24",
+      "project_content": "纸箱类物料采购"
     },
     {
       "title": "中国邮政储蓄银行遵义市分行图文印制服务采购",
@@ -1051,7 +1163,7 @@
       "summary": "遵义市分行本部及各支行图文印制服务",
       "location": "遵义市",
       "buyer": "中国邮政储蓄银行股份有限公司遵义市分行",
-      "bid_deadline": "06-05 10:00",
+      "bid_deadline": "2026-06-05 10:00",
       "registration_deadline": "05-25 12:00",
       "matched_keywords": [
         "印制",
@@ -1059,7 +1171,9 @@
         "图文"
       ],
       "published_at": "2026-05-15",
-      "source_name": "其他公开来源"
+      "source_name": "邮银易采",
+      "registration_period": "2026-05-15至2026-05-25",
+      "project_content": "遵义市分行本部及各支行图文印制服务"
     },
     {
       "title": "贵州经贸职业技术学院茶艺与茶文化省级重点（特色）专业内涵建设项目",
@@ -1068,13 +1182,15 @@
       "summary": "完成贵州经贸职业技术学院茶艺与茶文化省级重点（特色）专业内涵建设项目涉及的全部服务工作",
       "location": "都匀市",
       "buyer": "贵州经贸职业技术学院",
-      "bid_deadline": "05-25 10:00",
+      "bid_deadline": "2026-05-25 10:00",
       "registration_deadline": "05-22 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "完成贵州经贸职业技术学院茶艺与茶文化省级重点（特色）专业内涵建设项目涉及的全部服务工作",
+      "registration_period": "2026-05-15至2026-05-22"
     },
     {
       "title": "贵阳贵安2026年初中学业水平考试准考证印制服务项目",
@@ -1083,13 +1199,15 @@
       "summary": "准考证印制",
       "location": "贵安新区",
       "buyer": "贵阳市招生考试管理中心",
-      "bid_deadline": "05-25 14:30",
+      "bid_deadline": "2026-05-25 14:30",
       "registration_deadline": "05-21 17:00",
       "matched_keywords": [
         "印制"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "准考证印制",
+      "registration_period": "2026-05-15至2026-05-21"
     },
     {
       "title": "遵义市汇川区第十小学校园文化建设（运动场、教学楼走廊墙面美化）采购",
@@ -1098,13 +1216,15 @@
       "summary": "运动场、教学楼走廊墙面美化",
       "location": "遵义市",
       "buyer": "遵义市汇川区第十小学",
-      "bid_deadline": "05-26 14:30",
+      "bid_deadline": "2026-05-26 14:30",
       "registration_deadline": "05-21 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "遵义市汇川区第十小学校园文化建设（运动场、教学楼走廊墙面美化）采购项目",
+      "registration_period": "2026-05-15至2026-05-21"
     },
     {
       "title": "桔山街道办事处办公用品采购、广告制作AB包二次",
@@ -1113,13 +1233,15 @@
       "summary": "办公用品采购、广告制作、供应商可选择A包、B包中的一个或多个包进行投标",
       "location": "兴义市",
       "buyer": "兴义市人民政府桔山街道办事处",
-      "bid_deadline": "05-19 14:30",
+      "bid_deadline": "2026-05-19 14:30",
       "registration_deadline": "05-18 17:00",
       "matched_keywords": [
         "广告"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "办公用品采购、广告制作、供应商可选择A包、B包中的一个或多个包进行投标",
+      "registration_period": "2026-05-15至2026-05-18"
     },
     {
       "title": "问道十二境——端午心游孔学堂文化活动",
@@ -1128,14 +1250,16 @@
       "summary": "文化活动宣传",
       "location": "贵阳市",
       "buyer": "贵阳孔学堂文化传播中心",
-      "bid_deadline": "05-26 10:00",
+      "bid_deadline": "2026-05-26 10:00",
       "registration_deadline": "05-20 17：00",
       "matched_keywords": [
         "宣传",
         "文化"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "文化活动宣传",
+      "registration_period": "2026-05-15至05-20 17：00"
     },
     {
       "title": "安顺旅游集团古城运营管理有限公司标识标牌及办公室相关物资设备采购",
@@ -1144,14 +1268,16 @@
       "summary": "标识标牌及办公室",
       "location": "安顺市",
       "buyer": "安顺旅游集团古城运营管理有限公司",
-      "bid_deadline": "05-25 16:00",
+      "bid_deadline": "2026-05-25 16:00",
       "registration_deadline": "05-20 17:00",
       "matched_keywords": [
         "标识",
         "标牌"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "安顺旅游集团古城运营管理有限公司标识标牌及办公室相关物资设备采购， 详见采购内容。 （2）",
+      "registration_period": "2026-05-15至2026-05-20"
     },
     {
       "title": "贵阳谷丰农业科技发展有限责任公司 大米包装物料采购",
@@ -1160,13 +1286,15 @@
       "summary": "主包装袋 主包装盒(套) 真空包装内外袋 外包装箱封口材料辅助材料",
       "location": "贵阳市",
       "buyer": "贵阳谷丰农业科技发展有限责任公司",
-      "bid_deadline": "05-19 12:00",
+      "bid_deadline": "2026-05-19 12:00",
       "registration_deadline": "05-18 17:00",
       "matched_keywords": [
         "物料"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "主包装袋 主包装盒(套) 真空包装内外袋 外包装箱封口材料辅助材料",
+      "registration_period": "2026-05-15至2026-05-18"
     },
     {
       "title": "百里杜鹃广告推广宣传服务项目",
@@ -1175,14 +1303,16 @@
       "summary": "品牌宣传推广",
       "location": "毕节市",
       "buyer": "贵州景运旅游发展股份有限公司",
-      "bid_deadline": "05-21 11:30",
+      "bid_deadline": "2026-05-21 11:30",
       "registration_deadline": "05-18 17:00",
       "matched_keywords": [
         "广告",
         "宣传"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "品牌宣传推广",
+      "registration_period": "2026-05-15至2026-05-18"
     },
     {
       "title": "安顺市第一高级中学办公用品、零星维修及广告服务",
@@ -1191,13 +1321,15 @@
       "summary": "办公用品、零星维修及广告服务",
       "location": "安顺市",
       "buyer": "安顺市第一高级中学",
-      "bid_deadline": "05-25 15:00",
+      "bid_deadline": "2026-05-25 15:00",
       "registration_deadline": "05-19 16:00",
       "matched_keywords": [
         "广告"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "办公用品、零星维修及广告服务",
+      "registration_period": "2026-05-15至2026-05-19"
     },
     {
       "title": "公益“村BA”慈善宣传活动（二次）",
@@ -1206,13 +1338,15 @@
       "summary": "慈善宣传活动",
       "location": "黔东南州",
       "buyer": "贵州省民政厅",
-      "bid_deadline": "05-22 14:30",
+      "bid_deadline": "2026-05-22 14:30",
       "registration_deadline": "05-18 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-15",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "慈善宣传活动",
+      "registration_period": "2026-05-15至2026-05-18"
     },
     {
       "title": "采购《毕节试验区》印刷服务-采购意向公示阶段",
@@ -1227,23 +1361,9 @@
         "印刷"
       ],
       "published_at": "2026-05-15",
-      "source_name": "其他公开来源"
-    },
-    {
-      "title": "“红飘带·伟大转折”红色文化主题传播推广项目",
-      "url": "",
-      "budget": "130万元",
-      "summary": "宣传推广",
-      "location": "贵阳市",
-      "buyer": "",
-      "bid_deadline": "",
-      "registration_deadline": "",
-      "matched_keywords": [
-        "宣传",
-        "文化"
-      ],
-      "published_at": "2026-05-15",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-05-15至采购意向公示阶段",
+      "project_content": "印刷服务"
     },
     {
       "title": "西秀区2026年轿子山镇洗布河项目区小流域综合治理提质增效项目安全防护、安全文明标志标识牌及安全文化建设采购",
@@ -1252,7 +1372,7 @@
       "summary": "五牌一图、危险源公示牌、现场指示牌、警示标识标牌、爆闪灯（太阳能）、喷绘、道路锥形桶等",
       "location": "安顺市",
       "buyer": "贵州水务建设工程有限公司",
-      "bid_deadline": "05-13 16:00",
+      "bid_deadline": "2026-05-13 16:00",
       "registration_deadline": "05-13 16:00",
       "matched_keywords": [
         "文化",
@@ -1261,7 +1381,9 @@
         "标志"
       ],
       "published_at": "2026-05-13",
-      "source_name": "其他公开来源"
+      "source_name": "贵州水务建设工程有限公司",
+      "registration_period": "2026-05-13至2026-05-13",
+      "project_content": "五牌一图、危险源公示牌、现场指示牌、警示标识标牌、爆闪灯（太阳能）、喷绘、道路锥形桶等"
     },
     {
       "title": "贵阳观山湖产业发展投资（集团）有限公司图文印刷项目询价",
@@ -1270,7 +1392,7 @@
       "summary": "图文印刷一系列等",
       "location": "观山湖区",
       "buyer": "贵阳观山湖产业发展投资（集团）有限公司",
-      "bid_deadline": "05-15 17:00",
+      "bid_deadline": "2026-05-15 17:00",
       "registration_deadline": "05-15 17:00",
       "matched_keywords": [
         "印刷",
@@ -1278,7 +1400,9 @@
         "图文"
       ],
       "published_at": "2026-05-13",
-      "source_name": "其他公开来源"
+      "source_name": "微信公众平台",
+      "registration_period": "2026-05-13至2026-05-15",
+      "project_content": "图文印刷一系列等"
     },
     {
       "title": "茶园电厂2026年宣传标牌制作项目",
@@ -1287,14 +1411,16 @@
       "summary": "宣传标牌制作",
       "location": "毕节市",
       "buyer": "国家电投集团贵州金元股份有限公司",
-      "bid_deadline": "05-17 09:00",
+      "bid_deadline": "2026-05-17 09:00",
       "registration_deadline": "05-17 09:00",
       "matched_keywords": [
         "宣传",
         "标牌"
       ],
       "published_at": "2026-05-13",
-      "source_name": "其他公开来源"
+      "source_name": "电能e招采平台",
+      "registration_period": "2026-05-13至2026-05-17",
+      "project_content": "宣传标牌制作"
     },
     {
       "title": "中共黔东南州委宣传部2026年户外宣传氛围营造项目-采购需求公示",
@@ -1310,7 +1436,9 @@
         "氛围"
       ],
       "published_at": "2026-05-13",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-05-13至采购需求公示",
+      "project_content": "在凯里市设置户外宣传牌、布置景观小品、悬挂户外道旗等，有效彰显黔东南民族形象，凝聚民族力量。"
     },
     {
       "title": "贵州航天医院文化建设项目服务单位遴选",
@@ -1319,7 +1447,7 @@
       "summary": "需对医院指定的物理空间(如门诊、院区公共区域等，具体面积与位置以现场踏勘为准)进行整体文化打造。",
       "location": "遵义市",
       "buyer": "贵州航天医院",
-      "bid_deadline": "\"05-15 18:00\"",
+      "bid_deadline": "2026-05-15 18:00",
       "registration_deadline": "05-15 18:00",
       "matched_keywords": [
         "文化",
@@ -1330,7 +1458,9 @@
         "UV打印"
       ],
       "published_at": "2026-05-11",
-      "source_name": "其他公开来源"
+      "source_name": "贵州航天医院",
+      "registration_period": "2026-05-11至2026-05-15",
+      "project_content": "需对医院指定的物理空间(如门诊、院区公共区域等，具体面积与位置以现场踏勘为准)进行整体文化打造。"
     },
     {
       "title": "贵州金元招标采购中心2026年5月标牌等物资采购(茶园、纳雍、鸭溪电厂）",
@@ -1346,7 +1476,9 @@
         "标牌"
       ],
       "published_at": "2026-05-11",
-      "source_name": "其他公开来源"
+      "source_name": "电能e招采平台",
+      "registration_period": "2026-05-11至2026-05-12",
+      "project_content": "电厂标识标牌制作"
     },
     {
       "title": "贵综中国（贵阳）二手车出口展厅改装及导视系统牌采购项目",
@@ -1355,13 +1487,15 @@
       "summary": "展厅改装及导视系统牌采购",
       "location": "贵阳市",
       "buyer": "贵阳综合保税区贵综供应链管理有限公司",
-      "bid_deadline": "05-21 14:30",
+      "bid_deadline": "2026-05-21 14:30",
       "registration_deadline": "05-15 17:00",
       "matched_keywords": [
         "导视"
       ],
       "published_at": "2026-05-11",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "展厅改装及导视系统牌采购",
+      "registration_period": "2026-05-11至2026-05-15"
     },
     {
       "title": "“纪念中国工农红军长征胜利90周年”网上重大主题宣传采购",
@@ -1370,13 +1504,15 @@
       "summary": "活动宣传",
       "location": "贵阳市",
       "buyer": "中共贵阳市委网络安全和信息化委员会办公室",
-      "bid_deadline": "05-20 14:00",
+      "bid_deadline": "2026-05-20 14:00",
       "registration_deadline": "05-15 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-11",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "活动宣传",
+      "registration_period": "2026-05-11至2026-05-15"
     },
     {
       "title": "草海北岸生态巡护道路（智慧赛道）建设项目--标识牌部分",
@@ -1385,14 +1521,16 @@
       "summary": "标识标牌制作及安装",
       "location": "毕节市",
       "buyer": "贵州草海保护开发投资有限责任公司",
-      "bid_deadline": "05-21 14:30",
+      "bid_deadline": "2026-05-21 14:30",
       "registration_deadline": "05-13 17:00",
       "matched_keywords": [
         "标识",
         "标牌"
       ],
       "published_at": "2026-05-11",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "标识标牌制作及安装",
+      "registration_period": "2026-05-11至2026-05-13"
     },
     {
       "title": "贵州省生态环境厅生态环境宣传项目",
@@ -1401,13 +1539,15 @@
       "summary": "活动宣传？",
       "location": "贵阳市",
       "buyer": "贵州省生态环境厅",
-      "bid_deadline": "05-19 10:00",
+      "bid_deadline": "2026-05-19 10:00",
       "registration_deadline": "05-15 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-11",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "活动宣传？",
+      "registration_period": "2026-05-11至2026-05-15"
     },
     {
       "title": "南方电网财务有限公司贵州分公司廉洁文化活动零星采购项目",
@@ -1416,13 +1556,15 @@
       "summary": "提供廉洁文化活动承办工作",
       "location": "南明区",
       "buyer": "南方电网财务有限公司贵州分公司",
-      "bid_deadline": "05-12 17:21",
+      "bid_deadline": "2026-05-12 17:21",
       "registration_deadline": "05-12 09:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-11",
-      "source_name": "其他公开来源"
+      "source_name": "中国南方电网供应链统一服务平台",
+      "registration_period": "2026-05-11至2026-05-12",
+      "project_content": "提供廉洁文化活动承办工作"
     },
     {
       "title": "金茂成渝（贵阳）2026-2027年物料制作战略采购（第二次）",
@@ -1431,13 +1573,15 @@
       "summary": "物料制作",
       "location": "贵阳市",
       "buyer": "金茂西南企业管理（天津）有限公司",
-      "bid_deadline": "05-13 12:00",
+      "bid_deadline": "2026-05-13 12:00",
       "registration_deadline": "05-12 14:00",
       "matched_keywords": [
         "物料"
       ],
       "published_at": "2026-05-09",
-      "source_name": "其他公开来源"
+      "source_name": "中国金茂阳光招标平台",
+      "registration_period": "2026-05-09至2026-05-12",
+      "project_content": "物料制作"
     },
     {
       "title": "贵阳贵安2026年小学六年级学生综合素养监测试卷印刷项目",
@@ -1446,14 +1590,16 @@
       "summary": "试卷印制",
       "location": "贵安新区",
       "buyer": "贵阳市教育科学研究所",
-      "bid_deadline": "05-20 14:00",
+      "bid_deadline": "2026-05-20 14:00",
       "registration_deadline": "05-14 17:00",
       "matched_keywords": [
         "印刷",
         "印制"
       ],
       "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "试卷印制",
+      "registration_period": "2026-05-09至2026-05-14"
     },
     {
       "title": "中国烟草总公司贵州省公司2026年-2028年烟草专卖行政执法证件印制采购项目询价采购",
@@ -1462,13 +1608,15 @@
       "summary": "烟草专卖行政执法证件最高限价单价为35元/套，其中1.皮夹18元/个;2.佩戴式卡套及挂绳7元/套;3.识别卡10元/张。",
       "location": "贵阳市",
       "buyer": "中国烟草总公司贵州省公司",
-      "bid_deadline": "05-18 10:00",
+      "bid_deadline": "2026-05-18 10:00",
       "registration_deadline": "05-15 17:00",
       "matched_keywords": [
         "印制"
       ],
       "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "烟草专卖行政执法证件最高限价单价为35元/套，其中1.皮夹18元/个;2.佩戴式卡套及挂绳7元/套;3.识别卡10元/张。",
+      "registration_period": "2026-05-09至2026-05-15"
     },
     {
       "title": "贵州画院（贵州美术馆）“2026多彩贵州：人文山水·时光峰峦——文化遗产主题青年美术展”展览活动宣传推广服务项目",
@@ -1477,14 +1625,16 @@
       "summary": "按照“精准定位、多元联动、长效传播”原则，创新宣传形式，优化传播策略，提升宣传策划能力，加强信息覆盖面，强化主流媒体介入，扩大公众知晓度，全方位传播展览与贵州文化遗产内涵。",
       "location": "贵阳市",
       "buyer": "贵州画院（贵州美术馆）",
-      "bid_deadline": "05-18 14:30",
+      "bid_deadline": "2026-05-18 14:30",
       "registration_deadline": "05-12 17:00",
       "matched_keywords": [
         "宣传",
         "文化"
       ],
       "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "按照“精准定位、多元联动、长效传播”原则，创新宣传形式，优化传播策略，提升宣传策划能力，加强信息覆盖面，强化主流媒体介入，扩大公众知晓度，全方位传播展览与贵州文化遗产内涵。",
+      "registration_period": "2026-05-09至2026-05-12"
     },
     {
       "title": "六盘水市钟山区乡镇/街道孕妇健康管理服务政策公益宣传广告制作安装项目（二次）",
@@ -1493,7 +1643,7 @@
       "summary": "高炮广告牌6块、玻璃立牌展示架142个、墙面喷绘19个(含高空)、宣传栏超卡板12块",
       "location": "六盘水市各乡镇",
       "buyer": "六盘水市钟山区妇幼保健院",
-      "bid_deadline": "05-19 15:00",
+      "bid_deadline": "2026-05-19 15:00",
       "registration_deadline": "05-14 17:00",
       "matched_keywords": [
         "广告",
@@ -1501,7 +1651,9 @@
         "展示"
       ],
       "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "高炮广告牌 6块、玻璃立牌展示架142个、墙面喷绘19个（含高空）、宣传栏超卡板12块,详见竞争性磋商文件（实际",
+      "registration_period": "2026-05-09至2026-05-14"
     },
     {
       "title": "贵阳险峰机床股份有限公司-标志标志牌采购",
@@ -1510,13 +1662,15 @@
       "summary": "代号牌、刻度牌、厂牌等制作及安装",
       "location": "花溪区",
       "buyer": "贵阳险峰机床股份有限公司",
-      "bid_deadline": "05-09 22:00",
+      "bid_deadline": "2026-05-09 22:00",
       "registration_deadline": "05-09 22:00",
       "matched_keywords": [
         "标志"
       ],
       "published_at": "2026-05-08",
-      "source_name": "其他公开来源"
+      "source_name": "企业数字化采购和供应交易平台_隆道",
+      "registration_period": "2026-05-08至2026-05-09",
+      "project_content": "代号牌、刻度牌、厂牌等制作及安装"
     },
     {
       "title": "贵州装备制造职业学院2026年阳光体育运动暨第十届田径运动会物料服务项目",
@@ -1525,14 +1679,16 @@
       "summary": "获奖证书、奖杯、喷绘、充气拱门、道旗、秩序册等",
       "location": "清镇市",
       "buyer": "贵州装备制造职业学院",
-      "bid_deadline": "05-11 10:00",
+      "bid_deadline": "2026-05-11 10:00",
       "registration_deadline": "05-11 10:00",
       "matched_keywords": [
         "物料",
         "证书"
       ],
       "published_at": "2026-05-08",
-      "source_name": "其他公开来源"
+      "source_name": "贵州装备制造职业学院",
+      "registration_period": "2026-05-08至2026-05-11",
+      "project_content": "获奖证书、奖杯、喷绘、充气拱门、道旗、秩序册等"
     },
     {
       "title": "贵州振华义龙新材料有限公司-2026年5月安全警示牌等广告物资采购项目-采购意向公示",
@@ -1549,7 +1705,9 @@
         "标志"
       ],
       "published_at": "2026-05-08",
-      "source_name": "其他公开来源"
+      "source_name": "CEC电子采购平台",
+      "registration_period": "2026-05-08至采购意向公示阶段",
+      "project_content": "标志标牌制作"
     },
     {
       "title": "贵阳购物中心2026年经营氛围美陈打造项目采购询价",
@@ -1566,7 +1724,9 @@
         "美陈"
       ],
       "published_at": "2026-05-08",
-      "source_name": "其他公开来源"
+      "source_name": "世纪金源采购平台",
+      "registration_period": "2026-05-08至2026-05-13",
+      "project_content": "贵阳购物中心外广场及BC座室内部分DP点位场景氛围打造，品牌节点营销DP、交互型打卡点、创意广告位、创意指引氛围布置等，具体事宜需根据中方设计效果图现场踏勘"
     },
     {
       "title": "贵阳清镇吾悦广场2026年5月企划(物料类)供应商招募",
@@ -1575,13 +1735,15 @@
       "summary": "物料制作及供应",
       "location": "清镇市",
       "buyer": "贵阳清镇吾悦广场",
-      "bid_deadline": "05-31 18:00",
+      "bid_deadline": "2026-05-31 18:00",
       "registration_deadline": "05-31 18:00",
       "matched_keywords": [
         "物料"
       ],
       "published_at": "2026-05-08",
-      "source_name": "其他公开来源"
+      "source_name": "新城控股供应商协同平台",
+      "registration_period": "2026-05-08至2026-05-31",
+      "project_content": "物料制作及供应"
     },
     {
       "title": "平塘县疾病预防控制中心(平塘县卫生监督站)-2026年扩大国家免疫规划印刷资料及宣传品采购项目",
@@ -1590,7 +1752,7 @@
       "summary": "折页、一次性杯子定制、笔记本定制、触控笔、塑料笔筒、塑料杯子定制",
       "location": "黔南州平塘县",
       "buyer": "平塘县疾病预防控制中心(平塘县卫生监督站)",
-      "bid_deadline": "05-14 18:00",
+      "bid_deadline": "2026-05-14 18:00",
       "registration_deadline": "05-14 18:00",
       "matched_keywords": [
         "印刷",
@@ -1598,7 +1760,9 @@
         "折页"
       ],
       "published_at": "2026-05-08",
-      "source_name": "其他公开来源"
+      "source_name": "微信公众平台",
+      "registration_period": "2026-05-08至2026-05-14",
+      "project_content": "折页、一次性杯子定制、笔记本定制、触控笔、塑料笔筒、塑料杯子定制"
     },
     {
       "title": "军采网-训词及入党誓词墙建设项目",
@@ -1607,13 +1771,15 @@
       "summary": "对原有2座雕塑拆除并移位安装，新建训词及入党誓词2座雕塑文化墙(采用烤漆工艺)",
       "location": "兴义市",
       "buyer": "某部",
-      "bid_deadline": "05-13 15：00",
+      "bid_deadline": "2026-05-13 15:00",
       "registration_deadline": "05-08 22：00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-06",
-      "source_name": "其他公开来源"
+      "source_name": "军队采购网",
+      "registration_period": "2026-05-06至05-08 22：00",
+      "project_content": "对原有2座雕塑拆除并移位安装，新建训词及入党誓词2座雕塑文化墙(采用烤漆工艺)"
     },
     {
       "title": "毕节市中心血站无偿献血宣传纪念品采购项目（2026年度）",
@@ -1622,13 +1788,15 @@
       "summary": "纯棉毛巾套装、菜籽油、五折伞、洗洁精等相关无偿献血宣传品",
       "location": "毕节市",
       "buyer": "毕节市中心血站",
-      "bid_deadline": "05-12 09:30",
+      "bid_deadline": "2026-05-12 09:30",
       "registration_deadline": "05-11 18:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-06",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省公共资源交易云",
+      "registration_period": "2026-05-06至2026-05-11",
+      "project_content": "纯棉毛巾套装、菜籽油、五折伞、洗洁精等相关无偿献血宣传品"
     },
     {
       "title": "贵州商务2026年度宣传策划项目（二次）",
@@ -1637,13 +1805,15 @@
       "summary": "会议整体宣传策划、内容采编生成、渠道资源分发、重点活动纪实",
       "location": "贵阳市",
       "buyer": "贵州省商务厅",
-      "bid_deadline": "05-15 09:30",
+      "bid_deadline": "2026-05-15 09:30",
       "registration_deadline": "05-06 23:59",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-05-06",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省公共资源交易云",
+      "registration_period": "2026-05-06至2026-05-06",
+      "project_content": "会议整体宣传策划、内容采编生成、渠道资源分发、重点活动纪实"
     },
     {
       "title": "标识标牌及印刷品设计制作安装服务比选",
@@ -1652,7 +1822,7 @@
       "summary": "标识标牌及印刷品设计制作安装服务采购项目",
       "location": "贵阳市",
       "buyer": "贵阳地铁物业管理有限公司",
-      "bid_deadline": "05-18 09:00",
+      "bid_deadline": "2026-05-18 09:00",
       "registration_deadline": "05-11 11:00",
       "matched_keywords": [
         "印刷",
@@ -1660,7 +1830,9 @@
         "标牌"
       ],
       "published_at": "2026-05-06",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "标识标牌及印刷品设计制作安装服务采购项目",
+      "registration_period": "2026-05-06至2026-05-11"
     },
     {
       "title": "贵州大学马克思主义学院2026年“长征精神与传承红色文化”学术论坛",
@@ -1669,13 +1841,15 @@
       "summary": "贵州大学马克思主义学院2026年“长征精神与传承红色文化”学术论坛项目会议服务",
       "location": "花溪区",
       "buyer": "贵州大学",
-      "bid_deadline": "05-09 09:30",
+      "bid_deadline": "2026-05-09 09:30",
       "registration_deadline": "05-08 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-05-06",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "标项 1 标项名称 : 贵州大学马克思主义学院 2026年“长征精神与传承红色文化”学术论坛 数量 : 1 预算金额（元） : 401000 .00 简要规格描述： 贵州大学马克思主义学院 2026年“长征精神与传承红色文化”学术论坛项目会议服务 。（具体详见采购文件） 备注： 合同履约期限： 2026年5月15日17:00起至5月17日24:00",
+      "registration_period": "2026-05-06至2026-05-08"
     },
     {
       "title": "贵州省第十二届运动会宣传项目",
@@ -1684,13 +1858,15 @@
       "summary": "赛事宣传服务",
       "location": "贵阳市",
       "buyer": "贵州省体育文化宣传信息中心",
-      "bid_deadline": "05-13 10:00",
+      "bid_deadline": "2026-05-13 10:00",
       "registration_deadline": "05-08 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-04-30",
-      "source_name": "其他公开来源"
+      "source_name": "贵州新阳光项目管理有限公司",
+      "registration_period": "2026-04-30至2026-05-08",
+      "project_content": "赛事宣传服务"
     },
     {
       "title": "华润雪花啤酒(遵义)有限公司2026年度常规广告物料制作项目",
@@ -1699,14 +1875,16 @@
       "summary": "常规广告物料制作项目",
       "location": "遵义市",
       "buyer": "华润雪花啤酒(遵义)有限公司",
-      "bid_deadline": "04-30 16:00",
+      "bid_deadline": "2026-04-30 16:00",
       "registration_deadline": "04-30 16:00",
       "matched_keywords": [
         "广告",
         "物料"
       ],
       "published_at": "2026-04-30",
-      "source_name": "其他公开来源"
+      "source_name": "华润集团守正电子招标平台",
+      "registration_period": "2026-04-30至2026-04-30",
+      "project_content": "常规广告物料制作项目"
     },
     {
       "title": "遵义吾悦广场2026年物料类供应商招募",
@@ -1715,13 +1893,15 @@
       "summary": "喷绘制作",
       "location": "遵义市",
       "buyer": "遵义吾悦广场",
-      "bid_deadline": "06-30 17:00",
+      "bid_deadline": "2026-06-30 17:00",
       "registration_deadline": "06-30 17:00",
       "matched_keywords": [
         "物料"
       ],
       "published_at": "2026-04-30",
-      "source_name": "其他公开来源"
+      "source_name": "新城控股供应商协同平台",
+      "registration_period": "2026-04-30至2026-06-30",
+      "project_content": "喷绘制作"
     },
     {
       "title": "贵州烟叶复烤有限责任公司毕节复烤厂2026年度安全标志视觉系统完善采购项目",
@@ -1730,7 +1910,7 @@
       "summary": "拟采购一批安全标志及宣传物资，包括标志、横幅等物资",
       "location": "毕节市",
       "buyer": "贵州烟叶复烤有限责任公司",
-      "bid_deadline": "05-09 10:00",
+      "bid_deadline": "2026-05-09 10:00",
       "registration_deadline": "05-06 10:00",
       "matched_keywords": [
         "宣传",
@@ -1739,7 +1919,9 @@
         "横幅"
       ],
       "published_at": "2026-04-30",
-      "source_name": "烟草行业采购平台"
+      "source_name": "中烟电子采购平台",
+      "registration_period": "2026-04-30至2026-05-06",
+      "project_content": "拟采购一批安全标志及宣传物资，包括标志、横幅等物资"
     },
     {
       "title": "贵州省零散烈士纪念设施保护标识牌采购项目（二次）",
@@ -1748,13 +1930,15 @@
       "summary": "零散烈士纪念设施保护标识牌",
       "location": "贵阳市",
       "buyer": "贵州省退役军人事务厅",
-      "bid_deadline": "05-09 14:30",
+      "bid_deadline": "2026-05-09 14:30",
       "registration_deadline": "05-08 17:30",
       "matched_keywords": [
         "标识"
       ],
       "published_at": "2026-04-30",
-      "source_name": "贵州省招标投标公共服务平台"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "零散烈士纪念设施保护标识牌",
+      "registration_period": "2026-04-30至2026-05-08"
     },
     {
       "title": "贵阳贵安2026年节水宣传项目",
@@ -1763,28 +1947,15 @@
       "summary": "节日宣传服务",
       "location": "贵阳市",
       "buyer": "贵阳市节约用水办公室",
-      "bid_deadline": "05-07 10：30",
+      "bid_deadline": "2026-05-07 10:30",
       "registration_deadline": "05-06 17:00",
       "matched_keywords": [
         "宣传"
       ],
       "published_at": "2026-04-30",
-      "source_name": "贵州省招标投标公共服务平台"
-    },
-    {
-      "title": "贵州红•山水越野挑战赛（2026年度十站）宣传项目",
-      "url": "",
-      "budget": "38.8万元",
-      "summary": "赛事宣传服务",
-      "location": "贵阳市",
-      "buyer": "贵州省体育文化宣传信息中心",
-      "bid_deadline": "",
-      "registration_deadline": "05-08 17:30",
-      "matched_keywords": [
-        "宣传"
-      ],
-      "published_at": "2026-04-30",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省招标投标公共服务平台",
+      "project_content": "节日宣传服务",
+      "registration_period": "2026-04-30至2026-05-06"
     },
     {
       "title": "中交二航局六盘水分布式光伏项目标识标牌及围挡制作安装服务",
@@ -1793,7 +1964,7 @@
       "summary": "本项目为贵州省六盘水市（水城区、钟山区）260MW分布式光伏发电项目工程建设总承包（EPC），充分利用六盘水各类建筑的屋顶资源布置光伏组件，在贵州水城区各乡镇居民屋顶实现直流侧总装机容量260MWp、交流侧175MWp，容配比为1.14，并采用“自发自用、余电上网”模式。项目合同额83200万元，计划工期1095日历天。为满足现场安全生产施工要求，本项目拟投入安全生产费1500万元，并在各工点设置标志标牌及施工围挡",
       "location": "六盘水市",
       "buyer": "中交第二航务工程局有限公司六盘水（水城区、钟山区）260MW分布式光伏发电EPC总承包项目经理部",
-      "bid_deadline": "05-07 16:00",
+      "bid_deadline": "2026-05-07 16:00",
       "registration_deadline": "05-02 17:00",
       "matched_keywords": [
         "标识",
@@ -1801,7 +1972,9 @@
         "标志"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "中交招采网",
+      "registration_period": "2026-04-28至2026-05-02",
+      "project_content": "本项目为贵州省六盘水市（水城区、钟山区）260MW分布式光伏发电项目工程建设总承包（EPC），充分利用六盘水各类建筑的屋顶资源布置光伏组件，在贵州水城区各乡镇居民屋顶实现直流侧总装机容量260MWp、交流侧175MWp，容配比为1.14，并采用“自发自用、余电上网”模式。项目合同额83200万元，计划工期1095日历天。为满足现场安全生产施工要求，本项目拟投入安全生产费1500万元，并在各工点设置标志标牌及施工围挡"
     },
     {
       "title": "观山湖区消防救援大队2026年广告服务项目采购",
@@ -1810,14 +1983,16 @@
       "summary": "为贵阳市观山湖区消防救援大队提供广告服务及日常营区文化建设产生的相关货物",
       "location": "观山湖区",
       "buyer": "贵阳市观山湖区消防救援大队",
-      "bid_deadline": "05-08 09:30",
+      "bid_deadline": "2026-05-08 09:30",
       "registration_deadline": "05-07 17:00",
       "matched_keywords": [
         "广告",
         "文化"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "贵州兴业利达电子招投标交易平台",
+      "registration_period": "2026-04-28至2026-05-07",
+      "project_content": "为贵阳市观山湖区消防救援大队提供广告服务及日常营区文化建设产生的相关货物"
     },
     {
       "title": "贵州省文化和旅游厅关于2025年度档案整理及数字化服务的比选",
@@ -1826,13 +2001,15 @@
       "summary": "整理2025年度文书档案、会计档案、资料，部分非涉密文书档案数字化扫描。",
       "location": "贵阳市",
       "buyer": "贵州省文化和旅游厅",
-      "bid_deadline": "05-15 17:30",
+      "bid_deadline": "2026-05-15 17:30",
       "registration_deadline": "05-09 17:30",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省文化和旅游厅",
+      "registration_period": "2026-04-28至2026-05-09",
+      "project_content": "整理2025年度文书档案、会计档案、资料，部分非涉密文书档案数字化扫描。"
     },
     {
       "title": "福能(贵州)发电有限公司2026-2028年度广告板等宣传物资采购",
@@ -1841,7 +2018,7 @@
       "summary": "资料印刷、广告板、宣传栏、背景墙制作",
       "location": "六盘水市",
       "buyer": "福能(贵州)发电有限公司",
-      "bid_deadline": "04-30 11:00",
+      "bid_deadline": "2026-04-30 11:00",
       "registration_deadline": "04-30 11:00",
       "matched_keywords": [
         "印刷",
@@ -1849,7 +2026,9 @@
         "宣传"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "华润集团守正电子招标平台",
+      "registration_period": "2026-04-28至2026-04-30",
+      "project_content": "资料印刷、广告板、宣传栏、背景墙制作"
     },
     {
       "title": "2026.04.27贵阳海信印刷品询比价招标",
@@ -1865,7 +2044,9 @@
         "展板"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "海信集团非生产物资采购管理平台",
+      "registration_period": "2026-04-28至2026-04-28",
+      "project_content": "展板制作"
     },
     {
       "title": "中共黔东南州委宣传部2026年户外宣传氛围营造项目（采购意向公示阶段）",
@@ -1881,7 +2062,9 @@
         "氛围"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-04-28至采购意向公示阶段",
+      "project_content": "设置户外宣传牌、布置景观小品、悬挂户外道旗一批"
     },
     {
       "title": "体育彩票宣传促销物资采购",
@@ -1890,14 +2073,16 @@
       "summary": "赛事活动宣传物资、物料",
       "location": "贵阳市",
       "buyer": "贵州省体育彩票管理中心",
-      "bid_deadline": "05-15 09:30",
+      "bid_deadline": "2026-05-15 09:30",
       "registration_deadline": "05-07 18:00",
       "matched_keywords": [
         "宣传",
         "物料"
       ],
       "published_at": "2026-04-28",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省政府采购网",
+      "registration_period": "2026-04-28至2026-05-07",
+      "project_content": "赛事活动宣传物资、物料"
     },
     {
       "title": "贵州蔬菜集团有限公司企业宣传册制作服务采购",
@@ -1906,7 +2091,7 @@
       "summary": "按照采购人提供的宣传册文案、素材及规范要求，完成企业宣传册版式设计、封面设计、内页排版、图文校对、色彩校准、打样确认、批量印刷、装订成型等全流程制作服务，交付符合企业宣传标准与使用要求的成品宣传册，按采购人要求完成修改调整直至验收合格。",
       "location": "贵阳市",
       "buyer": "贵州蔬菜集团有限公司",
-      "bid_deadline": "04-29 12:00",
+      "bid_deadline": "2026-04-29 12:00",
       "registration_deadline": "04-29 12:00",
       "matched_keywords": [
         "印刷",
@@ -1914,7 +2099,9 @@
         "宣传"
       ],
       "published_at": "2026-04-24",
-      "source_name": "其他公开来源"
+      "source_name": "微信公众平台",
+      "registration_period": "2026-04-24至2026-04-29",
+      "project_content": "按照采购人提供的宣传册文案、素材及规范要求，完成企业宣传册版式设计、封面设计、内页排版、图文校对、色彩校准、打样确认、批量印刷、装订成型等全流程制作服务，交付符合企业宣传标准与使用要求的成品宣传册，按采购人要求完成修改调整直至验收合格。"
     },
     {
       "title": "贵州民族大学铸牢中华民族共同体意识广场校园文化建设项目",
@@ -1923,19 +2110,21 @@
       "summary": "包括贵州民族大学铸牢中华民族共同体意识广场校园文化建设项目制作、安装及配套的相关服务，主要建设内容包括但不限于主题墙、“三交史”文化浮雕墙、民族大团结浮雕、多彩民大彩色壁画、融铸未来圆雕",
       "location": "贵阳市",
       "buyer": "贵州民族大学",
-      "bid_deadline": "04-30 09:30",
+      "bid_deadline": "2026-04-30 09:30",
       "registration_deadline": "04-29 17:00",
       "matched_keywords": [
         "文化"
       ],
       "published_at": "2026-04-24",
-      "source_name": "其他公开来源"
+      "source_name": "贵州省公共资源交易云",
+      "registration_period": "2026-04-24至2026-04-29",
+      "project_content": "包括贵州民族大学铸牢中华民族共同体意识广场校园文化建设项目制作、安装及配套的相关服务，主要建设内容包括但不限于主题墙、“三交史”文化浮雕墙、民族大团结浮雕、多彩民大彩色壁画、融铸未来圆雕"
     }
   ],
   "stats": {
-    "total": 121,
+    "total": 118,
     "new_today": 0,
-    "sources": 4
+    "sources": 35
   },
   "warnings": [
     "本次未发现新公告编号，已保留上次成功数据"
