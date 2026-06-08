@@ -91,10 +91,6 @@ async function load() {
       timeZone: "Asia/Shanghai",
       hour12: false
     })}`;
-    $("#coverage").textContent = payload.coverage || "";
-    $("#total-count").textContent = payload.stats?.total ?? state.items.length;
-    $("#today-count").textContent = payload.stats?.new_today ?? 0;
-    $("#source-count").textContent = payload.stats?.sources ?? 0;
     if (payload.warnings?.length) {
       $("#warning").textContent = payload.warnings.join("；");
       $("#warning").hidden = false;
