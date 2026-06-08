@@ -1,4 +1,4 @@
-# 贵州标讯晨报
+# 标讯-贵州-图文广告
 
 这是一个面向多省份、多行业、多信息源的标讯采集项目。当前首期范围：
 
@@ -20,6 +20,9 @@
 - 已建立黔云招采电子招标采购交易平台公开接口增量采集器
 - 已建立遵义市公共交通（集团）有限责任公司通知公告采集器
 - 已建立北京时间每天 7:15 自动采集和发布工作流
+
+完整的本地文件位置、GitHub部署位置和日常维护方法见
+[`docs/OPERATIONS.md`](docs/OPERATIONS.md)。
 
 ## 初始化现有资料
 
@@ -55,6 +58,10 @@ PYTHONPATH=src python3 -m tender_agent.site seed
 ## 自动更新时间
 
 GitHub Actions 按 `Asia/Shanghai` 时区每天 7:15 启动。GitHub 官方说明定时任务在高负载时可能延迟，因此网页显示实际更新时间；如果采集失败，会保留上次成功数据并显示提示。
+
+公开页面：<https://nono125-lee.github.io/guizhou-tender-daily/>
+
+GitHub 仓库：<https://github.com/nono125-lee/guizhou-tender-daily>
 
 ## 隐私
 
