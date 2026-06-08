@@ -33,7 +33,7 @@ function render() {
   const cutoff = daysAgo(Number($("#date-range").value));
   const items = state.items.filter((item) => {
     const text = [
-      item.title, item.summary, item.buyer, item.location,
+      item.title, item.project_content, item.summary, item.buyer, item.location,
       ...(item.matched_keywords || [])
     ].join(" ").toLowerCase();
     const published = new Date(`${item.published_at.slice(0, 10)}T00:00:00`);
@@ -51,20 +51,22 @@ function render() {
     card.querySelector(".card-index").textContent = String(index + 1).padStart(2, "0");
     card.querySelector("time").textContent = item.published_at.slice(0, 10);
     card.querySelector(".location").textContent = regionOf(item);
-    card.querySelector(".source").textContent = item.source_name || "";
     const titleLink = card.querySelector("h3 a");
     titleLink.textContent = item.title;
     titleLink.href = item.url;
-    card.querySelector(".summary").textContent = item.summary || "请查看原公告了解项目详情。";
     const fields = [
       [".budget-row", ".budget", item.budget],
       [".buyer-row", ".buyer", item.buyer],
-      [".deadline-row", ".deadline", item.bid_deadline]
+      [".deadline-row", ".deadline", item.bid_deadline],
+      [".registration-row", ".registration", item.registration_period],
+      [".source-row", ".source", item.source_name]
     ];
     fields.forEach(([row, value, content]) => {
       card.querySelector(row).hidden = !content;
       card.querySelector(value).textContent = content || "";
     });
+    card.querySelector(".project-content").textContent =
+      item.project_content || item.summary || "请查看原公告了解具体内容。";
     const keywords = card.querySelector(".keywords");
     (item.matched_keywords || []).slice(0, 8).forEach((keyword) => {
       const tag = document.createElement("span");
@@ -110,4 +112,3 @@ async function load() {
 });
 
 load();
-
