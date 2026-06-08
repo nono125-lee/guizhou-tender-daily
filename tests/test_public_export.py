@@ -34,6 +34,7 @@ class PublicExportTests(unittest.TestCase):
             item["source_name"], "贵州省招标投标公共服务平台"
         )
         self.assertEqual(item["project_content"], "广告制作具体内容")
+        self.assertEqual(item["date_basis"], "collected")
 
     def test_chinese_datetime_is_normalized(self):
         self.assertEqual(
@@ -96,6 +97,9 @@ class PublicExportTests(unittest.TestCase):
                 payload = json.loads(output.read_text(encoding="utf-8"))
                 raw = output.read_text(encoding="utf-8")
                 self.assertEqual(payload["items"][0]["title"], "贵阳广告项目")
+                self.assertEqual(
+                    payload["items"][0]["date_basis"], "collected"
+                )
                 self.assertNotIn("phone", raw)
                 self.assertNotIn("contact", raw)
                 self.assertNotIn("password", raw)

@@ -85,6 +85,7 @@ def normalize_public_item(
     source_names: dict[str, str] | None = None,
 ) -> dict:
     result = dict(item)
+    result["date_basis"] = result.get("date_basis") or "collected"
     published = normalize_date(result.get("published_at", ""), "", False)
     result["published_at"] = published
     result["bid_deadline"] = normalize_date(
@@ -134,6 +135,7 @@ def export_public_snapshot(
     for row in rows:
         item = dict(row)
         item["published_at"] = item.pop("collected_at")
+        item["date_basis"] = "collected"
         item["matched_keywords"] = json.loads(item["matched_keywords"])
         items.append(normalize_public_item(item, source_names))
     payload = {

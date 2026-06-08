@@ -49,6 +49,8 @@ function render() {
   items.forEach((item, index) => {
     const card = template.content.cloneNode(true);
     card.querySelector(".card-index").textContent = String(index + 1).padStart(2, "0");
+    card.querySelector(".date-label").textContent =
+      item.date_basis === "official" ? "官方发布时间" : "采集日期";
     card.querySelector("time").textContent = item.published_at.slice(0, 10);
     card.querySelector(".location").textContent = regionOf(item);
     const titleLink = card.querySelector("h3 a");

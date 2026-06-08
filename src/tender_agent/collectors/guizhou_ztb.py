@@ -139,25 +139,27 @@ def _enrich_existing_item(item: dict) -> dict:
         or len(item.get("project_content", "")) > 400
         or item.get("project_content", "").startswith("详见")
     )
-    needs_registration = not item.get("registration_period")
-    needs_deadline = not item.get("bid_deadline")
-    if not (needs_content or needs_registration or needs_deadline):
-        return normalize_public_item(item)
     data = _fetch_json(f"{DETAIL_API}/{match.group(1)}")
     if not data:
         return normalize_public_item(item)
     content = _plain_text(data.get("Content", ""))
     enriched = dict(item)
+    official_publish_date = clean_text(data.get("PublishDate"))
+    if official_publish_date:
+        enriched["published_at"] = official_publish_date
+        enriched["date_basis"] = "official"
     if needs_content and content:
         enriched["project_content"] = _project_content(
             content, item.get("summary", "")
         )
-    if needs_registration:
-        enriched["registration_period"] = _registration_period(
-            content, item.get("published_at", "")
-        )
-    if needs_deadline:
-        enriched["bid_deadline"] = _deadline(content)
+    registration_period = _registration_period(
+        content, enriched.get("published_at", "")
+    )
+    if registration_period:
+        enriched["registration_period"] = registration_period
+    deadline = _deadline(content)
+    if deadline:
+        enriched["bid_deadline"] = deadline
     return normalize_public_item(enriched)
 
 
@@ -210,6 +212,7 @@ def collect(
             normalize_public_item(
                 {
                 "published_at": publish_date,
+                "date_basis": "official",
                 "title": title,
                 "url": url,
                 "budget": _extract(MONEY_RE, content),
@@ -229,7 +232,8 @@ def collect(
         )
         seen_urls.add(url)
 
-    cutoff = date.today() - timedelta(days=45)
+    today = datetime.now(ZoneInfo("Asia/Shanghai")).date()
+    cutoff = today - timedelta(days=45)
     merged = new_items + [
         _enrich_existing_item(item)
         for item in existing.get("items", [])
@@ -241,7 +245,7 @@ def collect(
         try:
             item_date = datetime.fromisoformat(item["published_at"][:10]).date()
         except (ValueError, TypeError, KeyError):
-            item_date = date.today()
+            item_date = today
         if item_date >= cutoff:
             kept.append(item)
     kept.sort(
@@ -255,7 +259,11 @@ def collect(
         "items": kept,
         "stats": {
             "total": len(kept),
-            "new_today": len(new_items),
+            "new_today": sum(
+                item.get("date_basis") == "official"
+                and item.get("published_at", "")[:10] == today.isoformat()
+                for item in kept
+            ),
             "sources": len({item["source_name"] for item in kept}),
         },
         "warnings": (
