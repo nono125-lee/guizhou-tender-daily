@@ -7,6 +7,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .collectors.guizhou_ztb import collect
+from .collectors.eqyzc import collect as collect_eqyzc
 from .collectors.zunyi_bus import collect as collect_zunyi_bus
 from .importers import load_keywords
 from .public_export import (
@@ -69,6 +70,23 @@ def update(args: argparse.Namespace) -> int:
         args.max_scan,
     )
     _merge_verified_notices(payload)
+    try:
+        new_items = collect_eqyzc(
+            load_keywords(args.keywords),
+            payload.get("items", []),
+        )
+        if new_items:
+            by_url = {
+                item.get("url", ""): item
+                for item in payload.get("items", [])
+            }
+            for item in new_items:
+                by_url[item["url"]] = item
+            payload["items"] = list(by_url.values())
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"黔云招采采集异常：{type(error).__name__}"
+        )
     try:
         new_items = collect_zunyi_bus(
             load_keywords(args.keywords),
