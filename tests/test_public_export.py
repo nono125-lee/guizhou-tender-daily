@@ -46,6 +46,16 @@ class PublicExportTests(unittest.TestCase):
             "2026-05-15 18:00",
         )
 
+    def test_unknown_registration_period_stays_blank(self):
+        item = normalize_public_item(
+            {
+                "published_at": "2026-06-08",
+                "url": "https://example.com/tender",
+            },
+            {"example.com": "示例平台"},
+        )
+        self.assertEqual(item["registration_period"], "")
+
     def test_source_name_is_taken_from_exact_mapping(self):
         self.assertEqual(
             source_name_for_url(

@@ -97,7 +97,7 @@ def normalize_public_item(
     result["registration_period"] = result.get("registration_period") or (
         f"{published}至{registration_end}"
         if published and registration_end
-        else published or registration_end
+        else registration_end
     )
     result["source_name"] = source_name_for_url(
         result.get("url", ""), source_names

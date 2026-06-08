@@ -2,9 +2,12 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from .collectors.guizhou_ztb import collect
+from .collectors.zunyi_bus import collect as collect_zunyi_bus
 from .importers import load_keywords
 from .public_export import (
     export_public_snapshot,
@@ -15,6 +18,37 @@ from .repository import Repository
 
 
 ROOT = Path(__file__).resolve().parents[2]
+
+
+def _merge_verified_notices(payload: dict) -> None:
+    source_names = load_source_names()
+    path = ROOT / "config/verified_notices.json"
+    verified = json.loads(path.read_text(encoding="utf-8"))
+    by_url = {item.get("url", ""): item for item in payload.get("items", [])}
+    for raw_item in verified:
+        item = normalize_public_item(raw_item, source_names)
+        by_url[item["url"]] = {**by_url.get(item["url"], {}), **item}
+    payload["items"] = list(by_url.values())
+
+
+def _refresh_payload(payload: dict) -> None:
+    payload["items"].sort(
+        key=lambda item: (
+            item.get("published_at", ""),
+            item.get("url", ""),
+        ),
+        reverse=True,
+    )
+    today = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+    payload["stats"]["total"] = len(payload["items"])
+    payload["stats"]["new_today"] = sum(
+        item.get("date_basis") == "official"
+        and item.get("published_at", "")[:10] == today
+        for item in payload["items"]
+    )
+    payload["stats"]["sources"] = len(
+        {item["source_name"] for item in payload["items"]}
+    )
 
 
 def seed(args: argparse.Namespace) -> int:
@@ -33,6 +67,23 @@ def update(args: argparse.Namespace) -> int:
         args.state,
         args.output,
         args.max_scan,
+    )
+    _merge_verified_notices(payload)
+    try:
+        new_items = collect_zunyi_bus(
+            load_keywords(args.keywords),
+            payload.get("items", []),
+        )
+        if new_items:
+            payload["items"] = new_items + payload["items"]
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"遵义公交官网采集异常：{type(error).__name__}"
+        )
+    _refresh_payload(payload)
+    args.output.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
     )
     print(json.dumps(payload["stats"], ensure_ascii=False))
     return 0
