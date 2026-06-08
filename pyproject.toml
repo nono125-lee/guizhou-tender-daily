@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tender-intelligence-agent"
+version = "0.1.0"
+description = "贵州省图文广告行业标讯采集、筛选、去重和微信小程序推送 Agent"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+tender-agent = "tender_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
