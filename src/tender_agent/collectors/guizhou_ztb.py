@@ -139,6 +139,9 @@ def _enrich_existing_item(item: dict) -> dict:
         or len(item.get("project_content", "")) > 400
         or item.get("project_content", "").startswith("详见")
     )
+    needs_official_date = item.get("date_basis") != "official"
+    if not (needs_content or needs_official_date):
+        return normalize_public_item(item)
     data = _fetch_json(f"{DETAIL_API}/{match.group(1)}")
     if not data:
         return normalize_public_item(item)
