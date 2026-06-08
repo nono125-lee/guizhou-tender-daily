@@ -1,7 +1,80 @@
 {
-  "updated_at": "2026-06-08T22:51:37.256573+08:00",
+  "updated_at": "2026-06-08T23:12:19.289553+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
+    {
+      "published_at": "2026-06-08",
+      "date_basis": "official",
+      "title": "中国邮政储蓄银行贵阳市分行印制品采购项目招标公告",
+      "url": "https://cg.psbc.com/cms/default/webfile/1ywgg2/20260608/1248669660266627072.html",
+      "budget": "150万元",
+      "summary": "贵阳市分行辖内机构办公及宣传类印制服务。",
+      "project_content": "采购贵阳市分行辖内机构的办公及宣传类印制，含设计、制作、配送及安装，包括宣传册、折页、海报、易拉宝、证书、横幅、节日氛围打造、名片、房间指示牌、文件及文化墙制作等，采购期限2年。",
+      "location": "贵阳市",
+      "buyer": "中国邮政储蓄银行股份有限公司贵阳市分行",
+      "bid_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "印制",
+        "宣传",
+        "文化",
+        "标识",
+        "标牌",
+        "名片",
+        "海报",
+        "折页",
+        "证书",
+        "横幅"
+      ],
+      "source_name": "邮银易采 中国邮政储蓄银行"
+    },
+    {
+      "url": "http://www.zunyibus.com/tzgg/2250.html",
+      "title": "遵义市公共交通能源有限责任公司现对公交户外广告、站牌、临时站牌、公交车内线路信息标识发布公开采购制作安装单位的公告",
+      "published_at": "2026-06-08",
+      "date_basis": "official",
+      "budget": "",
+      "summary": "采购公交户外广告、站牌、临时站牌及公交车内线路信息标识的设计、制作、安装和维护服务，拟选制作安装单位1家，合作期最高两年。",
+      "project_content": "公交户外广告、站牌、临时站牌、公交车内线路信息标识制作安装；包含写真标牌、PVC展板、车身及车尾公益广告、铁质临时站牌等，制作安装单位1家，合作期最高两年。",
+      "location": "遵义市",
+      "buyer": "遵义市公共交通能源有限责任公司",
+      "bid_deadline": "2026-06-15",
+      "registration_period": "2026-06-08至2026-06-15",
+      "matched_keywords": [
+        "广告",
+        "宣传",
+        "文化",
+        "标识",
+        "标牌",
+        "党建",
+        "写真",
+        "横幅",
+        "展板"
+      ],
+      "source_name": "遵义市公共交通（集团）有限责任公司"
+    },
+    {
+      "published_at": "2026-06-07",
+      "date_basis": "official",
+      "title": "贵州燃气集团毕节市燃气有限责任公司-2026.06.03-图文广告服务-询比采购采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513535302085869569&noticeType=1&publishStatus=1",
+      "budget": "",
+      "summary": "图文设计、广告制作、标识标牌安装、印刷物料等。",
+      "project_content": "为贵州燃气集团毕节市燃气有限责任公司提供图文设计、广告制作、标识标牌安装及印刷物料等服务；项目位于毕节市七星关区，线上开标，不接受联合体投标。",
+      "location": "毕节市七星关区",
+      "buyer": "贵州燃气集团毕节市燃气有限责任公司",
+      "bid_deadline": "2026-06-12 00:43",
+      "registration_period": "2026-06-07至2026-06-09",
+      "matched_keywords": [
+        "图文",
+        "广告",
+        "标识",
+        "标牌",
+        "印刷",
+        "物料"
+      ],
+      "source_name": "黔云招采电子招标采购交易平台"
+    },
     {
       "title": "中国烟草总公司贵州省公司法治宣传服务采购",
       "url": "https://cgjy.tobacco.com.cn/xbfw/39433.jhtml",
@@ -1217,7 +1290,7 @@
         "图文"
       ],
       "published_at": "2026-05-15",
-      "source_name": "邮银易采",
+      "source_name": "邮银易采 中国邮政储蓄银行",
       "registration_period": "2026-05-15至2026-05-25",
       "project_content": "遵义市分行本部及各支行图文印制服务",
       "date_basis": "collected"
@@ -2220,9 +2293,9 @@
     }
   ],
   "stats": {
-    "total": 117,
-    "new_today": 0,
-    "sources": 35
+    "total": 120,
+    "new_today": 2,
+    "sources": 37
   },
   "warnings": [
     "本次未发现新公告编号，已保留上次成功数据"
