@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from datetime import datetime, timedelta
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -41,6 +42,7 @@ def _request_json(
     url: str,
     payload: dict | None = None,
     timeout: int = 15,
+    attempts: int = 3,
 ) -> dict:
     data = (
         json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -51,17 +53,33 @@ def _request_json(
         url,
         data=data,
         headers={
-            "User-Agent": "Mozilla/5.0 TenderDaily/1.0",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/137.0.0.0 Safari/537.36"
+            ),
             "Accept": "application/json",
+            "Accept-Language": "zh-CN,zh;q=0.9",
             "Content-Type": "application/json",
+            "Origin": BASE_URL,
+            "Referer": f"{BASE_URL}/",
         },
         method="POST" if payload is not None else "GET",
     )
-    try:
-        with urlopen(request, timeout=timeout) as response:
-            result = json.loads(response.read().decode("utf-8-sig"))
-    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as error:
-        raise RuntimeError(f"黔云招采接口访问失败：{type(error).__name__}") from error
+    last_error: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                result = json.loads(response.read().decode("utf-8-sig"))
+            break
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as error:
+            last_error = error
+            if attempt + 1 < attempts:
+                time.sleep(2 * (attempt + 1))
+    else:
+        raise RuntimeError(
+            f"黔云招采接口访问失败：{type(last_error).__name__}"
+        ) from last_error
     if not result.get("success"):
         raise RuntimeError(
             f"黔云招采接口返回异常：{result.get('errMessage') or 'unknown'}"
