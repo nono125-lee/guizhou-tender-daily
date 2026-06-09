@@ -9,7 +9,7 @@
       content="贵州图文广告标讯，自动更新、关键词筛选、原文直达。"
     >
     <title>标讯-贵州-图文广告</title>
-    <link rel="stylesheet" href="./assets/style.css?v=20260609-1">
+    <link rel="stylesheet" href="./assets/style.css?v=20260609-2">
   </head>
   <body>
     <div class="paper-noise" aria-hidden="true"></div>
@@ -41,6 +41,16 @@
         </label>
       </section>
 
+      <section class="feedback-panel" aria-label="人工反馈">
+        <div>
+          <strong>人工复核</strong>
+          <span id="feedback-status">尚未填写反馈</span>
+        </div>
+        <button id="submit-feedback" class="feedback-submit" type="button">
+          当日反馈 <span id="feedback-count">0</span>
+        </button>
+      </section>
+
       <div id="warning" class="warning" hidden></div>
       <section id="list" class="tender-list" aria-live="polite"></section>
       <p id="empty" class="empty" hidden>没有符合当前筛选条件的标讯。</p>
@@ -61,25 +71,48 @@
             <span class="location"></span>
             <span class="new-badge" hidden>新增</span>
           </div>
-          <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
+          <div class="title-row">
+            <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
+            <button class="correct-button" data-field="title" type="button">纠正</button>
+          </div>
           <dl>
-            <div class="budget-row"><dt>预算</dt><dd class="budget"></dd></div>
-            <div class="buyer-row"><dt>采购人</dt><dd class="buyer"></dd></div>
-            <div class="agency-row"><dt>采购代理机构</dt><dd class="agency"></dd></div>
-            <div class="deadline-row"><dt>投标截止时间</dt><dd class="deadline"></dd></div>
-            <div class="registration-row"><dt>报名日期</dt><dd class="registration"></dd></div>
-            <div class="source-row"><dt>信息源名称</dt><dd class="source"></dd></div>
+            <div class="budget-row"><dt>预算</dt><dd class="budget"></dd><button class="correct-button" data-field="budget" type="button">纠正</button></div>
+            <div class="buyer-row"><dt>采购人</dt><dd class="buyer"></dd><button class="correct-button" data-field="buyer" type="button">纠正</button></div>
+            <div class="agency-row"><dt>采购代理机构</dt><dd class="agency"></dd><button class="correct-button" data-field="agency" type="button">纠正</button></div>
+            <div class="deadline-row"><dt>投标截止时间</dt><dd class="deadline"></dd><button class="correct-button" data-field="bid_deadline" type="button">纠正</button></div>
+            <div class="registration-row"><dt>报名日期</dt><dd class="registration"></dd><button class="correct-button" data-field="registration_period" type="button">纠正</button></div>
+            <div class="source-row"><dt>信息源名称</dt><dd class="source"></dd><button class="correct-button" data-field="source_name" type="button">纠正</button></div>
           </dl>
           <div class="content-block">
             <div class="content-label">项目主要内容</div>
             <p class="project-content"></p>
           </div>
           <div class="keywords"></div>
+          <div class="review-actions">
+            <button class="confirm-button" type="button">确认</button>
+            <button class="exclude-button" type="button">排除</button>
+            <span class="review-state"></span>
+          </div>
         </div>
         <a class="read-more" target="_blank" rel="noopener noreferrer">查看原公告 ↗</a>
       </article>
     </template>
 
-    <script src="./assets/app.js?v=20260609-1" defer></script>
+    <dialog id="feedback-dialog">
+      <form method="dialog">
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-project"></p>
+        <label>
+          <span id="dialog-label"></span>
+          <textarea id="dialog-value" rows="4" required></textarea>
+        </label>
+        <div class="dialog-actions">
+          <button value="cancel" type="submit">取消</button>
+          <button id="dialog-save" value="default" type="button">保存</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="./assets/app.js?v=20260609-2" defer></script>
   </body>
 </html>
