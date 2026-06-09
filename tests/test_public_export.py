@@ -12,6 +12,7 @@ from tender_agent.public_export import (
 )
 from tender_agent.repository import Repository
 from tender_agent.collectors.guizhou_ztb import (
+    _parties,
     _project_content,
     _project_name,
 )
@@ -89,6 +90,40 @@ class PublicExportTests(unittest.TestCase):
             "高压配电设备维修更换项目",
         )
         self.assertEqual(_project_content(text), "")
+
+    def test_buyer_and_agency_are_separated(self):
+        buyer, agency = _parties(
+            (
+                "采购人名称：贵阳市商务局 项目联系人：王老师 "
+                "采购代理机构名称：贵州新山水建设咨询（集团）有限公司 "
+                "联系人：李老师"
+            ),
+            "贵州新山水建设咨询（集团）有限公司",
+        )
+        self.assertEqual(buyer, "贵阳市商务局")
+        self.assertEqual(agency, "贵州新山水建设咨询（集团）有限公司")
+
+    def test_contact_section_party_format_is_supported(self):
+        buyer, agency = _parties(
+            (
+                "凡对本次采购提出询问，请按以下方式联系。"
+                "1.采购人信息 名 称：贵州日报当代传媒有限责任公司 "
+                "地 址：贵阳市乌当区。"
+                "2.采购代理机构信息 名 称：新华招标有限公司 "
+                "地 址：贵阳市云岩区。"
+            ),
+            "新华招标有限公司",
+        )
+        self.assertEqual(buyer, "贵州日报当代传媒有限责任公司")
+        self.assertEqual(agency, "新华招标有限公司")
+
+    def test_buyer_designated_place_is_not_a_party_name(self):
+        buyer, agency = _parties(
+            "服务地点：采购人指定地点。采购代理机构：大成工程咨询有限公司",
+            "大成工程咨询有限公司",
+        )
+        self.assertEqual(buyer, "")
+        self.assertEqual(agency, "大成工程咨询有限公司")
 
     def test_export_contains_no_credentials(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sqlite3
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -11,6 +12,7 @@ from .collectors.eqyzc import collect as collect_eqyzc
 from .collectors.zunyi_bus import collect as collect_zunyi_bus
 from .importers import load_keywords
 from .normalize import matched_tender_keywords
+from .normalize import canonical_url
 from .public_export import (
     export_public_snapshot,
     load_source_names,
@@ -64,6 +66,80 @@ def _apply_keyword_rules(payload: dict, keywords: list[str]) -> None:
     payload["items"] = kept
 
 
+def _hydrate_parties_from_database(payload: dict, database: Path) -> None:
+    if not database.exists():
+        return
+    connection = sqlite3.connect(f"file:{database}?mode=ro", uri=True)
+    try:
+        rows = connection.execute(
+            """
+            SELECT canonical_url, url, buyer, agency
+            FROM tenders
+            WHERE url IS NOT NULL AND url != ''
+            """
+        ).fetchall()
+    finally:
+        connection.close()
+    exact_parties = {
+        row[1]: {
+            "buyer": row[2] or "",
+            "agency": row[3] or "",
+        }
+        for row in rows
+        if row[1]
+    }
+    canonical_parties = {
+        canonical_url(row[0] or row[1]): {
+            "buyer": row[2] or "",
+            "agency": row[3] or "",
+        }
+        for row in rows
+        if row[1] and "#" not in row[1]
+    }
+    for item in payload.get("items", []):
+        url = item.get("url", "")
+        stored = exact_parties.get(url)
+        if not stored and "#" not in url:
+            stored = canonical_parties.get(canonical_url(url))
+        if not stored:
+            continue
+        if stored["buyer"]:
+            item["buyer"] = stored["buyer"]
+        if stored["agency"]:
+            item["agency"] = stored["agency"]
+
+
+def _mark_new_items(payload: dict, previous: dict) -> None:
+    now = payload.get("updated_at") or datetime.now(
+        ZoneInfo("Asia/Shanghai")
+    ).isoformat()
+    today = now[:10]
+    previous_by_url = {
+        item.get("url", ""): item
+        for item in previous.get("items", [])
+        if item.get("url")
+    }
+    for item in payload.get("items", []):
+        old = previous_by_url.get(item.get("url", ""))
+        if old:
+            item["first_seen_at"] = (
+                old.get("first_seen_at")
+                or f"{old.get('published_at', today)[:10]}T00:00:00+08:00"
+            )
+            item["new_on_date"] = old.get("new_on_date", "")
+            item["is_new"] = item["new_on_date"] == today
+        else:
+            item["first_seen_at"] = now
+            item["new_on_date"] = today
+            item["is_new"] = True
+
+
+def _fill_party_placeholders(payload: dict) -> None:
+    for item in payload.get("items", []):
+        item["buyer"] = item.get("buyer") or "公告未载明"
+        item["agency"] = item.get("agency") or "公告未载明"
+
+
 def _merge_verified_notices(payload: dict) -> None:
     source_names = load_source_names()
     path = ROOT / "config/verified_notices.json"
@@ -107,6 +183,11 @@ def seed(args: argparse.Namespace) -> int:
 
 def update(args: argparse.Namespace) -> int:
     keywords = load_keywords(args.keywords)
+    previous = (
+        json.loads(args.output.read_text(encoding="utf-8"))
+        if args.output.exists()
+        else {"items": []}
+    )
     payload = collect(
         keywords,
         args.state,
@@ -144,7 +225,13 @@ def update(args: argparse.Namespace) -> int:
         )
     _remove_excluded_notices(payload)
     _apply_keyword_rules(payload, keywords)
+    _hydrate_parties_from_database(payload, args.database)
+    _mark_new_items(payload, previous)
+    _fill_party_placeholders(payload)
     _refresh_payload(payload)
+    payload["stats"]["new_items"] = sum(
+        bool(item.get("is_new")) for item in payload["items"]
+    )
     args.output.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -198,6 +285,9 @@ def build_parser() -> argparse.ArgumentParser:
     )
     update_parser.add_argument(
         "--output", type=Path, default=ROOT / "site/data/latest.json"
+    )
+    update_parser.add_argument(
+        "--database", type=Path, default=ROOT / "data/private/tenders.sqlite3"
     )
     update_parser.add_argument("--max-scan", type=int, default=800)
     update_parser.set_defaults(handler=update)

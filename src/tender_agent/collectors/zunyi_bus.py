@@ -102,6 +102,7 @@ def parse_detail(notice: dict, content: str, keywords: list[str]) -> dict:
             "project_content": project_content,
             "location": "遵义市",
             "buyer": buyer,
+            "agency": "无",
             "bid_deadline": deadline,
             "registration_period": registration_period,
             "matched_keywords": matches,

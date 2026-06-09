@@ -118,7 +118,7 @@ def export_public_snapshot(
     rows = repository.connection.execute(
         """
         SELECT collected_at, title, url, budget, summary, location, buyer,
-               bid_deadline, registration_deadline, matched_keywords
+               agency, bid_deadline, registration_deadline, matched_keywords
         FROM tenders
         WHERE region_status = 'included'
           AND matched_keywords != '[]'

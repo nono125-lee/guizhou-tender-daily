@@ -2,6 +2,8 @@ import unittest
 
 from tender_agent.site import (
     _apply_keyword_rules,
+    _fill_party_placeholders,
+    _mark_new_items,
     _remove_excluded_notices,
 )
 
@@ -48,6 +50,39 @@ class SiteFilterTests(unittest.TestCase):
             payload["items"][0]["matched_keywords"],
             ["导视", "标牌"],
         )
+
+    def test_only_new_urls_are_marked_new(self):
+        previous = {
+            "items": [
+                {
+                    "url": "https://example.com/old",
+                    "published_at": "2026-06-09",
+                }
+            ]
+        }
+        payload = {
+            "updated_at": "2026-06-10T07:00:00+08:00",
+            "items": [
+                {
+                    "url": "https://example.com/old",
+                    "published_at": "2026-06-09",
+                },
+                {
+                    "url": "https://example.com/new",
+                    "published_at": "2026-06-10",
+                },
+            ],
+        }
+        _mark_new_items(payload, previous)
+        self.assertFalse(payload["items"][0]["is_new"])
+        self.assertTrue(payload["items"][1]["is_new"])
+        self.assertEqual(payload["items"][1]["new_on_date"], "2026-06-10")
+
+    def test_missing_parties_receive_visible_placeholders(self):
+        payload = {"items": [{"buyer": "", "agency": None}]}
+        _fill_party_placeholders(payload)
+        self.assertEqual(payload["items"][0]["buyer"], "公告未载明")
+        self.assertEqual(payload["items"][0]["agency"], "公告未载明")
 
 
 if __name__ == "__main__":

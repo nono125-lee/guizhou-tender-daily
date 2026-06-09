@@ -79,6 +79,43 @@ PROJECT_NAME_PATTERNS = [
         r"采购预算|最高限价|资金来源|[；。]|$))"
     ),
 ]
+PARTY_END_RE = re.compile(
+    r"\s*(?:统一社会信用代码|项目联系人|联\s*系\s*人|联系人|"
+    r"联系地址|地\s*址|地址|联系电话|电\s*话|电话|"
+    r"采购代理机构|招标代理机构|代理机构|"
+    r"采购人|招标人|邮编|邮箱|$)"
+)
+BUYER_LABEL_RE = re.compile(
+    r"(?:采购人|招标人|采购单位)\s*"
+    r"(?:(?:信息)?\s*(?:名称|名\s*称|全称)\s*[：:]?|为\s*|[：:])\s*"
+)
+AGENCY_LABEL_RE = re.compile(
+    r"(?:招标人委托的代理机构|采购代理机构|招标代理机构|代理机构)"
+    r"\s*(?:(?:信息)?\s*(?:名称|名\s*称|全称)\s*[：:]?|为\s*|[：:])\s*"
+)
+ENTRUSTED_BUYER_RE = re.compile(
+    r"受\s*(.{2,80}?)\s*(?:委托|（以下简称|\(以下简称)"
+)
+INVALID_PARTY_WORDS = (
+    "指定地点",
+    "不予受理",
+    "公告期限",
+    "联系方式",
+    "联系人",
+    "联系电话",
+    "项目负责人",
+    "签名",
+    "采购范围",
+    "响应单价",
+    "投标文件",
+    "信息 名称",
+    "信息 名 称",
+    "信息 联 系 人",
+    "采购人的",
+    "（如有）",
+    "工作人员",
+    "公告未载明",
+)
 
 
 def _plain_text(content: str) -> str:
@@ -107,7 +144,7 @@ def _fetch_json(
         except HTTPError as error:
             if error.code == 404:
                 return None
-        except (URLError, TimeoutError, json.JSONDecodeError):
+        except (URLError, OSError, TimeoutError, json.JSONDecodeError):
             pass
         if attempt < retries:
             time.sleep(0.6 * (attempt + 1))
@@ -166,6 +203,40 @@ def _project_content(text: str, fallback: str = "") -> str:
     return clean_text(fallback)
 
 
+def _party_name(text: str, pattern: re.Pattern[str]) -> str:
+    for match in pattern.finditer(text):
+        candidate = text[match.end():match.end() + 120]
+        if candidate.startswith(("委托", "联系人", "不接受", "按照")):
+            continue
+        end = PARTY_END_RE.search(candidate)
+        if end:
+            candidate = candidate[:end.start()]
+        candidate = clean_text(candidate).strip("：:，,；;。（( ")
+        if _valid_party_name(candidate):
+            return candidate
+    return ""
+
+
+def _valid_party_name(value: str) -> bool:
+    return (
+        2 <= len(value) <= 80
+        and not any(word in value for word in INVALID_PARTY_WORDS)
+        and not re.search(r"[。；;]|(?:\d+\.)", value)
+    )
+
+
+def _parties(text: str, source: str) -> tuple[str, str]:
+    buyer = _party_name(text, BUYER_LABEL_RE)
+    if not buyer:
+        entrusted = ENTRUSTED_BUYER_RE.search(text)
+        if entrusted:
+            candidate = clean_text(entrusted.group(1)).strip("：:，,；;。（( ")
+            if _valid_party_name(candidate):
+                buyer = candidate
+    agency = clean_text(source) or _party_name(text, AGENCY_LABEL_RE)
+    return buyer, agency
+
+
 def _enrich_existing_item(item: dict) -> dict:
     url = item.get("url", "")
     match = DETAIL_ID_RE.search(url)
@@ -177,7 +248,10 @@ def _enrich_existing_item(item: dict) -> dict:
         or item.get("project_content", "").startswith("详见")
     )
     needs_official_date = item.get("date_basis") != "official"
-    if not (needs_content or needs_official_date):
+    needs_parties = not _valid_party_name(
+        clean_text(item.get("buyer"))
+    ) or not _valid_party_name(clean_text(item.get("agency")))
+    if not (needs_content or needs_official_date or needs_parties):
         return normalize_public_item(item)
     data = _fetch_json(f"{DETAIL_API}/{match.group(1)}")
     if not data:
@@ -200,6 +274,12 @@ def _enrich_existing_item(item: dict) -> dict:
     deadline = _deadline(content)
     if deadline:
         enriched["bid_deadline"] = deadline
+    buyer, agency = _parties(content, data.get("Source", ""))
+    if buyer:
+        enriched["buyer"] = buyer
+    elif needs_parties:
+        enriched["buyer"] = ""
+    enriched["agency"] = agency
     return normalize_public_item(enriched)
 
 
@@ -247,6 +327,7 @@ def collect(
         title = clean_text(data.get("Title"))
         project_name = _project_name(title, content)
         project_content = _project_content(content)
+        buyer, agency = _parties(content, data.get("Source", ""))
         matches = matched_tender_keywords(
             project_name,
             [project_content],
@@ -269,7 +350,8 @@ def collect(
                 "summary": project_content,
                 "project_content": project_content,
                 "location": "贵州省",
-                "buyer": clean_text(data.get("Source")),
+                "buyer": buyer,
+                "agency": agency,
                 "bid_deadline": _deadline(content),
                 "registration_deadline": "",
                 "registration_period": _registration_period(

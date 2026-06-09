@@ -31,6 +31,7 @@ class ZunyiBusCollectorTests(unittest.TestCase):
             detail["source_name"],
             "遵义市公共交通（集团）有限责任公司",
         )
+        self.assertEqual(detail["agency"], "无")
 
 
 if __name__ == "__main__":

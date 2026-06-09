@@ -23,6 +23,7 @@ class EqyzcCollectorTests(unittest.TestCase):
                     "extMap": {"decimalNum": 2},
                     "address": "毕节市七星关区",
                     "tendererName": "贵州燃气集团毕节市燃气有限责任公司",
+                    "tenderAgencyName": "贵州测试招标代理有限公司",
                     "tenderDocGetStartTime": 1780890082000,
                     "tenderDocGetEndTime": 1780990980000,
                     "bidEndTime": 1781250180000,
@@ -44,6 +45,8 @@ class EqyzcCollectorTests(unittest.TestCase):
         self.assertEqual(
             item["source_name"], "黔云招采电子招标采购交易平台"
         )
+        self.assertEqual(item["buyer"], "贵州燃气集团毕节市燃气有限责任公司")
+        self.assertEqual(item["agency"], "贵州测试招标代理有限公司")
 
     def test_non_matching_notice_is_ignored(self):
         item = item_from_detail(

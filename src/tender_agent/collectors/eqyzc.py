@@ -196,6 +196,10 @@ def item_from_detail(
             "project_content": overview or project_name,
             "location": clean_text(detail.get("address")) or "贵州省",
             "buyer": clean_text(detail.get("tendererName")),
+            "agency": clean_text(
+                detail.get("tenderAgencyName")
+                or detail.get("handleUnitName")
+            ),
             "bid_deadline": _datetime_text(detail.get("bidEndTime"), True),
             "registration_period": registration_period,
             "matched_keywords": matches,
