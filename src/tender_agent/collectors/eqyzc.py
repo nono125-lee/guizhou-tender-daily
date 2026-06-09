@@ -9,7 +9,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
-from ..normalize import clean_text, matched_keywords
+from ..normalize import clean_text, matched_keywords, matched_tender_keywords
 from ..public_export import normalize_public_item
 
 
@@ -153,8 +153,9 @@ def item_from_detail(
         or clean_text(listing.get("purchaseProjectName"))
     )
     project_name = clean_text(detail.get("purchaseProjectName"))
-    matches = matched_keywords(
-        f"{title} {project_name} {overview}",
+    matches = matched_tender_keywords(
+        project_name or title,
+        [bidding_scope, project_overview],
         keywords,
     )
     if not matches:

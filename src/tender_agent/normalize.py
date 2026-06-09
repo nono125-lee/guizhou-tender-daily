@@ -66,6 +66,19 @@ def matched_keywords(text: str, keywords: list[str]) -> list[str]:
     return [keyword for keyword in keywords if keyword.lower() in folded]
 
 
+def matched_tender_keywords(
+    project_name: str,
+    content_fields: list[str],
+    keywords: list[str],
+) -> list[str]:
+    """Match only the project name and explicitly allowed project-content fields."""
+    searchable = " ".join(
+        [clean_text(project_name)]
+        + [clean_text(value) for value in content_fields if clean_text(value)]
+    )
+    return matched_keywords(searchable, keywords)
+
+
 def classify_region(text: str, include: list[str], exclude: list[str]) -> str:
     folded = clean_text(text)
     if any(name in folded for name in exclude):
@@ -73,4 +86,3 @@ def classify_region(text: str, include: list[str], exclude: list[str]) -> str:
     if any(name in folded for name in include):
         return "included"
     return "review"
-

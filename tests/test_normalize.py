@@ -4,6 +4,7 @@ from tender_agent.normalize import (
     canonical_url,
     classify_region,
     matched_keywords,
+    matched_tender_keywords,
     tender_fingerprint,
 )
 
@@ -34,7 +35,32 @@ class NormalizeTests(unittest.TestCase):
             "excluded",
         )
 
+    def test_tender_keywords_only_use_allowed_fields(self):
+        self.assertEqual(
+            matched_tender_keywords(
+                "高压配电设备维修项目",
+                ["更换配电柜及电缆"],
+                ["广告", "证书"],
+            ),
+            [],
+        )
+        self.assertEqual(
+            matched_tender_keywords(
+                "户外广告制作项目",
+                [],
+                ["广告", "证书"],
+            ),
+            ["广告"],
+        )
+        self.assertEqual(
+            matched_tender_keywords(
+                "校园设施维修项目",
+                ["采购范围：制作安装导视标牌"],
+                ["导视", "标牌", "证书"],
+            ),
+            ["导视", "标牌"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
-

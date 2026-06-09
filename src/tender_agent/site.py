@@ -10,6 +10,7 @@ from .collectors.guizhou_ztb import collect
 from .collectors.eqyzc import collect as collect_eqyzc
 from .collectors.zunyi_bus import collect as collect_zunyi_bus
 from .importers import load_keywords
+from .normalize import matched_tender_keywords
 from .public_export import (
     export_public_snapshot,
     load_source_names,
@@ -19,6 +20,48 @@ from .repository import Repository
 
 
 ROOT = Path(__file__).resolve().parents[2]
+
+
+def _excluded_titles() -> set[str]:
+    path = ROOT / "config/excluded_notices.json"
+    if not path.exists():
+        return set()
+    return {
+        str(title).strip()
+        for title in json.loads(path.read_text(encoding="utf-8"))
+        if str(title).strip()
+    }
+
+
+def _remove_excluded_notices(payload: dict) -> None:
+    excluded = _excluded_titles()
+    if not excluded:
+        return
+    payload["items"] = [
+        item
+        for item in payload.get("items", [])
+        if item.get("title", "").strip() not in excluded
+    ]
+
+
+def _apply_keyword_rules(payload: dict, keywords: list[str]) -> None:
+    kept = []
+    for item in payload.get("items", []):
+        matches = matched_tender_keywords(
+            item.get("project_name") or item.get("title", ""),
+            [
+                item.get("project_content", ""),
+                item.get("procurement_content", ""),
+                item.get("bidding_scope", ""),
+                item.get("project_overview", ""),
+            ],
+            keywords,
+        )
+        if not matches:
+            continue
+        item["matched_keywords"] = matches
+        kept.append(item)
+    payload["items"] = kept
 
 
 def _merge_verified_notices(payload: dict) -> None:
@@ -63,8 +106,9 @@ def seed(args: argparse.Namespace) -> int:
 
 
 def update(args: argparse.Namespace) -> int:
+    keywords = load_keywords(args.keywords)
     payload = collect(
-        load_keywords(args.keywords),
+        keywords,
         args.state,
         args.output,
         args.max_scan,
@@ -72,7 +116,7 @@ def update(args: argparse.Namespace) -> int:
     _merge_verified_notices(payload)
     try:
         new_items = collect_eqyzc(
-            load_keywords(args.keywords),
+            keywords,
             payload.get("items", []),
         )
         if new_items:
@@ -89,7 +133,7 @@ def update(args: argparse.Namespace) -> int:
         )
     try:
         new_items = collect_zunyi_bus(
-            load_keywords(args.keywords),
+            keywords,
             payload.get("items", []),
         )
         if new_items:
@@ -98,6 +142,8 @@ def update(args: argparse.Namespace) -> int:
         payload.setdefault("warnings", []).append(
             f"遵义公交官网采集异常：{type(error).__name__}"
         )
+    _remove_excluded_notices(payload)
+    _apply_keyword_rules(payload, keywords)
     _refresh_payload(payload)
     args.output.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),

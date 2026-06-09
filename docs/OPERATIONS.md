@@ -25,6 +25,7 @@
 | 图文广告关键词配置 | `config/industries/graphic-advertising.json` | 自动采集实际使用的关键词 |
 | 信息源正式名称映射 | `config/source_names.json` | 网页展示名称 |
 | 人工核实公告 | `config/verified_notices.json` | 暂无采集器时的临时补录 |
+| 已确认误报排除清单 | `config/excluded_notices.json` | 每次更新时强制排除 |
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
@@ -60,6 +61,21 @@
 | 遵义市公共交通（集团）有限责任公司 | `src/tender_agent/collectors/zunyi_bus.py` |
 
 信息源库中的其他网站只是“待开发来源”，不会因为存在于Excel或数据库中就自动完成查询。
+
+## 关键词收录规则
+
+只允许以下字段参与行业关键词匹配：
+
+1. 项目名称。
+2. 招标或采购内容。
+3. 招标或采购范围。
+4. 项目概况。
+
+上述任一字段命中一个关键词即可收录。采购人、招标人、代理机构、资格条件、
+报名要求、公告发布媒介及公告其他正文中的关键词均不参与匹配。
+
+用户明确指出的误报标题保存于 `config/excluded_notices.json`，即使旧公开数据
+或来源网站再次返回这些公告，也会在发布前删除。
 
 ## GitHub位置
 

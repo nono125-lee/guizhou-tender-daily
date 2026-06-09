@@ -11,7 +11,10 @@ from tender_agent.public_export import (
     source_name_for_url,
 )
 from tender_agent.repository import Repository
-from tender_agent.collectors.guizhou_ztb import _project_content
+from tender_agent.collectors.guizhou_ztb import (
+    _project_content,
+    _project_name,
+)
 
 
 class PublicExportTests(unittest.TestCase):
@@ -74,6 +77,18 @@ class PublicExportTests(unittest.TestCase):
             _project_content(text),
             "户外广告牌制作安装及维护",
         )
+
+    def test_qualification_and_buyer_text_are_not_project_content(self):
+        text = (
+            "项目名称：高压配电设备维修更换项目。"
+            "采购人：贵州广告文化有限公司。"
+            "供应商资格要求：提供相关资质证书及标识材料。"
+        )
+        self.assertEqual(
+            _project_name("高压配电设备维修更换项目采购公告", text),
+            "高压配电设备维修更换项目",
+        )
+        self.assertEqual(_project_content(text), "")
 
     def test_export_contains_no_credentials(self):
         with tempfile.TemporaryDirectory() as directory:

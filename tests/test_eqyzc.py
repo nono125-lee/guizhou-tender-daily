@@ -60,6 +60,23 @@ class EqyzcCollectorTests(unittest.TestCase):
         )
         self.assertIsNone(item)
 
+    def test_buyer_name_is_not_used_for_keyword_matching(self):
+        item = item_from_detail(
+            {"id": "2", "noticeType": 1, "publishStatus": 1},
+            {
+                "data": {
+                    "biddingNotice": {
+                        "businessName": "设备维修采购公告",
+                        "purchaseProjectName": "高压设备维修",
+                        "projectOverview": "维修高压配电设备",
+                        "tendererName": "贵州广告文化有限公司",
+                    }
+                }
+            },
+            ["广告", "文化"],
+        )
+        self.assertIsNone(item)
+
 
 if __name__ == "__main__":
     unittest.main()

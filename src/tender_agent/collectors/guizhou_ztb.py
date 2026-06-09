@@ -10,7 +10,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
-from ..normalize import clean_text, matched_keywords
+from ..normalize import clean_text, matched_tender_keywords
 from ..public_export import normalize_date, normalize_public_item
 
 
@@ -50,15 +50,33 @@ REGISTRATION_PATTERNS = [
 ]
 PROJECT_CONTENT_PATTERNS = [
     re.compile(
-        r"(?:采购主要内容|招标内容|采购内容及主要技术参数|采购需求)"
-        r"[：:\s]*(.{8,320}?)"
-        r"(?=(?:采购数量|采购预算|最高限价|项目类型|服务期|工期|本项目|"
-        r"[一二三四五六七八九十]+、|\d+[、.]))"
+        r"(?:项目概况和招标范围|项目概况及招标范围|招标或采购范围|"
+        r"招标范围|采购范围|采购主要内容|招标内容|采购内容及主要技术参数|"
+        r"采购内容|采购需求|项目主要内容|项目内容)"
+        r"[：:\s]*(.{2,800}?)"
+        r"(?=(?:供应商|投标人|申请人|响应人).{0,12}?资格|"
+        r"(?:获取|购买|领取).{0,12}?(?:采购|磋商|招标|询比)?文件|"
+        r"(?:响应文件|投标文件).{0,12}?(?:递交|提交|截止)|"
+        r"(?:采购数量|采购预算|预算金额|最高限价|服务期|服务期限|工期|交货期|"
+        r"质量标准|联系方式)[：:\s]|"
+        r"[一二三四五六七八九十]+、(?:供应商|投标人|申请人|获取|报名|响应)|$)"
     ),
     re.compile(
-        r"(?:简要技术要求、服务和安全要求|项目基本概况介绍、用途)"
-        r"[：:\s]*(.{8,260}?)"
-        r"(?=(?:服务期|服务期限|交货期|本项目|[一二三四五六七八九十]+、|\d+[、.]))"
+        r"(?:项目概况|项目基本概况介绍、用途|"
+        r"简要技术要求、服务和安全要求)"
+        r"[：:\s]*(.{2,600}?)"
+        r"(?=(?:供应商|投标人|申请人|响应人).{0,12}?资格|"
+        r"(?:采购数量|采购预算|预算金额|最高限价|服务期|服务期限|工期|交货期|"
+        r"质量标准|联系方式)[：:\s]|"
+        r"[一二三四五六七八九十]+、(?:供应商|投标人|申请人|获取|报名|响应)|$)"
+    ),
+]
+PROJECT_NAME_PATTERNS = [
+    re.compile(
+        r"(?:项目名称|标项名称)[：:\s]*"
+        r"(.{2,180}?)"
+        r"(?=(?:项目编号|标项编号|采购方式|招标方式|数量|预算金额|"
+        r"采购预算|最高限价|资金来源|[；。]|$))"
     ),
 ]
 
@@ -119,6 +137,21 @@ def _registration_period(text: str, publish_date: str) -> str:
     return ""
 
 
+def _project_name(title: str, text: str) -> str:
+    for pattern in PROJECT_NAME_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            value = clean_text(match.group(1)).strip("：:；;。 ")
+            if value:
+                return value
+    return re.sub(
+        r"(?:招标|采购|询比|磋商|谈判|遴选|征集|计划|更正|变更|答疑|澄清)"
+        r"(?:公告|公示)?$",
+        "",
+        clean_text(title),
+    ).strip()
+
+
 def _project_content(text: str, fallback: str = "") -> str:
     for pattern in PROJECT_CONTENT_PATTERNS:
         match = pattern.search(text)
@@ -130,7 +163,7 @@ def _project_content(text: str, fallback: str = "") -> str:
                 and value not in {"详见采购文件", "详见磋商文件", "详见招标文件"}
             ):
                 return value
-    return clean_text(fallback) or text[:300]
+    return clean_text(fallback)
 
 
 def _enrich_existing_item(item: dict) -> dict:
@@ -212,7 +245,13 @@ def collect(
             continue
         content = _plain_text(data.get("Content", ""))
         title = clean_text(data.get("Title"))
-        matches = matched_keywords(f"{title} {content}", keywords)
+        project_name = _project_name(title, content)
+        project_content = _project_content(content)
+        matches = matched_tender_keywords(
+            project_name,
+            [project_content],
+            keywords,
+        )
         if not matches:
             continue
         publish_date = clean_text(data.get("PublishDate"))
@@ -227,8 +266,8 @@ def collect(
                 "title": title,
                 "url": url,
                 "budget": _extract(MONEY_RE, content),
-                "summary": _project_content(content),
-                "project_content": _project_content(content),
+                "summary": project_content,
+                "project_content": project_content,
                 "location": "贵州省",
                 "buyer": clean_text(data.get("Source")),
                 "bid_deadline": _deadline(content),
