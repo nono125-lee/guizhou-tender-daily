@@ -12,9 +12,11 @@ from tender_agent.public_export import (
 )
 from tender_agent.repository import Repository
 from tender_agent.collectors.guizhou_ztb import (
+    _deadline,
     _parties,
     _project_content,
     _project_name,
+    _registration_period,
 )
 
 
@@ -102,6 +104,28 @@ class PublicExportTests(unittest.TestCase):
             "2.质保期：一年。3.服务地点：采购人指定地点。"
         )
         self.assertEqual(_project_content(text), "制作灯杆道旗及户外写真")
+
+    def test_procurement_content_with_requirements_suffix_is_allowed(self):
+        text = (
+            "3.采购内容及要求："
+            "3.1采购内容、工作内容及框架合作模式：安全物资采购及配套服务。"
+            "3.2质量要求：符合国家标准。"
+        )
+        self.assertEqual(
+            _project_content(text),
+            "安全物资采购及配套服务",
+        )
+
+    def test_spaced_deadline_and_file_period_are_normalized(self):
+        text = (
+            "采购文件获取时间：2026年 6 月 9 日至 2026年 6 月 16 日 23:59。"
+            "递交响应文件的截止日期和开标时间为 202 6 年 6 月 22 日 14 时 00 分。"
+        )
+        self.assertEqual(
+            _registration_period(text, "2026-06-09"),
+            "2026-06-09至2026-06-16",
+        )
+        self.assertEqual(_deadline(text), "2026年6月22日14时00分")
 
     def test_qualification_and_buyer_text_are_not_project_content(self):
         text = (

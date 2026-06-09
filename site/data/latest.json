@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T23:44:20.753490+08:00",
+  "updated_at": "2026-06-09T23:59:12.870359+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -301,6 +301,29 @@
     {
       "published_at": "2026-06-09",
       "date_basis": "official",
+      "title": "贵州中南交通科技有限公司安全物资（框架）合作采购公告",
+      "project_name": "贵州中南交通科技有限公司安全物资（框架）合作",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888298",
+      "budget": "600万元",
+      "summary": "贵州中南交通科技有限公司安全物资采购，采用据实按需、按单履约的框架合作模式。",
+      "project_content": "贵州中南交通科技有限公司安全物资采购（具体清单详见附件）。中标供应商与采购人按响应单价签订框架协议基础清单，采购人根据实际业务需求，在合作期限内分批下达采购订单，供应商按框架协议及订单约定供货并提供配套服务。",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州中南交通科技有限公司",
+      "agency": "贵州黔通安达工程咨询有限公司",
+      "bid_deadline": "2026-06-22 14:00",
+      "registration_period": "2026-06-09至2026-06-16",
+      "matched_keywords": [],
+      "review_status": "confirmed",
+      "review_reason": "用户手动采集并确认录入",
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
+      "new_on_date": "2026-06-09",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-09",
+      "date_basis": "official",
       "title": "印刷原辅材料采购项目竞争性磋商公告",
       "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888262",
       "budget": "",
@@ -326,6 +349,29 @@
         "registration_period"
       ],
       "project_content_basis": "section-v3"
+    },
+    {
+      "published_at": "2026-06-09",
+      "date_basis": "official",
+      "title": "肇兴侗寨景区核心区商户外语标识牌更换 采购需求公示",
+      "project_name": "肇兴侗寨景区核心区商户外语标识牌更换",
+      "url": "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=3YBDIeyLWccqeJsQoe27Jg==",
+      "budget": "992000元",
+      "summary": "肇兴侗寨景区核心区商户外语标识牌更换采购需求公示。",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "黔东南州",
+      "buyer": "黔东南州肇兴侗寨景区管理委员会",
+      "agency": "贵州贵久和工程项目管理有限公司",
+      "bid_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "标识"
+      ],
+      "source_name": "贵州省政府采购网",
+      "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
+      "new_on_date": "2026-06-09",
+      "is_new": true
     },
     {
       "published_at": "2026-06-08",
@@ -534,6 +580,30 @@
       "agency": "公告未载明"
     },
     {
+      "published_at": "2026-06-08",
+      "date_basis": "official",
+      "title": "贵阳市中小学2026-2029年监测试卷、答题卡印制及外语听力光盘刻录服务项目需求公示",
+      "project_name": "贵阳市中小学2026-2029年监测试卷、答题卡印刷及听力光盘刻录服务项目",
+      "url": "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=Weej4NBfrMLR+ewdjVcExA==",
+      "budget": "3767748.77元",
+      "summary": "贵阳市中小学监测试卷、答题卡印制及外语听力光盘制作服务。",
+      "project_content": "2027-2029年小学六年级综合素养监测、2026-2028年7月、2027-2029年1月初高中期末监测、2026-2028年11月高三质量监测试卷、答题卡的印制及听力光盘制作服务；按要求完成考试试卷及答题卡的排版、印制、包装、分发服务。",
+      "project_content_basis": "section-v3",
+      "location": "贵阳市",
+      "buyer": "贵阳市教育局",
+      "agency": "贵州东旭建设工程咨询有限公司",
+      "bid_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "印刷",
+        "印制"
+      ],
+      "source_name": "贵州省政府采购网",
+      "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
+      "new_on_date": "2026-06-09",
+      "is_new": true
+    },
+    {
       "published_at": "2026-06-07",
       "date_basis": "official",
       "title": "贵州燃气集团毕节市燃气有限责任公司-2026.06.03-图文广告服务-询比采购采购公告",
@@ -691,7 +761,7 @@
       "published_at": "2026-06-04",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "",
-      "registration_period": "2026-06-08至2026-06-11",
+      "registration_period": "2026-06-04至2026-06-11",
       "date_basis": "official",
       "agency": "黔东南州交旅咨询服务有限公司",
       "first_seen_at": "2026-06-04T00:00:00+08:00",
@@ -903,7 +973,7 @@
       "published_at": "2026-05-29",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "",
-      "registration_period": "2026-06-01至2026-06-03",
+      "registration_period": "2026-05-30至2026-06-03",
       "date_basis": "official",
       "agency": "贵州拓迈电子招投标服务有限公司",
       "first_seen_at": "2026-05-29T00:00:00+08:00",
@@ -1246,7 +1316,7 @@
       "summary": "活动宣传、展示",
       "location": "贵阳市",
       "buyer": "贵阳市观山湖区文体广电旅游局",
-      "bid_deadline": "2026-05-29 10:30",
+      "bid_deadline": "2026-05-29",
       "registration_deadline": "05-28 17:00",
       "matched_keywords": [
         "宣传",
@@ -1304,7 +1374,7 @@
       "published_at": "2026-05-25",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "为贵州烟叶复烤有限责任公司提供日常办公、生产经营所需的各类印刷品 ，根据采购人需求 分批次，分地点 进行供货，具体内容详见 询比 文件第三部分采购 清单",
-      "registration_period": "2026-05-25至2026-05-29",
+      "registration_period": "2026-05-26至2026-05-29",
       "date_basis": "official",
       "agency": "/",
       "first_seen_at": "2026-05-25T00:00:00+08:00",
@@ -2280,7 +2350,7 @@
       "published_at": "2026-05-13",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "",
-      "registration_period": "2026-05-15至05-20 17：00",
+      "registration_period": "2026-05-14至2026-05-20",
       "date_basis": "official",
       "agency": "贵州功成项目管理咨询有限公司",
       "first_seen_at": "2026-05-13T00:00:00+08:00",
@@ -2304,7 +2374,7 @@
       "published_at": "2026-05-13",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "",
-      "registration_period": "2026-05-15至2026-05-20",
+      "registration_period": "2026-05-13至2026-05-20",
       "date_basis": "official",
       "agency": "贵州安诚项目咨询有限公司",
       "first_seen_at": "2026-05-13T00:00:00+08:00",
@@ -2375,7 +2445,7 @@
       "published_at": "2026-05-13",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "",
-      "registration_period": "2026-05-15至2026-05-19",
+      "registration_period": "2026-05-13至2026-05-19",
       "date_basis": "official",
       "agency": "贵州木元隆招标有限公司",
       "first_seen_at": "2026-05-13T00:00:00+08:00",
@@ -2787,7 +2857,7 @@
       "published_at": "2026-05-08",
       "source_name": "贵州省招标投标公共服务平台",
       "project_content": "",
-      "registration_period": "2026-05-09至2026-05-15",
+      "registration_period": "2026-05-09至2026-05-12",
       "date_basis": "official",
       "agency": "/",
       "first_seen_at": "2026-05-08T00:00:00+08:00",
@@ -3235,10 +3305,10 @@
     }
   ],
   "stats": {
-    "total": 134,
-    "new_today": 11,
+    "total": 137,
+    "new_today": 13,
     "sources": 37,
-    "new_items": 7
+    "new_items": 10
   },
   "warnings": [
     "本次未发现新公告编号，已保留上次成功数据"

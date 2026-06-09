@@ -25,6 +25,10 @@ MONEY_RE = re.compile(
 )
 DEADLINE_PATTERNS = [
     re.compile(
+        r"递交(?:响应|投标)文件.{0,20}?(?:截止日期|截止时间).{0,12}?"
+        r"(\d{4}年\d{1,2}月\d{1,2}日[^，。；<]{0,20})"
+    ),
+    re.compile(
         r"(?:响应文件|投标文件).{0,20}?(?:截止时间|递交截止时间)[：:\s]*"
         r"(\d{4}年\d{1,2}月\d{1,2}日[^，。；<]{0,20})"
     ),
@@ -35,27 +39,40 @@ DEADLINE_PATTERNS = [
 ]
 REGISTRATION_PATTERNS = [
     re.compile(
+        r"(?:采购|磋商|招标|询比)?文件(?:获取|购买|领取)"
+        r"(?:时间|期限)[：:\s]*"
+        r"(?P<start>\d{4}年\d{1,2}月\d{1,2}日)"
+        r".{0,20}?(?:至|到|-)\s*"
+        r"(?P<end>\d{4}年\d{1,2}月\d{1,2}日)"
+    ),
+    re.compile(
         r"(?:获取|购买|领取)(?:采购|磋商|招标|询比)?文件.{0,20}?"
         r"(?:时间|期限)[：:\s]*"
         r"(?P<start>\d{4}年\d{1,2}月\d{1,2}日)"
-        r".{0,20}?(?:至|到|-)"
+        r".{0,20}?(?:至|到|-)\s*"
         r"(?P<end>\d{4}年\d{1,2}月\d{1,2}日)"
     ),
     re.compile(
         r"报名时间[：:\s]*"
         r"(?P<start>\d{4}年\d{1,2}月\d{1,2}日)"
-        r".{0,20}?(?:至|到|-)"
+        r".{0,20}?(?:至|到|-)\s*"
         r"(?P<end>\d{4}年\d{1,2}月\d{1,2}日)"
     ),
 ]
 SPECIFIC_CONTENT_LABELS = (
     re.compile(r"招\s*标\s*内\s*容\s*[：:]"),
-    re.compile(r"采\s*购\s*内\s*容\s*[：:]"),
+    re.compile(
+        r"采\s*购\s*内\s*容"
+        r"(?:\s*及\s*要\s*求|"
+        r"\s*[、,，]\s*工\s*作\s*内\s*容"
+        r"\s*及\s*框\s*架\s*合\s*作\s*模\s*式)?"
+        r"\s*[：:]"
+    ),
     re.compile(r"招\s*标\s*范\s*围\s*[：:]"),
     re.compile(r"采\s*购\s*范\s*围\s*[：:]"),
 )
 SPECIFIC_CONTENT_END_RE = re.compile(
-    r"(?:\s|[。；;])\d{1,2}\s*[.、]\s*|"
+    r"(?:\s|[。；;])\d{1,2}(?:\.\d{1,2})?\s*[.、]?\s*|"
     r"(?:\s|[。；;])"
     r"(?:\d{1,2}\s*[.、]\s*)?"
     r"(?:项目名称|项目编号|标项名称|标项编号|采购方式|招标方式|"
@@ -159,6 +176,7 @@ def _extract(pattern: re.Pattern[str], text: str) -> str:
 
 
 def _deadline(text: str) -> str:
+    text = _compact_chinese_dates(text)
     for pattern in DEADLINE_PATTERNS:
         value = _extract(pattern, text)
         if value:
@@ -167,6 +185,7 @@ def _deadline(text: str) -> str:
 
 
 def _registration_period(text: str, publish_date: str) -> str:
+    text = _compact_chinese_dates(text)
     for pattern in REGISTRATION_PATTERNS:
         match = pattern.search(text)
         if match:
@@ -174,6 +193,13 @@ def _registration_period(text: str, publish_date: str) -> str:
             end = normalize_date(match.group("end"), publish_date, False)
             return f"{start}至{end}"
     return ""
+
+
+def _compact_chinese_dates(text: str) -> str:
+    text = re.sub(r"(?<=\d)\s+(?=\d)", "", text)
+    text = re.sub(r"(?<=\d)\s+(?=[年月日时分])", "", text)
+    text = re.sub(r"(?<=[年月日时分])\s+(?=\d)", "", text)
+    return text
 
 
 def _project_name(title: str, text: str) -> str:
@@ -199,7 +225,7 @@ def _project_content(text: str, fallback: str = "") -> str:
                 continue
             remainder = text[match.end():match.end() + 800]
             remainder = re.sub(
-                r"^\s*\d{1,2}\s*[.、]\s*",
+                r"^\s*\d{1,2}(?:\.\d{1,2})?\s*[.、]?\s*",
                 "",
                 remainder,
                 count=1,
@@ -207,6 +233,11 @@ def _project_content(text: str, fallback: str = "") -> str:
             end = SPECIFIC_CONTENT_END_RE.search(remainder)
             value = remainder[:end.start()] if end else remainder
             value = clean_text(value).strip("：:；;。 ")
+            if re.match(
+                r"^(?:招标内容|采购内容|招标范围|采购范围).{0,30}[：:]",
+                value,
+            ):
+                continue
             if _valid_project_content(value):
                 return value
     overview = PROJECT_OVERVIEW_RE.search(text)
