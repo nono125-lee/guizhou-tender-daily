@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-09T23:29:24.463782+08:00",
+  "updated_at": "2026-06-10T00:10:30.529354+08:00",
   "items": {
     "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888870": {
       "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888870",
@@ -1224,10 +1224,87 @@
         }
       ],
       "updated_at": "2026-06-09T23:29:24.463782+08:00"
+    },
+    "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=3YBDIeyLWccqeJsQoe27Jg==": {
+      "url": "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=3YBDIeyLWccqeJsQoe27Jg==",
+      "original_title": "肇兴侗寨景区核心区商户外语标识牌更换 采购需求公示",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-09",
+        "date_basis": "official",
+        "title": "肇兴侗寨景区核心区商户外语标识牌更换 采购需求公示",
+        "project_name": "肇兴侗寨景区核心区商户外语标识牌更换",
+        "url": "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=3YBDIeyLWccqeJsQoe27Jg==",
+        "budget": "992000元",
+        "summary": "肇兴侗寨景区核心区商户外语标识牌更换采购需求公示。",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "黔东南州",
+        "buyer": "黔东南州肇兴侗寨景区管理委员会",
+        "agency": "贵州贵久和工程项目管理有限公司",
+        "bid_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "标识"
+        ],
+        "source_name": "贵州省政府采购网",
+        "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
+        "new_on_date": "2026-06-09",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "d592ccac-8456-434f-92eb-e25c83c001cb",
+          "action": "confirm",
+          "created_at": "2026-06-09T16:08:20.352Z"
+        }
+      ],
+      "updated_at": "2026-06-10T00:10:30.529354+08:00"
+    },
+    "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=Weej4NBfrMLR+ewdjVcExA==": {
+      "url": "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=Weej4NBfrMLR+ewdjVcExA==",
+      "original_title": "贵阳市中小学2026-2029年监测试卷、答题卡印制及外语听力光盘刻录服务项目需求公示",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-08",
+        "date_basis": "official",
+        "title": "贵阳市中小学2026-2029年监测试卷、答题卡印制及外语听力光盘刻录服务项目需求公示",
+        "project_name": "贵阳市中小学2026-2029年监测试卷、答题卡印刷及听力光盘刻录服务项目",
+        "url": "http://www.ccgp-guizhou.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=190013&articleId=Weej4NBfrMLR+ewdjVcExA==",
+        "budget": "3767748.77元",
+        "summary": "贵阳市中小学监测试卷、答题卡印制及外语听力光盘制作服务。",
+        "project_content": "2027-2029年小学六年级综合素养监测、2026-2028年7月、2027-2029年1月初高中期末监测、2026-2028年11月高三质量监测试卷、答题卡的印制及听力光盘制作服务；按要求完成考试试卷及答题卡的排版、印制、包装、分发服务。",
+        "project_content_basis": "section-v3",
+        "location": "贵阳市",
+        "buyer": "贵阳市教育局",
+        "agency": "贵州东旭建设工程咨询有限公司",
+        "bid_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "印刷",
+          "印制"
+        ],
+        "source_name": "贵州省政府采购网",
+        "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
+        "new_on_date": "2026-06-09",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "b8b68ad5-18a5-4dce-bad5-f8f48d20689f",
+          "action": "confirm",
+          "created_at": "2026-06-09T16:08:34.987Z"
+        }
+      ],
+      "updated_at": "2026-06-10T00:10:30.529354+08:00"
     }
   },
   "summary": {
-    "confirmed": 17,
+    "confirmed": 19,
     "excluded": 6,
     "corrected": 16,
     "correction_fields": {
@@ -1307,6 +1384,7 @@
     "addca69c-bf4c-4b81-ac86-a4fc2bc6426f",
     "b0d630b9-c522-4eee-b59a-d3b1297f6201",
     "b198cdc8-25b0-4293-a282-eb1202efcbe0",
+    "b8b68ad5-18a5-4dce-bad5-f8f48d20689f",
     "b909bbaa-009f-4a83-ad2e-3f486a3d8a94",
     "ba132aa7-865c-4344-9a8e-1fb30845cf31",
     "bba1f4ef-4e23-419b-b139-5ca2cd87e612",
@@ -1315,6 +1393,7 @@
     "cda7440f-4e10-44e8-91b8-68d41860cdb0",
     "d0a323f7-438f-47d0-b5d5-8de4f9f313b5",
     "d18dc64c-d0a4-4936-a8db-3a5573cb8a4a",
+    "d592ccac-8456-434f-92eb-e25c83c001cb",
     "d66e180c-cee6-4c36-894c-ed85037d16ff",
     "dd1282e6-219c-42d7-b26b-9547cea16175",
     "df1b19ea-6faf-4e5f-be69-9e893fbb4415",
