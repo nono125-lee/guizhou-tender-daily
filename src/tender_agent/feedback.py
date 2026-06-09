@@ -284,6 +284,18 @@ def _result_markdown(events: list[dict], rules: dict) -> str:
 def ingest(args: argparse.Namespace) -> int:
     event_payload = json.loads(args.event.read_text(encoding="utf-8"))
     events = parse_feedback_body(event_payload.get("issue", {}).get("body", ""))
+    payload = json.loads(args.latest.read_text(encoding="utf-8"))
+    current_by_url = {
+        item.get("url", ""): item
+        for item in payload.get("items", [])
+        if item.get("url")
+    }
+    for event in events:
+        url = _event_key(event)
+        event["item"] = {
+            **current_by_url.get(url, {}),
+            **(event.get("item") or {}),
+        }
     rules = load_rules(args.rules)
     try:
         updated_rules = apply_events(rules, events)
@@ -295,7 +307,6 @@ def ingest(args: argparse.Namespace) -> int:
         )
         return 2
 
-    payload = json.loads(args.latest.read_text(encoding="utf-8"))
     apply_rules_to_payload(payload, updated_rules)
     payload["updated_at"] = updated_rules["updated_at"]
     payload.setdefault("stats", {})["total"] = len(payload.get("items", []))

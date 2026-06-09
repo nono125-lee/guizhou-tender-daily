@@ -1,11 +1,16 @@
 import copy
+import json
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import patch
 
 from tender_agent.feedback import (
     FeedbackConflict,
     apply_events,
     apply_rules_to_payload,
     empty_rules,
+    main,
     parse_feedback_body,
 )
 
@@ -82,6 +87,68 @@ class FeedbackTests(unittest.TestCase):
             len(repeated["items"]["https://example.com/1"]["history"]),
             1,
         )
+
+    def test_ingest_enriches_compact_browser_snapshot(self):
+        compact = event("confirm", "1")
+        compact["item"] = {"url": compact["url"], "title": "原项目名称"}
+        body = (
+            "<!-- TENDER_FEEDBACK_JSON\n"
+            + json.dumps({"events": [compact]}, ensure_ascii=False)
+            + "\n-->"
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paths = {
+                "event": root / "event.json",
+                "rules": root / "rules.json",
+                "latest": root / "latest.json",
+                "state": root / "state.json",
+                "result": root / "result.md",
+            }
+            paths["event"].write_text(
+                json.dumps({"issue": {"body": body}}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            paths["rules"].write_text(
+                json.dumps(empty_rules(), ensure_ascii=False),
+                encoding="utf-8",
+            )
+            paths["latest"].write_text(
+                json.dumps(
+                    {
+                        "items": [
+                            {
+                                "url": compact["url"],
+                                "title": "原项目名称",
+                                "project_content": "完整项目主要内容",
+                            }
+                        ],
+                        "stats": {},
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            argv = [
+                "feedback",
+                "--event",
+                str(paths["event"]),
+                "--rules",
+                str(paths["rules"]),
+                "--latest",
+                str(paths["latest"]),
+                "--public-state",
+                str(paths["state"]),
+                "--result",
+                str(paths["result"]),
+            ]
+            with patch("sys.argv", argv):
+                self.assertEqual(main(), 0)
+            rules = json.loads(paths["rules"].read_text(encoding="utf-8"))
+            self.assertEqual(
+                rules["items"][compact["url"]]["item_snapshot"]["project_content"],
+                "完整项目主要内容",
+            )
 
 
 if __name__ == "__main__":

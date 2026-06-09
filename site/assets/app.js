@@ -170,10 +170,17 @@ function issueBody(events) {
     if (event.action === "exclude") return `- 排除：${title}；原因：${event.reason}`;
     return `- 纠正：${title}；${FIELD_LABELS[event.field]}：${event.old_value || "空"} → ${event.new_value}`;
   });
+  const compactEvents = events.map((event) => ({
+    ...event,
+    item: {
+      url: event.item?.url || event.url,
+      title: event.item?.title || ""
+    }
+  }));
   const machine = JSON.stringify({
     schema_version: 1,
     submitted_at: new Date().toISOString(),
-    events
+    events: compactEvents
   });
   return [
     `本次反馈：确认 ${counts.confirm} 条，排除 ${counts.exclude} 条，纠正 ${counts.correct} 项。`,
