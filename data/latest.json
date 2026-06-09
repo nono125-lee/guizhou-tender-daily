@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T23:59:12.870359+08:00",
+  "updated_at": "2026-06-10T00:10:30.529354+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -371,7 +371,10 @@
       "source_name": "贵州省政府采购网",
       "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
       "new_on_date": "2026-06-09",
-      "is_new": true
+      "is_new": true,
+      "review_status": "confirmed",
+      "review_note": "",
+      "corrected_fields": []
     },
     {
       "published_at": "2026-06-08",
@@ -601,7 +604,10 @@
       "source_name": "贵州省政府采购网",
       "first_seen_at": "2026-06-09T23:59:12.870359+08:00",
       "new_on_date": "2026-06-09",
-      "is_new": true
+      "is_new": true,
+      "review_status": "confirmed",
+      "review_note": "",
+      "corrected_fields": []
     },
     {
       "published_at": "2026-06-07",
@@ -3308,7 +3314,10 @@
     "total": 137,
     "new_today": 13,
     "sources": 37,
-    "new_items": 10
+    "new_items": 10,
+    "feedback_confirmed": 19,
+    "feedback_excluded": 6,
+    "feedback_corrected": 16
   },
   "warnings": [
     "本次未发现新公告编号，已保留上次成功数据"
