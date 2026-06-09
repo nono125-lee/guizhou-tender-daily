@@ -7,7 +7,8 @@ const FIELD_LABELS = {
   agency: "采购代理机构",
   bid_deadline: "投标截止时间",
   registration_period: "报名日期",
-  source_name: "信息源名称"
+  source_name: "信息源名称",
+  project_content: "项目主要内容"
 };
 const state = { items: [], feedback: [], processedIds: new Set(), dialog: null };
 
@@ -75,7 +76,7 @@ function snapshot(item) {
     bid_deadline: item.bid_deadline || "",
     registration_period: item.registration_period || "",
     source_name: item.source_name || "",
-    project_content: item.project_content || item.summary || "",
+    project_content: item.project_content || "",
     location: item.location || "",
     matched_keywords: item.matched_keywords || []
   };
@@ -258,7 +259,7 @@ function render() {
     card.querySelector(".buyer").textContent = displayItem.buyer || "公告未载明";
     card.querySelector(".agency").textContent = displayItem.agency || "公告未载明";
     card.querySelector(".project-content").textContent =
-      item.project_content || item.summary || "请查看原公告了解具体内容。";
+      displayItem.project_content || "公告未载明";
     const keywords = card.querySelector(".keywords");
     (item.matched_keywords || []).slice(0, 8).forEach((keyword) => {
       const tag = document.createElement("span");
