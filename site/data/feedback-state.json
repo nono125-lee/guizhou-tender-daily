@@ -1,0 +1,9 @@
+{
+  "updated_at": "",
+  "processed_event_ids": [],
+  "summary": {
+    "confirmed": 0,
+    "excluded": 0,
+    "corrected": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated_at": "",
+  "items": {},
+  "summary": {
+    "confirmed": 0,
+    "excluded": 0,
+    "corrected": 0,
+    "correction_fields": {},
+    "exclusion_reasons": []
+  },
+  "processed_event_ids": []
+}

@@ -19,6 +19,7 @@ from .public_export import (
     normalize_public_item,
 )
 from .repository import Repository
+from .feedback import apply_rules_to_payload, load_rules
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -49,6 +50,9 @@ def _remove_excluded_notices(payload: dict) -> None:
 def _apply_keyword_rules(payload: dict, keywords: list[str]) -> None:
     kept = []
     for item in payload.get("items", []):
+        if item.get("review_status") == "confirmed":
+            kept.append(item)
+            continue
         matches = matched_tender_keywords(
             item.get("project_name") or item.get("title", ""),
             [
@@ -224,8 +228,9 @@ def update(args: argparse.Namespace) -> int:
             f"遵义公交官网采集异常：{type(error).__name__}"
         )
     _remove_excluded_notices(payload)
-    _apply_keyword_rules(payload, keywords)
     _hydrate_parties_from_database(payload, args.database)
+    apply_rules_to_payload(payload, load_rules())
+    _apply_keyword_rules(payload, keywords)
     _mark_new_items(payload, previous)
     _fill_party_placeholders(payload)
     _refresh_payload(payload)
