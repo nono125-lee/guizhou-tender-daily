@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ggzy-gcjs",
+    "name": "贵州省公共资源交易云-工程建设",
+    "url": "https://ggzy.guizhou.gov.cn/xxfw/gcjs/",
+    "collector": "ggzy",
+    "channel_id": "5904475"
+  },
+  {
+    "id": "ggzy-zfcg",
+    "name": "贵州省公共资源交易云-政府采购",
+    "url": "https://ggzy.guizhou.gov.cn/xxfw/zfcg/",
+    "collector": "ggzy",
+    "channel_id": "5904543"
+  },
+  {
+    "id": "ggzy-qttzjy",
+    "name": "贵州省公共资源交易云-其他交易",
+    "url": "https://ggzy.guizhou.gov.cn/xxfw/qttzjy/",
+    "collector": "ggzy",
+    "channel_id": "5904479"
+  },
+  {
+    "id": "eqyzc-gedc",
+    "name": "国企交易中心-贵州高速板块",
+    "url": "https://gedc.e-qyzc.com/#/home",
+    "collector": "eqyzc",
+    "platform_id": "1128366550799171584"
+  },
+  {
+    "id": "eqyzc-gzny",
+    "name": "国企交易中心-贵州能源板块",
+    "url": "https://gzny.e-qyzc.com/#/home",
+    "collector": "eqyzc",
+    "platform_id": "1138401312381157376"
+  },
+  {
+    "id": "eqyzc-gzqsgz",
+    "name": "国企交易中心-黔晟国资板块",
+    "url": "https://gzqsgz.e-qyzc.com/#/home",
+    "collector": "eqyzc",
+    "platform_id": "1168609957927596033"
+  },
+  {
+    "id": "eqyzc-gzst",
+    "name": "国企交易中心-贵州水投板块",
+    "url": "https://gzst.e-qyzc.com/#/home",
+    "collector": "eqyzc",
+    "platform_id": "1275059157423497217"
+  },
+  {
+    "id": "ztb-guizhou",
+    "name": "贵州省招标投标公共服务平台",
+    "url": "http://ztb.guizhou.gov.cn/",
+    "collector": "ztb"
+  },
+  {
+    "id": "eqyzc-main",
+    "name": "黔云招采电子招标采购交易平台",
+    "url": "https://www.e-qyzc.com/#/home",
+    "collector": "eqyzc",
+    "platform_id": "888364456116994049"
+  }
+]

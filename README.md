@@ -1,4 +1,4 @@
-# 标讯-贵州-图文广告
+# 贵州标讯系统
 
 这是一个面向多省份、多行业、多信息源的标讯采集项目。当前首期范围：
 
@@ -61,6 +61,9 @@ PYTHONPATH=src python3 -m tender_agent.site seed
 GitHub Actions 按 `Asia/Shanghai` 时区每天 7:15 启动。GitHub 官方说明定时任务在高负载时可能延迟，因此网页显示实际更新时间；如果采集失败，会保留上次成功数据并显示提示。
 
 公开页面：<https://nono125-lee.github.io/guizhou-tender-daily/>
+
+施工行业独立页面：
+<https://nono125-lee.github.io/guizhou-tender-daily/construction/>
 
 GitHub 仓库：<https://github.com/nono125-lee/guizhou-tender-daily>
 

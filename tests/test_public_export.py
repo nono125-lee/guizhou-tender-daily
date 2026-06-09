@@ -83,7 +83,12 @@ class PublicExportTests(unittest.TestCase):
         )
 
     def test_similar_headings_are_not_project_content(self):
-        for heading in ("采购需求", "项目主要内容", "简要技术要求"):
+        for heading in (
+            "采购需求",
+            "项目主要内容",
+            "简要技术要求",
+            "项目基本概况介绍",
+        ):
             with self.subTest(heading=heading):
                 self.assertEqual(
                     _project_content(f"{heading}：户外广告牌制作安装。"),

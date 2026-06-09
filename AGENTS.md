@@ -2,8 +2,8 @@
 
 ## 项目目标
 
-本项目采集贵州省图文广告行业标讯，统一筛选、去重并发布到
-GitHub Pages。后续通过配置扩展省份、行业和信息源。
+本项目分别采集贵州省图文广告和施工行业标讯，统一筛选、去重并发布到
+GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 
 ## 开始工作前
 
@@ -24,8 +24,10 @@ GitHub Pages。后续通过配置扩展省份、行业和信息源。
 - Agent代码：`src/tender_agent/`
 - 网站采集器：`src/tender_agent/collectors/`
 - Skill源文件：`skills/tender-intelligence/`
+- 施工Skill源文件：`skills/construction-tender-intelligence/`
 - 私密数据库：`data/private/tenders.sqlite3`
 - 公开网页：`site/`
+- 施工公开网页：`site/construction/`
 - 自动任务：`.github/workflows/daily-pages.yml`
 
 ## 修改要求
@@ -33,6 +35,9 @@ GitHub Pages。后续通过配置扩展省份、行业和信息源。
 - 新网站通常新增独立采集器，并补对应测试。
 - 区域和行业规则放在 `config/`，不要硬编码到采集器。
 - 关键词只能匹配项目名称、招标或采购内容、招标或采购范围、项目概况。
+- 施工板块例外：只允许在资格要求、资质要求、特殊资格要求栏目匹配
+  `config/industries/construction.json` 中的施工资质词；项目名称含监理、
+  审计、招标代理时直接排除。
 - 网页“项目主要内容”只提取公告中明确标注为“招标内容”“采购内容”
   “招标范围”“采购范围”或“项目概况”的栏目；其他栏目不得自动代替。
 - 采购人、招标人、代理机构、资格条件及公告其他正文中的关键词不得计入。

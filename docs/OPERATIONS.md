@@ -23,12 +23,15 @@
 | Codex已安装Skill | `/Users/nonolee/.codex/skills/tender-intelligence` | 指向项目Skill目录的软链接 |
 | 区域配置 | `config/regions.json` | 当前为贵州省 |
 | 图文广告关键词配置 | `config/industries/graphic-advertising.json` | 自动采集实际使用的关键词 |
+| 施工资质关键词配置 | `config/industries/construction.json` | 只在资格类栏目匹配 |
+| 施工信息源配置 | `config/construction_sources.json` | 九个施工公告来源 |
 | 信息源正式名称映射 | `config/source_names.json` | 网页展示名称 |
 | 人工核实公告 | `config/verified_notices.json` | 暂无采集器时的临时补录 |
 | 已确认误报排除清单 | `config/excluded_notices.json` | 每次更新时强制排除 |
 | 人工反馈规则 | `config/feedback_rules.json` | 保存确认、排除原因和字段纠正 |
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
+| 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
 | 自动任务 | `.github/workflows/daily-pages.yml` | 北京时间每天7:15运行 |
 | 测试 | `tests/` | 采集器和数据处理测试 |
@@ -105,12 +108,17 @@
 
 - 代码仓库：<https://github.com/nono125-lee/guizhou-tender-daily>
 - 公开页面：<https://nono125-lee.github.io/guizhou-tender-daily/>
+- 施工页面：<https://nono125-lee.github.io/guizhou-tender-daily/construction/>
 - 主分支：`main`
 - 网页发布分支：`gh-pages`
 - 自动任务名称：`每日标讯更新`
 
 自动任务每天北京时间7:15启动，也会在采集代码、配置或网页文件推送到
 `main`后启动。GitHub任务可能因平台排队稍有延迟。
+
+施工板块只在“资格要求”“资质要求”“特殊资格要求”栏目匹配施工资质词。
+项目名称含“监理”“审计”“招标代理”时直接排除。施工反馈规则保存在
+`config/construction_feedback_rules.json`，不写入图文广告反馈规则。
 
 ## 已知运行限制
 
