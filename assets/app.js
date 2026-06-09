@@ -34,6 +34,7 @@ function render() {
   const items = state.items.filter((item) => {
     const text = [
       item.title, item.project_content, item.summary, item.buyer, item.location,
+      item.agency,
       ...(item.matched_keywords || [])
     ].join(" ").toLowerCase();
     const published = new Date(`${item.published_at.slice(0, 10)}T00:00:00`);
@@ -53,12 +54,14 @@ function render() {
       item.date_basis === "official" ? "官方发布时间" : "采集日期";
     card.querySelector("time").textContent = item.published_at.slice(0, 10);
     card.querySelector(".location").textContent = regionOf(item);
+    const article = card.querySelector(".tender-card");
+    article.classList.toggle("is-new", Boolean(item.is_new));
+    card.querySelector(".new-badge").hidden = !item.is_new;
     const titleLink = card.querySelector("h3 a");
     titleLink.textContent = item.title;
     titleLink.href = item.url;
     const fields = [
       [".budget-row", ".budget", item.budget],
-      [".buyer-row", ".buyer", item.buyer],
       [".deadline-row", ".deadline", item.bid_deadline],
       [".registration-row", ".registration", item.registration_period],
       [".source-row", ".source", item.source_name]
@@ -67,6 +70,8 @@ function render() {
       card.querySelector(row).hidden = !content;
       card.querySelector(value).textContent = content || "";
     });
+    card.querySelector(".buyer").textContent = item.buyer || "公告未载明";
+    card.querySelector(".agency").textContent = item.agency || "公告未载明";
     card.querySelector(".project-content").textContent =
       item.project_content || item.summary || "请查看原公告了解具体内容。";
     const keywords = card.querySelector(".keywords");
@@ -76,7 +81,6 @@ function render() {
       keywords.append(tag);
     });
     card.querySelector(".read-more").href = item.url;
-    const article = card.querySelector(".tender-card");
     article.style.animationDelay = `${Math.min(index * 35, 350)}ms`;
     list.append(card);
   });
