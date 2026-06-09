@@ -27,6 +27,7 @@ class PublicExportTests(unittest.TestCase):
                 "registration_deadline": "06-10 17:00",
                 "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=1",
                 "summary": "广告制作具体内容",
+                "project_content": "广告制作具体内容",
             },
             {"ztb.guizhou.gov.cn": "贵州省招标投标公共服务平台"},
         )
@@ -71,13 +72,36 @@ class PublicExportTests(unittest.TestCase):
 
     def test_project_content_extracts_core_section(self):
         text = (
-            "一、项目基本信息 采购主要内容：户外广告牌制作安装及维护。"
+            "一、项目基本信息 采购内容：户外广告牌制作安装及维护。"
             "采购数量：24块 二、申请人的资格要求"
         )
         self.assertEqual(
             _project_content(text),
             "户外广告牌制作安装及维护",
         )
+
+    def test_similar_headings_are_not_project_content(self):
+        for heading in ("采购需求", "项目主要内容", "简要技术要求"):
+            with self.subTest(heading=heading):
+                self.assertEqual(
+                    _project_content(f"{heading}：户外广告牌制作安装。"),
+                    "",
+                )
+
+    def test_specific_content_is_preferred_inside_project_overview(self):
+        text = (
+            "一、项目概况与采购范围：1.项目名称：宣传服务。"
+            "2.项目编号：A01。3.采购内容：宣传册设计印刷。"
+            "4.服务期：一年。二、供应商资格要求"
+        )
+        self.assertEqual(_project_content(text), "宣传册设计印刷")
+
+    def test_specific_content_stops_before_next_numbered_item(self):
+        text = (
+            "采购内容：制作灯杆道旗及户外写真。"
+            "2.质保期：一年。3.服务地点：采购人指定地点。"
+        )
+        self.assertEqual(_project_content(text), "制作灯杆道旗及户外写真")
 
     def test_qualification_and_buyer_text_are_not_project_content(self):
         text = (

@@ -50,6 +50,13 @@ class FeedbackTests(unittest.TestCase):
                     old_value="原采购人",
                     new_value="纠正后的采购人",
                 ),
+                event(
+                    "correct",
+                    "3",
+                    field="project_content",
+                    old_value="",
+                    new_value="纠正后的采购内容",
+                ),
             ],
             "2026-06-10T08:00:00+08:00",
         )
@@ -57,6 +64,10 @@ class FeedbackTests(unittest.TestCase):
         apply_rules_to_payload(payload, rules)
         self.assertEqual(len(payload["items"]), 1)
         self.assertEqual(payload["items"][0]["buyer"], "纠正后的采购人")
+        self.assertEqual(
+            payload["items"][0]["project_content"],
+            "纠正后的采购内容",
+        )
         self.assertEqual(payload["items"][0]["review_status"], "confirmed")
 
     def test_excluded_item_is_removed(self):

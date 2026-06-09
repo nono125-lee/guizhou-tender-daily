@@ -48,29 +48,31 @@ REGISTRATION_PATTERNS = [
         r"(?P<end>\d{4}年\d{1,2}月\d{1,2}日)"
     ),
 ]
-PROJECT_CONTENT_PATTERNS = [
-    re.compile(
-        r"(?:项目概况和招标范围|项目概况及招标范围|招标或采购范围|"
-        r"招标范围|采购范围|采购主要内容|招标内容|采购内容及主要技术参数|"
-        r"采购内容|采购需求|项目主要内容|项目内容)"
-        r"[：:\s]*(.{2,800}?)"
-        r"(?=(?:供应商|投标人|申请人|响应人).{0,12}?资格|"
-        r"(?:获取|购买|领取).{0,12}?(?:采购|磋商|招标|询比)?文件|"
-        r"(?:响应文件|投标文件).{0,12}?(?:递交|提交|截止)|"
-        r"(?:采购数量|采购预算|预算金额|最高限价|服务期|服务期限|工期|交货期|"
-        r"质量标准|联系方式)[：:\s]|"
-        r"[一二三四五六七八九十]+、(?:供应商|投标人|申请人|获取|报名|响应)|$)"
-    ),
-    re.compile(
-        r"(?:项目概况|项目基本概况介绍、用途|"
-        r"简要技术要求、服务和安全要求)"
-        r"[：:\s]*(.{2,600}?)"
-        r"(?=(?:供应商|投标人|申请人|响应人).{0,12}?资格|"
-        r"(?:采购数量|采购预算|预算金额|最高限价|服务期|服务期限|工期|交货期|"
-        r"质量标准|联系方式)[：:\s]|"
-        r"[一二三四五六七八九十]+、(?:供应商|投标人|申请人|获取|报名|响应)|$)"
-    ),
-]
+SPECIFIC_CONTENT_LABELS = (
+    re.compile(r"招\s*标\s*内\s*容\s*[：:]"),
+    re.compile(r"采\s*购\s*内\s*容\s*[：:]"),
+    re.compile(r"招\s*标\s*范\s*围\s*[：:]"),
+    re.compile(r"采\s*购\s*范\s*围\s*[：:]"),
+)
+SPECIFIC_CONTENT_END_RE = re.compile(
+    r"(?:\s|[。；;])\d{1,2}\s*[.、]\s*|"
+    r"(?:\s|[。；;])"
+    r"(?:\d{1,2}\s*[.、]\s*)?"
+    r"(?:项目名称|项目编号|标项名称|标项编号|采购方式|招标方式|"
+    r"采购数量|采购预算|预算金额|最高限价|报价要求|服务期|服务期限|"
+    r"服务地点|工期|交货期|质量标准|联系方式|踏勘现场)"
+    r"\s*[：:]|"
+    r"(?:\s|[。；;])(?:\d{1,2}\s*[.、]\s*)?"
+    r"(?:供应商|投标人|申请人|响应人).{0,12}?资格|"
+    r"\s+[二三四五六七八九十]\s*[、.]"
+)
+PROJECT_OVERVIEW_RE = re.compile(
+    r"项目\s*概\s*况"
+    r"(?:\s*(?:和|及|与)\s*(?:招\s*标|采\s*购)\s*范\s*围)?"
+    r"\s*[：:]?\s*(?P<value>.{2,1200}?)"
+    r"(?=\s+[二三四五六七八九十]\s*[、.]|"
+    r"\s+(?:供应商|投标人|申请人|响应人).{0,12}?资格|$)"
+)
 PROJECT_NAME_PATTERNS = [
     re.compile(
         r"(?:项目名称|标项名称)[：:\s]*"
@@ -190,17 +192,38 @@ def _project_name(title: str, text: str) -> str:
 
 
 def _project_content(text: str, fallback: str = "") -> str:
-    for pattern in PROJECT_CONTENT_PATTERNS:
-        match = pattern.search(text)
-        if match:
-            value = clean_text(match.group(1)).strip("：:；;。 ")
-            if (
-                value
-                and not value.startswith("详见")
-                and value not in {"详见采购文件", "详见磋商文件", "详见招标文件"}
-            ):
+    for label_pattern in SPECIFIC_CONTENT_LABELS:
+        for match in label_pattern.finditer(text):
+            prefix = text[max(0, match.start() - 16):match.start()]
+            if "项目概况" in prefix:
+                continue
+            remainder = text[match.end():match.end() + 800]
+            remainder = re.sub(
+                r"^\s*\d{1,2}\s*[.、]\s*",
+                "",
+                remainder,
+                count=1,
+            )
+            end = SPECIFIC_CONTENT_END_RE.search(remainder)
+            value = remainder[:end.start()] if end else remainder
+            value = clean_text(value).strip("：:；;。 ")
+            if _valid_project_content(value):
                 return value
-    return clean_text(fallback)
+    overview = PROJECT_OVERVIEW_RE.search(text)
+    if overview:
+        value = clean_text(overview.group("value")).strip("：:；;。 ")
+        if _valid_project_content(value):
+            return value
+    return ""
+
+
+def _valid_project_content(value: str) -> bool:
+    compact = re.sub(r"[\s\d.、:：；;（）()]+", "", value)
+    return (
+        len(compact) >= 4
+        and not value.startswith("详见")
+        and value not in {"详见采购文件", "详见磋商文件", "详见招标文件"}
+    )
 
 
 def _party_name(text: str, pattern: re.Pattern[str]) -> str:
@@ -243,7 +266,8 @@ def _enrich_existing_item(item: dict) -> dict:
     if "ztb.guizhou.gov.cn" not in url or not match:
         return normalize_public_item(item)
     needs_content = (
-        not item.get("project_content")
+        item.get("project_content_basis") != "section-v3"
+        or not item.get("project_content")
         or len(item.get("project_content", "")) > 400
         or item.get("project_content", "").startswith("详见")
     )
@@ -263,9 +287,8 @@ def _enrich_existing_item(item: dict) -> dict:
         enriched["published_at"] = official_publish_date
         enriched["date_basis"] = "official"
     if needs_content and content:
-        enriched["project_content"] = _project_content(
-            content, item.get("summary", "")
-        )
+        enriched["project_content"] = _project_content(content)
+        enriched["project_content_basis"] = "section-v3"
     registration_period = _registration_period(
         content, enriched.get("published_at", "")
     )
@@ -349,6 +372,7 @@ def collect(
                 "budget": _extract(MONEY_RE, content),
                 "summary": project_content,
                 "project_content": project_content,
+                "project_content_basis": "section-v3",
                 "location": "贵州省",
                 "buyer": buyer,
                 "agency": agency,

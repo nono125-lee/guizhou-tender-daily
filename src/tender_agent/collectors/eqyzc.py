@@ -144,13 +144,10 @@ def item_from_detail(
     title = clean_text(listing.get("businessName") or detail.get("businessName"))
     project_overview = clean_text(detail.get("projectOverview"))
     bidding_scope = clean_text(detail.get("biddingScope"))
-    overview = (
-        bidding_scope
-        if bidding_scope
-        else project_overview
+    overview = bidding_scope or (
+        project_overview
         if project_overview and not project_overview.startswith("详见")
-        else clean_text(detail.get("bidSectionName"))
-        or clean_text(listing.get("purchaseProjectName"))
+        else ""
     )
     project_name = clean_text(detail.get("purchaseProjectName"))
     matches = matched_tender_keywords(
@@ -193,7 +190,8 @@ def item_from_detail(
                 detail.get("extMap"),
             ),
             "summary": overview,
-            "project_content": overview or project_name,
+            "project_content": overview,
+            "project_content_basis": "section-v3",
             "location": clean_text(detail.get("address")) or "贵州省",
             "buyer": clean_text(detail.get("tendererName")),
             "agency": clean_text(

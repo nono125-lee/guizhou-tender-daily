@@ -47,6 +47,31 @@ class EqyzcCollectorTests(unittest.TestCase):
         )
         self.assertEqual(item["buyer"], "贵州燃气集团毕节市燃气有限责任公司")
         self.assertEqual(item["agency"], "贵州测试招标代理有限公司")
+        self.assertEqual(
+            item["project_content"],
+            "图文设计、广告制作、标识标牌安装",
+        )
+
+    def test_project_name_is_not_used_as_project_content_fallback(self):
+        item = item_from_detail(
+            {
+                "id": "3",
+                "noticeType": 1,
+                "publishStatus": 1,
+                "businessName": "图文广告服务采购公告",
+            },
+            {
+                "data": {
+                    "biddingNotice": {
+                        "businessName": "图文广告服务采购公告",
+                        "purchaseProjectName": "图文广告服务",
+                    }
+                }
+            },
+            ["广告"],
+        )
+        self.assertIsNotNone(item)
+        self.assertEqual(item["project_content"], "")
 
     def test_non_matching_notice_is_ignored(self):
         item = item_from_detail(

@@ -23,6 +23,7 @@ ALLOWED_FIELDS = {
     "bid_deadline",
     "registration_period",
     "source_name",
+    "project_content",
 }
 FIELD_LABELS = {
     "title": "项目名称",
@@ -32,6 +33,7 @@ FIELD_LABELS = {
     "bid_deadline": "投标截止时间",
     "registration_period": "报名日期",
     "source_name": "信息源名称",
+    "project_content": "项目主要内容",
 }
 
 

@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 from ..normalize import clean_text, matched_keywords, matched_tender_keywords
 from ..public_export import normalize_public_item
+from .guizhou_ztb import _project_content
 
 
 BASE_URL = "http://www.zunyibus.com"
@@ -79,11 +80,7 @@ def parse_detail(notice: dict, content: str, keywords: list[str]) -> dict:
         deadline = end
     buyer_match = BUYER_RE.search(text)
     buyer = buyer_match.group(1) if buyer_match else SOURCE_NAME
-    project_content = (
-        "公交户外广告、站牌、临时站牌、公交车内线路信息标识"
-        "制作安装；包含写真标牌、PVC展板、车身及车尾公益广告、"
-        "铁质临时站牌等，制作安装单位1家，合作期最高两年。"
-    )
+    project_content = _project_content(text)
     matches = matched_tender_keywords(
         notice["title"],
         [project_content],
@@ -100,6 +97,7 @@ def parse_detail(notice: dict, content: str, keywords: list[str]) -> dict:
                 "合作期最高两年。"
             ),
             "project_content": project_content,
+            "project_content_basis": "section-v3",
             "location": "遵义市",
             "buyer": buyer,
             "agency": "无",

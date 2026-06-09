@@ -104,8 +104,7 @@ def normalize_public_item(
     )
     result["project_content"] = (
         result.get("project_content")
-        or result.get("summary")
-        or "请查看原公告了解具体内容。"
+        or ""
     )
     return result
 
