@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-10T00:10:30.529354+08:00",
+  "updated_at": "2026-06-10T22:26:00.650063+08:00",
   "items": {
     "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888870": {
       "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888870",
@@ -1301,17 +1301,961 @@
         }
       ],
       "updated_at": "2026-06-10T00:10:30.529354+08:00"
+    },
+    "https://www.e-qyzc.com/#/trade-info-detail?id=1514190000427405312&noticeType=1&publishStatus=1": {
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514190000427405312&noticeType=1&publishStatus=1",
+      "original_title": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装(三次)竞价采购公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "budget": "公告未载明",
+        "agency": "无",
+        "bid_deadline": "2026-06-15 10:00"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装(三次)竞价采购公告",
+        "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514190000427405312&noticeType=1&publishStatus=1",
+        "budget": "5113.52万元",
+        "summary": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装",
+        "project_content": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装",
+        "project_content_basis": "section-v3",
+        "location": "贵州省云岩区",
+        "buyer": "贵州省建设投资集团有限公司",
+        "agency": "贵州省建设投资集团有限公司",
+        "bid_deadline": "2026-06-15 10:00",
+        "registration_period": "2026-06-10至2026-06-14",
+        "matched_keywords": [
+          "广告"
+        ],
+        "source_name": "黔云招采电子招标采购交易平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "c7dc53d8-8b5f-426d-9b7a-51ce53ec4724",
+          "action": "correct",
+          "field": "budget",
+          "old_value": "5113.52万元",
+          "new_value": "公告未载明",
+          "created_at": "2026-06-10T13:49:39.190Z"
+        },
+        {
+          "id": "2dbe964b-d449-4e7e-aa5d-b8d1f9a2f493",
+          "action": "correct",
+          "field": "agency",
+          "old_value": "贵州省建设投资集团有限公司",
+          "new_value": "无",
+          "created_at": "2026-06-10T13:49:58.005Z"
+        },
+        {
+          "id": "416416d3-3c41-460a-944e-e50a1fd8261a",
+          "action": "correct",
+          "field": "bid_deadline",
+          "old_value": "2026-06-14 19:00",
+          "new_value": "2026-06-15 10:00",
+          "created_at": "2026-06-10T13:50:13.288Z"
+        },
+        {
+          "id": "9607c645-e829-41fb-bd20-78133bc21f41",
+          "action": "confirm",
+          "created_at": "2026-06-10T13:50:33.593Z"
+        },
+        {
+          "id": "ad6eb7fb-1808-428f-af22-0f43b2a55a0e",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:01:56.315Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "https://www.e-qyzc.com/#/trade-info-detail?id=1514236755126816768&noticeType=1&publishStatus=1": {
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514236755126816768&noticeType=1&publishStatus=1",
+      "original_title": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次)询比采购公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "registration_period": "2026-06-10至2026-06-15",
+        "bid_deadline": "2026-06-16 13:30"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次)询比采购公告",
+        "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514236755126816768&noticeType=1&publishStatus=1",
+        "budget": "155.224万元",
+        "summary": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购",
+        "project_content": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购",
+        "project_content_basis": "section-v3",
+        "location": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程沿线项目指定地点",
+        "buyer": "黔西南公路建设养护有限公司",
+        "agency": "贵州建养公路技术咨询有限公司",
+        "bid_deadline": "2026-06-16 13:30",
+        "registration_period": "2026-06-10至2026-06-15",
+        "matched_keywords": [
+          "标牌",
+          "标志"
+        ],
+        "source_name": "黔云招采电子招标采购交易平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "620a7f46-aa05-40c4-8a98-b8ffb0e9d478",
+          "action": "correct",
+          "field": "registration_period",
+          "old_value": "2026-06-09至2026-06-14",
+          "new_value": "2026-06-09至2026-06-15",
+          "created_at": "2026-06-10T13:51:37.932Z"
+        },
+        {
+          "id": "38ece64f-dc74-493a-9969-8485f1eb1ed9",
+          "action": "correct",
+          "field": "registration_period",
+          "old_value": "2026-06-09至2026-06-15",
+          "new_value": "2026-06-10至2026-06-15",
+          "created_at": "2026-06-10T13:51:46.955Z"
+        },
+        {
+          "id": "dafd146b-8671-4dd4-842e-32e37221c874",
+          "action": "correct",
+          "field": "bid_deadline",
+          "old_value": "2026-06-15 22:30",
+          "new_value": "2026-06-16 13:30",
+          "created_at": "2026-06-10T13:52:04.130Z"
+        },
+        {
+          "id": "6e96998f-9a53-4f1a-8a7c-7bb3dacaf497",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:01:38.333Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889515": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889515",
+      "original_title": "观山湖区“去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动采购公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "bid_deadline": "2026-06-23 15:30",
+        "registration_period": "2026-06-11日至2026-06-17"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "观山湖区“去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889515",
+        "budget": "99000.00元",
+        "summary": "观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 的潜在供应商应在 贵州鼎盛鑫项目管理有限公司（贵阳市观山湖区富力中心 A7座13楼3号） 获取采购文件（获取方式：现场获取），并于 2026年6月23日15点30分 （北京时间）前提交响应文件。 一、项目基本情况 项目编号： GZDSX-2026-151 项目名称： 观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 采购方式：竞争性磋商 预算金额： 99000.00元 采购需求： 观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动",
+        "project_content": "观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 的潜在供应商应在 贵州鼎盛鑫项目管理有限公司（贵阳市观山湖区富力中心 A7座13楼3号） 获取采购文件（获取方式：现场获取），并于 2026年6月23日15点30分 （北京时间）前提交响应文件。 一、项目基本情况 项目编号： GZDSX-2026-151 项目名称： 观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 采购方式：竞争性磋商 预算金额： 99000.00元 采购需求： 观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵阳市观山湖区文体广电旅游局",
+        "agency": "贵州鼎盛鑫项目管理有限公司",
+        "bid_deadline": "2026-06-23",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "文化"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "096a1112-da88-4344-be6c-481ed9ef4155",
+          "action": "correct",
+          "field": "bid_deadline",
+          "old_value": "2026-06-23",
+          "new_value": "2026-06-23 15:30",
+          "created_at": "2026-06-10T14:03:03.057Z"
+        },
+        {
+          "id": "0503df01-d572-443b-bfc7-a8ed5e5559c3",
+          "action": "correct",
+          "field": "registration_period",
+          "new_value": "2026-06-11日至2026-06-17",
+          "created_at": "2026-06-10T14:03:30.025Z"
+        },
+        {
+          "id": "82dbf375-1f8c-4057-b62c-19b7695aee33",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:04:07.046Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889512": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889512",
+      "original_title": "贵州中烟工业有限责任公司2026年遵义卷烟厂测量设备检测采购项目招标公告",
+      "status": "excluded",
+      "exclude_reason": "项目主要内容为：检定/校准/测试等检测服务",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵州中烟工业有限责任公司2026年遵义卷烟厂测量设备检测采购项目招标公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889512",
+        "budget": "",
+        "summary": "对遵义卷烟厂所需检测的测量器具提供检定/校准/测试等检测服务，在检测完成后附上对应检定/校准/测试证书。（具体要求详见“第五章 招标人基本需求说明”）",
+        "project_content": "对遵义卷烟厂所需检测的测量器具提供检定/校准/测试等检测服务，在检测完成后附上对应检定/校准/测试证书。（具体要求详见“第五章 招标人基本需求说明”）",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州中烟工业有限责任公司遵义卷烟厂",
+        "agency": "广州市百业建设顾问有限公司",
+        "bid_deadline": "2026-07-07 09:30",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "证书"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "f3d5ffca-ab9d-4f4d-a7a5-95bbd281f96b",
+          "action": "exclude",
+          "reason": "项目主要内容为：检定/校准/测试等检测服务",
+          "created_at": "2026-06-10T14:04:45.363Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889508": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889508",
+      "original_title": "贵州省自然资源融媒体宣传服务竞争性磋商公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "bid_deadline": "2026-06-22 16:00",
+        "budget": "300000.00元"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵州省自然资源融媒体宣传服务竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889508",
+        "budget": "",
+        "summary": "贵州省自然资源融媒体宣传服务，包含但不限于组建融媒体新闻中心和运维政务新媒体、稿件 的 采编和推送等。（具体详见采购文件）",
+        "project_content": "贵州省自然资源融媒体宣传服务，包含但不限于组建融媒体新闻中心和运维政务新媒体、稿件 的 采编和推送等。（具体详见采购文件）",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州省自然资源厅",
+        "agency": "贵州中泰项目管理有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "2026-06-11至2026-06-18",
+        "matched_keywords": [
+          "宣传"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "7cc3384e-73ff-4133-991c-6aafbf8687c5",
+          "action": "correct",
+          "field": "bid_deadline",
+          "new_value": "2026-06-22 16:00",
+          "created_at": "2026-06-10T14:05:23.077Z"
+        },
+        {
+          "id": "d5136e8e-4d9f-4d92-9033-4aa4996bc454",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:05:32.220Z"
+        },
+        {
+          "id": "418f20f8-249c-4e67-83c9-1a82c53d5ddf",
+          "action": "correct",
+          "field": "budget",
+          "new_value": "300000.00元",
+          "created_at": "2026-06-10T14:06:10.691Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889504": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889504",
+      "original_title": "政务新媒体运维竞争性磋商公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "budget": "230000.00元",
+        "bid_deadline": "2026-06-22 15:00"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "政务新媒体运维竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889504",
+        "budget": "",
+        "summary": "政务新媒体运维 ， 包含但不限于新媒体平台内容编辑、排版优化、宣传策划等 。（具体详见采购文件）",
+        "project_content": "政务新媒体运维 ， 包含但不限于新媒体平台内容编辑、排版优化、宣传策划等 。（具体详见采购文件）",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州省自然资源厅",
+        "agency": "贵州中泰项目管理有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "2026-06-11至2026-06-18",
+        "matched_keywords": [
+          "宣传"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "cdcdbe68-6ab6-4114-8620-63565d3a5c46",
+          "action": "correct",
+          "field": "budget",
+          "new_value": "230000.00元",
+          "created_at": "2026-06-10T14:05:58.010Z"
+        },
+        {
+          "id": "21e6cdce-091f-45c1-b65f-1ff23f5e7713",
+          "action": "correct",
+          "field": "bid_deadline",
+          "new_value": "2026-06-22 15:00",
+          "created_at": "2026-06-10T14:06:40.137Z"
+        },
+        {
+          "id": "691bf7c1-cb40-4232-a209-db2430b6e786",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:06:43.233Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889501": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889501",
+      "original_title": "自然资源年鉴竞争性磋商公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "budget": "180000.00元",
+        "bid_deadline": "2026-06-22 14:00"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "自然资源年鉴竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889501",
+        "budget": "",
+        "summary": "按采购人要求完成省自然资源年鉴的组稿编辑、设计与印刷出版、并提交成果文件交付采购人及相关单位。（具体内容详见采购文件）",
+        "project_content": "按采购人要求完成省自然资源年鉴的组稿编辑、设计与印刷出版、并提交成果文件交付采购人及相关单位。（具体内容详见采购文件）",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州省自然资源厅",
+        "agency": "贵州中泰项目管理有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "2026-06-11至2026-06-18",
+        "matched_keywords": [
+          "印刷"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "f654826e-e41d-4bb8-bc62-78d42bf2700b",
+          "action": "correct",
+          "field": "budget",
+          "new_value": "180000.00元",
+          "created_at": "2026-06-10T14:06:58.029Z"
+        },
+        {
+          "id": "c796a480-0a9a-43db-943a-899ded57806f",
+          "action": "correct",
+          "field": "bid_deadline",
+          "new_value": "2026-06-22 14:00",
+          "created_at": "2026-06-10T14:07:31.117Z"
+        },
+        {
+          "id": "5f15722f-4aa1-4957-9535-5421c06b7b25",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:07:33.415Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889493": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889493",
+      "original_title": "2026年生态文明贵阳国际论坛研讨会设计及氛围搭建、监理服务项目 采购公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称中含有监理服务",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "2026年生态文明贵阳国际论坛研讨会设计及氛围搭建、监理服务项目 采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889493",
+        "budget": "350",
+        "summary": "",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州日报当代传媒有限责任公司",
+        "agency": "新华招标有限公司",
+        "bid_deadline": "2026-06-23 10:00",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "氛围"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "7997aabe-67ed-4edf-a4ef-3186e186d04b",
+          "action": "exclude",
+          "reason": "项目名称中含有监理服务",
+          "created_at": "2026-06-10T14:08:08.122Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889463": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889463",
+      "original_title": "观山湖区“去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动采购公告",
+      "status": "excluded",
+      "exclude_reason": "重复收集了",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "观山湖区“去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889463",
+        "budget": "99000.00元",
+        "summary": "观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 的潜在供应商应在 贵州鼎盛鑫项目管理有限公司（贵阳市观山湖区富力中心 A7座13楼3号） 获取采购文件（获取方式：现场获取），并于 2026年6月23日15点30分 （北京时间）前提交响应文件。 一、项目基本情况 项目编号： GZDSX-2026-151 项目名称： 观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 采购方式：竞争性磋商 预算金额： 99000.00元 采购需求： 2026年观山湖区“广场之夜·艺鸣惊人”暨文化馆服务宣传周系列活动实施",
+        "project_content": "观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 的潜在供应商应在 贵州鼎盛鑫项目管理有限公司（贵阳市观山湖区富力中心 A7座13楼3号） 获取采购文件（获取方式：现场获取），并于 2026年6月23日15点30分 （北京时间）前提交响应文件。 一、项目基本情况 项目编号： GZDSX-2026-151 项目名称： 观山湖区 “去野！去Yeah！”暨“送文化下乡·乡村振兴”避暑季系列文化活动 采购方式：竞争性磋商 预算金额： 99000.00元 采购需求： 2026年观山湖区“广场之夜·艺鸣惊人”暨文化馆服务宣传周系列活动实施",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵阳市观山湖区文体广电旅游局",
+        "agency": "贵州鼎盛鑫项目管理有限公司",
+        "bid_deadline": "2026-06-23",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "宣传",
+          "文化"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "6c7453ea-af9f-4516-8c8c-e1264662eaa5",
+          "action": "exclude",
+          "reason": "重复收集了",
+          "created_at": "2026-06-10T14:08:37.079Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889402": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889402",
+      "original_title": "2026 避暑旅游季开幕式暨 “我们的中国梦・文化进万家”赶花山活动服务采购项目比选公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "registration_period": "2026-06-10至2026-06-15",
+        "bid_deadline": "2026-06-16 16:00"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "2026 避暑旅游季开幕式暨 “我们的中国梦・文化进万家”赶花山活动服务采购项目比选公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889402",
+        "budget": "466240.00 元",
+        "summary": "活动全程执行服务，包含民俗巡游、迎宾、开幕式文艺表演、千人花山舞、射弩比赛、民俗挑战赛、苗族盛装走秀大赛、闭幕式文艺演 出 、农特产品展示展销、现场氛围布置、比赛道具、人员组织、安全保障、物料运输、现场协调、颁奖执行等全部相关服务",
+        "project_content": "活动全程执行服务，包含民俗巡游、迎宾、开幕式文艺表演、千人花山舞、射弩比赛、民俗挑战赛、苗族盛装走秀大赛、闭幕式文艺演 出 、农特产品展示展销、现场氛围布置、比赛道具、人员组织、安全保障、物料运输、现场协调、颁奖执行等全部相关服务",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "威宁彝族回族苗族自治县文体广电旅游局",
+        "agency": "中审润奥项目管理有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "文化",
+          "展示",
+          "物料",
+          "氛围"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "4d397ab5-60f1-4596-ad2c-21dc48b942de",
+          "action": "correct",
+          "field": "registration_period",
+          "new_value": "2026-06-10至2026-06-15",
+          "created_at": "2026-06-10T14:09:20.856Z"
+        },
+        {
+          "id": "22d976c9-07a1-46c8-a0d5-27549f271562",
+          "action": "correct",
+          "field": "bid_deadline",
+          "new_value": "2026-06-16 16:00",
+          "created_at": "2026-06-10T14:09:34.500Z"
+        },
+        {
+          "id": "3809021b-52eb-483f-8dee-702c0ea2c737",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:09:37.825Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889341": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889341",
+      "original_title": "卫生健康户外宣传竞争性磋商公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "buyer": "贵州省卫生健康委员会"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "卫生健康户外宣传竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889341",
+        "budget": "280000.00 元",
+        "summary": "",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "公告未载明",
+        "agency": "贵州卫虹招标有限公司",
+        "bid_deadline": "2026-06-22 09:30",
+        "registration_deadline": "",
+        "registration_period": "2026-06-11至2026-06-17",
+        "matched_keywords": [
+          "宣传"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "5e47b864-1219-4ae5-b60b-d0099750aa67",
+          "action": "correct",
+          "field": "buyer",
+          "old_value": "公告未载明",
+          "new_value": "贵州省卫生健康委员会",
+          "created_at": "2026-06-10T14:10:11.540Z"
+        },
+        {
+          "id": "01cc6b3a-82bb-45d1-96d5-3a64cf84470c",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:10:26.172Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889281": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889281",
+      "original_title": "贵阳分公司2026年企业文化建设影像服务项目采购公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含影像服务",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵阳分公司2026年企业文化建设影像服务项目采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889281",
+        "budget": "",
+        "summary": "开展贵阳分公司",
+        "project_content": "开展贵阳分公司",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "国家管网集团西南管道有限责任公司贵阳输油气分公司 的",
+        "agency": "国信招标集团股份有限公司",
+        "bid_deadline": "2026-06-16 09:30",
+        "registration_deadline": "",
+        "registration_period": "2026-06-10至2026-06-15",
+        "matched_keywords": [
+          "文化"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "a9a1d6f9-2039-4607-830d-8ae5bc840113",
+          "action": "exclude",
+          "reason": "项目名称包含影像服务",
+          "created_at": "2026-06-10T14:11:14.442Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889274": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889274",
+      "original_title": "AI互动传播矩阵建设及图文直播项目采购公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含直播",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "AI互动传播矩阵建设及图文直播项目采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889274",
+        "budget": "30万元",
+        "summary": "",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "中共黔南州委宣传部",
+        "agency": "贵州建程招标有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "图文"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "3bfc747f-66cf-4820-a1c7-d41edc6890c7",
+          "action": "exclude",
+          "reason": "项目名称包含直播",
+          "created_at": "2026-06-10T14:11:57.255Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889273": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889273",
+      "original_title": "“生态之州 幸福黔南”腾讯宣传推广项目采购公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含腾讯宣传推广",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "“生态之州 幸福黔南”腾讯宣传推广项目采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889273",
+        "budget": "30万元",
+        "summary": "",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "中共黔南州委宣传部",
+        "agency": "贵州建程招标有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "宣传"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "42c5cf58-a07b-4e01-b7ac-f13e96e7f31d",
+          "action": "exclude",
+          "reason": "项目名称包含腾讯宣传推广",
+          "created_at": "2026-06-10T14:12:17.956Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889235": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889235",
+      "original_title": "贵州四只鹤文化传媒公司信息化服务项目-邀请招标公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含信息化服务",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵州四只鹤文化传媒公司信息化服务项目-邀请招标公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889235",
+        "budget": "",
+        "summary": "我公司受 贵州四只鹤文化传媒有限公司 的委托 ， 对 贵州四只鹤文化传媒公司信息化服务项目 进行国内邀请招标，现邀请贵单位参加投标。 采购编号： GZBZ-2026-Y021 采购方式： 邀请招标 项目名称： 贵州四只鹤文化传媒公司信息化服务项目 预算金额（元）： 180000.00 最高限价（元）： 180000.00 采购需求 ： 传媒基地设施设备维保服务等（详见招标文件）。 服务期 ： 2年。 服务地点 :采购人指定地点 标段：本项目共划分为 1个标包。 其他事项（如样品提交、现场踏勘等） :无 本项目 （否） 接受联合体投标",
+        "project_content": "我公司受 贵州四只鹤文化传媒有限公司 的委托 ， 对 贵州四只鹤文化传媒公司信息化服务项目 进行国内邀请招标，现邀请贵单位参加投标。 采购编号： GZBZ-2026-Y021 采购方式： 邀请招标 项目名称： 贵州四只鹤文化传媒公司信息化服务项目 预算金额（元）： 180000.00 最高限价（元）： 180000.00 采购需求 ： 传媒基地设施设备维保服务等（详见招标文件）。 服务期 ： 2年。 服务地点 :采购人指定地点 标段：本项目共划分为 1个标包。 其他事项（如样品提交、现场踏勘等） :无 本项目 （否） 接受联合体投标",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州四只鹤文化传媒有限公司",
+        "agency": "贵州秉致项目管理有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "文化"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "28f52a93-bee7-4ca9-bf2b-5648e2c1e4c8",
+          "action": "exclude",
+          "reason": "项目名称包含信息化服务",
+          "created_at": "2026-06-10T14:13:18.880Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889135": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889135",
+      "original_title": "贵州理工学院创新创业学院文化定制设计服务项目竞争性磋商公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含：设计服务",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵州理工学院创新创业学院文化定制设计服务项目竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889135",
+        "budget": "",
+        "summary": "",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州理工学院 联系",
+        "agency": "贵州鹏业云通建设咨询有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "文化"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "b48c3f08-943f-414f-ac0d-040c6ab3da8b",
+          "action": "exclude",
+          "reason": "项目名称包含：设计服务",
+          "created_at": "2026-06-10T14:13:51.264Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889063": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889063",
+      "original_title": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次)询比采购公告",
+      "status": "excluded",
+      "exclude_reason": "重复了",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次)询比采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889063",
+        "budget": "",
+        "summary": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次) 4.2 标段编号： GQQY-XB2026060276-001 招标文件获取： 4.3 凡有意参加投标者，请于 2026-06-10 12:00 至 2026-06-15 13:00 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： / 4.6 其他事项： 4.7 是否接受联合体投标： 否 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-06-16 13:30 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 / 6. 联系方式 招标人： 黔西南公路建设养护有限公司 联系地址： 联系人： 宋杰 联系电话： 18786863317 项目监督： 联系电话： 招标代理： 贵州建养公路技术咨询有限公司 联系地址： 贵州省贵阳市南明区花溪大道中段皂角井 联系人： 陈豪 联系电话： 15348654613 联系人： 王龙 联系电话： 13628504857 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+        "project_content": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次) 4.2 标段编号： GQQY-XB2026060276-001 招标文件获取： 4.3 凡有意参加投标者，请于 2026-06-10 12:00 至 2026-06-15 13:00 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： / 4.6 其他事项： 4.7 是否接受联合体投标： 否 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-06-16 13:30 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 / 6. 联系方式 招标人： 黔西南公路建设养护有限公司 联系地址： 联系人： 宋杰 联系电话： 18786863317 项目监督： 联系电话： 招标代理： 贵州建养公路技术咨询有限公司 联系地址： 贵州省贵阳市南明区花溪大道中段皂角井 联系人： 陈豪 联系电话： 15348654613 联系人： 王龙 联系电话： 13628504857 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "黔西南公路建设养护有限公司",
+        "agency": "贵州建养公路技术咨询有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "标牌",
+          "标志"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "127aa311-8c4a-47d3-b4a0-e252a008b972",
+          "action": "exclude",
+          "reason": "重复了",
+          "created_at": "2026-06-10T14:14:16.875Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889034": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889034",
+      "original_title": "定制瓶装水供应商采购项目（三次）竞争性磋商公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含：定制瓶装水供应商",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "定制瓶装水供应商采购项目（三次）竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889034",
+        "budget": "",
+        "summary": "定制瓶装水，采购人 LOGO印制专属标签设计（具体参数及数量详见采购文件）",
+        "project_content": "定制瓶装水，采购人 LOGO印制专属标签设计（具体参数及数量详见采购文件）",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "贵州财大资产经营管理有限公司",
+        "agency": "贵州弘典建设咨询有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "2026-06-10至2026-06-18",
+        "matched_keywords": [
+          "印制",
+          "标签"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "dee29272-4854-43f4-a85f-b43e61d7eec2",
+          "action": "exclude",
+          "reason": "项目名称包含：定制瓶装水供应商",
+          "created_at": "2026-06-10T14:14:43.369Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889012": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889012",
+      "original_title": "贵阳铁路工程学校应急救援技术专业实训设备维护与更新建设项目招标公告",
+      "status": "excluded",
+      "exclude_reason": "项目名称包含：设备维护与更新",
+      "corrections": {},
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "贵阳铁路工程学校应急救援技术专业实训设备维护与更新建设项目招标公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889012",
+        "budget": "",
+        "summary": "在白云校区教学楼1楼补充更新应急救援技术实训室。应急救援技术实训室能满足应急准备与宣传演练、监测与预警、应急救援与处置、伤病员急救、救援善后、指导与培训，共计10工位。完善实训室的安全操作规范、安全生产誓词、操作流程等标识标牌的建设。 包括应急救援技术专业设施设 供货、安装、调试、技术培训等一体化服务。具体内容及要求详见招标文件第五章 “技术规格要求”",
+        "project_content": "在白云校区教学楼1楼补充更新应急救援技术实训室。应急救援技术实训室能满足应急准备与宣传演练、监测与预警、应急救援与处置、伤病员急救、救援善后、指导与培训，共计10工位。完善实训室的安全操作规范、安全生产誓词、操作流程等标识标牌的建设。 包括应急救援技术专业设施设 供货、安装、调试、技术培训等一体化服务。具体内容及要求详见招标文件第五章 “技术规格要求”",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "公告未载明",
+        "agency": "中信国际招标有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "",
+        "matched_keywords": [
+          "宣传",
+          "标识",
+          "标牌"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "7ee29ded-0fe6-4161-8dc8-57b2296f4f79",
+          "action": "exclude",
+          "reason": "项目名称包含：设备维护与更新",
+          "created_at": "2026-06-10T14:15:08.655Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
+    },
+    "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888999": {
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888999",
+      "original_title": "遵义航天实验中学校园文化改造工程采购公告",
+      "status": "confirmed",
+      "exclude_reason": "",
+      "corrections": {
+        "bid_deadline": "2026-06-22 14:30"
+      },
+      "item_snapshot": {
+        "published_at": "2026-06-10",
+        "date_basis": "official",
+        "title": "遵义航天实验中学校园文化改造工程采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=888999",
+        "budget": "197900.00元",
+        "summary": "",
+        "project_content": "",
+        "project_content_basis": "section-v3",
+        "location": "贵州省",
+        "buyer": "遵义航天实验中学",
+        "agency": "贵州宁信工程管理有限公司",
+        "bid_deadline": "",
+        "registration_deadline": "",
+        "registration_period": "2026-06-10至2026-06-16",
+        "matched_keywords": [
+          "文化"
+        ],
+        "source_name": "贵州省招标投标公共服务平台",
+        "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+        "new_on_date": "2026-06-10",
+        "is_new": true
+      },
+      "history": [
+        {
+          "id": "59334117-a62f-4737-9095-8f0ddf0fbfc3",
+          "action": "correct",
+          "field": "bid_deadline",
+          "new_value": "2026-06-22 14:30",
+          "created_at": "2026-06-10T14:15:43.351Z"
+        },
+        {
+          "id": "9621fbcf-a140-44fe-987c-1e18a19927d7",
+          "action": "confirm",
+          "created_at": "2026-06-10T14:16:02.002Z"
+        }
+      ],
+      "updated_at": "2026-06-10T22:26:00.650063+08:00"
     }
   },
   "summary": {
-    "confirmed": 19,
-    "excluded": 6,
-    "corrected": 16,
+    "confirmed": 28,
+    "excluded": 17,
+    "corrected": 25,
     "correction_fields": {
-      "budget": 10,
-      "bid_deadline": 13,
-      "registration_period": 13,
-      "buyer": 4
+      "budget": 14,
+      "bid_deadline": 21,
+      "registration_period": 16,
+      "buyer": 5,
+      "agency": 1
     },
     "exclusion_reasons": [
       {
@@ -1333,40 +2277,110 @@
       {
         "reason": "项目主要内容有：数据迁移、系统集成",
         "count": 1
+      },
+      {
+        "reason": "项目主要内容为：检定/校准/测试等检测服务",
+        "count": 1
+      },
+      {
+        "reason": "项目名称中含有监理服务",
+        "count": 1
+      },
+      {
+        "reason": "重复收集了",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含影像服务",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含直播",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含腾讯宣传推广",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含信息化服务",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含：设计服务",
+        "count": 1
+      },
+      {
+        "reason": "重复了",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含：定制瓶装水供应商",
+        "count": 1
+      },
+      {
+        "reason": "项目名称包含：设备维护与更新",
+        "count": 1
       }
     ]
   },
   "processed_event_ids": [
+    "01cc6b3a-82bb-45d1-96d5-3a64cf84470c",
+    "0503df01-d572-443b-bfc7-a8ed5e5559c3",
     "0725fd7f-d25c-463a-afb4-a30db8ab3e4f",
+    "096a1112-da88-4344-be6c-481ed9ef4155",
     "0cb455db-9bd2-45d9-9b1f-df2dc0a277a1",
     "0f7adb98-ce9f-4bfd-911c-1db900b51212",
+    "127aa311-8c4a-47d3-b4a0-e252a008b972",
     "15e89a75-8092-4a77-bf36-d4bb8e23b778",
+    "21e6cdce-091f-45c1-b65f-1ff23f5e7713",
+    "22d976c9-07a1-46c8-a0d5-27549f271562",
     "260b25d1-000b-4e35-8630-fe788155d952",
+    "28f52a93-bee7-4ca9-bf2b-5648e2c1e4c8",
     "2c06dba5-5c7b-46b6-905c-e3b908470ad7",
+    "2dbe964b-d449-4e7e-aa5d-b8d1f9a2f493",
     "31492a94-8cfc-48d8-8ef1-3e3439a40ba6",
     "3205ab79-9660-4ad4-815c-c88d6035bcd0",
     "328e073d-1f0f-469e-bf08-a1175f8bc6fe",
+    "3809021b-52eb-483f-8dee-702c0ea2c737",
     "38445c99-b57c-4dbb-b28a-48f617d2431a",
     "38a21784-408c-4406-8b02-67b1cfe597c6",
+    "38ece64f-dc74-493a-9969-8485f1eb1ed9",
     "399f3475-b58c-4dd4-b613-3e0e43194362",
     "39cdabc7-d675-48c6-b5bd-92109b10d5e8",
     "3bb53748-992e-40ee-b544-5d9d3819a83d",
+    "3bfc747f-66cf-4820-a1c7-d41edc6890c7",
+    "416416d3-3c41-460a-944e-e50a1fd8261a",
+    "418f20f8-249c-4e67-83c9-1a82c53d5ddf",
     "423d8ed8-3c38-400f-97fe-06f97d4203d5",
+    "42c5cf58-a07b-4e01-b7ac-f13e96e7f31d",
     "433c84a9-82e1-430c-8cd8-51eaecb25342",
     "439d029d-5a1c-496e-8006-28ee5d16cd8b",
     "49f06e76-3ff8-47c0-96f1-a2c03d44754c",
+    "4d397ab5-60f1-4596-ad2c-21dc48b942de",
     "51476eb3-37bd-4200-8783-f434fdba88d6",
     "57e93be0-3503-41e9-9947-a918a91182e5",
     "5916d0da-fc46-473f-826e-9ac1cb44663e",
+    "59334117-a62f-4737-9095-8f0ddf0fbfc3",
+    "5e47b864-1219-4ae5-b60b-d0099750aa67",
+    "5f15722f-4aa1-4957-9535-5421c06b7b25",
     "5f72a17a-2d42-423e-9ab2-ef85bc55757a",
     "5fe9885d-dff0-47b3-85ad-9390d9e44d07",
+    "620a7f46-aa05-40c4-8a98-b8ffb0e9d478",
     "62ccfdf1-12d1-4ade-9600-e267c86d1212",
     "654bc43c-03e9-4492-b5a3-5ee13e6d327a",
     "679684b6-4618-4804-9f97-969924b74cd1",
     "67ea39a8-5115-4efc-86b4-ccf1ed38226c",
+    "691bf7c1-cb40-4232-a209-db2430b6e786",
+    "6c7453ea-af9f-4516-8c8c-e1264662eaa5",
+    "6e96998f-9a53-4f1a-8a7c-7bb3dacaf497",
     "7126ab5d-c0c3-4118-9ae9-1cda49e93a64",
     "73dcf6b6-10ba-44c9-8684-f8fb6a5329f7",
     "7929dd07-a721-49b8-8a27-b0ad9e94a32e",
+    "7997aabe-67ed-4edf-a4ef-3186e186d04b",
+    "7cc3384e-73ff-4133-991c-6aafbf8687c5",
+    "7ee29ded-0fe6-4161-8dc8-57b2296f4f79",
+    "82dbf375-1f8c-4057-b62c-19b7695aee33",
     "8386338d-6797-4864-baf0-72f6dee9f072",
     "83b3e063-a4b2-4ee4-a1cb-120a9639652b",
     "8623536e-6b52-4078-8339-263f8f1cb570",
@@ -1376,29 +2390,42 @@
     "901be970-2214-4476-a90c-5dd9a9693393",
     "912f0e6e-7bc8-4560-99bb-44496487e201",
     "949a2a46-72f1-4a43-8c8f-146ded350e75",
+    "9607c645-e829-41fb-bd20-78133bc21f41",
+    "9621fbcf-a140-44fe-987c-1e18a19927d7",
     "99104ed7-f680-4e21-bbec-fb9135f88f67",
     "9a9299c5-fe9e-4262-b6a7-1b6a29c3f181",
     "9f19ff17-7ef3-4521-94b1-8e26296352bb",
     "a45a3a6e-80d3-4ebe-8eb4-82fa0e64c0c8",
     "a930715a-dd06-44d2-a6a4-4aa751f9858f",
+    "a9a1d6f9-2039-4607-830d-8ae5bc840113",
+    "ad6eb7fb-1808-428f-af22-0f43b2a55a0e",
     "addca69c-bf4c-4b81-ac86-a4fc2bc6426f",
     "b0d630b9-c522-4eee-b59a-d3b1297f6201",
     "b198cdc8-25b0-4293-a282-eb1202efcbe0",
+    "b48c3f08-943f-414f-ac0d-040c6ab3da8b",
     "b8b68ad5-18a5-4dce-bad5-f8f48d20689f",
     "b909bbaa-009f-4a83-ad2e-3f486a3d8a94",
     "ba132aa7-865c-4344-9a8e-1fb30845cf31",
     "bba1f4ef-4e23-419b-b139-5ca2cd87e612",
     "bc2fa036-afe7-4576-9f5f-b9c3ee25b1be",
     "c11cd9d6-f7f4-4568-9b8c-ccebc15b98cc",
+    "c796a480-0a9a-43db-943a-899ded57806f",
+    "c7dc53d8-8b5f-426d-9b7a-51ce53ec4724",
     "cda7440f-4e10-44e8-91b8-68d41860cdb0",
+    "cdcdbe68-6ab6-4114-8620-63565d3a5c46",
     "d0a323f7-438f-47d0-b5d5-8de4f9f313b5",
     "d18dc64c-d0a4-4936-a8db-3a5573cb8a4a",
+    "d5136e8e-4d9f-4d92-9033-4aa4996bc454",
     "d592ccac-8456-434f-92eb-e25c83c001cb",
     "d66e180c-cee6-4c36-894c-ed85037d16ff",
+    "dafd146b-8671-4dd4-842e-32e37221c874",
     "dd1282e6-219c-42d7-b26b-9547cea16175",
+    "dee29272-4854-43f4-a85f-b43e61d7eec2",
     "df1b19ea-6faf-4e5f-be69-9e893fbb4415",
     "e08375c2-b45d-4ca4-a700-598febb894bc",
     "f3bf7577-ff49-4e86-b466-dff6563e81c3",
+    "f3d5ffca-ab9d-4f4d-a7a5-95bbd281f96b",
+    "f654826e-e41d-4bb8-bc62-78d42bf2700b",
     "f74eb78b-d552-406f-be72-79be3c24099f",
     "fa416283-14b5-4ebf-90a0-0ad971976226",
     "fdeb9e10-3dcc-47f6-848c-f30ec06be6c6"
