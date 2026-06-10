@@ -11,10 +11,6 @@ from .repository import Repository
 
 
 ROOT = Path(__file__).resolve().parents[2]
-PARTIAL_DATE_RE = re.compile(
-    r"^(?P<month>\d{1,2})-(?P<day>\d{1,2})"
-    r"(?:\s+(?P<hour>\d{1,2})[：:](?P<minute>\d{2}))?$"
-)
 CHINESE_DATE_RE = re.compile(
     r"(?P<year>\d{4})年(?P<month>\d{1,2})月(?P<day>\d{1,2})日"
     r"(?:\s*(?P<hour>\d{1,2})[：:时](?P<minute>\d{1,2})?)?"
@@ -27,9 +23,11 @@ def load_source_names(path: str | Path | None = None) -> dict[str, str]:
 
 
 def normalize_date(value: str, reference_date: str, include_time: bool) -> str:
+    """Normalise date text to ISO-like format. Does NOT infer missing parts or shift timezones."""
     text = (value or "").strip().strip("\"'")
     if not text:
         return ""
+    # Chinese date: 2026年6月20日 → 2026-06-20
     chinese = CHINESE_DATE_RE.search(text)
     if chinese:
         date_text = (
@@ -41,33 +39,18 @@ def normalize_date(value: str, reference_date: str, include_time: bool) -> str:
             minute = int(chinese.group("minute") or 0)
             return f"{date_text} {int(chinese.group('hour')):02d}:{minute:02d}"
         return date_text
-    if re.match(r"^\d{4}-\d{2}-\d{2}", text):
-        if include_time:
-            match = re.search(r"(\d{4}-\d{2}-\d{2})(?:[ T](\d{1,2}:\d{2}))?", text)
-            if match:
-                return (
-                    f"{match.group(1)} {match.group(2)}"
-                    if match.group(2)
-                    else match.group(1)
-                )
-        return text[:10]
-    partial = PARTIAL_DATE_RE.match(text)
-    if partial and reference_date:
-        year = int(reference_date[:4])
-        reference_month = int(reference_date[5:7])
-        month = int(partial.group("month"))
-        if reference_month == 12 and month == 1:
-            year += 1
-        result = (
-            f"{year:04d}-{month:02d}-"
-            f"{int(partial.group('day')):02d}"
-        )
-        if include_time and partial.group("hour"):
-            result += (
-                f" {int(partial.group('hour')):02d}:"
-                f"{int(partial.group('minute')):02d}"
-            )
-        return result
+    # Already ISO: 2026-06-20 or 2026-06-20 14:30
+    iso_match = re.match(r"^(\d{4}-\d{2}-\d{2})(?:[ T](\d{1,2}:\d{2}))?", text)
+    if iso_match:
+        if include_time and iso_match.group(2):
+            return f"{iso_match.group(1)} {iso_match.group(2)}"
+        return iso_match.group(1)
+    # Dot-separated: 2026.06.20 → 2026-06-20
+    dot_match = re.match(r"^(\d{4})\.(\d{2})\.(\d{2})", text)
+    if dot_match:
+        return f"{dot_match.group(1)}-{dot_match.group(2)}-{dot_match.group(3)}"
+    # Do NOT fill partial dates (e.g. "06-20") — that would be guessing the year.
+    # Return the original text as-is.
     return text
 
 

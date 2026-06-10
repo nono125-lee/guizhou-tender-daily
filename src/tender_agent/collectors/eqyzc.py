@@ -18,7 +18,7 @@ API_BASE = f"{BASE_URL}/api/saas-portal/noauth/trans/trade"
 LIST_API = f"{API_BASE}/pageEs"
 DETAIL_API = f"{API_BASE}/getByTradeId"
 SOURCE_NAME = "黔云招采电子招标采购交易平台"
-PLATFORM_TIMEZONE = ZoneInfo("America/Los_Angeles")
+PLATFORM_TIMEZONE = ZoneInfo("Asia/Shanghai")
 DETAIL_URL_RE = re.compile(
     r"[?&]id=(?P<id>\d+).*?[?&]noticeType=(?P<notice_type>\d+)"
 )

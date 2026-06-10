@@ -36,11 +36,11 @@ class EqyzcCollectorTests(unittest.TestCase):
             ["图文", "广告", "标识", "标牌"],
         )
         self.assertIsNotNone(item)
-        self.assertEqual(item["published_at"], "2026-06-07")
-        self.assertEqual(item["bid_deadline"], "2026-06-12 00:43")
+        self.assertEqual(item["published_at"], "2026-06-08")
+        self.assertEqual(item["bid_deadline"], "2026-06-12 15:43")
         self.assertEqual(item["budget"], "30.3万元")
         self.assertEqual(
-            item["registration_period"], "2026-06-07至2026-06-09"
+            item["registration_period"], "2026-06-08至2026-06-09"
         )
         self.assertEqual(
             item["source_name"], "黔云招采电子招标采购交易平台"

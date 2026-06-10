@@ -25,8 +25,8 @@ class PublicExportTests(unittest.TestCase):
         item = normalize_public_item(
             {
                 "published_at": "2026-06-08",
-                "bid_deadline": "06-10 18:00",
-                "registration_deadline": "06-10 17:00",
+                "bid_deadline": "2026-06-10 18:00",
+                "registration_deadline": "2026-06-10 17:00",
                 "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=1",
                 "summary": "广告制作具体内容",
                 "project_content": "广告制作具体内容",
@@ -48,9 +48,10 @@ class PublicExportTests(unittest.TestCase):
             normalize_date("2026年6月10日18：00", "2026-06-08", True),
             "2026-06-10 18:00",
         )
+        # Partial dates (no year) are kept as-is — no guessing
         self.assertEqual(
             normalize_date('"05-15 18：00"', "2026-05-01", True),
-            "2026-05-15 18:00",
+            "05-15 18：00",
         )
 
     def test_unknown_registration_period_stays_blank(self):
