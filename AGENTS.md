@@ -47,11 +47,13 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 - 公告网址优先去重；信息源异常不能清空上次成功数据。
 - GitHub Actions成功不代表所有来源成功；必须检查公开数据中的 `warnings`。
 - 黔云招采可能对GitHub托管运行器超时，本机可访问，详见 `docs/OPERATIONS.md`。
+- 标讯采集只在**本机**执行（黔云招采从 GitHub runner 无法访问）。
+  发布流程：本机采集 → commit site/ → push → GitHub Actions 自动部署 gh-pages。
+  也可以本机采集后直接用 `git subtree push --prefix=site origin gh-pages` 直推部署。
 - 修改后至少运行：
 
 ```bash
 PYTHONPATH=src python3 -m unittest discover -s tests -q
-PYTHONPATH=src python3 -m tender_agent.site update
 ```
 
-- 发布后检查GitHub Actions成功，并核对线上 `data/latest.json`。
+- 发布后检查线上 `data/latest.json` 确认数据完整。

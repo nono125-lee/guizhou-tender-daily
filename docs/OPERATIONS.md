@@ -104,6 +104,44 @@
 - 同一网址先确认后排除或先排除后确认时，系统停止自动修改并在反馈单中提出
   冲突，等待再次判断。
 
+## 标讯更新与发布流程（2026-06-10 起）
+
+GitHub Actions **不再重新采集**。采集只在本机执行，Actions 只负责将
+`site/` 目录部署到 GitHub Pages。
+
+### 完整发布流程
+
+```bash
+# 1. 本机采集图文广告标讯
+PYTHONPATH=src python3 -m tender_agent.site update
+
+# 2. 本机采集施工标讯
+PYTHONPATH=src python3 -m tender_agent.construction_site
+
+# 3. 提交并推送 site/ 到 main 分支
+git add site/
+git commit -m “更新标讯数据”
+git push
+
+# 4. 部署到 GitHub Pages（二选一）
+# 方式A：等待 GitHub Actions 自动部署（推送后 1-3 分钟）
+# 方式B：手动直推 gh-pages（更快，建议本机采集后用这个）
+git subtree push --prefix=site origin gh-pages
+```
+
+### 为什么不在 Actions 里采集
+
+黔云招采等平台从 GitHub 托管运行器（美国 IP）访问会超时，导致 Actions
+自动采集的数据永远比本机少。改为本机采集 → 推送 site/ → Actions 只部署，
+数据完整性由本机保证。
+
+### 自动任务
+
+- 任务名称：`发布标讯页面`
+- 北京时间每天 7:15 将 `main` 分支上已有的 `site/` 部署到 GitHub Pages
+- 推送到 `main` 且 `site/**` 变更时也会触发部署
+- 定时任务只部署不采集——如果 `main` 上没新数据，就重新部署旧数据
+
 ## GitHub位置
 
 - 代码仓库：<https://github.com/nono125-lee/guizhou-tender-daily>
@@ -111,28 +149,11 @@
 - 施工页面：<https://nono125-lee.github.io/guizhou-tender-daily/construction/>
 - 主分支：`main`
 - 网页发布分支：`gh-pages`
-- 自动任务名称：`每日标讯更新`
+- 自动任务名称：`发布标讯页面`
 
-自动任务每天北京时间7:15启动，也会在采集代码、配置或网页文件推送到
-`main`后启动。GitHub任务可能因平台排队稍有延迟。
-
-施工板块只在“资格要求”“资质要求”“特殊资格要求”栏目匹配施工资质词。
-项目名称含“监理”“审计”“招标代理”时直接排除。施工反馈规则保存在
+施工板块只在”资格要求””资质要求””特殊资格要求”栏目匹配施工资质词。
+项目名称含”监理””审计””招标代理”时直接排除。施工反馈规则保存在
 `config/construction_feedback_rules.json`，不写入图文广告反馈规则。
-
-## 已知运行限制
-
-截至2026-06-09，黔云招采公开接口在本机可正常访问，但从GitHub托管运行器
-访问时可能持续超时。采集器已经加入请求重试；超时后会保留上次成功数据，
-并在 `site/data/latest.json` 的 `warnings` 中记录异常。
-
-因此检查每日任务时必须同时确认：
-
-1. GitHub Actions任务是否成功完成。
-2. `site/data/latest.json` 的 `warnings` 是否包含来源采集异常。
-3. 黔云招采当天是否需要从本机补跑并推送。
-
-在GitHub云端访问限制解决前，不能仅凭任务显示绿色就认定黔云招采当天已完成查询。
 
 ## 日常维护
 
@@ -140,9 +161,9 @@
 
 ```bash
 PYTHONPATH=src python3 -m tender_agent.cli bootstrap \
-  --sources "/Users/nonolee/Desktop/共享win/01信息源库.xlsx" \
-  --keywords "/Users/nonolee/Desktop/共享win/02图文广告行业关键词库.txt" \
-  --history "/Users/nonolee/Desktop/共享win/03标讯信息表.xlsx"
+  --sources “/Users/nonolee/Desktop/共享win/01信息源库.xlsx” \
+  --keywords “/Users/nonolee/Desktop/共享win/02图文广告行业关键词库.txt” \
+  --history “/Users/nonolee/Desktop/共享win/03标讯信息表.xlsx”
 ```
 
 查看本地数据状态：
