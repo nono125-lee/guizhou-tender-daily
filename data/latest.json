@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-06-10T21:16:09.999904+08:00",
+  "updated_at": "2026-06-10T21:57:15.363616+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
+    {
+      "published_at": "2026-06-10",
+      "date_basis": "official",
+      "title": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次)询比采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514236755126816768&noticeType=1&publishStatus=1",
+      "budget": "155.224万元",
+      "summary": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购",
+      "project_content": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购",
+      "project_content_basis": "section-v3",
+      "location": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程沿线项目指定地点",
+      "buyer": "黔西南公路建设养护有限公司",
+      "agency": "贵州建养公路技术咨询有限公司",
+      "bid_deadline": "2026-06-16 13:30",
+      "registration_period": "2026-06-10至2026-06-15",
+      "matched_keywords": [
+        "标牌",
+        "标志"
+      ],
+      "source_name": "黔云招采电子招标采购交易平台",
+      "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+      "new_on_date": "2026-06-10",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-10",
+      "date_basis": "official",
+      "title": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装(三次)竞价采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514190000427405312&noticeType=1&publishStatus=1",
+      "budget": "5113.52万元",
+      "summary": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装",
+      "project_content": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装",
+      "project_content_basis": "section-v3",
+      "location": "贵州省云岩区",
+      "buyer": "贵州省建设投资集团有限公司",
+      "agency": "贵州省建设投资集团有限公司",
+      "bid_deadline": "2026-06-15 10:00",
+      "registration_period": "2026-06-10至2026-06-14",
+      "matched_keywords": [
+        "广告"
+      ],
+      "source_name": "黔云招采电子招标采购交易平台",
+      "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+      "new_on_date": "2026-06-10",
+      "is_new": true
+    },
     {
       "published_at": "2026-06-10",
       "date_basis": "official",
@@ -473,47 +518,89 @@
     {
       "published_at": "2026-06-09",
       "date_basis": "official",
-      "title": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程交通安全设施标志标牌材料(二次)询比采购公告",
-      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514236755126816768&noticeType=1&publishStatus=1",
-      "budget": "155.224万元",
-      "summary": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购",
-      "project_content": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程包含十条普通省道公路标志标牌制作材料采购",
+      "title": "印刷原辅材料采购项目标包2谈判采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513861812618825728&noticeType=1&publishStatus=1",
+      "budget": "公告未载明",
+      "summary": "标包2：热熔胶，服务内容具体要求详见竞争性磋商文件第二章。",
+      "project_content": "标包2：热熔胶，服务内容具体要求详见竞争性磋商文件第二章。",
       "project_content_basis": "section-v3",
-      "location": "贵州省贵阳公路管理局2026年普通省道公路安全提升工程沿线项目指定地点",
-      "buyer": "黔西南公路建设养护有限公司",
-      "agency": "贵州建养公路技术咨询有限公司",
-      "bid_deadline": "2026-06-15 22:30",
-      "registration_period": "2026-06-09至2026-06-14",
+      "location": "贵阳市",
+      "buyer": "贵州新华印务有限责任公司",
+      "agency": "贵州公明建设投资咨询有限公司",
+      "bid_deadline": "2026-06-23 11:00",
+      "registration_period": "2026-06-09至2026-06-16",
       "matched_keywords": [
-        "标牌",
-        "标志"
+        "印刷"
       ],
       "source_name": "黔云招采电子招标采购交易平台",
-      "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
-      "new_on_date": "2026-06-10",
-      "is_new": true
+      "review_status": "confirmed",
+      "review_note": "",
+      "corrected_fields": [
+        "bid_deadline",
+        "budget",
+        "registration_period"
+      ],
+      "first_seen_at": "2026-06-08T00:00:00+08:00",
+      "new_on_date": "",
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
       "date_basis": "official",
-      "title": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装(三次)竞价采购公告",
-      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514190000427405312&noticeType=1&publishStatus=1",
-      "budget": "5113.52万元",
-      "summary": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装",
-      "project_content": "贵阳城投·叠翠设计、施工总承包项目 广告制作及安装",
+      "title": "印刷原辅材料采购项目标包1谈判采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513861808239972352&noticeType=1&publishStatus=1",
+      "budget": "公告未载明",
+      "summary": "标包1：油墨，服务内容具体要求详见竞争性磋商文件第二章。",
+      "project_content": "标包1：油墨，服务内容具体要求详见竞争性磋商文件第二章。",
       "project_content_basis": "section-v3",
-      "location": "贵州省云岩区",
-      "buyer": "贵州省建设投资集团有限公司",
-      "agency": "贵州省建设投资集团有限公司",
-      "bid_deadline": "2026-06-14 19:00",
-      "registration_period": "2026-06-09至2026-06-13",
+      "location": "贵阳市",
+      "buyer": "贵州新华印务有限责任公司",
+      "agency": "贵州公明建设投资咨询有限公司",
+      "bid_deadline": "2026-06-23 11:00",
+      "registration_period": "2026-06-09至2026-06-16",
       "matched_keywords": [
-        "广告"
+        "印刷"
       ],
       "source_name": "黔云招采电子招标采购交易平台",
-      "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
-      "new_on_date": "2026-06-10",
-      "is_new": true
+      "review_status": "confirmed",
+      "review_note": "",
+      "corrected_fields": [
+        "bid_deadline",
+        "budget",
+        "registration_period"
+      ],
+      "first_seen_at": "2026-06-08T00:00:00+08:00",
+      "new_on_date": "",
+      "is_new": false
+    },
+    {
+      "published_at": "2026-06-09",
+      "date_basis": "official",
+      "title": "印刷原辅材料采购项目标包3谈判采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513861803886284801&noticeType=1&publishStatus=1",
+      "budget": "公告未载明",
+      "summary": "标包3: 热敏CTP版，服务内容具体要求详见竞争性磋商文件第二章。",
+      "project_content": "标包3: 热敏CTP版，服务内容具体要求详见竞争性磋商文件第二章。",
+      "project_content_basis": "section-v3",
+      "location": "贵阳市",
+      "buyer": "贵州新华印务有限责任公司",
+      "agency": "贵州公明建设投资咨询有限公司",
+      "bid_deadline": "2026-06-23 11:00",
+      "registration_period": "2026-06-09至2026-06-16",
+      "matched_keywords": [
+        "印刷"
+      ],
+      "source_name": "黔云招采电子招标采购交易平台",
+      "review_status": "confirmed",
+      "review_note": "",
+      "corrected_fields": [
+        "bid_deadline",
+        "budget",
+        "registration_period"
+      ],
+      "first_seen_at": "2026-06-08T00:00:00+08:00",
+      "new_on_date": "",
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -889,93 +976,6 @@
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": []
-    },
-    {
-      "published_at": "2026-06-08",
-      "date_basis": "official",
-      "title": "印刷原辅材料采购项目标包2谈判采购公告",
-      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513861812618825728&noticeType=1&publishStatus=1",
-      "budget": "公告未载明",
-      "summary": "标包2：热熔胶，服务内容具体要求详见竞争性磋商文件第二章。",
-      "project_content": "标包2：热熔胶，服务内容具体要求详见竞争性磋商文件第二章。",
-      "project_content_basis": "section-v3",
-      "location": "贵阳市",
-      "buyer": "贵州新华印务有限责任公司",
-      "agency": "贵州公明建设投资咨询有限公司",
-      "bid_deadline": "2026-06-23 11:00",
-      "registration_period": "2026-06-09至2026-06-16",
-      "matched_keywords": [
-        "印刷"
-      ],
-      "source_name": "黔云招采电子招标采购交易平台",
-      "review_status": "confirmed",
-      "review_note": "",
-      "corrected_fields": [
-        "bid_deadline",
-        "budget",
-        "registration_period"
-      ],
-      "first_seen_at": "2026-06-08T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
-    },
-    {
-      "published_at": "2026-06-08",
-      "date_basis": "official",
-      "title": "印刷原辅材料采购项目标包1谈判采购公告",
-      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513861808239972352&noticeType=1&publishStatus=1",
-      "budget": "公告未载明",
-      "summary": "标包1：油墨，服务内容具体要求详见竞争性磋商文件第二章。",
-      "project_content": "标包1：油墨，服务内容具体要求详见竞争性磋商文件第二章。",
-      "project_content_basis": "section-v3",
-      "location": "贵阳市",
-      "buyer": "贵州新华印务有限责任公司",
-      "agency": "贵州公明建设投资咨询有限公司",
-      "bid_deadline": "2026-06-23 11:00",
-      "registration_period": "2026-06-09至2026-06-16",
-      "matched_keywords": [
-        "印刷"
-      ],
-      "source_name": "黔云招采电子招标采购交易平台",
-      "review_status": "confirmed",
-      "review_note": "",
-      "corrected_fields": [
-        "bid_deadline",
-        "budget",
-        "registration_period"
-      ],
-      "first_seen_at": "2026-06-08T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
-    },
-    {
-      "published_at": "2026-06-08",
-      "date_basis": "official",
-      "title": "印刷原辅材料采购项目标包3谈判采购公告",
-      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1513861803886284801&noticeType=1&publishStatus=1",
-      "budget": "公告未载明",
-      "summary": "标包3: 热敏CTP版，服务内容具体要求详见竞争性磋商文件第二章。",
-      "project_content": "标包3: 热敏CTP版，服务内容具体要求详见竞争性磋商文件第二章。",
-      "project_content_basis": "section-v3",
-      "location": "贵阳市",
-      "buyer": "贵州新华印务有限责任公司",
-      "agency": "贵州公明建设投资咨询有限公司",
-      "bid_deadline": "2026-06-23 11:00",
-      "registration_period": "2026-06-09至2026-06-16",
-      "matched_keywords": [
-        "印刷"
-      ],
-      "source_name": "黔云招采电子招标采购交易平台",
-      "review_status": "confirmed",
-      "review_note": "",
-      "corrected_fields": [
-        "bid_deadline",
-        "budget",
-        "registration_period"
-      ],
-      "first_seen_at": "2026-06-08T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -3826,12 +3826,11 @@
   ],
   "stats": {
     "total": 159,
-    "new_today": 20,
+    "new_today": 22,
     "sources": 37,
     "new_items": 22
   },
   "warnings": [
-    "本次未发现新公告编号，已保留上次成功数据",
-    "黔云招采采集异常：RuntimeError"
+    "本次未发现新公告编号，已保留上次成功数据"
   ]
 }
