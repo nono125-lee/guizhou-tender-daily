@@ -10,7 +10,8 @@ const FIELD_LABELS = {
   source_name: "信息源名称",
   project_content: "项目主要内容"
 };
-const state = { items: [], feedback: [], processedIds: new Set(), dialog: null };
+const KEY_STORAGE = "tender-key-projects-v1";
+const state = { items: [], feedback: [], processedIds: new Set(), dialog: null, keyProjects: new Set() };
 
 const $ = (selector) => document.querySelector(selector);
 const daysAgo = (days) => {
@@ -50,6 +51,85 @@ function loadLocalFeedback() {
 function saveLocalFeedback() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.feedback));
   updateFeedbackPanel();
+}
+
+function loadKeyProjects() {
+  try {
+    state.keyProjects = new Set(JSON.parse(localStorage.getItem(KEY_STORAGE) || "[]"));
+  } catch {
+    state.keyProjects = new Set();
+  }
+}
+
+function saveKeyProjects() {
+  localStorage.setItem(KEY_STORAGE, JSON.stringify([...state.keyProjects]));
+  updateKeyProjectPanel();
+}
+
+function toggleKeyProject(url) {
+  if (state.keyProjects.has(url)) {
+    state.keyProjects.delete(url);
+  } else {
+    state.keyProjects.add(url);
+  }
+  saveKeyProjects();
+  render();
+}
+
+function scrollToCard(url) {
+  const card = document.querySelector(`[data-key-project-url="${CSS.escape(url)}"]`);
+  if (card) {
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    card.style.transition = "background 0.6s";
+    card.style.background = "rgba(182, 145, 67, 0.18)";
+    setTimeout(() => { card.style.background = ""; }, 1500);
+  }
+}
+
+function updateKeyProjectPanel() {
+  const currentUrls = new Set(state.items.map(i => i.url));
+  // Clean up stale keys
+  for (const url of state.keyProjects) {
+    if (!currentUrls.has(url)) state.keyProjects.delete(url);
+  }
+  const keyItems = state.items.filter(i => state.keyProjects.has(i.url));
+  const panel = $("#key-projects-panel");
+  const list = $("#key-project-list");
+  const toggleBtn = $("#toggle-key-projects");
+  const count = $("#key-project-count");
+
+  panel.hidden = keyItems.length === 0;
+  count.textContent = keyItems.length;
+
+  if (keyItems.length === 0) return;
+
+  list.replaceChildren();
+  keyItems.forEach((item, index) => {
+    const li = document.createElement("li");
+    li.setAttribute("data-key-url", item.url);
+    li.addEventListener("click", () => scrollToCard(item.url));
+    const link = document.createElement("a");
+    link.href = item.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = item.title.length > 60 ? item.title.slice(0, 60) + "…" : item.title;
+    link.addEventListener("click", (e) => e.stopPropagation());
+    li.appendChild(link);
+    if (item.bid_deadline) {
+      const deadline = document.createElement("span");
+      deadline.className = "key-project-deadline";
+      deadline.textContent = `截止：${item.bid_deadline}`;
+      li.appendChild(deadline);
+    }
+    list.appendChild(li);
+  });
+
+  // Toggle button
+  toggleBtn.onclick = () => {
+    const hidden = !list.hidden;
+    list.hidden = hidden;
+    toggleBtn.querySelector("button").textContent = hidden ? "展开" : "收起";
+  };
 }
 
 function pendingFeedback() {
@@ -242,7 +322,9 @@ function render() {
     card.querySelector("time").textContent = item.published_at.slice(0, 10);
     card.querySelector(".location").textContent = regionOf(item);
     const article = card.querySelector(".tender-card");
+    article.setAttribute("data-key-project-url", item.url);
     article.classList.toggle("is-new", Boolean(item.is_new));
+    article.classList.toggle("is-key-project", state.keyProjects.has(item.url));
     card.querySelector(".new-badge").hidden = !item.is_new;
     const titleLink = card.querySelector("h3 a");
     titleLink.textContent = displayItem.title;
@@ -266,7 +348,11 @@ function render() {
       tag.textContent = keyword;
       keywords.append(tag);
     });
-    card.querySelector(".read-more").href = item.url;
+    const kpBtn = card.querySelector(".key-project-toggle");
+    kpBtn.textContent = state.keyProjects.has(item.url) ? "★ 已标记" : "☆ 重点项目";
+    kpBtn.classList.toggle("is-active", state.keyProjects.has(item.url));
+    kpBtn.addEventListener("click", () => toggleKeyProject(item.url));
+
     card.querySelectorAll(".correct-button").forEach((button) => {
       button.addEventListener("click", () => openDialog(item, "correct", button.dataset.field));
     });
@@ -292,11 +378,13 @@ function render() {
     article.style.animationDelay = `${Math.min(index * 35, 350)}ms`;
     list.append(card);
   });
+  updateKeyProjectPanel();
 }
 
 async function load() {
   try {
     loadLocalFeedback();
+    loadKeyProjects();
     const [response, feedbackResponse] = await Promise.all([
       fetch(`./data/latest.json?v=${Date.now()}`),
       fetch(`./data/feedback-state.json?v=${Date.now()}`)

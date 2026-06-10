@@ -9,7 +9,7 @@
       content="贵州图文广告标讯，自动更新、关键词筛选、原文直达。"
     >
     <title>标讯-贵州-图文广告</title>
-    <link rel="stylesheet" href="./assets/style.css?v=20260609-3">
+    <link rel="stylesheet" href="./assets/style.css?v=20260610">
   </head>
   <body>
     <div class="paper-noise" aria-hidden="true"></div>
@@ -49,6 +49,14 @@
         <button id="submit-feedback" class="feedback-submit" type="button">
           当日反馈 <span id="feedback-count">0</span>
         </button>
+      </section>
+
+      <section id="key-projects-panel" class="key-projects-panel" hidden>
+        <div class="key-projects-header" id="toggle-key-projects">
+          <strong>⭐ 重点项目（<span id="key-project-count">0</span>）</strong>
+          <button type="button">展开</button>
+        </div>
+        <ol id="key-project-list" class="key-project-list" hidden></ol>
       </section>
 
       <div id="warning" class="warning" hidden></div>
@@ -97,7 +105,7 @@
             <span class="review-state"></span>
           </div>
         </div>
-        <a class="read-more" target="_blank" rel="noopener noreferrer">查看原公告 ↗</a>
+        <button class="key-project-toggle" type="button">☆ 重点项目</button>
       </article>
     </template>
 
@@ -116,6 +124,6 @@
       </form>
     </dialog>
 
-    <script src="./assets/app.js?v=20260609-3" defer></script>
+    <script src="./assets/app.js?v=20260610" defer></script>
   </body>
 </html>

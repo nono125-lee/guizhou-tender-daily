@@ -341,6 +341,78 @@ dd { flex: 1; margin: 0; font-weight: 700; }
   text-align: right;
 }
 
+/* ---- key project ---- */
+.key-projects-panel {
+  margin-bottom: 24px;
+  border: 1px solid var(--gold);
+  background: rgba(255, 246, 220, 0.72);
+  box-shadow: 4px 4px 0 rgba(182, 145, 67, 0.18);
+}
+
+.key-projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.key-projects-header strong { color: var(--ink); }
+.key-projects-header button {
+  padding: 4px 12px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.key-project-list {
+  margin: 0;
+  padding: 0 16px 16px;
+  list-style: decimal;
+  list-style-position: inside;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.key-project-list li {
+  padding: 5px 6px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.15s;
+}
+
+.key-project-list li:hover { background: rgba(182, 145, 67, 0.15); }
+.key-project-list a { color: var(--ink); text-decoration: none; }
+.key-project-list a:hover { color: var(--red); }
+.key-project-deadline { color: var(--muted); font-size: 12px; margin-left: 8px; }
+
+.key-project-toggle {
+  align-self: center;
+  padding: 8px 12px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.key-project-toggle:hover { background: rgba(182, 145, 67, 0.1); }
+.key-project-toggle.is-active {
+  color: #fff;
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+.tender-card.is-key-project {
+  border-left: 5px solid var(--gold);
+}
+
 .empty { padding: 70px 0; color: var(--muted); text-align: center; }
 
 footer {
@@ -373,6 +445,8 @@ footer {
   }
   .card-index { font-size: 25px; }
   .read-more { grid-column: 2; justify-self: start; text-align: left; }
+  .key-project-toggle { grid-column: 2; justify-self: start; }
+  .key-projects-panel { margin-inline: 0; }
   dl { grid-template-columns: 1fr; }
   dl div, .registration-row, .source-row { grid-column: 1; }
   .title-row { gap: 5px; }
