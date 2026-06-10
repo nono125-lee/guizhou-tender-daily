@@ -1,4 +1,4 @@
-name: 每日标讯更新
+name: 发布标讯页面
 
 on:
   workflow_dispatch:
@@ -9,8 +9,6 @@ on:
     branches: ["main"]
     paths:
       - "site/**"
-      - "src/**"
-      - "config/**"
       - ".github/workflows/daily-pages.yml"
 
 permissions:
@@ -21,30 +19,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 获取项目
         uses: actions/checkout@v6
-
-      - name: 设置 Python
-        uses: actions/setup-python@v6
         with:
-          python-version: "3.12"
-
-      - name: 采集公开标讯
-        env:
-          PYTHONPATH: src
-          TZ: Asia/Shanghai
-        run: python -m tender_agent.site update
-
-      - name: 保存更新结果
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/data/latest.json site/data/state.json
-          git diff --cached --quiet || git commit -m "更新每日标讯"
-          git push
+          fetch-depth: 0
 
       - name: 发布 GitHub Pages
         run: |
