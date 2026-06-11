@@ -40,6 +40,19 @@ function updateRegions(items) {
   });
 }
 
+function updateSources(items) {
+  const select = $("#source");
+  const current = select.value;
+  select.querySelectorAll("option:not([value=''])").forEach(o => o.remove());
+  [...new Set(items.map(i => i.source_name).filter(Boolean))].sort().forEach((source) => {
+    const option = document.createElement("option");
+    option.value = source;
+    option.textContent = source;
+    select.append(option);
+  });
+  if ([...select.options].some(o => o.value === current)) select.value = current;
+}
+
 function loadLocalFeedback() {
   try {
     state.feedback = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
@@ -297,6 +310,9 @@ function render() {
   const query = $("#search").value.trim().toLowerCase();
   const region = $("#region").value;
   const cutoff = daysAgo(Number($("#date-range").value));
+  const sourceFilter = $("#source").value;
+  const regDate = $("#reg-date").value.trim();
+  const cutoffDate = $("#cutoff-date").value;
   const items = state.items.filter((item) => {
     const text = [
       item.title, item.project_content, item.summary, item.buyer, item.location,
@@ -304,9 +320,15 @@ function render() {
       ...(item.matched_keywords || [])
     ].join(" ").toLowerCase();
     const published = new Date(`${item.published_at.slice(0, 10)}T00:00:00`);
+    const passSource = !sourceFilter || item.source_name === sourceFilter;
+    const passRegDate = !regDate || (item.registration_period || "").includes(regDate);
+    const passCutoff = !cutoffDate || (item.bid_deadline || "").startsWith(cutoffDate);
     return (!query || text.includes(query))
       && (!region || regionOf(item) === region)
-      && published >= cutoff;
+      && published >= cutoff
+      && passSource
+      && passRegDate
+      && passCutoff;
   });
 
   const list = $("#list");
@@ -408,6 +430,7 @@ async function load() {
       $("#warning").hidden = false;
     }
     updateRegions(state.items);
+    updateSources(state.items);
     render();
   } catch (error) {
     $("#warning").textContent = `${error.message}，请稍后刷新。`;
@@ -415,8 +438,8 @@ async function load() {
   }
 }
 
-["search", "region", "date-range"].forEach((id) => {
-  $(`#${id}`).addEventListener(id === "search" ? "input" : "change", render);
+["search", "region", "date-range", "source", "reg-date", "cutoff-date"].forEach((id) => {
+  $(`#${id}`).addEventListener(id === "search" || id === "reg-date" ? "input" : "change", render);
 });
 
 $("#dialog-save").addEventListener("click", saveDialog);

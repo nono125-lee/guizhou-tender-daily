@@ -9,7 +9,7 @@
       content="贵州图文广告标讯，自动更新、关键词筛选、原文直达。"
     >
     <title>标讯-贵州-图文广告</title>
-    <link rel="stylesheet" href="./assets/style.css?v=20260610">
+    <link rel="stylesheet" href="./assets/style.css?v=20260611">
   </head>
   <body>
     <div class="paper-noise" aria-hidden="true"></div>
@@ -34,10 +34,23 @@
         <label>
           <span>时间</span>
           <select id="date-range">
+            <option value="1">最近 1 天</option>
             <option value="7">最近 7 天</option>
             <option value="14">最近 14 天</option>
             <option value="45">最近 45 天</option>
           </select>
+        </label>
+        <label>
+          <span>信息源</span>
+          <select id="source"><option value="">全部信息源</option></select>
+        </label>
+        <label>
+          <span>报名日期</span>
+          <input id="reg-date" type="text" placeholder="如 2026-06-11">
+        </label>
+        <label>
+          <span>截止日期</span>
+          <input id="cutoff-date" type="date">
         </label>
       </section>
 
@@ -124,6 +137,6 @@
       </form>
     </dialog>
 
-    <script src="./assets/app.js?v=20260610" defer></script>
+    <script src="./assets/app.js?v=20260611" defer></script>
   </body>
 </html>

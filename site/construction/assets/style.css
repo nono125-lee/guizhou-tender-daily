@@ -60,7 +60,7 @@ main { padding: 22px 0 72px; }
 
 .controls {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   margin: 0 0 30px;
 }
