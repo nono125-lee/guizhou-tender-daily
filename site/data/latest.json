@@ -1,7 +1,610 @@
 {
-  "updated_at": "2026-06-10T22:26:00.650063+08:00",
+  "updated_at": "2026-06-11T22:04:41.402929+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年茅台1935酒（经典版）宣传视频拍摄制作采购项目（第一阶段：脚本创意方案征集）谈判采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514618739317575681&noticeType=1&publishStatus=1",
+      "budget": "5万元",
+      "summary": "2026年茅台1935酒（经典版）宣传视频拍摄制作采购项目（第一阶段：脚本创意方案征集），具体内容详见采购文件",
+      "project_content": "2026年茅台1935酒（经典版）宣传视频拍摄制作采购项目（第一阶段：脚本创意方案征集），具体内容详见采购文件",
+      "project_content_basis": "section-v3",
+      "location": "采购人指定地点",
+      "buyer": "贵州茅台酱香酒营销有限公司",
+      "agency": "中航招采科技（北京）有限公司",
+      "bid_deadline": "2026-06-24 09:30",
+      "registration_period": "2026-06-11至2026-06-18",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "黔云招采电子招标采购交易平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "SSL OV泛域名证书订阅服务项目询比采购公告",
+      "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514583465501954049&noticeType=1&publishStatus=1",
+      "budget": "1.8万元",
+      "summary": "采购SSL OV泛域名证书3年期订阅服务。根据CA/B论坛最新投票决议（SC-081）规定，自2026年3月15日起，单个证书有效期缩短至200天，本订阅服务将确保在3年服务期内，通过自动签发多张有效期连续、无缝衔接的证书，保障业务系统的HTTPS加密认证始终有效。",
+      "project_content": "采购SSL OV泛域名证书3年期订阅服务。根据CA/B论坛最新投票决议（SC-081）规定，自2026年3月15日起，单个证书有效期缩短至200天，本订阅服务将确保在3年服务期内，通过自动签发多张有效期连续、无缝衔接的证书，保障业务系统的HTTPS加密认证始终有效。",
+      "project_content_basis": "section-v3",
+      "location": "贵州省贵阳市观山湖区观山街道天一国际9栋 12楼",
+      "buyer": "贵州省农业发展集团有限责任公司",
+      "agency": "贵州省农业发展集团有限责任公司",
+      "bid_deadline": "2026-06-15 14:00",
+      "registration_period": "2026-06-11至2026-06-15",
+      "matched_keywords": [
+        "证书"
+      ],
+      "source_name": "黔云招采电子招标采购交易平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年全省中小学第十九届“贵青杯”系列活动全年广告资料项目 竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890087",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "全国青少年贵州活动营地 (贵州省青少年活动中心)",
+      "agency": "贵州众恒招标有限公司",
+      "bid_deadline": "2026-06-23 12:30",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "广告"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年全省中小学第十九届“贵青杯”系列活动现场集中展示视频录制及视频制作服务项目竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890075",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "全国青少年贵州活动营地 (贵州省青少年活动中心)",
+      "agency": "贵州众恒招标有限公司",
+      "bid_deadline": "2026-06-22 13:00",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "展示"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年全省中小学第十九届“贵青杯”系列活动现场展示LED室内外电子屏租赁服务项目竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890054",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "全国青少年贵州活动营地 (贵州省青少年活动中心)",
+      "agency": "贵州众恒招标有限公司",
+      "bid_deadline": "2026-06-23 14:30",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "展示"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "侗族大歌代表性传承人音视图文采集建档项目 采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890050",
+      "budget": "250,000.00 元",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州省非物质文化遗产保护中心",
+      "agency": "新华招标有限公司",
+      "bid_deadline": "2026-06-23 10:00",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "图文"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年全省中小学第十九届“贵青杯”系列活动宣传推广服务项目 竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890018",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "全国青少年贵州活动营地 (贵州省青少年活动中心)",
+      "agency": "贵州众恒招标有限公司",
+      "bid_deadline": "2026-06-22 15:00",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年全省中小学第十九届“贵青杯”系列活动现场展示舞台舞美物料采购项目竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889994",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "全国青少年贵州活动营地 (贵州省青少年活动中心)",
+      "agency": "贵州众恒招标有限公司",
+      "bid_deadline": "2026-06-22 14:00",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "展示",
+        "物料"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "防范非法金融活动电梯广告宣传服务项目竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889990",
+      "budget": "",
+      "summary": "防范非法金融活动电梯广告宣传服务项目 的潜在供应商应在 贵州省招标投标公共服务平台（ http://ztb.guizhou.gov.cn） 获取 项目信息 ，并于 2026 年 6 月 23 日 15时00 分 （北京时间）前提交响应文件 。 一、项目基本情况 项目编号： GZYD-ZFCG-FW-2026-0014 项目名称： 防范非法金融活动电梯广告宣传服务项目 预算金额 ： 人民币 贰拾陆万贰仟 元整（￥ 262 , 0 00.00） 采购需求 ： 本项目为防范非法金融活动电梯广告宣传服务项目，供应商需按照采购人要求，在贵阳市内人流量大、经济金融活跃的区域利用电梯等候区视频机、电梯厢内平面框架载体播放宣传防范非法金融活动视频广告、张贴静态框架海报等，具体要求详见本项目采购文件。 服务 期限： 合同签订之日起至本次宣传服务结束并通过采购人验收止",
+      "project_content": "防范非法金融活动电梯广告宣传服务项目 的潜在供应商应在 贵州省招标投标公共服务平台（ http://ztb.guizhou.gov.cn） 获取 项目信息 ，并于 2026 年 6 月 23 日 15时00 分 （北京时间）前提交响应文件 。 一、项目基本情况 项目编号： GZYD-ZFCG-FW-2026-0014 项目名称： 防范非法金融活动电梯广告宣传服务项目 预算金额 ： 人民币 贰拾陆万贰仟 元整（￥ 262 , 0 00.00） 采购需求 ： 本项目为防范非法金融活动电梯广告宣传服务项目，供应商需按照采购人要求，在贵阳市内人流量大、经济金融活跃的区域利用电梯等候区视频机、电梯厢内平面框架载体播放宣传防范非法金融活动视频广告、张贴静态框架海报等，具体要求详见本项目采购文件。 服务 期限： 合同签订之日起至本次宣传服务结束并通过采购人验收止",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州省邮电规划设计院有限公司",
+      "bid_deadline": "2026-06-23 15:00",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "广告",
+        "宣传",
+        "海报"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026六盘水马拉松赛事直播及宣传服务采购项目磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889942",
+      "budget": "",
+      "summary": "2026 六盘水马拉松赛事直播及宣传服务采购项目 的潜在供应商应 在 贵州华远项目管理有限责任公司 获取 竞争性磋商文件 ，并于 2026年6月22日11时00分 （北京时间）前 递交响应文件 。 一、项目基本情况 项目名称： 2026六盘水马拉松赛事直播及宣传服务采购项目 项目编号： HYCS2026-0032 采购方式：竞争性 磋商 预算金额（元）： 850000.00 最高限价（元） ： 850000.00 采购 主要内容 ： 详见竞争性磋商文件 。 数量： 1批 简要规格描述或项目基本概况介绍、用途：详见 竞争性磋商文件。 服务时间 ： 采购人指定时间。 服务地点：采购人指定地点。 本项目（ 是 / 否）接受联合体 磋商 ： 否",
+      "project_content": "2026 六盘水马拉松赛事直播及宣传服务采购项目 的潜在供应商应 在 贵州华远项目管理有限责任公司 获取 竞争性磋商文件 ，并于 2026年6月22日11时00分 （北京时间）前 递交响应文件 。 一、项目基本情况 项目名称： 2026六盘水马拉松赛事直播及宣传服务采购项目 项目编号： HYCS2026-0032 采购方式：竞争性 磋商 预算金额（元）： 850000.00 最高限价（元） ： 850000.00 采购 主要内容 ： 详见竞争性磋商文件 。 数量： 1批 简要规格描述或项目基本概况介绍、用途：详见 竞争性磋商文件。 服务时间 ： 采购人指定时间。 服务地点：采购人指定地点。 本项目（ 是 / 否）接受联合体 磋商 ： 否",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州钟山旅游产业发展有限责任公司",
+      "agency": "贵州华远项目管理有限责任公司",
+      "bid_deadline": "2026-06-22 11:00",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "镇宁布依族苗族自治县第一高级中学（镇宁实验学校）文印室耗材供应采购需求公示",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889926",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "安顺正盛招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "文印"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "贵州双龙航空港商务有限公司旅游文化传媒分公司牛奶、饮品、酒水采购服务项目",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889886",
+      "budget": "30万元",
+      "summary": "1. 项目名称：贵州双龙航空港商务有限公司旅游文化传媒分公司牛奶、饮品、酒水 采购服务项目 2. 采购方式：竞争性谈判， 满足资质、质量、售后全部要求前提下最低价中标 3. 年度采购预算：30万元一年（根据上年所有项目用量预估）。 4. 拦标价（含税价）： 5 . 服务期限： 合同设置 3个月的试供期，试供期视为本合同的有效组成部分，但该期间不计入1年的正式服务期。试供期满，经采购人依据附件一《食材供应商履约评价表》考核，得分不低于80 分，试供期届满后自动进入正式服务期，正式服务期为1年。考核不合格的，采购人有权在试供期届满后立即终止本合同，且无需承担任何违约责任，并可顺延使用第二名响应人，以此类推。 6 . 报价形式：报单品含税落地单价，包含货物、运输、装卸、税费、售后服务等全部费用",
+      "project_content": "1. 项目名称：贵州双龙航空港商务有限公司旅游文化传媒分公司牛奶、饮品、酒水 采购服务项目 2. 采购方式：竞争性谈判， 满足资质、质量、售后全部要求前提下最低价中标 3. 年度采购预算：30万元一年（根据上年所有项目用量预估）。 4. 拦标价（含税价）： 5 . 服务期限： 合同设置 3个月的试供期，试供期视为本合同的有效组成部分，但该期间不计入1年的正式服务期。试供期满，经采购人依据附件一《食材供应商履约评价表》考核，得分不低于80 分，试供期届满后自动进入正式服务期，正式服务期为1年。考核不合格的，采购人有权在试供期届满后立即终止本合同，且无需承担任何违约责任，并可顺延使用第二名响应人，以此类推。 6 . 报价形式：报单品含税落地单价，包含货物、运输、装卸、税费、售后服务等全部费用",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州双龙航空港商务有限公司旅游文化传媒分公司",
+      "agency": "贵州双龙航空港商务有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "独山石油分公司2026年常规物料制作服务项目询比采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889862",
+      "budget": "155056.2 元",
+      "summary": "主要包括 提供工作所需相关标识、标牌、宣传资料等物料的制作与安装服务， 具体情况以实际数量为准。 （具体内容详见 询比采购文件 ）",
+      "project_content": "主要包括 提供工作所需相关标识、标牌、宣传资料等物料的制作与安装服务， 具体情况以实际数量为准。 （具体内容详见 询比采购文件 ）",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "中国石化销售股份有限公司贵州黔南石油分公司",
+      "agency": "贵州万晟工程项目管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传",
+        "标识",
+        "标牌",
+        "物料"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "镇宁自治县第五小学理科实验室建设及文化长廊维修项目 采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889801",
+      "budget": "359000.00元",
+      "summary": "工程量清单 所示 全部内容，包括但不限于 理科实验室建设改造 、材料采购与运输、成品保护、安全文明施工、竣工验收及质保期内维修等 。 （具体要求详见采购清单及采购文件）。 采购 需求 ： 镇宁自治县第五小学理科实验室建设及文化长廊维修项目 （详见采购文件） 。 合同履约期限",
+      "project_content": "工程量清单 所示 全部内容，包括但不限于 理科实验室建设改造 、材料采购与运输、成品保护、安全文明施工、竣工验收及质保期内维修等 。 （具体要求详见采购清单及采购文件）。 采购 需求 ： 镇宁自治县第五小学理科实验室建设及文化长廊维修项目 （详见采购文件） 。 合同履约期限",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "镇宁布依族苗族自治县第五小学",
+      "agency": "安顺正盛招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "2026-06-12至2026-06-18",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年度广告设计、制作、安装及宣传服务机构入库项目招标公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889785",
+      "budget": "",
+      "summary": "1. 项目名称 ： 2026年度广告设计、制作、安装及宣传服务机构入库项目 2. 招标方式 ：公开招标 3. 入库数量 ：择优入库 3 家 广告设计、制作、安装及宣传服务机构 服务单位 4. 服务周期 ： 1 年（自入库公示期满之日起计算） 5. 评审方式 ：综合评分法，按总分从高至低排序择优入库",
+      "project_content": "1. 项目名称 ： 2026年度广告设计、制作、安装及宣传服务机构入库项目 2. 招标方式 ：公开招标 3. 入库数量 ：择优入库 3 家 广告设计、制作、安装及宣传服务机构 服务单位 4. 服务周期 ： 1 年（自入库公示期满之日起计算） 5. 评审方式 ：综合评分法，按总分从高至低排序择优入库",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "兴义市信恒城市建设投资有限公司",
+      "agency": "黔西南州恒信工程建设咨询有限公司",
+      "bid_deadline": "2026-06-22",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "广告",
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "七冶安装工程遵义有限公司新址竣工实测报告、实测图及不动产测绘竞价采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889766",
+      "budget": "",
+      "summary": "钢结构厂房1座（1F）、职工食堂一座（2F）、办公楼一座（3F）、职工宿舍一座（3F）等，建筑面积约12000㎡竣工实测报告、实测图及不动产测绘 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 七冶安装工程遵义有限公司新址竣工实测报告、实测图及不动产测绘 4.2 标段编号： GQQY-JJ2026060032-001 招标文件获取： 4.3 凡有意参加投标者，请于 至 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： 3.竞价人资格要求 （1）具有独立承担民事责任的能力：提供营业执照等证明文件（营业执照副本、组织机构代码证副本和税务登记证副本，或三证合一的营业执照）。 （2）具有乙级及以上测绘资质证书（包含工程测量、界线与不动产测绘等）。 （3）未被列入最高人民法院官网中“http：//zxgk.court.gov.cn全国法院失信被执行人名单信息公布与查询”及“https://www.creditchina.gov.cn信用中国”的失信被执行人； （4）本次采购不接受联合体投标。 (5) 提交近三年完成的类似业绩1个（时间2023年5月至今，提供合同协议书）。 4.6 其他事项： 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-06-18 14:00 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 其他事项说明 6. 联系方式 招标人： 七冶安装工程遵义有限公司 联系地址： 联系人： 杨红艳 联系电话： 15285053581 项目监督： 联系电话： 招标代理： 联系地址： 联系人： 联系电话： 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+      "project_content": "钢结构厂房1座（1F）、职工食堂一座（2F）、办公楼一座（3F）、职工宿舍一座（3F）等，建筑面积约12000㎡竣工实测报告、实测图及不动产测绘 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 七冶安装工程遵义有限公司新址竣工实测报告、实测图及不动产测绘 4.2 标段编号： GQQY-JJ2026060032-001 招标文件获取： 4.3 凡有意参加投标者，请于 至 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： 3.竞价人资格要求 （1）具有独立承担民事责任的能力：提供营业执照等证明文件（营业执照副本、组织机构代码证副本和税务登记证副本，或三证合一的营业执照）。 （2）具有乙级及以上测绘资质证书（包含工程测量、界线与不动产测绘等）。 （3）未被列入最高人民法院官网中“http：//zxgk.court.gov.cn全国法院失信被执行人名单信息公布与查询”及“https://www.creditchina.gov.cn信用中国”的失信被执行人； （4）本次采购不接受联合体投标。 (5) 提交近三年完成的类似业绩1个（时间2023年5月至今，提供合同协议书）。 4.6 其他事项： 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-06-18 14:00 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 其他事项说明 6. 联系方式 招标人： 七冶安装工程遵义有限公司 联系地址： 联系人： 杨红艳 联系电话： 15285053581 项目监督： 联系电话： 招标代理： 联系地址： 联系人： 联系电话： 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "七冶安装工程遵义有限公司",
+      "agency": "七冶安装工程遵义有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "证书"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "通用OCR技术中台项目所需OCR大模型AI服务器的更正公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889753",
+      "budget": "",
+      "summary": "核心 业务系统应用上云改造项目重点完成以下目标：一是推进核心业 务系统应用上云 。。。。。 附件:信 息科技部外包商基本情况事前尽 职调查表。 第五部分：项目基本情况及商务技术服务要求 一、项目概况本项目为贵阳银行股份有限公司信息化设备采购项目，核心 目的是采购 5台OCR大模型AI服务器，搭 建专用算力资源，支撑新一代通用 OCR技术中台系统稳定高效运行 。。。。。 可以提供增值税普通发票，提交发票时需附上税务机关出具的相关免税证明材料，如不能提供相关证明，则必须提供增值税抵 扣凭证。 2 第六部分：合同条款及格式贵阳银行某某项目开发合同 (软件开发 类 )合同模板 。。。。。。 10.4如果项目 验收合格，双方项目负责人或代表人需签订书面的验收报告，作 为正式验收合格的标志。 第六部分 ：（ 以双方最终签署的合同内容为准） 第一章合同 标的以及价款 。。。。。。 乙方应退还甲方已支付的合同价款，并 按照本合同相关规定承担违约责任。 3 第四部分：商务分 综合实力第 （ 3）条 投标人具备有效的 ITSS运维服务能力等级一级，得 1分;二级得2分;三级及以上得3分 第四部分：商务分 综合实力第（ 3）条 投标人具备有效的 ITSS运维服务能力等级三级，得1分；二级得2分；一级得3分 ; 更正日期",
+      "project_content": "核心 业务系统应用上云改造项目重点完成以下目标：一是推进核心业 务系统应用上云 。。。。。 附件:信 息科技部外包商基本情况事前尽 职调查表。 第五部分：项目基本情况及商务技术服务要求 一、项目概况本项目为贵阳银行股份有限公司信息化设备采购项目，核心 目的是采购 5台OCR大模型AI服务器，搭 建专用算力资源，支撑新一代通用 OCR技术中台系统稳定高效运行 。。。。。 可以提供增值税普通发票，提交发票时需附上税务机关出具的相关免税证明材料，如不能提供相关证明，则必须提供增值税抵 扣凭证。 2 第六部分：合同条款及格式贵阳银行某某项目开发合同 (软件开发 类 )合同模板 。。。。。。 10.4如果项目 验收合格，双方项目负责人或代表人需签订书面的验收报告，作 为正式验收合格的标志。 第六部分 ：（ 以双方最终签署的合同内容为准） 第一章合同 标的以及价款 。。。。。。 乙方应退还甲方已支付的合同价款，并 按照本合同相关规定承担违约责任。 3 第四部分：商务分 综合实力第 （ 3）条 投标人具备有效的 ITSS运维服务能力等级一级，得 1分;二级得2分;三级及以上得3分 第四部分：商务分 综合实力第（ 3）条 投标人具备有效的 ITSS运维服务能力等级三级，得1分；二级得2分；一级得3分 ; 更正日期",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵阳银行股份有限公司",
+      "agency": "贵州鹏业国际机电设备招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "标志"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年茅台1935酒（经典版）宣传视频拍摄制作采购项目（第一阶段：脚本创意方案征集）谈判公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889733",
+      "budget": "80万元",
+      "summary": "26年茅台1935酒（经典版）宣传视频拍摄制作采购项目，本项目为两阶段谈判采购，本次采购为第一阶段：脚本创意方案征集， 具体内容详见 谈判 采购文件 第三章 “采购需求”",
+      "project_content": "26年茅台1935酒（经典版）宣传视频拍摄制作采购项目，本项目为两阶段谈判采购，本次采购为第一阶段：脚本创意方案征集， 具体内容详见 谈判 采购文件 第三章 “采购需求”",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州茅台酱香酒营销有限公司",
+      "agency": "中航招采科技（北京）有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "思南县双塘办事处思南县展示中心一区部分商业用房资产转让",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889700",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州星坤项目管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "展示"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "中共遵义市委宣传部AI时政资讯智能体采购项目采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889654",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "中共遵义市委宣传部",
+      "agency": "永道工程咨询（江苏）有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "2026-06-11至2026-06-15",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "《花溪文化丛书》“物”卷编纂采购比选公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889608",
+      "budget": "20",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵阳市花溪区文物保护管理所（贵阳市花溪区非物质文化遗产保护中心）",
+      "agency": "贵州弘悦瑞纳项目管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "六盘水明湖国家湿地公园总体规划编制项目竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889606",
+      "budget": "",
+      "summary": "2.1项目名称： 六盘水明湖国家湿地公园总体规划编制项目。 2.2规划编制内容： 在充分调查研究的基础之上，全面分析明湖国家湿地公园保护管理重点、难点，充分结合保护、管理和地方经济社会发展的实际需求，收集相关资料，编制完成《六盘水明湖国家湿地公园总体规划》，形成报告文本和规划边界矢量数据库，规划需通过省林业局组织的专家审查，并获得贵州省人民政府批复（如涉及范围边界调整需同时编制边界调整报告，需获得国家林业和草原局批复）。 2.3项目地点： 六盘水明湖国家湿地公园 。 2. 4 磋商范围： 本项目磋商文件及答疑文件所示范围 。 2. 5 服务期 ： 合同签订后 8个月内完成 。 2. 6 服务质量标准 ： 满足国家、行业现行相关法律法规、设计规范和技术标准的要求及招标人要求。 2.7需提交的成果： （ 1）《六盘水明湖国家湿地公园总体规划》；（2）《六盘水明湖国家湿地公园总体规划》编制说明。（3）《六盘水明湖国家湿地公园总体规划》矢量数据库。（4）《六盘水明湖国家湿地公园边界范围调整说明书》，如涉及。（5）《六盘水明湖国家湿地公园总体规划》相关图件。以上成果包括纸质版和电子版，根据审查和项目主管需要决定印制数量。 3.",
+      "project_content": "2.1项目名称： 六盘水明湖国家湿地公园总体规划编制项目。 2.2规划编制内容： 在充分调查研究的基础之上，全面分析明湖国家湿地公园保护管理重点、难点，充分结合保护、管理和地方经济社会发展的实际需求，收集相关资料，编制完成《六盘水明湖国家湿地公园总体规划》，形成报告文本和规划边界矢量数据库，规划需通过省林业局组织的专家审查，并获得贵州省人民政府批复（如涉及范围边界调整需同时编制边界调整报告，需获得国家林业和草原局批复）。 2.3项目地点： 六盘水明湖国家湿地公园 。 2. 4 磋商范围： 本项目磋商文件及答疑文件所示范围 。 2. 5 服务期 ： 合同签订后 8个月内完成 。 2. 6 服务质量标准 ： 满足国家、行业现行相关法律法规、设计规范和技术标准的要求及招标人要求。 2.7需提交的成果： （ 1）《六盘水明湖国家湿地公园总体规划》；（2）《六盘水明湖国家湿地公园总体规划》编制说明。（3）《六盘水明湖国家湿地公园总体规划》矢量数据库。（4）《六盘水明湖国家湿地公园边界范围调整说明书》，如涉及。（5）《六盘水明湖国家湿地公园总体规划》相关图件。以上成果包括纸质版和电子版，根据审查和项目主管需要决定印制数量。 3.",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "六盘水明湖湿地生态旅游发展有限责任公司",
+      "agency": "贵州黔源中璟项目管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "印制"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年赤水丹霞暑期常态化小红书博主营销宣传服务",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889580",
+      "budget": "150000.00元",
+      "summary": "邀约小红书达人",
+      "project_content": "邀约小红书达人",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州金遵景区管理有限公司",
+      "agency": "遵义申达工程管理咨询有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年赤水丹霞暑期官方媒体宣传和新增场景拍摄宣传推广服务",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889558",
+      "budget": "80000",
+      "summary": "抢抓暑期文旅旺季，衔接 “五一”营销热度，围绕“来赤水，扑通一夏”主题，采购省内及跨省官媒宣传、场景拍摄服务。合作省及川渝等地官媒，刊发宣传稿件不少于16篇；同步拍摄五大景区新玩法，产出原创视频内容10条、实拍精修图片150张、15秒以上短视频素材1000条，素材供给全平台达人使用。 服 务 期",
+      "project_content": "抢抓暑期文旅旺季，衔接 “五一”营销热度，围绕“来赤水，扑通一夏”主题，采购省内及跨省官媒宣传、场景拍摄服务。合作省及川渝等地官媒，刊发宣传稿件不少于16篇；同步拍摄五大景区新玩法，产出原创视频内容10条、实拍精修图片150张、15秒以上短视频素材1000条，素材供给全平台达人使用。 服 务 期",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州金遵景区管理有限公司",
+      "agency": "遵义申达工程管理咨询有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "2026年赤水丹霞暑期常态化抖音博主营销宣传服务",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889556",
+      "budget": "470000",
+      "summary": "26年暑期计划围绕主题：“来赤水，扑通一夏”进行系列传播；传播周期覆盖暑期6月、7月，6月拟以品宣为主，7月拟以各景区新场景、新玩法为主，通过抖音博主的实景打卡，带动赤水热度，实现流量引爆 + 交易转化，邀请达人50个，实现话题曝光3000万。 服 务 期",
+      "project_content": "26年暑期计划围绕主题：“来赤水，扑通一夏”进行系列传播；传播周期覆盖暑期6月、7月，6月拟以品宣为主，7月拟以各景区新场景、新玩法为主，通过抖音博主的实景打卡，带动赤水热度，实现流量引爆 + 交易转化，邀请达人50个，实现话题曝光3000万。 服 务 期",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州金遵景区管理有限公司",
+      "agency": "遵义申达工程管理咨询有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-11",
+      "date_basis": "official",
+      "title": "贵州省生态环境厅2026中央主流媒体宣传项目单一来源公示",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=889554",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州卫虹招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-11T22:04:41.402929+08:00",
+      "new_on_date": "2026-06-11",
+      "is_new": true
+    },
     {
       "published_at": "2026-06-10",
       "date_basis": "official",
@@ -23,7 +626,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -49,16 +652,16 @@
         "广告"
       ],
       "source_name": "黔云招采电子招标采购交易平台",
-      "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
-      "new_on_date": "2026-06-10",
-      "is_new": true,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
         "agency",
         "bid_deadline",
         "budget"
-      ]
+      ],
+      "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
+      "new_on_date": "2026-06-10",
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -81,7 +684,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -104,7 +707,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -133,7 +736,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -162,7 +765,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -191,7 +794,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -223,7 +826,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -252,7 +855,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -280,7 +883,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -303,7 +906,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:34:21.555645+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true,
+      "is_new": false,
       "review_status": "confirmed",
       "review_note": "",
       "corrected_fields": [
@@ -3620,15 +4223,10 @@
     }
   ],
   "stats": {
-    "total": 148,
-    "new_today": 22,
+    "total": 174,
+    "new_today": 26,
     "sources": 37,
-    "new_items": 22,
-    "feedback_confirmed": 28,
-    "feedback_excluded": 17,
-    "feedback_corrected": 25
+    "new_items": 26
   },
-  "warnings": [
-    "本次未发现新公告编号，已保留上次成功数据"
-  ]
+  "warnings": []
 }
