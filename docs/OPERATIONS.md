@@ -32,6 +32,7 @@
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
+| 施工增量采集状态 | `site/construction/data/collector-state.json` | 各来源游标、公告ID、失败重试和项目编码 |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
 | 自动任务 | `.github/workflows/daily-pages.yml` | 北京时间每天7:15运行 |
 | 测试 | `tests/` | 采集器和数据处理测试 |
@@ -154,6 +155,16 @@ git subtree push --prefix=site origin gh-pages
 施工板块只在”资格要求””资质要求””特殊资格要求”栏目匹配施工资质词。
 项目名称含”监理””审计””招标代理”时直接排除。施工反馈规则保存在
 `config/construction_feedback_rules.json`，不写入图文广告反馈规则。
+
+施工采集采用按来源独立增量机制：
+
+- 首次运行查询最近7日并建立公告ID状态。
+- 日常从上次成功时间向前重叠6小时，已处理公告不再读取详情。
+- 每周回查最近14日列表，每月回查最近45日列表，仅补抓遗漏公告ID。
+- 详情访问失败进入重试队列；来源整体失败时不推进该来源游标。
+- 已确认或排除项目冻结；已有且超过7日的项目不重新覆盖。
+- 变更、澄清和答疑公告通过项目编码关联未冻结的已有项目。
+- `collector-state.json` 是运行状态，不应手工删除或回退。
 
 ## 日常维护
 
