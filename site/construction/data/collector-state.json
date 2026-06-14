@@ -2,7 +2,7 @@
   "version": 1,
   "sources": {
     "ggzy-gcjs": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -4650,7 +4650,7 @@
       "last_mode": "incremental"
     },
     "ggzy-zfcg": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -16886,7 +16886,7 @@
       "last_mode": "incremental"
     },
     "ggzy-qttzjy": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -22895,6 +22895,12 @@
           "release_at": "2026-06-13T18:00:00+08:00",
           "project_code": "GQQY-JJ2026040034-1",
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225715010337116160"
+        },
+        "1226032164177580032": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T15:00:00+08:00",
+          "project_code": "GQQY-XB2026050447-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226032164177580032"
         }
       },
       "failed_ids": {},
@@ -23701,12 +23707,13 @@
         "1222893247793549312": "2a28d1841c94f5216e453cc5d2d05999d69713a858e38eb396daf04e113ac485",
         "1222893307189088256": "d7b8e788e846788021439042ec9de5571bba4d3740b0940db5f9c0ee2762d0f8",
         "1222893244475854848": "5101b98dd2ac8b629ad40506b3d9738c475589e3d7ea23a36e1df34558525140",
-        "1222893249798426624": "ccb3b1a37ede002d21a0a16fd8b856d18e7784e04865646c9d98e02d95705929"
+        "1222893249798426624": "ccb3b1a37ede002d21a0a16fd8b856d18e7784e04865646c9d98e02d95705929",
+        "1226032164177580032": "a2daea0382024a51c493d4bd99d9a88990b2134f87cd90ddc5f9dddcc05ba6ce"
       },
       "last_mode": "incremental"
     },
     "eqyzc-gedc": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -23934,7 +23941,7 @@
       "last_mode": "incremental"
     },
     "eqyzc-gzny": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -25971,6 +25978,300 @@
           "release_at": "2026-06-13T16:25:18+08:00",
           "project_code": "贵州盘江电投发电公司（分公司）-2026-HW8905",
           "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515450727040323585&noticeType=1&publishStatus=1"
+        },
+        "1515799830458830848": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T19:23:51+08:00",
+          "project_code": "土城矿-2026-HW8963",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515799830458830848&noticeType=1&publishStatus=1"
+        },
+        "1515794138017861632": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T18:59:41+08:00",
+          "project_code": "文家坝二矿-2026-HW8962",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515794138017861632&noticeType=1&publishStatus=1"
+        },
+        "1515786541725089793": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T18:28:54+08:00",
+          "project_code": "格目底米箩煤矿-2026-HW8960",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515786541725089793&noticeType=1&publishStatus=1"
+        },
+        "1515782811602436097": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T18:17:46+08:00",
+          "project_code": "中城能源-2026-HW8959",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515782811602436097&noticeType=1&publishStatus=1"
+        },
+        "1515783285175259136": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T18:17:26+08:00",
+          "project_code": "格目底米箩煤矿-2026-HW8958",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515783285175259136&noticeType=1&publishStatus=1"
+        },
+        "1515780386698596353": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T18:06:24+08:00",
+          "project_code": "中城能源-2026-HW8957",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515780386698596353&noticeType=1&publishStatus=1"
+        },
+        "1515780341121908737": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T18:01:42+08:00",
+          "project_code": "格目底米箩煤矿-2026-HW8956",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515780341121908737&noticeType=1&publishStatus=1"
+        },
+        "1515777153396412416": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:54:36+08:00",
+          "project_code": "中城能源-2026-HW8955",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515777153396412416&noticeType=1&publishStatus=1"
+        },
+        "1515774767718170624": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:42:25+08:00",
+          "project_code": "月亮田矿-2026-HW8954",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515774767718170624&noticeType=1&publishStatus=1"
+        },
+        "1515769420559384577": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:23:20+08:00",
+          "project_code": "盘南公司-2026-FW8951",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515769420559384577&noticeType=1&publishStatus=1"
+        },
+        "1515771030452617216": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:18:51+08:00",
+          "project_code": "中岭矿-2026-FW8657-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515771030452617216&noticeType=1&publishStatus=1"
+        },
+        "1515776108316114945": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:17:40+08:00",
+          "project_code": "格目底米箩煤矿-2026-FW8949",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515776108316114945&noticeType=1&publishStatus=1"
+        },
+        "1515765907569807361": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:08:18+08:00",
+          "project_code": "中城能源-2026-HW8948",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515765907569807361&noticeType=1&publishStatus=1"
+        },
+        "1515763935982616577": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T17:00:32+08:00",
+          "project_code": "天润矿业新华煤矿-2026-HW8751-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515763935982616577&noticeType=1&publishStatus=1"
+        },
+        "1515763007003070465": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:48:21+08:00",
+          "project_code": "月亮田矿-2026-HW8945",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515763007003070465&noticeType=1&publishStatus=1"
+        },
+        "1515758177125449729": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:38:11+08:00",
+          "project_code": "中城能源-2026-HW8946",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515758177125449729&noticeType=1&publishStatus=1"
+        },
+        "1515753023315152897": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:18:01+08:00",
+          "project_code": "中城能源-2026-HW8944",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515753023315152897&noticeType=1&publishStatus=1"
+        },
+        "1515753679105855488": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:08:29+08:00",
+          "project_code": "格目底米箩煤矿-2026-FW8942",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515753679105855488&noticeType=1&publishStatus=1"
+        },
+        "1515759402485252097": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:04:07+08:00",
+          "project_code": "盘南公司-2026-FW8927",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515759402485252097&noticeType=1&publishStatus=1"
+        },
+        "1515758703831715840": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:03:51+08:00",
+          "project_code": "盘南公司-2026-FW8928",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515758703831715840&noticeType=1&publishStatus=1"
+        },
+        "1515761263314767872": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:03:41+08:00",
+          "project_code": "盘南公司-2026-FW8925",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515761263314767872&noticeType=1&publishStatus=1"
+        },
+        "1515760694664151040": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T16:03:31+08:00",
+          "project_code": "盘南公司-2026-FW8926",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515760694664151040&noticeType=1&publishStatus=1"
+        },
+        "1515748283055915008": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T15:59:34+08:00",
+          "project_code": "比德煤业-2026-HW8728-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515748283055915008&noticeType=1&publishStatus=1"
+        },
+        "1515744560340762624": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T15:46:36+08:00",
+          "project_code": "中城能源-2026-HW8553-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515744560340762624&noticeType=1&publishStatus=1"
+        },
+        "1515744878153482240": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T15:46:23+08:00",
+          "project_code": "比德煤业-2026-HW8731-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515744878153482240&noticeType=1&publishStatus=1"
+        },
+        "1515744162766950400": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T15:41:09+08:00",
+          "project_code": "海开矿业-2026-FW8939",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515744162766950400&noticeType=1&publishStatus=1"
+        },
+        "1515731900913991680": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:56:19+08:00",
+          "project_code": "中城能源-2026-HW8424-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515731900913991680&noticeType=1&publishStatus=1"
+        },
+        "1515725485226364929": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:23:26+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8936",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515725485226364929&noticeType=1&publishStatus=1"
+        },
+        "1515726110530519041": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:23:16+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8935",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515726110530519041&noticeType=1&publishStatus=1"
+        },
+        "1515727842278412288": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:23:08+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8931",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515727842278412288&noticeType=1&publishStatus=1"
+        },
+        "1515726483729453056": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:22:59+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8934",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515726483729453056&noticeType=1&publishStatus=1"
+        },
+        "1515726904824922112": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:22:50+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8933",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515726904824922112&noticeType=1&publishStatus=1"
+        },
+        "1515728202697838593": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:22:42+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8930",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515728202697838593&noticeType=1&publishStatus=1"
+        },
+        "1515727464061243393": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:22:31+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8932",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515727464061243393&noticeType=1&publishStatus=1"
+        },
+        "1515728610996486145": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T14:22:22+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8929",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515728610996486145&noticeType=1&publishStatus=1"
+        },
+        "1515708942295797760": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T13:24:46+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8924",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515708942295797760&noticeType=1&publishStatus=1"
+        },
+        "1515709271958392832": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T13:24:36+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8923",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515709271958392832&noticeType=1&publishStatus=1"
+        },
+        "1515709613416611841": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T13:24:27+08:00",
+          "project_code": "贵州林东煤业发展有限责任公司龙凤煤矿-2026-HW8922",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515709613416611841&noticeType=1&publishStatus=1"
+        },
+        "1515678029415485440": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T11:21:45+08:00",
+          "project_code": "贵州黔西红林矿业有限公司-2026-HW8399-2",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515678029415485440&noticeType=1&publishStatus=1"
+        },
+        "1515678285381812225": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T11:07:47+08:00",
+          "project_code": "贵州黔西红林矿业有限公司-2026-HW8757-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515678285381812225&noticeType=1&publishStatus=1"
+        },
+        "1515672257575030785": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T10:58:39+08:00",
+          "project_code": "水矿救护大队-2026-FW8617-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515672257575030785&noticeType=1&publishStatus=1"
+        },
+        "1515676415664099329": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T10:54:32+08:00",
+          "project_code": "盘江普定发电-2026-HW8921",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515676415664099329&noticeType=1&publishStatus=1"
+        },
+        "1515670088531349504": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T10:45:01+08:00",
+          "project_code": "海开矿业-2026-HW8918",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515670088531349504&noticeType=1&publishStatus=1"
+        },
+        "1515669583202914304": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T10:44:39+08:00",
+          "project_code": "月亮田矿-2026-HW8920",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515669583202914304&noticeType=1&publishStatus=1"
+        },
+        "1515656281991188480": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T09:45:49+08:00",
+          "project_code": "中岭矿-2026-FW8907",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515656281991188480&noticeType=1&publishStatus=1"
+        },
+        "1515653120840732673": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T09:40:08+08:00",
+          "project_code": "天润矿业新华煤矿-2026-HW8448-1",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515653120840732673&noticeType=1&publishStatus=1"
+        },
+        "1515650859971153920": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T09:32:42+08:00",
+          "project_code": "文家坝一矿-2026-HW8917",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515650859971153920&noticeType=1&publishStatus=1"
+        },
+        "1515638069772386305": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T08:41:12+08:00",
+          "project_code": "兴义电力-2026-FW8915",
+          "url": "https://gzny.e-qyzc.com/#/trade-info-detail?id=1515638069772386305&noticeType=1&publishStatus=1"
+        },
+        "1515754072380506112": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T16:25:32.156000+08:00",
+          "project_code": "海开矿业-2026-FW8939",
+          "url": ""
         }
       },
       "failed_ids": {},
@@ -26310,12 +26611,60 @@
         "1515284816459239425": "fe94c38999af8ed9663d9fd90b3cedd4e92669abe4f05233523658909940bc08",
         "1515285483975643137": "f6204d1f922d7f16e71004c2d15d65223afe4fbb55ca32751e00e91e44f312eb",
         "1515268334044020737": "2b31a7cad57c8f286d2e89af6af111110568487e06f4e501f00f7cd0bafd3962",
-        "1515450727040323585": "20cf4e7f94b9d4801169ee58dd24517b03172fe0cbc1cde852036534960c8ef3"
+        "1515450727040323585": "20cf4e7f94b9d4801169ee58dd24517b03172fe0cbc1cde852036534960c8ef3",
+        "1515799830458830848": "39a0abaa273bd2d42484fc6299d83c266087cb2462ab093c7a5c5386606a3ac6",
+        "1515794138017861632": "8ff122b4fdabca2914794327e15102ed458b73e1beb89f3d9f91fa627639639c",
+        "1515786541725089793": "efa1ca6b95ea2621d530f7eee1b992f20f750dc927ef817ee32d8c271871830a",
+        "1515782811602436097": "dbb50db2645ffd50f5f339183391cfc24830a476a81f16b58b427d5102494e38",
+        "1515783285175259136": "74d1ab2802cb33d0b080167067462d0a8b2913ffad46a8fa43af878c7e02b5db",
+        "1515780386698596353": "0c9145789e0460647a624a4180c0f9bbf436a70f249914c1715b809492ef63e4",
+        "1515780341121908737": "468986915a6e89891cb4372047440541b816eb785a11758a8f83bcc0dc9439f5",
+        "1515777153396412416": "fe347fd48468f70b593a7c8831f391ae21fb4122ed2dc7ca65a37d6c4d6c36ce",
+        "1515774767718170624": "a8e21da4b0ee5e714002e136b0b46d75c9a0ecf67e3b929e65fde7b43fa8aa08",
+        "1515769420559384577": "eb20bb5d50313d4dc78939d075ba8c8530b8cb4d897504fb650219f3a7e8c796",
+        "1515771030452617216": "b7a664ce9250bde19c8c1933286960e22de890ae5d5e5f0dff30fd66424bdd29",
+        "1515776108316114945": "3bef22f61ed2b27759a35ce0c57660a505fa3b962a37cd5f0471731c15478500",
+        "1515765907569807361": "43de3f526ed32fe9c9462963b99ceb32342954021c91117772dbc9c5e35f191d",
+        "1515763935982616577": "9e85465eb925131fc4b2ecfd421b5f50e912e8bab2aa802c90339257af061d29",
+        "1515763007003070465": "0caf756eee518c9a2c47e0d35f62f65ec5c747e023ff761cd3617ae6458c3ac0",
+        "1515758177125449729": "da408548aeb1d886ca8585677377edc7eb3a9164686d0058ffc82693617e66a6",
+        "1515753023315152897": "e8750c2b29da417ec0768f5f931d1e0f3f9fd51acdd175dc5583ebd49334e43f",
+        "1515753679105855488": "a021f8aba7f26a83559487ef30ecf441d4df6a638b410bee0c4919c2b7263b26",
+        "1515759402485252097": "ba36655ea4c098b9ab6671b1b477d5d08da271ecca62830331462f67b763481e",
+        "1515758703831715840": "69ced5b1443974694af65fa09a9b033e1ec280ce0f0847bc986f8a99396ba81c",
+        "1515761263314767872": "3e88b9ee9fa827160a2735ac05b3b4a14f96d8a7cb58acf8c4efb421190e8d7e",
+        "1515760694664151040": "e896cf7d06f08d08f6a84df2900cc553ce4fd2aab7ddde0252a39d9fdac2c847",
+        "1515748283055915008": "df97bc8ce490bef62b68e07a7a2c118d6d500cd0e2e0d3f9e493c2dfabfb2ee2",
+        "1515744560340762624": "f5c41ada33d78db08d051909735e802c0c007eb5745f54c90266da32266035c6",
+        "1515744878153482240": "4aa78663417bbb95f867f78de41907d18dc5e0e05982a8a24edc6a9daeeee7ce",
+        "1515744162766950400": "3d08bc44335887ea6ef692723d7590ed69c62f4b622bd607098536e563996e1c",
+        "1515731900913991680": "dc4f9490745a560623b8f1c3f901474dff4967154e727e18274c8ddb9113ff87",
+        "1515725485226364929": "646c27aee0deffad230d2e345a30777db98e88867bb1b6b85fc84c48ca8ac048",
+        "1515726110530519041": "c787d6f52d72fc6dc33d1a09dff00b148397ade01af2335cd13ddeadaafab10e",
+        "1515727842278412288": "4b9189f5c2327357955b0d79cf2c87f1b340ca3cbe3f13ed440f481a549bd936",
+        "1515726483729453056": "d189e3fe886736e42db421a9d0da756c1d966911987d245016d7de1494e23852",
+        "1515726904824922112": "bf94aa8244b91efd1dbff805564b9f0c8df2ad061472cb871cdd971a42165ba6",
+        "1515728202697838593": "a2dab59a02f3d4a1feb62aae3da30b5b9ba77bdb0cb1e0634731441abf36d7ab",
+        "1515727464061243393": "6500e00c1dc3ab42149365ea8b74c7248bdab456928a67659b0ffdb88dc98bf0",
+        "1515728610996486145": "a12e88e3b0e3a168cffcb53a48abd324eea34220bf56b9cece3072c59dbf6ac6",
+        "1515708942295797760": "51e89231819601d8590c78455175f365d46d5de0d14c2b3239699892ef97cc5a",
+        "1515709271958392832": "2c4b10e45a9f661f75fa313020d2df633e69387f16083297db9054fb0ed4db98",
+        "1515709613416611841": "f810e33a0c6c767433da11aca94d1a448000c00ef106f096a0519a144836ffd2",
+        "1515678029415485440": "37d5159ae3b1c2612c5643c44486af6ae26c6ffc747c815657cfd327f0f7f4cd",
+        "1515678285381812225": "31035b891b0bd78fd5562fa9303b74dab96c5084196adbd4c39689750760aea0",
+        "1515672257575030785": "04148c63d405ccdcf7b80d7fe53245fc34a6c2cec035457b1aad7dfdf416baad",
+        "1515676415664099329": "8f3f0c0925511ba4dd6c0df846274191137b2bbe3c0b273415130230d373aeec",
+        "1515670088531349504": "d32aca35dc0162156e14afdc760146a6c8ce4de80bc6117461127de0e485472a",
+        "1515669583202914304": "61fcb59f4f7ebd173985a4aa4ed45ce82d56bae57b7cf8bee14c9c950c32b0c8",
+        "1515656281991188480": "28a0c7c6404b72feb5bd56cb5889312a8e8566c0acda4aebd5f49c56c789a64a",
+        "1515653120840732673": "25f1525f4888d5e930a76eb34df1a777742b658e9ef18982eaebc37a51c170e3",
+        "1515650859971153920": "6d364fb21dd04f607043bfa3bdce316186bd9f83e73c0713808d67e95374d410",
+        "1515638069772386305": "16be9372374f1df1124f6c772c29dbc641d497b8b50f4a62f0ab8c51c99e97e2"
       },
       "last_mode": "incremental"
     },
     "eqyzc-gzqsgz": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -26600,7 +26949,7 @@
       "last_mode": "incremental"
     },
     "eqyzc-gzst": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -26952,7 +27301,7 @@
       "last_mode": "incremental"
     },
     "eqyzc-main": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -29289,6 +29638,12 @@
           "release_at": "2026-06-13T17:00:00+08:00",
           "project_code": "GQQY-TP2026060108",
           "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514989184382439424&noticeType=1&publishStatus=1"
+        },
+        "1514647011111768064": {
+          "status": "not_matched",
+          "release_at": "2026-06-14T15:00:00+08:00",
+          "project_code": "GQQY-XB2026050447-1",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1514647011111768064&noticeType=1&publishStatus=1"
         }
       },
       "failed_ids": {},
@@ -29672,12 +30027,13 @@
         "1513545965341806593": "6add6e012c4fee65f5908d9596d68fd35dfd90cebcbbe9741d4c0c7633451ed3",
         "1513586330484641792": "0b8a7b5ff6d78eda52b3463ca3fa67a18286c3c01ed2f2dcf0fa23f86c202688",
         "1514297170379374593": "2796ccd8886a35796a30748d45dbe818f21ea47168598744a2484c0d206a0a07",
-        "1514989184382439424": "9838c5e3449b1ef66051ece17315ba4ef06b4b011ef007e5898b71c91eb7793b"
+        "1514989184382439424": "9838c5e3449b1ef66051ece17315ba4ef06b4b011ef007e5898b71c91eb7793b",
+        "1514647011111768064": "cd9f9b3c631c55407008b06bceb38f01a223df69ad6535e3760933c03e175351"
       },
       "last_mode": "incremental"
     },
     "ztb-guizhou": {
-      "last_success_at": "2026-06-14T06:01:45.861172+08:00",
+      "last_success_at": "2026-06-14T21:33:13.638326+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -34016,271 +34372,271 @@
       },
       "failed_ids": {
         "890843": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890843
           }
         },
         "890844": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890844
           }
         },
         "890845": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890845
           }
         },
         "890846": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890846
           }
         },
         "890847": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890847
           }
         },
         "890848": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890848
           }
         },
         "890849": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890849
           }
         },
         "890850": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890850
           }
         },
         "890851": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890851
           }
         },
         "890852": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890852
           }
         },
         "890853": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890853
           }
         },
         "890854": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890854
           }
         },
         "890855": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890855
           }
         },
         "890856": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890856
           }
         },
         "890857": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890857
           }
         },
         "890858": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890858
           }
         },
         "890859": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890859
           }
         },
         "890860": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890860
           }
         },
         "890861": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890861
           }
         },
         "890862": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890862
           }
         },
         "890863": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890863
           }
         },
         "890864": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890864
           }
         },
         "890865": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890865
           }
         },
         "890866": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890866
           }
         },
         "890867": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890867
           }
         },
         "890868": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890868
           }
         },
         "890869": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890869
           }
         },
         "890870": {
-          "attempts": 6,
+          "attempts": 7,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890870
           }
         },
         "890871": {
-          "attempts": 3,
+          "attempts": 4,
           "first_failed_at": "2026-06-13T06:01:24.473090+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890871
           }
         },
         "890872": {
-          "attempts": 2,
+          "attempts": 3,
           "first_failed_at": "2026-06-13T20:07:27.082938+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-14T06:01:45.861172+08:00",
+          "last_attempt_at": "2026-06-14T21:33:13.638326+08:00",
           "listing": {
             "tender_id": 890872
           }
