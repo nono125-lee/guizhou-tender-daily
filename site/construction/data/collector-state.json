@@ -2,7 +2,7 @@
   "version": 1,
   "sources": {
     "ggzy-gcjs": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -6725,7 +6725,7 @@
       "last_mode": "incremental"
     },
     "ggzy-zfcg": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -21890,6 +21890,12 @@
           "release_at": "2026-06-16T20:56:01+08:00",
           "project_code": "P52010320260004UW",
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226847471041384448"
+        },
+        "1226872225391579136": {
+          "status": "matched",
+          "release_at": "2026-06-16T22:35:00+08:00",
+          "project_code": "P52273020260006DA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226872225391579136"
         }
       },
       "failed_ids": {},
@@ -22597,6 +22603,10 @@
         "P522633202600064V": {
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226701055119724544",
           "notice_id": "1226701055119724544"
+        },
+        "P52273020260006DA": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226872225391579136",
+          "notice_id": "1226872225391579136"
         }
       },
       "detail_fingerprints": {
@@ -23358,12 +23368,13 @@
         "1226784080528543744": "8710f5ef5804eefe184c93fdd90b5503b5ebdc5068207290cb49628bccf641d5",
         "1226789542665785344": "378f2afc36046bb2551ef991a51f7cf48a3f2490db7453a98845b06e59adc338",
         "1226790280020234240": "e1cc4c222d867795ec55a4ab198d6f118054c53a1c1526e42dfaff28f1f8c6ec",
-        "1226790893495914496": "6f853147484dc170bbaf69d426dce2ea8185a73f09ca6d87171ef0a8eb0a508a"
+        "1226790893495914496": "6f853147484dc170bbaf69d426dce2ea8185a73f09ca6d87171ef0a8eb0a508a",
+        "1226872225391579136": "8991374b162ea89319349473c2f8c4a54274c7f93140083baf585e86cc16ec1b"
       },
       "last_mode": "incremental"
     },
     "ggzy-qttzjy": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -33986,6 +33997,72 @@
           "release_at": "2026-06-16T08:10:00+08:00",
           "project_code": "GQQS-XB2026060015",
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226668098342490112"
+        },
+        "1226892756580962304": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQS-XB2026060029",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226892756580962304"
+        },
+        "1226886681270030336": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:31:20+08:00",
+          "project_code": "GP-B-ZC-2025346(282)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226886681270030336"
+        },
+        "1226886669333041152": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:31:02+08:00",
+          "project_code": "GP-D-ZC-2025330(270)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226886669333041152"
+        },
+        "1226885906821156864": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:30:51+08:00",
+          "project_code": "GP-C-ZC-2025336(273)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226885906821156864"
+        },
+        "1226885906078765056": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:30:38+08:00",
+          "project_code": "GP-C-ZC-2023215(182)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226885906078765056"
+        },
+        "1226885905768386560": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:30:17+08:00",
+          "project_code": "GP-A-ZC-2024087(54)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226885905768386560"
+        },
+        "1226879033069932544": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:01:50+08:00",
+          "project_code": "GP-B-ZC-2025346(282)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226879033069932544"
+        },
+        "1226879045778673664": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:01:22+08:00",
+          "project_code": "GP-D-ZC-2025330(270)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226879045778673664"
+        },
+        "1226879032591781888": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:01:10+08:00",
+          "project_code": "GP-C-ZC-2025336(273)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226879032591781888"
+        },
+        "1226879033355145216": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:00:59+08:00",
+          "project_code": "GP-C-ZC-2023215(182)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226879033355145216"
+        },
+        "1226878307165933568": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T23:00:41+08:00",
+          "project_code": "GP-A-ZC-2024087(54)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226878307165933568"
         }
       },
       "failed_ids": {},
@@ -35493,12 +35570,23 @@
         "1226667129064001536": "2f426ff7b0cb8b94f7a4e0ef0e735af793e25efe7bd4ff5def77b45ad3871172",
         "1226703473786097664": "470bf65f03339eb69a47d4519b42eb51265982e58447e240366cfb6bdce3be8e",
         "1226728882238001152": "fa5c73fe644cf4c662f9e0e65c2a485cb0b456b0fbe59158dadc8aefe11b383b",
-        "1226666330917310464": "414b31b3794eeebd2210fec0084a00337dfbb9d85a3e0e409ad47b545937216b"
+        "1226666330917310464": "414b31b3794eeebd2210fec0084a00337dfbb9d85a3e0e409ad47b545937216b",
+        "1226892756580962304": "d96ee42ea787416b52bbf20a12a02de1361cf1bbb89115999b500f20cfe48209",
+        "1226886681270030336": "cda3306580f7468155973670914e01d78b2bc141e31488cf71b1bc1765ea85e6",
+        "1226886669333041152": "abea799ed1fcea54a6263736895671fabc80964e7be1ebbdc1c81a289d17b33f",
+        "1226885906821156864": "8ba2949fe8c4c99c4f5961ab2a12edcbadea5ef807ec99c3e7e9e3fd4d49c58e",
+        "1226885906078765056": "096c8842e75b79fb89d54d4e7609d899e2c86eae4f932dff9ea8c197896110ae",
+        "1226885905768386560": "79aa2749236e7d95d714a0eed24e59d54a395b960ef51352b995e569d984972d",
+        "1226879033069932544": "7c4aec98c134b2b3623c370e53bd90f830401d77fc073e792f937a865e8267a4",
+        "1226879045778673664": "07491717cd82358c218933ed5bfb071aef4ed403d94e940b769f6d041ebd1581",
+        "1226879032591781888": "1996172cd9bcfb77f71264639959eab3c2c03ee3bcc6ea73281d003cc14b02a8",
+        "1226879033355145216": "2953412a2f42ccdd4632c62411c0823be34f0f4554d85aab0c864aaccf196c9a",
+        "1226878307165933568": "cdb33bd39894b9f570d03df02bb4da27fe913f5a8fdde72b5811c9037e8a01f7"
       },
       "last_mode": "incremental"
     },
     "eqyzc-gedc": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -35980,7 +36068,7 @@
       "last_mode": "incremental"
     },
     "eqyzc-gzny": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -39591,7 +39679,7 @@
       "last_mode": "incremental"
     },
     "eqyzc-gzqsgz": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -39942,6 +40030,12 @@
           "release_at": "2026-06-16T10:50:42.935000+08:00",
           "project_code": "GQQS-DY2026060006",
           "url": ""
+        },
+        "1516468645879648256": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQS-XB2026060029",
+          "url": "https://gzqsgz.e-qyzc.com/#/trade-info-detail?id=1516468645879648256&noticeType=1&publishStatus=1"
         }
       },
       "failed_ids": {},
@@ -40002,12 +40096,13 @@
         "1516130998342684673": "3915b7a91effd601f28aa7e28300c43df0d01cb09716a2193dc374e16b5374bd",
         "1516131002700566528": "a47ddd29a08a8f75b3fc3d751ec87bac94928ae7e19b145497c4ccd1e0eed19f",
         "1516131203398012928": "dcef82a8149eccca16ef9a24aea26bbc290b5ccdbfc53d6e3512d55dbb291aca",
-        "1516131199044325377": "69caf0d4a50cd3cee93b08121f0b080f568b78fa4c592bf366da03b4b679762c"
+        "1516131199044325377": "69caf0d4a50cd3cee93b08121f0b080f568b78fa4c592bf366da03b4b679762c",
+        "1516468645879648256": "b186a1aa3e2ac7a4917605573a5ccef3f300c62aa801f81b3c0a3e4da773e144"
       },
       "last_mode": "incremental"
     },
     "eqyzc-gzst": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -40487,7 +40582,7 @@
       "last_mode": "incremental"
     },
     "eqyzc-main": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -44675,7 +44770,7 @@
       "last_mode": "incremental"
     },
     "ztb-guizhou": {
-      "last_success_at": "2026-06-16T22:23:06.219588+08:00",
+      "last_success_at": "2026-06-17T06:08:00.715962+08:00",
       "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
@@ -58638,316 +58733,316 @@
       },
       "failed_ids": {
         "890865": {
-          "attempts": 14,
+          "attempts": 15,
           "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890865
           }
         },
         "890888": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890888
           }
         },
         "890892": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890892
           }
         },
         "890894": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890894
           }
         },
         "890895": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890895
           }
         },
         "890906": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890906
           }
         },
         "890910": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890910
           }
         },
         "890928": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890928
           }
         },
         "890938": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890938
           }
         },
         "890943": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890943
           }
         },
         "890953": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890953
           }
         },
         "890955": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890955
           }
         },
         "890957": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890957
           }
         },
         "890959": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890959
           }
         },
         "890994": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 890994
           }
         },
         "891014": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891014
           }
         },
         "891018": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891018
           }
         },
         "891025": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891025
           }
         },
         "891399": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891399
           }
         },
         "891406": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891406
           }
         },
         "891409": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891409
           }
         },
         "891411": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891411
           }
         },
         "891421": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891421
           }
         },
         "891433": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891433
           }
         },
         "891456": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891456
           }
         },
         "891465": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891465
           }
         },
         "891469": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891469
           }
         },
         "891478": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891478
           }
         },
         "891483": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891483
           }
         },
         "891489": {
-          "attempts": 7,
+          "attempts": 8,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891489
           }
         },
         "891834": {
-          "attempts": 3,
+          "attempts": 4,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891834
           }
         },
         "891839": {
-          "attempts": 3,
+          "attempts": 4,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891839
           }
         },
         "891846": {
-          "attempts": 3,
+          "attempts": 4,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891846
           }
         },
         "891848": {
-          "attempts": 3,
+          "attempts": 4,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 891848
           }
         },
         "892481": {
-          "attempts": 3,
+          "attempts": 4,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-16T22:23:06.219588+08:00",
+          "last_attempt_at": "2026-06-17T06:08:00.715962+08:00",
           "listing": {
             "tender_id": 892481
           }
