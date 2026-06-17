@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T21:41:19.601903+08:00",
+  "updated_at": "2026-06-18T06:04:12.943176+08:00",
   "coverage": "贵州省施工类标讯资格条件专项筛选",
   "warnings": [],
   "items": [
@@ -1498,7 +1498,7 @@
       "source_notice_id": "893116",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -1521,7 +1521,7 @@
       "source_notice_id": "893068",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -1544,7 +1544,7 @@
       "source_notice_id": "893061",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -1567,7 +1567,7 @@
       "source_notice_id": "893023",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -1590,7 +1590,7 @@
       "source_notice_id": "893012",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -12739,11 +12739,11 @@
   ],
   "stats": {
     "total": 531,
-    "new_today": 475,
+    "new_today": 470,
     "sources": 9,
     "feedback_confirmed": 0,
     "feedback_excluded": 0,
     "feedback_corrected": 0,
-    "pending_retries": 64
+    "pending_retries": 92
   }
 }
