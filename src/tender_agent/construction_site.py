@@ -10,6 +10,8 @@ from zoneinfo import ZoneInfo
 from .collectors.eqyzc_construction import collect as collect_eqyzc
 from .collectors.ggzy_construction import collect as collect_ggzy
 from .collectors.ztb_construction import collect as collect_ztb
+from .collectors import asgq, plap
+from .collectors.tobacco import collect_construction as collect_tobacco
 from .construction_incremental import (
     get_source_state,
     load_state,
@@ -74,20 +76,46 @@ def update() -> dict:
     warnings = []
     items = []
     for source in sources:
-        if source["collector"] not in {"ggzy", "eqyzc"}:
+        if source["collector"] not in {"ggzy", "eqyzc", "asgq", "plap", "tobacco"}:
             continue
         working_state = copy.deepcopy(
             get_source_state(collector_state, source["id"])
         )
         try:
-            collector = collect_ggzy if source["collector"] == "ggzy" else collect_eqyzc
-            collected = collector(
-                config,
-                [source],
-                skip_urls=frozen_urls,
-                source_state=working_state,
-                now=now,
-            )
+            if source["collector"] == "ggzy":
+                collected = collect_ggzy(
+                    config,
+                    [source],
+                    skip_urls=frozen_urls,
+                    source_state=working_state,
+                    now=now,
+                )
+            elif source["collector"] == "eqyzc":
+                collected = collect_eqyzc(
+                    config,
+                    [source],
+                    skip_urls=frozen_urls,
+                    source_state=working_state,
+                    now=now,
+                )
+            elif source["collector"] == "asgq":
+                collected = asgq.collect_construction(
+                    config,
+                    source_state=working_state,
+                    now=now,
+                )
+            elif source["collector"] == "plap":
+                collected = plap.collect_construction(
+                    config,
+                    source_state=working_state,
+                    now=now,
+                )
+            else:
+                collected = collect_tobacco(
+                    config,
+                    source_state=working_state,
+                    now=now,
+                )
             items.extend(collected)
             collector_state["sources"][source["id"]] = working_state
         except Exception as error:

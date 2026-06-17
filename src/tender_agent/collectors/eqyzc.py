@@ -6,6 +6,7 @@ import time
 from datetime import datetime, timedelta
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
+from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -87,6 +88,17 @@ def _request_json(
     return result
 
 
+def _source_base_url(source: dict | None = None) -> str:
+    if not source or not source.get("url"):
+        return BASE_URL
+    parts = urlsplit(source["url"])
+    return f"{parts.scheme}://{parts.netloc}"
+
+
+def _source_api(source: dict | None, name: str) -> str:
+    return f"{_source_base_url(source)}/api/saas-portal/noauth/trans/trade/{name}"
+
+
 def _page_payload(
     page_num: int,
     page_size: int,
@@ -133,10 +145,27 @@ def _detail_url(trade_id: str, notice_type: int, publish_status: int) -> str:
     return f"{BASE_URL}/#/trade-info-detail?{query}"
 
 
+def _source_detail_url(
+    source: dict | None,
+    trade_id: str,
+    notice_type: int,
+    publish_status: int,
+) -> str:
+    query = urlencode(
+        {
+            "id": trade_id,
+            "noticeType": notice_type,
+            "publishStatus": publish_status,
+        }
+    )
+    return f"{_source_base_url(source)}/#/trade-info-detail?{query}"
+
+
 def item_from_detail(
     listing: dict,
     detail_payload: dict,
     keywords: list[str],
+    source: dict | None = None,
 ) -> dict | None:
     detail = detail_payload.get("data", {}).get("biddingNotice")
     if not detail:
@@ -180,7 +209,8 @@ def item_from_detail(
             ),
             "date_basis": "official",
             "title": title,
-            "url": _detail_url(
+            "url": _source_detail_url(
+                source,
                 str(listing["id"]),
                 int(listing.get("noticeType") or 1),
                 int(listing.get("publishStatus") or 1),
@@ -201,7 +231,7 @@ def item_from_detail(
             "bid_deadline": _datetime_text(detail.get("bidEndTime"), True),
             "registration_period": registration_period,
             "matched_keywords": matches,
-            "source_name": SOURCE_NAME,
+            "source_name": (source or {}).get("name") or SOURCE_NAME,
         }
     )
 
@@ -222,10 +252,19 @@ def _budget_text(value: object | None, ext_map: dict | None = None) -> str:
 def collect(
     keywords: list[str],
     existing_items: list[dict],
+    sources: list[dict] | None = None,
     lookback_days: int = 2,
     page_size: int = 100,
     max_pages: int = 10,
 ) -> list[dict]:
+    selected_sources = sources or [
+        {
+            "id": "eqyzc-main",
+            "name": SOURCE_NAME,
+            "url": f"{BASE_URL}/#/home",
+            "platform_id": "888364456116994049",
+        }
+    ]
     cutoff = datetime.now(ZoneInfo("Asia/Shanghai")).date() - timedelta(
         days=lookback_days
     )
@@ -238,48 +277,50 @@ def collect(
         * 1000
     )
     release_end = int(datetime.now(ZoneInfo("Asia/Shanghai")).timestamp() * 1000)
-    candidates: list[dict] = []
-    reached_cutoff = False
-
-    for page_num in range(1, max_pages + 1):
-        response = _request_json(
-            LIST_API,
-            _page_payload(
+    candidates: list[tuple[dict, dict]] = []
+    for source in selected_sources:
+        reached_cutoff = False
+        for page_num in range(1, max_pages + 1):
+            payload = _page_payload(
                 page_num,
                 page_size,
                 release_start,
                 release_end,
-            ),
-        )
-        listings = response.get("data", {}).get("list", [])
-        if not listings:
-            break
-        for listing in listings:
-            if int(listing.get("noticeType") or 0) != 1:
-                continue
-            release_date = _datetime_text(listing.get("releaseTime"), False)
-            if release_date and datetime.fromisoformat(release_date).date() < cutoff:
-                reached_cutoff = True
-                continue
-            text = " ".join(
-                [
-                    clean_text(listing.get("businessName")),
-                    clean_text(listing.get("purchaseProjectName")),
-                    clean_text(listing.get("bidSectionName")),
-                ]
             )
-            if not matched_keywords(text, keywords):
-                continue
-            candidates.append(listing)
-        if reached_cutoff:
-            break
+            if source.get("platform_id"):
+                payload["platformIdList"] = [source["platform_id"]]
+            else:
+                payload.pop("platformIdList", None)
+            response = _request_json(_source_api(source, "pageEs"), payload)
+            listings = response.get("data", {}).get("list", [])
+            if not listings:
+                break
+            for listing in listings:
+                if int(listing.get("noticeType") or 0) != 1:
+                    continue
+                release_date = _datetime_text(listing.get("releaseTime"), False)
+                if release_date and datetime.fromisoformat(release_date).date() < cutoff:
+                    reached_cutoff = True
+                    continue
+                text = " ".join(
+                    [
+                        clean_text(listing.get("businessName")),
+                        clean_text(listing.get("purchaseProjectName")),
+                        clean_text(listing.get("bidSectionName")),
+                    ]
+                )
+                if not matched_keywords(text, keywords):
+                    continue
+                candidates.append((source, listing))
+            if reached_cutoff:
+                break
 
     items = []
     item_urls: set[str] = set()
-    candidate_ids = {str(listing["id"]) for listing in candidates}
+    candidate_ids = {str(listing["id"]) for _, listing in candidates}
     for existing in existing_items:
         url = existing.get("url", "")
-        if "www.e-qyzc.com" not in url:
+        if not any(urlsplit(source["url"]).netloc in url for source in selected_sources):
             continue
         try:
             published_date = datetime.fromisoformat(
@@ -293,26 +334,34 @@ def collect(
         trade_id = match.group("id")
         if trade_id in candidate_ids:
             continue
+        source = next(
+            source
+            for source in selected_sources
+            if urlsplit(source["url"]).netloc in url
+        )
         candidates.append(
-            {
+            (
+                source,
+                {
                 "id": trade_id,
                 "noticeType": int(match.group("notice_type")),
                 "publishStatus": 1,
                 "businessName": existing.get("title", ""),
                 "releaseTime": None,
-            }
+                },
+            )
         )
         candidate_ids.add(trade_id)
 
-    for listing in candidates:
+    for source, listing in candidates:
         query = urlencode(
             {
                 "id": listing["id"],
                 "noticeType": listing.get("noticeType") or 1,
             }
         )
-        detail = _request_json(f"{DETAIL_API}?{query}")
-        item = item_from_detail(listing, detail, keywords)
+        detail = _request_json(f"{_source_api(source, 'getByTradeId')}?{query}")
+        item = item_from_detail(listing, detail, keywords, source)
         if item and item["url"] not in item_urls:
             items.append(item)
             item_urls.add(item["url"])

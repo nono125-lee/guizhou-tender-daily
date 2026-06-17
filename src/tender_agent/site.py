@@ -8,7 +8,12 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .collectors.guizhou_ztb import collect
+from .collectors import asgq, plap
 from .collectors.eqyzc import collect as collect_eqyzc
+from .collectors.ggzy_graphic import collect as collect_ggzy_graphic
+from .collectors.csg import collect as collect_csg
+from .collectors.tobacco import collect as collect_tobacco
+from .collectors.ygzc import collect as collect_ygzc
 from .collectors.zunyi_bus import collect as collect_zunyi_bus
 from .importers import load_keywords
 from .normalize import matched_tender_keywords
@@ -23,6 +28,7 @@ from .feedback import apply_rules_to_payload, load_rules
 
 
 ROOT = Path(__file__).resolve().parents[2]
+GRAPHIC_SOURCES = ROOT / "config/graphic_sources.json"
 
 
 def _excluded_titles() -> set[str]:
@@ -155,6 +161,22 @@ def _merge_verified_notices(payload: dict) -> None:
     payload["items"] = list(by_url.values())
 
 
+def _graphic_sources(collector: str) -> list[dict]:
+    if not GRAPHIC_SOURCES.exists():
+        return []
+    sources = json.loads(GRAPHIC_SOURCES.read_text(encoding="utf-8"))
+    return [source for source in sources if source.get("collector") == collector]
+
+
+def _merge_by_url(payload: dict, new_items: list[dict]) -> None:
+    if not new_items:
+        return
+    by_url = {item.get("url", ""): item for item in payload.get("items", [])}
+    for item in new_items:
+        by_url[item["url"]] = item
+    payload["items"] = list(by_url.values())
+
+
 def _refresh_payload(payload: dict) -> None:
     payload["items"].sort(
         key=lambda item: (
@@ -203,18 +225,23 @@ def update(args: argparse.Namespace) -> int:
         new_items = collect_eqyzc(
             keywords,
             payload.get("items", []),
+            _graphic_sources("eqyzc"),
         )
-        if new_items:
-            by_url = {
-                item.get("url", ""): item
-                for item in payload.get("items", [])
-            }
-            for item in new_items:
-                by_url[item["url"]] = item
-            payload["items"] = list(by_url.values())
+        _merge_by_url(payload, new_items)
     except Exception as error:
         payload.setdefault("warnings", []).append(
             f"黔云招采采集异常：{type(error).__name__}"
+        )
+    try:
+        new_items = collect_ggzy_graphic(
+            keywords,
+            payload.get("items", []),
+            _graphic_sources("ggzy"),
+        )
+        _merge_by_url(payload, new_items)
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"贵州省公共资源交易云采集异常：{type(error).__name__}"
         )
     try:
         new_items = collect_zunyi_bus(
@@ -226,6 +253,64 @@ def update(args: argparse.Namespace) -> int:
     except Exception as error:
         payload.setdefault("warnings", []).append(
             f"遵义公交官网采集异常：{type(error).__name__}"
+        )
+    try:
+        new_items = collect_ygzc(
+            keywords,
+            payload.get("items", []),
+            args.ygzc_state,
+        )
+        if new_items:
+            by_url = {
+                item.get("url", ""): item
+                for item in payload.get("items", [])
+            }
+            for item in new_items:
+                by_url[item["url"]] = item
+            payload["items"] = list(by_url.values())
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"贵阳市国企招采平台采集异常：{type(error).__name__}"
+        )
+    try:
+        new_items = collect_tobacco(
+            keywords,
+            payload.get("items", []),
+            args.tobacco_state,
+        )
+        _merge_by_url(payload, new_items)
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"中烟电子采购平台采集异常：{type(error).__name__}"
+        )
+    try:
+        new_items = collect_csg(
+            keywords,
+            payload.get("items", []),
+            args.csg_state,
+        )
+        _merge_by_url(payload, new_items)
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"中国南方电网平台采集异常：{type(error).__name__}"
+        )
+    try:
+        _merge_by_url(
+            payload,
+            asgq.collect_graphic(keywords, payload.get("items", [])),
+        )
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"黔顺云采平台采集异常：{type(error).__name__}"
+        )
+    try:
+        _merge_by_url(
+            payload,
+            plap.collect_graphic(keywords, payload.get("items", [])),
+        )
+    except Exception as error:
+        payload.setdefault("warnings", []).append(
+            f"军队采购网采集异常：{type(error).__name__}"
         )
     _remove_excluded_notices(payload)
     _hydrate_parties_from_database(payload, args.database)
@@ -293,6 +378,21 @@ def build_parser() -> argparse.ArgumentParser:
     )
     update_parser.add_argument(
         "--database", type=Path, default=ROOT / "data/private/tenders.sqlite3"
+    )
+    update_parser.add_argument(
+        "--ygzc-state",
+        type=Path,
+        default=ROOT / "site/data/ygzc-state.json",
+    )
+    update_parser.add_argument(
+        "--tobacco-state",
+        type=Path,
+        default=ROOT / "site/data/tobacco-state.json",
+    )
+    update_parser.add_argument(
+        "--csg-state",
+        type=Path,
+        default=ROOT / "site/data/csg-state.json",
     )
     update_parser.add_argument("--max-scan", type=int, default=800)
     update_parser.set_defaults(handler=update)

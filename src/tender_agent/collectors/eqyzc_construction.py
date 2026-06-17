@@ -25,6 +25,7 @@ from .eqyzc import (
     _datetime_text,
     _page_payload,
     _request_json,
+    _source_api,
 )
 
 
@@ -63,8 +64,11 @@ def _page_listings(
     while max_pages is None or page_num <= max_pages:
         payload = _page_payload(page_num, page_size, release_start, release_end)
         payload["noticeType"] = ""
-        payload["platformIdList"] = [source["platform_id"]]
-        response = _request_json(LIST_API, payload)
+        if source.get("platform_id"):
+            payload["platformIdList"] = [source["platform_id"]]
+        else:
+            payload.pop("platformIdList", None)
+        response = _request_json(_source_api(source, "pageEs"), payload)
         listings = response.get("data", {}).get("list", [])
         if not listings:
             break
@@ -182,7 +186,9 @@ def collect(
                     continue
                 query = urlencode({"id": notice_id, "noticeType": 2})
                 try:
-                    detail_payload = _request_json(f"{DETAIL_API}?{query}")
+                    detail_payload = _request_json(
+                        f"{_source_api(source, 'getByTradeId')}?{query}"
+                    )
                     detail = (
                         detail_payload.get("data", {}).get(
                             "biddingChangeNotice"
@@ -274,7 +280,9 @@ def collect(
                 continue
             query = urlencode({"id": notice_id, "noticeType": 1})
             try:
-                detail_payload = _request_json(f"{DETAIL_API}?{query}")
+                detail_payload = _request_json(
+                    f"{_source_api(source, 'getByTradeId')}?{query}"
+                )
             except RuntimeError as error:
                 if source_state is not None:
                     record_failure(
