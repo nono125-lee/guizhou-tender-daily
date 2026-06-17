@@ -1839,9 +1839,37 @@
     "https://www.bidding.csg.cn/lxcggg/1200432770.jhtml": {
       "published_at": "2026-06-12",
       "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433325.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433312.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433323.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433320.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433319.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433318.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200433317.jhtml": {
+      "published_at": "2026-06-17",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-17T21:41:11.492569+08:00"
+  "last_run_at": "2026-06-18T06:04:11.651580+08:00"
 }
