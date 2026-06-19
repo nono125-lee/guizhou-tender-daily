@@ -2,8 +2,8 @@
   "version": 1,
   "sources": {
     "ggzy-gcjs": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1225361534372630528": {
@@ -8381,6 +8381,120 @@
           "release_at": "2026-06-18T18:15:05+08:00",
           "project_code": "E522601202600024E001",
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227531463390531584"
+        },
+        "1227902749081997312": {
+          "status": "not_matched",
+          "release_at": "2026-06-19T18:50:01+08:00",
+          "project_code": "E52012120260002G1001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227902749081997312"
+        },
+        "1227902750168322048": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T18:50:01+08:00",
+          "project_code": "E5206242026000217001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227902750168322048"
+        },
+        "1227875565235736576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T17:02:58+08:00",
+          "project_code": "f19451a3-98be-4415-b1a2-cf29136cf3d1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227875565235736576"
+        },
+        "1227852922671468544": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T15:32:35+08:00",
+          "project_code": "f69ac97c-f136-4382-8a4f-59a43f120dca",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852922671468544"
+        },
+        "1227036322452082688": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "E52060220260001ZF001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227036322452082688"
+        },
+        "1227036313396580352": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "E52062420260001UF001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227036313396580352"
+        },
+        "1227114758495408128": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "E52062220260001TE001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227114758495408128"
+        },
+        "1227425231153532928": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T17:25:09+08:00",
+          "project_code": "E52232620260002EH001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227425231153532928"
+        },
+        "1226686862454820864": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "E52062720260001VE001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226686862454820864"
+        },
+        "1226709340128415744": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "E52062120260001WK001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226709340128415744"
+        },
+        "1226709346939965440": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "E52060320260001T4001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226709346939965440"
+        },
+        "1226786446317326336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "E5206282026000209001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226786446317326336"
+        },
+        "1225421320192397312": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T22:30:05+08:00",
+          "project_code": "E52011520260001YR001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225421320192397312"
+        },
+        "1225708275178278912": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T22:30:05+08:00",
+          "project_code": "E52011520260001YR001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225708275178278912"
+        },
+        "1225372855013871616": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:18:32+08:00",
+          "project_code": "00b47450-dc1b-498b-ad11-1e18912af56c",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225372855013871616"
+        },
+        "1225707485961261056": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:18:32+08:00",
+          "project_code": "00b47450-dc1b-498b-ad11-1e18912af56c",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225707485961261056"
+        },
+        "1225370692980183040": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:08:13+08:00",
+          "project_code": "E5201822026000185001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225370692980183040"
+        },
+        "1225707472191361024": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:08:13+08:00",
+          "project_code": "E5201822026000185001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225707472191361024"
+        },
+        "1227902743310635008": {
+          "status": "unlinked_change",
+          "release_at": "2026-06-19T18:50:01+08:00",
+          "project_code": "E520123202600016G001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227902743310635008"
         }
       },
       "failed_ids": {},
@@ -9181,13 +9295,15 @@
         "1227425074093625344": "e5f1facf87de2600d22122a8c2aaf17785df0348347d9d3680a075f3a22965f8",
         "1227425140627869696": "a9fb09ef5acaee4b5286597b09dfc93e9a079a55f5b8064b78c5570d7e48d979",
         "1227520198324654080": "38f608950a085f55b4cb81637ba4ac34bf13e4a80a2eb0f2a7667252f2a3b981",
-        "1227521782186119168": "0b6a4ffe639d7a86e9125275020de197376d5d81d96164236af6d621d24d4ab7"
+        "1227521782186119168": "0b6a4ffe639d7a86e9125275020de197376d5d81d96164236af6d621d24d4ab7",
+        "1227902749081997312": "afeeaf4d91f09c149e67df2eae559918a808d79cfad25a6e87f2839a089534df",
+        "1227425231153532928": "fb40634b49bf67393beaa258b208576d7dc0203ca392ced84ffa1e180a430955"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "ggzy-zfcg": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1225356418517127168": {
@@ -29157,6 +29273,1776 @@
           "release_at": "2026-06-18T17:42:36+08:00",
           "project_code": "P52262420260005SG",
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227523281561718784"
+        },
+        "1227938979987460096": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T21:13:02+08:00",
+          "project_code": "P520115202600046N",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227938979987460096"
+        },
+        "1227938979987460098": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T21:13:02+08:00",
+          "project_code": "P520115202600046N",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227938979987460098"
+        },
+        "1227484701665660928": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T21:43:30+08:00",
+          "project_code": "P52000020260006PA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227484701665660928"
+        },
+        "1227397340604796928": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T20:11:06+08:00",
+          "project_code": "P52062720260006P7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227397340604796928"
+        },
+        "1227394824651542528": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T20:06:56+08:00",
+          "project_code": "P52062720260006P6",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227394824651542528"
+        },
+        "1227402876410793984": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T20:03:02+08:00",
+          "project_code": "P52062720260006P5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227402876410793984"
+        },
+        "1227396338245832704": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T19:26:57+08:00",
+          "project_code": "P52062720260006PB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227396338245832704"
+        },
+        "1227395327691198464": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T19:23:49+08:00",
+          "project_code": "P52062720260006PC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227395327691198464"
+        },
+        "1227421023557783552": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T17:47:20+08:00",
+          "project_code": "P52000020260006P3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227421023557783552"
+        },
+        "1227483407131480064": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T16:47:55+08:00",
+          "project_code": "P52232620260006P1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227483407131480064"
+        },
+        "1227503538104569856": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T15:58:32+08:00",
+          "project_code": "P52030020260006QY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227503538104569856"
+        },
+        "1227488943130415104": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T15:04:35+08:00",
+          "project_code": "P52232720260006OH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227488943130415104"
+        },
+        "1227418483571167232": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T14:54:12+08:00",
+          "project_code": "P52030020260006PX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227418483571167232"
+        },
+        "1227473494611202048": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T14:23:55+08:00",
+          "project_code": "P52263020260006QB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227473494611202048"
+        },
+        "1227496835493531648": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T13:39:16+08:00",
+          "project_code": "P52000020260006PT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227496835493531648"
+        },
+        "1227406072038428672": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T13:32:18+08:00",
+          "project_code": "P52260020260006PG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227406072038428672"
+        },
+        "1227511281691529216": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T12:16:34+08:00",
+          "project_code": "P52000020260006RI",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227511281691529216"
+        },
+        "1227482414088065024": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T11:48:05+08:00",
+          "project_code": "P52232620260006OY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227482414088065024"
+        },
+        "1227460254166552576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T09:00:00+08:00",
+          "project_code": "P52060320260006QA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227460254166552576"
+        },
+        "1227108092706164736": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T20:43:00+08:00",
+          "project_code": "P52263020260006NG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227108092706164736"
+        },
+        "1227432076131831808": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T20:24:11+08:00",
+          "project_code": "P52018120260006NE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227432076131831808"
+        },
+        "1227469447288197120": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T18:21:14+08:00",
+          "project_code": "P52028120260006QP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227469447288197120"
+        },
+        "1227498506688794624": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T18:18:36+08:00",
+          "project_code": "P52232820260006R9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227498506688794624"
+        },
+        "1227060973068750848": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T17:42:20+08:00",
+          "project_code": "P52000020260006M9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227060973068750848"
+        },
+        "1227432577535709184": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T17:41:55+08:00",
+          "project_code": "P52018120260006PJ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227432577535709184"
+        },
+        "1227138291623661568": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T17:37:39+08:00",
+          "project_code": "P52260120260006NZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227138291623661568"
+        },
+        "1227432255610294272": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T17:30:44+08:00",
+          "project_code": "P52000020260006Q3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227432255610294272"
+        },
+        "1227142664164610048": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T17:07:46+08:00",
+          "project_code": "P52273120260006NB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227142664164610048"
+        },
+        "1227398852907241472": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T17:06:00+08:00",
+          "project_code": "P52062120260006PF",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227398852907241472"
+        },
+        "1227397340567048192": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T16:54:37+08:00",
+          "project_code": "P52062420260006OV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227397340567048192"
+        },
+        "1227429619561533440": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T16:45:40+08:00",
+          "project_code": "P52000020260006PZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227429619561533440"
+        },
+        "1227419491881848832": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T16:29:58+08:00",
+          "project_code": "P52038220260006Q5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227419491881848832"
+        },
+        "1227053480158564352": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T16:12:24+08:00",
+          "project_code": "P52000020260006M3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227053480158564352"
+        },
+        "1227109450737913856": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T15:38:45+08:00",
+          "project_code": "P52030020260006NT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227109450737913856"
+        },
+        "1227061129625341952": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T15:18:37+08:00",
+          "project_code": "P52232720260006LX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227061129625341952"
+        },
+        "1227046029434687488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T14:58:21+08:00",
+          "project_code": "P52030320260006LJ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227046029434687488"
+        },
+        "1227432576524881920": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T13:00:33+08:00",
+          "project_code": "P52018120260006NX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227432576524881920"
+        },
+        "1227207600983117824": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T11:57:52+08:00",
+          "project_code": "P52011520260006KJ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227207600983117824"
+        },
+        "1227208099455176704": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T11:01:03+08:00",
+          "project_code": "P52011520260006N5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227208099455176704"
+        },
+        "1227139317638500352": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T09:42:36+08:00",
+          "project_code": "P52262520260006OM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227139317638500352"
+        },
+        "1227121741671829504": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T23:08:07+08:00",
+          "project_code": "P52052420260006O5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227121741671829504"
+        },
+        "1227121879765094400": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T23:03:38+08:00",
+          "project_code": "P52052420260006O0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227121879765094400"
+        },
+        "1227104244012814336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T22:58:16+08:00",
+          "project_code": "P52052420260006NH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227104244012814336"
+        },
+        "1227055733598720000": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T22:28:33+08:00",
+          "project_code": "P52000020260006LD",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227055733598720000"
+        },
+        "1227109949281275904": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T21:32:11+08:00",
+          "project_code": "P52030320260006NO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227109949281275904"
+        },
+        "1227126075428048896": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:43:25+08:00",
+          "project_code": "P52000020260006LO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227126075428048896"
+        },
+        "1227124071175688192": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:35:47+08:00",
+          "project_code": "P52272720260006OC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227124071175688192"
+        },
+        "1227433844605587456": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:33:59+08:00",
+          "project_code": "P52000020260006P2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227433844605587456"
+        },
+        "1227102657446023168": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:33:36+08:00",
+          "project_code": "P52010020260006LK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227102657446023168"
+        },
+        "1227059065969053696": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:32:27+08:00",
+          "project_code": "P52000020260006LN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227059065969053696"
+        },
+        "1227132613530095616": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:31:41+08:00",
+          "project_code": "P52000020260006OE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227132613530095616"
+        },
+        "1227131931678871552": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:30:52+08:00",
+          "project_code": "P52000020260006N1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227131931678871552"
+        },
+        "1227061593813159936": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:26:44+08:00",
+          "project_code": "P52000020260006LP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227061593813159936"
+        },
+        "1227389790886957056": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T20:08:25+08:00",
+          "project_code": "P52062520260006PD",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227389790886957056"
+        },
+        "1227505641594163200": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T19:06:19+08:00",
+          "project_code": "P52000020260006RB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227505641594163200"
+        },
+        "1226697555413438464": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T18:44:00+08:00",
+          "project_code": "P52000020260006IU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226697555413438464"
+        },
+        "1227489106154622976": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T18:43:37+08:00",
+          "project_code": "P52000020260006R2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227489106154622976"
+        },
+        "1226751090624696320": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T18:40:30+08:00",
+          "project_code": "P52062520260006KK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226751090624696320"
+        },
+        "1227138945054281728": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T18:39:25+08:00",
+          "project_code": "P52000020260006NF",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227138945054281728"
+        },
+        "1227130608518565888": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T18:05:50+08:00",
+          "project_code": "P52000020260006O8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227130608518565888"
+        },
+        "1227131302000594944": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T18:05:37+08:00",
+          "project_code": "P52000020260006N3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227131302000594944"
+        },
+        "1227145396145491968": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:59:58+08:00",
+          "project_code": "P52000020260006OQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227145396145491968"
+        },
+        "1227127897349820416": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:59:54+08:00",
+          "project_code": "P52000020260006MZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227127897349820416"
+        },
+        "1226746734479282176": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:55:13+08:00",
+          "project_code": "P52263020260006KI",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226746734479282176"
+        },
+        "1227127890009788416": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:51:41+08:00",
+          "project_code": "P52000020260006MM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227127890009788416"
+        },
+        "1227506059187458048": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:14:10+08:00",
+          "project_code": "P52011520260006P8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227506059187458048"
+        },
+        "1227115365889347584": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:08:22+08:00",
+          "project_code": "P52040020260006NW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227115365889347584"
+        },
+        "1226755619340554240": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:07:17+08:00",
+          "project_code": "P52030020260006KH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226755619340554240"
+        },
+        "1227415962391810048": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:04:30+08:00",
+          "project_code": "P52032920260006PQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227415962391810048"
+        },
+        "1226665529822023680": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T17:04:13+08:00",
+          "project_code": "P52038220260006IQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226665529822023680"
+        },
+        "1227130639682244608": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:53:04+08:00",
+          "project_code": "P52000020260006NN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227130639682244608"
+        },
+        "1227426286079709184": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:52:34+08:00",
+          "project_code": "P52012220260006P4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227426286079709184"
+        },
+        "1227130669851873280": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:52:08+08:00",
+          "project_code": "P52000020260006NM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227130669851873280"
+        },
+        "1226745703984926720": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:51:55+08:00",
+          "project_code": "P52262620260006IT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226745703984926720"
+        },
+        "1227408626226958336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:42:58+08:00",
+          "project_code": "P52052420260006PO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227408626226958336"
+        },
+        "1227119517298200576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:42:15+08:00",
+          "project_code": "P52062720260006JX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227119517298200576"
+        },
+        "1227424679103434752": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:28:47+08:00",
+          "project_code": "P52000020260006P9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227424679103434752"
+        },
+        "1227138282450718720": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:27:52+08:00",
+          "project_code": "P52052320260006O6",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227138282450718720"
+        },
+        "1227404386532200448": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:15:16+08:00",
+          "project_code": "P52062320260006KN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227404386532200448"
+        },
+        "1227429161006665728": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:05:14+08:00",
+          "project_code": "P52000020260006OZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227429161006665728"
+        },
+        "1227415462942478336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:00:26+08:00",
+          "project_code": "P52030020260006PH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227415462942478336"
+        },
+        "1227394068531777536": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:57:25+08:00",
+          "project_code": "P52042420260006P0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227394068531777536"
+        },
+        "1227051317801914368": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:55:56+08:00",
+          "project_code": "P52012220260006KV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227051317801914368"
+        },
+        "1227433407206789120": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:53:10+08:00",
+          "project_code": "P52000020260006PR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227433407206789120"
+        },
+        "1227149439722983424": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:53:10+08:00",
+          "project_code": "P52000020260006OR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227149439722983424"
+        },
+        "1227393704130646016": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:51:05+08:00",
+          "project_code": "P52042420260006OT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227393704130646016"
+        },
+        "1227112969935130624": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:22:26+08:00",
+          "project_code": "P52038120260006MV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227112969935130624"
+        },
+        "1226783483968491520": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:12:15+08:00",
+          "project_code": "P52028120260006LG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226783483968491520"
+        },
+        "1227388788230197248": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T14:53:31+08:00",
+          "project_code": "P52062520260006PE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227388788230197248"
+        },
+        "1227130787657289728": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T14:46:39+08:00",
+          "project_code": "P52000020260006NY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227130787657289728"
+        },
+        "1227050715638272000": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T14:31:24+08:00",
+          "project_code": "P52263020260006M8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227050715638272000"
+        },
+        "1227103928852811776": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T13:20:03+08:00",
+          "project_code": "P52010020260006IS",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227103928852811776"
+        },
+        "1227510233878892544": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T11:58:53+08:00",
+          "project_code": "P52052320260006RF",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227510233878892544"
+        },
+        "1227048042176319488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T11:41:50+08:00",
+          "project_code": "P52000020260006LQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227048042176319488"
+        },
+        "1227102908860993536": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:59:37+08:00",
+          "project_code": "P52010020260006HV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227102908860993536"
+        },
+        "1227050559765352448": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:45:09+08:00",
+          "project_code": "P52060020260006M2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227050559765352448"
+        },
+        "1227124365368365056": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:35:28+08:00",
+          "project_code": "P52052320260006O2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227124365368365056"
+        },
+        "1227416466345824256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:22:20+08:00",
+          "project_code": "P52030020260006PN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227416466345824256"
+        },
+        "1226678787727560704": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:09:45+08:00",
+          "project_code": "P52262620260006J2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226678787727560704"
+        },
+        "1226679773300920320": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:06:15+08:00",
+          "project_code": "P52263220260006J8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226679773300920320"
+        },
+        "1227131592380649472": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T09:41:24+08:00",
+          "project_code": "P52272220260006JQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227131592380649472"
+        },
+        "1226689191803490304": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T09:00:00+08:00",
+          "project_code": "P52060320260006J0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226689191803490304"
+        },
+        "1227417977373200384": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T08:57:54+08:00",
+          "project_code": "P52033020260006PV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227417977373200384"
+        },
+        "1227487401362984960": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T08:16:43+08:00",
+          "project_code": "P52052320260006R4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227487401362984960"
+        },
+        "1227052951974055936": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T23:15:21+08:00",
+          "project_code": "P52052620260006M7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227052951974055936"
+        },
+        "1227061129633730560": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T23:07:24+08:00",
+          "project_code": "P52062720260006MN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227061129633730560"
+        },
+        "1227074220043931648": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T23:04:54+08:00",
+          "project_code": "P52062720260006MR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227074220043931648"
+        },
+        "1227060625872654336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T23:01:43+08:00",
+          "project_code": "P52062720260006MJ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227060625872654336"
+        },
+        "1227076228683534336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T22:58:48+08:00",
+          "project_code": "P52062720260006MX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227076228683534336"
+        },
+        "1227075725270585344": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T22:56:10+08:00",
+          "project_code": "P52062720260006MW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227075725270585344"
+        },
+        "1227074226138255360": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T22:46:16+08:00",
+          "project_code": "P52062720260006MP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227074226138255360"
+        },
+        "1227075222260289536": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T22:41:22+08:00",
+          "project_code": "P52062720260006MU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227075222260289536"
+        },
+        "1226719658485354496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T20:50:41+08:00",
+          "project_code": "P52000020260006JK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226719658485354496"
+        },
+        "1227071194835062784": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-14T10:36:32+08:00",
+          "project_code": "P52038120260006L2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227071194835062784"
+        },
+        "1226418241589612544": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-13T11:52:08+08:00",
+          "project_code": "P52050020260006I5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226418241589612544"
+        },
+        "1227421387912777728": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T22:56:55+08:00",
+          "project_code": "P52040220260006PU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227421387912777728"
+        },
+        "1226776759895199744": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:56:33+08:00",
+          "project_code": "P52062720260006L1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226776759895199744"
+        },
+        "1227428296942292992": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:53:38+08:00",
+          "project_code": "P52010020260006O7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227428296942292992"
+        },
+        "1227122029078122496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:27:19+08:00",
+          "project_code": "P52270020260006NR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227122029078122496"
+        },
+        "1227494987604824064": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T19:17:40+08:00",
+          "project_code": "P52060320260006R5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227494987604824064"
+        },
+        "1225707404734369792": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T18:58:00+08:00",
+          "project_code": "P522701202600019U",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225707404734369792"
+        },
+        "1227102404781150208": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T18:43:25+08:00",
+          "project_code": "P52010020260006LA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227102404781150208"
+        },
+        "1227073046980988928": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T18:29:55+08:00",
+          "project_code": "P52000020260006M6",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227073046980988928"
+        },
+        "1226778772464865280": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T18:12:02+08:00",
+          "project_code": "P52270020260006LB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226778772464865280"
+        },
+        "1226696731304005632": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:59:19+08:00",
+          "project_code": "P52273120260006JT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226696731304005632"
+        },
+        "1226775910125015040": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:54:01+08:00",
+          "project_code": "P52263620260006KY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226775910125015040"
+        },
+        "1226702088508149760": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:51:51+08:00",
+          "project_code": "P52000020260006J4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226702088508149760"
+        },
+        "1226699576866639872": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:48:03+08:00",
+          "project_code": "P52000020260006J7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226699576866639872"
+        },
+        "1226759800310861824": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:47:41+08:00",
+          "project_code": "P52000020260006KL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226759800310861824"
+        },
+        "1227504042008252416": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:46:18+08:00",
+          "project_code": "P52032220260006RD",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227504042008252416"
+        },
+        "1226309187613626368": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:35:48+08:00",
+          "project_code": "P52270020260006G0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226309187613626368"
+        },
+        "1226693274421563392": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:29:18+08:00",
+          "project_code": "P52050220260006JS",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226693274421563392"
+        },
+        "1226419427768143872": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:19:46+08:00",
+          "project_code": "P52012220260006H7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226419427768143872"
+        },
+        "1226757129499709440": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:15:24+08:00",
+          "project_code": "P52030020260006KT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226757129499709440"
+        },
+        "1226394134785429504": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:14:01+08:00",
+          "project_code": "P52000020260006FT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226394134785429504"
+        },
+        "1226388364345872384": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:12:42+08:00",
+          "project_code": "P52260020260006HH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226388364345872384"
+        },
+        "1227055763697045504": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:12:38+08:00",
+          "project_code": "P52052720260006M4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227055763697045504"
+        },
+        "1226377760138727424": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:10:48+08:00",
+          "project_code": "P52000020260006FU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226377760138727424"
+        },
+        "1227055104528617472": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:07:08+08:00",
+          "project_code": "P52052720260006MC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227055104528617472"
+        },
+        "1226665534217654272": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:52:05+08:00",
+          "project_code": "P52038220260006IZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226665534217654272"
+        },
+        "1226774249109327872": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:48:34+08:00",
+          "project_code": "P52050220260006L6",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226774249109327872"
+        },
+        "1225722978105430016": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:47:44+08:00",
+          "project_code": "P52262720260006FY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225722978105430016"
+        },
+        "1227048043304587264": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:45:52+08:00",
+          "project_code": "P52230120260006LY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227048043304587264"
+        },
+        "1227110453008797696": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:44:02+08:00",
+          "project_code": "P52032420260006MO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227110453008797696"
+        },
+        "1226759768115384320": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:39:25+08:00",
+          "project_code": "P52000020260006KM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226759768115384320"
+        },
+        "1226767384556212224": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:27:37+08:00",
+          "project_code": "P52000020260006K2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226767384556212224"
+        },
+        "1226674586880446464": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:25:47+08:00",
+          "project_code": "P52232720260006I0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226674586880446464"
+        },
+        "1227135031693152256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:24:30+08:00",
+          "project_code": "P52000020260006OK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227135031693152256"
+        },
+        "1227434207115087872": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T16:24:25+08:00",
+          "project_code": "P52050020260006Q8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227434207115087872"
+        },
+        "1226423584969330688": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T15:57:45+08:00",
+          "project_code": "P52262420260006II",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226423584969330688"
+        },
+        "1226419427751366656": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T15:25:14+08:00",
+          "project_code": "P52012220260006HK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226419427751366656"
+        },
+        "1226419427801698304": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T15:20:57+08:00",
+          "project_code": "P52012220260006HI",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226419427801698304"
+        },
+        "1227043513028448256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T15:00:12+08:00",
+          "project_code": "P52030020260006LE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227043513028448256"
+        },
+        "1226391223581937664": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:50:09+08:00",
+          "project_code": "P52062220260006GL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226391223581937664"
+        },
+        "1227417976014245888": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:35:49+08:00",
+          "project_code": "P52030020260006PP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227417976014245888"
+        },
+        "1226404966139301888": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:35:29+08:00",
+          "project_code": "P52000020260006I6",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226404966139301888"
+        },
+        "1227520148588597248": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:28:08+08:00",
+          "project_code": "P52232420260006R0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227520148588597248"
+        },
+        "1226787328815665152": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:13:06+08:00",
+          "project_code": "P52230020260006I7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226787328815665152"
+        },
+        "1227432323734179840": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T13:39:25+08:00",
+          "project_code": "P52018120260006NP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227432323734179840"
+        },
+        "1226753527288827904": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T13:17:41+08:00",
+          "project_code": "P52050020260006KA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226753527288827904"
+        },
+        "1227040996412493824": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T13:03:29+08:00",
+          "project_code": "P52032420260006L4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227040996412493824"
+        },
+        "1226699437997428736": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T12:02:41+08:00",
+          "project_code": "P52000020260006IR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226699437997428736"
+        },
+        "1226424620614291456": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T12:01:18+08:00",
+          "project_code": "P52260020260006IG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226424620614291456"
+        },
+        "1227055155057397760": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T11:52:28+08:00",
+          "project_code": "P52000020260006L9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227055155057397760"
+        },
+        "1226756123336511488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T11:51:40+08:00",
+          "project_code": "P52060020260006IW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226756123336511488"
+        },
+        "1226424402984439808": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T11:42:52+08:00",
+          "project_code": "P52000020260006HP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226424402984439808"
+        },
+        "1226309838355697664": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T11:20:41+08:00",
+          "project_code": "P52263220260006G5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226309838355697664"
+        },
+        "1227110957801672704": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T11:09:33+08:00",
+          "project_code": "P52060320260006M5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227110957801672704"
+        },
+        "1226757130070134784": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T11:08:31+08:00",
+          "project_code": "P52032320260006KU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226757130070134784"
+        },
+        "1227035964203995136": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:56:00+08:00",
+          "project_code": "P52062220260006LR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227035964203995136"
+        },
+        "1226327428205514752": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:55:56+08:00",
+          "project_code": "P52040020260006GO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226327428205514752"
+        },
+        "1226332395553296384": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:53:27+08:00",
+          "project_code": "P52058120260006GQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226332395553296384"
+        },
+        "1226384455208407040": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:47:04+08:00",
+          "project_code": "P52042320260006GS",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226384455208407040"
+        },
+        "1226709817884807168": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:19:51+08:00",
+          "project_code": "P52033020260006JA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226709817884807168"
+        },
+        "1226708811750969344": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:05:23+08:00",
+          "project_code": "P52038220260006JW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226708811750969344"
+        },
+        "1227426286134235136": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:03:59+08:00",
+          "project_code": "P52012220260006MY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227426286134235136"
+        },
+        "1226710150300176384": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T09:53:21+08:00",
+          "project_code": "P52020020260006K7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226710150300176384"
+        },
+        "1227045525791051776": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T09:46:41+08:00",
+          "project_code": "P52032820260006L0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227045525791051776"
+        },
+        "1226783093415874560": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T22:51:46+08:00",
+          "project_code": "P52000020260006L3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226783093415874560"
+        },
+        "1226377457943318528": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T20:57:27+08:00",
+          "project_code": "P52000020260006G9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226377457943318528"
+        },
+        "1227124072517865472": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T20:28:58+08:00",
+          "project_code": "P52270020260006OB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227124072517865472"
+        },
+        "1226423726996852736": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T20:14:10+08:00",
+          "project_code": "P52000020260006FL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226423726996852736"
+        },
+        "1226401413551230976": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T19:20:18+08:00",
+          "project_code": "P52000020260006H8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226401413551230976"
+        },
+        "1226700986828066816": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T18:55:31+08:00",
+          "project_code": "P52000020260006JN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226700986828066816"
+        },
+        "1226387259893354496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T18:00:28+08:00",
+          "project_code": "P52000020260006FZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226387259893354496"
+        },
+        "1227051317919354880": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:53:32+08:00",
+          "project_code": "P52012220260006LC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227051317919354880"
+        },
+        "1227480889756356608": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:50:41+08:00",
+          "project_code": "P52232320260006QV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227480889756356608"
+        },
+        "1226386742496595968": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:47:15+08:00",
+          "project_code": "P52000020260006FW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226386742496595968"
+        },
+        "1227112467142938624": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:45:37+08:00",
+          "project_code": "P52042320260006NQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227112467142938624"
+        },
+        "1227500518755143680": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:40:39+08:00",
+          "project_code": "P52062220260006Q4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227500518755143680"
+        },
+        "1227493974978203648": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:32:14+08:00",
+          "project_code": "P52273020260006Q2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227493974978203648"
+        },
+        "1227066163142463488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:31:09+08:00",
+          "project_code": "P52062820260006MS",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227066163142463488"
+        },
+        "1227069685485408256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:30:46+08:00",
+          "project_code": "P52062820260006N2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227069685485408256"
+        },
+        "1227075223015264256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:30:32+08:00",
+          "project_code": "P52062820260006ND",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227075223015264256"
+        },
+        "1227430056410877952": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:28:03+08:00",
+          "project_code": "P52232320260006PW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227430056410877952"
+        },
+        "1226424442662555648": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:21:08+08:00",
+          "project_code": "P52038120260006I9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226424442662555648"
+        },
+        "1226416746848718848": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:15:36+08:00",
+          "project_code": "P52000020260006H0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226416746848718848"
+        },
+        "1227460257933037568": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:11:10+08:00",
+          "project_code": "P52038220260006M0",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227460257933037568"
+        },
+        "1226377166879592448": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:07:27+08:00",
+          "project_code": "P52000020260006GJ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226377166879592448"
+        },
+        "1227119539301519360": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:07:18+08:00",
+          "project_code": "P52020020260006N7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227119539301519360"
+        },
+        "1226377070226051072": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T17:06:43+08:00",
+          "project_code": "P52000020260006FR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226377070226051072"
+        },
+        "1226386402363707392": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:49:38+08:00",
+          "project_code": "P52000020260006GH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226386402363707392"
+        },
+        "1227053404921139200": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:48:23+08:00",
+          "project_code": "P52000020260006LL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227053404921139200"
+        },
+        "1227053506381352960": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:40:23+08:00",
+          "project_code": "P52000020260006LM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227053506381352960"
+        },
+        "1226749077362970624": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:40:09+08:00",
+          "project_code": "P52033020260006JB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226749077362970624"
+        },
+        "1226697740046700544": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:30:37+08:00",
+          "project_code": "P52230020260006JU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226697740046700544"
+        },
+        "1226781794934853632": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:20:38+08:00",
+          "project_code": "P52062820260006L7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226781794934853632"
+        },
+        "1226336542985949184": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:18:59+08:00",
+          "project_code": "P52263420260006GU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226336542985949184"
+        },
+        "1226673589474955264": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:09:14+08:00",
+          "project_code": "P52060320260006IM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226673589474955264"
+        },
+        "1226747566222348288": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:59:46+08:00",
+          "project_code": "P52032320260006KG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226747566222348288"
+        },
+        "1226685637357342720": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:49:59+08:00",
+          "project_code": "P52058120260006JE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226685637357342720"
+        },
+        "1226323532263329792": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:37:56+08:00",
+          "project_code": "P52011520260006EZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226323532263329792"
+        },
+        "1226391912148242432": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:26:39+08:00",
+          "project_code": "P52000020260006GX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226391912148242432"
+        },
+        "1227124544981045248": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:25:35+08:00",
+          "project_code": "P52270220260006O3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227124544981045248"
+        },
+        "1226294844792639488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:25:33+08:00",
+          "project_code": "P52010320260006CZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226294844792639488"
+        },
+        "1226673975132819456": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:24:11+08:00",
+          "project_code": "P52042520260006IV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226673975132819456"
+        },
+        "1226696266474459136": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T15:01:48+08:00",
+          "project_code": "P52052120260006JG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226696266474459136"
+        },
+        "1226330121254866944": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T14:53:29+08:00",
+          "project_code": "P52040020260006GD",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226330121254866944"
+        },
+        "1226749579958030336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T14:48:38+08:00",
+          "project_code": "P52030320260006KQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226749579958030336"
+        },
+        "1226423435161374720": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T14:43:29+08:00",
+          "project_code": "P52030220260006HQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226423435161374720"
+        },
+        "1226696731941539840": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T14:10:48+08:00",
+          "project_code": "P52272220260006JO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226696731941539840"
+        },
+        "1227134611621023744": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T14:10:06+08:00",
+          "project_code": "P52273220260006OL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227134611621023744"
+        },
+        "1226424944641052672": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T13:18:42+08:00",
+          "project_code": "P52032820260006I8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226424944641052672"
+        },
+        "1227471678569844736": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T12:50:49+08:00",
+          "project_code": "P52052420260006QC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227471678569844736"
+        },
+        "1226416601985847296": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T11:45:19+08:00",
+          "project_code": "P52042320260006HG",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226416601985847296"
+        },
+        "1226699378815799296": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T11:41:23+08:00",
+          "project_code": "P52000020260006JL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226699378815799296"
+        },
+        "1226390222120554496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T11:00:26+08:00",
+          "project_code": "P52032720260006H4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226390222120554496"
+        },
+        "1226331959567978496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T10:59:12+08:00",
+          "project_code": "P52028120260006GK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226331959567978496"
+        },
+        "1227509105695002624": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T10:24:33+08:00",
+          "project_code": "P52028120260006PI",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227509105695002624"
+        },
+        "1226391727120715776": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T09:49:51+08:00",
+          "project_code": "P52032620260006CM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226391727120715776"
+        },
+        "1226747063103000576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T09:27:30+08:00",
+          "project_code": "P52038220260006JV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226747063103000576"
+        },
+        "1226328813399576576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T09:25:31+08:00",
+          "project_code": "P52060020260006GR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226328813399576576"
+        },
+        "1226708309537591296": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T09:14:28+08:00",
+          "project_code": "P52030420260006JD",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226708309537591296"
+        },
+        "1226707301897998336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T09:13:45+08:00",
+          "project_code": "P52030420260006J1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707301897998336"
+        },
+        "1226405791360225280": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T09:07:17+08:00",
+          "project_code": "P52000020260006GC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226405791360225280"
+        },
+        "1226321264101167104": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T08:53:11+08:00",
+          "project_code": "P52060020260006GE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226321264101167104"
+        },
+        "1226394498700021760": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T21:25:33+08:00",
+          "project_code": "P52010020260006DU",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226394498700021760"
+        },
+        "1226387015407374336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T20:56:39+08:00",
+          "project_code": "P52000020260006GV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226387015407374336"
+        },
+        "1226412316740947968": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T20:31:24+08:00",
+          "project_code": "P52000020260006I4",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226412316740947968"
+        },
+        "1226409355570712576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T19:56:43+08:00",
+          "project_code": "P52000020260006HN",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226409355570712576"
+        },
+        "1226413017013555200": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:54:01+08:00",
+          "project_code": "P52260120260006HX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226413017013555200"
+        },
+        "1226699283345051648": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:16:40+08:00",
+          "project_code": "P52000020260006IY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226699283345051648"
+        },
+        "1226696637339013120": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:12:35+08:00",
+          "project_code": "P52052720260006JR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226696637339013120"
+        },
+        "1226318498985283584": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:11:05+08:00",
+          "project_code": "P52018120260006EV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226318498985283584"
+        },
+        "1226692140357259264": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:06:49+08:00",
+          "project_code": "P52052720260006JP",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226692140357259264"
+        },
+        "1226424441748197376": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:05:07+08:00",
+          "project_code": "P52030320260006I3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226424441748197376"
+        },
+        "1226751026518953984": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T18:00:43+08:00",
+          "project_code": "P52052720260006JY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226751026518953984"
+        },
+        "1226377474527596544": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:51:11+08:00",
+          "project_code": "P52000020260006FX",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226377474527596544"
+        },
+        "1226377616072773632": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:50:33+08:00",
+          "project_code": "P52000020260006FV",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226377616072773632"
+        },
+        "1227046030256771072": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:38:38+08:00",
+          "project_code": "P52232820260006KR",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227046030256771072"
+        },
+        "1227502965846315008": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:24:43+08:00",
+          "project_code": "P52020320260006PK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227502965846315008"
+        },
+        "1226402305650331648": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:22:26+08:00",
+          "project_code": "P52062520260006HY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226402305650331648"
+        },
+        "1226759313939369984": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:04:18+08:00",
+          "project_code": "P52000020260006K6",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226759313939369984"
+        },
+        "1227149866162065408": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:56:52+08:00",
+          "project_code": "P52260020260006OA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227149866162065408"
+        },
+        "1226337873108799488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:52:47+08:00",
+          "project_code": "P52232320260006GZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226337873108799488"
+        },
+        "1226401928745979904": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:43:55+08:00",
+          "project_code": "P52000020260006HA",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226401928745979904"
+        },
+        "1226404805107388416": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:43:37+08:00",
+          "project_code": "P52050020260006I2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226404805107388416"
+        },
+        "1227036091287212032": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:24:29+08:00",
+          "project_code": "P52058120260006LH",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227036091287212032"
+        },
+        "1226422455095136256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:21:24+08:00",
+          "project_code": "P52000020260006HM",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226422455095136256"
+        },
+        "1226406824895451136": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:11:19+08:00",
+          "project_code": "P52270220260006HZ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226406824895451136"
+        },
+        "1227108092223819776": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T15:59:58+08:00",
+          "project_code": "P52263420260006NI",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227108092223819776"
+        },
+        "1226679275579641856": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T15:35:04+08:00",
+          "project_code": "P52262520260006IF",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226679275579641856"
+        },
+        "1226421296745811968": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T15:01:42+08:00",
+          "project_code": "P52042320260006IL",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226421296745811968"
+        },
+        "1226390823646662656": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T14:52:03+08:00",
+          "project_code": "P52032920260006HC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226390823646662656"
+        },
+        "1226320759295709184": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T14:33:08+08:00",
+          "project_code": "P52272920260006F8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226320759295709184"
+        },
+        "1226294845572780032": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T12:09:43+08:00",
+          "project_code": "P52010320260006BK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226294845572780032"
+        },
+        "1226745050386534400": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T10:53:29+08:00",
+          "project_code": "P52030020260006KC",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226745050386534400"
+        },
+        "1227066817479053312": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T10:48:16+08:00",
+          "project_code": "P52260020260006MK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227066817479053312"
+        },
+        "1226745553774317568": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T10:43:40+08:00",
+          "project_code": "P52030020260006KB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226745553774317568"
+        },
+        "1226391223045066752": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T10:40:32+08:00",
+          "project_code": "P52032920260006HD",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226391223045066752"
+        },
+        "1226388360646496256": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T08:00:00+08:00",
+          "project_code": "P52262720260006H5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226388360646496256"
+        },
+        "1226332084889587712": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T19:42:16+08:00",
+          "project_code": "P52020020260006GB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226332084889587712"
+        },
+        "1226334853721624576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T19:33:50+08:00",
+          "project_code": "P52230020260006GT",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226334853721624576"
+        },
+        "1226332845392400384": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T17:52:28+08:00",
+          "project_code": "P52032220260006EQ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226332845392400384"
+        },
+        "1226424624603074560": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T17:28:56+08:00",
+          "project_code": "P52262720260006IJ",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226424624603074560"
+        },
+        "1226679875889401856": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T17:25:14+08:00",
+          "project_code": "P52012220260006GW",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226679875889401856"
+        },
+        "1227148129950896128": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T17:04:28+08:00",
+          "project_code": "P52000020260006ON",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227148129950896128"
+        },
+        "1226387857581674496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T16:44:58+08:00",
+          "project_code": "P52262920260006H9",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226387857581674496"
+        },
+        "1226332336908537856": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T16:35:42+08:00",
+          "project_code": "P52232620260006GY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226332336908537856"
+        },
+        "1227043009372229632": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T14:31:23+08:00",
+          "project_code": "P52032620260006KE",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227043009372229632"
+        },
+        "1227103663852490752": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T11:12:51+08:00",
+          "project_code": "P52010020260006HO",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227103663852490752"
+        },
+        "1226744547653062656": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T11:02:40+08:00",
+          "project_code": "P52032920260006K5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226744547653062656"
+        },
+        "1226403806657515520": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T10:38:40+08:00",
+          "project_code": "P5223262026000699",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226403806657515520"
+        },
+        "1226379716085288960": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T10:28:49+08:00",
+          "project_code": "P52050220260006HB",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226379716085288960"
+        },
+        "1226310340556492800": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-08T21:58:27+08:00",
+          "project_code": "P52263220260006G8",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226310340556492800"
+        },
+        "1226310340657156096": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-08T21:54:35+08:00",
+          "project_code": "P52263220260006G7",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226310340657156096"
+        },
+        "1226425448628621312": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-08T18:46:46+08:00",
+          "project_code": "P52030320260006IK",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226425448628621312"
+        },
+        "1226319005602680832": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-08T16:42:47+08:00",
+          "project_code": "P52012120260006A5",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226319005602680832"
+        },
+        "1227038910522200064": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-08T15:38:22+08:00",
+          "project_code": "P52050220260006LF",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227038910522200064"
+        },
+        "1227049552381612032": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-08T10:48:46+08:00",
+          "project_code": "P52032720260006LI",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227049552381612032"
+        },
+        "1226681130607054848": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-07T22:41:44+08:00",
+          "project_code": "P52232820260006H3",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226681130607054848"
+        },
+        "1225400787841191936": {
+          "status": "change_applied",
+          "release_at": "2026-06-12T21:10:00+08:00",
+          "project_code": "P52011520260006EY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225345200213544960"
+        },
+        "1225708243209293824": {
+          "status": "change_applied",
+          "release_at": "2026-06-12T21:10:00+08:00",
+          "project_code": "P52011520260006EY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225345200213544960"
+        },
+        "1225401688144351232": {
+          "status": "change_applied",
+          "release_at": "2026-06-12T21:11:01+08:00",
+          "project_code": "P52011520260006EY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225345200213544960"
+        },
+        "1225708257880969216": {
+          "status": "change_applied",
+          "release_at": "2026-06-12T21:11:01+08:00",
+          "project_code": "P52011520260006EY",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225345200213544960"
         }
       },
       "failed_ids": {},
@@ -31173,13 +33059,17 @@
         "1227497532033208320": "944b9e64be01d763e4f6cd900a9c48b9dc168a12154b50237ecc4ca6a06b0a5e",
         "1227504349941469184": "d098ee75998398fd38c97502fbbede37ba5484871c6b3f6daa5c086605b5559a",
         "1227521782655881216": "dd5f7bff5978c9ac43f7e9fc126aa960059e56a221c0b36a12c427f642d17493",
-        "1227522437265100800": "ae920e9d14283f1a901daa35ab4b65e439dffcd97220c655aed53e280849053d"
+        "1227522437265100800": "ae920e9d14283f1a901daa35ab4b65e439dffcd97220c655aed53e280849053d",
+        "1225400787841191936": "f54419f689d3b8fbe6028080b8f4ff9b21bd1237d07be9c18ba576c1258a2544",
+        "1225708243209293824": "ebad26a545825da09eb276e8ba39837fda6fe011eaca8a74c2730618be232a72",
+        "1225401688144351232": "834103f3ca40e5f5f9925f7ebc4284d8986cb05da3fcfd69041376091136eaea",
+        "1225708257880969216": "5b569a5791a942a0cb700f8d65865974d9e81d41fe7ec61312cd353a29f9a68c"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "ggzy-qttzjy": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1225352758194163712": {
@@ -44399,6 +46289,876 @@
           "release_at": "2026-06-18T09:00:00+08:00",
           "project_code": "GQQY-XB2026040635-2",
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227156660305399808"
+        },
+        "1227846886627610624": {
+          "status": "not_matched",
+          "release_at": "2026-06-19T11:33:34+08:00",
+          "project_code": "GQGS-XB2026050070-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227846886627610624"
+        },
+        "1227846884392046592": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T09:00:00+08:00",
+          "project_code": "GQQY-XB2026050052",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227846884392046592"
+        },
+        "1227899728260370432": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-19T00:00:00+08:00",
+          "project_code": "GQQY-XB2026050683",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227899728260370432"
+        },
+        "1227852926094020608": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:31:01+08:00",
+          "project_code": "GP-C-ZC-2024126(87)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852926094020608"
+        },
+        "1227852924747649024": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:30:48+08:00",
+          "project_code": "GP-B-ZC-2025055(45)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852924747649024"
+        },
+        "1227852923564855296": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:30:35+08:00",
+          "project_code": "GP-C-ZC-2024148(105)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852923564855296"
+        },
+        "1227852924055588864": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:03:14+08:00",
+          "project_code": "GP-D-ZZ-2025284(02)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852924055588864"
+        },
+        "1227852923367723008": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:02:59+08:00",
+          "project_code": "GP-B-ZC-2026120(92)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852923367723008"
+        },
+        "1227852921950048256": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:02:09+08:00",
+          "project_code": "GP-C-ZC-2024126(87)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852921950048256"
+        },
+        "1227852921975214081": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:01:52+08:00",
+          "project_code": "GP-B-ZC-2025055(45)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852921975214081"
+        },
+        "1227852922767937536": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T23:01:35+08:00",
+          "project_code": "GP-C-ZC-2024148(105)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852922767937536"
+        },
+        "1227852163619885056": {
+          "status": "matched",
+          "release_at": "2026-06-18T17:00:00+08:00",
+          "project_code": "GQGS-ZB2026060003",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852163619885056"
+        },
+        "1227897463831138304": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-18T17:00:00+08:00",
+          "project_code": "GQQY-XB2026060167",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227897463831138304"
+        },
+        "1227846890238906368": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T16:32:00+08:00",
+          "project_code": "GQGS-XB2026060071",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227846890238906368"
+        },
+        "1227846885973299200": {
+          "status": "matched",
+          "release_at": "2026-06-18T16:00:00+08:00",
+          "project_code": "GQGS-XB2026060074",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227846885973299200"
+        },
+        "1227430922433990656": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-ZB2026050077",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227430922433990656"
+        },
+        "1227486268317896704": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQGS-XB2026060064",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227486268317896704"
+        },
+        "1227489993224753152": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-TP2026060155",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227489993224753152"
+        },
+        "1227479480562487296": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQS-TP2026060018",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227479480562487296"
+        },
+        "1227424313557258240": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-TP2026060155",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227424313557258240"
+        },
+        "1227434805659045888": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060502",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227434805659045888"
+        },
+        "1227434807311601664": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060504",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227434807311601664"
+        },
+        "1227435168759943168": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060507",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227435168759943168"
+        },
+        "1227520193912246272": {
+          "status": "matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQGS-XB2026060072",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227520193912246272"
+        },
+        "1227532206172409856": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-ZB2026060129",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227532206172409856"
+        },
+        "1227521767703187456": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQS-XB2026050018",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227521767703187456"
+        },
+        "1227517072918056960": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T17:12:00+08:00",
+          "project_code": "SGZW-XM-JZXCS-GC-202605-0128",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227517072918056960"
+        },
+        "1227516992014127104": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T17:11:00+08:00",
+          "project_code": "GZZL-XM-JZXCS-GC-202606-0002",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227516992014127104"
+        },
+        "1227152839432867840": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-XB2026050319",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152839432867840"
+        },
+        "1227122596466790400": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060190",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227122596466790400"
+        },
+        "1227044578285195264": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQGS-XB2026050074-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227044578285195264"
+        },
+        "1227115558428872704": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-TP2026060025",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227115558428872704"
+        },
+        "1227122531220197376": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060192",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227122531220197376"
+        },
+        "1227152820512362496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-XB2026050729",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152820512362496"
+        },
+        "1227152932672245760": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GP-D-CQ-2025369(54)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152932672245760"
+        },
+        "1227152929664929792": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GP-D-CQ-2025368(53)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152929664929792"
+        },
+        "1227152946689609728": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GP-D-CQ-2025368(53)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152946689609728"
+        },
+        "1227153216135892992": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-XB2026040318-2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227153216135892992"
+        },
+        "1227153201900425216": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GP-D-CQ-2025369(54)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227153201900425216"
+        },
+        "1227142769273868288": {
+          "status": "matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQGS-XB2026060059",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227142769273868288"
+        },
+        "1227150805971374080": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060188",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227150805971374080"
+        },
+        "1227152953551491072": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GP-D-CQ-2025369(54)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152953551491072"
+        },
+        "1227152987785400320": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GP-D-CQ-2025368(53)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152987785400320"
+        },
+        "1227153129917779968": {
+          "status": "not_matched",
+          "release_at": "2026-06-17T00:00:00+08:00",
+          "project_code": "GQGS-XB2026060061",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227153129917779968"
+        },
+        "1227152024869670912": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T18:00:00+08:00",
+          "project_code": "GQQY-XB2026060262",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152024869670912"
+        },
+        "1227152027335921664": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T18:00:00+08:00",
+          "project_code": "GQQY-XB2026060263",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227152027335921664"
+        },
+        "1227153595561021440": {
+          "status": "matched",
+          "release_at": "2026-06-16T17:30:00+08:00",
+          "project_code": "GQQY-XB2026060420",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227153595561021440"
+        },
+        "1227520951055421442": {
+          "status": "matched",
+          "release_at": "2026-06-16T17:00:00+08:00",
+          "project_code": "GQQY-XB2026060452",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227520951055421442"
+        },
+        "1227070815800004608": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T15:00:00+08:00",
+          "project_code": "GQGS-XB2026060055",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227070815800004608"
+        },
+        "1227142024256425984": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T14:00:00+08:00",
+          "project_code": "GQQY-XB2026060433",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227142024256425984"
+        },
+        "1226689050891653120": {
+          "status": "matched",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQGS-XB2026060044",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226689050891653120"
+        },
+        "1226768301812748288": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQQY-XB2026050620",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226768301812748288"
+        },
+        "1226783413332217856": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQQY-XB2026040545-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226783413332217856"
+        },
+        "1226674632753549312": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060042",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226674632753549312"
+        },
+        "1226793187406909440": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQQS-TP2026060034",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226793187406909440"
+        },
+        "1226785622602158080": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060039",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226785622602158080"
+        },
+        "1226797696610865152": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQGS-ZB2026060001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226797696610865152"
+        },
+        "1226707131839942656": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T16:01:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202605-0132",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707131839942656"
+        },
+        "1226707081629929472": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T15:13:00+08:00",
+          "project_code": "SGZW-XM-XBCG-GC-202606-0039",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707081629929472"
+        },
+        "1227502071121580032": {
+          "status": "not_matched",
+          "release_at": "2026-06-15T15:00:00+08:00",
+          "project_code": "GQQY-XB2026060399",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227502071121580032"
+        },
+        "1226708146857316352": {
+          "status": "not_matched",
+          "release_at": "2026-06-15T13:47:00+08:00",
+          "project_code": "SGZW-XM-XJCG-HW-202601-0019",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226708146857316352"
+        },
+        "1226707080048676864": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T11:11:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0104",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707080048676864"
+        },
+        "1226707081738981376": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T11:11:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0055",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707081738981376"
+        },
+        "1226707081441185792": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T10:00:00+08:00",
+          "project_code": "GYHJ-XM-XBCG-GC-202606-0002",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707081441185792"
+        },
+        "1226707879185223680": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T09:52:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0055",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707879185223680"
+        },
+        "1226707079138512896": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-15T09:52:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0059",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707079138512896"
+        },
+        "1226660872869515264": {
+          "status": "not_matched",
+          "release_at": "2026-06-15T09:00:00+08:00",
+          "project_code": "GQQY-XB2026050443-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226660872869515264"
+        },
+        "1225956054035206144": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:32:06+08:00",
+          "project_code": "GP-B-ZC-2026070(51)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956054035206144"
+        },
+        "1225956206980501504": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:31:53+08:00",
+          "project_code": "GP-A-ZC-2026034(26)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956206980501504"
+        },
+        "1225956231521374208": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:31:38+08:00",
+          "project_code": "GP-A-ZC-2026032(24)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956231521374208"
+        },
+        "1225955927962816512": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:31:24+08:00",
+          "project_code": "GP-B-ZC-2025245(200)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225955927962816512"
+        },
+        "1225956213120962560": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:31:01+08:00",
+          "project_code": "GP-D-ZC-2025306(251)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956213120962560"
+        },
+        "1225955875391410176": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:30:36+08:00",
+          "project_code": "GP-C-ZC-2025286(240)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225955875391410176"
+        },
+        "1225956224080678912": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:30:14+08:00",
+          "project_code": "GP-B-ZC-2025020(17)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956224080678912"
+        },
+        "1225956218997182464": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:02:29+08:00",
+          "project_code": "GP-B-ZC-2026070(51)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956218997182464"
+        },
+        "1225956237376622592": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:02:15+08:00",
+          "project_code": "GP-A-ZC-2026034(26)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956237376622592"
+        },
+        "1225956243844239360": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:01:58+08:00",
+          "project_code": "GP-A-ZC-2026032(24)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956243844239360"
+        },
+        "1225956249942757376": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:01:34+08:00",
+          "project_code": "GP-B-ZC-2025245(200)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956249942757376"
+        },
+        "1225956255986749440": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:01:11+08:00",
+          "project_code": "GP-D-ZC-2025306(251)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956255986749440"
+        },
+        "1225956265134526464": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:00:47+08:00",
+          "project_code": "GP-C-ZC-2025286(240)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956265134526464"
+        },
+        "1225956274198417408": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T23:00:34+08:00",
+          "project_code": "GP-B-ZC-2025020(17)",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1225956274198417408"
+        },
+        "1226707912395722752": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T17:26:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0109",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707912395722752"
+        },
+        "1226707080161923072": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T17:16:00+08:00",
+          "project_code": "SGZW-XM-XJCG-FW-202601-0008",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707080161923072"
+        },
+        "1226313776572272640": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T17:00:00+08:00",
+          "project_code": "GQQY-JJ2026060054",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226313776572272640"
+        },
+        "1227110315561455616": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T16:00:00+08:00",
+          "project_code": "GQQS-XB2026060024",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227110315561455616"
+        },
+        "1227028775204687872": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T15:20:00+08:00",
+          "project_code": "GQQS-XB2026060023",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227028775204687872"
+        },
+        "1227520951055421440": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T15:00:00+08:00",
+          "project_code": "GQQY-XB2026060349",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227520951055421440"
+        },
+        "1226707905563201536": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:52:00+08:00",
+          "project_code": "SGZW-XM-XBCG-GC-202606-0046",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707905563201536"
+        },
+        "1226707078945574912": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T14:29:00+08:00",
+          "project_code": "SGZW-XM-QT-GC-202606-0020",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707078945574912"
+        },
+        "1226494805203357696": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T14:00:00+08:00",
+          "project_code": "GQQY-XB2026060338",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226494805203357696"
+        },
+        "1226707124814483456": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T12:16:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0004",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707124814483456"
+        },
+        "1226707087191576576": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-12T10:59:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0074",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707087191576576"
+        },
+        "1227036314973638656": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T10:30:00+08:00",
+          "project_code": "GQQY-XB2026060340",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227036314973638656"
+        },
+        "1226707878908399616": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T10:24:00+08:00",
+          "project_code": "SGZW-XM-QT-HW-202606-0065",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707878908399616"
+        },
+        "1227120828852867072": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060370",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227120828852867072"
+        },
+        "1226707086918946816": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:52:00+08:00",
+          "project_code": "SGZW-XM-XBCG-HW-202606-0054",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707086918946816"
+        },
+        "1226707079474057216": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T16:35:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0057",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707079474057216"
+        },
+        "1226707879147474944": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T15:26:00+08:00",
+          "project_code": "SGZW-XM-XBCG-HW-202606-0054",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707879147474944"
+        },
+        "1226460764903182336": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T15:00:00+08:00",
+          "project_code": "GQQY-XB2026060260",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226460764903182336"
+        },
+        "1226707882796519424": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T14:52:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202605-0084",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707882796519424"
+        },
+        "1226351666404659200": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T14:00:00+08:00",
+          "project_code": "GQQY-XB2026060318",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226351666404659200"
+        },
+        "1226708604753678336": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T11:20:00+08:00",
+          "project_code": "SGZW-XM-XBCG-HW-202606-0070",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226708604753678336"
+        },
+        "1226769069777227776": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T11:16:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0056",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226769069777227776"
+        },
+        "1226707078920409088": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T10:32:00+08:00",
+          "project_code": "SGZW-XM-QT-GC-202606-0045",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707078920409088"
+        },
+        "1226707078253514752": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-11T10:31:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0042",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707078253514752"
+        },
+        "1226755549459255296": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T10:27:00+08:00",
+          "project_code": "SGZW-XM-GKBX-GC-202606-0083",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226755549459255296"
+        },
+        "1226707912055984128": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T10:01:00+08:00",
+          "project_code": "JLSP-XM-JZXCS-FW-202605-0001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707912055984128"
+        },
+        "1226708592455979008": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T09:53:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202605-0129",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226708592455979008"
+        },
+        "1226707912655769600": {
+          "status": "not_matched",
+          "release_at": "2026-06-11T09:35:00+08:00",
+          "project_code": "SGZW-XM-JJCG-FW-202606-0034",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707912655769600"
+        },
+        "1226707078412898304": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:03:00+08:00",
+          "project_code": "GYHJ-XM-XBCG-GC-202606-0001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707078412898304"
+        },
+        "1226707080501661696": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T17:00:00+08:00",
+          "project_code": "DTZY-XM-GKBX-FW-202606-0001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707080501661696"
+        },
+        "1226707125271662592": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:30:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0040",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707125271662592"
+        },
+        "1226707132699774976": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:30:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0062",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707132699774976"
+        },
+        "1226707125057753088": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T16:28:00+08:00",
+          "project_code": "SGZW-XM-JZXTP-FW-202606-0066",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707125057753088"
+        },
+        "1226707904908890112": {
+          "status": "not_matched",
+          "release_at": "2026-06-10T16:23:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0041",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707904908890112"
+        },
+        "1226707132435533824": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T14:50:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202605-0147",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707132435533824"
+        },
+        "1226707882570027008": {
+          "status": "not_matched",
+          "release_at": "2026-06-10T14:21:00+08:00",
+          "project_code": "GACK-XM-GKBX-FW-202606-0002",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707882570027008"
+        },
+        "1226707904988581888": {
+          "status": "not_matched",
+          "release_at": "2026-06-10T11:08:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0060",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707904988581888"
+        },
+        "1226313006749716480": {
+          "status": "matched",
+          "release_at": "2026-06-10T11:00:00+08:00",
+          "project_code": "GQQY-XB2026050372-2",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226313006749716480"
+        },
+        "1226707078480007168": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T10:00:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0077",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707078480007168"
+        },
+        "1226707125577846784": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-10T09:59:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202605-0147",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707125577846784"
+        },
+        "1226707079151095809": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T17:00:00+08:00",
+          "project_code": "DTZY-XM-GKBX-FW-202605-0009",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707079151095809"
+        },
+        "1226707146780053504": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T16:51:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0053",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707146780053504"
+        },
+        "1226707145802780672": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T16:44:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0078",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707145802780672"
+        },
+        "1226707086260441088": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T16:42:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0071",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707086260441088"
+        },
+        "1226324382515859456": {
+          "status": "matched",
+          "release_at": "2026-06-09T16:00:00+08:00",
+          "project_code": "GQQY-XB2026060267",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226324382515859456"
+        },
+        "1226707885065637888": {
+          "status": "not_matched",
+          "release_at": "2026-06-09T15:47:00+08:00",
+          "project_code": "SGZW-XM-GKBX-HW-202606-0047",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707885065637888"
+        },
+        "1226706468804366336": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T13:31:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0068",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226706468804366336"
+        },
+        "1226707086000394240": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T13:30:10+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0061",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707086000394240"
+        },
+        "1226707124546048000": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T13:30:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0061",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707124546048000"
+        },
+        "1226707132188069888": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T13:29:00+08:00",
+          "project_code": "SGZW-XM-TPCG-FW-202606-0061",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707132188069888"
+        },
+        "1227056623021854720": {
+          "status": "not_matched",
+          "release_at": "2026-06-09T10:30:00+08:00",
+          "project_code": "GQQY-TP2026060073",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227056623021854720"
+        },
+        "1226707078719082496": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T09:58:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0063",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707078719082496"
+        },
+        "1226706442548023296": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T09:29:00+08:00",
+          "project_code": "SGZW-XM-XBCG-HW-202605-0127",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226706442548023296"
+        },
+        "1226707079339839488": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-09T09:28:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202605-0115",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707079339839488"
+        },
+        "1226384723631280128": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T18:00:00+08:00",
+          "project_code": "GQQY-XB2026060230",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226384723631280128"
+        },
+        "1226309994388000768": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T17:00:00+08:00",
+          "project_code": "GQQY-JJ2026060018",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226309994388000768"
+        },
+        "1226707974983127040": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T16:59:00+08:00",
+          "project_code": "SGZW-XM-XJCG-FW-202601-0008",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707974983127040"
+        },
+        "1226753281427116032": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T16:30:00+08:00",
+          "project_code": "GQQY-XB2026060213",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226753281427116032"
+        },
+        "1227100527855276032": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T16:00:00+08:00",
+          "project_code": "GQQY-XB2026060234",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227100527855276032"
+        },
+        "1226707884612653056": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T15:41:00+08:00",
+          "project_code": "SGZW-XM-XBCG-FW-202606-0018",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707884612653056"
+        },
+        "1226396237943672832": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T11:30:00+08:00",
+          "project_code": "GQQY-XB2026050182-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226396237943672832"
+        },
+        "1226768319693066240": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T11:30:00+08:00",
+          "project_code": "GQQY-XB2026050182-1",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226768319693066240"
+        },
+        "1226707884482629632": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T10:15:00+08:00",
+          "project_code": "GACK-XM-XBCG-GC-202606-0001",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226707884482629632"
+        },
+        "1227117834618933248": {
+          "status": "not_matched",
+          "release_at": "2026-06-08T09:00:00+08:00",
+          "project_code": "GQQY-TP2026060072",
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227117834618933248"
         }
       },
       "failed_ids": {},
@@ -44468,8 +47228,8 @@
           "notice_id": "1224615277458968576"
         },
         "GQQY-XB2026050372-2": {
-          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1224606914100678656",
-          "notice_id": "1224606914100678656"
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226313006749716480",
+          "notice_id": "1226313006749716480"
         },
         "GQQY-XB2026060271": {
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1224597823726899200",
@@ -44480,8 +47240,8 @@
           "notice_id": "1224592530137763840"
         },
         "GQQY-XB2026060267": {
-          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1224235449941577728",
-          "notice_id": "1224235449941577728"
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226324382515859456",
+          "notice_id": "1226324382515859456"
         },
         "GQQY-XB2026060256": {
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1224235441771073536",
@@ -44544,8 +47304,8 @@
           "notice_id": "1226787171554430976"
         },
         "GQQY-XB2026060452": {
-          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226793220839706624",
-          "notice_id": "1226793220839706624"
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227520951055421442",
+          "notice_id": "1227520951055421442"
         },
         "GQQY-TP2026060132": {
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226772032050565120",
@@ -44674,6 +47434,30 @@
         "GQGS-XB2026060032-1": {
           "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227487731500847104",
           "notice_id": "1227487731500847104"
+        },
+        "GQGS-ZB2026060003": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227852163619885056",
+          "notice_id": "1227852163619885056"
+        },
+        "GQGS-XB2026060074": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227846885973299200",
+          "notice_id": "1227846885973299200"
+        },
+        "GQGS-XB2026060072": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227520193912246272",
+          "notice_id": "1227520193912246272"
+        },
+        "GQGS-XB2026060059": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227142769273868288",
+          "notice_id": "1227142769273868288"
+        },
+        "GQQY-XB2026060420": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227153595561021440",
+          "notice_id": "1227153595561021440"
+        },
+        "GQGS-XB2026060044": {
+          "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226689050891653120",
+          "notice_id": "1226689050891653120"
         }
       },
       "detail_fingerprints": {
@@ -46345,13 +49129,103 @@
         "1227501299864571904": "374d552ad9699e3c24d851428190818ac3c887a0bf10b39e00428a8cd919e067",
         "1227501299877154816": "b09fed4672747008a33ecd8d05e04e32d2b1b5047d87007d1e399557d74c3e68",
         "1227156634422349824": "c363901ced36733f5a3c67fc4b728ec19a9742c8d3828559ed0e6b56e0162c47",
-        "1227156660305399808": "19d8304e9ce9159090c2cce4f9ae170e86a3b2ee64b47927d3bd2812a8a058bb"
+        "1227156660305399808": "19d8304e9ce9159090c2cce4f9ae170e86a3b2ee64b47927d3bd2812a8a058bb",
+        "1227846886627610624": "fac12dc249538ba903f1583ad53b1e087f75020d1ee1dbcc0b712de6f776fdf4",
+        "1227852926094020608": "46756a16c72dbb490225d2cc0bdd7919979f06fbe9b81f7a58c957a5b456a458",
+        "1227852924747649024": "2a499e391c32d6d2c7833a244db8a203d99e45f23220553e8779f40c0187a569",
+        "1227852923564855296": "e56221c3574f5ea774b73c86799f149218ea30c8260a45e03bd5fd762c654284",
+        "1227852924055588864": "3f8a213a81dac9d514e22d6b2cbecb636c9bf93d7342b6ec422a77af900ac85f",
+        "1227852923367723008": "ec8416368721023dd6d67bc2e34cf611b2e0d6a306416ed5bf3bcb66c43f8e67",
+        "1227852921950048256": "9222603ebc8c98cd4bdbd4a208b1fe04175841e0be6d45a273fbc4b3a345e5e9",
+        "1227852921975214081": "6fc7dfbcfdb4e5afaea002e29a6535ac1070be42df69391eb61e5322698bad48",
+        "1227852922767937536": "a935b46c802b2f5aa520dfa7d75dd85edd5b9d6f0ea31a82490bf8693f944f90",
+        "1227852163619885056": "59652a8a4ba7a788c06b302e4252dcdc2e22f6a156fc91b78902b364d64da18e",
+        "1227846890238906368": "ba4b7a8df2d8bdadb5f18f456b78061f5d02618e31693365f3e06540c8bcbc03",
+        "1227846885973299200": "c988ba26202d4256cf5c071f65593531b38d7abef8ac223a893b397bf8a125e2",
+        "1227486268317896704": "39857bfd4330c89ece1d343f5fc15a8ea06f143c063a8eda227d259bf7037aff",
+        "1227489993224753152": "269c3de8fa73629f3dd56d2b2935d08fc4a7e5bf51df9ee495aaea0511e0afff",
+        "1227424313557258240": "eaf3b34ce404bb88998a1852e6e4a7d7a337d3e938be2de3a709c7274a8016e7",
+        "1227434805659045888": "4f533f38034f33eff478675f473339c6dacf0127f33f0535ea0f1dc65193acaa",
+        "1227434807311601664": "22f8c52a5c3d851fc629507a1689f9407fadc06b37163f8b2e1b42dcf35ee275",
+        "1227435168759943168": "12d106226bf4d4b208cea005130a1a9f7669b2bd8d76943812f0fad7c7e52ca1",
+        "1227520193912246272": "f193248ed7190535ad41f5411943d8971008fcd9f3591df54b2f9360415666fe",
+        "1227532206172409856": "5e7bc68c12a4157dea80b22184fce99674cdd252325cef21c13db51ba9eb9566",
+        "1227152932672245760": "4287eebde3cdb130507398d500365c7e23e45b4a37f23513916c391dcf26d587",
+        "1227152929664929792": "8e6bc00252ae58d67201bd149cf90fd80354c90cd92f11a9e873a28bd909fc55",
+        "1227152946689609728": "5ad2d93d2b4154aea882930307d567c3eab1ebe0af1704950e6e4eb6f581eb49",
+        "1227153201900425216": "70fb587bc502764fbc03510464ad8c1f029394208efc3adcdb0627e509b2ce95",
+        "1227142769273868288": "bd5f2ce7ef5b8ac2864710df791424e3e292757a3694fb9b7e9e2e7896394e6e",
+        "1227152953551491072": "d904ca1c1d85897d5387f36f772d33f6051d329df558bd34d675d444d6b09a40",
+        "1227152987785400320": "8f2dda837fea6e1c47aa02c61b1eb8242a700fff32c898333f07516843432cf0",
+        "1227153129917779968": "9a407dc4cf07a7948a5a11f7ffb0032e63b3b8b3d9254f7aae52d8c55117a019",
+        "1227152024869670912": "49dbc12ba9beead240c4800f878cc152e41eac5e2827f71f2f91d125094cd0ec",
+        "1227152027335921664": "20dce54023a62731b34b7e083d6b289f1356fd7a3eccfb9532332a87cf4d936e",
+        "1227153595561021440": "8b0d7ef90b7df8849df81329f44f269461953c3fcf3eade2ffc99c4c57997d8c",
+        "1227520951055421442": "d86da4c7638342a6f78166ea475766372d1721f06631f695db0cce96d345d38f",
+        "1227070815800004608": "57a2268d82282b9d46536fd2404cdf441808b4bed78a8c44bd36680dfea0ab68",
+        "1227142024256425984": "ec7c97f29c8c458a5a49f360254be69e711ed894df5e9cb469b8a10bc640591e",
+        "1226689050891653120": "7cb53dd94c94f38c8c2f04b6f452083cd8a00822e28386d2e4fa7315c7954d95",
+        "1226793187406909440": "725965fab6dc0f71cfe448b90a12d3e0ed9a54636bb02a871199d673b3168710",
+        "1226797696610865152": "8a564d386dd7b0d61e09b5993a1cdfad629e1c2cc9795507cdac6392fbf0b370",
+        "1227502071121580032": "b28c6f3419337c04e3e490ee665299507e1c063e302ee5b163200b8319669333",
+        "1226708146857316352": "5346e50b31d512f51793a5742999641efabbbb6801d0cc7a748a9cf56e55b66c",
+        "1226660872869515264": "c16a83bea388c7b57ea49f3c4ee881a708aa55c660dc89f04d32debf6ef8d004",
+        "1225956054035206144": "9ddf0fc5904a85527ce8aae72e52c6fa221f4c90432b618f7021f51b242ac7ef",
+        "1225956206980501504": "b7de5a15fe389b6772d023d7e829398132e1306893bc9077c3d225168f99549b",
+        "1225956231521374208": "7bb29144486379cc431c1e1661ca201181f8efb45558d494e911a3e44ab4859b",
+        "1225955927962816512": "cf33ad2b70bebdad6348f4780be075889e2e06db2bbbe6fb688799f7e823b87b",
+        "1225956213120962560": "6a12de517acb2b8fa076d248606389ea99a8d79705604f69d142666f2d7be584",
+        "1225955875391410176": "181e598d23df853f01fb92ef5bafd552abff69be7ba6072a18829b823dc04564",
+        "1225956224080678912": "9d637a5ce8cb2a76e1ac421dfabdb63355ee9c433914f53756bccc1b73959485",
+        "1225956218997182464": "e2a6772c18510f6e6bc869789b27e11793c18de649080913f15ef07726d2f51f",
+        "1225956237376622592": "f9be744556457b7568634ed23b0514894ef4951e419eda416e9266ce184d8683",
+        "1225956243844239360": "3d15a7c91707567bba0fd9987c4ee3ff81b7c08f839d455b7f820a2bfda9f41a",
+        "1225956249942757376": "c153415be324d34b039d54966d842b5ba5eac6952a071219af30a62034f07b33",
+        "1225956255986749440": "f7583c1252ca63f6e9a3ffd946f554a82bb868fcc67733903862a9c4dbbf23d5",
+        "1225956265134526464": "8219435b41024e3cc0856317494b879374ec0c4e816d6468062b66248f80a276",
+        "1225956274198417408": "ff8ff1fc5d77918ab2cb15097b755a7d8009200d1a034bc97e299f794df1d951",
+        "1226707912395722752": "ec61af51c2050e2c91bfada5dfeb64a5f74b423cbc18d69fc4146db4b97e2672",
+        "1226313776572272640": "1da25921421b9b3cedb61fc1e460bf5613b9a8a1ef2148d8653de2d804866f91",
+        "1227110315561455616": "d3b30f14726a235b8dc4eb47c02fa81e4a1ddf06d507099ea40e477a89f5bbaf",
+        "1227028775204687872": "1b17ce9124c767d43e5492d15db3e55b194058c4e5efaad474709c1aeb3f5f73",
+        "1227520951055421440": "1b36ce294593bf3fb82b964392e7f848d77fedf8825cdf74bc38a68a757a63e2",
+        "1226494805203357696": "f7df3dd992f41928c791b7346ccf6db6be9be2fee37254b2ba22e699ac1e4d19",
+        "1227036314973638656": "15ec54255f32e2b277d4400c2d47e01b716a522161d3b401c9461834311c5ad4",
+        "1226707878908399616": "60bd6fe9f1292bf0c464bd14515e4263cb182c7969a7a27a9c220e41f5bd9220",
+        "1227120828852867072": "9da6add6a491066a71a162ea599bf51e310f6d984fbdeea2b61a03056e96176c",
+        "1226707879147474944": "93b2a313a43823e21f38e1775cd899cbbb02f7443514584869363e6c459d1ab1",
+        "1226460764903182336": "c57871ad4528f5a2458ece8fa8e6ceb03c8f9ccd25baaa18ec4a3a50ddc198cb",
+        "1226707882796519424": "ee7fc2405cd591e1a5a2096c2e6471e26564f39221c21814f58d367f62cc9c18",
+        "1226351666404659200": "a74ac40e13ff1ccfaecb54ce9bead10dd141742b4238ec38c82db91b20f9600a",
+        "1226708604753678336": "ef99f86e64476d6ac9e87bd048756800947f2c42b2d5f15962d130e6b79ddb1c",
+        "1226769069777227776": "6372ffc28cb81ffaeec1f6b03c82a3fa257602a4cc7144793530a7f14e795b72",
+        "1226755549459255296": "0741cc2a3cadadfb0cefd6cfd22e81007d73bab008d1306c04a97bb33ddd30c5",
+        "1226707912055984128": "eac4d6d486a4019ea4fdc6c45eecd3f5aa6ce8c845b0661cb9d7e5e03945d432",
+        "1226708592455979008": "47755312576ecebc00fa95e1ea233879cc6c3292cdf32abf54e511e425866d09",
+        "1226707912655769600": "efcbc103fd50b679d5e8ada6255ef86887355acf94f04af34d88627e81e86626",
+        "1226707904908890112": "1677b81759802fab0b099bd1097ec7971e023180d44f23a962ff4d9f6c3cd7d6",
+        "1226707882570027008": "bfa6c698238cdd146c9bf5722bfc6d56c7eabc5eba7241f6cfa52277c9fdbb8e",
+        "1226707904988581888": "6dc4d05c77ae23374d9cad7f951ea055ca4770cc38c1fa9602a028dcb95012b1",
+        "1226313006749716480": "d9fec5642b13c0f1977ec89cc2ba787e18463538d1e93e793a62e6012ced1171",
+        "1226324382515859456": "a07829e783ff8bc9c5fec2059aa8d29d898cd880d2aabc3ef35558cfe14203b1",
+        "1226707885065637888": "689866da398e32fdd3e6867979510cda9c058279349ee99ea66232a7be179b64",
+        "1227056623021854720": "b9a6c6c7919dafc49abb24e61b3288169cd0f2ab7b2864a00ccc38a5ad53cf4a",
+        "1226384723631280128": "f89deb7c23234854bf9253df8b38462f804cf1172b7d1a079009bcef7d475f19",
+        "1226309994388000768": "e855e96b2dca9f133bb77c53549b24f05920a9dd6e33c08536a3b73069dbf212",
+        "1226707974983127040": "3a86deababfae9af7c533a4abfee364dc9bc7942c0b61b938bf6345a658eeb12",
+        "1226753281427116032": "5c9b0c250017a7f1633b6fe9802f176688069e78471454009b21ca859dea9f7a",
+        "1227100527855276032": "401941853dcbdd701a91b57722a6eacfd80093b5411ed04962dbe204a5094d61",
+        "1226707884612653056": "9a8067af6c504c4c00f36d9f4024046b4c5d3ce216e0b5a3ccbfbd145a52dd5d",
+        "1226396237943672832": "739e6fb22726ede20b5403e9d339c41ed6b4c0d7db6b82d9e9a46aef425e1d6a",
+        "1226768319693066240": "57896a3090935156ce5a07b61fe04167c8bd275d35deadeb591e5125c99ffcda",
+        "1226707884482629632": "ed2e5252fac3029730dc8017f7c6af9a3cd13901914efed4037d8653a4fd531d",
+        "1227117834618933248": "e783824e92ea191faabbd71f282a624cb9deb370cc03131921df8e10d1b12183"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "eqyzc-gedc": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1515045631908679681": {
@@ -46905,11 +49779,11 @@
         "1516768140207099905": "d28a4440d2dd5f2da30313f1a7280b5771c9bc135deec478cfabf63e69d30df7",
         "1516808560215625728": "dd79ee25634af18b7cd577d9685fd1e56e216b6fde89f86afc61d90c22f08371"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "eqyzc-gzny": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1515110656866828288": {
@@ -50941,11 +53815,11 @@
         "1516736361823768577": "cf8326e1d7cb4091545b782b9cb27294ccb4f8cdb7565bb634a35d2a2a504da6",
         "1516734408698662913": "5ff713f66714e089fc639b72948f797496fecc33f870965fafa084c5e870e22a"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "eqyzc-gzqsgz": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1515046682011406336": {
@@ -51423,11 +54297,11 @@
         "1516746332758118401": "520bc403ad1960b85e57dd4972810f7f7525b60be49f1fff5c1a74a5db6b6598",
         "1516746309978853376": "37b5327fd8a9ec659f01058b6b9e7841f0bdc553c0aba372c3f3f9f3b9cb0aa8"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "eqyzc-gzst": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1515034532861743105": {
@@ -51970,11 +54844,11 @@
         "1516768589538693121": "92d5a318628b8bf75498f98cfa5768946a26f4dddaf04a19983846150bcc97cb",
         "1516742798348161024": "011f28c8a526b7f42ee1850559dbbfbaa29ae9ef6d1759b36d16a1a287d8cb96"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "eqyzc-main": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "1514964158560112641": {
@@ -56920,6 +59794,66 @@
           "release_at": "2026-06-18T17:31:38.609000+08:00",
           "project_code": "GQQY-JJ2026060076",
           "url": ""
+        },
+        "1517134601194868737": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060507",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1517134601194868737&noticeType=1&publishStatus=1"
+        },
+        "1517231508911067136": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-ZB2026060129",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1517231508911067136&noticeType=1&publishStatus=1"
+        },
+        "1517134567548162048": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060504",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1517134567548162048&noticeType=1&publishStatus=1"
+        },
+        "1517124246964047872": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-TP2026060155",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1517124246964047872&noticeType=1&publishStatus=1"
+        },
+        "1517134561860685824": {
+          "status": "not_matched",
+          "release_at": "2026-06-18T00:00:00+08:00",
+          "project_code": "GQQY-XB2026060502",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1517134561860685824&noticeType=1&publishStatus=1"
+        },
+        "1516837731637694464": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T18:00:00+08:00",
+          "project_code": "GQQY-XB2026060263",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1516837731637694464&noticeType=1&publishStatus=1"
+        },
+        "1516837703724601344": {
+          "status": "not_matched",
+          "release_at": "2026-06-16T18:00:00+08:00",
+          "project_code": "GQQY-XB2026060262",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1516837703724601344&noticeType=1&publishStatus=1"
+        },
+        "1516854033232203776": {
+          "status": "matched",
+          "release_at": "2026-06-16T17:30:00+08:00",
+          "project_code": "GQQY-XB2026060420",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1516854033232203776&noticeType=1&publishStatus=1"
+        },
+        "1516012992199430144": {
+          "status": "not_matched",
+          "release_at": "2026-06-12T17:00:00+08:00",
+          "project_code": "GQQY-JJ2026060054",
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1516012992199430144&noticeType=1&publishStatus=1"
+        },
+        "1516383509686030337": {
+          "status": "ignored_notice_type",
+          "release_at": "2026-06-16T00:00:00+08:00",
+          "project_code": "GQQY-XJ2026060044",
+          "url": ""
         }
       },
       "failed_ids": {},
@@ -57063,6 +59997,10 @@
         "GQQY-ZB2026060123": {
           "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1517119606570651648&noticeType=1&publishStatus=1",
           "notice_id": "1517119606570651648"
+        },
+        "GQQY-XB2026060420": {
+          "url": "https://www.e-qyzc.com/#/trade-info-detail?id=1516854033232203776&noticeType=1&publishStatus=1",
+          "notice_id": "1516854033232203776"
         }
       },
       "detail_fingerprints": {
@@ -57733,13 +60671,22 @@
         "1516739800528097281": "f8c07630a64a1c0cd5bdb360265209a23768987bddad0f3c1a216244042a9367",
         "1516858539089104897": "8046eded2ed20380cc225a16aadbb63bab3b97ca554cdb51facb4c8f1b2dd069",
         "1517200626296852480": "fa06f067f095534d354bb00ba97df1f59f1bbe892424ace0a54680b2c882a0de",
-        "1517220199568736257": "070475e7f88080506d467aff9162e163996f67528a036e53b2f8731b92bc6d05"
+        "1517220199568736257": "070475e7f88080506d467aff9162e163996f67528a036e53b2f8731b92bc6d05",
+        "1517134601194868737": "55e6a835a215b351f865740b94c611c7c49ab318b24721e51e564ff99f2999c2",
+        "1517231508911067136": "7cfca693099553c2ffb1029401c953d34294d48523489109fafbc4120f4c42cb",
+        "1517134567548162048": "22190695cffe410b6620c5257dec9ad0e9c6482a5d9cd05d8193fa77cd61ed06",
+        "1517124246964047872": "c1413a76b4c7e63ff54ad2d0c091f3de51be6baf2ccd313880cb80f2e823aec7",
+        "1517134561860685824": "73149c4ced369e5cba1adc3357f2df133194c5dd127752f9651ff9a5ada75dd0",
+        "1516837731637694464": "04694311dd663865b6376d01a457dcfa05c6fbcfcd84188c94afd525debc7db2",
+        "1516837703724601344": "68ebf255cda9d09d98998fcbe5629c168db4cc2f725d7ee824e2ea20570becf1",
+        "1516854033232203776": "7ec20ad34eb6472d4f0e43658c9373e3b38825aab470b85489deb80ebb7bfc47",
+        "1516012992199430144": "7b963388c43f708b590498af08368aab2ac745847a9adba6c3edee0f93cfae34"
       },
-      "last_mode": "incremental"
+      "last_mode": "weekly"
     },
     "ztb-guizhou": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
-      "last_weekly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
+      "last_weekly_backfill_at": "2026-06-20T06:04:10.857697+08:00",
       "last_monthly_backfill_at": "2026-06-12T21:41:43.019482+08:00",
       "processed_ids": {
         "890121": {
@@ -80883,592 +83830,589 @@
           "release_at": "2026-06-18T00:00:00+08:00",
           "project_code": "",
           "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=894012"
+        },
+        "894013": {
+          "status": "not_matched",
+          "release_at": "2026-06-19T00:00:00+08:00",
+          "project_code": "",
+          "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=894013"
         }
       },
       "failed_ids": {
-        "890865": {
-          "attempts": 19,
-          "first_failed_at": "2026-06-12T21:41:43.019482+08:00",
-          "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
-          "listing": {
-            "tender_id": 890865
-          }
-        },
         "890888": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890888
           }
         },
         "890892": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890892
           }
         },
         "890894": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890894
           }
         },
         "890895": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890895
           }
         },
         "890906": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890906
           }
         },
         "890910": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890910
           }
         },
         "890928": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890928
           }
         },
         "890938": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890938
           }
         },
         "890943": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890943
           }
         },
         "890953": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890953
           }
         },
         "890955": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890955
           }
         },
         "890957": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890957
           }
         },
         "890959": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890959
           }
         },
         "890994": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 890994
           }
         },
         "891014": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891014
           }
         },
         "891018": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891018
           }
         },
         "891025": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891025
           }
         },
         "891399": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891399
           }
         },
         "891406": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891406
           }
         },
         "891409": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891409
           }
         },
         "891411": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891411
           }
         },
         "891421": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891421
           }
         },
         "891433": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891433
           }
         },
         "891456": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891456
           }
         },
         "891465": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891465
           }
         },
         "891469": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891469
           }
         },
         "891478": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891478
           }
         },
         "891483": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891483
           }
         },
         "891489": {
-          "attempts": 12,
+          "attempts": 13,
           "first_failed_at": "2026-06-15T20:38:45.994457+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891489
           }
         },
         "891834": {
-          "attempts": 8,
+          "attempts": 9,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891834
           }
         },
         "891839": {
-          "attempts": 8,
+          "attempts": 9,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891839
           }
         },
         "891846": {
-          "attempts": 8,
+          "attempts": 9,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891846
           }
         },
         "891848": {
-          "attempts": 8,
+          "attempts": 9,
           "first_failed_at": "2026-06-16T21:35:16.693060+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 891848
           }
         },
         "893700": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 893700
           }
         },
-        "894013": {
-          "attempts": 1,
-          "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
-          "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
-          "listing": {
-            "tender_id": 894013
-          }
-        },
         "894014": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894014
           }
         },
         "894015": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894015
           }
         },
         "894016": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894016
           }
         },
         "894017": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894017
           }
         },
         "894018": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894018
           }
         },
         "894019": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894019
           }
         },
         "894020": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894020
           }
         },
         "894021": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894021
           }
         },
         "894022": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894022
           }
         },
         "894023": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894023
           }
         },
         "894024": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894024
           }
         },
         "894025": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894025
           }
         },
         "894026": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894026
           }
         },
         "894027": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894027
           }
         },
         "894028": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894028
           }
         },
         "894029": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894029
           }
         },
         "894030": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894030
           }
         },
         "894031": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894031
           }
         },
         "894032": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894032
           }
         },
         "894033": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894033
           }
         },
         "894034": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894034
           }
         },
         "894035": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894035
           }
         },
         "894036": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894036
           }
         },
         "894037": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894037
           }
         },
         "894038": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894038
           }
         },
         "894039": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894039
           }
         },
         "894040": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894040
           }
         },
         "894041": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894041
           }
         },
         "894042": {
-          "attempts": 1,
+          "attempts": 2,
           "first_failed_at": "2026-06-19T06:05:47.084824+08:00",
           "last_error": "RuntimeError",
-          "last_attempt_at": "2026-06-19T06:05:47.084824+08:00",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
           "listing": {
             "tender_id": 894042
+          }
+        },
+        "894043": {
+          "attempts": 1,
+          "first_failed_at": "2026-06-20T06:04:10.857697+08:00",
+          "last_error": "RuntimeError",
+          "last_attempt_at": "2026-06-20T06:04:10.857697+08:00",
+          "listing": {
+            "tender_id": 894043
           }
         }
       },
@@ -83618,13 +86562,14 @@
         "894008": "bff1c7b352409a892435d5ee17f0b85c065cbf8a3b863d84df6954b5dea13634",
         "894010": "2e7f5d715035ff6f7dcce48f85c9e95b0a0ee9f1e4f00f58bf19aedaac9bd103",
         "894011": "e742470b2d08cef1c536f16eb6c5876e223431e6f2ce6e708181bdbc55baf5b1",
-        "894012": "a1c523be98089e926a9e037039b46d4054c98126fed31bfe0ee099acb9233bf0"
+        "894012": "a1c523be98089e926a9e037039b46d4054c98126fed31bfe0ee099acb9233bf0",
+        "894013": "9e7e55211b708f5f8b4ea9f10b416ed4760d35ef94626505fa31eb4085ab1213"
       },
-      "last_id": 894012,
-      "last_mode": "incremental"
+      "last_id": 894013,
+      "last_mode": "weekly"
     },
     "eqyzc-gzyc": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
       "last_weekly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "last_monthly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "processed_ids": {},
@@ -83634,7 +86579,7 @@
       "last_mode": "incremental"
     },
     "asgq": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
       "last_weekly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "last_monthly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "processed_ids": {
@@ -83699,7 +86644,7 @@
       "last_mode": "incremental"
     },
     "tobacco": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
       "last_weekly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "last_monthly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "processed_ids": {
@@ -83758,7 +86703,7 @@
       "last_mode": "incremental"
     },
     "plap": {
-      "last_success_at": "2026-06-19T06:05:47.084824+08:00",
+      "last_success_at": "2026-06-20T06:04:10.857697+08:00",
       "last_weekly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "last_monthly_backfill_at": "2026-06-17T21:41:19.601903+08:00",
       "processed_ids": {
