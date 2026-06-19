@@ -38,9 +38,9 @@
 
 ```bash
 PYTHONPATH=src python3 -m tender_agent.cli bootstrap \
-  --sources "/Users/nonolee/Desktop/共享win/01信息源库.xlsx" \
-  --keywords "/Users/nonolee/Desktop/共享win/02图文广告行业关键词库.txt" \
-  --history "/Users/nonolee/Desktop/共享win/03标讯信息表.xlsx"
+  --sources "/Users/nonolee/Documents/标讯/data/private/original_inputs/01信息源库.xlsx" \
+  --keywords "/Users/nonolee/Documents/标讯/data/private/original_inputs/02图文广告行业关键词库.txt" \
+  --history "/Users/nonolee/Documents/标讯/data/private/original_inputs/03标讯信息表.xlsx"
 ```
 
 导入后的账号密码位于 `data/private/tenders.sqlite3`，文件权限设为仅当前用户可读写，并被 `.gitignore` 排除。

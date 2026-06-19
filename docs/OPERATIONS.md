@@ -39,13 +39,13 @@
 
 ## 原始资料位置
 
-以下文件是用户维护的原始资料，仍在桌面共享目录：
+以下文件是用户维护的原始资料，已归档到项目私密目录：
 
 | 内容 | 绝对路径 |
 |---|---|
-| 信息源库 | `/Users/nonolee/Desktop/共享win/01信息源库.xlsx` |
-| 图文广告原始关键词库 | `/Users/nonolee/Desktop/共享win/02图文广告行业关键词库.txt` |
-| 历史标讯信息表 | `/Users/nonolee/Desktop/共享win/03标讯信息表.xlsx` |
+| 信息源库 | `/Users/nonolee/Documents/标讯/data/private/original_inputs/01信息源库.xlsx` |
+| 图文广告原始关键词库 | `/Users/nonolee/Documents/标讯/data/private/original_inputs/02图文广告行业关键词库.txt` |
+| 历史标讯信息表 | `/Users/nonolee/Documents/标讯/data/private/original_inputs/03标讯信息表.xlsx` |
 
 原始附件不会提交到GitHub。信息源库导入私密数据库；关键词库导入后形成
 `config/industries/graphic-advertising.json`；历史标讯表导入私密数据库用于历史数据和去重。
@@ -253,9 +253,9 @@ git subtree push --prefix=site origin gh-pages
 
 ```bash
 PYTHONPATH=src python3 -m tender_agent.cli bootstrap \
-  --sources “/Users/nonolee/Desktop/共享win/01信息源库.xlsx” \
-  --keywords “/Users/nonolee/Desktop/共享win/02图文广告行业关键词库.txt” \
-  --history “/Users/nonolee/Desktop/共享win/03标讯信息表.xlsx”
+  --sources “/Users/nonolee/Documents/标讯/data/private/original_inputs/01信息源库.xlsx” \
+  --keywords “/Users/nonolee/Documents/标讯/data/private/original_inputs/02图文广告行业关键词库.txt” \
+  --history “/Users/nonolee/Documents/标讯/data/private/original_inputs/03标讯信息表.xlsx”
 ```
 
 查看本地数据状态：
@@ -281,5 +281,5 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
 - `data/private/` 已被 `.gitignore` 排除，只存在本机。
 - GitHub只保存代码、非敏感配置和公开标讯数据。
 - 原始Excel、关键词文本和私密数据库都应纳入本机备份。
-- 更换电脑时，除克隆GitHub仓库外，还必须迁移三份原始资料和
+- 更换电脑时，除克隆GitHub仓库外，还必须迁移 `data/private/original_inputs/` 和
   `data/private/tenders.sqlite3`，否则账号资料和本地历史库不会自动恢复。

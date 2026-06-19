@@ -9,7 +9,7 @@ from tender_agent.importers import (
 )
 
 
-INPUT_DIR = Path("/Users/nonolee/Desktop/共享win")
+INPUT_DIR = Path(__file__).resolve().parents[1] / "data/private/original_inputs"
 
 
 @unittest.skipUnless(INPUT_DIR.exists(), "用户附件目录不存在")
