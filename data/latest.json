@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T06:03:47.135526+08:00",
+  "updated_at": "2026-06-20T06:03:08.467034+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -23,7 +23,7 @@
       "source_name": "军队采购网",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -45,7 +45,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -67,7 +67,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -89,7 +89,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -111,7 +111,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -133,7 +133,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -155,7 +155,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -177,7 +177,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -199,7 +199,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -221,7 +221,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -243,7 +243,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -265,7 +265,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -287,7 +287,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -310,7 +310,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -333,7 +333,7 @@
       "source_name": "贵州省公共资源交易云",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -356,7 +356,7 @@
       "source_name": "中烟电子采购平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -379,7 +379,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -402,7 +402,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -425,7 +425,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -448,7 +448,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -471,7 +471,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -495,7 +495,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -518,7 +518,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -541,7 +541,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -564,7 +564,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -587,7 +587,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -610,7 +610,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -635,7 +635,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -658,7 +658,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -683,7 +683,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -707,7 +707,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -730,7 +730,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -753,7 +753,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -776,7 +776,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-19T06:03:47.135526+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6503,7 +6503,7 @@
     "total": 273,
     "new_today": 0,
     "sources": 34,
-    "new_items": 34
+    "new_items": 0
   },
   "warnings": []
 }

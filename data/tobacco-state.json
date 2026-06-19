@@ -2631,9 +2631,25 @@
     "https://cgjy.tobacco.com.cn/jzfwzb/42112.jhtml": {
       "published_at": "2026-06-17",
       "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42448.jhtml": {
+      "published_at": "2026-06-18",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42818.jhtml": {
+      "published_at": "2026-06-18",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42755.jhtml": {
+      "published_at": "2026-06-18",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42590.jhtml": {
+      "published_at": "2026-06-18",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-19T06:04:47.161424+08:00"
+  "last_run_at": "2026-06-20T06:03:35.233426+08:00"
 }
