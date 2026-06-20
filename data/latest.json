@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T09:10:47.167000+08:00",
+  "updated_at": "2026-06-21T06:03:18.956088+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -6431,76 +6431,10 @@
       "new_on_date": "",
       "is_new": false,
       "project_content_basis": "section-v3"
-    },
-    {
-      "title": "军采网-训词及入党誓词墙建设项目",
-      "url": "https://www.plap.mil.cn/freecms/site/juncai/ggxx/info/2026/8a1d027c9dcdea23019dd99facd37986.html?noticeType=001013&channel=e0172398-23dd-47be-a092-14c67a92bd4f",
-      "budget": "23.47万元",
-      "summary": "对原有2座雕塑拆除并移位安装，新建训词及入党誓词2座雕塑文化墙(采用烤漆工艺)",
-      "location": "兴义市",
-      "buyer": "某部",
-      "bid_deadline": "2026-05-13 15:00",
-      "registration_deadline": "05-08 22：00",
-      "matched_keywords": [
-        "文化"
-      ],
-      "published_at": "2026-05-06",
-      "source_name": "军队采购网",
-      "registration_period": "2026-05-06至05-08 22：00",
-      "project_content": "对原有2座雕塑拆除并移位安装，新建训词及入党誓词2座雕塑文化墙(采用烤漆工艺)",
-      "date_basis": "collected",
-      "agency": "贵州公明建设投资咨询有限公司",
-      "first_seen_at": "2026-05-06T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
-    },
-    {
-      "title": "毕节市中心血站无偿献血宣传纪念品采购项目（2026年度）",
-      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1209750380854202368",
-      "budget": "162.11万元",
-      "summary": "纯棉毛巾套装、菜籽油、五折伞、洗洁精等相关无偿献血宣传品",
-      "location": "毕节市",
-      "buyer": "毕节市中心血站",
-      "bid_deadline": "2026-05-12 09:30",
-      "registration_deadline": "05-11 18:00",
-      "matched_keywords": [
-        "宣传"
-      ],
-      "published_at": "2026-05-06",
-      "source_name": "贵州省公共资源交易云",
-      "registration_period": "2026-05-06至2026-05-11",
-      "project_content": "纯棉毛巾套装、菜籽油、五折伞、洗洁精等相关无偿献血宣传品",
-      "date_basis": "collected",
-      "agency": "贵州信泰项目管理咨询有限公司",
-      "first_seen_at": "2026-05-06T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
-    },
-    {
-      "title": "贵州商务2026年度宣传策划项目（二次）",
-      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1207541517870518272",
-      "budget": "65万元",
-      "summary": "会议整体宣传策划、内容采编生成、渠道资源分发、重点活动纪实",
-      "location": "贵阳市",
-      "buyer": "贵州省商务厅",
-      "bid_deadline": "2026-05-15 09:30",
-      "registration_deadline": "05-06 23:59",
-      "matched_keywords": [
-        "宣传"
-      ],
-      "published_at": "2026-05-06",
-      "source_name": "贵州省公共资源交易云",
-      "registration_period": "2026-05-06至2026-05-06",
-      "project_content": "会议整体宣传策划、内容采编生成、渠道资源分发、重点活动纪实",
-      "date_basis": "collected",
-      "agency": "贵州阳光产权交易所有限公司",
-      "first_seen_at": "2026-05-06T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
     }
   ],
   "stats": {
-    "total": 273,
+    "total": 270,
     "new_today": 0,
     "sources": 34,
     "new_items": 0
