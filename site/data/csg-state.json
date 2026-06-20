@@ -2159,9 +2159,57 @@
     "https://www.bidding.csg.cn/lxcggg/1200433494.jhtml": {
       "published_at": "2026-06-19",
       "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200433501.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200433500.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433499.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433498.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433504.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433503.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433362.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433361.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433360.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433359.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433497.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200433496.jhtml": {
+      "published_at": "2026-06-20",
+      "status": "region_prefilter"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-20T06:04:09.395754+08:00"
+  "last_run_at": "2026-06-20T09:11:35.906987+08:00"
 }
