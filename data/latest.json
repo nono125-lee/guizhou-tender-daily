@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T06:03:18.956088+08:00",
+  "updated_at": "2026-06-22T06:03:08.136275+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -6407,34 +6407,10 @@
       "new_on_date": "",
       "is_new": false,
       "project_content_basis": "section-v3"
-    },
-    {
-      "title": "贵州画院（贵州美术馆）“2026多彩贵州：人文山水·时光峰峦——文化遗产主题青年美术展”展览活动宣传推广服务项目",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=871770",
-      "budget": "20万元",
-      "summary": "按照“精准定位、多元联动、长效传播”原则，创新宣传形式，优化传播策略，提升宣传策划能力，加强信息覆盖面，强化主流媒体介入，扩大公众知晓度，全方位传播展览与贵州文化遗产内涵。",
-      "location": "贵阳市",
-      "buyer": "贵州画院（贵州美术馆）",
-      "bid_deadline": "2026-05-18 14:30",
-      "registration_deadline": "05-12 17:00",
-      "matched_keywords": [
-        "宣传",
-        "文化"
-      ],
-      "published_at": "2026-05-07",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "完成 本项目宣传推广 服务工作",
-      "registration_period": "2026-05-09至2026-05-12",
-      "date_basis": "official",
-      "agency": "贵州黔云通建设咨询有限责任公司",
-      "first_seen_at": "2026-05-07T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
     }
   ],
   "stats": {
-    "total": 270,
+    "total": 269,
     "new_today": 0,
     "sources": 34,
     "new_items": 0
