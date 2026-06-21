@@ -2647,9 +2647,37 @@
     "https://cgjy.tobacco.com.cn/jzfwzb/42590.jhtml": {
       "published_at": "2026-06-18",
       "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42844.jhtml": {
+      "published_at": "2026-06-21",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42843.jhtml": {
+      "published_at": "2026-06-21",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42840.jhtml": {
+      "published_at": "2026-06-21",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42839.jhtml": {
+      "published_at": "2026-06-21",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/42838.jhtml": {
+      "published_at": "2026-06-21",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/42837.jhtml": {
+      "published_at": "2026-06-21",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/42827.jhtml": {
+      "published_at": "2026-06-19",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-21T06:03:35.165396+08:00"
+  "last_run_at": "2026-06-22T06:03:27.857663+08:00"
 }
