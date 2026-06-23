@@ -1,6 +1,7 @@
 import json
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -75,11 +76,14 @@ class YgzcCollectorTests(unittest.TestCase):
 
     @patch("tender_agent.collectors.ygzc._request_json")
     def test_collection_paginates_and_skips_processed_nonmatches(self, request):
+        publish_time = (
+            f"{datetime.now(ygzc.PLATFORM_TIMEZONE).date().isoformat()} 09:00:00"
+        )
         listings = [
             {
                 "id": f"notice-{index}",
                 "title": f"设备采购公告{index}",
-                "pubtime": "2026-06-14 09:00:00",
+                "pubtime": publish_time,
             }
             for index in range(101)
         ]
@@ -103,7 +107,7 @@ class YgzcCollectorTests(unittest.TestCase):
                         row["title"] for row in listings
                         if row["id"] == notice_id
                     ),
-                    "time": "2026-06-14 09:00:00",
+                    "time": publish_time,
                     "fields": [
                         {"name": "项目名称", "value": "设备采购"},
                     ],

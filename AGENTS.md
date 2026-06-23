@@ -28,7 +28,8 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 - 私密数据库：`data/private/tenders.sqlite3`
 - 公开网页：`site/`
 - 施工公开网页：`site/construction/`
-- 自动任务：`.github/workflows/daily-pages.yml`
+- 本机自动采集：`/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist`
+- GitHub部署任务：`.github/workflows/daily-pages.yml`
 
 ## 修改要求
 
@@ -50,6 +51,8 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 - 标讯采集只在**本机**执行（黔云招采从 GitHub runner 无法访问）。
   发布流程：本机采集 → commit site/ → push → GitHub Actions 自动部署 gh-pages。
   也可以本机采集后直接用 `git subtree push --prefix=site origin gh-pages` 直推部署。
+- 当前每日采集由 macOS `launchd` 发起，不由 Codex 或 GitHub Actions 发起；
+  不得把“Actions部署成功”写成“来源采集成功”。
 - 修改后至少运行：
 
 ```bash

@@ -2,12 +2,13 @@
 
 ## 系统组成
 
-这套系统由四部分组成：
+这套系统由五部分组成：
 
 1. 本地Skill：让Codex知道何时、按什么规则执行标讯任务。
 2. 本地Agent代码：负责导入、筛选、去重、采集和生成网页数据。
-3. GitHub Actions：每天自动运行Agent并发布网站。
-4. GitHub Pages：提供手机和电脑可打开的最新标讯页面。
+3. macOS `launchd`：每天在本机采集两个板块、提交并推送公开数据。
+4. GitHub Actions：只部署仓库中已有的 `site/`，不发起采集。
+5. GitHub Pages：提供手机和电脑可打开的最新标讯页面。
 
 ## 本地位置
 
@@ -24,7 +25,8 @@
 | 区域配置 | `config/regions.json` | 当前为贵州省 |
 | 图文广告关键词配置 | `config/industries/graphic-advertising.json` | 自动采集实际使用的关键词 |
 | 施工资质关键词配置 | `config/industries/construction.json` | 只在资格类栏目匹配 |
-| 施工信息源配置 | `config/construction_sources.json` | 九个施工公告来源 |
+| 图文广告信息源配置 | `config/graphic_sources.json` | 十一个图文广告配置来源 |
+| 施工信息源配置 | `config/construction_sources.json` | 十三个施工配置来源 |
 | 信息源正式名称映射 | `config/source_names.json` | 网页展示名称 |
 | 人工核实公告 | `config/verified_notices.json` | 暂无采集器时的临时补录 |
 | 已确认误报排除清单 | `config/excluded_notices.json` | 每次更新时强制排除 |
@@ -34,7 +36,10 @@
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
 | 施工增量采集状态 | `site/construction/data/collector-state.json` | 各来源游标、公告ID、失败重试和项目编码 |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
-| 自动任务 | `.github/workflows/daily-pages.yml` | 北京时间每天7:15运行 |
+| 施工最新公开数据 | `site/construction/data/latest.json` | 施工网页读取的数据 |
+| 本机自动采集任务 | `/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist` | 本地时间每天15:03运行 |
+| 本机采集日志 | `/Users/nonolee/.local/logs/tender-collect-YYYYMMDD.log` | 记录采集、提交和发布结果 |
+| GitHub部署任务 | `.github/workflows/daily-pages.yml` | 北京时间每天7:15兜底部署 |
 | 测试 | `tests/` | 采集器和数据处理测试 |
 
 ## 原始资料位置
@@ -50,25 +55,28 @@
 原始附件不会提交到GitHub。信息源库导入私密数据库；关键词库导入后形成
 `config/industries/graphic-advertising.json`；历史标讯表导入私密数据库用于历史数据和去重。
 
-2026-06-09盘点结果：
+原始资料在2026-06-09的盘点结果：
 
 - 信息源账号记录：171条
 - 不同信息源网址：108个
 - 历史标讯记录：431条
-- 已开发核心采集器模块：10个，覆盖图文广告和施工两个板块的多来源接入
+
+当前代码共有12个独立采集器模块，覆盖图文广告和施工两个板块。
 
 ## 已开发采集器
 
-| 网站 | 采集器 |
+| 网站或板块 | 采集器 |
 |---|---|
 | 贵州省招标投标公共服务平台 | `src/tender_agent/collectors/guizhou_ztb.py` |
-| 黔云招采电子招标采购交易平台 | `src/tender_agent/collectors/eqyzc.py` |
+| 贵州省招标投标公共服务平台（施工） | `src/tender_agent/collectors/ztb_construction.py` |
+| 黔云招采主板块、子板块及云农商（图文广告） | `src/tender_agent/collectors/eqyzc.py` |
+| 黔云招采主板块、子板块及云农商（施工） | `src/tender_agent/collectors/eqyzc_construction.py` |
 | 遵义市公共交通（集团）有限责任公司 | `src/tender_agent/collectors/zunyi_bus.py` |
 | 贵阳市公共资源交易国有企业招标采购平台 | `src/tender_agent/collectors/ygzc.py` |
 | 中烟电子采购平台 | `src/tender_agent/collectors/tobacco.py` |
 | 中国南方电网供应链统一服务平台 | `src/tender_agent/collectors/csg.py` |
-| 贵州省公共资源交易云 | `src/tender_agent/collectors/ggzy_graphic.py`、`src/tender_agent/collectors/ggzy_construction.py` |
-| 黔云招采子板块及云农商电子招采平台 | `src/tender_agent/collectors/eqyzc.py`、`src/tender_agent/collectors/eqyzc_construction.py` |
+| 贵州省公共资源交易云（图文广告） | `src/tender_agent/collectors/ggzy_graphic.py` |
+| 贵州省公共资源交易云（施工） | `src/tender_agent/collectors/ggzy_construction.py` |
 | “黔顺云采”集采平台 | `src/tender_agent/collectors/asgq.py` |
 | 军队采购网 | `src/tender_agent/collectors/plap.py` |
 
@@ -178,15 +186,16 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
   “采购范围”或“项目概况”的栏目；其他相似栏目不自动代入。
 - 页面操作先保存在当前浏览器中；点击“当日反馈”后打开GitHub反馈单，
   需要登录GitHub并点击一次“Submit new issue”正式提交。
-- 反馈单提交后，本机Codex的“处理标讯人工反馈”自动任务定期读取反馈，
-  写入 `config/feedback_rules.json`、更新网页并关闭已处理反馈单。
+- 反馈单提交后，需要由人工或另行配置的 Agent 读取并处理；当前本机每日采集任务
+  不读取 GitHub 反馈单，也不依赖 Codex 自动任务。
 - GitHub Pages本身不能直接写入数据，因此提交时会打开GitHub反馈单，
-  需要再点击一次“Submit new issue”；通常在下一次自动任务运行后完成处理。
+  需要再点击一次“Submit new issue”。反馈只有在处理程序写入规则并重新发布后
+  才会生效，不能把“已提交反馈单”当成“已处理”。
 - 已确认网址以后固定保留；已排除网址以后固定剔除；字段纠正以后覆盖采集值。
 - 同一网址先确认后排除或先排除后确认时，系统停止自动修改并在反馈单中提出
   冲突，等待再次判断。
 
-## 标讯更新与发布流程（2026-06-10 起）
+## 标讯更新与发布流程
 
 GitHub Actions **不再重新采集**。采集只在本机执行，Actions 只负责将
 `site/` 目录部署到 GitHub Pages。
@@ -202,7 +211,7 @@ PYTHONPATH=src python3 -m tender_agent.construction_site
 
 # 3. 提交并推送 site/ 到 main 分支
 git add site/
-git commit -m “更新标讯数据”
+git commit -m "更新标讯数据"
 git push
 
 # 4. 部署到 GitHub Pages（二选一）
@@ -217,7 +226,23 @@ git subtree push --prefix=site origin gh-pages
 自动采集的数据永远比本机少。改为本机采集 → 推送 site/ → Actions 只部署，
 数据完整性由本机保证。
 
-### 自动任务
+### 本机自动采集任务
+
+- 任务标识：`com.nono.tender-daily`
+- 安装文件：`/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist`
+- macOS本地时间每天15:03运行；夏令时约为北京时间6:03，冬令时约为7:03
+- 顺序执行图文广告采集、施工采集、提交 `site/`、推送 `main` 和 `gh-pages`
+- 日志：`/Users/nonolee/.local/logs/tender-collect-YYYYMMDD.log`
+- 本机必须处于开机可运行、网络可用状态；该任务是系统定时任务，不消耗Codex会话Token
+
+检查任务和最近日志：
+
+```bash
+launchctl print gui/$(id -u)/com.nono.tender-daily
+tail -n 100 /Users/nonolee/.local/logs/tender-collect-$(date +%Y%m%d).log
+```
+
+### GitHub部署任务
 
 - 任务名称：`发布标讯页面`
 - 北京时间每天 7:15 将 `main` 分支上已有的 `site/` 部署到 GitHub Pages
@@ -253,9 +278,9 @@ git subtree push --prefix=site origin gh-pages
 
 ```bash
 PYTHONPATH=src python3 -m tender_agent.cli bootstrap \
-  --sources “/Users/nonolee/Documents/标讯/data/private/original_inputs/01信息源库.xlsx” \
-  --keywords “/Users/nonolee/Documents/标讯/data/private/original_inputs/02图文广告行业关键词库.txt” \
-  --history “/Users/nonolee/Documents/标讯/data/private/original_inputs/03标讯信息表.xlsx”
+  --sources "/Users/nonolee/Documents/标讯/data/private/original_inputs/01信息源库.xlsx" \
+  --keywords "/Users/nonolee/Documents/标讯/data/private/original_inputs/02图文广告行业关键词库.txt" \
+  --history "/Users/nonolee/Documents/标讯/data/private/original_inputs/03标讯信息表.xlsx"
 ```
 
 查看本地数据状态：
