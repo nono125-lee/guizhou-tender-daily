@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T22:12:36.634299+08:00",
+  "updated_at": "2026-06-24T06:03:17.885373+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -22,7 +22,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -44,7 +44,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -66,7 +66,7 @@
       "source_name": "黔云招采电子招标采购交易平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -89,7 +89,7 @@
       "source_name": "中国南方电网供应链统一服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -112,7 +112,7 @@
       "source_name": "贵州省公共资源交易云",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -135,7 +135,7 @@
       "source_name": "贵州省公共资源交易云",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -158,6 +158,52 @@
       "source_name": "中烟电子采购平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
+      "is_new": false
+    },
+    {
+      "published_at": "2026-06-23",
+      "date_basis": "official",
+      "title": "贵州省烟草公司黔东南州公司2026-2028年物流中心异型烟分拣线设备维保服务采购项目 －竞争谈判公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=895611",
+      "budget": "",
+      "summary": "项目 规模： 31.50万元（含税） （人民币）。 最高投标限价： 30.45万元（含税） （人民币）。 竞争谈判 内容及范围： 采购 2 026-2028年物流中心异型烟分拣线设备维保服务，需确保物流中心生产经营作业流程的正常运行，异型烟分拣线设备及分拣监控系统、线路优化系统，服务器等相关配套设备的硬件、软件及电控、信息管理系统、控制系统等需保持良好的工作状态，同时做好异型烟分拣控制系统和电子标签系统替换或者技术升级、分拣软硬件设备的计划性维护、巡检和对突发性故障的及时处理，保证设备安全、正常、灵敏、可靠运行，严禁带“病”运行，防止因设备故障造成配送任务的延迟带来零售客户投诉等问题发生。 本 采购 项目 不划分标段",
+      "project_content": "项目 规模： 31.50万元（含税） （人民币）。 最高投标限价： 30.45万元（含税） （人民币）。 竞争谈判 内容及范围： 采购 2 026-2028年物流中心异型烟分拣线设备维保服务，需确保物流中心生产经营作业流程的正常运行，异型烟分拣线设备及分拣监控系统、线路优化系统，服务器等相关配套设备的硬件、软件及电控、信息管理系统、控制系统等需保持良好的工作状态，同时做好异型烟分拣控制系统和电子标签系统替换或者技术升级、分拣软硬件设备的计划性维护、巡检和对突发性故障的及时处理，保证设备安全、正常、灵敏、可靠运行，严禁带“病”运行，防止因设备故障造成配送任务的延迟带来零售客户投诉等问题发生。 本 采购 项目 不划分标段",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州省烟草公司黔东南州公司",
+      "bid_deadline": "2026-07-07 10:00",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "标签"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-24T06:03:17.885373+08:00",
+      "new_on_date": "2026-06-24",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-23",
+      "date_basis": "official",
+      "title": "卫生健康户外宣传（二次）竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=895605",
+      "budget": "280000.00 元",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州卫虹招标有限公司",
+      "bid_deadline": "2026-07-06 10:30",
+      "registration_deadline": "",
+      "registration_period": "2026-06-24至2026-06-30",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "first_seen_at": "2026-06-24T06:03:17.885373+08:00",
+      "new_on_date": "2026-06-24",
       "is_new": true
     },
     {
@@ -181,7 +227,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -204,7 +250,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -227,7 +273,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -250,7 +296,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -273,7 +319,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -296,7 +342,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -319,7 +365,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -342,7 +388,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -365,7 +411,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -388,7 +434,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -411,7 +457,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -435,7 +481,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -458,7 +504,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -481,7 +527,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -504,7 +550,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -527,7 +573,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -550,7 +596,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -573,7 +619,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -596,7 +642,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -620,7 +666,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -643,7 +689,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -666,7 +712,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -689,7 +735,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -712,7 +758,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -735,7 +781,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -758,7 +804,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-23T22:12:36.634299+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -7329,104 +7375,13 @@
       "first_seen_at": "2026-05-11T00:00:00+08:00",
       "new_on_date": "",
       "is_new": false
-    },
-    {
-      "title": "金茂成渝（贵阳）2026-2027年物料制作战略采购（第二次）",
-      "url": "https://ebs.chinajinmao.cn/html/jinmao/V2603/zbgg/20260508/59325.html",
-      "budget": "无限价",
-      "summary": "物料制作",
-      "location": "贵阳市",
-      "buyer": "金茂西南企业管理（天津）有限公司",
-      "bid_deadline": "2026-05-13 12:00",
-      "registration_deadline": "05-12 14:00",
-      "matched_keywords": [
-        "物料"
-      ],
-      "published_at": "2026-05-09",
-      "source_name": "中国金茂阳光招标平台",
-      "registration_period": "2026-05-09至2026-05-12",
-      "project_content": "物料制作",
-      "date_basis": "collected",
-      "agency": "/",
-      "first_seen_at": "2026-05-09T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false
-    },
-    {
-      "title": "贵综中国（贵阳）二手车出口展厅改装及导视系统牌采购项目",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=873161",
-      "budget": "20万元",
-      "summary": "展厅改装及导视系统牌采购",
-      "location": "贵阳市",
-      "buyer": "贵阳综合保税区贵综供应链管理有限公司",
-      "bid_deadline": "2026-05-21 14:30",
-      "registration_deadline": "05-15 17:00",
-      "matched_keywords": [
-        "导视"
-      ],
-      "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "完成本项目采购清单及采购期间发布的补充通知等所示的全部工作直至竣工验收、整体移交等相关工作",
-      "registration_period": "2026-05-11至2026-05-15",
-      "date_basis": "official",
-      "agency": "普诚正华",
-      "first_seen_at": "2026-05-09T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
-    },
-    {
-      "title": "“纪念中国工农红军长征胜利90周年”网上重大主题宣传采购",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=873144",
-      "budget": "15.3万元",
-      "summary": "活动宣传",
-      "location": "贵阳市",
-      "buyer": "中共贵阳市委网络安全和信息化委员会办公室",
-      "bid_deadline": "2026-05-20 14:00",
-      "registration_deadline": "05-15 17:00",
-      "matched_keywords": [
-        "宣传"
-      ],
-      "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "",
-      "registration_period": "2026-05-11至2026-05-15",
-      "date_basis": "official",
-      "agency": "贵州融创智联招标有限公司",
-      "first_seen_at": "2026-05-09T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
-    },
-    {
-      "title": "草海北岸生态巡护道路（智慧赛道）建设项目--标识牌部分",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=873098",
-      "budget": "122.23万元",
-      "summary": "标识标牌制作及安装",
-      "location": "毕节市",
-      "buyer": "贵州草海保护开发投资有限责任公司",
-      "bid_deadline": "2026-05-21 14:30",
-      "registration_deadline": "05-13 17:00",
-      "matched_keywords": [
-        "标识"
-      ],
-      "published_at": "2026-05-09",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "草海北岸生态巡护道路（智慧赛道）建设项目 --标识牌部分 的潜在 比选申请人 应在 贵州贵义工程项目管理有限公司（贵阳市观山湖区恒大中心 B座15楼13号） 获取采购文件，并于 202 6 年 5 月 21 日 14 : 3 0 （北京时间）前提交 比选申请文件 。 一、项目基本情况 项目名称： 草海北岸生态巡护道路（智慧赛道）建设项目 --标识牌部分 比选编号： GY ZB-[2026]022号 采购方式： 比选采购 预算金额（元）： 1222300.00 最高限价（元）： 1222300.00 标项名称： 草海北岸生态巡护道路（智慧赛道）建设项目 --标识牌部分 数量： 1 预算金额（元）： 1222300.00 单位： 项 简要规格描述：详见 比选文件 供货期 ： 合同签订后， 30日历天完成所有工作 。 本项目 不 接受联合体投标",
-      "registration_period": "2026-05-11至2026-05-13",
-      "date_basis": "official",
-      "agency": "贵州贵义工程项目管理有限公司",
-      "first_seen_at": "2026-05-09T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
     }
   ],
   "stats": {
-    "total": 313,
-    "new_today": 33,
-    "sources": 30,
-    "new_items": 33
+    "total": 311,
+    "new_today": 0,
+    "sources": 29,
+    "new_items": 2
   },
   "warnings": []
 }
