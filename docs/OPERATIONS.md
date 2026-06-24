@@ -195,6 +195,21 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
 - 同一网址先确认后排除或先排除后确认时，系统停止自动修改并在反馈单中提出
   冲突，等待再次判断。
 
+## 施工标讯查阅文件
+
+- 施工页面原“重点项目”已改为“查阅文件”，含义是进入招标文件下载与解析待办，
+  不表示项目重要程度。
+- 标记继续保存在当前浏览器本地，旧的“重点项目”标记会原样保留，不需要重新选择。
+- 在“查阅文件”面板点击“提交查阅文件”后，会打开带
+  `construction-tender-document-review` 标签的 GitHub Issue；仍需登录 GitHub 并点击
+  `Submit new issue` 才算正式提交。
+- Agent 读取 Issue 中的 `TENDER_DOCUMENT_REVIEW_JSON` 清单，逐项目下载公告明确提供的
+  招标文件和附件，再调用 `tender-document-analyzer` Skill。该 Skill 每个项目固定输出
+  三份 DOCX。
+- 登录、验证码、付费、协议确认或组织账号授权不得绕过，应记录为需要人工处理。
+- GitHub Pages 不能直接调用本机 Codex Skill，因此“提交查阅文件”是任务交接，
+  不是网页端已经完成下载或解析。
+
 ## 标讯更新与发布流程
 
 GitHub Actions **不再重新采集**。采集只在本机执行，Actions 只负责将
