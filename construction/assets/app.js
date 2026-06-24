@@ -139,8 +139,54 @@ function updateKeyProjectPanel() {
   toggleBtn.onclick = () => {
     const hidden = !list.hidden;
     list.hidden = hidden;
-    toggleBtn.querySelector("button").textContent = hidden ? "展开" : "收起";
+    toggleBtn.textContent = hidden ? "展开" : "收起";
   };
+}
+
+function documentReviewIssueBody(items) {
+  const lines = items.map((item, index) =>
+    `${index + 1}. ${item.title}\n   - 公告：${item.url}`
+  );
+  const machine = JSON.stringify({
+    schema_version: 1,
+    action: "analyze_tender_documents",
+    submitted_at: new Date().toISOString(),
+    items: items.map((item) => ({
+      title: item.title || "",
+      url: item.url || "",
+      source_name: item.source_name || "",
+      bid_deadline: item.bid_deadline || ""
+    }))
+  });
+  return [
+    "请下载以下项目的招标文件，并使用 tender-document-analyzer Skill 逐项目解析。",
+    "每个项目固定输出三份 DOCX；如遇登录、验证码、付费或协议确认，请标记为需要人工处理。",
+    "",
+    ...lines,
+    "",
+    "以下数据供 Agent 读取，请勿修改：",
+    `<!-- TENDER_DOCUMENT_REVIEW_JSON\n${machine}\n-->`
+  ].join("\n");
+}
+
+function submitDocumentReview() {
+  const items = state.items.filter((item) => state.keyProjects.has(item.url));
+  if (!items.length) {
+    alert("当前没有标记为“查阅文件”的项目。");
+    return;
+  }
+  const date = new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date()).replaceAll("/", "-");
+  const params = new URLSearchParams({
+    title: `施工标讯查阅文件 ${date}`,
+    body: documentReviewIssueBody(items),
+    labels: "construction-tender-document-review"
+  });
+  window.location.href = `https://github.com/${REPOSITORY}/issues/new?${params}`;
 }
 
 function pendingFeedback() {
@@ -377,7 +423,7 @@ function render() {
       keywords.append(tag);
     });
     const kpBtn = card.querySelector(".key-project-toggle");
-    kpBtn.textContent = state.keyProjects.has(item.url) ? "★ 已标记" : "☆ 重点项目";
+    kpBtn.textContent = state.keyProjects.has(item.url) ? "★ 查阅文件" : "☆ 查阅文件";
     kpBtn.classList.toggle("is-active", state.keyProjects.has(item.url));
     kpBtn.addEventListener("click", () => toggleKeyProject(item.url));
 
@@ -450,5 +496,6 @@ async function load() {
 
 $("#dialog-save").addEventListener("click", saveDialog);
 $("#submit-feedback").addEventListener("click", submitFeedback);
+$("#submit-document-review").addEventListener("click", submitDocumentReview);
 
 load();

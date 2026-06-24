@@ -341,7 +341,7 @@ dd { flex: 1; margin: 0; font-weight: 700; }
   text-align: right;
 }
 
-/* ---- key project ---- */
+/* ---- document review ---- */
 .key-projects-panel {
   margin-bottom: 24px;
   border: 1px solid var(--gold);
@@ -388,6 +388,27 @@ dd { flex: 1; margin: 0; font-weight: 700; }
 .key-project-list a { color: var(--ink); text-decoration: none; }
 .key-project-list a:hover { color: var(--red); }
 .key-project-deadline { color: var(--muted); font-size: 12px; margin-left: 8px; }
+
+.document-review-submit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 16px;
+  border-top: 1px solid rgba(182, 145, 67, 0.35);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.document-review-submit-row button {
+  flex: none;
+  padding: 8px 14px;
+  border: 1px solid var(--gold);
+  color: #fff;
+  background: var(--gold);
+  cursor: pointer;
+  font-weight: 700;
+}
 
 .key-project-toggle {
   align-self: center;
@@ -447,6 +468,7 @@ footer {
   .read-more { grid-column: 2; justify-self: start; text-align: left; }
   .key-project-toggle { grid-column: 2; justify-self: start; }
   .key-projects-panel { margin-inline: 0; }
+  .document-review-submit-row { align-items: flex-start; flex-direction: column; }
   dl { grid-template-columns: 1fr; }
   dl div, .registration-row, .source-row { grid-column: 1; }
   .title-row { gap: 5px; }

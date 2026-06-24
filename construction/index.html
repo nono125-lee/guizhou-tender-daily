@@ -9,7 +9,7 @@
       content="贵州施工标讯，按公告资格要求筛选、自动更新、原文直达。"
     >
     <title>标讯-贵州-施工</title>
-    <link rel="stylesheet" href="./assets/style.css?v=20260611">
+    <link rel="stylesheet" href="./assets/style.css?v=20260623">
   </head>
   <body>
     <div class="paper-noise" aria-hidden="true"></div>
@@ -69,11 +69,15 @@
       </section>
 
       <section id="key-projects-panel" class="key-projects-panel" hidden>
-        <div class="key-projects-header" id="toggle-key-projects">
-          <strong>⭐ 重点项目（<span id="key-project-count">0</span>）</strong>
-          <button type="button">展开</button>
+        <div class="key-projects-header">
+          <strong>📄 查阅文件（<span id="key-project-count">0</span>）</strong>
+          <button id="toggle-key-projects" type="button">展开</button>
         </div>
         <ol id="key-project-list" class="key-project-list" hidden></ol>
+        <div class="document-review-submit-row">
+          <span>提交后由 Agent 下载招标文件并交给招标文件解析 Skill。</span>
+          <button id="submit-document-review" type="button">提交查阅文件</button>
+        </div>
       </section>
 
       <div id="warning" class="warning" hidden></div>
@@ -126,7 +130,7 @@
             <span class="review-state"></span>
           </div>
         </div>
-        <button class="key-project-toggle" type="button">☆ 重点项目</button>
+        <button class="key-project-toggle" type="button">☆ 查阅文件</button>
       </article>
     </template>
 
@@ -145,6 +149,6 @@
       </form>
     </dialog>
 
-    <script src="./assets/app.js?v=20260611" defer></script>
+    <script src="./assets/app.js?v=20260623" defer></script>
   </body>
 </html>
