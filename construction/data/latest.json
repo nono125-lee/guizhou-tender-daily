@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T06:04:19.206576+08:00",
+  "updated_at": "2026-06-24T09:14:56.605653+08:00",
   "coverage": "贵州省施工类标讯资格条件专项筛选",
   "warnings": [],
   "items": [
@@ -25,7 +25,7 @@
       "source_notice_id": "8a1d033a9e92120f019ef360818065fe",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -50,7 +50,7 @@
       "source_notice_id": "1519019042523615233",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -74,7 +74,7 @@
       "source_notice_id": "1519003118248693761",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -98,7 +98,7 @@
       "source_notice_id": "1519002727628967936",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -122,7 +122,7 @@
       "source_notice_id": "1518584783778385921",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -146,7 +146,7 @@
       "source_notice_id": "1229330448107311104",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -170,7 +170,7 @@
       "source_notice_id": "1229330438267473920",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -194,7 +194,7 @@
       "source_notice_id": "1229330435176271872",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -218,7 +218,7 @@
       "source_notice_id": "1229330431858577408",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -242,7 +242,7 @@
       "source_notice_id": "1229329669942284288",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -266,7 +266,7 @@
       "source_notice_id": "1229328477908504576",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -290,7 +290,7 @@
       "source_notice_id": "1229328258395410432",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -314,7 +314,7 @@
       "source_notice_id": "1229328250325569536",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -339,7 +339,7 @@
       "source_notice_id": "1229328228477440000",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -364,7 +364,7 @@
       "source_notice_id": "1229327510345486336",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -388,7 +388,7 @@
       "source_notice_id": "1229327497833877504",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -413,7 +413,7 @@
       "source_notice_id": "1229318920020824064",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -437,7 +437,7 @@
       "source_notice_id": "1229316931333525504",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -461,7 +461,7 @@
       "source_notice_id": "1229316312061317120",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -485,7 +485,7 @@
       "source_notice_id": "1229315600371814400",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -509,7 +509,7 @@
       "source_notice_id": "1229313379148107776",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -533,7 +533,7 @@
       "source_notice_id": "1229310905020452864",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -557,7 +557,7 @@
       "source_notice_id": "1229301846108147712",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -581,7 +581,7 @@
       "source_notice_id": "1229301771097214976",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -605,7 +605,7 @@
       "source_notice_id": "1229299605989101568",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -629,7 +629,7 @@
       "source_notice_id": "1229297975461810176",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -654,7 +654,7 @@
       "source_notice_id": "1229295762140172288",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -678,7 +678,7 @@
       "source_notice_id": "1229294935572877312",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -702,7 +702,7 @@
       "source_notice_id": "1229289666587529216",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -726,7 +726,7 @@
       "source_notice_id": "1229284913296052224",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -750,7 +750,7 @@
       "source_notice_id": "1229281324259479552",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -774,7 +774,7 @@
       "source_notice_id": "1229281320341999616",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -798,7 +798,7 @@
       "source_notice_id": "1229275280607154176",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -822,7 +822,7 @@
       "source_notice_id": "1229266219530588160",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -846,7 +846,7 @@
       "source_notice_id": "1229247485353005056",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -870,7 +870,7 @@
       "source_notice_id": "1229247389282471936",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -895,7 +895,7 @@
       "source_notice_id": "1229245120747016192",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -919,7 +919,7 @@
       "source_notice_id": "1229241409245155328",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -943,7 +943,7 @@
       "source_notice_id": "1229240566819196928",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -967,7 +967,7 @@
       "source_notice_id": "1229227185819226112",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -991,7 +991,7 @@
       "source_notice_id": "1229214124345528320",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1015,7 +1015,7 @@
       "source_notice_id": "1229212624273674240",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1039,7 +1039,7 @@
       "source_notice_id": "1229212622545620992",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1063,7 +1063,7 @@
       "source_notice_id": "1229212621224415232",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1087,7 +1087,7 @@
       "source_notice_id": "1229206609255862272",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1111,7 +1111,7 @@
       "source_notice_id": "1229202043604963328",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1134,7 +1134,7 @@
       "source_notice_id": "895693",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1157,7 +1157,7 @@
       "source_notice_id": "895678",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1180,7 +1180,7 @@
       "source_notice_id": "895657",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1203,7 +1203,7 @@
       "source_notice_id": "895646",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1227,7 +1227,7 @@
       "source_notice_id": "895632",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1250,7 +1250,7 @@
       "source_notice_id": "895581",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1273,7 +1273,7 @@
       "source_notice_id": "895521",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1296,7 +1296,7 @@
       "source_notice_id": "895516",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1319,7 +1319,7 @@
       "source_notice_id": "895498",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1342,7 +1342,7 @@
       "source_notice_id": "895496",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1366,7 +1366,7 @@
       "source_notice_id": "895487",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1389,7 +1389,7 @@
       "source_notice_id": "895388",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1412,7 +1412,7 @@
       "source_notice_id": "895358",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1435,7 +1435,7 @@
       "source_notice_id": "895355",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1458,7 +1458,7 @@
       "source_notice_id": "895343",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1504,7 +1504,7 @@
       "source_notice_id": "895331",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1527,7 +1527,7 @@
       "source_notice_id": "895271",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1550,7 +1550,7 @@
       "source_notice_id": "895262",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1573,7 +1573,7 @@
       "source_notice_id": "895261",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1596,7 +1596,7 @@
       "source_notice_id": "895260",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1619,7 +1619,7 @@
       "source_notice_id": "895252",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1642,7 +1642,7 @@
       "source_notice_id": "895243",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1665,7 +1665,7 @@
       "source_notice_id": "895222",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1688,7 +1688,7 @@
       "source_notice_id": "895201",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1711,7 +1711,7 @@
       "source_notice_id": "895124",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1734,7 +1734,7 @@
       "source_notice_id": "895115",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1757,7 +1757,7 @@
       "source_notice_id": "895080",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1780,7 +1780,7 @@
       "source_notice_id": "895034",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1803,7 +1803,7 @@
       "source_notice_id": "894980",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1826,7 +1826,7 @@
       "source_notice_id": "894956",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1849,7 +1849,7 @@
       "source_notice_id": "894954",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1872,7 +1872,7 @@
       "source_notice_id": "894952",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1895,7 +1895,7 @@
       "source_notice_id": "894902",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1918,7 +1918,7 @@
       "source_notice_id": "894868",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-23",
@@ -1942,7 +1942,7 @@
       "source_notice_id": "894844",
       "first_seen_at": "2026-06-23T22:14:27.598091+08:00",
       "new_on_date": "2026-06-23",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -1966,7 +1966,7 @@
       "source_notice_id": "1518580762082578433",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -1990,7 +1990,7 @@
       "source_notice_id": "1229036709073784832",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2014,7 +2014,7 @@
       "source_notice_id": "1228974798642745344",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2038,7 +2038,7 @@
       "source_notice_id": "1228974797220876288",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2062,7 +2062,7 @@
       "source_notice_id": "1228973365772029952",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2086,7 +2086,7 @@
       "source_notice_id": "1228973355311435776",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2110,7 +2110,7 @@
       "source_notice_id": "1228968073864810496",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2134,7 +2134,7 @@
       "source_notice_id": "1228967258278203392",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2158,7 +2158,7 @@
       "source_notice_id": "1228963600383741952",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2182,7 +2182,7 @@
       "source_notice_id": "1228963527662899200",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2206,7 +2206,7 @@
       "source_notice_id": "1228955929484070912",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2230,7 +2230,7 @@
       "source_notice_id": "1228955923674959872",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2254,7 +2254,7 @@
       "source_notice_id": "1228952992271699968",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2278,7 +2278,7 @@
       "source_notice_id": "1228950640319926272",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2303,7 +2303,7 @@
       "source_notice_id": "1228946991774568448",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2327,7 +2327,7 @@
       "source_notice_id": "1228945404645740544",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2351,7 +2351,7 @@
       "source_notice_id": "1228942569690501120",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2376,7 +2376,7 @@
       "source_notice_id": "1228938586762645504",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2400,7 +2400,7 @@
       "source_notice_id": "1228935562489106432",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2424,7 +2424,7 @@
       "source_notice_id": "1228935551600693248",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2449,7 +2449,7 @@
       "source_notice_id": "1228933280712232960",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229239044370731008"
     },
@@ -2476,7 +2476,7 @@
       "source_notice_id": "1228931884373905408",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2500,7 +2500,7 @@
       "source_notice_id": "1228929690408980480",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2524,7 +2524,7 @@
       "source_notice_id": "1228924274182590464",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2549,7 +2549,7 @@
       "source_notice_id": "1228922224522694656",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2573,7 +2573,7 @@
       "source_notice_id": "1228922222991773696",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2597,7 +2597,7 @@
       "source_notice_id": "1228915921633021952",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2621,7 +2621,7 @@
       "source_notice_id": "1228915166108848128",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2645,7 +2645,7 @@
       "source_notice_id": "1228909327197278208",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2669,7 +2669,7 @@
       "source_notice_id": "1228890216195035136",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2693,7 +2693,7 @@
       "source_notice_id": "1228889861939924992",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2717,7 +2717,7 @@
       "source_notice_id": "1228888542223142912",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2741,7 +2741,7 @@
       "source_notice_id": "1228878206627614720",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2765,7 +2765,7 @@
       "source_notice_id": "1228878189972033536",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2789,7 +2789,7 @@
       "source_notice_id": "1228876858947407872",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229292056254484480"
     },
@@ -2815,7 +2815,7 @@
       "source_notice_id": "1228874590609084416",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2839,7 +2839,7 @@
       "source_notice_id": "1228861556259950592",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2862,7 +2862,7 @@
       "source_notice_id": "894779",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2885,7 +2885,7 @@
       "source_notice_id": "894624",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2908,7 +2908,7 @@
       "source_notice_id": "894568",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2931,7 +2931,7 @@
       "source_notice_id": "894561",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2954,7 +2954,7 @@
       "source_notice_id": "894557",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -2977,7 +2977,7 @@
       "source_notice_id": "894541",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3000,7 +3000,7 @@
       "source_notice_id": "894419",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3023,7 +3023,7 @@
       "source_notice_id": "894409",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3046,7 +3046,7 @@
       "source_notice_id": "894362",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3069,7 +3069,7 @@
       "source_notice_id": "894352",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3092,7 +3092,7 @@
       "source_notice_id": "894334",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3115,7 +3115,7 @@
       "source_notice_id": "894289",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3138,7 +3138,7 @@
       "source_notice_id": "894287",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3161,7 +3161,7 @@
       "source_notice_id": "894255",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3185,7 +3185,7 @@
       "source_notice_id": "894253",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3208,7 +3208,7 @@
       "source_notice_id": "894245",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3231,7 +3231,7 @@
       "source_notice_id": "894239",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3254,7 +3254,7 @@
       "source_notice_id": "894230",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3277,7 +3277,7 @@
       "source_notice_id": "894203",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3301,7 +3301,7 @@
       "source_notice_id": "894197",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-22",
@@ -3324,7 +3324,7 @@
       "source_notice_id": "894125",
       "first_seen_at": "2026-06-22T23:07:10.662842+08:00",
       "new_on_date": "2026-06-22",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3348,7 +3348,7 @@
       "source_notice_id": "8a1d033a9e92120f019ed88b5c0c6720",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3372,7 +3372,7 @@
       "source_notice_id": "8a1d03399e921220019ed4761ec23f5b",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3396,7 +3396,7 @@
       "source_notice_id": "1517209874846224385",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3420,7 +3420,7 @@
       "source_notice_id": "1517209780193366017",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3444,7 +3444,7 @@
       "source_notice_id": "1517195096115417089",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3468,7 +3468,7 @@
       "source_notice_id": "1517119606570651648",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3492,7 +3492,7 @@
       "source_notice_id": "1227846885973299200",
       "first_seen_at": "2026-06-20T06:04:10.857697+08:00",
       "new_on_date": "2026-06-20",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3516,7 +3516,7 @@
       "source_notice_id": "1227523197956657152",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3540,7 +3540,7 @@
       "source_notice_id": "1227521699663187968",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3564,7 +3564,7 @@
       "source_notice_id": "1227521698920796160",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3588,7 +3588,7 @@
       "source_notice_id": "1227520196055535616",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3612,7 +3612,7 @@
       "source_notice_id": "1227520193912246272",
       "first_seen_at": "2026-06-20T06:04:10.857697+08:00",
       "new_on_date": "2026-06-20",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3636,7 +3636,7 @@
       "source_notice_id": "1227520170080210944",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3660,7 +3660,7 @@
       "source_notice_id": "1227520168956137472",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3684,7 +3684,7 @@
       "source_notice_id": "1227520168234717184",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3708,7 +3708,7 @@
       "source_notice_id": "1227518645836582912",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3732,7 +3732,7 @@
       "source_notice_id": "1227517067067002880",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3756,7 +3756,7 @@
       "source_notice_id": "1227516469202522112",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3780,7 +3780,7 @@
       "source_notice_id": "1227512622476300288",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3804,7 +3804,7 @@
       "source_notice_id": "1227510521633312768",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3828,7 +3828,7 @@
       "source_notice_id": "1227510512326152192",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3852,7 +3852,7 @@
       "source_notice_id": "1227510509880872960",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3876,7 +3876,7 @@
       "source_notice_id": "1227510410123546624",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3900,7 +3900,7 @@
       "source_notice_id": "1227506679239806976",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3925,7 +3925,7 @@
       "source_notice_id": "1227505924428664832",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3949,7 +3949,7 @@
       "source_notice_id": "1227505271841099776",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3973,7 +3973,7 @@
       "source_notice_id": "1227502912029200384",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -3998,7 +3998,7 @@
       "source_notice_id": "1227502910817046528",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4022,7 +4022,7 @@
       "source_notice_id": "1227501330495574016",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4046,7 +4046,7 @@
       "source_notice_id": "1227496884105515008",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4070,7 +4070,7 @@
       "source_notice_id": "1227496878296403968",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4095,7 +4095,7 @@
       "source_notice_id": "1227496116392693760",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4119,7 +4119,7 @@
       "source_notice_id": "1227487731500847104",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4144,7 +4144,7 @@
       "source_notice_id": "1227486264513662976",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4168,7 +4168,7 @@
       "source_notice_id": "1227486231672262656",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4193,7 +4193,7 @@
       "source_notice_id": "1227485466505383936",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4217,7 +4217,7 @@
       "source_notice_id": "1227484194289094656",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228963527197331456"
     },
@@ -4243,7 +4243,7 @@
       "source_notice_id": "1227483978844475392",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4267,7 +4267,7 @@
       "source_notice_id": "1227483978190163968",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4291,7 +4291,7 @@
       "source_notice_id": "1227481749769031680",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4315,7 +4315,7 @@
       "source_notice_id": "1227477915344703488",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228928756501057536"
     },
@@ -4342,7 +4342,7 @@
       "source_notice_id": "1227476434759585792",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4366,7 +4366,7 @@
       "source_notice_id": "1227476434273046528",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4390,7 +4390,7 @@
       "source_notice_id": "1227474877603254272",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4414,7 +4414,7 @@
       "source_notice_id": "1227474154882732032",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227520198324654080"
     },
@@ -4440,7 +4440,7 @@
       "source_notice_id": "1227474151091081216",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4464,7 +4464,7 @@
       "source_notice_id": "1227437206663204864",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4488,7 +4488,7 @@
       "source_notice_id": "1227436403978276864",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4512,7 +4512,7 @@
       "source_notice_id": "1227430922392047616",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4537,7 +4537,7 @@
       "source_notice_id": "1227428850057744384",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4561,7 +4561,7 @@
       "source_notice_id": "1227422116597600256",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4585,7 +4585,7 @@
       "source_notice_id": "1227409987870003200",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4609,7 +4609,7 @@
       "source_notice_id": "1227406386300850176",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4633,7 +4633,7 @@
       "source_notice_id": "1227406217777909760",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4657,7 +4657,7 @@
       "source_notice_id": "1227406205496987648",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4681,7 +4681,7 @@
       "source_notice_id": "1227403404997955584",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4706,7 +4706,7 @@
       "source_notice_id": "1227402435694301184",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4730,7 +4730,7 @@
       "source_notice_id": "1227400948058558464",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229210417784557568"
     },
@@ -4756,7 +4756,7 @@
       "source_notice_id": "1227399392877744128",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229331952172142592"
     },
@@ -4781,7 +4781,7 @@
       "source_notice_id": "893974",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4804,7 +4804,7 @@
       "source_notice_id": "893963",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4827,7 +4827,7 @@
       "source_notice_id": "893932",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4850,7 +4850,7 @@
       "source_notice_id": "893927",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4873,7 +4873,7 @@
       "source_notice_id": "893922",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4897,7 +4897,7 @@
       "source_notice_id": "893912",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4921,7 +4921,7 @@
       "source_notice_id": "893862",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4944,7 +4944,7 @@
       "source_notice_id": "893833",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4968,7 +4968,7 @@
       "source_notice_id": "893820",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -4991,7 +4991,7 @@
       "source_notice_id": "893809",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5014,7 +5014,7 @@
       "source_notice_id": "893803",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5038,7 +5038,7 @@
       "source_notice_id": "893778",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5061,7 +5061,7 @@
       "source_notice_id": "893767",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5084,7 +5084,7 @@
       "source_notice_id": "893716",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5107,7 +5107,7 @@
       "source_notice_id": "893688",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5131,7 +5131,7 @@
       "source_notice_id": "893687",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5154,7 +5154,7 @@
       "source_notice_id": "893651",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5177,7 +5177,7 @@
       "source_notice_id": "893643",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5201,7 +5201,7 @@
       "source_notice_id": "893629",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5224,7 +5224,7 @@
       "source_notice_id": "893623",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5247,7 +5247,7 @@
       "source_notice_id": "893614",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5271,7 +5271,7 @@
       "source_notice_id": "893613",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5294,7 +5294,7 @@
       "source_notice_id": "893610",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5318,7 +5318,7 @@
       "source_notice_id": "893609",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5341,7 +5341,7 @@
       "source_notice_id": "893608",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5364,7 +5364,7 @@
       "source_notice_id": "893542",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5387,7 +5387,7 @@
       "source_notice_id": "893535",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5410,7 +5410,7 @@
       "source_notice_id": "893526",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5433,7 +5433,7 @@
       "source_notice_id": "893442",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5456,7 +5456,7 @@
       "source_notice_id": "893421",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5479,7 +5479,7 @@
       "source_notice_id": "893399",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5502,7 +5502,7 @@
       "source_notice_id": "893366",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5525,7 +5525,7 @@
       "source_notice_id": "893348",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5548,7 +5548,7 @@
       "source_notice_id": "893319",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5571,7 +5571,7 @@
       "source_notice_id": "893315",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5594,7 +5594,7 @@
       "source_notice_id": "893223",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5617,7 +5617,7 @@
       "source_notice_id": "893195",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5640,7 +5640,7 @@
       "source_notice_id": "893192",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5663,7 +5663,7 @@
       "source_notice_id": "893191",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-18",
@@ -5686,7 +5686,7 @@
       "source_notice_id": "893185",
       "first_seen_at": "2026-06-19T06:05:47.084824+08:00",
       "new_on_date": "2026-06-19",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5710,7 +5710,7 @@
       "source_notice_id": "1516845846202454016",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5734,7 +5734,7 @@
       "source_notice_id": "1516841684257509377",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5758,7 +5758,7 @@
       "source_notice_id": "1516798686589128705",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5782,7 +5782,7 @@
       "source_notice_id": "1516770796224942080",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5806,7 +5806,7 @@
       "source_notice_id": "1227161295292338176",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5830,7 +5830,7 @@
       "source_notice_id": "1227161294243762176",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5854,7 +5854,7 @@
       "source_notice_id": "1227161200836612096",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229310989120442368"
     },
@@ -5880,7 +5880,7 @@
       "source_notice_id": "1227158490267652096",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5904,7 +5904,7 @@
       "source_notice_id": "1227158489743364096",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5928,7 +5928,7 @@
       "source_notice_id": "1227158489428791296",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5952,7 +5952,7 @@
       "source_notice_id": "1227158488988389376",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -5977,7 +5977,7 @@
       "source_notice_id": "1227156693511704576",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6001,7 +6001,7 @@
       "source_notice_id": "1227156626151182336",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6025,7 +6025,7 @@
       "source_notice_id": "1227153648602189824",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6049,7 +6049,7 @@
       "source_notice_id": "1227153475658452992",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6073,7 +6073,7 @@
       "source_notice_id": "1227153293147508736",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6097,7 +6097,7 @@
       "source_notice_id": "1227153251749728256",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6121,7 +6121,7 @@
       "source_notice_id": "1227153140927827968",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6145,7 +6145,7 @@
       "source_notice_id": "1227153125832527872",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6170,7 +6170,7 @@
       "source_notice_id": "1227152926770860032",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6194,7 +6194,7 @@
       "source_notice_id": "1227152923599966208",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6218,7 +6218,7 @@
       "source_notice_id": "1227152908462723072",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229290457759092736"
     },
@@ -6245,7 +6245,7 @@
       "source_notice_id": "1227152886891417600",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6269,7 +6269,7 @@
       "source_notice_id": "1227152794000166912",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227495272301596672"
     },
@@ -6296,7 +6296,7 @@
       "source_notice_id": "1227152706783809536",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6320,7 +6320,7 @@
       "source_notice_id": "1227150290298474496",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227416916625330176"
     },
@@ -6346,7 +6346,7 @@
       "source_notice_id": "1227142769273868288",
       "first_seen_at": "2026-06-20T06:04:10.857697+08:00",
       "new_on_date": "2026-06-20",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6370,7 +6370,7 @@
       "source_notice_id": "1227142766715342848",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6394,7 +6394,7 @@
       "source_notice_id": "1227141967188725760",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229322218446655488"
     },
@@ -6421,7 +6421,7 @@
       "source_notice_id": "1227141771105013760",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6445,7 +6445,7 @@
       "source_notice_id": "1227139253662781440",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228938730790850560"
     },
@@ -6471,7 +6471,7 @@
       "source_notice_id": "1227131368404815872",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6495,7 +6495,7 @@
       "source_notice_id": "1227130666479652864",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227416791601516544"
     },
@@ -6521,7 +6521,7 @@
       "source_notice_id": "1227129142399602688",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6545,7 +6545,7 @@
       "source_notice_id": "1227129132446519296",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6570,7 +6570,7 @@
       "source_notice_id": "1227127970729168896",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6595,7 +6595,7 @@
       "source_notice_id": "1227126864997388288",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6620,7 +6620,7 @@
       "source_notice_id": "1227126864762507264",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6644,7 +6644,7 @@
       "source_notice_id": "1227125383124619264",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6668,7 +6668,7 @@
       "source_notice_id": "1227120170976284672",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6692,7 +6692,7 @@
       "source_notice_id": "1227119455595794432",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6716,7 +6716,7 @@
       "source_notice_id": "1227117793271484416",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6740,7 +6740,7 @@
       "source_notice_id": "1227101156296232960",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6764,7 +6764,7 @@
       "source_notice_id": "1227100427552690176",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6788,7 +6788,7 @@
       "source_notice_id": "1227091157666893824",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6812,7 +6812,7 @@
       "source_notice_id": "1227074694713315328",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227414641890693120"
     },
@@ -6839,7 +6839,7 @@
       "source_notice_id": "1227072417952829440",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6864,7 +6864,7 @@
       "source_notice_id": "1227070988827627520",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229341004784603136"
     },
@@ -6890,7 +6890,7 @@
       "source_notice_id": "1227069732159623168",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6914,7 +6914,7 @@
       "source_notice_id": "1227058918606376960",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6939,7 +6939,7 @@
       "source_notice_id": "1227057436142211072",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6963,7 +6963,7 @@
       "source_notice_id": "1227055882643312640",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -6987,7 +6987,7 @@
       "source_notice_id": "1227052205190811648",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7011,7 +7011,7 @@
       "source_notice_id": "1227052204934959104",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7035,7 +7035,7 @@
       "source_notice_id": "1227048337568567296",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227466689491374080"
     },
@@ -7061,7 +7061,7 @@
       "source_notice_id": "1227041002099970048",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7085,7 +7085,7 @@
       "source_notice_id": "1227040867622195200",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7109,7 +7109,7 @@
       "source_notice_id": "1227038537329807360",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7133,7 +7133,7 @@
       "source_notice_id": "1227037017066573824",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227403239553634304"
     },
@@ -7159,7 +7159,7 @@
       "source_notice_id": "1227024922887458816",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228918229154533376"
     },
@@ -7185,7 +7185,7 @@
       "source_notice_id": "1227024919569764352",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7208,7 +7208,7 @@
       "source_notice_id": "dae1dba0-f871-4991-be17-8142d3f43454",
       "first_seen_at": "2026-06-17T21:41:19.601903+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7323,7 +7323,7 @@
       "source_notice_id": "892954",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7346,7 +7346,7 @@
       "source_notice_id": "892951",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7369,7 +7369,7 @@
       "source_notice_id": "892943",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7392,7 +7392,7 @@
       "source_notice_id": "892936",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7416,7 +7416,7 @@
       "source_notice_id": "892929",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7439,7 +7439,7 @@
       "source_notice_id": "892890",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7462,7 +7462,7 @@
       "source_notice_id": "892852",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7485,7 +7485,7 @@
       "source_notice_id": "892829",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7508,7 +7508,7 @@
       "source_notice_id": "892777",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7531,7 +7531,7 @@
       "source_notice_id": "892761",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7554,7 +7554,7 @@
       "source_notice_id": "892669",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7577,7 +7577,7 @@
       "source_notice_id": "892651",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7600,7 +7600,7 @@
       "source_notice_id": "892638",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7626,7 +7626,7 @@
       "source_notice_id": "892637",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7649,7 +7649,7 @@
       "source_notice_id": "892634",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7672,7 +7672,7 @@
       "source_notice_id": "892607",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7695,7 +7695,7 @@
       "source_notice_id": "892593",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7718,7 +7718,7 @@
       "source_notice_id": "892556",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7741,7 +7741,7 @@
       "source_notice_id": "892539",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7765,7 +7765,7 @@
       "source_notice_id": "892530",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7789,7 +7789,7 @@
       "source_notice_id": "892491",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7813,7 +7813,7 @@
       "source_notice_id": "892490",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-17",
@@ -7837,7 +7837,7 @@
       "source_notice_id": "892489",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -7861,7 +7861,7 @@
       "source_notice_id": "1516854033232203776",
       "first_seen_at": "2026-06-20T06:04:10.857697+08:00",
       "new_on_date": "2026-06-20",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -7885,7 +7885,7 @@
       "source_notice_id": "1516492977460776960",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1517220199568736257"
     },
@@ -7911,7 +7911,7 @@
       "source_notice_id": "1516492947815436289",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -7935,7 +7935,7 @@
       "source_notice_id": "1516452686133497856",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -7959,7 +7959,7 @@
       "source_notice_id": "1516436352238653441",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1518579214135558144"
     },
@@ -7985,7 +7985,7 @@
       "source_notice_id": "1516398544279080960",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8010,7 +8010,7 @@
       "source_notice_id": "1226872225391579136",
       "first_seen_at": "2026-06-17T06:08:00.715962+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8034,7 +8034,7 @@
       "source_notice_id": "1226814090878521344",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8060,7 +8060,7 @@
       "source_notice_id": "1226800567284797440",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8085,7 +8085,7 @@
       "source_notice_id": "1226798444857921536",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8110,7 +8110,7 @@
       "source_notice_id": "1226796979598790656",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8134,7 +8134,7 @@
       "source_notice_id": "1226793264926035968",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8158,7 +8158,7 @@
       "source_notice_id": "1226793264405942272",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8182,7 +8182,7 @@
       "source_notice_id": "1226793254893260800",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8206,7 +8206,7 @@
       "source_notice_id": "1226793254046011392",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8230,7 +8230,7 @@
       "source_notice_id": "1226793171166564352",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8254,7 +8254,7 @@
       "source_notice_id": "1226791639234777088",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227053626481053696"
     },
@@ -8281,7 +8281,7 @@
       "source_notice_id": "1226791050845229056",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8305,7 +8305,7 @@
       "source_notice_id": "1226791027948523520",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8330,7 +8330,7 @@
       "source_notice_id": "1226790893965676544",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8355,7 +8355,7 @@
       "source_notice_id": "1226787877778755584",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8379,7 +8379,7 @@
       "source_notice_id": "1226787860519194624",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227425074093625344"
     },
@@ -8405,7 +8405,7 @@
       "source_notice_id": "1226785617891954688",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8430,7 +8430,7 @@
       "source_notice_id": "1226785617623519232",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8454,7 +8454,7 @@
       "source_notice_id": "1226785614452625408",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227128035585691648"
     },
@@ -8480,7 +8480,7 @@
       "source_notice_id": "1226784278499692544",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227153013412597760"
     },
@@ -8506,7 +8506,7 @@
       "source_notice_id": "1226779617721978880",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8531,7 +8531,7 @@
       "source_notice_id": "1226779615238950912",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8556,7 +8556,7 @@
       "source_notice_id": "1226779612655259648",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8581,7 +8581,7 @@
       "source_notice_id": "1226775838326919168",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8605,7 +8605,7 @@
       "source_notice_id": "1226770589570699264",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8629,7 +8629,7 @@
       "source_notice_id": "1226768251514654720",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227425140627869696"
     },
@@ -8655,7 +8655,7 @@
       "source_notice_id": "1226768250373804032",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8680,7 +8680,7 @@
       "source_notice_id": "1226768250315083776",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229333541494591488"
     },
@@ -8707,7 +8707,7 @@
       "source_notice_id": "1226768246150139904",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229329693744959488"
     },
@@ -8733,7 +8733,7 @@
       "source_notice_id": "1226763033913724928",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8757,7 +8757,7 @@
       "source_notice_id": "1226761704776536064",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8781,7 +8781,7 @@
       "source_notice_id": "1226756949316603904",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8805,7 +8805,7 @@
       "source_notice_id": "1226754705435267072",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8829,7 +8829,7 @@
       "source_notice_id": "1226753956538093568",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8853,7 +8853,7 @@
       "source_notice_id": "1226753303430434816",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8877,7 +8877,7 @@
       "source_notice_id": "1226751696961671168",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8901,7 +8901,7 @@
       "source_notice_id": "1226744091610583040",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -8925,7 +8925,7 @@
       "source_notice_id": "1226742569644462080",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228925882429739008"
     },
@@ -8952,7 +8952,7 @@
       "source_notice_id": "1226742564573548544",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226793265190277120"
     },
@@ -8978,7 +8978,7 @@
       "source_notice_id": "1226722871871672320",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9003,7 +9003,7 @@
       "source_notice_id": "1226708609572933632",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228950134801436672"
     },
@@ -9030,7 +9030,7 @@
       "source_notice_id": "1226708600932667392",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9055,7 +9055,7 @@
       "source_notice_id": "1226708597212319744",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9080,7 +9080,7 @@
       "source_notice_id": "1226708594414718976",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9105,7 +9105,7 @@
       "source_notice_id": "1226708594234363904",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226794716809531392"
     },
@@ -9131,7 +9131,7 @@
       "source_notice_id": "1226705570866794496",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9155,7 +9155,7 @@
       "source_notice_id": "1226704932430811136",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9179,7 +9179,7 @@
       "source_notice_id": "1226704929868091392",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9203,7 +9203,7 @@
       "source_notice_id": "1226704126960865280",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9228,7 +9228,7 @@
       "source_notice_id": "1226704122141609984",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9252,7 +9252,7 @@
       "source_notice_id": "1226702656479825920",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9276,7 +9276,7 @@
       "source_notice_id": "1226701834450767872",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9300,7 +9300,7 @@
       "source_notice_id": "1226701101106073600",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9324,7 +9324,7 @@
       "source_notice_id": "1226701093996728320",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9348,7 +9348,7 @@
       "source_notice_id": "1226701055119724544",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9372,7 +9372,7 @@
       "source_notice_id": "1226701053471363072",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9396,7 +9396,7 @@
       "source_notice_id": "1226701039185563648",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9420,7 +9420,7 @@
       "source_notice_id": "1226689050891653120",
       "first_seen_at": "2026-06-20T06:04:10.857697+08:00",
       "new_on_date": "2026-06-20",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9444,7 +9444,7 @@
       "source_notice_id": "1226685936264417280",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229331181842075648"
     },
@@ -9470,7 +9470,7 @@
       "source_notice_id": "1516497297262546944",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9494,7 +9494,7 @@
       "source_notice_id": "1516414181692968961",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9518,7 +9518,7 @@
       "source_notice_id": "892485",
       "first_seen_at": "2026-06-17T20:57:55.765852+08:00",
       "new_on_date": "2026-06-17",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9541,7 +9541,7 @@
       "source_notice_id": "892447",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9565,7 +9565,7 @@
       "source_notice_id": "892440",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9588,7 +9588,7 @@
       "source_notice_id": "892408",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9611,7 +9611,7 @@
       "source_notice_id": "892365",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9634,7 +9634,7 @@
       "source_notice_id": "892352",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9657,7 +9657,7 @@
       "source_notice_id": "892332",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9680,7 +9680,7 @@
       "source_notice_id": "892314",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9703,7 +9703,7 @@
       "source_notice_id": "892299",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9726,7 +9726,7 @@
       "source_notice_id": "892190",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9749,7 +9749,7 @@
       "source_notice_id": "892138",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9772,7 +9772,7 @@
       "source_notice_id": "892137",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9795,7 +9795,7 @@
       "source_notice_id": "892098",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9818,7 +9818,7 @@
       "source_notice_id": "892041",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9841,7 +9841,7 @@
       "source_notice_id": "892021",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9864,7 +9864,7 @@
       "source_notice_id": "891995",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9887,7 +9887,7 @@
       "source_notice_id": "891943",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9910,7 +9910,7 @@
       "source_notice_id": "891942",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9933,7 +9933,7 @@
       "source_notice_id": "891904",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9956,7 +9956,7 @@
       "source_notice_id": "891896",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -9979,7 +9979,7 @@
       "source_notice_id": "891837",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -10002,7 +10002,7 @@
       "source_notice_id": "891823",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -10025,7 +10025,7 @@
       "source_notice_id": "891821",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -10048,7 +10048,7 @@
       "source_notice_id": "891761",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -10071,7 +10071,7 @@
       "source_notice_id": "891752",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-16",
@@ -10094,7 +10094,7 @@
       "source_notice_id": "891736",
       "first_seen_at": "2026-06-16T21:35:16.693060+08:00",
       "new_on_date": "2026-06-16",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10118,7 +10118,7 @@
       "source_notice_id": "1516039517418328064",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10142,7 +10142,7 @@
       "source_notice_id": "1516034259564662784",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1518554319079047169"
     },
@@ -10168,7 +10168,7 @@
       "source_notice_id": "1516033643421405185",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10192,7 +10192,7 @@
       "source_notice_id": "1516033628732952576",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10216,7 +10216,7 @@
       "source_notice_id": "1226460764152401920",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227522437265100800"
     },
@@ -10242,7 +10242,7 @@
       "source_notice_id": "1226440546457882624",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10266,7 +10266,7 @@
       "source_notice_id": "1226436020568985600",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10290,7 +10290,7 @@
       "source_notice_id": "1226433022727950336",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10315,7 +10315,7 @@
       "source_notice_id": "1226433018479120384",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229312642955481088"
     },
@@ -10341,7 +10341,7 @@
       "source_notice_id": "1226432284354285568",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10366,7 +10366,7 @@
       "source_notice_id": "1226428517974151168",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10391,7 +10391,7 @@
       "source_notice_id": "1226428517537943552",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10415,7 +10415,7 @@
       "source_notice_id": "1226427392805965824",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10439,7 +10439,7 @@
       "source_notice_id": "1226427392382341120",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228961369722851328"
     },
@@ -10465,7 +10465,7 @@
       "source_notice_id": "1226427326460465152",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10489,7 +10489,7 @@
       "source_notice_id": "1226427267681488896",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10513,7 +10513,7 @@
       "source_notice_id": "1226427220231327744",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10537,7 +10537,7 @@
       "source_notice_id": "1226423206752161792",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10561,7 +10561,7 @@
       "source_notice_id": "1226415676508475392",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227058916790243328"
     },
@@ -10587,7 +10587,7 @@
       "source_notice_id": "1226414197445890048",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227152849440477184"
     },
@@ -10613,7 +10613,7 @@
       "source_notice_id": "1226413588504252416",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10637,7 +10637,7 @@
       "source_notice_id": "1226409668633563136",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10661,7 +10661,7 @@
       "source_notice_id": "1226408122969624576",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228965736467271680"
     },
@@ -10687,7 +10687,7 @@
       "source_notice_id": "1226390998230372352",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228925883008552960"
     },
@@ -10713,7 +10713,7 @@
       "source_notice_id": "1226383958808334336",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227153362038951936"
     },
@@ -10739,7 +10739,7 @@
       "source_notice_id": "1226380181208436736",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10763,7 +10763,7 @@
       "source_notice_id": "1226375624436879360",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10787,7 +10787,7 @@
       "source_notice_id": "1226375622427807744",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10811,7 +10811,7 @@
       "source_notice_id": "1226374156443062272",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10835,7 +10835,7 @@
       "source_notice_id": "1226364279511453696",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10859,7 +10859,7 @@
       "source_notice_id": "1226355342791806976",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10884,7 +10884,7 @@
       "source_notice_id": "1226349971616436224",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10908,7 +10908,7 @@
       "source_notice_id": "1226341901674876928",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10932,7 +10932,7 @@
       "source_notice_id": "1226328937190264832",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -10956,7 +10956,7 @@
       "source_notice_id": "1226327838706241536",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226736545004916736"
     },
@@ -10982,7 +10982,7 @@
       "source_notice_id": "1516167319538929664",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11006,7 +11006,7 @@
       "source_notice_id": "1516124513738985473",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11030,7 +11030,7 @@
       "source_notice_id": "1516124126055272448",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11054,7 +11054,7 @@
       "source_notice_id": "1516106268063600641",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11077,7 +11077,7 @@
       "source_notice_id": "891661",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11100,7 +11100,7 @@
       "source_notice_id": "891584",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11123,7 +11123,7 @@
       "source_notice_id": "891575",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11147,7 +11147,7 @@
       "source_notice_id": "891570",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11170,7 +11170,7 @@
       "source_notice_id": "891565",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11193,7 +11193,7 @@
       "source_notice_id": "891547",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11216,7 +11216,7 @@
       "source_notice_id": "891464",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11240,7 +11240,7 @@
       "source_notice_id": "891398",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11263,7 +11263,7 @@
       "source_notice_id": "891387",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11286,7 +11286,7 @@
       "source_notice_id": "891326",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11309,7 +11309,7 @@
       "source_notice_id": "891321",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11332,7 +11332,7 @@
       "source_notice_id": "891259",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11355,7 +11355,7 @@
       "source_notice_id": "891172",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11378,7 +11378,7 @@
       "source_notice_id": "891152",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11401,7 +11401,7 @@
       "source_notice_id": "891097",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11424,7 +11424,7 @@
       "source_notice_id": "890982",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11447,7 +11447,7 @@
       "source_notice_id": "890964",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11470,7 +11470,7 @@
       "source_notice_id": "890926",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11493,7 +11493,7 @@
       "source_notice_id": "890891",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11516,7 +11516,7 @@
       "source_notice_id": "890880",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11539,7 +11539,7 @@
       "source_notice_id": "890862",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-15",
@@ -11562,7 +11562,7 @@
       "source_notice_id": "890861",
       "first_seen_at": "2026-06-15T20:38:45.994457+08:00",
       "new_on_date": "2026-06-15",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-13",
@@ -11587,7 +11587,7 @@
       "source_notice_id": "1225724770461552640",
       "first_seen_at": "2026-06-13T20:07:27.082938+08:00",
       "new_on_date": "2026-06-13",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-13",
@@ -11611,7 +11611,7 @@
       "source_notice_id": "1225724770457358336",
       "first_seen_at": "2026-06-13T20:07:27.082938+08:00",
       "new_on_date": "2026-06-13",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11635,7 +11635,7 @@
       "source_notice_id": "1515025576785383425",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11659,7 +11659,7 @@
       "source_notice_id": "1515010037182664704",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11683,7 +11683,7 @@
       "source_notice_id": "1515009314898350080",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11707,7 +11707,7 @@
       "source_notice_id": "1515008834176585728",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11731,7 +11731,7 @@
       "source_notice_id": "1515004368480145408",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11755,7 +11755,7 @@
       "source_notice_id": "1515000781544919041",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11779,7 +11779,7 @@
       "source_notice_id": "1514950986637807616",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11803,7 +11803,7 @@
       "source_notice_id": "1514937362221404160",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11827,7 +11827,7 @@
       "source_notice_id": "1514933873009266688",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11851,7 +11851,7 @@
       "source_notice_id": "1225349002492727296",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227404676471853056"
     },
@@ -11877,7 +11877,7 @@
       "source_notice_id": "1225345200213544960",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229415740998815744"
     },
@@ -11903,7 +11903,7 @@
       "source_notice_id": "1225343688628326400",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11927,7 +11927,7 @@
       "source_notice_id": "1225342039012757504",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -11951,7 +11951,7 @@
       "source_notice_id": "1225339913884749824",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226781266184114176"
     },
@@ -11977,7 +11977,7 @@
       "source_notice_id": "1225339905303203840",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-23",
       "last_change_notice_id": "1229318615464022016"
     },
@@ -12003,7 +12003,7 @@
       "source_notice_id": "1225338415335428096",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12027,7 +12027,7 @@
       "source_notice_id": "1225337725741518848",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12051,7 +12051,7 @@
       "source_notice_id": "1225336264009797632",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12076,7 +12076,7 @@
       "source_notice_id": "1225336263816859648",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12100,7 +12100,7 @@
       "source_notice_id": "1225334636967972864",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12124,7 +12124,7 @@
       "source_notice_id": "1225334010917769216",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12148,7 +12148,7 @@
       "source_notice_id": "1225333991263260672",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226772762190811136"
     },
@@ -12174,7 +12174,7 @@
       "source_notice_id": "1225333913324703744",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12198,7 +12198,7 @@
       "source_notice_id": "1225332369053274112",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227152904872398848"
     },
@@ -12224,7 +12224,7 @@
       "source_notice_id": "1225332354478067712",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12248,7 +12248,7 @@
       "source_notice_id": "1225330134294548480",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226784080528543744"
     },
@@ -12274,7 +12274,7 @@
       "source_notice_id": "1225320912727134208",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12299,7 +12299,7 @@
       "source_notice_id": "1225315891574820864",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12323,7 +12323,7 @@
       "source_notice_id": "1225307677475033088",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12347,7 +12347,7 @@
       "source_notice_id": "1225306642538909696",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12372,7 +12372,7 @@
       "source_notice_id": "1225305808979709952",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12397,7 +12397,7 @@
       "source_notice_id": "1225302170194497536",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-15",
       "last_change_notice_id": "1226420472921591808"
     },
@@ -12424,7 +12424,7 @@
       "source_notice_id": "1225302169959616512",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227153503517020160"
     },
@@ -12450,7 +12450,7 @@
       "source_notice_id": "1225302164809011200",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12474,7 +12474,7 @@
       "source_notice_id": "1225300383597154304",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12498,7 +12498,7 @@
       "source_notice_id": "1225293900197220352",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12523,7 +12523,7 @@
       "source_notice_id": "1225283236221243392",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12547,7 +12547,7 @@
       "source_notice_id": "1225262227141251072",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12571,7 +12571,7 @@
       "source_notice_id": "1225259087935393792",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12596,7 +12596,7 @@
       "source_notice_id": "1225259087738261504",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12620,7 +12620,7 @@
       "source_notice_id": "1225258369954435072",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-12",
       "last_change_notice_id": "1225285523484266496"
     },
@@ -12646,7 +12646,7 @@
       "source_notice_id": "1225257436713406464",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12671,7 +12671,7 @@
       "source_notice_id": "1225256581096361984",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12695,7 +12695,7 @@
       "source_notice_id": "1225245560667459584",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227471098258526208"
     },
@@ -12721,7 +12721,7 @@
       "source_notice_id": "1225235805697822720",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12745,7 +12745,7 @@
       "source_notice_id": "1225220590344163328",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12769,7 +12769,7 @@
       "source_notice_id": "1515045631908679681",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12793,7 +12793,7 @@
       "source_notice_id": "1515013019399917568",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12817,7 +12817,7 @@
       "source_notice_id": "1515012598551842817",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12840,7 +12840,7 @@
       "source_notice_id": "890818",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12863,7 +12863,7 @@
       "source_notice_id": "890776",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12886,7 +12886,7 @@
       "source_notice_id": "890749",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12909,7 +12909,7 @@
       "source_notice_id": "890743",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12933,7 +12933,7 @@
       "source_notice_id": "890742",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12956,7 +12956,7 @@
       "source_notice_id": "890740",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -12979,7 +12979,7 @@
       "source_notice_id": "890739",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13002,7 +13002,7 @@
       "source_notice_id": "890738",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13025,7 +13025,7 @@
       "source_notice_id": "890733",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13049,7 +13049,7 @@
       "source_notice_id": "890682",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13072,7 +13072,7 @@
       "source_notice_id": "890664",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13095,7 +13095,7 @@
       "source_notice_id": "890650",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13118,7 +13118,7 @@
       "source_notice_id": "890649",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13141,7 +13141,7 @@
       "source_notice_id": "890632",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13164,7 +13164,7 @@
       "source_notice_id": "890556",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13187,7 +13187,7 @@
       "source_notice_id": "890554",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13210,7 +13210,7 @@
       "source_notice_id": "890535",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13233,7 +13233,7 @@
       "source_notice_id": "890531",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13256,7 +13256,7 @@
       "source_notice_id": "890528",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13279,7 +13279,7 @@
       "source_notice_id": "890367",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13302,7 +13302,7 @@
       "source_notice_id": "890364",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13325,7 +13325,7 @@
       "source_notice_id": "890355",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13349,7 +13349,7 @@
       "source_notice_id": "890334",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13373,7 +13373,7 @@
       "source_notice_id": "890322",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13397,7 +13397,7 @@
       "source_notice_id": "890318",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-12",
@@ -13420,7 +13420,7 @@
       "source_notice_id": "890268",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13444,7 +13444,7 @@
       "source_notice_id": "1225079232610521088",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1229046515448811520"
     },
@@ -13470,7 +13470,7 @@
       "source_notice_id": "1225062651193020416",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1229057846394621952"
     },
@@ -13763,7 +13763,7 @@
       "source_notice_id": "1224949661961637888",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13787,7 +13787,7 @@
       "source_notice_id": "1224948901773398016",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13837,7 +13837,7 @@
       "source_notice_id": "1224943584574525440",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227153098141732864"
     },
@@ -13863,7 +13863,7 @@
       "source_notice_id": "1224942664100958208",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13887,7 +13887,7 @@
       "source_notice_id": "1224941390924173312",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13911,7 +13911,7 @@
       "source_notice_id": "1224930062163595264",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13935,7 +13935,7 @@
       "source_notice_id": "1224923142652514304",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13960,7 +13960,7 @@
       "source_notice_id": "1224902039603335168",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -13984,7 +13984,7 @@
       "source_notice_id": "1224901937874685952",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14032,7 +14032,7 @@
       "source_notice_id": "1224893142331117568",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-11",
       "last_change_notice_id": "1224966222554419200"
     },
@@ -14058,7 +14058,7 @@
       "source_notice_id": "1224888459747217408",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227436400421507072"
     },
@@ -14084,7 +14084,7 @@
       "source_notice_id": "1224885817423777792",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-15",
       "last_change_notice_id": "1226408141823021056"
     },
@@ -14111,7 +14111,7 @@
       "source_notice_id": "1224879420673970176",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14135,7 +14135,7 @@
       "source_notice_id": "1224870492758167552",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14182,7 +14182,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14204,7 +14204,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14226,7 +14226,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14248,7 +14248,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14270,7 +14270,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14293,7 +14293,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14315,7 +14315,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14338,7 +14338,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14360,7 +14360,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14382,7 +14382,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14404,7 +14404,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14426,7 +14426,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14448,7 +14448,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14470,7 +14470,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-11",
@@ -14492,7 +14492,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-11T22:03:31.962366+08:00",
       "new_on_date": "2026-06-11",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15010,7 +15010,7 @@
       "source_notice_id": "1224603833006903296",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15034,7 +15034,7 @@
       "source_notice_id": "1224598701221433344",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15058,7 +15058,7 @@
       "source_notice_id": "1224596413186658304",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15082,7 +15082,7 @@
       "source_notice_id": "1224596335331987456",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15106,7 +15106,7 @@
       "source_notice_id": "1224596256839782400",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-12",
       "last_change_notice_id": "1225336264202735616"
     },
@@ -15132,7 +15132,7 @@
       "source_notice_id": "1224592477830598658",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15156,7 +15156,7 @@
       "source_notice_id": "1224590959375110144",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228920499485151232"
     },
@@ -15182,7 +15182,7 @@
       "source_notice_id": "1224582702564724736",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227449863365595136"
     },
@@ -15208,7 +15208,7 @@
       "source_notice_id": "1224573558814232576",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1229002771001380864"
     },
@@ -15234,7 +15234,7 @@
       "source_notice_id": "1224567558690394112",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15258,7 +15258,7 @@
       "source_notice_id": "1224556963844935680",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15282,7 +15282,7 @@
       "source_notice_id": "1224546986757541888",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15306,7 +15306,7 @@
       "source_notice_id": "1224539453573648384",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15330,7 +15330,7 @@
       "source_notice_id": "1224537420854546432",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15354,7 +15354,7 @@
       "source_notice_id": "1224534581147160576",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15379,7 +15379,7 @@
       "source_notice_id": "1224532156663287808",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-15",
       "last_change_notice_id": "1226410399491035136"
     },
@@ -15405,7 +15405,7 @@
       "source_notice_id": "1224528406322171904",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15429,7 +15429,7 @@
       "source_notice_id": "1224522270651011072",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15453,7 +15453,7 @@
       "source_notice_id": "1224522270202220544",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15502,7 +15502,7 @@
       "source_notice_id": "1224517588415238144",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-22",
       "last_change_notice_id": "1228844190964781056"
     },
@@ -15528,7 +15528,7 @@
       "source_notice_id": "1224498515916705792",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15550,7 +15550,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15572,7 +15572,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15594,7 +15594,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15616,7 +15616,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15638,7 +15638,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15660,7 +15660,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15682,7 +15682,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15704,7 +15704,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15727,7 +15727,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15750,7 +15750,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15772,7 +15772,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15794,7 +15794,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15816,7 +15816,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15838,7 +15838,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15860,7 +15860,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-10",
@@ -15882,7 +15882,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T20:36:20.866133+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16231,7 +16231,7 @@
       "source_notice_id": "1224241436345847808",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16255,7 +16255,7 @@
       "source_notice_id": "1224239936093638656",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16279,7 +16279,7 @@
       "source_notice_id": "1224235442714791936",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16329,7 +16329,7 @@
       "source_notice_id": "1224231706277793792",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-10",
       "last_change_notice_id": "1224615240200966144"
     },
@@ -16479,7 +16479,7 @@
       "source_notice_id": "1224228607442112512",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-15",
       "last_change_notice_id": "1226409653483737088"
     },
@@ -16529,7 +16529,7 @@
       "source_notice_id": "1224226326311161856",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16553,7 +16553,7 @@
       "source_notice_id": "1224224080093597696",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16577,7 +16577,7 @@
       "source_notice_id": "1224224064964743168",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16601,7 +16601,7 @@
       "source_notice_id": "1224222621197225984",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226688983338192896"
     },
@@ -16627,7 +16627,7 @@
       "source_notice_id": "1224217544004816896",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16651,7 +16651,7 @@
       "source_notice_id": "1224216500453593088",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227504349941469184"
     },
@@ -16678,7 +16678,7 @@
       "source_notice_id": "1224212523150299136",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16702,7 +16702,7 @@
       "source_notice_id": "1224195995176620032",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16726,7 +16726,7 @@
       "source_notice_id": "1224180867651686400",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226790280020234240"
     },
@@ -16752,7 +16752,7 @@
       "source_notice_id": "1224173464549937152",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16777,7 +16777,7 @@
       "source_notice_id": "1224168920810082304",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16801,7 +16801,7 @@
       "source_notice_id": "1224164554795470848",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16825,7 +16825,7 @@
       "source_notice_id": "1224162266748112896",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-10",
       "last_change_notice_id": "1224533611768008704"
     },
@@ -16851,7 +16851,7 @@
       "source_notice_id": "1224162245931782144",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16876,7 +16876,7 @@
       "source_notice_id": "1224157934740918272",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16900,7 +16900,7 @@
       "source_notice_id": "1224153206699151360",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16924,7 +16924,7 @@
       "source_notice_id": "1224153206493630464",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16949,7 +16949,7 @@
       "source_notice_id": "1224153200042790912",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-15",
       "last_change_notice_id": "1226419374450151424"
     },
@@ -16975,7 +16975,7 @@
       "source_notice_id": "1224149420672897024",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -16999,7 +16999,7 @@
       "source_notice_id": "1224141757989867520",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17023,7 +17023,7 @@
       "source_notice_id": "1224139600947400704",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17045,7 +17045,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17067,7 +17067,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17089,7 +17089,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17111,7 +17111,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17133,7 +17133,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17155,7 +17155,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17177,7 +17177,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17199,7 +17199,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17221,7 +17221,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17243,7 +17243,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17265,7 +17265,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17288,7 +17288,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17310,7 +17310,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17332,7 +17332,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17355,7 +17355,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17377,7 +17377,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17399,7 +17399,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17421,7 +17421,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-09",
@@ -17443,7 +17443,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17491,7 +17491,7 @@
       "source_notice_id": "1513513371095044097",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17515,7 +17515,7 @@
       "source_notice_id": "1513511818091073537",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17539,7 +17539,7 @@
       "source_notice_id": "1223925739749199872",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-10",
       "last_change_notice_id": "1224613608117587968"
     },
@@ -17565,7 +17565,7 @@
       "source_notice_id": "1223899421103968256",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227521782186119168"
     },
@@ -17591,7 +17591,7 @@
       "source_notice_id": "1223896441503961088",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17615,7 +17615,7 @@
       "source_notice_id": "1223895727083966464",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17639,7 +17639,7 @@
       "source_notice_id": "1223890350997065728",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226785606793826304"
     },
@@ -17665,7 +17665,7 @@
       "source_notice_id": "1223888226934411264",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-16",
       "last_change_notice_id": "1226776544307974144"
     },
@@ -17691,7 +17691,7 @@
       "source_notice_id": "1223886639063191552",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17715,7 +17715,7 @@
       "source_notice_id": "1223886596470034432",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17739,7 +17739,7 @@
       "source_notice_id": "1223884321559236608",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17763,7 +17763,7 @@
       "source_notice_id": "1223882899702763520",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227141773449629696"
     },
@@ -17789,7 +17789,7 @@
       "source_notice_id": "1223880862093103104",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17813,7 +17813,7 @@
       "source_notice_id": "1223876765872902144",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17837,7 +17837,7 @@
       "source_notice_id": "1223875381115047936",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17861,7 +17861,7 @@
       "source_notice_id": "1223875269466869760",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17885,7 +17885,7 @@
       "source_notice_id": "1223873239822192640",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17909,7 +17909,7 @@
       "source_notice_id": "1223870094396182528",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17934,7 +17934,7 @@
       "source_notice_id": "1223867803953876992",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-18",
       "last_change_notice_id": "1227497532033208320"
     },
@@ -17960,7 +17960,7 @@
       "source_notice_id": "1223866315676405760",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -17984,7 +17984,7 @@
       "source_notice_id": "1223866187414589440",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-17",
       "last_change_notice_id": "1227062678284013568"
     },
@@ -18010,7 +18010,7 @@
       "source_notice_id": "1223865509115940864",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18034,7 +18034,7 @@
       "source_notice_id": "1223865508792979456",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18058,7 +18058,7 @@
       "source_notice_id": "1223862520716283904",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18082,7 +18082,7 @@
       "source_notice_id": "1223860309441466368",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18107,7 +18107,7 @@
       "source_notice_id": "1223857928637075456",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-10",
       "last_change_notice_id": "1224591092863029248"
     },
@@ -18133,7 +18133,7 @@
       "source_notice_id": "1223852591662059520",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18157,7 +18157,7 @@
       "source_notice_id": "1223842807298740224",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18181,7 +18181,7 @@
       "source_notice_id": "1223829881179426816",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-12",
       "last_change_notice_id": "1225280243677614080"
     },
@@ -18207,7 +18207,7 @@
       "source_notice_id": "1223829880718053376",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18231,7 +18231,7 @@
       "source_notice_id": "1223828269463588864",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18256,7 +18256,7 @@
       "source_notice_id": "1223810859901734912",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-10",
       "last_change_notice_id": "1224603833845764096"
     },
@@ -18283,7 +18283,7 @@
       "source_notice_id": "1223795216364163072",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18307,7 +18307,7 @@
       "source_notice_id": "1223795016589463552",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true,
+      "is_new": false,
       "last_change_at": "2026-06-12",
       "last_change_notice_id": "1225332362552102912"
     },
@@ -18333,7 +18333,7 @@
       "source_notice_id": "1223793763973156864",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18357,7 +18357,7 @@
       "source_notice_id": "1223790821014589440",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18381,7 +18381,7 @@
       "source_notice_id": "1223771082888400896",
       "first_seen_at": "2026-06-12T21:41:43.019482+08:00",
       "new_on_date": "2026-06-12",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18403,7 +18403,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18426,7 +18426,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18448,7 +18448,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18470,7 +18470,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18492,7 +18492,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18514,7 +18514,7 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "published_at": "2026-06-08",
@@ -18536,12 +18536,12 @@
       "source_name": "贵州省招标投标公共服务平台",
       "first_seen_at": "2026-06-10T00:46:39.749759+08:00",
       "new_on_date": "2026-06-10",
-      "is_new": true
+      "is_new": false
     }
   ],
   "stats": {
     "total": 772,
-    "new_today": 712,
+    "new_today": 1,
     "sources": 10,
     "feedback_confirmed": 0,
     "feedback_excluded": 0,
