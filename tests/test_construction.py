@@ -205,6 +205,8 @@ class ConstructionRulesTests(unittest.TestCase):
                     "title": "八日前项目",
                     "published_at": old,
                     "budget": "旧预算",
+                    "new_on_date": old,
+                    "is_new": True,
                     "qualification_requirement": "具备建筑工程施工总承包三级资质",
                     "source_name": "测试来源",
                 },
@@ -302,6 +304,7 @@ class ConstructionRulesTests(unittest.TestCase):
                 payload = construction_site.update()
             by_url = {item["url"]: item for item in payload["items"]}
             self.assertEqual(by_url["https://example.com/old"]["budget"], "旧预算")
+            self.assertFalse(by_url["https://example.com/old"]["is_new"])
             self.assertEqual(
                 by_url["https://example.com/confirmed"]["budget"], "确认时预算"
             )

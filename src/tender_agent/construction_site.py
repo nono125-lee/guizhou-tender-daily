@@ -188,6 +188,7 @@ def update() -> dict:
     cutoff = now.date() - timedelta(days=45)
     recent = []
     for item in feedback_payload["items"]:
+        item["is_new"] = item.get("new_on_date") == today
         published = _published_date(item)
         if not published or published < cutoff:
             continue
