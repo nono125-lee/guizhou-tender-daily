@@ -3443,9 +3443,61 @@
     "https://www.bidding.csg.cn/lxcggg/1200433960.jhtml": {
       "published_at": "2026-06-25",
       "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434111.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434110.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434109.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434108.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434104.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434042.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434039.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434112.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434106.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434041.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434107.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434040.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434105.jhtml": {
+      "published_at": "2026-06-25",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-25T19:47:33.000631+08:00"
+  "last_run_at": "2026-06-26T06:04:29.215427+08:00"
 }
