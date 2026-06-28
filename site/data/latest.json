@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T06:03:15.626968+08:00",
+  "updated_at": "2026-06-29T06:03:11.880810+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -8213,79 +8213,10 @@
       "first_seen_at": "2026-05-15T00:00:00+08:00",
       "new_on_date": "",
       "is_new": false
-    },
-    {
-      "title": "贵州经贸职业技术学院茶艺与茶文化省级重点（特色）专业内涵建设项目",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875987",
-      "budget": "47.2万元",
-      "summary": "完成贵州经贸职业技术学院茶艺与茶文化省级重点（特色）专业内涵建设项目涉及的全部服务工作",
-      "location": "都匀市",
-      "buyer": "贵州经贸职业技术学院",
-      "bid_deadline": "2026-05-25 10:00",
-      "registration_deadline": "05-22 17:00",
-      "matched_keywords": [
-        "文化"
-      ],
-      "published_at": "2026-05-14",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "",
-      "registration_period": "2026-05-15至2026-05-22",
-      "date_basis": "official",
-      "agency": "贵州三恒工程管理有限公司",
-      "first_seen_at": "2026-05-14T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
-    },
-    {
-      "title": "贵阳贵安2026年初中学业水平考试准考证印制服务项目",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875708",
-      "budget": "9.5万元",
-      "summary": "准考证印制",
-      "location": "贵安新区",
-      "buyer": "贵阳市招生考试管理中心",
-      "bid_deadline": "2026-05-25 14:30",
-      "registration_deadline": "05-21 17:00",
-      "matched_keywords": [
-        "印制"
-      ],
-      "published_at": "2026-05-14",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "贵阳贵安 2026年初中学业水平考试准考证印制服务项目 的潜在供应商应在贵州铭典项目管理有限公司 获取竞争性磋商文件，并于 2026年 05 月 25 日 14 时 30 分 (北京时间)前递交响应文件。 一、项目基本情况 1.项目名称： 贵阳贵安 2026年初中学业水平考试准考证印制服务项目 2.项目编号：GZMD2026-P189 3.采购方式：竞争性磋商 4. 预算金额： 95000.00元 。 5.最高限价： 95000.00元 。 6.服务需求： 贵阳贵安 2026年初中学业水平考试准考证印制服务项目， 具体内容详见竞争性磋商文件。 7.服务期： 定稿后 15个日历日内完成印制分装。 8.本项目不接受联合体投标",
-      "registration_period": "2026-05-15至2026-05-21",
-      "date_basis": "official",
-      "agency": "贵州铭典项目管理有限公司",
-      "first_seen_at": "2026-05-14T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
-    },
-    {
-      "title": "遵义市汇川区第十小学校园文化建设（运动场、教学楼走廊墙面美化）采购",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875651",
-      "budget": "16万元",
-      "summary": "运动场、教学楼走廊墙面美化",
-      "location": "遵义市",
-      "buyer": "遵义市汇川区第十小学",
-      "bid_deadline": "2026-05-26 14:30",
-      "registration_deadline": "05-21 17:00",
-      "matched_keywords": [
-        "文化"
-      ],
-      "published_at": "2026-05-14",
-      "source_name": "贵州省招标投标公共服务平台",
-      "project_content": "",
-      "registration_period": "2026-05-15至2026-05-21",
-      "date_basis": "official",
-      "agency": "贵州大刚招采项目咨询有限责任公司",
-      "first_seen_at": "2026-05-14T00:00:00+08:00",
-      "new_on_date": "",
-      "is_new": false,
-      "project_content_basis": "section-v3"
     }
   ],
   "stats": {
-    "total": 350,
+    "total": 347,
     "new_today": 0,
     "sources": 26,
     "new_items": 0

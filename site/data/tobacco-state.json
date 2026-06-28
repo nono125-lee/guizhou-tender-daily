@@ -4579,9 +4579,17 @@
     "https://cgjy.tobacco.com.cn/jzfwzb/44246.jhtml": {
       "published_at": "2026-06-25",
       "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/44645.jhtml": {
+      "published_at": "2026-06-26",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/44378.jhtml": {
+      "published_at": "2026-06-26",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-28T06:03:43.805097+08:00"
+  "last_run_at": "2026-06-29T06:03:35.243484+08:00"
 }
