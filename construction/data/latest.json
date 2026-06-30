@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T19:47:40.720268+08:00",
+  "updated_at": "2026-06-30T22:44:39.446231+08:00",
   "coverage": "贵州省施工类标讯资格条件专项筛选",
   "warnings": [],
   "items": [
@@ -23364,6 +23364,6 @@
     "feedback_confirmed": 0,
     "feedback_excluded": 0,
     "feedback_corrected": 0,
-    "pending_retries": 94
+    "pending_retries": 0
   }
 }
