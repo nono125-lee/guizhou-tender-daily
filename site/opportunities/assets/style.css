@@ -93,7 +93,7 @@ h1 em { color: var(--red); font-weight: 400; }
 
 .scoreboard {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border: 1px solid var(--ink);
   border-width: 1px 0;
 }
@@ -224,8 +224,6 @@ main { padding: 28px 0 76px; }
 }
 
 .record-card.priority { margin-inline: -12px; padding-inline: 12px; border-left: 7px solid var(--red); background: rgba(196,49,36,.065); }
-.record-card.confirmed { border-left-color: var(--forest); background: rgba(23,70,61,.07); }
-.record-card.excluded { opacity: .58; filter: grayscale(.45); }
 
 .record-index { color: var(--blue); font-family: Georgia, serif; font-size: 34px; font-style: italic; }
 .record-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--muted); font-size: 12px; }
@@ -237,6 +235,18 @@ main { padding: 28px 0 76px; }
 .record-card h3 a:hover { color: var(--blue); }
 
 .record-relation { margin: -4px 0 14px; color: var(--red); font-weight: 750; }
+
+.record-links { display: flex; flex-wrap: wrap; gap: 8px; margin: -2px 0 14px; }
+.record-links a {
+  padding: 7px 11px;
+  border: 1px solid var(--red);
+  color: var(--red);
+  background: rgba(255, 255, 255, .45);
+  font-size: 12px;
+  font-weight: 750;
+  text-decoration: none;
+}
+.record-links a:hover { color: white; background: var(--red); }
 
 .record-facts {
   display: grid;
@@ -254,12 +264,6 @@ main { padding: 28px 0 76px; }
 .record-evidence { margin: 14px 0 0; padding: 10px 12px; border-left: 4px solid var(--red); background: rgba(255,255,255,.46); font-size: 13px; line-height: 1.7; }
 .record-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
 .record-tags span { padding: 3px 8px; border: 1px solid rgba(16,62,232,.35); color: var(--blue); background: rgba(255,255,255,.35); font-size: 11px; }
-
-.record-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
-.record-actions button { padding: 7px 10px; border: 1px solid var(--ink); color: var(--ink); background: transparent; cursor: pointer; font: inherit; font-size: 12px; }
-.record-actions button:hover { color: white; background: var(--ink); }
-.record-actions button[data-action="confirmed"] { border-color: var(--forest); color: var(--forest); }
-.record-actions button[data-action="excluded"] { border-color: var(--red); color: var(--red); }
 
 .status-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
 .status-card { padding: 20px; border: 1px solid var(--ink); background: rgba(255,255,255,.38); }

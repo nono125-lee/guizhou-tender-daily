@@ -35,7 +35,7 @@
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
-| 统一标讯雷达网页 | `site/opportunities/` | 今日待看、施工粗筛、全部招标计划、重点关联和运行状态 |
+| 统一标讯雷达网页 | `site/opportunities/` | 重点关联、施工粗筛、全部招标计划和运行状态 |
 | 招标计划详细网页 | `site/tender-plan/` | AP1 招标计划、资金来源和历史版本 |
 | 统一编排模块 | `src/tender_agent/unified_site.py` | 一次运行、测试门禁和发布 |
 | 统一入口 Skill | `skills/guizhou-construction-opportunity-intelligence/` | 日常默认入口 |
@@ -295,7 +295,7 @@ tail -n 100 /Users/nonolee/.local/logs/tender-collect-$(date +%Y%m%d).log
 - 网页发布分支：`gh-pages`
 - 自动任务名称：`发布标讯页面`
 
-施工板块只在”资格要求””资质要求””特殊资格要求”栏目匹配施工资质词。
+施工板块只在”资格要求””资质要求””特殊资格要求”栏目匹配施工资质词，当前包含“电力工程施工总承包”和“承装（修、试）”。
 项目名称含”监理””审计””招标代理”时直接排除。施工反馈规则保存在
 `config/construction_feedback_rules.json`，不写入图文广告反馈规则。
 

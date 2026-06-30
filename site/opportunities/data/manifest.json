@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-30T22:45:07.746248+08:00",
+  "updated_at": "2026-07-01T00:12:45.369317+08:00",
   "datasets": {
     "construction": "../construction/data/latest.json",
     "tender_plans": "../tender-plan/data/latest.json",
@@ -8,8 +8,8 @@
     "status": "./data/run-status.json"
   },
   "summary": {
-    "construction_items": 962,
-    "plan_notices": 1324,
+    "construction_items": 997,
+    "plan_notices": 1280,
     "ultra_long_projects": 27,
     "priority_notices": 1,
     "priority_projects": 1

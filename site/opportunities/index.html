@@ -29,20 +29,18 @@
       </div>
     </div>
     <section class="scoreboard" aria-label="数据概览">
-      <div><strong id="score-pending">0</strong><span>近7天待看</span></div>
+      <div><strong id="score-matches">0</strong><span>重点关联</span></div>
       <div><strong id="score-construction">0</strong><span>施工粗筛</span></div>
       <div><strong id="score-plans">0</strong><span>招标计划</span></div>
-      <div><strong id="score-matches">0</strong><span>重点关联</span></div>
       <div id="health-card"><strong id="score-health">--</strong><span>运行状态</span></div>
     </section>
   </header>
 
   <main>
     <nav class="desk-tabs" aria-label="工作台栏目">
-      <button type="button" data-view="queue" class="active">今日待看 <span id="tab-queue-count">0</span></button>
+      <button type="button" data-view="matches" class="active">重点关联</button>
       <button type="button" data-view="construction">施工粗筛</button>
       <button type="button" data-view="plans">招标计划</button>
-      <button type="button" data-view="matches">重点关联</button>
       <button type="button" data-view="status">运行状态</button>
     </nav>
 
@@ -87,7 +85,7 @@
       </label>
       <label data-views="construction">
         <span>资质要求</span>
-        <input id="construction-qualification" type="search" placeholder="如 市政公用工程">
+        <select id="construction-qualification"><option value="">全部资质要求</option></select>
       </label>
       <label data-views="plans">
         <span>地州市</span>
@@ -119,8 +117,8 @@
 
     <section class="view-heading">
       <div>
-        <p id="view-kicker">ACTION QUEUE</p>
-        <h2 id="view-title">近 7 天待处理</h2>
+        <p id="view-kicker">MATCH ARCHIVE</p>
+        <h2 id="view-title">重点关联档案</h2>
       </div>
       <p><strong id="result-count">0</strong> <span id="result-label">条记录</span></p>
     </section>
@@ -133,7 +131,7 @@
 
   <footer>
     <p>自动关联只用于筛选，报名和投标前请核对原公告。</p>
-    <p>“已确认/已排除”保存在当前浏览器，不改变公开数据。</p>
+    <p>重点关联同时保留施工招标公告和关联招标计划原文链接。</p>
   </footer>
 
   <template id="record-template">
@@ -147,15 +145,11 @@
         </div>
         <h3><a class="record-link" target="_blank" rel="noopener noreferrer"></a></h3>
         <p class="record-relation" hidden></p>
+        <div class="record-links" hidden></div>
         <dl class="record-facts"></dl>
         <p class="record-content"></p>
         <div class="record-tags"></div>
         <p class="record-evidence" hidden></p>
-        <div class="record-actions" hidden>
-          <button type="button" data-action="confirmed">确认关联</button>
-          <button type="button" data-action="excluded">排除关联</button>
-          <button type="button" data-action="pending">恢复待处理</button>
-        </div>
       </div>
     </article>
   </template>

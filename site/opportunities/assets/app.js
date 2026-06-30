@@ -1,4 +1,3 @@
-const REVIEW_KEY = "guizhou-construction-opportunity-review-v1";
 const FUND_TAG_ORDER = [
   "超长期", "政府投资", "财政资金", "上级补助", "国有资金", "专项债",
   "地方自筹", "企业自筹", "银行贷款", "社会资本", "其他", "未载明"
@@ -9,11 +8,18 @@ const PREFECTURE_LABELS = {
   "黔东南苗族侗族自治州": "黔东南", "黔南布依族苗族自治州": "黔南",
   "贵安新区": "贵安"
 };
+const CORE_QUALIFICATIONS = ["电力工程施工总承包", "承装（修、试）"];
+const MATCH_METHOD_LABELS = {
+  project_name: "项目名称",
+  buyer: "招标人/采购人",
+  fixed_asset_code: "投资项目代码",
+  approval: "批复文件",
+  project_content: "建设内容"
+};
 const VIEW_META = {
-  queue: { kicker: "ACTION QUEUE", title: "近 7 天待处理", label: "条待处理" },
+  matches: { kicker: "MATCH ARCHIVE", title: "重点关联档案", label: "条关联" },
   construction: { kicker: "SCREENED NOTICES", title: "施工标讯粗筛", label: "条施工公告" },
   plans: { kicker: "TENDER PLANS", title: "招标计划", label: "个项目" },
-  matches: { kicker: "MATCH ARCHIVE", title: "重点关联档案", label: "条关联" },
   status: { kicker: "RUN HEALTH", title: "采集与发布状态", label: "项状态" }
 };
 
@@ -23,27 +29,14 @@ const state = {
   status: null,
   construction: null,
   plans: null,
-  view: "queue",
+  view: "matches",
   shown: 50,
   activeFund: "",
   constructionFiltersReady: false,
-  planFiltersReady: false,
-  review: loadReviewState()
+  planFiltersReady: false
 };
 
 const $ = (selector) => document.querySelector(selector);
-
-function loadReviewState() {
-  try {
-    return JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}");
-  } catch (_error) {
-    return {};
-  }
-}
-
-function saveReviewState() {
-  localStorage.setItem(REVIEW_KEY, JSON.stringify(state.review));
-}
 
 function text(value, fallback = "未载明") {
   const result = String(value ?? "").trim();
@@ -68,21 +61,6 @@ function withinDays(value, days) {
   cutoff.setHours(0, 0, 0, 0);
   cutoff.setDate(cutoff.getDate() - Number(days));
   return parsed >= cutoff;
-}
-
-function matchKey(entry) {
-  const notice = entry.notice || {};
-  return String(notice.source_notice_id || notice.url || entry.plan_project_key || "");
-}
-
-function reviewStatus(entry) {
-  return state.review[matchKey(entry)] || "pending";
-}
-
-function setReview(entry, status) {
-  state.review[matchKey(entry)] = status;
-  saveReviewState();
-  render();
 }
 
 async function fetchJson(url) {
@@ -158,6 +136,10 @@ function isUltraLong(item) {
 function populateConstructionFilters(items) {
   optionList($("#construction-region"), [...new Set(items.map(constructionRegionOf))]);
   optionList($("#construction-source"), [...new Set(items.map((item) => item.source_name))]);
+  optionList($("#construction-qualification"), [...new Set([
+    ...CORE_QUALIFICATIONS,
+    ...items.flatMap((item) => item.matched_keywords || [])
+  ])]);
   state.constructionFiltersReady = true;
 }
 
@@ -186,13 +168,12 @@ function includesQuery(values) {
   return values.filter(Boolean).join(" ").toLowerCase().includes(query);
 }
 
-function filterMatches(items, queueOnly = false) {
-  const days = queueOnly ? "7" : $("#match-date-range").value;
+function filterMatches(items) {
+  const days = $("#match-date-range").value;
   return (items || []).filter((entry) => {
     const notice = entry.notice || {};
     const plan = entry.plan || {};
     return withinDays(notice.published_at, days)
-      && (!queueOnly || reviewStatus(entry) === "pending")
       && includesQuery([
         notice.title,
         notice.project_name,
@@ -314,7 +295,17 @@ function truncate(value, limit = 480) {
   return result.length > limit ? `${result.slice(0, limit)}…` : result;
 }
 
-function renderMatch(entry, index, actionable) {
+function addRecordLink(container, label, url) {
+  if (!url) return;
+  const link = document.createElement("a");
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = label;
+  container.append(link);
+}
+
+function renderMatch(entry, index) {
   const notice = entry.notice || {};
   const plan = entry.plan || {};
   const match = entry.match || {};
@@ -323,8 +314,7 @@ function renderMatch(entry, index, actionable) {
     : [{ plan, match }];
   const fragment = $("#record-template").content.cloneNode(true);
   const card = fragment.querySelector(".record-card");
-  const status = reviewStatus(entry);
-  card.classList.add("priority", status);
+  card.classList.add("priority");
   fragment.querySelector(".record-index").textContent = String(index + 1).padStart(2, "0");
   fragment.querySelector("time").textContent = text(dateText(notice.published_at));
   fragment.querySelector(".record-source").textContent = text(notice.source_name);
@@ -337,17 +327,27 @@ function renderMatch(entry, index, actionable) {
   relation.textContent = candidatePlans.length > 1
     ? `可能关联 ${candidatePlans.length} 个计划；首选：${plan.project_name || plan.title || "未载明"}`
     : `关联计划：${plan.project_name || plan.title || "未载明"}`;
+  const links = fragment.querySelector(".record-links");
+  links.hidden = false;
+  addRecordLink(links, "打开施工招标公告", notice.url);
+  candidatePlans.forEach((candidate, candidateIndex) => {
+    const candidatePlan = candidate.plan || {};
+    addRecordLink(
+      links,
+      candidatePlans.length > 1 ? `打开关联招标计划 ${candidateIndex + 1}` : "打开关联招标计划",
+      candidatePlan.url
+    );
+  });
   const facts = fragment.querySelector(".record-facts");
   addFact(facts, "招标人/采购人", notice.buyer);
   addFact(facts, "施工项目编号", notice.project_code);
   addFact(facts, "投资项目代码", plan.fixed_asset_code);
   addFact(facts, "资金来源", plan.fund_source);
   addFact(facts, "匹配置信度", `${Math.round((match.confidence || 0) * 100)}%`);
-  addFact(facts, "本地复核状态", status === "pending" ? "待处理" : status === "confirmed" ? "已确认" : "已排除");
   fragment.querySelector(".record-content").textContent = truncate(notice.project_content || plan.project_content);
   addTags(fragment.querySelector(".record-tags"), [
     ...(notice.matched_keywords || []),
-    ...(match.methods || [])
+    ...(match.methods || []).map((method) => MATCH_METHOD_LABELS[method] || method)
   ]);
   const evidence = fragment.querySelector(".record-evidence");
   evidence.hidden = false;
@@ -355,11 +355,6 @@ function renderMatch(entry, index, actionable) {
     ? `候选计划：${candidatePlans.map((candidate) => candidate.plan?.project_name || candidate.plan?.title || "未载明").join("、")}。`
     : "";
   evidence.textContent = `${(match.evidence || []).join("；")}。${match.review_note || ""}${candidateText}`;
-  const actions = fragment.querySelector(".record-actions");
-  actions.hidden = !actionable;
-  actions.querySelectorAll("button").forEach((button) => {
-    button.addEventListener("click", () => setReview(entry, button.dataset.action));
-  });
   card.style.animationDelay = `${Math.min(index * 18, 220)}ms`;
   return fragment;
 }
@@ -477,12 +472,9 @@ async function render() {
 
   let records = [];
   let renderer;
-  if (state.view === "queue") {
-    records = filterMatches(state.matches.items, true);
-    renderer = (item, index) => renderMatch(item, index, true);
-  } else if (state.view === "matches") {
-    records = filterMatches(state.matches.items, false);
-    renderer = (item, index) => renderMatch(item, index, true);
+  if (state.view === "matches") {
+    records = filterMatches(state.matches.items);
+    renderer = renderMatch;
   } else if (state.view === "construction") {
     const payload = await ensureDataset("construction");
     if (!state.constructionFiltersReady) populateConstructionFilters(payload.items || []);
@@ -499,24 +491,21 @@ async function render() {
     showWarning(payload.warnings);
   }
 
-  if (["queue", "matches"].includes(state.view)) {
+  if (state.view === "matches") {
     showWarning(state.status?.datasets?.construction?.warnings);
   }
-  const limit = state.view === "queue" ? 10 : state.shown;
+  const limit = state.shown;
   records.slice(0, limit).forEach((record, index) => list.append(renderer(record, index)));
   $("#result-count").textContent = records.length;
   $("#empty").hidden = records.length > 0;
-  $("#load-more").hidden = records.length <= limit || state.view === "queue";
+  $("#load-more").hidden = records.length <= limit;
 }
 
 function updateScoreboard() {
   const summary = state.manifest.summary || {};
-  const pending = filterMatches(state.matches.items, true).length;
-  $("#score-pending").textContent = pending;
-  $("#tab-queue-count").textContent = pending;
+  $("#score-matches").textContent = summary.priority_notices || 0;
   $("#score-construction").textContent = summary.construction_items || 0;
   $("#score-plans").textContent = summary.plan_notices || 0;
-  $("#score-matches").textContent = summary.priority_notices || 0;
   const datasets = state.status?.datasets || {};
   const warningCount = Object.values(datasets).reduce((total, dataset) => total + Number(dataset.warning_count || 0), 0);
   const collectionFailed = Object.values(state.status?.collection || {}).some((result) => result && !result.ok);
@@ -577,8 +566,8 @@ $("#plan-prefecture").addEventListener("change", () => {
 
 $("#reset").addEventListener("click", () => {
   $("#search").value = "";
-  if (["queue", "matches"].includes(state.view)) {
-    $("#match-date-range").value = state.view === "queue" ? "7" : "30";
+  if (state.view === "matches") {
+    $("#match-date-range").value = "7";
   } else if (state.view === "construction") {
     ["construction-region", "construction-source", "construction-reg-date", "construction-cutoff-date", "construction-qualification"]
       .forEach((id) => { $(`#${id}`).value = ""; });

@@ -70,9 +70,10 @@ class UnifiedSiteTests(unittest.TestCase):
         )
         html = (skill / "index.html").read_text(encoding="utf-8")
         app = (skill / "assets/app.js").read_text(encoding="utf-8")
-        for view in ("queue", "construction", "plans", "matches", "status"):
+        for view in ("matches", "construction", "plans", "status"):
             self.assertIn(f'data-view="{view}"', html)
-        self.assertIn("近 7 天待处理", html)
+        self.assertNotIn('data-view="queue"', html)
+        self.assertNotIn("今日待看", html)
         self.assertIn("<h1>标讯雷达</h1>", html)
         for control in (
             "construction-region",
@@ -88,8 +89,16 @@ class UnifiedSiteTests(unittest.TestCase):
             "fund-strip",
         ):
             self.assertIn(f'id="{control}"', html)
+        self.assertIn('<select id="construction-qualification">', html)
         self.assertNotIn('id="review-filter"', html)
-        self.assertIn("guizhou-construction-opportunity-review-v1", app)
+        for label in ("项目名称", "招标人/采购人", "投资项目代码", "批复文件", "建设内容"):
+            self.assertIn(label, app)
+        for action in ("确认关联", "排除关联", "恢复待处理"):
+            self.assertNotIn(action, html)
+        self.assertIn("record-links", html)
+        self.assertIn("打开施工招标公告", app)
+        self.assertIn("打开关联招标计划", app)
+        self.assertIn('"电力工程施工总承包", "承装（修、试）"', app)
         self.assertIn("candidate_plans", app)
         self.assertIn("groupedPlans", app)
         self.assertIn('"政府投资"', app)

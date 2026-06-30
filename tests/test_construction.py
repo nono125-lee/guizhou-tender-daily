@@ -17,6 +17,7 @@ from tender_agent.construction_incremental import (
     should_process,
 )
 from tender_agent.construction_rules import (
+    load_config,
     project_match_fields,
     qualification_matches,
     qualification_section,
@@ -144,6 +145,17 @@ class ConstructionRulesTests(unittest.TestCase):
                 CONFIG,
             ),
             ["施工劳务"],
+        )
+
+    def test_power_qualification_keywords_are_included(self):
+        config = load_config()
+        self.assertEqual(
+            qualification_matches(
+                "某新能源项目施工招标公告",
+                "须具备电力工程施工总承包三级资质，并取得承装（修、试）电力设施许可证。",
+                config,
+            ),
+            ["电力工程施工总承包", "承装（修、试）"],
         )
 
     def test_eqyzc_other_requirements_are_not_qualification(self):
