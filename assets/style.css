@@ -49,11 +49,19 @@ h1 {
 
 .masthead-rule {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
   padding-top: 12px;
   border-top: 1px solid var(--ink);
   font-size: 13px;
+}
+
+.masthead-rule a {
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
 }
 
 main { padding: 22px 0 72px; }

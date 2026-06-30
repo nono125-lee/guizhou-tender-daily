@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>贵州超长期招标计划与施工标讯</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="hero">
+    <div class="hero-meta">
+      <span>GUIZHOU TENDER PLAN</span>
+      <span id="updated-at">更新中</span>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">工程建设 · AP1</p>
+        <h1>贵州超长期标讯</h1>
+      </div>
+      <div class="hero-summary">
+        <p>同步贵州招标计划，并关联施工标讯粗筛结果；超长期资金项目发布采购或招标公告后优先提示。</p>
+        <a id="source-link" href="http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1" target="_blank" rel="noopener noreferrer">打开信息源</a>
+      </div>
+    </div>
+    <section class="stats" aria-label="数据概览">
+      <div><strong id="stat-total">0</strong><span>已采集</span></div>
+      <div><strong id="stat-source">0</strong><span>源站总量</span></div>
+      <div><strong id="stat-new">0</strong><span>今日新增（去重）</span></div>
+      <div><strong id="stat-regions">0</strong><span>覆盖区域</span></div>
+      <div class="priority-stat"><strong id="stat-priority">0</strong><span>超长期已出公告</span></div>
+    </section>
+  </header>
+
+  <main>
+    <section class="filters" aria-label="筛选">
+      <label class="wide">
+        <span>关键词</span>
+        <input id="search" type="search" placeholder="项目名、招标人、建设内容">
+      </label>
+      <label>
+        <span>地州市</span>
+        <select id="prefecture"><option value="">全部</option></select>
+      </label>
+      <label>
+        <span>区县</span>
+        <select id="district"><option value="">全部</option></select>
+      </label>
+      <label>
+        <span>发布时间</span>
+        <select id="date-range">
+          <option value="all" selected>全部</option>
+          <option value="1">今天</option>
+          <option value="3">近三天</option>
+          <option value="10">近十天</option>
+          <option value="30">近一个月</option>
+          <option value="90">近三个月</option>
+        </select>
+      </label>
+      <label>
+        <span>来源平台</span>
+        <select id="source"><option value="">全部</option></select>
+      </label>
+      <label>
+        <span>预计招标月</span>
+        <input id="planned-month" type="month">
+      </label>
+    </section>
+
+    <section class="toolbar">
+      <div>
+        <strong id="result-count">0</strong>
+        <span>个项目符合条件</span>
+      </div>
+      <button id="reset" type="button">重置筛选</button>
+    </section>
+
+    <section id="warning" class="warning" hidden></section>
+    <section id="priority-section" class="priority-section" hidden aria-labelledby="priority-title">
+      <div class="priority-heading">
+        <div>
+          <p class="eyebrow">ULTRA-LONG · NOTICE FOUND</p>
+          <h2 id="priority-title">超长期项目已出施工公告</h2>
+        </div>
+        <p><strong id="priority-count">0</strong> 条施工标讯已与超长期招标计划关联，按公告时间倒序显示。</p>
+      </div>
+      <div id="priority-list" class="priority-list"></div>
+    </section>
+    <section id="fund-strip" class="fund-strip" aria-label="资金来源分布"></section>
+    <section id="list" class="plan-list" aria-label="招标计划列表"></section>
+    <p id="empty" class="empty" hidden>没有符合当前筛选条件的招标计划。</p>
+  </main>
+
+  <template id="plan-card">
+    <article class="plan-card">
+      <div class="card-no"></div>
+      <div class="card-main">
+        <div class="card-meta">
+          <time></time>
+          <span class="region"></span>
+          <span class="notice-type"></span>
+        </div>
+        <h2><a target="_blank" rel="noopener noreferrer"></a></h2>
+        <dl class="facts">
+          <div><dt>招标人</dt><dd class="buyer"></dd></div>
+          <div><dt>代理机构</dt><dd class="agency"></dd></div>
+          <div><dt>预计招标</dt><dd class="planned-time"></dd></div>
+          <div><dt>投资估算</dt><dd><span class="budget"></span><span class="planned-content"></span></dd></div>
+          <div><dt>资金来源</dt><dd class="fund-source"></dd></div>
+          <div><dt>建设地点</dt><dd class="location"></dd></div>
+        </dl>
+        <p class="content"></p>
+        <div class="tag-row"></div>
+        <details class="version-history" hidden>
+          <summary>历史版本 <strong class="history-count"></strong></summary>
+          <ol class="history-list"></ol>
+        </details>
+      </div>
+      <a class="open-link" target="_blank" rel="noopener noreferrer">查看公告</a>
+    </article>
+  </template>
+
+  <template id="priority-card">
+    <article class="priority-card">
+      <div class="priority-flag">重点</div>
+      <div class="priority-body">
+        <div class="priority-meta">
+          <time></time>
+          <span class="priority-source"></span>
+          <span class="priority-confidence"></span>
+        </div>
+        <h3><a class="priority-notice-link" target="_blank" rel="noopener noreferrer"></a></h3>
+        <p class="priority-plan-name"></p>
+        <p class="priority-review-note"></p>
+        <dl>
+          <div><dt>招标人/采购人</dt><dd class="priority-buyer"></dd></div>
+          <div><dt>项目编号</dt><dd class="priority-code"></dd></div>
+          <div><dt>施工资质命中</dt><dd class="priority-keywords"></dd></div>
+          <div><dt>相似说明</dt><dd class="priority-evidence"></dd></div>
+        </dl>
+        <details class="priority-candidates" hidden>
+          <summary>查看全部候选计划 <strong class="priority-candidate-count"></strong></summary>
+          <ol class="priority-candidate-list"></ol>
+        </details>
+        <div class="priority-actions">
+          <a class="priority-notice-button" target="_blank" rel="noopener noreferrer">打开施工公告</a>
+          <a class="priority-plan-link" target="_blank" rel="noopener noreferrer">查看原招标计划</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
