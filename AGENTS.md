@@ -8,7 +8,7 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 ## 开始工作前
 
 1. 先读 `README.md` 和 `docs/OPERATIONS.md`。
-2. 涉及标讯查询、信息源或关键词时，使用 `tender-intelligence` Skill。
+2. 涉及施工粗筛、超长期计划、重点关联或统一发布时，使用 `guizhou-construction-opportunity-intelligence` Skill；单独排查施工采集器时才使用 `construction-tender-intelligence`。
 3. 涉及联网访问时，使用 `web-access`。
 4. 涉及原始 Excel 时，使用 Spreadsheets 工具，不能破坏工作簿现有内容。
 
@@ -28,6 +28,8 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 - 私密数据库：`data/private/tenders.sqlite3`
 - 公开网页：`site/`
 - 施工公开网页：`site/construction/`
+- 统一施工机会网页：`site/opportunities/`
+- 招标计划详细网页：`site/tender-plan/`
 - 本机自动采集：`/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist`
 - GitHub部署任务：`.github/workflows/daily-pages.yml`
 
@@ -57,6 +59,8 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
 
 ```bash
 PYTHONPATH=src python3 -m unittest discover -s tests -q
+PYTHONPATH=src python3 -m unittest discover -s tests_unified -q
+python3 -m unittest discover -s skills/tender-plan-intelligence/tests -q
 ```
 
 - 发布后检查线上 `data/latest.json` 确认数据完整。

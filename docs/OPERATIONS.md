@@ -2,13 +2,14 @@
 
 ## 系统组成
 
-这套系统由五部分组成：
+这套系统由六部分组成：
 
 1. 本地Skill：让Codex知道何时、按什么规则执行标讯任务。
 2. 本地Agent代码：负责导入、筛选、去重、采集和生成网页数据。
-3. macOS `launchd`：每天在本机采集两个板块、提交并推送公开数据。
+3. macOS `launchd`：每天在本机更新图文广告，并运行统一施工机会工作流后提交发布。
 4. GitHub Actions：只部署仓库中已有的 `site/`，不发起采集。
 5. GitHub Pages：提供手机和电脑可打开的最新标讯页面。
+6. 统一施工机会编排层：一次运行施工粗筛、超长期计划、关联、测试和发布，并生成单页工作台。
 
 ## 本地位置
 
@@ -34,6 +35,11 @@
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
+| 统一施工机会网页 | `site/opportunities/` | 今日待看、施工粗筛、超长期计划、重点关联和运行状态 |
+| 招标计划详细网页 | `site/tender-plan/` | AP1 招标计划、资金来源和历史版本 |
+| 统一编排模块 | `src/tender_agent/unified_site.py` | 一次运行、测试门禁和发布 |
+| 统一入口 Skill | `skills/guizhou-construction-opportunity-intelligence/` | 日常默认入口 |
+| 招标计划内部 Skill | `skills/tender-plan-intelligence/` | 计划采集器、缓存和关联算法 |
 | 施工增量采集状态 | `site/construction/data/collector-state.json` | 各来源游标、公告ID、失败重试和项目编码 |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
 | 施工最新公开数据 | `site/construction/data/latest.json` | 施工网页读取的数据 |
@@ -212,6 +218,22 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
 
 ## 标讯更新与发布流程
 
+### 统一施工机会默认流程
+
+日常手动更新优先执行：
+
+```bash
+PYTHONPATH=src python3 -m tender_agent.unified_site update --publish
+```
+
+流程固定为：施工粗筛 → 招标计划 → 超长期关联 → 统一页面 → 三组测试 → 提交 `site/` → 推送 `main` → 更新 `gh-pages`。存在未提交的非 `site/` 代码改动时自动发布会停止，防止只发布数据而遗漏代码。
+
+只用现有数据重建页面：
+
+```bash
+PYTHONPATH=src python3 -m tender_agent.unified_site build
+```
+
 GitHub Actions **不再重新采集**。采集只在本机执行，Actions 只负责将
 `site/` 目录部署到 GitHub Pages。
 
@@ -246,7 +268,7 @@ git subtree push --prefix=site origin gh-pages
 - 任务标识：`com.nono.tender-daily`
 - 安装文件：`/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist`
 - macOS本地时间每天15:03运行；夏令时约为北京时间6:03，冬令时约为7:03
-- 顺序执行图文广告采集、施工采集、提交 `site/`、推送 `main` 和 `gh-pages`
+- 顺序执行图文广告采集，以及施工粗筛 → 超长期计划 → 关联 → 测试 → 统一页面 → 提交发布
 - 日志：`/Users/nonolee/.local/logs/tender-collect-YYYYMMDD.log`
 - 本机必须处于开机可运行、网络可用状态；该任务是系统定时任务，不消耗Codex会话Token
 

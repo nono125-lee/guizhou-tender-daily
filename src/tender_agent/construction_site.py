@@ -40,6 +40,8 @@ CHANGE_FIELDS = (
     "agency",
     "bid_deadline",
     "registration_period",
+    "fixed_asset_code",
+    "approval_refs",
 )
 
 

@@ -20,7 +20,11 @@ from ..construction_incremental import (
     record_processed,
     should_process,
 )
-from ..construction_rules import qualification_matches, qualification_section
+from ..construction_rules import (
+    project_match_fields,
+    qualification_matches,
+    qualification_section,
+)
 from .guizhou_ztb import (
     MONEY_RE,
     _deadline,
@@ -413,6 +417,7 @@ def construction_item(listing: dict, detail_html: str, config: dict) -> dict | N
     project_content = _project_content_from_html(article)
     return normalize_public_item(
         {
+            **project_match_fields(text),
             "published_at": published_at,
             "date_basis": "official",
             "title": title,

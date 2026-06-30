@@ -14,7 +14,11 @@ from ..construction_incremental import (
     retry_listings,
     should_process,
 )
-from ..construction_rules import qualification_matches, qualification_section
+from ..construction_rules import (
+    project_match_fields,
+    qualification_matches,
+    qualification_section,
+)
 from ..normalize import clean_text
 from ..public_export import normalize_public_item
 from .guizhou_ztb import (
@@ -140,6 +144,7 @@ def collect(
         items.append(
             normalize_public_item(
                 {
+                    **project_match_fields(text),
                     "published_at": published,
                     "date_basis": "official",
                     "title": title,

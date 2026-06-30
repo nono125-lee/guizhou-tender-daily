@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101817">
+  <meta name="description" content="贵州施工标讯粗筛、超长期计划与采购公告关联工作台。">
+  <title>贵州施工机会雷达</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="paper-grid" aria-hidden="true"></div>
+  <header class="masthead">
+    <div class="masthead-line">
+      <span>GUIZHOU · CONSTRUCTION OPPORTUNITY DESK</span>
+      <span id="updated-at">正在读取</span>
+    </div>
+    <div class="masthead-main">
+      <div>
+        <p class="kicker">施工粗筛 × 超长期计划 × 公告关联</p>
+        <h1>贵州施工<br><em>机会雷达</em></h1>
+      </div>
+      <div class="masthead-note">
+        <p>一次采集，一处判断。红色只表示近期需要处理，历史项目进入可检索归档。</p>
+        <div class="source-links">
+          <a href="../construction/">施工详细页</a>
+          <a href="../tender-plan/">招标计划详细页</a>
+        </div>
+      </div>
+    </div>
+    <section class="scoreboard" aria-label="数据概览">
+      <div><strong id="score-pending">0</strong><span>近7天待看</span></div>
+      <div><strong id="score-construction">0</strong><span>施工粗筛</span></div>
+      <div><strong id="score-ultra">0</strong><span>超长期项目</span></div>
+      <div><strong id="score-matches">0</strong><span>重点关联</span></div>
+      <div id="health-card"><strong id="score-health">--</strong><span>运行状态</span></div>
+    </section>
+  </header>
+
+  <main>
+    <nav class="desk-tabs" aria-label="工作台栏目">
+      <button type="button" data-view="queue" class="active">今日待看 <span id="tab-queue-count">0</span></button>
+      <button type="button" data-view="construction">施工粗筛</button>
+      <button type="button" data-view="plans">超长期计划</button>
+      <button type="button" data-view="matches">重点关联</button>
+      <button type="button" data-view="status">运行状态</button>
+    </nav>
+
+    <section class="filters" id="filters">
+      <label class="search-field">
+        <span>检索</span>
+        <input id="search" type="search" placeholder="项目、招标人、编号、建设内容">
+      </label>
+      <label>
+        <span>时间范围</span>
+        <select id="date-range">
+          <option value="7" selected>近 7 天</option>
+          <option value="30">近 30 天</option>
+          <option value="90">近 90 天</option>
+          <option value="all">全部历史</option>
+        </select>
+      </label>
+      <label>
+        <span>复核状态</span>
+        <select id="review-filter">
+          <option value="pending" selected>待处理</option>
+          <option value="confirmed">已确认</option>
+          <option value="excluded">已排除</option>
+          <option value="all">全部</option>
+        </select>
+      </label>
+      <button id="reset" type="button">重置</button>
+    </section>
+
+    <section class="view-heading">
+      <div>
+        <p id="view-kicker">ACTION QUEUE</p>
+        <h2 id="view-title">近 7 天待处理</h2>
+      </div>
+      <p><strong id="result-count">0</strong> <span id="result-label">条记录</span></p>
+    </section>
+
+    <section id="warning" class="warning" hidden></section>
+    <section id="list" class="record-list" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>当前没有符合条件的记录。</p>
+    <button id="load-more" class="load-more" type="button" hidden>继续显示</button>
+  </main>
+
+  <footer>
+    <p>自动关联只用于筛选，报名和投标前请核对原公告。</p>
+    <p>“已确认/已排除”保存在当前浏览器，不改变公开数据。</p>
+  </footer>
+
+  <template id="record-template">
+    <article class="record-card">
+      <div class="record-index"></div>
+      <div class="record-main">
+        <div class="record-meta">
+          <time></time>
+          <span class="record-source"></span>
+          <span class="record-badge"></span>
+        </div>
+        <h3><a class="record-link" target="_blank" rel="noopener noreferrer"></a></h3>
+        <p class="record-relation" hidden></p>
+        <dl class="record-facts"></dl>
+        <p class="record-content"></p>
+        <div class="record-tags"></div>
+        <p class="record-evidence" hidden></p>
+        <div class="record-actions" hidden>
+          <button type="button" data-action="confirmed">确认关联</button>
+          <button type="button" data-action="excluded">排除关联</button>
+          <button type="button" data-action="pending">恢复待处理</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

@@ -37,6 +37,13 @@ QUALIFICATION_END_RE = re.compile(
     r"\s*[：:]?"
     r")"
 )
+FIXED_ASSET_CODE_RE = re.compile(r"(?<!\d)\d{4}-\d{6}-\d{2}-\d{2}-\d{6}(?!\d)")
+APPROVAL_REFERENCE_RE = re.compile(
+    r"[\u4e00-\u9fffA-Za-z]{1,24}[〔\[【（(]\d{4}[〕\]】）)][\u4e00-\u9fffA-Za-z0-9-]{1,20}号"
+)
+APPROVAL_LEADING_RE = re.compile(
+    r"^(?:(?:本)?项目)?(?:已经|已由|经|根据|依据|取得|由)+"
+)
 
 
 def load_config(path: Path | None = None) -> dict:
@@ -66,6 +73,21 @@ def trim_qualification(text: str) -> str:
     text = plain_text(text)
     end = QUALIFICATION_END_RE.search(text)
     return clean_text(text[:end.start()] if end else text)
+
+
+def project_match_fields(text: str) -> dict:
+    """Extract only explicit public identifiers used for cross-notice matching."""
+    value = plain_text(text)
+    fixed_asset_codes = list(dict.fromkeys(FIXED_ASSET_CODE_RE.findall(value)))
+    approval_refs = [
+        APPROVAL_LEADING_RE.sub("", reference)
+        for reference in APPROVAL_REFERENCE_RE.findall(value)
+    ]
+    approval_refs = list(dict.fromkeys(reference for reference in approval_refs if reference))
+    return {
+        "fixed_asset_code": fixed_asset_codes[0] if fixed_asset_codes else "",
+        "approval_refs": approval_refs,
+    }
 
 
 def qualification_matches(

@@ -17,6 +17,7 @@ from tender_agent.construction_incremental import (
     should_process,
 )
 from tender_agent.construction_rules import (
+    project_match_fields,
     qualification_matches,
     qualification_section,
     trim_qualification,
@@ -34,6 +35,20 @@ CONFIG = {
 
 
 class ConstructionRulesTests(unittest.TestCase):
+    def test_project_match_fields_extracts_explicit_code_and_approval_reference(self):
+        result = project_match_fields(
+            "投资项目代码：2111-522323-04-01-342068；"
+            "项目经普发改规划〔2024〕16号批准建设。"
+        )
+        self.assertEqual(result["fixed_asset_code"], "2111-522323-04-01-342068")
+        self.assertEqual(result["approval_refs"], ["普发改规划〔2024〕16号"])
+
+    def test_project_match_fields_does_not_guess_missing_values(self):
+        self.assertEqual(
+            project_match_fields("本项目已批准建设，具体文号详见公告。"),
+            {"fixed_asset_code": "", "approval_refs": []},
+        )
+
     def test_incremental_window_uses_six_hour_overlap(self):
         now = datetime(2026, 6, 12, 8, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
         source_state = {

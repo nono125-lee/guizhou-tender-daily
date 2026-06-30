@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+
 from datetime import datetime, timedelta
 from urllib.parse import urlencode, urlsplit
 from zoneinfo import ZoneInfo
@@ -14,7 +16,7 @@ from ..construction_incremental import (
     retry_listings,
     should_process,
 )
-from ..construction_rules import qualification_matches
+from ..construction_rules import project_match_fields, qualification_matches
 from ..normalize import clean_text
 from ..public_export import normalize_public_item
 from .eqyzc import (
@@ -214,6 +216,7 @@ def collect(
                     False,
                 )
                 patch = {
+                    **project_match_fields(json.dumps(detail, ensure_ascii=False)),
                     "url": target_url,
                     "_is_change": True,
                     "change_published_at": _datetime_text(
@@ -328,6 +331,7 @@ def collect(
             )
             item = normalize_public_item(
                 {
+                    **project_match_fields(json.dumps(detail, ensure_ascii=False)),
                     "published_at": _datetime_text(
                         listing.get("releaseTime") or detail.get("releaseTime"),
                         False,

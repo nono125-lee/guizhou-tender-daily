@@ -1,0 +1,23 @@
+{
+  "skill_name": "guizhou-construction-opportunity-intelligence",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "跑一下贵州施工机会雷达，把施工粗筛、超长期计划和重点关联一起更新并发布。",
+      "expected_output": "运行统一命令，分别报告两个采集结果、测试、部署和线上核验。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "只用现有数据重建统一页面，不要联网采集，也不要发布。",
+      "expected_output": "执行 build，只生成统一页面和状态文件，不采集、不提交、不推送。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "施工来源有一个失败了，但旧数据还在，帮我更新统一页面。",
+      "expected_output": "保留旧数据，在运行状态中显示来源告警，不把部署成功描述成采集成功。",
+      "files": []
+    }
+  ]
+}

@@ -1,5 +1,19 @@
 # 贵州标讯系统
 
+## 统一施工机会雷达
+
+施工标讯粗筛、超长期招标计划和采购公告关联已经合并为一个用户入口：
+
+```bash
+PYTHONPATH=src python3 -m tender_agent.unified_site update --publish
+```
+
+该命令依次完成施工增量采集、招标计划智能窗口采集、超长期资金识别、重点关联、统一页面生成、测试、提交和 GitHub Pages 发布。统一页面位于：
+
+<https://nono125-lee.github.io/guizhou-tender-daily/opportunities/>
+
+页面包含“今日待看、施工粗筛、超长期计划、重点关联、运行状态”五个栏目。原施工详细页和招标计划详细页继续保留，作为字段复核和历史版本入口。
+
 这是一个面向多省份、多行业、多信息源的标讯采集项目。当前首期范围：
 
 - 区域：贵州省
@@ -31,6 +45,7 @@
 - 已建立北京时间每天 7:15 GitHub Actions 兜底部署工作流（只部署，不采集）
 - 已建立网页人工确认、排除、字段纠正和GitHub反馈处理工作流
 - 已建立施工来源独立游标、公告ID去重、失败重试和周/月补漏机制
+- 已建立统一施工机会 Skill、单次运行编排和单页工作台
 
 完整的本地文件位置、GitHub部署位置和日常维护方法见
 [`docs/OPERATIONS.md`](docs/OPERATIONS.md)。
@@ -78,6 +93,9 @@ PYTHONPATH=src python3 -m tender_agent.site seed
 
 施工行业独立页面：
 <https://nono125-lee.github.io/guizhou-tender-daily/construction/>
+
+超长期招标计划详细页面：
+<https://nono125-lee.github.io/guizhou-tender-daily/tender-plan/>
 
 GitHub 仓库：<https://github.com/nono125-lee/guizhou-tender-daily>
 

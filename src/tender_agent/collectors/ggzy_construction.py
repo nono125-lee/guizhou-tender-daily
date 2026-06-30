@@ -16,7 +16,12 @@ from ..construction_incremental import (
     retry_listings,
     should_process,
 )
-from ..construction_rules import plain_text, qualification_matches, qualification_section
+from ..construction_rules import (
+    plain_text,
+    project_match_fields,
+    qualification_matches,
+    qualification_section,
+)
 from ..normalize import clean_text
 from ..public_export import normalize_public_item
 from .guizhou_ztb import _deadline, _parties, _project_content, _registration_period
@@ -184,6 +189,7 @@ def collect(
                     continue
                 text = plain_text(html_text)
                 results[f"change:{notice_id}"] = {
+                    **project_match_fields(text),
                     "url": target_url,
                     "_is_change": True,
                     "change_published_at": release_at[:10],
@@ -272,6 +278,7 @@ def collect(
                 budget = clean_text(money.group(1))
             item = normalize_public_item(
                 {
+                    **project_match_fields(text),
                     "published_at": date_value,
                     "date_basis": "official",
                     "title": title,

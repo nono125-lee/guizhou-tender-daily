@@ -1,0 +1,4 @@
+interface:
+  display_name: "超长期标讯"
+  short_description: "关联贵州超长期招标计划与施工采购公告"
+  default_prompt: "Use $tender-plan-intelligence to collect Guizhou tender plans, match ultra-long bond projects to screened construction notices, and generate a priority review page."

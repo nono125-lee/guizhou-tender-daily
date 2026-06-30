@@ -9,3 +9,5 @@ data/private/
 data/runtime/
 logs/
 .site-preview/
+.runtime/
+deploy/logs/
