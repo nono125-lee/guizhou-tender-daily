@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101817">
-  <meta name="description" content="贵州施工标讯粗筛、超长期计划与采购公告关联工作台。">
-  <title>贵州施工机会雷达</title>
+  <meta name="description" content="贵州施工标讯粗筛、招标计划与采购公告关联工作台。">
+  <title>标讯雷达</title>
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
     </div>
     <div class="masthead-main">
       <div>
-        <p class="kicker">施工粗筛 × 超长期计划 × 公告关联</p>
-        <h1>贵州施工<br><em>机会雷达</em></h1>
+        <p class="kicker">施工粗筛 × 招标计划 × 公告关联</p>
+        <h1>标讯雷达</h1>
       </div>
       <div class="masthead-note">
         <p>一次采集，一处判断。红色只表示近期需要处理，历史项目进入可检索归档。</p>
@@ -31,7 +31,7 @@
     <section class="scoreboard" aria-label="数据概览">
       <div><strong id="score-pending">0</strong><span>近7天待看</span></div>
       <div><strong id="score-construction">0</strong><span>施工粗筛</span></div>
-      <div><strong id="score-ultra">0</strong><span>超长期项目</span></div>
+      <div><strong id="score-plans">0</strong><span>招标计划</span></div>
       <div><strong id="score-matches">0</strong><span>重点关联</span></div>
       <div id="health-card"><strong id="score-health">--</strong><span>运行状态</span></div>
     </section>
@@ -41,7 +41,7 @@
     <nav class="desk-tabs" aria-label="工作台栏目">
       <button type="button" data-view="queue" class="active">今日待看 <span id="tab-queue-count">0</span></button>
       <button type="button" data-view="construction">施工粗筛</button>
-      <button type="button" data-view="plans">超长期计划</button>
+      <button type="button" data-view="plans">招标计划</button>
       <button type="button" data-view="matches">重点关联</button>
       <button type="button" data-view="status">运行状态</button>
     </nav>
@@ -51,26 +51,71 @@
         <span>检索</span>
         <input id="search" type="search" placeholder="项目、招标人、编号、建设内容">
       </label>
-      <label>
+      <label data-views="matches">
         <span>时间范围</span>
-        <select id="date-range">
+        <select id="match-date-range">
           <option value="7" selected>近 7 天</option>
           <option value="30">近 30 天</option>
           <option value="90">近 90 天</option>
           <option value="all">全部历史</option>
         </select>
       </label>
-      <label>
-        <span>复核状态</span>
-        <select id="review-filter">
-          <option value="pending" selected>待处理</option>
-          <option value="confirmed">已确认</option>
-          <option value="excluded">已排除</option>
-          <option value="all">全部</option>
+      <label data-views="construction">
+        <span>地区</span>
+        <select id="construction-region"><option value="">全部地区</option></select>
+      </label>
+      <label data-views="construction">
+        <span>时间</span>
+        <select id="construction-date-range">
+          <option value="1">最近 1 天</option>
+          <option value="7">最近 7 天</option>
+          <option value="14">最近 14 天</option>
+          <option value="45">最近 45 天</option>
         </select>
+      </label>
+      <label data-views="construction">
+        <span>信息源</span>
+        <select id="construction-source"><option value="">全部信息源</option></select>
+      </label>
+      <label data-views="construction">
+        <span>报名日期</span>
+        <input id="construction-reg-date" type="text" placeholder="如 2026-06-11">
+      </label>
+      <label data-views="construction">
+        <span>截止日期</span>
+        <input id="construction-cutoff-date" type="date">
+      </label>
+      <label data-views="construction">
+        <span>资质要求</span>
+        <input id="construction-qualification" type="search" placeholder="如 市政公用工程">
+      </label>
+      <label data-views="plans">
+        <span>地州市</span>
+        <select id="plan-prefecture"><option value="">全部</option></select>
+      </label>
+      <label data-views="plans">
+        <span>区县</span>
+        <select id="plan-district"><option value="">全部</option></select>
+      </label>
+      <label data-views="plans">
+        <span>发布时间</span>
+        <select id="plan-date-range">
+          <option value="all" selected>全部</option>
+          <option value="1">今天</option>
+          <option value="3">近三天</option>
+          <option value="10">近十天</option>
+          <option value="30">近一个月</option>
+          <option value="90">近三个月</option>
+        </select>
+      </label>
+      <label data-views="plans">
+        <span>预计招标月</span>
+        <input id="plan-planned-month" type="month">
       </label>
       <button id="reset" type="button">重置</button>
     </section>
+
+    <section id="fund-strip" class="fund-strip" aria-label="资金来源快捷筛选" hidden></section>
 
     <section class="view-heading">
       <div>

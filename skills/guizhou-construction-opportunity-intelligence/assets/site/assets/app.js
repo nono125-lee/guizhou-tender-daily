@@ -1,10 +1,20 @@
 const REVIEW_KEY = "guizhou-construction-opportunity-review-v1";
+const FUND_TAG_ORDER = [
+  "超长期", "政府投资", "财政资金", "上级补助", "国有资金", "专项债",
+  "地方自筹", "企业自筹", "银行贷款", "社会资本", "其他", "未载明"
+];
+const PREFECTURE_LABELS = {
+  "贵阳市": "贵阳", "六盘水市": "六盘水", "遵义市": "遵义", "安顺市": "安顺",
+  "毕节市": "毕节", "铜仁市": "铜仁", "黔西南布依族苗族自治州": "黔西南",
+  "黔东南苗族侗族自治州": "黔东南", "黔南布依族苗族自治州": "黔南",
+  "贵安新区": "贵安"
+};
 const VIEW_META = {
-  queue: { kicker: "ACTION QUEUE", title: "近 7 天待处理", label: "条待处理", date: "7", review: "pending" },
-  construction: { kicker: "SCREENED NOTICES", title: "施工标讯粗筛", label: "条施工公告", date: "30", review: "all" },
-  plans: { kicker: "ULTRA-LONG PLANS", title: "超长期招标计划", label: "个项目", date: "90", review: "all" },
-  matches: { kicker: "MATCH ARCHIVE", title: "重点关联档案", label: "条关联", date: "30", review: "all" },
-  status: { kicker: "RUN HEALTH", title: "采集与发布状态", label: "项状态", date: "all", review: "all" }
+  queue: { kicker: "ACTION QUEUE", title: "近 7 天待处理", label: "条待处理" },
+  construction: { kicker: "SCREENED NOTICES", title: "施工标讯粗筛", label: "条施工公告" },
+  plans: { kicker: "TENDER PLANS", title: "招标计划", label: "个项目" },
+  matches: { kicker: "MATCH ARCHIVE", title: "重点关联档案", label: "条关联" },
+  status: { kicker: "RUN HEALTH", title: "采集与发布状态", label: "项状态" }
 };
 
 const state = {
@@ -15,6 +25,9 @@ const state = {
   plans: null,
   view: "queue",
   shown: 50,
+  activeFund: "",
+  constructionFiltersReady: false,
+  planFiltersReady: false,
   review: loadReviewState()
 };
 
@@ -92,7 +105,7 @@ function normalizeProjectName(item) {
     .trim();
 }
 
-function groupedUltraPlans(items) {
+function groupedPlans(items) {
   const groups = new Map();
   (items || []).forEach((item) => {
     const key = normalizeProjectName(item) || `notice:${item.source_notice_id || item.url}`;
@@ -101,8 +114,66 @@ function groupedUltraPlans(items) {
   });
   return [...groups.values()]
     .map((versions) => versions.sort((a, b) => (b.published_at || "").localeCompare(a.published_at || ""))[0])
-    .filter((item) => (item.fund_source_tags || []).includes("超长期") || /超长期(?:特别)?国债|特别国债/.test(item.fund_source || ""))
     .sort((a, b) => (b.published_at || "").localeCompare(a.published_at || ""));
+}
+
+function optionList(select, values) {
+  const current = select.value;
+  select.querySelectorAll("option:not([value=''])").forEach((option) => option.remove());
+  values.filter(Boolean).sort((a, b) => a.localeCompare(b, "zh-CN")).forEach((value) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
+  });
+  if ([...select.options].some((option) => option.value === current)) select.value = current;
+}
+
+function constructionRegionOf(item) {
+  const value = `${item.location || ""} ${item.title || ""}`;
+  const regions = ["贵阳", "遵义", "六盘水", "安顺", "毕节", "铜仁", "黔南", "黔东南", "黔西南", "贵安"];
+  return regions.find((region) => value.includes(region)) || "贵州省";
+}
+
+function locationParts(item) {
+  const parts = (item.project_location || "").split("-").map((part) => part.trim()).filter(Boolean);
+  if (parts.length >= 3 && parts[0] === "贵州省") return { prefectureRaw: parts[1], district: parts[2] };
+  if (parts.length >= 2) return { prefectureRaw: parts.at(-2), district: parts.at(-1) };
+  return { prefectureRaw: "", district: item.region || "" };
+}
+
+function prefectureOf(item) {
+  const raw = locationParts(item).prefectureRaw;
+  return PREFECTURE_LABELS[raw] || raw || "未载明";
+}
+
+function districtOf(item) {
+  return locationParts(item).district || item.region || "未载明";
+}
+
+function isUltraLong(item) {
+  return /超长期(?:特别)?国债|特别国债/.test(item.fund_source || "");
+}
+
+function populateConstructionFilters(items) {
+  optionList($("#construction-region"), [...new Set(items.map(constructionRegionOf))]);
+  optionList($("#construction-source"), [...new Set(items.map((item) => item.source_name))]);
+  state.constructionFiltersReady = true;
+}
+
+function updatePlanDistricts() {
+  if (!state.plans) return;
+  const prefecture = $("#plan-prefecture").value;
+  const items = groupedPlans(state.plans.items || []);
+  optionList($("#plan-district"), [...new Set(items
+    .filter((item) => !prefecture || prefectureOf(item) === prefecture)
+    .map(districtOf))]);
+}
+
+function populatePlanFilters(items) {
+  optionList($("#plan-prefecture"), [...new Set(items.map(prefectureOf))]);
+  updatePlanDistricts();
+  state.planFiltersReady = true;
 }
 
 function queryText() {
@@ -116,13 +187,12 @@ function includesQuery(values) {
 }
 
 function filterMatches(items, queueOnly = false) {
-  const days = queueOnly ? "7" : $("#date-range").value;
-  const review = queueOnly ? "pending" : $("#review-filter").value;
+  const days = queueOnly ? "7" : $("#match-date-range").value;
   return (items || []).filter((entry) => {
     const notice = entry.notice || {};
     const plan = entry.plan || {};
     return withinDays(notice.published_at, days)
-      && (review === "all" || reviewStatus(entry) === review)
+      && (!queueOnly || reviewStatus(entry) === "pending")
       && includesQuery([
         notice.title,
         notice.project_name,
@@ -138,29 +208,87 @@ function filterMatches(items, queueOnly = false) {
 }
 
 function filterConstruction(items) {
-  const days = $("#date-range").value;
-  return (items || []).filter((item) => withinDays(item.published_at, days) && includesQuery([
-    item.title,
-    item.project_name,
-    item.buyer,
-    item.agency,
-    item.project_code,
-    item.project_content,
-    ...(item.matched_keywords || [])
-  ]));
+  const days = $("#construction-date-range").value;
+  const region = $("#construction-region").value;
+  const source = $("#construction-source").value;
+  const registrationDate = $("#construction-reg-date").value.trim();
+  const cutoffDate = $("#construction-cutoff-date").value;
+  const qualification = $("#construction-qualification").value.trim().toLowerCase();
+  return (items || []).filter((item) => {
+    const passQualification = !qualification || [
+      item.qualification_requirement || "",
+      ...(item.matched_keywords || [])
+    ].join(" ").toLowerCase().includes(qualification);
+    return withinDays(item.published_at, days)
+      && (!region || constructionRegionOf(item) === region)
+      && (!source || item.source_name === source)
+      && (!registrationDate || (item.registration_period || "").includes(registrationDate))
+      && (!cutoffDate || (item.bid_deadline || "").startsWith(cutoffDate))
+      && passQualification
+      && includesQuery([
+        item.title,
+        item.project_name,
+        item.buyer,
+        item.agency,
+        item.project_code,
+        item.project_content,
+        ...(item.matched_keywords || [])
+      ]);
+  });
 }
 
 function filterPlans(items) {
-  const days = $("#date-range").value;
-  return groupedUltraPlans(items).filter((item) => withinDays(item.published_at, days) && includesQuery([
-    item.title,
-    item.project_name,
-    item.buyer,
-    item.fixed_asset_code,
-    item.approval,
-    item.project_content,
-    item.fund_source
-  ]));
+  const prefecture = $("#plan-prefecture").value;
+  const district = $("#plan-district").value;
+  const days = $("#plan-date-range").value;
+  const plannedMonth = $("#plan-planned-month").value;
+  return groupedPlans(items).filter((item) => {
+    const passFund = !state.activeFund
+      || (state.activeFund === "超长期" ? isUltraLong(item) : (item.fund_source_tags || []).includes(state.activeFund));
+    return withinDays(item.published_at, days)
+      && (!prefecture || prefectureOf(item) === prefecture)
+      && (!district || districtOf(item) === district)
+      && (!plannedMonth || (item.planned_bid_time || "").startsWith(plannedMonth))
+      && passFund
+      && includesQuery([
+        item.title,
+        item.project_name,
+        item.buyer,
+        item.fixed_asset_code,
+        item.approval,
+        item.project_content,
+        item.fund_source
+      ]);
+  });
+}
+
+function renderFundStrip(items) {
+  const strip = $("#fund-strip");
+  strip.replaceChildren();
+  const counts = new Map();
+  items.forEach((item) => {
+    (item.fund_source_tags || ["未载明"]).forEach((tag) => counts.set(tag, (counts.get(tag) || 0) + 1));
+  });
+  counts.set("超长期", items.filter(isUltraLong).length);
+  [...new Set([...FUND_TAG_ORDER, ...counts.keys()])]
+    .sort((a, b) => {
+      const ai = FUND_TAG_ORDER.indexOf(a);
+      const bi = FUND_TAG_ORDER.indexOf(b);
+      if (ai >= 0 || bi >= 0) return (ai < 0 ? 999 : ai) - (bi < 0 ? 999 : bi);
+      return a.localeCompare(b, "zh-CN");
+    })
+    .forEach((tag) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = state.activeFund === tag ? "active" : "";
+      button.innerHTML = `<span>${tag}</span><strong>${counts.get(tag) || 0}</strong>`;
+      button.addEventListener("click", () => {
+        state.activeFund = state.activeFund === tag ? "" : tag;
+        state.shown = 50;
+        render();
+      });
+      strip.append(button);
+    });
 }
 
 function addFact(list, label, value) {
@@ -262,7 +390,7 @@ function renderPlan(item, index) {
   fragment.querySelector(".record-index").textContent = String(index + 1).padStart(2, "0");
   fragment.querySelector("time").textContent = text(dateText(item.published_at));
   fragment.querySelector(".record-source").textContent = text(item.source_name);
-  fragment.querySelector(".record-badge").textContent = "超长期";
+  fragment.querySelector(".record-badge").textContent = isUltraLong(item) ? "超长期" : "招标计划";
   const link = fragment.querySelector(".record-link");
   link.href = item.url || "#";
   link.textContent = item.project_name || item.title || "未载明";
@@ -273,7 +401,7 @@ function renderPlan(item, index) {
   addFact(facts, "投资项目代码", item.fixed_asset_code);
   addFact(facts, "预计招标", item.planned_bid_time);
   addFact(facts, "建设地点", item.project_location || item.region);
-  fragment.querySelector(".record-content").textContent = truncate(item.project_content);
+  fragment.querySelector(".record-content").textContent = text(item.project_content);
   addTags(fragment.querySelector(".record-tags"), item.fund_source_tags);
   return fragment;
 }
@@ -286,7 +414,7 @@ function renderStatus() {
     const card = document.createElement("article");
     card.className = `status-card ${dataset.warning_count ? "bad" : ""}`;
     const title = document.createElement("h3");
-    title.textContent = key === "construction" ? "施工标讯粗筛" : "超长期招标计划";
+    title.textContent = key === "construction" ? "施工标讯粗筛" : "招标计划";
     const facts = document.createElement("dl");
     addFact(facts, "更新时间", dataset.updated_at);
     addFact(facts, "记录数量", dataset.stats?.total ?? dataset.stats?.merged_total);
@@ -321,12 +449,21 @@ function showWarning(messages) {
   warning.textContent = values.slice(0, 8).join("；");
 }
 
+function updateFilterVisibility() {
+  const isStatus = state.view === "status";
+  $("#filters").hidden = isStatus;
+  $("#fund-strip").hidden = state.view !== "plans";
+  document.querySelectorAll("[data-views]").forEach((element) => {
+    element.hidden = !element.dataset.views.split(",").includes(state.view);
+  });
+}
+
 async function render() {
   const meta = VIEW_META[state.view];
   $("#view-kicker").textContent = meta.kicker;
   $("#view-title").textContent = meta.title;
   $("#result-label").textContent = meta.label;
-  $("#filters").hidden = state.view === "status";
+  updateFilterVisibility();
   $("#load-more").hidden = true;
   const list = $("#list");
   list.className = "record-list";
@@ -348,11 +485,15 @@ async function render() {
     renderer = (item, index) => renderMatch(item, index, true);
   } else if (state.view === "construction") {
     const payload = await ensureDataset("construction");
+    if (!state.constructionFiltersReady) populateConstructionFilters(payload.items || []);
     records = filterConstruction(payload.items);
     renderer = renderConstruction;
     showWarning(payload.warnings);
   } else {
     const payload = await ensureDataset("plans");
+    const projects = groupedPlans(payload.items || []);
+    if (!state.planFiltersReady) populatePlanFilters(projects);
+    renderFundStrip(projects);
     records = filterPlans(payload.items);
     renderer = renderPlan;
     showWarning(payload.warnings);
@@ -374,7 +515,7 @@ function updateScoreboard() {
   $("#score-pending").textContent = pending;
   $("#tab-queue-count").textContent = pending;
   $("#score-construction").textContent = summary.construction_items || 0;
-  $("#score-ultra").textContent = summary.ultra_long_projects || 0;
+  $("#score-plans").textContent = summary.plan_notices || 0;
   $("#score-matches").textContent = summary.priority_notices || 0;
   const datasets = state.status?.datasets || {};
   const warningCount = Object.values(datasets).reduce((total, dataset) => total + Number(dataset.warning_count || 0), 0);
@@ -392,9 +533,6 @@ function updateScoreboard() {
 async function switchView(view) {
   state.view = view;
   state.shown = 50;
-  const meta = VIEW_META[view];
-  $("#date-range").value = meta.date;
-  $("#review-filter").value = meta.review;
   document.querySelectorAll(".desk-tabs button").forEach((button) => {
     button.classList.toggle("active", button.dataset.view === view);
   });
@@ -419,17 +557,38 @@ document.querySelectorAll(".desk-tabs button").forEach((button) => {
   button.addEventListener("click", () => switchView(button.dataset.view));
 });
 
-[$("#search"), $("#date-range"), $("#review-filter")].forEach((element) => {
+[
+  "search", "match-date-range", "construction-region", "construction-date-range",
+  "construction-source", "construction-reg-date", "construction-cutoff-date",
+  "construction-qualification", "plan-district", "plan-date-range", "plan-planned-month"
+].forEach((id) => {
+  const element = $(`#${id}`);
   element.addEventListener(element.tagName === "INPUT" ? "input" : "change", () => {
     state.shown = 50;
     render();
   });
 });
 
+$("#plan-prefecture").addEventListener("change", () => {
+  updatePlanDistricts();
+  state.shown = 50;
+  render();
+});
+
 $("#reset").addEventListener("click", () => {
   $("#search").value = "";
-  $("#date-range").value = VIEW_META[state.view].date;
-  $("#review-filter").value = VIEW_META[state.view].review;
+  if (["queue", "matches"].includes(state.view)) {
+    $("#match-date-range").value = state.view === "queue" ? "7" : "30";
+  } else if (state.view === "construction") {
+    ["construction-region", "construction-source", "construction-reg-date", "construction-cutoff-date", "construction-qualification"]
+      .forEach((id) => { $(`#${id}`).value = ""; });
+    $("#construction-date-range").value = "1";
+  } else if (state.view === "plans") {
+    ["plan-prefecture", "plan-district", "plan-planned-month"].forEach((id) => { $(`#${id}`).value = ""; });
+    $("#plan-date-range").value = "all";
+    state.activeFund = "";
+    updatePlanDistricts();
+  }
   state.shown = 50;
   render();
 });

@@ -9,7 +9,7 @@
 3. macOS `launchd`：每天在本机更新图文广告，并运行统一施工机会工作流后提交发布。
 4. GitHub Actions：只部署仓库中已有的 `site/`，不发起采集。
 5. GitHub Pages：提供手机和电脑可打开的最新标讯页面。
-6. 统一施工机会编排层：一次运行施工粗筛、超长期计划、关联、测试和发布，并生成单页工作台。
+6. 统一标讯雷达编排层：一次运行施工粗筛、招标计划、超长期识别与关联、测试和发布，并生成单页工作台。
 
 ## 本地位置
 
@@ -35,7 +35,7 @@
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
-| 统一施工机会网页 | `site/opportunities/` | 今日待看、施工粗筛、超长期计划、重点关联和运行状态 |
+| 统一标讯雷达网页 | `site/opportunities/` | 今日待看、施工粗筛、全部招标计划、重点关联和运行状态 |
 | 招标计划详细网页 | `site/tender-plan/` | AP1 招标计划、资金来源和历史版本 |
 | 统一编排模块 | `src/tender_agent/unified_site.py` | 一次运行、测试门禁和发布 |
 | 统一入口 Skill | `skills/guizhou-construction-opportunity-intelligence/` | 日常默认入口 |

@@ -63,7 +63,7 @@ class UnifiedSiteTests(unittest.TestCase):
             self.assertEqual(matches["stats"]["total"], 1)
             self.assertTrue((unified / "assets/app.js").exists())
 
-    def test_page_has_all_views_and_review_state(self):
+    def test_page_has_requested_views_and_business_filters(self):
         skill = (
             Path(__file__).resolve().parents[1]
             / "skills/guizhou-construction-opportunity-intelligence/assets/site"
@@ -73,8 +73,27 @@ class UnifiedSiteTests(unittest.TestCase):
         for view in ("queue", "construction", "plans", "matches", "status"):
             self.assertIn(f'data-view="{view}"', html)
         self.assertIn("近 7 天待处理", html)
+        self.assertIn("<h1>标讯雷达</h1>", html)
+        for control in (
+            "construction-region",
+            "construction-date-range",
+            "construction-source",
+            "construction-reg-date",
+            "construction-cutoff-date",
+            "construction-qualification",
+            "plan-prefecture",
+            "plan-district",
+            "plan-date-range",
+            "plan-planned-month",
+            "fund-strip",
+        ):
+            self.assertIn(f'id="{control}"', html)
+        self.assertNotIn('id="review-filter"', html)
         self.assertIn("guizhou-construction-opportunity-review-v1", app)
         self.assertIn("candidate_plans", app)
+        self.assertIn("groupedPlans", app)
+        self.assertIn('"政府投资"', app)
+        self.assertNotIn("groupedUltraPlans", app)
 
 
 if __name__ == "__main__":

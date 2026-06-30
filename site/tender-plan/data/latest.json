@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-06-30T19:47:53.776036+08:00",
+  "updated_at": "2026-06-30T22:44:56.184435+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
@@ -11,22 +11,22 @@
   },
   "warnings": [],
   "stats": {
-    "total": 1323,
-    "merged_total": 1323,
-    "window_items": 18,
-    "source_total": 18,
+    "total": 1324,
+    "merged_total": 1324,
+    "window_items": 19,
+    "source_total": 19,
     "source_total_pages": 2,
     "collected_pages": 2,
     "list_complete": true,
     "mode": "daily",
     "pub_date": "td",
     "detail_cache_hits": 18,
-    "detail_cache_misses": 0,
-    "detail_fetch_success": 0,
+    "detail_cache_misses": 1,
+    "detail_fetch_success": 1,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
     "pruned_items": 0,
-    "new_today": 18,
+    "new_today": 19,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
@@ -36,6 +36,33 @@
     "priority_new_today": 0
   },
   "items": [
+    {
+      "source_notice_id": "899407",
+      "title": "2026年六枝特区和美乡村建设项目项目招标计划",
+      "published_at": "2026-06-30 20:09:10",
+      "region": "六枝特区",
+      "buyer": "六枝特区农业农村局（六枝特区乡村振兴局）",
+      "agency": "宏骏工程管理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=899407",
+      "project_name": "2026年六枝特区和美乡村建设项目",
+      "fixed_asset_code": "2511-520203-04-01-453768",
+      "approval": "六特发改复〔2026〕1 号",
+      "budget": "9036万元",
+      "fund_source": "申请中央预算内资金 8000万元，区级政 府自筹资金 1036万元",
+      "fund_source_tags": [
+        "财政资金",
+        "地方自筹"
+      ],
+      "project_content": "一是村庄基础设施，新安装路灯共2732盏，通村通组道路修复及硬化共52617m，挡土墙2210m³ ， 排 水 沟 改 造 总 长 度 4950m ； 新 建 DN300 污 水 管7785m 、 DN200 污 水 管 3110m 、 DN180 污 水 管 2180m 、DN125污水管3395m、入户收集管9740m；20m³化粪池16座、10m³化粪池 53 座、5m³化粪池 84 座、3m³化粪池 136 座、地埋式无动力污水处理设施 6 座，小型堆肥设施 62 套，勾臂式垃圾箱 26 个。二是乡村产业配套设施，建设农产品冷冻冷藏保鲜库 4 处 15714m³，农产品分拣厂房 4 座 6292 ㎡，农产品初加工厂房 1 座 1004 ㎡，农产品打包厂房 1 座 324 ㎡，改建农产品电商服务站点 1 座 1580 ㎡，新建旅游厕所 2 座，公共停车场 10980 ㎡",
+      "planned_bid_time": "2026-09-28 16:00:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "六盘水公共资源交易中心",
+      "project_location": "贵州省-六盘水市-六枝特区",
+      "supervisor": "六盘水市农业农村局",
+      "is_new": true
+    },
     {
       "source_notice_id": "899406",
       "title": "德江县南部稳坪片区农村规模化供水工程项目招标计划",
@@ -35110,7 +35137,7 @@
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-06-30T19:47:40.720268+08:00",
+    "updated_at": "2026-06-30T22:44:39.446231+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
@@ -35120,7 +35147,7 @@
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
       "feedback_corrected": 0,
-      "pending_retries": 94
+      "pending_retries": 0
     }
   },
   "priority_notices": [

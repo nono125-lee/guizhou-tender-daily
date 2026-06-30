@@ -12,6 +12,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -70,11 +71,12 @@ footer {
 
 h1 {
   margin: 0;
-  font-family: Georgia, "Songti SC", serif;
-  font-size: clamp(46px, 8vw, 112px);
-  font-weight: 400;
-  line-height: 0.83;
-  letter-spacing: -0.045em;
+  color: var(--red);
+  font-family: "Kaiti SC", "STKaiti", "KaiTi", "楷体", serif;
+  font-size: clamp(58px, 9vw, 126px);
+  font-weight: 600;
+  line-height: 0.92;
+  letter-spacing: 0.03em;
 }
 
 h1 em { color: var(--red); font-weight: 400; }
@@ -133,11 +135,13 @@ main { padding: 28px 0 76px; }
 
 .filters {
   display: grid;
-  grid-template-columns: minmax(260px, 2fr) repeat(2, minmax(160px, .7fr)) auto;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
   padding: 18px 0;
   border-bottom: 1px solid var(--ink);
 }
+
+.search-field { grid-column: span 2; }
 
 .filters label span { display: block; margin-bottom: 6px; color: var(--muted); font-size: 11px; }
 .filters input,
@@ -167,6 +171,32 @@ main { padding: 28px 0 76px; }
 }
 
 #reset:hover { color: white; background: var(--ink); }
+
+.fund-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.fund-strip button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: rgba(255, 255, 255, .42);
+  cursor: pointer;
+  font: inherit;
+}
+
+.fund-strip button strong { color: var(--blue); font-weight: 600; }
+.fund-strip button.active,
+.fund-strip button:hover { color: white; border-color: var(--red); background: var(--red); }
+.fund-strip button.active strong,
+.fund-strip button:hover strong { color: var(--acid); }
 
 .view-heading {
   display: flex;
