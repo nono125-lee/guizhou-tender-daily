@@ -5471,9 +5471,65 @@
     "https://cgjy.tobacco.com.cn/jzfwzb/44744.jhtml": {
       "published_at": "2026-06-29",
       "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45228.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45483.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45476.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45463.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/45392.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45351.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45300.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45273.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/45211.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/45089.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/45470.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45469.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45456.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45352.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-06-30T18:15:35.938401+08:00"
+  "last_run_at": "2026-07-01T06:03:54.903320+08:00"
 }

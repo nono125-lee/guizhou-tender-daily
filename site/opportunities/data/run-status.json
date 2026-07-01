@@ -1,21 +1,21 @@
 {
-  "started_at": "2026-07-01T00:07:57.805963+08:00",
+  "started_at": "2026-07-02T00:27:55.471333+08:00",
   "collection": {
     "construction": {
       "label": "施工标讯粗筛",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-01T00:07:57.806073+08:00",
-      "completed_at": "2026-07-01T00:12:35.152574+08:00",
-      "duration_seconds": 277.35
+      "started_at": "2026-07-02T00:27:55.471453+08:00",
+      "completed_at": "2026-07-02T00:29:27.854660+08:00",
+      "duration_seconds": 92.38
     },
     "tender_plans": {
       "label": "超长期招标计划",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-01T00:12:35.152657+08:00",
-      "completed_at": "2026-07-01T00:12:45.109392+08:00",
-      "duration_seconds": 9.96
+      "started_at": "2026-07-02T00:29:27.854729+08:00",
+      "completed_at": "2026-07-02T00:29:39.177653+08:00",
+      "duration_seconds": 11.32
     }
   },
   "tests": {
@@ -25,76 +25,74 @@
         "label": "施工标讯测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-01T00:12:45.109433+08:00",
-        "completed_at": "2026-07-01T00:12:45.234505+08:00",
-        "duration_seconds": 0.13
+        "started_at": "2026-07-02T00:29:39.177702+08:00",
+        "completed_at": "2026-07-02T00:29:39.297549+08:00",
+        "duration_seconds": 0.12
       },
       {
         "label": "超长期测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-01T00:12:45.234564+08:00",
-        "completed_at": "2026-07-01T00:12:45.304859+08:00",
+        "started_at": "2026-07-02T00:29:39.297630+08:00",
+        "completed_at": "2026-07-02T00:29:39.363163+08:00",
         "duration_seconds": 0.07
       },
       {
         "label": "统一工作台测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-01T00:12:45.304912+08:00",
-        "completed_at": "2026-07-01T00:12:45.356604+08:00",
+        "started_at": "2026-07-02T00:29:39.363233+08:00",
+        "completed_at": "2026-07-02T00:29:39.412187+08:00",
         "duration_seconds": 0.05
       }
     ]
   },
   "publish": {
-    "requested": false
+    "requested": true
   },
-  "completed_at": "2026-07-01T00:12:45.369317+08:00",
+  "completed_at": "2026-07-02T00:29:39.424707+08:00",
   "datasets": {
     "construction": {
       "url": "../construction/data/latest.json",
-      "updated_at": "2026-07-01T00:07:57.857904+08:00",
+      "updated_at": "2026-07-02T00:27:55.524386+08:00",
       "coverage": "贵州省施工类标讯资格条件专项筛选",
       "stats": {
-        "total": 997,
-        "new_today": 37,
+        "total": 1236,
+        "new_today": 162,
         "sources": 11,
         "feedback_confirmed": 0,
         "feedback_excluded": 0,
         "feedback_corrected": 0,
-        "pending_retries": 17
+        "pending_retries": 77
       },
-      "warning_count": 1,
-      "warnings": [
-        "国企交易中心-贵州高速板块采集异常：RuntimeError"
-      ]
+      "warning_count": 0,
+      "warnings": []
     },
     "tender_plans": {
       "url": "../tender-plan/data/latest.json",
-      "updated_at": "2026-07-01T00:12:35.198750+08:00",
+      "updated_at": "2026-07-02T00:29:27.898280+08:00",
       "coverage": "贵州省工程建设招标计划",
       "stats": {
-        "total": 1280,
-        "merged_total": 1280,
-        "window_items": 38,
-        "source_total": 38,
-        "source_total_pages": 4,
-        "collected_pages": 4,
+        "total": 1282,
+        "merged_total": 1282,
+        "window_items": 0,
+        "source_total": 0,
+        "source_total_pages": 0,
+        "collected_pages": 0,
         "list_complete": true,
         "mode": "daily",
-        "pub_date": "l3d",
-        "detail_cache_hits": 38,
+        "pub_date": "td",
+        "detail_cache_hits": 0,
         "detail_cache_misses": 0,
         "detail_fetch_success": 0,
         "detail_fetch_failed": 0,
         "stale_cache_used": 0,
-        "pruned_items": 44,
+        "pruned_items": 0,
         "new_today": 0,
         "regions": 101,
         "fund_source_tags": 11,
         "detail_cache_seeded": 0,
-        "ultra_long_projects": 27,
+        "ultra_long_projects": 29,
         "priority_notices": 1,
         "priority_projects": 1,
         "priority_new_today": 0
@@ -104,9 +102,9 @@
     }
   },
   "summary": {
-    "construction_items": 997,
-    "plan_notices": 1280,
-    "ultra_long_projects": 27,
+    "construction_items": 1236,
+    "plan_notices": 1282,
+    "ultra_long_projects": 29,
     "priority_notices": 1,
     "priority_projects": 1
   }
