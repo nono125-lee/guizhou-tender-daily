@@ -4,12 +4,20 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from tender_agent import unified_site
 
 
 class UnifiedSiteTests(unittest.TestCase):
+    def test_git_output_preserves_porcelain_status_prefix(self):
+        process = SimpleNamespace(returncode=0, stdout=" M site/data/latest.json\n", stderr="")
+        with patch.object(unified_site.subprocess, "run", return_value=process):
+            result = unified_site.git_output(["status", "--porcelain"])
+
+        self.assertEqual(result, " M site/data/latest.json")
+
     def test_build_writes_manifest_matches_status_and_assets(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

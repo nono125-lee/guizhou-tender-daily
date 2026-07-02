@@ -216,7 +216,7 @@ def git_output(arguments: list[str]) -> str:
     )
     if process.returncode:
         raise RuntimeError(process.stderr.strip() or "git 命令失败")
-    return process.stdout.strip()
+    return process.stdout.rstrip()
 
 
 def publish_site() -> dict:
