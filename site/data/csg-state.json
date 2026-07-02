@@ -4443,9 +4443,397 @@
     "https://www.bidding.csg.cn/lxcggg/1200434563.jhtml": {
       "published_at": "2026-06-30",
       "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434735.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434734.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434733.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434732.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434729.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434728.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434720.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434719.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434708.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434678.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434675.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434683.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434639.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434638.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434600.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434562.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434583.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434613.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434644.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434744.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434725.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434715.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434703.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434671.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434650.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434649.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434648.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434609.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434608.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434561.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434586.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434740.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434742.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434718.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434713.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434711.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434680.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434687.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434684.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434674.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434673.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434665.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434667.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434634.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434660.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434658.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434656.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434652.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434651.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434653.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434647.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434630.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434645.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434643.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434582.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434581.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434580.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434576.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434575.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434574.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434573.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434629.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434628.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434627.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434626.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434625.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434624.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434623.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434622.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434621.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434619.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434618.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434617.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434616.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434612.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434611.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434610.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434607.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434570.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434569.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434568.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434567.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434602.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434556.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434558.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434601.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434632.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434633.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "region_prefilter"
+    },
+    "https://www.bidding.csg.cn/lxcgcqgg/1200434597.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "result_notice"
+    },
+    "https://www.bidding.csg.cn/zbgg/1200434738.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/fzbgg/1200434741.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434664.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434615.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434572.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434571.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434557.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
+    },
+    "https://www.bidding.csg.cn/lxcggg/1200434555.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "829524407357320e7d984f255c8c028c8f4b2e83cbac2cd4ee1dfc1f6897bf0f",
-  "last_run_at": "2026-07-01T06:04:32.584777+08:00"
+  "last_run_at": "2026-07-02T06:05:16.950387+08:00"
 }
