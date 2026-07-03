@@ -216,7 +216,7 @@ function openDialog(item, mode, field = "") {
     $("#dialog-title").textContent = "排除标讯";
     $("#dialog-label").textContent = "请填写不是有效标讯的原因";
     $("#dialog-value").value = "";
-    $("#dialog-value").placeholder = "例如：关键词只出现在采购人名称中，采购内容与图文广告无关";
+    $("#dialog-value").placeholder = "例如：关键词只出现在采购人名称中，采购内容与图文或园林绿化无关";
   } else {
     $("#dialog-title").textContent = `纠正${FIELD_LABELS[field]}`;
     $("#dialog-label").textContent = `当前内容：${corrected[field] || "未填写"}`;

@@ -15,14 +15,9 @@ echo "本地时间: $(date)"
 
 cd "$PROJECT_DIR"
 
-# 1. 采集图文广告
+# 统一采集图文、绿化、施工、招标计划、关联、测试并发布
 echo ""
-echo "--- 图文广告采集 ---"
-PYTHONPATH=src python3 -m tender_agent.site update || echo "⚠️ 图文广告采集失败"
-
-# 2. 统一采集施工、超长期计划、关联、测试并发布
-echo ""
-echo "--- 统一施工机会雷达 ---"
+echo "--- 统一标讯雷达 ---"
 PYTHONPATH=src python3 -m tender_agent.unified_site update --publish
 
 echo ""

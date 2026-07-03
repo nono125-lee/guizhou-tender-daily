@@ -11,6 +11,22 @@ from tender_agent import unified_site
 
 
 class UnifiedSiteTests(unittest.TestCase):
+    def test_update_runs_all_tender_categories(self):
+        ok = {"ok": True}
+        with (
+            patch.object(unified_site, "collect_industries", return_value=ok) as industries,
+            patch.object(unified_site, "collect_construction", return_value=ok) as construction,
+            patch.object(unified_site, "collect_plans", return_value=ok) as plans,
+            patch.object(unified_site, "run_tests", return_value={"ok": True, "suites": []}),
+            patch.object(unified_site, "build_unified_site"),
+        ):
+            result = unified_site.main(["update"])
+
+        self.assertEqual(result, 0)
+        industries.assert_called_once_with()
+        construction.assert_called_once_with()
+        plans.assert_called_once_with()
+
     def test_git_output_preserves_porcelain_status_prefix(self):
         process = SimpleNamespace(returncode=0, stdout=" M site/data/latest.json\n", stderr="")
         with patch.object(unified_site.subprocess, "run", return_value=process):
@@ -22,11 +38,15 @@ class UnifiedSiteTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             construction_data = root / "site/construction/data/latest.json"
+            industry_data = root / "site/data/latest.json"
             plan_data = root / "site/tender-plan/data/latest.json"
+            watchlist = root / "config/priority_projects.json"
             assets = root / "skill-assets"
             unified = root / "site/opportunities"
             construction_data.parent.mkdir(parents=True)
+            industry_data.parent.mkdir(parents=True)
             plan_data.parent.mkdir(parents=True)
+            watchlist.parent.mkdir(parents=True)
             (assets / "assets").mkdir(parents=True)
             (assets / "index.html").write_text("<title>统一页面</title>", encoding="utf-8")
             (assets / "assets/style.css").write_text("body{}", encoding="utf-8")
@@ -43,6 +63,22 @@ class UnifiedSiteTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            industry_data.write_text(
+                json.dumps(
+                    {
+                        "updated_at": "2026-06-30T07:50:00+08:00",
+                        "stats": {"total": 3},
+                        "warnings": [],
+                        "items": [
+                            {"title": "G", "industry_categories": ["graphic-advertising"]},
+                            {"title": "L", "industry_categories": ["landscaping"]},
+                            {"title": "B", "industry_categories": ["graphic-advertising", "landscaping"]},
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            watchlist.write_text('{"schema_version": 1, "projects": []}', encoding="utf-8")
             plan_data.write_text(
                 json.dumps(
                     {
@@ -58,7 +94,9 @@ class UnifiedSiteTests(unittest.TestCase):
             )
             with (
                 patch.object(unified_site, "CONSTRUCTION_DATA", construction_data),
+                patch.object(unified_site, "INDUSTRY_DATA", industry_data),
                 patch.object(unified_site, "PLAN_DATA", plan_data),
+                patch.object(unified_site, "PRIORITY_PROJECTS", watchlist),
                 patch.object(unified_site, "UNIFIED_ASSETS", assets),
                 patch.object(unified_site, "UNIFIED_SITE", unified),
             ):
@@ -67,6 +105,8 @@ class UnifiedSiteTests(unittest.TestCase):
             manifest = json.loads((unified / "data/manifest.json").read_text())
             matches = json.loads((unified / "data/matches.json").read_text())
             self.assertEqual(result["summary"]["construction_items"], 2)
+            self.assertEqual(result["summary"]["graphic_items"], 2)
+            self.assertEqual(result["summary"]["landscaping_items"], 2)
             self.assertEqual(manifest["summary"]["ultra_long_projects"], 1)
             self.assertEqual(matches["stats"]["total"], 1)
             self.assertTrue((unified / "assets/app.js").exists())
@@ -78,7 +118,7 @@ class UnifiedSiteTests(unittest.TestCase):
         )
         html = (skill / "index.html").read_text(encoding="utf-8")
         app = (skill / "assets/app.js").read_text(encoding="utf-8")
-        for view in ("matches", "construction", "plans", "status"):
+        for view in ("matches", "graphic", "landscaping", "construction", "plans", "status"):
             self.assertIn(f'data-view="{view}"', html)
         self.assertNotIn('data-view="queue"', html)
         self.assertNotIn("今日待看", html)
@@ -96,6 +136,8 @@ class UnifiedSiteTests(unittest.TestCase):
             "plan-planned-month",
             "source-strip",
             "fund-strip",
+            "industry-date-range",
+            "industry-source",
         ):
             self.assertIn(f'id="{control}"', html)
         self.assertIn('<select id="construction-qualification">', html)
@@ -105,7 +147,7 @@ class UnifiedSiteTests(unittest.TestCase):
         for action in ("确认关联", "排除关联", "恢复待处理"):
             self.assertNotIn(action, html)
         self.assertIn("record-links", html)
-        self.assertIn("打开施工招标公告", app)
+        self.assertIn("打开招标公告", app)
         self.assertIn("打开关联招标计划", app)
         self.assertIn(
             '"电力工程施工总承包", "承装（修、试）", "地质灾害防治单位"',
@@ -114,6 +156,8 @@ class UnifiedSiteTests(unittest.TestCase):
         self.assertIn("candidate_plans", app)
         self.assertIn("groupedPlans", app)
         self.assertIn("renderSourceStrip", app)
+        self.assertIn("industry_categories", app)
+        self.assertIn("用户重点提示", app)
         self.assertIn('$("#construction-source").value === source', app)
         self.assertIn('"政府投资"', app)
         self.assertNotIn("groupedUltraPlans", app)

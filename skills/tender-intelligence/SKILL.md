@@ -1,6 +1,6 @@
 ---
 name: tender-intelligence
-description: 贵州省及后续其他省份的标讯查询、筛选、去重、整理和每日推送工作流。用户提到查标讯、招标公告、采购公告、信息源库、行业关键词库、标讯日报、图文广告项目、每天推送、增加省份或增加行业时，都应使用本 Skill；即使用户只说“今天有哪些项目”也应触发。
+description: 贵州省图文广告与园林绿化标讯的配置化采集、筛选、分类、去重和整理规则。用户提到图文广告、绿化、园林、公园、苗木、景观等项目，或要调整这两类行业关键词、信息源和误报规则时必须使用。用户级的“查标讯/跑标讯/查公告”同时使用 guizhou-construction-opportunity-intelligence 统一全量运行并部署，不单独只跑本行业。
 compatibility: 需要联网时使用 web-access；处理 xlsx 时使用 Spreadsheets；本地执行入口为 tender-agent。
 ---
 
@@ -8,7 +8,7 @@ compatibility: 需要联网时使用 web-access；处理 xlsx 时使用 Spreadsh
 
 ## 目标
 
-把不同招投标网站中的公告转成统一、可追溯、可去重的标讯记录。默认范围是贵州省，默认行业是图文广告；区域、行业和信息源都必须配置化，不能写死在采集逻辑里。
+把不同招投标网站中的公告转成统一、可追溯、可去重的标讯记录。默认范围是贵州省，默认行业是图文广告与园林绿化；两类共用信息源采集，但使用独立关键词和分类标记。
 
 ## 安全边界
 
@@ -28,6 +28,7 @@ compatibility: 需要联网时使用 web-access；处理 xlsx 时使用 Spreadsh
 
 1. 读取 `config/regions.json` 中的当前区域。
 2. 读取 `config/industries/` 中已启用行业及关键词。
+   当前固定读取 `graphic-advertising.json` 和 `landscaping.json`，合并关键词后只采集一次，再为每条公告写入独立 `industry_categories` 和 `category_keyword_matches`。
 3. 从数据库读取启用的信息源，优先处理无需登录的公开公告，再处理需要登录的平台。
 4. 需要联网时加载 `web-access`，按照网站正常交互路径查询最近 24-48 小时公告。
 5. 对每条候选公告提取统一字段，字段规范见 `references/tender-schema.md`。
@@ -37,7 +38,7 @@ compatibility: 需要联网时使用 web-access；处理 xlsx 时使用 Spreadsh
 9. 网页“项目主要内容”只提取公告中明确标注为“招标内容”“采购内容”“招标范围”“采购范围”或“项目概况”的栏目；“采购需求”“项目主要内容”“简要技术要求”等相似栏目不能自动代入。没有指定栏目时留空并显示“公告未载明”，允许用户人工纠正。
 10. 截止时间已过的公告不进入“今日可投”主列表，但可作为更正或结果公告保存。
 11. 生成公开网页数据：新增数量、重点项目、最早截止项目、需人工复核项、来源异常。
-12. 本机采集完成后，将 `site/` 目录推送到 GitHub。GitHub Actions 在北京时间每天 7:15 自动将 `site/` 部署到 GitHub Pages（只部署不采集）。页面显示实际更新时间。
+12. 用户要求查询或运行标讯时，转入统一命令 `PYTHONPATH=src python3 -m tender_agent.unified_site update --publish`，不在本 Skill 停在单板块结果。
 
 ## 信息源维护
 

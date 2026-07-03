@@ -29,6 +29,8 @@ from .feedback import apply_rules_to_payload, load_rules
 
 ROOT = Path(__file__).resolve().parents[2]
 GRAPHIC_SOURCES = ROOT / "config/graphic_sources.json"
+GRAPHIC_INDUSTRY = ROOT / "config/industries/graphic-advertising.json"
+LANDSCAPING_INDUSTRY = ROOT / "config/industries/landscaping.json"
 
 
 def _excluded_titles() -> set[str]:
@@ -54,24 +56,44 @@ def _remove_excluded_notices(payload: dict) -> None:
 
 
 def _apply_keyword_rules(payload: dict, keywords: list[str]) -> None:
+    _apply_industry_rules(
+        payload,
+        [{"industry_id": "graphic-advertising", "name": "图文广告", "keywords": keywords}],
+    )
+
+
+def _apply_industry_rules(payload: dict, industries: list[dict]) -> None:
     kept = []
     for item in payload.get("items", []):
-        if item.get("review_status") == "confirmed":
-            kept.append(item)
+        category_matches = {}
+        for industry in industries:
+            matches = matched_tender_keywords(
+                item.get("project_name") or item.get("title", ""),
+                [
+                    item.get("project_content", ""),
+                    item.get("procurement_content", ""),
+                    item.get("bidding_scope", ""),
+                    item.get("project_overview", ""),
+                ],
+                industry.get("keywords", []),
+            )
+            if matches:
+                category_matches[industry["industry_id"]] = matches
+        if not category_matches and item.get("review_status") != "confirmed":
             continue
-        matches = matched_tender_keywords(
-            item.get("project_name") or item.get("title", ""),
-            [
-                item.get("project_content", ""),
-                item.get("procurement_content", ""),
-                item.get("bidding_scope", ""),
-                item.get("project_overview", ""),
-            ],
-            keywords,
+        if not category_matches:
+            category_matches = item.get("category_keyword_matches") or {
+                "graphic-advertising": item.get("matched_keywords", [])
+            }
+        item["industry_categories"] = list(category_matches)
+        item["category_keyword_matches"] = category_matches
+        item["matched_keywords"] = list(
+            dict.fromkeys(
+                keyword
+                for matches in category_matches.values()
+                for keyword in matches
+            )
         )
-        if not matches:
-            continue
-        item["matched_keywords"] = matches
         kept.append(item)
     payload["items"] = kept
 
@@ -195,6 +217,14 @@ def _refresh_payload(payload: dict) -> None:
     payload["stats"]["sources"] = len(
         {item["source_name"] for item in payload["items"]}
     )
+    payload["stats"]["graphic_advertising"] = sum(
+        "graphic-advertising" in item.get("industry_categories", [])
+        for item in payload["items"]
+    )
+    payload["stats"]["landscaping"] = sum(
+        "landscaping" in item.get("industry_categories", [])
+        for item in payload["items"]
+    )
 
 
 def seed(args: argparse.Namespace) -> int:
@@ -208,7 +238,14 @@ def seed(args: argparse.Namespace) -> int:
 
 
 def update(args: argparse.Namespace) -> int:
-    keywords = load_keywords(args.keywords)
+    industries = args.industry_configs
+    keywords = list(
+        dict.fromkeys(
+            keyword
+            for industry in industries
+            for keyword in industry.get("keywords", [])
+        )
+    )
     previous = (
         json.loads(args.output.read_text(encoding="utf-8"))
         if args.output.exists()
@@ -315,7 +352,7 @@ def update(args: argparse.Namespace) -> int:
     _remove_excluded_notices(payload)
     _hydrate_parties_from_database(payload, args.database)
     apply_rules_to_payload(payload, load_rules())
-    _apply_keyword_rules(payload, keywords)
+    _apply_industry_rules(payload, industries)
     _mark_new_items(payload, previous)
     _fill_party_placeholders(payload)
     _refresh_payload(payload)
@@ -368,7 +405,12 @@ def build_parser() -> argparse.ArgumentParser:
     update_parser.add_argument(
         "--keywords",
         type=Path,
-        default=ROOT / "config/industries/graphic-advertising.json",
+        default=GRAPHIC_INDUSTRY,
+    )
+    update_parser.add_argument(
+        "--landscaping-keywords",
+        type=Path,
+        default=LANDSCAPING_INDUSTRY,
     )
     update_parser.add_argument(
         "--state", type=Path, default=ROOT / "site/data/state.json"
@@ -416,15 +458,23 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
-    if args.command == "update" and args.keywords.suffix == ".json":
-        config = json.loads(args.keywords.read_text(encoding="utf-8"))
-        temp = ROOT / ".keywords.runtime.txt"
-        temp.write_text("、".join(config["keywords"]), encoding="utf-8")
-        args.keywords = temp
-        try:
-            return args.handler(args)
-        finally:
-            temp.unlink(missing_ok=True)
+    if args.command == "update":
+        configs = []
+        for path, fallback_id, fallback_name in (
+            (args.keywords, "graphic-advertising", "图文广告"),
+            (args.landscaping_keywords, "landscaping", "园林绿化"),
+        ):
+            if path.suffix == ".json":
+                configs.append(json.loads(path.read_text(encoding="utf-8")))
+            else:
+                configs.append(
+                    {
+                        "industry_id": fallback_id,
+                        "name": fallback_name,
+                        "keywords": load_keywords(path),
+                    }
+                )
+        args.industry_configs = configs
     return args.handler(args)
 
 

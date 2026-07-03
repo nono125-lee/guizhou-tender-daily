@@ -1,17 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-03T22:42:51.950599+08:00",
+  "updated_at": "2026-07-04T02:24:11.300618+08:00",
   "datasets": {
+    "industries": "../data/latest.json",
     "construction": "../construction/data/latest.json",
     "tender_plans": "../tender-plan/data/latest.json",
     "matches": "./data/matches.json",
     "status": "./data/run-status.json"
   },
   "summary": {
+    "graphic_items": 425,
+    "landscaping_items": 40,
     "construction_items": 1419,
-    "plan_notices": 1292,
-    "ultra_long_projects": 29,
+    "plan_notices": 1271,
+    "ultra_long_projects": 28,
     "priority_notices": 1,
-    "priority_projects": 1
+    "priority_projects": 1,
+    "watched_projects": 0,
+    "watched_notices": 0
   }
 }

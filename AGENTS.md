@@ -2,13 +2,13 @@
 
 ## 项目目标
 
-本项目分别采集贵州省图文广告和施工行业标讯，统一筛选、去重并发布到
-GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
+本项目采集贵州省图文广告、园林绿化和施工行业标讯，并关联招标计划，
+统一筛选、去重并发布到 GitHub Pages。各行业使用独立规则和统一标讯雷达入口。
 
 ## 开始工作前
 
 1. 先读 `README.md` 和 `docs/OPERATIONS.md`。
-2. 涉及施工粗筛、招标计划、超长期识别、重点关联或统一发布时，使用 `guizhou-construction-opportunity-intelligence` Skill；单独排查施工采集器时才使用 `construction-tender-intelligence`。
+2. 用户要求查标讯、标讯粗筛、跑标讯、查公告或发布时，使用 `guizhou-construction-opportunity-intelligence` Skill 全量运行图文广告、园林绿化、施工、招标计划和重点关联；只有明确单独排查采集器时才使用内部 Skill。
 3. 涉及联网访问时，使用 `web-access`。
 4. 涉及原始 Excel 时，使用 Spreadsheets 工具，不能破坏工作簿现有内容。
 
@@ -46,6 +46,7 @@ GitHub Pages。两个行业使用独立规则、数据状态和网页入口。
   “招标范围”“采购范围”或“项目概况”的栏目；其他栏目不得自动代替。
 - 采购人、招标人、代理机构、资格条件及公告其他正文中的关键词不得计入。
 - 用户确认的误报标题维护在 `config/excluded_notices.json`。
+- 用户发来重要的“招标计划项目名称 + 资金来源”时，用 `tender_agent.priority_watch add` 写入 `config/priority_projects.json`；后续匹配公告在重点关联中强提示。
 - 新增标讯以首次发现日标记，次日恢复普通颜色，不按公告发布日期反复标新。
 - 采购人和采购代理机构必须分字段展示；无法核实则写“公告未载明”。
 - 公告网址优先去重；信息源异常不能清空上次成功数据。

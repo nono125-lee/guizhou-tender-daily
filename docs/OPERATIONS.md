@@ -6,7 +6,7 @@
 
 1. 本地Skill：让Codex知道何时、按什么规则执行标讯任务。
 2. 本地Agent代码：负责导入、筛选、去重、采集和生成网页数据。
-3. macOS `launchd`：每天在本机更新图文广告，并运行统一施工机会工作流后提交发布。
+3. macOS `launchd`：每天在本机运行统一标讯工作流，更新图文广告、园林绿化、施工、招标计划和重点关联后提交发布。
 4. GitHub Actions：只部署仓库中已有的 `site/`，不发起采集。
 5. GitHub Pages：提供手机和电脑可打开的最新标讯页面。
 6. 统一标讯雷达编排层：一次运行施工粗筛、招标计划、超长期识别与关联、测试和发布，并生成单页工作台。
@@ -25,7 +25,9 @@
 | Codex已安装Skill | `/Users/nonolee/.codex/skills/tender-intelligence` | 指向项目Skill目录的软链接 |
 | 区域配置 | `config/regions.json` | 当前为贵州省 |
 | 图文广告关键词配置 | `config/industries/graphic-advertising.json` | 自动采集实际使用的关键词 |
+| 园林绿化关键词配置 | `config/industries/landscaping.json` | 与图文共用采集、独立分类 |
 | 施工资质关键词配置 | `config/industries/construction.json` | 只在资格类栏目匹配 |
+| 用户重点项目清单 | `config/priority_projects.json` | 保存项目名称和资金来源，后续公告强提示 |
 | 图文广告信息源配置 | `config/graphic_sources.json` | 十一个图文广告配置来源 |
 | 施工信息源配置 | `config/construction_sources.json` | 十三个施工配置来源 |
 | 信息源正式名称映射 | `config/source_names.json` | 网页展示名称 |
@@ -35,7 +37,7 @@
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
-| 统一标讯雷达网页 | `site/opportunities/` | 重点关联、施工粗筛、全部招标计划和运行状态 |
+| 统一标讯雷达网页 | `site/opportunities/` | 重点关联、图文广告、园林绿化、施工粗筛、全部招标计划和运行状态 |
 | 招标计划详细网页 | `site/tender-plan/` | AP1 招标计划、资金来源和历史版本 |
 | 统一编排模块 | `src/tender_agent/unified_site.py` | 一次运行、测试门禁和发布 |
 | 统一入口 Skill | `skills/guizhou-construction-opportunity-intelligence/` | 日常默认入口 |
@@ -219,7 +221,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
 
 ## 标讯更新与发布流程
 
-### 统一施工机会默认流程
+### 统一标讯默认流程
 
 日常手动更新优先执行：
 
@@ -227,7 +229,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
 PYTHONPATH=src python3 -m tender_agent.unified_site update --publish
 ```
 
-流程固定为：施工粗筛 → 招标计划 → 超长期关联 → 统一页面 → 三组测试 → 提交 `site/` → 推送 `main` → 更新 `gh-pages`。存在未提交的非 `site/` 代码改动时自动发布会停止，防止只发布数据而遗漏代码。
+流程固定为：图文广告+园林绿化 → 施工粗筛 → 招标计划 → 超长期+用户重点关联 → 统一页面 → 三组测试 → 提交 `site/` → 推送 `main` → 更新 `gh-pages`。存在未提交的非 `site/` 代码改动时自动发布会停止，防止只发布数据而遗漏代码。
 
 只用现有数据重建页面：
 
@@ -270,7 +272,7 @@ git subtree push --prefix=site origin gh-pages
 - 任务标识：`com.nono.tender-daily`
 - 安装文件：`/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist`
 - macOS本地时间每天15:03运行；夏令时约为北京时间6:03，冬令时约为7:03
-- 顺序执行图文广告采集，以及施工粗筛 → 超长期计划 → 关联 → 测试 → 统一页面 → 提交发布
+- 单次统一执行图文广告+园林绿化 → 施工粗筛 → 招标计划 → 重点关联 → 测试 → 统一页面 → 提交发布
 - 日志：`/Users/nonolee/.local/logs/tender-collect-YYYYMMDD.log`
 - 本机必须处于开机可运行、网络可用状态；该任务是系统定时任务，不消耗Codex会话Token
 

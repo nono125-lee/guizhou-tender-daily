@@ -10,6 +10,8 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from .priority_watch import build_watchlist_matches, load_watchlist
+
 
 ROOT = Path(__file__).resolve().parents[2]
 TIMEZONE = ZoneInfo("Asia/Shanghai")
@@ -23,12 +25,14 @@ UNIFIED_ASSETS = (
     / "site"
 )
 CONSTRUCTION_DATA = SITE_ROOT / "construction" / "data" / "latest.json"
+INDUSTRY_DATA = SITE_ROOT / "data" / "latest.json"
 PLAN_SITE = SITE_ROOT / "tender-plan"
 PLAN_DATA = PLAN_SITE / "data" / "latest.json"
 PLAN_SCRIPT = (
     ROOT / "skills" / "tender-plan-intelligence" / "scripts" / "collect_plan.py"
 )
 PLAN_STATE = ROOT / ".runtime" / "tender-plan"
+PRIORITY_PROJECTS = ROOT / "config" / "priority_projects.json"
 
 
 def atomic_write_json(path: Path, value: dict) -> None:
@@ -83,6 +87,13 @@ def collect_construction() -> dict:
     return run_command(
         [sys.executable, "-m", "tender_agent.construction_site"],
         "施工标讯粗筛",
+    )
+
+
+def collect_industries() -> dict:
+    return run_command(
+        [sys.executable, "-m", "tender_agent.site", "update"],
+        "图文广告与园林绿化",
     )
 
 
@@ -157,9 +168,35 @@ def dataset_summary(payload: dict, url: str) -> dict:
 
 
 def build_unified_site(run_status: dict | None = None) -> dict:
+    industries = read_json(INDUSTRY_DATA)
     construction = read_json(CONSTRUCTION_DATA)
     plans = read_json(PLAN_DATA)
-    matches = plans.get("priority_notices", [])
+    watchlist = load_watchlist(PRIORITY_PROJECTS)
+    watched_matches = build_watchlist_matches(
+        watchlist,
+        plans.get("items", []),
+        [industries, construction],
+    )
+    matches = list(watched_matches)
+    identities = {
+        (
+            item.get("notice", {}).get("url"),
+            item.get("plan_project_key"),
+        )
+        for item in matches
+    }
+    for item in plans.get("priority_notices", []):
+        identity = (
+            item.get("notice", {}).get("url"),
+            item.get("plan_project_key"),
+        )
+        if identity not in identities:
+            matches.append(item)
+            identities.add(identity)
+    matches.sort(
+        key=lambda item: str(item.get("notice", {}).get("published_at") or ""),
+        reverse=True,
+    )
     now = datetime.now(TIMEZONE).isoformat()
     status = run_status or {
         "started_at": now,
@@ -169,19 +206,32 @@ def build_unified_site(run_status: dict | None = None) -> dict:
     }
     status["completed_at"] = now
     status["datasets"] = {
+        "industries": dataset_summary(industries, "../data/latest.json"),
         "construction": dataset_summary(
             construction, "../construction/data/latest.json"
         ),
         "tender_plans": dataset_summary(plans, "../tender-plan/data/latest.json"),
     }
     status["summary"] = {
+        "graphic_items": sum(
+            "graphic-advertising" in item.get("industry_categories", [])
+            for item in industries.get("items", [])
+        ),
+        "landscaping_items": sum(
+            "landscaping" in item.get("industry_categories", [])
+            for item in industries.get("items", [])
+        ),
         "construction_items": len(construction.get("items", [])),
         "plan_notices": len(plans.get("items", [])),
         "ultra_long_projects": plans.get("stats", {}).get(
             "ultra_long_projects", 0
         ),
         "priority_notices": len(matches),
-        "priority_projects": plans.get("stats", {}).get("priority_projects", 0),
+        "priority_projects": len(
+            {item.get("plan_project_key") for item in matches if item.get("plan_project_key")}
+        ),
+        "watched_projects": len(watchlist.get("projects", [])),
+        "watched_notices": len(watched_matches),
     }
     matches_payload = {
         "schema_version": 1,
@@ -196,6 +246,7 @@ def build_unified_site(run_status: dict | None = None) -> dict:
         "schema_version": 1,
         "updated_at": now,
         "datasets": {
+            "industries": "../data/latest.json",
             "construction": "../construction/data/latest.json",
             "tender_plans": "../tender-plan/data/latest.json",
             "matches": "./data/matches.json",
@@ -244,6 +295,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     )
     parser.add_argument("command", choices=["update", "build"], nargs="?", default="update")
     parser.add_argument("--skip-construction", action="store_true")
+    parser.add_argument("--skip-industries", action="store_true")
     parser.add_argument("--skip-plan", action="store_true")
     parser.add_argument("--skip-tests", action="store_true")
     parser.add_argument("--publish", action="store_true")
@@ -260,6 +312,8 @@ def main(argv: list[str] | None = None) -> int:
     }
 
     if args.command == "update":
+        if not args.skip_industries:
+            status["collection"]["industries"] = collect_industries()
         if not args.skip_construction:
             status["collection"]["construction"] = collect_construction()
         if not args.skip_plan:

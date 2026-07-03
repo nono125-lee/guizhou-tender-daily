@@ -1,6 +1,7 @@
 import unittest
 
 from tender_agent.site import (
+    _apply_industry_rules,
     _apply_keyword_rules,
     _fill_party_placeholders,
     _mark_new_items,
@@ -49,6 +50,32 @@ class SiteFilterTests(unittest.TestCase):
         self.assertEqual(
             payload["items"][0]["matched_keywords"],
             ["导视", "标牌"],
+        )
+
+    def test_graphic_and_landscaping_are_classified_independently(self):
+        payload = {
+            "items": [
+                {"title": "公园绿化养护项目采购公告", "project_content": ""},
+                {"title": "宣传画册印制项目采购公告", "project_content": ""},
+                {"title": "景观导视标牌制作项目", "project_content": ""},
+            ]
+        }
+        _apply_industry_rules(
+            payload,
+            [
+                {"industry_id": "graphic-advertising", "keywords": ["画册", "导视", "标牌"]},
+                {"industry_id": "landscaping", "keywords": ["公园", "绿化", "养护", "景观"]},
+            ],
+        )
+        self.assertEqual(payload["items"][0]["industry_categories"], ["landscaping"])
+        self.assertEqual(payload["items"][1]["industry_categories"], ["graphic-advertising"])
+        self.assertEqual(
+            payload["items"][2]["industry_categories"],
+            ["graphic-advertising", "landscaping"],
+        )
+        self.assertEqual(
+            payload["items"][2]["category_keyword_matches"]["landscaping"],
+            ["景观"],
         )
 
     def test_only_new_urls_are_marked_new(self):

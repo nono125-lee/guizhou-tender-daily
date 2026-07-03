@@ -1,4 +1,4 @@
 interface:
-  display_name: "贵州施工机会雷达"
-  short_description: "一次完成施工粗筛、超长期关联和单页发布"
-  default_prompt: "Use $guizhou-construction-opportunity-intelligence to update construction notices and ultra-long tender plans, build the unified opportunity dashboard, test it, and publish it."
+  display_name: "贵州统一标讯雷达"
+  short_description: "一次完成图文、绿化、施工、招标计划和重点提示"
+  default_prompt: "Use $guizhou-construction-opportunity-intelligence to update all tender categories, match watched projects, test the unified radar, and publish it."
