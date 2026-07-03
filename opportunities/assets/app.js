@@ -8,7 +8,7 @@ const PREFECTURE_LABELS = {
   "黔东南苗族侗族自治州": "黔东南", "黔南布依族苗族自治州": "黔南",
   "贵安新区": "贵安"
 };
-const CORE_QUALIFICATIONS = ["电力工程施工总承包", "承装（修、试）"];
+const CORE_QUALIFICATIONS = ["电力工程施工总承包", "承装（修、试）", "地质灾害防治单位"];
 const MATCH_METHOD_LABELS = {
   project_name: "项目名称",
   buyer: "招标人/采购人",
@@ -272,6 +272,31 @@ function renderFundStrip(items) {
     });
 }
 
+function renderSourceStrip(items) {
+  const strip = $("#source-strip");
+  strip.replaceChildren();
+  const counts = new Map();
+  items.forEach((item) => {
+    const source = text(item.source_name);
+    counts.set(source, (counts.get(source) || 0) + 1);
+  });
+  [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"))
+    .forEach(([source, count]) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = $("#construction-source").value === source ? "active" : "";
+      button.innerHTML = `<span>${source}</span><strong>${count}</strong>`;
+      button.addEventListener("click", () => {
+        const select = $("#construction-source");
+        select.value = select.value === source ? "" : source;
+        state.shown = 50;
+        render();
+      });
+      strip.append(button);
+    });
+}
+
 function addFact(list, label, value) {
   const wrapper = document.createElement("div");
   const term = document.createElement("dt");
@@ -447,6 +472,7 @@ function showWarning(messages) {
 function updateFilterVisibility() {
   const isStatus = state.view === "status";
   $("#filters").hidden = isStatus;
+  $("#source-strip").hidden = state.view !== "construction";
   $("#fund-strip").hidden = state.view !== "plans";
   document.querySelectorAll("[data-views]").forEach((element) => {
     element.hidden = !element.dataset.views.split(",").includes(state.view);
@@ -478,6 +504,7 @@ async function render() {
   } else if (state.view === "construction") {
     const payload = await ensureDataset("construction");
     if (!state.constructionFiltersReady) populateConstructionFilters(payload.items || []);
+    renderSourceStrip(payload.items || []);
     records = filterConstruction(payload.items);
     renderer = renderConstruction;
     showWarning(payload.warnings);
