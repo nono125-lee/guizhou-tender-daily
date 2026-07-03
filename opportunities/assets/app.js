@@ -14,10 +14,13 @@ const MATCH_METHOD_LABELS = {
   buyer: "招标人/采购人",
   fixed_asset_code: "投资项目代码",
   approval: "批复文件",
-  project_content: "建设内容"
+  project_content: "建设内容",
+  user_watchlist: "用户重点关注"
 };
 const VIEW_META = {
   matches: { kicker: "MATCH ARCHIVE", title: "重点关联档案", label: "条关联" },
+  graphic: { kicker: "GRAPHIC ADVERTISING", title: "图文广告", label: "条公告" },
+  landscaping: { kicker: "LANDSCAPING", title: "园林绿化", label: "条公告" },
   construction: { kicker: "SCREENED NOTICES", title: "施工标讯粗筛", label: "条施工公告" },
   plans: { kicker: "TENDER PLANS", title: "招标计划", label: "个项目" },
   status: { kicker: "RUN HEALTH", title: "采集与发布状态", label: "项状态" }
@@ -27,6 +30,7 @@ const state = {
   manifest: null,
   matches: null,
   status: null,
+  industries: null,
   construction: null,
   plans: null,
   view: "matches",
@@ -143,6 +147,19 @@ function populateConstructionFilters(items) {
   state.constructionFiltersReady = true;
 }
 
+function industryCategory(view) {
+  return view === "graphic" ? "graphic-advertising" : "landscaping";
+}
+
+function industryItems(items, view = state.view) {
+  const category = industryCategory(view);
+  return (items || []).filter((item) => (item.industry_categories || []).includes(category));
+}
+
+function populateIndustryFilters(items) {
+  optionList($("#industry-source"), [...new Set(items.map((item) => item.source_name))]);
+}
+
 function updatePlanDistricts() {
   if (!state.plans) return;
   const prefecture = $("#plan-prefecture").value;
@@ -216,6 +233,22 @@ function filterConstruction(items) {
         ...(item.matched_keywords || [])
       ]);
   });
+}
+
+function filterIndustry(items) {
+  const days = $("#industry-date-range").value;
+  const source = $("#industry-source").value;
+  return industryItems(items).filter((item) => withinDays(item.published_at, days)
+    && (!source || item.source_name === source)
+    && includesQuery([
+      item.title,
+      item.project_name,
+      item.buyer,
+      item.agency,
+      item.project_code,
+      item.project_content,
+      ...(item.matched_keywords || [])
+    ]));
 }
 
 function filterPlans(items) {
@@ -343,7 +376,9 @@ function renderMatch(entry, index) {
   fragment.querySelector(".record-index").textContent = String(index + 1).padStart(2, "0");
   fragment.querySelector("time").textContent = text(dateText(notice.published_at));
   fragment.querySelector(".record-source").textContent = text(notice.source_name);
-  fragment.querySelector(".record-badge").textContent = match.review_required ? "候选需复核" : "高可信关联";
+  fragment.querySelector(".record-badge").textContent = entry.priority_source === "user_watchlist"
+    ? "用户重点提示"
+    : match.review_required ? "候选需复核" : "高可信关联";
   const link = fragment.querySelector(".record-link");
   link.href = notice.url || plan.url || "#";
   link.textContent = notice.project_name || notice.title || "未载明";
@@ -354,7 +389,7 @@ function renderMatch(entry, index) {
     : `关联计划：${plan.project_name || plan.title || "未载明"}`;
   const links = fragment.querySelector(".record-links");
   links.hidden = false;
-  addRecordLink(links, "打开施工招标公告", notice.url);
+  addRecordLink(links, "打开招标公告", notice.url);
   candidatePlans.forEach((candidate, candidateIndex) => {
     const candidatePlan = candidate.plan || {};
     addRecordLink(
@@ -405,6 +440,30 @@ function renderConstruction(item, index) {
   return fragment;
 }
 
+function renderIndustry(item, index) {
+  const fragment = $("#record-template").content.cloneNode(true);
+  fragment.querySelector(".record-index").textContent = String(index + 1).padStart(2, "0");
+  fragment.querySelector("time").textContent = text(dateText(item.published_at));
+  fragment.querySelector(".record-source").textContent = text(item.source_name);
+  fragment.querySelector(".record-badge").textContent = item.is_new
+    ? "新增"
+    : state.view === "graphic" ? "图文广告" : "园林绿化";
+  const link = fragment.querySelector(".record-link");
+  link.href = item.url || "#";
+  link.textContent = item.project_name || item.title || "未载明";
+  const facts = fragment.querySelector(".record-facts");
+  addFact(facts, "采购人/招标人", item.buyer);
+  addFact(facts, "代理机构", item.agency);
+  addFact(facts, "预算", item.budget);
+  addFact(facts, "项目编号", item.project_code);
+  addFact(facts, "投标截止", item.bid_deadline);
+  addFact(facts, "地区", item.location);
+  fragment.querySelector(".record-content").textContent = truncate(item.project_content);
+  const category = industryCategory(state.view);
+  addTags(fragment.querySelector(".record-tags"), item.category_keyword_matches?.[category] || item.matched_keywords);
+  return fragment;
+}
+
 function renderPlan(item, index) {
   const fragment = $("#record-template").content.cloneNode(true);
   fragment.querySelector(".record-index").textContent = String(index + 1).padStart(2, "0");
@@ -434,7 +493,8 @@ function renderStatus() {
     const card = document.createElement("article");
     card.className = `status-card ${dataset.warning_count ? "bad" : ""}`;
     const title = document.createElement("h3");
-    title.textContent = key === "construction" ? "施工标讯粗筛" : "招标计划";
+    title.textContent = key === "industries" ? "图文广告与园林绿化"
+      : key === "construction" ? "施工标讯粗筛" : "招标计划";
     const facts = document.createElement("dl");
     addFact(facts, "更新时间", dataset.updated_at);
     addFact(facts, "记录数量", dataset.stats?.total ?? dataset.stats?.merged_total);
@@ -501,6 +561,12 @@ async function render() {
   if (state.view === "matches") {
     records = filterMatches(state.matches.items);
     renderer = renderMatch;
+  } else if (state.view === "graphic" || state.view === "landscaping") {
+    const payload = await ensureDataset("industries");
+    populateIndustryFilters(industryItems(payload.items || []));
+    records = filterIndustry(payload.items);
+    renderer = renderIndustry;
+    showWarning(payload.warnings);
   } else if (state.view === "construction") {
     const payload = await ensureDataset("construction");
     if (!state.constructionFiltersReady) populateConstructionFilters(payload.items || []);
@@ -519,7 +585,7 @@ async function render() {
   }
 
   if (state.view === "matches") {
-    showWarning(state.status?.datasets?.construction?.warnings);
+    showWarning(Object.values(state.status?.datasets || {}).flatMap((dataset) => dataset.warnings || []));
   }
   const limit = state.shown;
   records.slice(0, limit).forEach((record, index) => list.append(renderer(record, index)));
@@ -531,6 +597,8 @@ async function render() {
 function updateScoreboard() {
   const summary = state.manifest.summary || {};
   $("#score-matches").textContent = summary.priority_notices || 0;
+  $("#score-graphic").textContent = summary.graphic_items || 0;
+  $("#score-landscaping").textContent = summary.landscaping_items || 0;
   $("#score-construction").textContent = summary.construction_items || 0;
   $("#score-plans").textContent = summary.plan_notices || 0;
   const datasets = state.status?.datasets || {};
@@ -576,7 +644,8 @@ document.querySelectorAll(".desk-tabs button").forEach((button) => {
 [
   "search", "match-date-range", "construction-region", "construction-date-range",
   "construction-source", "construction-reg-date", "construction-cutoff-date",
-  "construction-qualification", "plan-district", "plan-date-range", "plan-planned-month"
+  "construction-qualification", "plan-district", "plan-date-range", "plan-planned-month",
+  "industry-date-range", "industry-source"
 ].forEach((id) => {
   const element = $(`#${id}`);
   element.addEventListener(element.tagName === "INPUT" ? "input" : "change", () => {
@@ -595,6 +664,9 @@ $("#reset").addEventListener("click", () => {
   $("#search").value = "";
   if (state.view === "matches") {
     $("#match-date-range").value = "7";
+  } else if (state.view === "graphic" || state.view === "landscaping") {
+    $("#industry-date-range").value = "7";
+    $("#industry-source").value = "";
   } else if (state.view === "construction") {
     ["construction-region", "construction-source", "construction-reg-date", "construction-cutoff-date", "construction-qualification"]
       .forEach((id) => { $(`#${id}`).value = ""; });

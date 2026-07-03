@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101817">
-  <meta name="description" content="贵州施工标讯粗筛、招标计划与采购公告关联工作台。">
+  <meta name="description" content="贵州图文广告、园林绿化、施工粗筛、招标计划与重点公告关联工作台。">
   <title>标讯雷达</title>
   <link rel="stylesheet" href="./assets/style.css">
 </head>
@@ -12,24 +12,27 @@
   <div class="paper-grid" aria-hidden="true"></div>
   <header class="masthead">
     <div class="masthead-line">
-      <span>GUIZHOU · CONSTRUCTION OPPORTUNITY DESK</span>
+      <span>GUIZHOU · TENDER OPPORTUNITY DESK</span>
       <span id="updated-at">正在读取</span>
     </div>
     <div class="masthead-main">
       <div>
-        <p class="kicker">施工粗筛 × 招标计划 × 公告关联</p>
+        <p class="kicker">图文广告 × 园林绿化 × 施工粗筛 × 招标计划</p>
         <h1>标讯雷达</h1>
       </div>
       <div class="masthead-note">
         <p>一次采集，一处判断。红色只表示近期需要处理，历史项目进入可检索归档。</p>
         <div class="source-links">
           <a href="../construction/">施工详细页</a>
+          <a href="../">图文与绿化详细页</a>
           <a href="../tender-plan/">招标计划详细页</a>
         </div>
       </div>
     </div>
     <section class="scoreboard" aria-label="数据概览">
       <div><strong id="score-matches">0</strong><span>重点关联</span></div>
+      <div><strong id="score-graphic">0</strong><span>图文广告</span></div>
+      <div><strong id="score-landscaping">0</strong><span>园林绿化</span></div>
       <div><strong id="score-construction">0</strong><span>施工粗筛</span></div>
       <div><strong id="score-plans">0</strong><span>招标计划</span></div>
       <div id="health-card"><strong id="score-health">--</strong><span>运行状态</span></div>
@@ -39,6 +42,8 @@
   <main>
     <nav class="desk-tabs" aria-label="工作台栏目">
       <button type="button" data-view="matches" class="active">重点关联</button>
+      <button type="button" data-view="graphic">图文广告</button>
+      <button type="button" data-view="landscaping">园林绿化</button>
       <button type="button" data-view="construction">施工粗筛</button>
       <button type="button" data-view="plans">招标计划</button>
       <button type="button" data-view="status">运行状态</button>
@@ -61,6 +66,19 @@
       <label data-views="construction">
         <span>地区</span>
         <select id="construction-region"><option value="">全部地区</option></select>
+      </label>
+      <label data-views="graphic,landscaping">
+        <span>时间</span>
+        <select id="industry-date-range">
+          <option value="1">最近 1 天</option>
+          <option value="7" selected>最近 7 天</option>
+          <option value="30">最近 30 天</option>
+          <option value="all">全部历史</option>
+        </select>
+      </label>
+      <label data-views="graphic,landscaping">
+        <span>信息源</span>
+        <select id="industry-source"><option value="">全部信息源</option></select>
       </label>
       <label data-views="construction">
         <span>时间</span>
@@ -132,7 +150,7 @@
 
   <footer>
     <p>自动关联只用于筛选，报名和投标前请核对原公告。</p>
-    <p>重点关联同时保留施工招标公告和关联招标计划原文链接。</p>
+    <p>重点关联同时保留招标公告和关联招标计划原文链接。</p>
   </footer>
 
   <template id="record-template">

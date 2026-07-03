@@ -1,36 +1,36 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-03T22:42:32.387063+08:00",
+  "updated_at": "2026-07-04T02:23:56.872144+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
-    "pub_date": "td",
+    "pub_date": "l3d",
     "keywords": "",
     "all_pages": false,
     "max_pages": null
   },
   "warnings": [],
   "stats": {
-    "total": 1292,
-    "merged_total": 1292,
-    "window_items": 22,
-    "source_total": 22,
-    "source_total_pages": 3,
-    "collected_pages": 3,
+    "total": 1271,
+    "merged_total": 1271,
+    "window_items": 55,
+    "source_total": 55,
+    "source_total_pages": 6,
+    "collected_pages": 6,
     "list_complete": true,
     "mode": "daily",
-    "pub_date": "td",
-    "detail_cache_hits": 5,
-    "detail_cache_misses": 17,
-    "detail_fetch_success": 17,
+    "pub_date": "l3d",
+    "detail_cache_hits": 55,
+    "detail_cache_misses": 0,
+    "detail_fetch_success": 0,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
-    "pruned_items": 0,
-    "new_today": 22,
+    "pruned_items": 21,
+    "new_today": 0,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
-    "ultra_long_projects": 29,
+    "ultra_long_projects": 28,
     "priority_notices": 1,
     "priority_projects": 1,
     "priority_new_today": 0
@@ -60,7 +60,7 @@
       "planned_trade_place": "六盘水公共资源交易中心",
       "project_location": "贵州省-六盘水市-水城区",
       "supervisor": "六盘水市财政局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901393",
@@ -86,7 +86,7 @@
       "planned_trade_place": "黔西南州公共资源交易中心",
       "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
       "supervisor": "兴义市住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901359",
@@ -113,7 +113,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-威宁彝族回族苗族自治县",
       "supervisor": "威宁彝族回族苗族自治县能源局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901167",
@@ -141,7 +141,7 @@
       "planned_trade_place": "贵州省公共资源交易中心",
       "project_location": "贵州省-黔东南苗族侗族自治州-凯里市",
       "supervisor": "贵州省能源局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901150",
@@ -167,7 +167,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-观山湖区",
       "supervisor": "贵阳市观山湖区招标投标管理办公室",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901092",
@@ -193,7 +193,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-开阳县",
       "supervisor": "开阳县住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900974",
@@ -219,7 +219,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-大方县",
       "supervisor": "大方县自然资源局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900968",
@@ -247,7 +247,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-织金县",
       "supervisor": "织金县能源局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900808",
@@ -275,7 +275,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-南明区",
       "supervisor": "贵阳市南明区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900807",
@@ -301,7 +301,7 @@
       "planned_trade_place": "黔东南州公共资源交易中心",
       "project_location": "贵州省-黔东南苗族侗族自治州-岑巩县",
       "supervisor": "岑巩县农业农村局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900788",
@@ -327,7 +327,7 @@
       "planned_trade_place": "黔东南州公共资源交易中心",
       "project_location": "贵州省-黔东南苗族侗族自治州-榕江县",
       "supervisor": "榕江县住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900781",
@@ -354,7 +354,7 @@
       "planned_trade_place": "安顺市公共资源交易中心",
       "project_location": "贵州省-安顺市-西秀区",
       "supervisor": "安顺市西秀区工业和信息化局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900745",
@@ -380,7 +380,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-道真仡佬族苗族自治县",
       "supervisor": "道真仡佬族苗族自治县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900743",
@@ -407,7 +407,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-贵阳国家高新技术产业开发区",
       "supervisor": "贵阳国家高新技术产业开发区建设工程招投标办公室",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900741",
@@ -434,7 +434,7 @@
       "planned_trade_place": "贵州省公共资源交易中心",
       "project_location": "贵州省-贵阳市-贵阳经济技术开发区",
       "supervisor": "贵阳市经济技术开发区建设管理局建管处",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900731",
@@ -460,7 +460,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-平塘县",
       "supervisor": "黔南州住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900725",
@@ -486,7 +486,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-平塘县",
       "supervisor": "黔南州住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900704",
@@ -512,7 +512,7 @@
       "planned_trade_place": "铜仁市公共资源交易中心",
       "project_location": "贵州省-铜仁市-碧江区",
       "supervisor": "铜仁市碧江区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900702",
@@ -538,7 +538,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-平塘县",
       "supervisor": "黔南州住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900696",
@@ -565,7 +565,7 @@
       "planned_trade_place": "安顺市公共资源交易中心",
       "project_location": "贵州省-安顺市-西秀区",
       "supervisor": "安顺市西秀区工业和信息化局（西秀区大数据管理局）",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900695",
@@ -591,7 +591,7 @@
       "planned_trade_place": "六盘水公共资源交易中心",
       "project_location": "贵州省-六盘水市-盘州市",
       "supervisor": "盘州市交通运输局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900659",
@@ -617,7 +617,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-罗甸县",
       "supervisor": "罗甸县水务局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "900656",
@@ -33742,570 +33742,16 @@
       "project_location": "贵州省-毕节市-七星关区",
       "supervisor": "毕节市七星关区交通运输局",
       "is_new": false
-    },
-    {
-      "source_notice_id": "858250",
-      "title": "贞丰县者相片区污水管网改造工程项目招标计划",
-      "published_at": "2026-04-03 21:48:25",
-      "region": "贞丰县",
-      "buyer": "贞丰县水利资源开发建设中心",
-      "agency": "腾颢集团有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858250",
-      "project_name": "贞丰县者相片区污水管网改造工程",
-      "fixed_asset_code": "2508-522325-04-05-454817",
-      "approval": "州水务函〔2026〕16号",
-      "budget": "2290.75万元",
-      "fund_source": "上级资金及地方自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "管网改造工程：污水管网总长度约 11.98 公里，污水检查井约 510 座。其中 DN300 高密度聚乙烯双壁波纹管(HDPE)约 5399 米、DN400 高密度聚乙烯双壁波纹管(HDPE)约 4439米、DN500 高密度聚乙烯双壁波纹管(HDPE)约 1898 米、DN1200Ⅱ级钢筋混凝土管约 240米。污水入户管总长约 8 公里，其中 DN110UPVC 管约 4800 米、DN160UPVC 管约 3200米。污水一体化提升泵站 1 座及其他附属工程。",
-      "planned_bid_time": "2026-05-06 09:30:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "黔西南州公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-贞丰县",
-      "supervisor": "黔西南布依族苗族自治州水务局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858249",
-      "title": "黔西南州贞丰县城镇污水处理厂更新改造工程项目招标计划",
-      "published_at": "2026-04-03 21:48:19",
-      "region": "贞丰县",
-      "buyer": "贞丰县水利资源开发建设中心",
-      "agency": "腾颢集团有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858249",
-      "project_name": "黔西南州贞丰县城镇污水处理厂更新改造工程",
-      "fixed_asset_code": "2502-522325-04-05-443748",
-      "approval": "州水务函〔2026〕16号",
-      "budget": "6392.43万元",
-      "fund_source": "上级资金及地方自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "对县城污水处理厂（一期、二期）、县城污水处理厂（三期）、龙场污水处理厂、者相污水处理厂、小屯污水处理厂、白层污水处理厂、北盘江污水处理厂等 7 座城镇污水处理厂设备进行更新改造。对县城管网结构性、功能性缺陷进行修复。",
-      "planned_bid_time": "2026-05-06 09:30:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "黔西南州公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-贞丰县",
-      "supervisor": "黔西南布依族苗族自治州水务局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858248",
-      "title": "贞丰县永丰片区污水管网改建工程项目招标计划",
-      "published_at": "2026-04-03 21:48:13",
-      "region": "贞丰县",
-      "buyer": "贞丰县水利资源开发建设中心",
-      "agency": "腾颢集团有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858248",
-      "project_name": "贞丰县永丰片区污水管网改建工程",
-      "fixed_asset_code": "2603-522325-04-01-682604",
-      "approval": "州水务函〔2026〕16号",
-      "budget": "5600万元",
-      "fund_source": "上级资金及地方自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "新建 DN400～DN500 污水收集输送管网15000m，其中 DN400mm9400m，DN500mm5600m。新建 DN500～DN1500雨水收集输送管网 6300m，其中 DN500mm 管 1300m ，DN600mm 管1500m，DN800mm 管1000m ，DN1000mm 管800m，DN1200mm 管 400m，DN1500mm 管1300m。新建污水检查井约200座。",
-      "planned_bid_time": "2026-05-06 09:30:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "黔西南州公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-贞丰县",
-      "supervisor": "黔西南布依族苗族自治州水务局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858244",
-      "title": "遵义医科大学新蒲校区学生宿舍项目项目招标计划",
-      "published_at": "2026-04-03 19:48:30",
-      "region": "新蒲新区",
-      "buyer": "遵义医科大学",
-      "agency": "明诚汇采项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858244",
-      "project_name": "遵义医科大学新蒲校区学生宿舍项目",
-      "fixed_asset_code": "2512-520000-04-01-741359",
-      "approval": "黔发改社会〔2026〕188号",
-      "budget": "25056万元",
-      "fund_source": "中央预算内投资和学校自筹",
-      "fund_source_tags": [
-        "财政资金",
-        "地方自筹"
-      ],
-      "project_content": "项目建设性质为新建，项目建设地点位于遵义市红花岗区新蒲新区学府西路6号新蒲校区内。新建学生宿舍4栋，总建筑面积61770.44平方米。其中，计容建筑面积56889.59平方米，不计容建筑面积4880.85平方米。工程总工期24个月。",
-      "planned_bid_time": "2026-06-01 09:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-遵义市-新蒲新区",
-      "supervisor": "遵义市新蒲新区住房和交通运输局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858243",
-      "title": "贵州省福泉市南部片区地质灾害工程治理项目项目招标计划",
-      "published_at": "2026-04-03 18:59:23",
-      "region": "福泉市",
-      "buyer": "福泉市自然资源局",
-      "agency": "贵州省金汇实业（集团）有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858243",
-      "project_name": "贵州省福泉市南部片区地质灾害工程治理项目",
-      "fixed_asset_code": "2602-522702-04-01-360345",
-      "approval": "福泉市发展和改革局批复",
-      "budget": "1247.35万元",
-      "fund_source": "中央资金",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "挡土墙465.3米，截排水沟2736.6米，抗滑桩59根，护坡墙156米，格构锚杆275平方米，清方9.3立方米;被动防护网130米，支撑墙20立方米，钢管桩685根，工程碑10座。",
-      "planned_bid_time": "2026-05-03 18:50:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "黔南州公共资源交易中心",
-      "project_location": "贵州省-黔南布依族苗族自治州-福泉市",
-      "supervisor": "黔南布依族苗族自治州自然资源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858240",
-      "title": "麻江县宣威镇2026年设施蓝莓种植项目项目招标计划",
-      "published_at": "2026-04-03 18:23:45",
-      "region": "麻江县",
-      "buyer": "麻江县宣威镇人民政府",
-      "agency": "深圳市中联建工程项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858240",
-      "project_name": "麻江县宣威镇2026年设施蓝莓种植项目",
-      "fixed_asset_code": "2603-522635-04-01-854582",
-      "approval": "/",
-      "budget": "596万元",
-      "fund_source": "中央财政衔接推进乡村振兴(巩固拓展脱贫攻坚成果和乡村振兴任务)资金",
-      "fund_source_tags": [
-        "财政资金"
-      ],
-      "project_content": "麻江县宣威镇2026年设施蓝莓种植项目，建设内容：新建大棚27亩和维修大棚15亩，以及配套设施设备、泵房等，基质盆栽蓝莓。",
-      "planned_bid_time": "2026-05-06 09:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "黔东南州公共资源交易中心",
-      "project_location": "贵州省-黔东南苗族侗族自治州-麻江县",
-      "supervisor": "麻江县农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858239",
-      "title": "中森湄潭现代农业产业园项目项目招标计划",
-      "published_at": "2026-04-03 17:57:04",
-      "region": "湄潭县",
-      "buyer": "中青九洲美丽茶园(贵州)大健康产业有限公司",
-      "agency": "贵州拓迈电子招投标服务有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858239",
-      "project_name": "中森湄潭现代农业产业园项目",
-      "fixed_asset_code": "2604-520328-04-02-345565",
-      "approval": "贵州省企业投资项目备案证明，2604-520328-04-02-345565",
-      "budget": "11000万元",
-      "fund_source": "中森谊农出资+银行贷款+申请四化基金",
-      "fund_source_tags": [
-        "银行贷款"
-      ],
-      "project_content": "改扩建面积15000平方米厂房。建设2条年产1.5亿枚茶制皮蛋生产线",
-      "planned_bid_time": "2026-05-04 09:30:00",
-      "planned_tender_content": "设计",
-      "planned_trade_place": "遵义市公共资源交易中心",
-      "project_location": "贵州省-遵义市-湄潭县",
-      "supervisor": "湄潭县住房和城乡建设局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858215",
-      "title": "铜仁职业技术学院教学科研仪器设备更新项目项目招标计划",
-      "published_at": "2026-04-03 17:34:54",
-      "region": "碧江区",
-      "buyer": "铜仁职业技术大学",
-      "agency": "贵州隆钰招标管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858215",
-      "project_name": "铜仁职业技术学院教学科研仪器设备更新项目",
-      "fixed_asset_code": "2405-520600-04-03-298189",
-      "approval": "关于铜仁职业技术学院教学科研仪器设备更新项目初步审计的批复〔2025〕140号",
-      "budget": "10000万元",
-      "fund_source": "超长期国债",
-      "fund_source_tags": [
-        "超长期",
-        "其他"
-      ],
-      "project_content": "更新教学科研设备 93 台（套）。其中：医学院临床医学专业 10 台（套），药学院制药工程技术24 台（套），护理学院 9 台（套），农学院动物疾病诊断与检测中心 12 台（套），信息工程学院 3 台（套），机电一体化技术专业 14 台（套），新能源汽车技术专业 4 台（套），建筑工程技术专业 7 台（套），环境工程技术专业 4 台（套），新能源材料应用技术专业 6 台（套）。",
-      "planned_bid_time": "2026-05-03 09:00:00",
-      "planned_tender_content": "其他",
-      "planned_trade_place": "铜仁市公共资源交易中心",
-      "project_location": "贵州省-铜仁市-碧江区",
-      "supervisor": "铜仁市教育局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857894",
-      "title": "白云区云中苑城市更新建设项目项目招标计划",
-      "published_at": "2026-04-03 16:03:28",
-      "region": "白云区",
-      "buyer": "贵阳白云工业发展投资有限公司",
-      "agency": "/",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857894",
-      "project_name": "白云区云中苑城市更新建设项目",
-      "fixed_asset_code": "2108-520113-04-05-685209",
-      "approval": "白发改投资[2022]133号",
-      "budget": "110512万元",
-      "fund_source": "争取上级资金及企业自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "室外景观、配电工程、自来水工程、网络及智能化及相关配套设施工程",
-      "planned_bid_time": "2026-05-03 15:59:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵阳市公共资源交易中心",
-      "project_location": "贵州省-贵阳市-白云区",
-      "supervisor": "贵阳市住房和城乡建设局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857882",
-      "title": "中航重机精密机加产业项目项目招标计划",
-      "published_at": "2026-04-03 15:50:11",
-      "region": "西秀区",
-      "buyer": "贵州安虹航空机械有限公司",
-      "agency": "中航招采科技（北京）有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857882",
-      "project_name": "中航重机精密机加产业项目",
-      "fixed_asset_code": "2504-520402-04-01-168023",
-      "approval": "贵州省企业投资项目备案证明 项目编码：2504-520402-04-01-168023",
-      "budget": "22000万元",
-      "fund_source": "自筹",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "租用贵州航空产业城航空结构部件加工产业园标准厂房并进行适应性改造，新建机加产线及配套辅助设施，形成航空结构部件毛坯深加工能力。",
-      "planned_bid_time": "2026-05-04 09:30:00",
-      "planned_tender_content": "与工程建设有关的重要设备、材料",
-      "planned_trade_place": "安顺市公共资源交易中心",
-      "project_location": "贵州省-安顺市-西秀区",
-      "supervisor": "安顺市西秀区工业和信息化局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857848",
-      "title": "麻江县2026年蓝莓种植示范基地提质改造项目项目招标计划",
-      "published_at": "2026-04-03 15:29:46",
-      "region": "凯里市",
-      "buyer": "麻江县农业农村局",
-      "agency": "中纳恒业项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857848",
-      "project_name": "麻江县2026年蓝莓种植示范基地提质改造项目",
-      "fixed_asset_code": "2604-522635-04-01-124814",
-      "approval": "\\",
-      "budget": "600万元",
-      "fund_source": "请2026年中央财政衔接推进乡村振兴（巩固拓展脱贫攻坚成果和乡村振兴任务）补助资金",
-      "fund_source_tags": [
-        "财政资金",
-        "上级补助"
-      ],
-      "project_content": "在麻江县内提质改造建设1585亩蓝莓种植基地以及配套设施设备、蓝莓苗木、草炭土、锯木屑、肥料、园艺地布、地钉等物资。",
-      "planned_bid_time": "2026-05-04 14:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "黔东南州公共资源交易中心",
-      "project_location": "贵州省-黔东南苗族侗族自治州-凯里市",
-      "supervisor": "麻江县发展和改革局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857816",
-      "title": "贵州省黔东南州西南药用植物国家林木种质资源库建设项目项目招标计划",
-      "published_at": "2026-04-03 14:35:16",
-      "region": "凯里市",
-      "buyer": "黔东南州林业科学研究所",
-      "agency": "贵州东南建安项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857816",
-      "project_name": "贵州省黔东南州西南药用植物国家林木种质资源库建设项目",
-      "fixed_asset_code": "2512-522600-04-05-638255",
-      "approval": "黔东南发改审批〔2026〕60号",
-      "budget": "1180.2万元",
-      "fund_source": "中央预算内投资资金和地方预算内投资资金",
-      "fund_source_tags": [
-        "财政资金"
-      ],
-      "project_content": "1.拟开展初步设计，投资估算为50万元，根据批复的可研报告设计2026年至2027年的全部建设内容，具体如下：（一）调查与收集工程：购置激光测距测高仪、环境因子数据采集器、种子水分速测仪、土壤测试箱。（二）扩繁与保护工程：新建智能温室，采购配套的温室设备；购置智能监控系统包括监控设备（摄像头、录像设备等）；新建钢架大棚；购置高压喷药机；购置植保无人机；购置除草机；改建晒坝；新建晒坝。（三）研究与开发项目工程：改建种质资源库标本陈列室，改建实验室，改建库房，改建组培室，购置实验设备、检验设备、科研辅助设备。（四）辅助工程：修缮作业道；新建排水沟，新建灌溉工程（水肥一体化）；新建铁丝围栏；界碑、界桩、标牌。2.项目工程建设部分，拟分两个年度在黔东南州林业科学研究所、三穗县国有林场实施，投资总估算932.5万元，其中：2026年投资估算为419.26万元；2027年投资估算为513.24万元，具体建设内容如下：（一）扩繁与保护工程：新建种质资源智能温室，并采购配套的温室设备；新建钢架大棚；改建晒坝；新建晒坝。（二）研究与开发工程：改建种质资源库标本陈列室，改建实验室，改建组培室，改建库房。（三）辅助工程：修缮作业道；新建排水沟，新建灌溉工程（水肥一体化）；新建铁丝围栏；界碑、界桩、标牌。3.拟于2026年实施设备，投资估算为197.7万元，项目建设地点在黔东南州林业科学研究所，具体如下：（一）调查与收集工程：购置激光测距测高仪、环境因子数据采集器、种子水分速测仪、土壤测试箱。（二）扩繁与保护工程：购置监控设备（摄像头、录像设备等）；购置高压喷药机；购置植保无人机；购置除草机。（三）研究与开发项目工程：购置实验设备、检验设备、科研辅助设备。",
-      "planned_bid_time": "2026-05-06 14:19:00",
-      "planned_tender_content": "设计",
-      "planned_trade_place": "黔东南州公共资源交易中心",
-      "project_location": "贵州省-黔东南苗族侗族自治州-凯里市",
-      "supervisor": "黔东南苗族侗族自治州林业局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857746",
-      "title": "余庆县子草片区排水管网改造工程项目招标计划",
-      "published_at": "2026-04-03 12:47:45",
-      "region": "余庆县",
-      "buyer": "余庆县重点水源保护服务中心",
-      "agency": "贵州泷盛工程管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857746",
-      "project_name": "余庆县子草片区排水管网改造工程",
-      "fixed_asset_code": "2501-520329-04-01-616050",
-      "approval": "《关于余庆县子草片区排水管网改造工程 初步设计的批复》、余发改复〔2026〕 3号",
-      "budget": "3000万元",
-      "fund_source": "财政资金",
-      "fund_source_tags": [
-        "财政资金"
-      ],
-      "project_content": "余庆县子草片区排水管网改造工程施工一标段：余庆县子草片区排水管网改造工程施工一标段，主要建设内容包括新建/改造排水管网约6公里，配套建设检查井、雨水口等附属设施，及路面恢复等。",
-      "planned_bid_time": "2026-05-03 12:36:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "遵义市公共资源交易中心",
-      "project_location": "贵州省-遵义市-余庆县",
-      "supervisor": "余庆县水务局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857661",
-      "title": "G78汕昆高速（板江段）、S62余册高速（望巧、罗望）隧道安全性能提升工程项目招标计划",
-      "published_at": "2026-04-03 11:40:26",
-      "region": "兴义市",
-      "buyer": "贵州高速公路集团有限公司",
-      "agency": "贵州黔通安达工程咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857661",
-      "project_name": "G78汕昆高速（板江段）、S62余册高速（望巧、罗望）隧道安全性能提升工程",
-      "fixed_asset_code": "2604-520000-04-05-551130",
-      "approval": "《2025年第23次主任办公会之三》（兴营主议〔2025〕23号）",
-      "budget": "514.94万元",
-      "fund_source": "通行费",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "对G78汕昆高速（板江段）顶效2号隧道等9座隧道开展预防性养护，主要对隧道衬砌裂缝、渗漏水、路面渗漏水等病害进行处置。",
-      "planned_bid_time": "2026-05-04 00:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
-      "supervisor": "贵州省公路局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857634",
-      "title": "安龙县水冲村、红星村、久长村、联合村、顶庙村农村生活污水治理项目项目招标计划",
-      "published_at": "2026-04-03 11:23:38",
-      "region": "安龙县",
-      "buyer": "黔西南州工业投资（集团）有限公司",
-      "agency": "黔西南州工业投资（集团）有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857634",
-      "project_name": "安龙县水冲村、红星村、久长村、联合村、顶庙村农村生活污水治理项目",
-      "fixed_asset_code": "2405-522328-04-01-254851",
-      "approval": "安发改农经〔2026〕1号",
-      "budget": "600万元",
-      "fund_source": "省级农村生活污水治理专项资金",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "针对单户式的农户每户设计庭院收水池、隔油池、地漏、小栅格净化池及配套收集管网。隔油池1177个，庭院收水池1105个，D75管道13257.36米，D110管道18497.61米，小栅格净化池1146个（以实际招标为准）。",
-      "planned_bid_time": "2026-05-06 09:17:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "黔西南州公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-安龙县",
-      "supervisor": "黔西南州生态环境局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857633",
-      "title": "大坡镇2026年田坝村集体经济生猪2号农场建设项目项目招标计划",
-      "published_at": "2026-04-03 11:22:10",
-      "region": "习水县",
-      "buyer": "11520330009536936K",
-      "agency": "统一社会信用代码",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857633",
-      "project_name": "大坡镇2026年田坝村集体经济生猪2号农场建设项目",
-      "fixed_asset_code": "2604-520330-04-01-860235",
-      "approval": "2604-520330-04-01-860235",
-      "budget": "750万元",
-      "fund_source": "上级补助资金",
-      "fund_source_tags": [
-        "上级补助"
-      ],
-      "project_content": "建设内容：三相电安装250KVA变压器，保育舍1650㎡，育肥舍1990㎡，管理用房295㎡，清理间12㎡，除臭间36㎡，室内舍下粪污收纳池3640㎡，蓄水池800m³，集粪池200m³，干粪棚225㎡，冻库150㎡，发电机房19㎡，粪污收集池1200m³，平场土石方工程（含回填）24444m³，机钻井1处，栏位、食槽系统设备、饲喂系统设备等配套设施设备购置及安装。（注：最终建设内容详见招标文件）",
-      "planned_bid_time": "2026-05-05 11:20:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "遵义市公共资源交易中心",
-      "project_location": "贵州省-遵义市-习水县",
-      "supervisor": "习水县农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857598",
-      "title": "江口县社区公办托育服务机构（第七幼儿园）建设项目项目招标计划",
-      "published_at": "2026-04-03 10:55:21",
-      "region": "江口县",
-      "buyer": "江口县卫生健康局",
-      "agency": "贵州鸿盛源工程造价咨询服务有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857598",
-      "project_name": "江口县社区公办托育服务机构（第七幼儿园）建设项目",
-      "fixed_asset_code": "2604-520621-04-01-626762",
-      "approval": "关于江口县社区公办托育服务机构(第七幼儿园)建设项目初步设计的批复",
-      "budget": "2919.59万元",
-      "fund_source": "申请上级补助资金，不足部分由地方政府自筹解决",
-      "fund_source_tags": [
-        "上级补助",
-        "地方自筹"
-      ],
-      "project_content": "新建托育和幼儿园一体校园一所，总建筑面积5926平方米，其中:1#教学楼4416.5平方米，2#门卫兼晨检64平方米，3#发电机房30平方米，地下室1415.5平方米及相关配套设施;改造2所，其中怒溪社区650平方米，凯德街道朝阳社区600平方米等。",
-      "planned_bid_time": "2026-05-12 10:33:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "铜仁市公共资源交易中心",
-      "project_location": "贵州省-铜仁市-江口县",
-      "supervisor": "江口县住房和城乡建设局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857594",
-      "title": "G60沪昆高速镇胜段路面提升处治工程项目招标计划",
-      "published_at": "2026-04-03 10:45:53",
-      "region": "西秀区",
-      "buyer": "贵州高速公路集团有限公司",
-      "agency": "贵州黔通安达工程咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857594",
-      "project_name": "G60沪昆高速镇胜段路面提升处治工程",
-      "fixed_asset_code": "2604-520000-04-05-544599",
-      "approval": "2025年11月24日主任办公会议纪要安营主议〔2025〕24号",
-      "budget": "2990.9852万元",
-      "fund_source": "通行费",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "G60沪昆高速（镇胜段）K1964+715~K2086+000于2007年12月1日通车。该路段交通量大，重车、超载车辆多。目前路面出现了不同程度的横向裂缝、纵向裂缝、块状裂缝、车辙、龟裂、修补、桥面推移等病害，随着病害逐渐发展，道路服务水平明显下降，影响了公路的正常运营。",
-      "planned_bid_time": "2026-05-03 00:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-安顺市-西秀区",
-      "supervisor": "贵州省公路局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857543",
-      "title": "威宁县2026年高标准农田建设项目项目招标计划",
-      "published_at": "2026-04-03 09:44:42",
-      "region": "威宁彝族回族苗族自治县",
-      "buyer": "威宁彝族回族苗族自治县农业农村局",
-      "agency": "贵州信源工程管理服务有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857543",
-      "project_name": "威宁县2026年高标准农田建设项目",
-      "fixed_asset_code": "2511-520526-04-01-463344",
-      "approval": "毕节市农业农村局关于威宁县2026年高标准农田建设项目初步设计的批复（毕农复〔2026〕10号）",
-      "budget": "81200万元",
-      "fund_source": "申请超长期特别国债资金60200万元，地方财政资金21000万元。",
-      "fund_source_tags": [
-        "超长期",
-        "财政资金"
-      ],
-      "project_content": "高标准农田总建设规模为28万亩，包括新建21万亩、改造提升7万亩。主要建设内容包括田块整治、灌溉与排水、田间道路、农田地力提升等工程。",
-      "planned_bid_time": "2026-05-03 10:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-威宁彝族回族苗族自治县",
-      "supervisor": "毕节市农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857537",
-      "title": "贵州文家坝矿业有限公司铁路专用线建设项目项目招标计划",
-      "published_at": "2026-04-03 09:25:58",
-      "region": "织金县",
-      "buyer": "贵州文家坝矿业有限公司",
-      "agency": "中信国际招标有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857537",
-      "project_name": "贵州文家坝矿业有限公司铁路专用线建设项目",
-      "fixed_asset_code": "2308-520000-04-01-505645",
-      "approval": "2308-520000-04-01-505645",
-      "budget": "59106万元",
-      "fund_source": "企业自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "503万吨/年铁路专用线，正线长2.34km，牵出线0.86km，规划新建车站1座，桥梁3座，隧道1座。",
-      "planned_bid_time": "2026-05-06 09:30:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-毕节市-织金县",
-      "supervisor": "贵州省交通运输厅",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "857536",
-      "title": "钟山产业园区医疗产业配套基础设施建设项目项目招标计划",
-      "published_at": "2026-04-03 09:01:50",
-      "region": "钟山区",
-      "buyer": "贵州钟山经济开发区产业投资(集团)有限公司",
-      "agency": "贵州黔源中璟项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=857536",
-      "project_name": "钟山产业园区医疗产业配套基础设施建设项目",
-      "fixed_asset_code": "2509-520201-04-01-979227",
-      "approval": "贵州省企业投资项目备案证明",
-      "budget": "1398万元",
-      "fund_source": "上级资金，不足部分业主自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "改造业务用房建筑面积3710.1平方米，改造产业配套道路长约900米、宽7米，配套完善供电、给排水、污水及消防工程、综合布线等基础设施工程。",
-      "planned_bid_time": "2026-05-30 08:58:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "六盘水公共资源交易中心",
-      "project_location": "贵州省-六盘水市-钟山区",
-      "supervisor": "六盘水钟山产业园区政务服务局",
-      "is_new": false
     }
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-03T22:40:10.157398+08:00",
+    "updated_at": "2026-07-04T02:23:40.811842+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
       "total": 1419,
-      "new_today": 119,
+      "new_today": 0,
       "sources": 11,
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
