@@ -3,6 +3,8 @@ from __future__ import annotations
 import copy
 import json
 import re
+import shutil
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -33,6 +35,14 @@ STATE = SITE / "data/ztb-state.json"
 COLLECTOR_STATE = SITE / "data/collector-state.json"
 SOURCES = ROOT / "config/construction_sources.json"
 FEEDBACK_RULES = ROOT / "config/construction_feedback_rules.json"
+SHARED_EXPORT = Path("/Users/nonolee/Desktop/共享win/标讯/施工粗筛")
+PUBLIC_OUTPUTS = (
+    Path(".nojekyll"),
+    Path("index.html"),
+    Path("assets/app.js"),
+    Path("assets/style.css"),
+    Path("data/latest.json"),
+)
 CHANGE_FIELDS = (
     "budget",
     "project_content",
@@ -50,6 +60,17 @@ def _published_date(item: dict):
         return datetime.fromisoformat(item.get("published_at", "")[:10]).date()
     except (TypeError, ValueError):
         return None
+
+
+def export_public_result(destination: Path = SHARED_EXPORT) -> Path:
+    for relative in PUBLIC_OUTPUTS:
+        source = SITE / relative
+        if not source.is_file():
+            raise FileNotFoundError(f"缺少施工粗筛公开输出：{source}")
+        target = destination / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+    return destination
 
 
 def update() -> dict:
@@ -270,6 +291,11 @@ def update() -> dict:
 
 def main() -> int:
     payload = update()
+    try:
+        export_public_result()
+    except OSError as error:
+        print(f"共享副本写入失败：{error}", file=sys.stderr)
+        return 1
     print(json.dumps(payload["stats"], ensure_ascii=False))
     return 0
 

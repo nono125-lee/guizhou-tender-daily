@@ -43,6 +43,7 @@
 | 施工增量采集状态 | `site/construction/data/collector-state.json` | 各来源游标、公告ID、失败重试和项目编码 |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
 | 施工最新公开数据 | `site/construction/data/latest.json` | 施工网页读取的数据 |
+| 施工粗筛共享副本 | `/Users/nonolee/Desktop/共享win/标讯/施工粗筛/` | 每次施工粗筛后覆盖更新，仅包含公开页面与 `latest.json` |
 | 本机自动采集任务 | `/Users/nonolee/Library/LaunchAgents/com.nono.tender-daily.plist` | 本地时间每天15:03运行 |
 | 本机采集日志 | `/Users/nonolee/.local/logs/tender-collect-YYYYMMDD.log` | 记录采集、提交和发布结果 |
 | GitHub部署任务 | `.github/workflows/daily-pages.yml` | 北京时间每天7:15兜底部署 |
@@ -245,6 +246,7 @@ PYTHONPATH=src python3 -m tender_agent.site update
 
 # 2. 本机采集施工标讯
 PYTHONPATH=src python3 -m tender_agent.construction_site
+# 完成后同步覆盖到 /Users/nonolee/Desktop/共享win/标讯/施工粗筛/
 
 # 3. 提交并推送 site/ 到 main 分支
 git add site/
@@ -295,7 +297,7 @@ tail -n 100 /Users/nonolee/.local/logs/tender-collect-$(date +%Y%m%d).log
 - 网页发布分支：`gh-pages`
 - 自动任务名称：`发布标讯页面`
 
-施工板块只在”资格要求””资质要求””特殊资格要求”栏目匹配施工资质词，当前包含“电力工程施工总承包”和“承装（修、试）”。
+施工板块只在”资格要求””资质要求””特殊资格要求”栏目匹配施工资质词，当前包含“电力工程施工总承包”、“承装（修、试）”和“地质灾害防治单位”。
 项目名称含”监理””审计””招标代理”时直接排除。施工反馈规则保存在
 `config/construction_feedback_rules.json`，不写入图文广告反馈规则。
 

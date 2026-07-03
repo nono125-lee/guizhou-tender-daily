@@ -94,6 +94,7 @@ class UnifiedSiteTests(unittest.TestCase):
             "plan-district",
             "plan-date-range",
             "plan-planned-month",
+            "source-strip",
             "fund-strip",
         ):
             self.assertIn(f'id="{control}"', html)
@@ -106,9 +107,14 @@ class UnifiedSiteTests(unittest.TestCase):
         self.assertIn("record-links", html)
         self.assertIn("打开施工招标公告", app)
         self.assertIn("打开关联招标计划", app)
-        self.assertIn('"电力工程施工总承包", "承装（修、试）"', app)
+        self.assertIn(
+            '"电力工程施工总承包", "承装（修、试）", "地质灾害防治单位"',
+            app,
+        )
         self.assertIn("candidate_plans", app)
         self.assertIn("groupedPlans", app)
+        self.assertIn("renderSourceStrip", app)
+        self.assertIn('$("#construction-source").value === source', app)
         self.assertIn('"政府投资"', app)
         self.assertNotIn("groupedUltraPlans", app)
 

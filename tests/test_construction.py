@@ -36,6 +36,56 @@ CONFIG = {
 
 
 class ConstructionRulesTests(unittest.TestCase):
+    def test_export_public_result_copies_only_public_outputs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            site = root / "site/construction"
+            destination = root / "shared/标讯/施工粗筛"
+            for relative in construction_site.PUBLIC_OUTPUTS:
+                source = site / relative
+                source.parent.mkdir(parents=True, exist_ok=True)
+                source.write_text(str(relative), encoding="utf-8")
+            private_state = site / "data/collector-state.json"
+            private_state.write_text("{}", encoding="utf-8")
+
+            with patch.object(construction_site, "SITE", site):
+                result = construction_site.export_public_result(destination)
+
+            self.assertEqual(result, destination)
+            for relative in construction_site.PUBLIC_OUTPUTS:
+                self.assertEqual(
+                    (destination / relative).read_text(encoding="utf-8"),
+                    str(relative),
+                )
+            self.assertFalse((destination / "data/collector-state.json").exists())
+
+    def test_main_exports_shared_copy_after_update(self):
+        payload = {"stats": {"total": 1}}
+        with (
+            patch.object(construction_site, "update", return_value=payload),
+            patch.object(construction_site, "export_public_result") as export,
+            patch("builtins.print"),
+        ):
+            result = construction_site.main()
+
+        self.assertEqual(result, 0)
+        export.assert_called_once_with()
+
+    def test_main_fails_when_shared_copy_cannot_be_written(self):
+        payload = {"stats": {"total": 1}}
+        with (
+            patch.object(construction_site, "update", return_value=payload),
+            patch.object(
+                construction_site,
+                "export_public_result",
+                side_effect=OSError("共享目录不可写"),
+            ),
+            patch("builtins.print"),
+        ):
+            result = construction_site.main()
+
+        self.assertEqual(result, 1)
+
     def test_project_match_fields_extracts_explicit_code_and_approval_reference(self):
         result = project_match_fields(
             "投资项目代码：2111-522323-04-01-342068；"
@@ -156,6 +206,25 @@ class ConstructionRulesTests(unittest.TestCase):
                 config,
             ),
             ["电力工程施工总承包", "承装（修、试）"],
+        )
+
+    def test_geological_disaster_prevention_qualification_is_included(self):
+        config = load_config()
+        self.assertEqual(
+            qualification_matches(
+                "某地质灾害治理工程施工招标公告",
+                "投标人须具备地质灾害防治单位施工资质乙级及以上资质。",
+                config,
+            ),
+            ["地质灾害防治单位"],
+        )
+        self.assertEqual(
+            qualification_matches(
+                "某地质灾害防治单位资质项目",
+                "",
+                config,
+            ),
+            [],
         )
 
     def test_eqyzc_other_requirements_are_not_qualification(self):

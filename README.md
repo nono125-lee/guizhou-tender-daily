@@ -12,7 +12,7 @@ PYTHONPATH=src python3 -m tender_agent.unified_site update --publish
 
 <https://nono125-lee.github.io/guizhou-tender-daily/opportunities/>
 
-页面标题为“标讯雷达”，按“重点关联、施工粗筛、招标计划、运行状态”排列。重点关联同时提供施工招标公告和关联招标计划原文链接；施工粗筛保留地区、时间、信息源、报名日期、截止日期和资质要求下拉筛选，并纳入电力工程施工总承包及承装（修、试）资质；招标计划展示全部计划，并保留地州市、区县、发布时间、预计招标月及资金来源快捷筛选。原施工详细页和招标计划详细页继续保留，作为字段复核和历史版本入口。
+页面标题为“标讯雷达”，按“重点关联、施工粗筛、招标计划、运行状态”排列。重点关联同时提供施工招标公告和关联招标计划原文链接；施工粗筛保留地区、时间、信息源、报名日期、截止日期和资质要求下拉筛选，并提供信息源快捷按钮，同时纳入电力工程施工总承包、承装（修、试）及“地质灾害防治单位”资质；招标计划展示全部计划，并保留地州市、区县、发布时间、预计招标月及资金来源快捷筛选。原施工详细页和招标计划详细页继续保留，作为字段复核和历史版本入口。
 
 这是一个面向多省份、多行业、多信息源的标讯采集项目。当前首期范围：
 
@@ -93,6 +93,9 @@ PYTHONPATH=src python3 -m tender_agent.site seed
 
 施工行业独立页面：
 <https://nono125-lee.github.io/guizhou-tender-daily/construction/>
+
+每次施工粗筛运行后，公开结果同时覆盖更新到
+`/Users/nonolee/Desktop/共享win/标讯/施工粗筛/`，便于 Windows 共享查看。
 
 超长期招标计划详细页面：
 <https://nono125-lee.github.io/guizhou-tender-daily/tender-plan/>
