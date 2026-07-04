@@ -1695,9 +1695,61 @@
     "https://cgjy.tobacco.com.cn/jzhwzb/44658.jhtml": {
       "published_at": "2026-06-28",
       "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/46427.jhtml": {
+      "published_at": "2026-07-03",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/46231.jhtml": {
+      "published_at": "2026-07-03",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45587.jhtml": {
+      "published_at": "2026-07-01",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45042.jhtml": {
+      "published_at": "2026-06-29",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/44908.jhtml": {
+      "published_at": "2026-06-29",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/44804.jhtml": {
+      "published_at": "2026-06-29",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/46625.jhtml": {
+      "published_at": "2026-07-03",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/46039.jhtml": {
+      "published_at": "2026-07-02",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45856.jhtml": {
+      "published_at": "2026-07-02",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45469.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45357.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/45233.jhtml": {
+      "published_at": "2026-06-30",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/44682.jhtml": {
+      "published_at": "2026-06-29",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "3c42bd68c991f912e7802ab0eaa70d8f02f83fc80f6768531e230b9919b05edc",
-  "last_run_at": "2026-07-04T06:03:41.925370+08:00"
+  "last_run_at": "2026-07-05T06:03:53.087476+08:00"
 }
