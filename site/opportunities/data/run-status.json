@@ -1,29 +1,29 @@
 {
-  "started_at": "2026-07-05T06:03:02.832417+08:00",
+  "started_at": "2026-07-05T11:58:26.098647+08:00",
   "collection": {
     "industries": {
       "label": "图文广告与园林绿化",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-05T06:03:02.832583+08:00",
-      "completed_at": "2026-07-05T06:04:37.148258+08:00",
-      "duration_seconds": 94.32
+      "started_at": "2026-07-05T11:58:26.098763+08:00",
+      "completed_at": "2026-07-05T12:05:41.937986+08:00",
+      "duration_seconds": 435.84
     },
     "construction": {
       "label": "施工标讯粗筛",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-05T06:04:37.148298+08:00",
-      "completed_at": "2026-07-05T06:05:09.186092+08:00",
-      "duration_seconds": 32.04
+      "started_at": "2026-07-05T12:05:41.938074+08:00",
+      "completed_at": "2026-07-05T12:05:46.474468+08:00",
+      "duration_seconds": 4.54
     },
     "tender_plans": {
       "label": "超长期招标计划",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-05T06:05:09.186157+08:00",
-      "completed_at": "2026-07-05T06:05:23.692104+08:00",
-      "duration_seconds": 14.51
+      "started_at": "2026-07-05T12:05:46.474548+08:00",
+      "completed_at": "2026-07-05T12:05:59.472941+08:00",
+      "duration_seconds": 13.0
     }
   },
   "tests": {
@@ -33,24 +33,24 @@
         "label": "施工标讯测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-05T06:05:23.692148+08:00",
-        "completed_at": "2026-07-05T06:05:23.833234+08:00",
+        "started_at": "2026-07-05T12:05:59.473005+08:00",
+        "completed_at": "2026-07-05T12:05:59.613511+08:00",
         "duration_seconds": 0.14
       },
       {
         "label": "超长期测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-05T06:05:23.833302+08:00",
-        "completed_at": "2026-07-05T06:05:23.898818+08:00",
+        "started_at": "2026-07-05T12:05:59.613609+08:00",
+        "completed_at": "2026-07-05T12:05:59.681534+08:00",
         "duration_seconds": 0.07
       },
       {
         "label": "统一工作台测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-05T06:05:23.898877+08:00",
-        "completed_at": "2026-07-05T06:05:23.950369+08:00",
+        "started_at": "2026-07-05T12:05:59.681597+08:00",
+        "completed_at": "2026-07-05T12:05:59.734442+08:00",
         "duration_seconds": 0.05
       }
     ]
@@ -58,11 +58,11 @@
   "publish": {
     "requested": true
   },
-  "completed_at": "2026-07-05T06:05:23.967554+08:00",
+  "completed_at": "2026-07-05T12:05:59.750786+08:00",
   "datasets": {
     "industries": {
       "url": "../data/latest.json",
-      "updated_at": "2026-07-05T06:03:24.571477+08:00",
+      "updated_at": "2026-07-05T12:04:29.248656+08:00",
       "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
       "stats": {
         "total": 434,
@@ -79,7 +79,7 @@
     },
     "construction": {
       "url": "../construction/data/latest.json",
-      "updated_at": "2026-07-05T06:04:37.201275+08:00",
+      "updated_at": "2026-07-05T12:05:42.004637+08:00",
       "coverage": "贵州省施工类标讯资格条件专项筛选",
       "stats": {
         "total": 1421,
@@ -95,24 +95,24 @@
     },
     "tender_plans": {
       "url": "../tender-plan/data/latest.json",
-      "updated_at": "2026-07-05T06:05:09.234012+08:00",
+      "updated_at": "2026-07-05T12:05:46.522926+08:00",
       "coverage": "贵州省工程建设招标计划",
       "stats": {
         "total": 1270,
         "merged_total": 1270,
-        "window_items": 41,
-        "source_total": 41,
-        "source_total_pages": 5,
-        "collected_pages": 5,
+        "window_items": 0,
+        "source_total": 0,
+        "source_total_pages": 0,
+        "collected_pages": 0,
         "list_complete": true,
         "mode": "daily",
-        "pub_date": "l3d",
-        "detail_cache_hits": 41,
+        "pub_date": "td",
+        "detail_cache_hits": 0,
         "detail_cache_misses": 0,
         "detail_fetch_success": 0,
         "detail_fetch_failed": 0,
         "stale_cache_used": 0,
-        "pruned_items": 1,
+        "pruned_items": 0,
         "new_today": 0,
         "regions": 101,
         "fund_source_tags": 11,
