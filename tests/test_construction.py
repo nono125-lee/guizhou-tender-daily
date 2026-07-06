@@ -4,10 +4,16 @@ import unittest
 from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
+from urllib.error import URLError
 from zoneinfo import ZoneInfo
 
 from tender_agent import construction_site
-from tender_agent.collectors import eqyzc_construction, ggzy_construction
+from tender_agent.collectors import (
+    eqyzc_construction,
+    ggzy_construction,
+    guizhou_ztb,
+    ztb_construction,
+)
 from tender_agent.construction_incremental import (
     collection_window,
     empty_state,
@@ -128,6 +134,134 @@ class ConstructionRulesTests(unittest.TestCase):
             datetime(2026, 6, 12, 8, 0, tzinfo=ZoneInfo("Asia/Shanghai")),
         )
         self.assertTrue(should_process(source_state, "101"))
+
+    def test_ztb_null_detail_clears_historical_false_retry(self):
+        now = datetime(2026, 7, 6, 23, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
+        source_state = get_source_state(empty_state(), "ztb-guizhou")
+        source_state.update(
+            {
+                "last_id": 102,
+                "last_success_at": "2026-07-06T22:00:00+08:00",
+                "last_weekly_backfill_at": "2026-07-05T06:00:00+08:00",
+                "last_monthly_backfill_at": "2026-06-12T06:00:00+08:00",
+            }
+        )
+        record_failure(
+            source_state,
+            "101",
+            {"tender_id": 101},
+            RuntimeError("old false retry"),
+            now,
+        )
+        with tempfile.TemporaryDirectory() as directory, patch.object(
+            ztb_construction, "_fetch_json", return_value=None
+        ):
+            ztb_construction.collect(
+                CONFIG,
+                Path(directory) / "ztb-state.json",
+                max_scan=1,
+                source_state=source_state,
+                now=now,
+            )
+
+        self.assertNotIn("101", source_state["failed_ids"])
+        self.assertEqual(
+            source_state["processed_ids"]["101"]["status"],
+            "missing_notice",
+        )
+        self.assertNotIn("103", source_state["failed_ids"])
+
+    def test_ztb_request_error_remains_retryable(self):
+        now = datetime(2026, 7, 6, 23, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
+        source_state = get_source_state(empty_state(), "ztb-guizhou")
+        source_state.update(
+            {
+                "last_id": 100,
+                "last_success_at": "2026-07-06T22:00:00+08:00",
+                "last_weekly_backfill_at": "2026-07-05T06:00:00+08:00",
+                "last_monthly_backfill_at": "2026-06-12T06:00:00+08:00",
+            }
+        )
+        with tempfile.TemporaryDirectory() as directory, patch.object(
+            ztb_construction,
+            "_fetch_json",
+            side_effect=RuntimeError("timeout"),
+        ):
+            ztb_construction.collect(
+                CONFIG,
+                Path(directory) / "ztb-state.json",
+                max_scan=1,
+                source_state=source_state,
+                now=now,
+            )
+
+        self.assertIn("101", source_state["failed_ids"])
+        self.assertTrue(should_process(source_state, "101"))
+
+    def test_ztb_fetch_can_distinguish_request_error_from_empty_id(self):
+        with patch.object(
+            guizhou_ztb,
+            "urlopen",
+            side_effect=URLError("offline"),
+        ):
+            self.assertIsNone(
+                guizhou_ztb._fetch_json(
+                    "http://example.com/api/trade/1",
+                    retries=0,
+                )
+            )
+        with patch.object(
+            guizhou_ztb,
+            "urlopen",
+            side_effect=URLError("offline"),
+        ):
+            with self.assertRaises(RuntimeError):
+                guizhou_ztb._fetch_json(
+                    "http://example.com/api/trade/1",
+                    retries=0,
+                    raise_on_error=True,
+                )
+
+    def test_ztb_historical_nulls_do_not_stop_frontier_cleanup(self):
+        now = datetime(2026, 7, 6, 23, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
+        source_state = get_source_state(empty_state(), "ztb-guizhou")
+        source_state.update(
+            {
+                "last_id": 100,
+                "last_success_at": "2026-07-06T22:00:00+08:00",
+                "last_weekly_backfill_at": "2026-07-05T06:00:00+08:00",
+                "last_monthly_backfill_at": "2026-06-12T06:00:00+08:00",
+            }
+        )
+        for tender_id in range(1, 31):
+            record_failure(
+                source_state,
+                str(tender_id),
+                {"tender_id": tender_id},
+                RuntimeError("old false retry"),
+                now,
+            )
+        for tender_id in range(101, 131):
+            record_failure(
+                source_state,
+                str(tender_id),
+                {"tender_id": tender_id},
+                RuntimeError("frontier false retry"),
+                now,
+            )
+
+        with tempfile.TemporaryDirectory() as directory, patch.object(
+            ztb_construction, "_fetch_json", return_value=None
+        ):
+            ztb_construction.collect(
+                CONFIG,
+                Path(directory) / "ztb-state.json",
+                max_scan=30,
+                source_state=source_state,
+                now=now,
+            )
+
+        self.assertEqual(source_state["failed_ids"], {})
 
     def test_only_qualification_section_is_extracted(self):
         text = (

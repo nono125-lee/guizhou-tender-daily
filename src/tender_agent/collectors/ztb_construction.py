@@ -56,7 +56,7 @@ def collect(
         last_id = int(state.get("last_id", 888000))
         mode = "legacy"
     highest = last_id
-    misses = 0
+    frontier_misses = 0
     items = []
     skipped = skip_urls or set()
     retry_ids = [
@@ -81,21 +81,60 @@ def collect(
             and not should_process(source_state, notice_id)
         ):
             continue
-        data = _fetch_json(f"{DETAIL_API}/{tender_id}", retries=0, timeout=4)
-        if not data or not data.get("Title"):
-            misses += 1
+        try:
+            data = _fetch_json(
+                f"{DETAIL_API}/{tender_id}",
+                retries=0,
+                timeout=4,
+                raise_on_error=True,
+            )
+        except RuntimeError as error:
+            if tender_id > last_id:
+                frontier_misses += 1
             if source_state is not None:
                 record_failure(
                     source_state,
                     notice_id,
                     {"tender_id": tender_id},
-                    RuntimeError("公告编号暂未生成"),
+                    error,
                     now,
                 )
-            if tender_id > last_id and misses >= 30:
+            if tender_id > last_id and frontier_misses >= 30:
                 break
             continue
-        misses = 0
+        if data is None:
+            if tender_id > last_id:
+                frontier_misses += 1
+            if source_state is not None:
+                if tender_id <= last_id:
+                    record_processed(
+                        source_state,
+                        notice_id,
+                        status="missing_notice",
+                        release_at=now.isoformat(),
+                    )
+                else:
+                    source_state.setdefault("failed_ids", {}).pop(
+                        notice_id, None
+                    )
+            if tender_id > last_id and frontier_misses >= 30:
+                break
+            continue
+        if not isinstance(data, dict) or not data.get("Title"):
+            if tender_id > last_id:
+                frontier_misses += 1
+            if source_state is not None:
+                record_failure(
+                    source_state,
+                    notice_id,
+                    {"tender_id": tender_id},
+                    RuntimeError("公告详情缺少标题"),
+                    now,
+                )
+            if tender_id > last_id and frontier_misses >= 30:
+                break
+            continue
+        frontier_misses = 0
         highest = tender_id
         published = clean_text(data.get("PublishDate"))
         release_at = (

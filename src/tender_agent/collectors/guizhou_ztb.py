@@ -152,6 +152,7 @@ def _fetch_json(
     url: str,
     retries: int = 2,
     timeout: int = 15,
+    raise_on_error: bool = False,
 ) -> dict | None:
     request = Request(
         url,
@@ -160,6 +161,7 @@ def _fetch_json(
             "Accept": "application/json",
         },
     )
+    last_error: Exception | None = None
     for attempt in range(retries + 1):
         try:
             with urlopen(request, timeout=timeout) as response:
@@ -167,10 +169,20 @@ def _fetch_json(
         except HTTPError as error:
             if error.code == 404:
                 return None
-        except (URLError, OSError, TimeoutError, json.JSONDecodeError):
-            pass
+            last_error = error
+        except (
+            URLError,
+            OSError,
+            TimeoutError,
+            json.JSONDecodeError,
+        ) as error:
+            last_error = error
         if attempt < retries:
             time.sleep(0.6 * (attempt + 1))
+    if raise_on_error and last_error is not None:
+        raise RuntimeError(
+            f"贵州招投标详情请求失败：{type(last_error).__name__}"
+        ) from last_error
     return None
 
 
