@@ -1,32 +1,32 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-06T23:32:50.944533+08:00",
+  "updated_at": "2026-07-07T06:04:21.584743+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
-    "pub_date": "td",
+    "pub_date": "l1m",
     "keywords": "",
     "all_pages": false,
     "max_pages": null
   },
   "warnings": [],
   "stats": {
-    "total": 1288,
-    "merged_total": 1288,
-    "window_items": 17,
-    "source_total": 17,
-    "source_total_pages": 2,
-    "collected_pages": 2,
+    "total": 1286,
+    "merged_total": 1286,
+    "window_items": 369,
+    "source_total": 369,
+    "source_total_pages": 37,
+    "collected_pages": 37,
     "list_complete": true,
-    "mode": "daily",
-    "pub_date": "td",
-    "detail_cache_hits": 17,
+    "mode": "weekly",
+    "pub_date": "l1m",
+    "detail_cache_hits": 369,
     "detail_cache_misses": 0,
     "detail_fetch_success": 0,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
-    "pruned_items": 0,
-    "new_today": 17,
+    "pruned_items": 2,
+    "new_today": 0,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
@@ -60,7 +60,7 @@
       "planned_trade_place": "黔东南州公共资源交易中心",
       "project_location": "贵州省-黔东南苗族侗族自治州-施秉县",
       "supervisor": "施秉县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901842",
@@ -87,7 +87,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-贵州双龙航空港经济区",
       "supervisor": "贵州双龙航空港经济区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901836",
@@ -113,7 +113,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-花溪区",
       "supervisor": "贵州贵安新区管理委员会城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901828",
@@ -139,7 +139,7 @@
       "planned_trade_place": "黔东南州公共资源交易中心",
       "project_location": "贵州省-黔东南苗族侗族自治州-三穗县",
       "supervisor": "三穗县农业农村局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901818",
@@ -165,7 +165,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-白云区",
       "supervisor": "贵阳市白云区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901788",
@@ -191,7 +191,7 @@
       "planned_trade_place": "贵州省公共资源交易中心",
       "project_location": "贵州省-贵阳市-南明区",
       "supervisor": "贵州省交通建设工程质量监督执法支队",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901787",
@@ -217,7 +217,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-赫章县",
       "supervisor": "赫章县农业农村局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901726",
@@ -243,7 +243,7 @@
       "planned_trade_place": "黔东南州公共资源交易中心",
       "project_location": "贵州省-黔东南苗族侗族自治州-三穗县",
       "supervisor": "贵州三穗经济开发区管理委员会",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901684",
@@ -270,7 +270,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-新蒲新区",
       "supervisor": "遵义市新蒲新区住房和交通运输局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901504",
@@ -297,7 +297,7 @@
       "planned_trade_place": "贵州省公共资源交易中心",
       "project_location": "贵州省-遵义市-仁怀市",
       "supervisor": "仁怀市住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901501",
@@ -324,7 +324,7 @@
       "planned_trade_place": "贵州省公共资源交易中心",
       "project_location": "贵州省-毕节市-织金县",
       "supervisor": "织金县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901475",
@@ -350,7 +350,7 @@
       "planned_trade_place": "黔西南州公共资源交易中心",
       "project_location": "贵州省-黔西南布依族苗族自治州-安龙县",
       "supervisor": "黔西南州农业农村局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901471",
@@ -378,7 +378,7 @@
       "planned_trade_place": "铜仁市公共资源交易中心",
       "project_location": "贵州省-铜仁市-印江土家族苗族自治县",
       "supervisor": "印江土家族苗族自治县自然资源局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901468",
@@ -404,7 +404,7 @@
       "planned_trade_place": "贵州省公共资源交易中心",
       "project_location": "贵州省-贵阳市-清镇市",
       "supervisor": "贵阳市交通委员会",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901459",
@@ -430,7 +430,7 @@
       "planned_trade_place": "",
       "project_location": "贵州省-六盘水市-钟山区",
       "supervisor": "/",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901448",
@@ -456,7 +456,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-威宁彝族回族苗族自治县",
       "supervisor": "威宁自治县自然资源局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901414",
@@ -482,7 +482,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-桐梓县",
       "supervisor": "桐梓县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901406",
@@ -34138,69 +34138,16 @@
       "project_location": "贵州省-黔西南布依族苗族自治州-兴仁市",
       "supervisor": "兴仁市住房和城乡建设局",
       "is_new": false
-    },
-    {
-      "source_notice_id": "858253",
-      "title": "遵义营运中心2026年桥梁预防性养护项目招标计划",
-      "published_at": "2026-04-06 23:18:17",
-      "region": "红花岗区",
-      "buyer": "贵州高速公路集团有限公司",
-      "agency": "贵州黔通安达工程咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858253",
-      "project_name": "遵义营运中心2026年桥梁预防性养护",
-      "fixed_asset_code": "2604-520000-04-05-723122",
-      "approval": "《遵义营运中心党委第一届第53次（2026年第3次）会议纪要之一》（遵营党议〔2026〕3号）",
-      "budget": "670.34万元",
-      "fund_source": "通行费",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "一是根据2025年定检结果，结合“十五五”逐年分路线完善桥梁病害的规划，综合考虑集约化施工，对中心范围内存在3类标度及以上病害的桥梁、综合评分80-85分的桥梁进行集中处置，消除隐患病害；二是结合省厅桥隧专项五年方案，增加桥梁检修通道。",
-      "planned_bid_time": "2026-05-07 00:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-遵义市-红花岗区",
-      "supervisor": "贵州省公路局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858252",
-      "title": "万峰林景区旅游基础设施项目项目招标计划",
-      "published_at": "2026-04-06 13:13:37",
-      "region": "兴义市",
-      "buyer": "黔西南州文化旅游产业投资开发（集团）有限公司",
-      "agency": "统一社会信用代码",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858252",
-      "project_name": "万峰林景区旅游基础设施项目",
-      "fixed_asset_code": "2401-522300-04-01-856846",
-      "approval": "关于万峰林景区旅游基础设施项目可行性研究报告的批复（州发改发【2025】48号）",
-      "budget": "4630万元",
-      "fund_source": "申请中央资金及建设单位自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "分布式游客服务中心2个共600平方米、旅游公厕7个共1650平方米、停车场17500平方米（共585个车位，含168套充电设施）、通景公路6.6公里、景区内部道路21.60公里。",
-      "planned_bid_time": "2026-05-22 09:30:00",
-      "planned_tender_content": "工程总承包",
-      "planned_trade_place": "黔西南州公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
-      "supervisor": "兴义市住房和城乡计算机",
-      "is_new": false
     }
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-06T23:32:30.525677+08:00",
+    "updated_at": "2026-07-07T06:04:13.057943+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
       "total": 1494,
-      "new_today": 73,
+      "new_today": 0,
       "sources": 11,
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
