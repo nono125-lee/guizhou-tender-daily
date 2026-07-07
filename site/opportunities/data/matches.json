@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-07T21:25:18.579234+08:00",
+  "updated_at": "2026-07-08T06:04:48.661940+08:00",
   "items": [
     {
       "plan_project_key": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程",
@@ -178,7 +178,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",

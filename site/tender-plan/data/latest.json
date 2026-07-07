@@ -1,41 +1,68 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-07T21:25:18.579234+08:00",
+  "updated_at": "2026-07-08T06:04:48.661940+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
-    "pub_date": "td",
+    "pub_date": "l3d",
     "keywords": "",
     "all_pages": false,
     "max_pages": null
   },
   "warnings": [],
   "stats": {
-    "total": 1302,
-    "merged_total": 1302,
-    "window_items": 16,
-    "source_total": 16,
-    "source_total_pages": 2,
-    "collected_pages": 2,
+    "total": 1279,
+    "merged_total": 1279,
+    "window_items": 35,
+    "source_total": 35,
+    "source_total_pages": 4,
+    "collected_pages": 4,
     "list_complete": true,
     "mode": "daily",
-    "pub_date": "td",
-    "detail_cache_hits": 0,
-    "detail_cache_misses": 16,
-    "detail_fetch_success": 16,
+    "pub_date": "l3d",
+    "detail_cache_hits": 34,
+    "detail_cache_misses": 1,
+    "detail_fetch_success": 1,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
-    "pruned_items": 0,
-    "new_today": 16,
+    "pruned_items": 24,
+    "new_today": 0,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
     "ultra_long_projects": 28,
     "priority_notices": 2,
     "priority_projects": 4,
-    "priority_new_today": 1
+    "priority_new_today": 0
   },
   "items": [
+    {
+      "source_notice_id": "903085",
+      "title": "余庆县两岔河水库工程项目招标计划",
+      "published_at": "2026-07-07 21:41:07",
+      "region": "余庆县",
+      "buyer": "贵州省余庆县农业产业发展（集团）有限责任公司",
+      "agency": "统一社会信用代码",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=903085",
+      "project_name": "余庆县两岔河水库工程",
+      "fixed_asset_code": "2020-520000-76-01-410443",
+      "approval": "黔发改农经【2026】88号",
+      "budget": "72242.08万元",
+      "fund_source": "超长期特别国债、省级专项资金及地方自筹",
+      "fund_source_tags": [
+        "超长期",
+        "地方自筹"
+      ],
+      "project_content": "工程估算总投资72242.08万元，水库总库容1172万m³，水库建成后，可有效解余庆县决松烟镇（含工业园区）、关兴镇集镇及周边农村4.6万人生活用水问题，同时保障关兴镇1.1万亩（其中新增及改善灌面0.6万亩）农田灌溉用水。工程建设内容由水源枢纽工程、供水工程（提水泵站和供水输水管道）、灌区工程（灌区输水管道等）三部分组成。",
+      "planned_bid_time": "2026-08-25 10:37:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "贵州省公共资源交易中心",
+      "project_location": "贵州省-遵义市-余庆县",
+      "supervisor": "余庆县水务局",
+      "is_new": false
+    },
     {
       "source_notice_id": "902881",
       "title": "都匀市机动车检测服务中心建设项目项目招标计划",
@@ -60,7 +87,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-都匀市",
       "supervisor": "都匀市住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902880",
@@ -86,7 +113,7 @@
       "planned_trade_place": "安顺市公共资源交易中心",
       "project_location": "贵州省-安顺市-西秀区",
       "supervisor": "安顺市生态环境局西秀分局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902785",
@@ -112,7 +139,7 @@
       "planned_trade_place": "黔西南州公共资源交易中心",
       "project_location": "贵州省-黔西南布依族苗族自治州-贞丰县",
       "supervisor": "贞丰县住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902779",
@@ -139,7 +166,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-开阳县",
       "supervisor": "开阳县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902736",
@@ -165,7 +192,7 @@
       "planned_trade_place": "铜仁市公共资源交易中心",
       "project_location": "贵州省-铜仁市-碧江区",
       "supervisor": "铜仁市水利电力建设管理站",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902593",
@@ -191,7 +218,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-正安县",
       "supervisor": "正安县住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902578",
@@ -218,7 +245,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-桐梓县",
       "supervisor": "桐梓县工业能源和科学技术局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902499",
@@ -244,7 +271,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-七星关区",
       "supervisor": "毕节市七星关区交通运输局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902428",
@@ -271,7 +298,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-正安县",
       "supervisor": "正安县工业能源和科学技术局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902387",
@@ -297,7 +324,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
       "supervisor": "瓮安县农业农村局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902355",
@@ -324,7 +351,7 @@
       "planned_trade_place": "贵阳市公共资源交易中心",
       "project_location": "贵州省-贵阳市-开阳县",
       "supervisor": "开阳县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902338",
@@ -351,7 +378,7 @@
       "planned_trade_place": "安顺市公共资源交易中心",
       "project_location": "贵州省-安顺市-西秀区",
       "supervisor": "安顺经济技术开发区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902322",
@@ -377,7 +404,7 @@
       "planned_trade_place": "毕节市公共资源交易中心",
       "project_location": "贵州省-毕节市-纳雍县",
       "supervisor": "纳雍县发展和改革局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902292",
@@ -403,7 +430,7 @@
       "planned_trade_place": "遵义市公共资源交易中心",
       "project_location": "贵州省-遵义市-道真仡佬族苗族自治县",
       "supervisor": "道真仡佬族苗族自治县住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902279",
@@ -429,7 +456,7 @@
       "planned_trade_place": "铜仁市公共资源交易中心",
       "project_location": "贵州省-铜仁市-碧江区",
       "supervisor": "铜仁市碧江区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "902278",
@@ -455,7 +482,7 @@
       "planned_trade_place": "铜仁市公共资源交易中心",
       "project_location": "贵州省-铜仁市-碧江区",
       "supervisor": "铜仁市碧江区住房和城乡建设局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "901855",
@@ -33930,645 +33957,16 @@
       "project_location": "贵州省-贵阳市-花溪区",
       "supervisor": "贵州省能源局",
       "is_new": false
-    },
-    {
-      "source_notice_id": "858562",
-      "title": "开阳经开区双流片区热电联产项目项目招标计划",
-      "published_at": "2026-04-07 16:08:10",
-      "region": "开阳县",
-      "buyer": "贵州磷化中合材料有限责任公司",
-      "agency": "贵州公明建设投资咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858562",
-      "project_name": "开阳经开区双流片区热电联产项目",
-      "fixed_asset_code": "2603-520100-04-01-484641",
-      "approval": "2603-520100-04-01-484641",
-      "budget": "93255万元",
-      "fund_source": "自筹",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "一期2×280t/h循环流化床锅炉+1×B60MW 高温超高压背压式汽 轮发电机组及配套设施；二期1×220t/h 循 环 流 化 床 锅 炉 +1×B30MW高温超高压背压式汽轮发电机组及配套设施。",
-      "planned_bid_time": "2026-05-21 09:30:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "贵阳市公共资源交易中心",
-      "project_location": "贵州省-贵阳市-开阳县",
-      "supervisor": "开阳县发展和改革局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858561",
-      "title": "开阳“磷钛铁锂”耦合循环一体化项目（220kV总降压站项目）项目招标计划",
-      "published_at": "2026-04-07 16:06:34",
-      "region": "开阳县",
-      "buyer": "贵州磷化中合材料有限责任公司",
-      "agency": "贵州公明建设投资咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858561",
-      "project_name": "开阳“磷钛铁锂”耦合循环一体化项目（220kV总降压站项目）",
-      "fixed_asset_code": "2512-520121-04-01-178841",
-      "approval": "2512-520121-04-01-178841",
-      "budget": "23093.36万元",
-      "fund_source": "自筹",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "新建开阳“磷钛铁锂”耦合循环一体化项目配套电力基础设施220kV总降压站，分期分阶段建设，其中一期建设2×180MVA主变压器，二期建设1×180MVA主变压器，一、二期占地13298.07平方米，以及220kV总降压站配电装置、主控楼及配套设施等",
-      "planned_bid_time": "2026-05-21 09:30:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "贵阳市公共资源交易中心",
-      "project_location": "贵州省-贵阳市-开阳县",
-      "supervisor": "开阳县发展和改革局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858560",
-      "title": "长顺县2026年高标准农田建设项目项目招标计划",
-      "published_at": "2026-04-07 16:02:21",
-      "region": "长顺县",
-      "buyer": "长顺县农业农村局",
-      "agency": "贵州新山水建设咨询(集团)有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858560",
-      "project_name": "长顺县2026年高标准农田建设项目",
-      "fixed_asset_code": "2507-522729-04-01-320831",
-      "approval": "贵州省财政厅 贵州省农业农村厅文件--黔财农[2025]171号、黔财农[2026]27号",
-      "budget": "5800万元",
-      "fund_source": "中央资金及省级补助资金",
-      "fund_source_tags": [
-        "上级补助"
-      ],
-      "project_content": "建设高标准农田2万亩，其中:新建1.5万亩、提质改造0.5万亩。主要建设内容为土地平整工程、排水灌溉工程、田间道路工程等。",
-      "planned_bid_time": "2026-05-08 09:00:00",
-      "planned_tender_content": "监理",
-      "planned_trade_place": "黔南州公共资源交易中心",
-      "project_location": "贵州省-黔南布依族苗族自治州-长顺县",
-      "supervisor": "黔南布依族苗族自治州农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858557",
-      "title": "长顺县2026年高标准农田建设项目项目招标计划",
-      "published_at": "2026-04-07 15:49:36",
-      "region": "长顺县",
-      "buyer": "长顺县农业农村局",
-      "agency": "贵州新山水建设咨询(集团)有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858557",
-      "project_name": "长顺县2026年高标准农田建设项目",
-      "fixed_asset_code": "2507-522729-04-01-320831",
-      "approval": "贵州省财政厅 贵州省农业农村厅文件--黔财农[2025]171号、黔财农[2026]27号",
-      "budget": "5800万元",
-      "fund_source": "中央资金及省级补助资金",
-      "fund_source_tags": [
-        "上级补助"
-      ],
-      "project_content": "建设高标准农田2万亩，其中:新建1.5万亩、提质改造0.5万亩。主要建设内容为土地平整工程、排水灌溉工程、田间道路工程等。",
-      "planned_bid_time": "2026-05-08 09:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "黔南州公共资源交易中心",
-      "project_location": "贵州省-黔南布依族苗族自治州-长顺县",
-      "supervisor": "黔南布依族苗族自治州农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858555",
-      "title": "贵州磷化新材料科技有限责任公司硫酸铵母液蒸发浓缩结晶项目项目招标计划",
-      "published_at": "2026-04-07 15:41:02",
-      "region": "福泉市",
-      "buyer": "贵州磷化新材料科技有限责任公司",
-      "agency": "贵州贵财招标有限责任公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858555",
-      "project_name": "贵州磷化新材料科技有限责任公司硫酸铵母液蒸发浓缩结晶项目",
-      "fixed_asset_code": "2602-522702-04-01-271859",
-      "approval": "贵州省企业投资项目备案证明（项目编码：2602-522702-04-01-271859）",
-      "budget": "2952.45万元",
-      "fund_source": "自筹",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "年处理硫酸铵母液12.8万吨，年产硫酸铵产品约4.5万吨。新建硫酸铵母液蒸发浓缩结品装置、硫酸铵平面仓库、产品物流门改造等配套设施。",
-      "planned_bid_time": "2026-05-08 09:00:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "黔南州公共资源交易中心",
-      "project_location": "贵州省-黔南布依族苗族自治州-福泉市",
-      "supervisor": "福泉市工业和信息化局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858554",
-      "title": "贵州盘江马依煤业有限公司马依西一井项目项目招标计划",
-      "published_at": "2026-04-07 15:35:06",
-      "region": "盘州市",
-      "buyer": "贵州盘江马依煤业有限公司",
-      "agency": "贵州贵财招标有限责任公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858554",
-      "project_name": "贵州盘江马依煤业有限公司马依西一井项目",
-      "fixed_asset_code": "2016-000291-06-02-000163",
-      "approval": "国家能源局关于贵州盘江矿区南区马依西一井 项目核准的批复，国能发煤炭[2018]48号",
-      "budget": "800万元",
-      "fund_source": "企业自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "本次招标项目名称：马依西一井南采区动力线网。建设内容：各种规格电缆沟总长度约900m，包括电缆沟沟槽开挖及回填、钢筋混凝土电缆沟、沟盖板、电缆支架、接地扁钢等。",
-      "planned_bid_time": "2026-05-08 09:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-六盘水市-盘州市",
-      "supervisor": "盘州市能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858551",
-      "title": "G320贵阳竹子坡至大地公路工程项目招标计划",
-      "published_at": "2026-04-07 15:04:03",
-      "region": "观山湖区",
-      "buyer": "贵阳城南投资开发（集团）有限公司（花溪区业主）、贵阳观山湖投资(集团)城市建设发展有限公司（观山湖区业主）、贵阳市交通投资发展有限公司（代建单位）",
-      "agency": "贵州新山水建设咨询（集团）有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858551",
-      "project_name": "G320贵阳竹子坡至大地公路工程",
-      "fixed_asset_code": "2020-520100-48-01-183249",
-      "approval": "省交通运输厅关于G320贵阳竹子坡至大地公路工程调整初步设计的批复，黔交审批[2024]211号",
-      "budget": "366704.83万元",
-      "fund_source": "除申请超长期特别国债等中央资金外，其余不足部分由贵阳市观山湖区、花溪区安排财政资金解决",
-      "fund_source_tags": [
-        "超长期",
-        "财政资金"
-      ],
-      "project_content": "一、建设内容：G320贵阳竹子坡至大地公路工程项目起于现状贵阳市观山湖区宾阳大道及其延伸段交叉口，经大地村、摆狮寨、巩固村、敖凡冲、甘总村、戈寨村及新寨村等，终点顺接贵安新区湖磊路。线路全长12.249公里(其中观山湖区段长5.189公里，花溪区段长7.06公里)。主线设置桥梁6座(特大桥1座)、隧道3座；设置互通式立交4座，其中本期实施大地枢纽互通、戈寨互通，预留远期贵红路互通、池竹路互通实施条件；同步建设必要的交通工程和沿线设施。按照一级公路标准建设，双向6车道，路基宽度40米，设计时速80公里/小时(大地互通立体交叉设计速度60公里/小时)，桥涵设计汽车荷载采用公路—Ⅰ级，其他技术指标按《公路工程技术标准》(JTGB01-2014)规定执行。立体交叉参照城市道路有关规定执行。二、招标内容：G320贵阳竹子坡至大地公路工程路面工程，投资约13660.62万元；交通工程及沿线设施工程，投资约6942.72万元；绿化及环境保护工程，投资约1503.95万元。",
-      "planned_bid_time": "2026-05-07 14:00:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-贵阳市-观山湖区",
-      "supervisor": "贵州省公路局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858444",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目一标段项目招标计划",
-      "published_at": "2026-04-07 13:13:21",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858444",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目一标段",
-      "fixed_asset_code": "2504-520523-60-01-359550",
-      "approval": "2504-520523-60-01-359550",
-      "budget": "2004.39万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用鑫达煤矿所属办公建筑的建筑屋顶/场地面积共计约26346m，建设屋顶分布式光伏电站4.85MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "工程总承包",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858443",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目二标段项目招标计划",
-      "published_at": "2026-04-07 13:13:13",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858443",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目二标段",
-      "fixed_asset_code": "2504-520523-60-01-289060",
-      "approval": "2504-520523-60-01-289060",
-      "budget": "1854.74万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用白坪煤矿所属办公建筑的建筑屋顶/场地面积共计约24379m2，建设屋顶分布式光伏电站4.49MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858442",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目三标段项目招标计划",
-      "published_at": "2026-04-07 13:13:10",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858442",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目三标段",
-      "fixed_asset_code": "2504-520523-60-01-674034",
-      "approval": "2504-520523-60-01-674034",
-      "budget": "1946.63万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用新化煤矿一号井所属办公建筑的建筑屋顶/场地面积共计约25588m2，建设屋顶分布式光伏电站4.71MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858441",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目四标段项目招标计划",
-      "published_at": "2026-04-07 13:13:07",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858441",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目四标段",
-      "fixed_asset_code": "2504-520523-60-01-772938",
-      "approval": "2504-520523-60-01-772938",
-      "budget": "2021.94万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用林华煤矿所属办公建筑的建筑屋顶/场地面积共计约26577m2，建设屋顶分布式光伏电站4.89MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858440",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目五标段项目招标计划",
-      "published_at": "2026-04-07 13:13:02",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858440",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目五标段",
-      "fixed_asset_code": "2504-520523-60-01-807951",
-      "approval": "2504-520523-60-01-807951",
-      "budget": "1967.59万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用大运煤矿所属办公建筑的建筑屋顶/场地面积共计约25863m2，建设屋顶分布式光伏电站4.76MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858439",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目六标段项目招标计划",
-      "published_at": "2026-04-07 13:12:59",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858439",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目六标段",
-      "fixed_asset_code": "2504-520523-60-01-877275",
-      "approval": "2504-520523-60-01-877275",
-      "budget": "2054.11万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用鸡爬坎煤矿所属办公建筑的建筑屋顶/场地面积共计约27002m2m，建设屋顶分布式光伏电站4.97MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858438",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目七标段项目招标计划",
-      "published_at": "2026-04-07 13:12:55",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858438",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目七标段",
-      "fixed_asset_code": "2504-520523-60-01-248827",
-      "approval": "2504-520523-60-01-248827",
-      "budget": "2045.82万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用永晟煤矿所属办公建筑的建筑屋顶/场地面积共计约26891m2，建设屋顶分布式光伏电站4.95MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858437",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目八标段项目招标计划",
-      "published_at": "2026-04-07 13:12:51",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858437",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目八标段",
-      "fixed_asset_code": "2504-520523-60-01-951792",
-      "approval": "2504-520523-60-01-951792",
-      "budget": "1876.19万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用路边煤矿所属办公建筑的建筑屋顶/场地面积共计约24662m2，建设屋顶分布式光伏电站4.54MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858436",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目九标段项目招标计划",
-      "published_at": "2026-04-07 13:12:46",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858436",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目九标段",
-      "fixed_asset_code": "2504-520523-60-01-109904",
-      "approval": "2504-520523-60-01-109904",
-      "budget": "2012.19万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用兴安煤矿所属办公建筑的建筑屋顶/场地面积共计约26451m2，建设屋顶分布式光伏电站4.87MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858435",
-      "title": "金沙县“绿色矿山”分布式光伏建设项目十标段项目招标计划",
-      "published_at": "2026-04-07 13:12:40",
-      "region": "金沙县",
-      "buyer": "贵州金能煤机设备有限公司",
-      "agency": "贵州宏燊项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858435",
-      "project_name": "金沙县“绿色矿山”分布式光伏建设项目十标段",
-      "fixed_asset_code": "2504-520523-60-01-278502",
-      "approval": "2504-520523-60-01-278502",
-      "budget": "1620.28万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目采用590Wp的N型单晶硅加强型BIPV智能光伏瓦，采用“自发自用，余电上网”模式，利用杉树堡煤矿所属办公建筑的建筑屋顶/场地面积共计约21299m2，建设屋顶分布式光伏电站3.92MW，以及配套变配电设备、光伏建筑工程等。",
-      "planned_bid_time": "2026-05-07 23:59:00",
-      "planned_tender_content": "勘察",
-      "planned_trade_place": "毕节市公共资源交易中心",
-      "project_location": "贵州省-毕节市-金沙县",
-      "supervisor": "金沙县能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858329",
-      "title": "贵州盘江马依煤业有限公司马依西一井项目项目招标计划",
-      "published_at": "2026-04-07 11:29:36",
-      "region": "盘州市",
-      "buyer": "贵州盘江马依煤业有限公司",
-      "agency": "贵州贵财招标有限责任公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858329",
-      "project_name": "贵州盘江马依煤业有限公司马依西一井项目",
-      "fixed_asset_code": "2016-000291-06-02-000163",
-      "approval": "国家能源局关于贵州盘江矿区南区马依西一井项目核准的批复，国能发煤炭[2018]48号",
-      "budget": "1800万元",
-      "fund_source": "企业自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "本次招标项目名称：马依西一井南采区职工宿舍。本次项目招标内容为新建职工宿舍，建筑面积5898.76m2，建筑占地面积979.18m2，建筑高度24.3m，檐口高度22.5m，地上6层，一层层高4.5m，其余层高3.6m，无地下室，招标内容包括:土建、装饰工程、电气设备安装工程、给排水工程、消防工程。",
-      "planned_bid_time": "2026-05-08 09:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-六盘水市-盘州市",
-      "supervisor": "盘州市能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858328",
-      "title": "贵州盘江马依煤业有限公司马依西一井项目项目招标计划",
-      "published_at": "2026-04-07 11:29:03",
-      "region": "盘州市",
-      "buyer": "贵州盘江马依煤业有限公司",
-      "agency": "贵州贵财招标有限责任公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858328",
-      "project_name": "贵州盘江马依煤业有限公司马依西一井项目",
-      "fixed_asset_code": "2016-000291-06-02-000163",
-      "approval": "国家能源局关于贵州盘江矿区南区马依西一井项目核准的批复，国能发煤炭[2018]48号",
-      "budget": "600万元",
-      "fund_source": "企业自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹"
-      ],
-      "project_content": "本次招标项目名称：马依西一井南采区食堂，本次招标内容为新建食堂工程，建筑面积1420.74m2，建筑占地面积435.2m2，建筑高度24.3m，檐口高度20.15m，地上4层，一层层高5.7m，二层层高4.25m，其余层高4.2m，无地下室，招标内容包括:土建、装饰工程、电气设备安装工程、给排水工程、消防、暖通工程。",
-      "planned_bid_time": "2026-05-08 09:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵州省公共资源交易中心",
-      "project_location": "贵州省-六盘水市-盘州市",
-      "supervisor": "盘州市能源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858321",
-      "title": "石阡县国荣乡楼上村七、八组下苗寨滑坡及十组干沟崩塌地质灾害治理工程项目招标计划",
-      "published_at": "2026-04-07 11:21:32",
-      "region": "石阡县",
-      "buyer": "石阡县自然资源局",
-      "agency": "贵州业盛工程项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858321",
-      "project_name": "石阡县国荣乡楼上村七、八组下苗寨滑坡及十组干沟崩塌地质灾害治理工程",
-      "fixed_asset_code": "2604-520623-04-05-403349",
-      "approval": "关于同意将石阡县国荣乡楼上村七、八组下苗寨滑坡及十组干沟崩塌地质灾害治理工程纳人项目库的函",
-      "budget": "487.89万元",
-      "fund_source": "省级资金",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "抗滑桩 30 根、挡土墙 131m、截排水沟 940m、被动网 525 ㎡、削方 825m³。",
-      "planned_bid_time": "2026-04-10 11:19:00",
-      "planned_tender_content": "工程总承包",
-      "planned_trade_place": "铜仁市公共资源交易中心",
-      "project_location": "贵州省-铜仁市-石阡县",
-      "supervisor": "石阡县自然资源局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858294",
-      "title": "首钢水城钢铁（集团）有限责任公司（12MW）大型工商业分布式光伏发电项目项目招标计划",
-      "published_at": "2026-04-07 10:49:33",
-      "region": "钟山区",
-      "buyer": "贵州合旋新能源有限公司",
-      "agency": "统一社会信用代码",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858294",
-      "project_name": "首钢水城钢铁（集团）有限责任公司（12MW）大型工商业分布式光伏发电项目",
-      "fixed_asset_code": "2602-520201-60-01-975450",
-      "approval": "贵州省企业投资项目备案证明（项目编码2602-520201-60-01-975450）",
-      "budget": "4320万元",
-      "fund_source": "自筹资金",
-      "fund_source_tags": [
-        "地方自筹"
-      ],
-      "project_content": "本项目使用首钢水城钢铁（集团）有限责任公司博宏厂区厂房、停车场及周边办公楼等场地共计83240㎡，采用峰值功率635Wp的单晶光伏组件22677块及逆变器等相关配套设备，交流侧容量为12MW，消纳方式：全部自发自用",
-      "planned_bid_time": "2026-05-08 10:00:00",
-      "planned_tender_content": "工程总承包",
-      "planned_trade_place": "",
-      "project_location": "贵州省-六盘水市-钟山区",
-      "supervisor": "/",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858282",
-      "title": "2026年新桥街道帮扶厂房建设项目项目招标计划",
-      "published_at": "2026-04-07 10:21:29",
-      "region": "水城区",
-      "buyer": "水城区人民政府新桥街道办事处",
-      "agency": "贵州宏升咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858282",
-      "project_name": "2026年新桥街道帮扶厂房建设项目",
-      "fixed_asset_code": "2604-520221-04-01-255692",
-      "approval": "水农领办复字[2026]203号",
-      "budget": "2000万元",
-      "fund_source": "财政衔接资金2000万元",
-      "fund_source_tags": [
-        "财政资金"
-      ],
-      "project_content": "新建标准化厂房一层两栋及配套附属设施，总建筑面积13524平方米(双倍计容)，建筑高度约14.1米，厂房使用面积6762平方米(1#厂房3381平方米、2#厂房3381平方米)。",
-      "planned_bid_time": "2026-05-08 10:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "六盘水公共资源交易中心",
-      "project_location": "贵州省-六盘水市-水城区",
-      "supervisor": "贵州水城经济开发区住房和城乡建设局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858277",
-      "title": "罗甸县2026年度粤黔东西部协作资金粤黔协作共建产业园打火机成品企业标准厂房建设项目项目招标计划",
-      "published_at": "2026-04-07 09:52:57",
-      "region": "罗甸县",
-      "buyer": "罗甸县工业园区管理委员会",
-      "agency": "贵州远胜博瑞项目管理咨询有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858277",
-      "project_name": "罗甸县2026年度粤黔东西部协作资金粤黔协作共建产业园打火机成品企业标准厂房建设项目",
-      "fixed_asset_code": "2604-522728-04-01-635256",
-      "approval": "2604-522728-04-01-635256",
-      "budget": "1955万元",
-      "fund_source": "粤黔东西部协作资金",
-      "fund_source_tags": [
-        "其他"
-      ],
-      "project_content": "本项目为新建工程，拟建设一套功能区分明确、配套完善的打火机成品企业标准厂房及配套设施。建筑面积约 8246 ㎡；本项目建成后，将形成一条从注塑、印刷、装配、充气、调试到仓储的完整打火机成品生产线空间载体，能够满足一家成品企业的全流程生产需求。主要建设内容包括 :1.主体建筑：新建钢结构标准厂房，包含 1#成品仓库、2#原材料仓库、3#印刷包装车间、4#装配质检车间、5#注塑车间、6#充气房、7#充气房、8#调火车间、9#厂房等功能车间。2.建设完善厂区内部道路、场地硬化，并同步配套建设给排水、供配电、消防、弱电等系统工程及绿化、围墙、大门、室外公共卫生间、变压器安装、自来水接入等室外附属设施。",
-      "planned_bid_time": "2026-05-07 09:49:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "黔南州公共资源交易中心",
-      "project_location": "贵州省-黔南布依族苗族自治州-罗甸县",
-      "supervisor": "罗甸县住房和城乡建设局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "858276",
-      "title": "兴仁市鲤鱼坝“乡村旅游+”产业发展项目（一期）项目招标计划",
-      "published_at": "2026-04-07 09:48:07",
-      "region": "兴仁市",
-      "buyer": "贵州粤黔苡童知途研学旅游发展有限公司",
-      "agency": "贵州创建项目管理咨询有限责任公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=858276",
-      "project_name": "兴仁市鲤鱼坝“乡村旅游+”产业发展项目（一期）",
-      "fixed_asset_code": "2604-522322-04-05-446039",
-      "approval": "贵州省企业投资项目备案证明（项目编码：2604-522322-04-05-446039）",
-      "budget": "2063万元",
-      "fund_source": "银行贷款及自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "银行贷款"
-      ],
-      "project_content": "兴仁市鲤鱼坝“乡村旅游+”产业发展项目（一期）建设内容主要包括山体空间·鱼跃探奇和村落空间·艺术村寨两个个板块业态建设和配套设施建设。",
-      "planned_bid_time": "2026-05-07 00:00:00",
-      "planned_tender_content": "工程总承包",
-      "planned_trade_place": "黔西南州公共资源交易中心",
-      "project_location": "贵州省-黔西南布依族苗族自治州-兴仁市",
-      "supervisor": "兴仁市住房和城乡建设局",
-      "is_new": false
     }
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-07T21:22:07.731215+08:00",
+    "updated_at": "2026-07-08T06:04:29.703637+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
       "total": 1578,
-      "new_today": 84,
+      "new_today": 0,
       "sources": 11,
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
@@ -34753,7 +34151,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
