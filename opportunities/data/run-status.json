@@ -1,29 +1,29 @@
 {
-  "started_at": "2026-07-07T21:16:37.682153+08:00",
+  "started_at": "2026-07-08T06:03:04.289360+08:00",
   "collection": {
     "industries": {
       "label": "图文广告与园林绿化",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-07T21:16:37.682255+08:00",
-      "completed_at": "2026-07-07T21:22:07.678670+08:00",
-      "duration_seconds": 330.0
+      "started_at": "2026-07-08T06:03:04.289537+08:00",
+      "completed_at": "2026-07-08T06:04:29.651171+08:00",
+      "duration_seconds": 85.36
     },
     "construction": {
       "label": "施工标讯粗筛",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-07T21:22:07.678724+08:00",
-      "completed_at": "2026-07-07T21:25:18.526929+08:00",
-      "duration_seconds": 190.85
+      "started_at": "2026-07-08T06:04:29.651219+08:00",
+      "completed_at": "2026-07-08T06:04:48.615138+08:00",
+      "duration_seconds": 18.96
     },
     "tender_plans": {
       "label": "超长期招标计划",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-07T21:25:18.527007+08:00",
-      "completed_at": "2026-07-07T21:25:37.594542+08:00",
-      "duration_seconds": 19.07
+      "started_at": "2026-07-08T06:04:48.615214+08:00",
+      "completed_at": "2026-07-08T06:05:04.228477+08:00",
+      "duration_seconds": 15.61
     }
   },
   "tests": {
@@ -33,24 +33,24 @@
         "label": "施工标讯测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-07T21:25:37.594595+08:00",
-        "completed_at": "2026-07-07T21:25:37.735838+08:00",
-        "duration_seconds": 0.14
+        "started_at": "2026-07-08T06:05:04.228523+08:00",
+        "completed_at": "2026-07-08T06:05:04.374109+08:00",
+        "duration_seconds": 0.15
       },
       {
         "label": "超长期测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-07T21:25:37.735929+08:00",
-        "completed_at": "2026-07-07T21:25:37.803091+08:00",
+        "started_at": "2026-07-08T06:05:04.374177+08:00",
+        "completed_at": "2026-07-08T06:05:04.439196+08:00",
         "duration_seconds": 0.07
       },
       {
         "label": "统一工作台测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-07T21:25:37.803148+08:00",
-        "completed_at": "2026-07-07T21:25:37.855989+08:00",
+        "started_at": "2026-07-08T06:05:04.439263+08:00",
+        "completed_at": "2026-07-08T06:05:04.490080+08:00",
         "duration_seconds": 0.05
       }
     ]
@@ -58,30 +58,30 @@
   "publish": {
     "requested": true
   },
-  "completed_at": "2026-07-07T21:25:37.873815+08:00",
+  "completed_at": "2026-07-08T06:05:04.507650+08:00",
   "datasets": {
     "industries": {
       "url": "../data/latest.json",
-      "updated_at": "2026-07-07T21:17:44.686814+08:00",
+      "updated_at": "2026-07-08T06:03:24.588128+08:00",
       "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
       "stats": {
-        "total": 516,
-        "new_today": 44,
+        "total": 520,
+        "new_today": 0,
         "sources": 16,
-        "graphic_advertising": 453,
-        "landscaping": 87,
-        "new_items": 44
+        "graphic_advertising": 455,
+        "landscaping": 89,
+        "new_items": 4
       },
       "warning_count": 0,
       "warnings": []
     },
     "construction": {
       "url": "../construction/data/latest.json",
-      "updated_at": "2026-07-07T21:22:07.731215+08:00",
+      "updated_at": "2026-07-08T06:04:29.703637+08:00",
       "coverage": "贵州省施工类标讯资格条件专项筛选",
       "stats": {
         "total": 1578,
-        "new_today": 84,
+        "new_today": 0,
         "sources": 11,
         "feedback_confirmed": 0,
         "feedback_excluded": 0,
@@ -93,42 +93,42 @@
     },
     "tender_plans": {
       "url": "../tender-plan/data/latest.json",
-      "updated_at": "2026-07-07T21:25:18.579234+08:00",
+      "updated_at": "2026-07-08T06:04:48.661940+08:00",
       "coverage": "贵州省工程建设招标计划",
       "stats": {
-        "total": 1302,
-        "merged_total": 1302,
-        "window_items": 16,
-        "source_total": 16,
-        "source_total_pages": 2,
-        "collected_pages": 2,
+        "total": 1279,
+        "merged_total": 1279,
+        "window_items": 35,
+        "source_total": 35,
+        "source_total_pages": 4,
+        "collected_pages": 4,
         "list_complete": true,
         "mode": "daily",
-        "pub_date": "td",
-        "detail_cache_hits": 0,
-        "detail_cache_misses": 16,
-        "detail_fetch_success": 16,
+        "pub_date": "l3d",
+        "detail_cache_hits": 34,
+        "detail_cache_misses": 1,
+        "detail_fetch_success": 1,
         "detail_fetch_failed": 0,
         "stale_cache_used": 0,
-        "pruned_items": 0,
-        "new_today": 16,
+        "pruned_items": 24,
+        "new_today": 0,
         "regions": 101,
         "fund_source_tags": 11,
         "detail_cache_seeded": 0,
         "ultra_long_projects": 28,
         "priority_notices": 2,
         "priority_projects": 4,
-        "priority_new_today": 1
+        "priority_new_today": 0
       },
       "warning_count": 0,
       "warnings": []
     }
   },
   "summary": {
-    "graphic_items": 453,
-    "landscaping_items": 87,
+    "graphic_items": 455,
+    "landscaping_items": 89,
     "construction_items": 1578,
-    "plan_notices": 1302,
+    "plan_notices": 1279,
     "ultra_long_projects": 28,
     "priority_notices": 2,
     "priority_projects": 2,
