@@ -1,7 +1,207 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-07T06:04:21.584743+08:00",
+  "updated_at": "2026-07-07T21:25:18.579234+08:00",
   "items": [
+    {
+      "plan_project_key": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程",
+      "plan": {
+        "published_at": "2026-06-02 10:49:40",
+        "title": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程项目招标计划",
+        "project_name": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=884631",
+        "buyer": "习水县供排水管理服务中心",
+        "budget": "13998.7万元",
+        "fund_source": "申请超长期国债资金和地方财政自筹。",
+        "fund_source_tags": [
+          "超长期",
+          "财政资金",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2502-520330-04-01-197755",
+        "approval": "习发改投资[2026]12号",
+        "project_content": "新建管线总长度为127.66km，其中DN300球墨铸铁管长度为64.99km，De200PE100级PE管长度为11.58km,De160 PE100级PE管长度为50.59km,De110 PE100级PE管长度为0.5km;新建污水泵站2座，总规模为40m³/d。",
+        "project_location": "贵州省-遵义市-习水县",
+        "source_notice_id": "884631",
+        "plan_version_count": 2
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程",
+          "plan": {
+            "published_at": "2026-06-02 10:49:40",
+            "title": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程项目招标计划",
+            "project_name": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=884631",
+            "buyer": "习水县供排水管理服务中心",
+            "budget": "13998.7万元",
+            "fund_source": "申请超长期国债资金和地方财政自筹。",
+            "fund_source_tags": [
+              "超长期",
+              "财政资金",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2502-520330-04-01-197755",
+            "approval": "习发改投资[2026]12号",
+            "project_content": "新建管线总长度为127.66km，其中DN300球墨铸铁管长度为64.99km，De200PE100级PE管长度为11.58km,De160 PE100级PE管长度为50.59km,De110 PE100级PE管长度为0.5km;新建污水泵站2座，总规模为40m³/d。",
+            "project_location": "贵州省-遵义市-习水县",
+            "source_notice_id": "884631",
+            "plan_version_count": 2
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：习水县供排水管理服务中心"
+            ],
+            "similarities": {
+              "project_name": 0.379,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "习水县九龙街道片区污水管网新建与改造工程",
+          "plan": {
+            "published_at": "2026-05-28 11:24:13",
+            "title": "习水县九龙街道片区污水管网新建与改造工程项目招标计划",
+            "project_name": "习水县九龙街道片区污水管网新建与改造工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=882495",
+            "buyer": "习水县供排水管理服务中心",
+            "budget": "11477.51万元",
+            "fund_source": "申请超长期国债资金及县级自筹",
+            "fund_source_tags": [
+              "超长期",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2502-520330-04-01-742359",
+            "approval": "习发改投资[2025]22号",
+            "project_content": "一是新建及改造雨污分流管道31.14km，其中开槽施工28.3km、顶管施工2.84km；二是疏通现状堵塞污水管道3km；三是疏通现状堵塞污水检查井114座。",
+            "project_location": "贵州省-遵义市-习水县",
+            "source_notice_id": "882495",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：习水县供排水管理服务中心"
+            ],
+            "similarities": {
+              "project_name": 0.367,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "习水县县城供水管网漏损治理工程",
+          "plan": {
+            "published_at": "2026-04-15 15:01:10",
+            "title": "习水县县城供水管网漏损治理工程项目招标计划",
+            "project_name": "习水县县城供水管网漏损治理工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=862695",
+            "buyer": "习水县供排水管理服务中心",
+            "budget": "9994.32万元",
+            "fund_source": "拟争取超长期特别国债补助及地方财政自筹。",
+            "fund_source_tags": [
+              "超长期",
+              "财政资金",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2601-520330-04-02-125511",
+            "approval": "关于习水县县城供水管网漏损治理工程可行性研究报告的批复，习发改投资[2026]2号",
+            "project_content": "对县城和马临片区部分供水漏损管网进行改造，更换水表及水表箱，更换县城老旧小区二次供水设备，增设智慧水务系统。",
+            "project_location": "贵州省-遵义市-习水县",
+            "source_notice_id": "862695",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：习水县供排水管理服务中心"
+            ],
+            "similarities": {
+              "project_name": 0.318,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-07",
+        "title": "习水县马临街道污水处理厂、朝阳洞、白腊坪处污水设施应急修复工程竞争性磋商公告",
+        "project_name": "习水县马临街道污水处理厂、朝阳洞、白腊坪处污水设施应急修复工程竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=902361",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "习水县供排水管理服务中心",
+        "agency": "贵州天桥工程管理咨询有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "902361",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "该施工公告对应 3 个相近的超长期计划候选，需人工确认。",
+        "evidence": [
+          "招标人/采购人名称一致：习水县供排水管理服务中心"
+        ],
+        "similarities": {
+          "project_name": 0.379,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
     {
       "plan_project_key": "普安县县城供水管网改造工程",
       "plan": {
@@ -119,7 +319,7 @@
     }
   ],
   "stats": {
-    "total": 1,
-    "projects": 1
+    "total": 2,
+    "projects": 2
   }
 }
