@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-08T06:05:04.507650+08:00",
+  "updated_at": "2026-07-08T21:47:00.371238+08:00",
   "datasets": {
     "industries": "../data/latest.json",
     "construction": "../construction/data/latest.json",
@@ -9,9 +9,9 @@
     "status": "./data/run-status.json"
   },
   "summary": {
-    "graphic_items": 455,
-    "landscaping_items": 89,
-    "construction_items": 1578,
+    "graphic_items": 459,
+    "landscaping_items": 100,
+    "construction_items": 1632,
     "plan_notices": 1279,
     "ultra_long_projects": 28,
     "priority_notices": 2,
