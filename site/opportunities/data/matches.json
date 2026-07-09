@@ -1,7 +1,120 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-09T06:05:55.261210+08:00",
+  "updated_at": "2026-07-09T22:58:27.146248+08:00",
   "items": [
+    {
+      "plan_project_key": "锦屏县城生活污水管网改造提升项目",
+      "plan": {
+        "published_at": "2026-05-26 10:02:06",
+        "title": "锦屏县城生活污水管网改造提升项目项目招标计划",
+        "project_name": "锦屏县城生活污水管网改造提升项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=881024",
+        "buyer": "锦屏县水务局",
+        "budget": "5633万元",
+        "fund_source": "申请超长期特别国债资金3943万元、县级配套资金1690万元",
+        "fund_source_tags": [
+          "超长期",
+          "其他"
+        ],
+        "fixed_asset_code": "2502-522628-04-01-978304",
+        "approval": "黔东南发改委关于锦屏县城生活污水管网改造提升项目可行性研究报告的批复黔东南发改审批[2025]54号",
+        "project_content": "新建污水管网21.044公里，改造污水管网2.263公里。新建污水检查井886座，改造污水检查井150座。以及配套建设相关附属设施。",
+        "project_location": "贵州省-黔东南苗族侗族自治州-锦屏县",
+        "source_notice_id": "881024",
+        "plan_version_count": 2
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "锦屏县城生活污水管网改造提升项目",
+          "plan": {
+            "published_at": "2026-05-26 10:02:06",
+            "title": "锦屏县城生活污水管网改造提升项目项目招标计划",
+            "project_name": "锦屏县城生活污水管网改造提升项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=881024",
+            "buyer": "锦屏县水务局",
+            "budget": "5633万元",
+            "fund_source": "申请超长期特别国债资金3943万元、县级配套资金1690万元",
+            "fund_source_tags": [
+              "超长期",
+              "其他"
+            ],
+            "fixed_asset_code": "2502-522628-04-01-978304",
+            "approval": "黔东南发改委关于锦屏县城生活污水管网改造提升项目可行性研究报告的批复黔东南发改审批[2025]54号",
+            "project_content": "新建污水管网21.044公里，改造污水管网2.263公里。新建污水检查井886座，改造污水检查井150座。以及配套建设相关附属设施。",
+            "project_location": "贵州省-黔东南苗族侗族自治州-锦屏县",
+            "source_notice_id": "881024",
+            "plan_version_count": 2
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：锦屏县水务局"
+            ],
+            "similarities": {
+              "project_name": 0.273,
+              "project_content": 0.026,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-09",
+        "title": "锦屏县2026年中央水利发展资金农村供水工程维修养护项目",
+        "project_name": "锦屏县2026年中央水利发展资金农村供水工程维修养护项目",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235140692020432896",
+        "budget": "",
+        "project_content": "锦屏县2026年中央水利发展资金农村供水工程维修养护项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年08月05日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52262820260007TI 项目名称 : 锦屏县2026年中央水利发展资金农村供水工程维修养护项目 项目序列号 : ZFCG20260708017 采购方式 : 竞争性磋商 预算金额(元) : 1100000.00元 最高限价(元) : 1100000元 采购需求 : 农村供水工程维修养护 标项 标项名称 : 锦屏县2026年中央水利发展资金农村供水工程维修养护项目 数量 : 项 预算金额（元） : 1100000.00 简要规格描述或项目基本概况介绍、用途 : 供水工程维修养护 备注 : 合同履约期限 : 详见文件 本项目（是 / 否）接受联合体投标 : 否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "黔东南财采〔2022〕8号"
+        ],
+        "buyer": "锦屏县水务局",
+        "agency": "贵州华迅铭阳招标代理有限公司",
+        "bid_deadline": "2026-08-05 09:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52262820260007TI",
+        "source_notice_id": "1235140692020432896",
+        "matched_keywords": [
+          "水利水电工程施工总承包"
+        ],
+        "location": "黔东南州公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：锦屏县水务局"
+        ],
+        "similarities": {
+          "project_name": 0.273,
+          "project_content": 0.026,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
     {
       "plan_project_key": "习水县11个乡镇生活污水提质增效处理设施及配套管网提升工程",
       "plan": {
@@ -319,7 +432,7 @@
     }
   ],
   "stats": {
-    "total": 2,
-    "projects": 2
+    "total": 3,
+    "projects": 3
   }
 }
