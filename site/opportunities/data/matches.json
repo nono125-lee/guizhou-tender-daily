@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-09T22:58:27.146248+08:00",
+  "updated_at": "2026-07-10T06:05:05.978661+08:00",
   "items": [
     {
       "plan_project_key": "锦屏县城生活污水管网改造提升项目",
@@ -91,7 +91,7 @@
           "水利水电工程施工总承包"
         ],
         "location": "黔东南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
