@@ -1,7 +1,231 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-10T06:05:05.978661+08:00",
+  "updated_at": "2026-07-11T06:09:10.014060+08:00",
   "items": [
+    {
+      "plan_project_key": "贵州大学科研楼建设项目",
+      "plan": {
+        "published_at": "2026-07-01 17:31:04",
+        "title": "贵州大学科研楼建设项目项目招标计划",
+        "project_name": "贵州大学科研楼建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+        "buyer": "贵州大学",
+        "budget": "12856.61万元",
+        "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+        "fund_source_tags": [
+          "超长期",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2601-520000-04-01-829223",
+        "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+        "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+        "project_location": "贵州省-贵阳市-花溪区",
+        "source_notice_id": "900025",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州大学科研楼建设项目",
+          "plan": {
+            "published_at": "2026-07-01 17:31:04",
+            "title": "贵州大学科研楼建设项目项目招标计划",
+            "project_name": "贵州大学科研楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+            "buyer": "贵州大学",
+            "budget": "12856.61万元",
+            "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+            "fund_source_tags": [
+              "超长期",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2601-520000-04-01-829223",
+            "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+            "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+            "project_location": "贵州省-贵阳市-花溪区",
+            "source_notice_id": "900025",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州大学附属中学"
+            ],
+            "similarities": {
+              "project_name": 0.296,
+              "project_content": 0.056,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-10",
+        "title": "贵州大学附属中学木栈道维修改造的竞争性谈判公告",
+        "project_name": "贵州大学附属中学木栈道维修改造的竞争性谈判公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235481263347994624",
+        "budget": "",
+        "project_content": "贵州大学附属中学木栈道维修改造 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月16日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： GZTM-2026-273 项目名称： 贵州大学附属中学木栈道维修改造 采购方式： 竞争性谈判 交易项目序列号： P52000020260007SA 预算金额（元）： 700000.00 最高限价（元）： 标包1:534509.41 采购需求： 标项1 标项名称: 贵州大学附属中学木栈道维修改造 数量: 1 预算金额（元）: 700000.00 简要规格描述： 详见竞争性谈判文件 备注： 合同履约期限： 标包1:25个日历天内施工完毕并竣工验收。 本项目（是/否）接受联合体投标： 标项1:否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州大学附属中学",
+        "agency": "贵州拓迈电子招投标服务有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52000020260007SA",
+        "source_notice_id": "1235481263347994624",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "贵州省公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州大学附属中学"
+        ],
+        "similarities": {
+          "project_name": 0.296,
+          "project_content": 0.056,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "贵州大学科研楼建设项目",
+      "plan": {
+        "published_at": "2026-07-01 17:31:04",
+        "title": "贵州大学科研楼建设项目项目招标计划",
+        "project_name": "贵州大学科研楼建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+        "buyer": "贵州大学",
+        "budget": "12856.61万元",
+        "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+        "fund_source_tags": [
+          "超长期",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2601-520000-04-01-829223",
+        "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+        "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+        "project_location": "贵州省-贵阳市-花溪区",
+        "source_notice_id": "900025",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州大学科研楼建设项目",
+          "plan": {
+            "published_at": "2026-07-01 17:31:04",
+            "title": "贵州大学科研楼建设项目项目招标计划",
+            "project_name": "贵州大学科研楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+            "buyer": "贵州大学",
+            "budget": "12856.61万元",
+            "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+            "fund_source_tags": [
+              "超长期",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2601-520000-04-01-829223",
+            "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+            "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+            "project_location": "贵州省-贵阳市-花溪区",
+            "source_notice_id": "900025",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州大学"
+            ],
+            "similarities": {
+              "project_name": 0.242,
+              "project_content": 0.054,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-10",
+        "title": "贵州大学西二区体育场跑道及球场维修改造工程的竞争性磋商公告",
+        "project_name": "贵州大学西二区体育场跑道及球场维修改造工程的竞争性磋商公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235476740340584448",
+        "budget": "",
+        "project_content": "贵州大学西二区体育场跑道及球场维修改造工程 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月21日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： WHC26100 项目名称： 贵州大学西二区体育场跑道及球场维修改造工程 采购方式： 竞争性磋商 交易项目序列号： P52000020260007T5 预算金额（元）： 3971257.71 最高限价（元）： 标包1:3971257.71 采购需求： 标项1 标项名称: 贵州大学西二区体育场跑道及球场维修改造工程 数量: 不限 预算金额（元）: 3971257.71 简要规格描述： 为提升校园体育基础条件，建设美丽校园，满足日常教学、训练及活动比赛场地使用的需求，对西二区室外体育场地进行修缮。工程主要包含更换半预制型跑道及基层、混合型跑道及基层，更换人造草皮等，增加铅球场地、跳高场地器材设施，更换跳远及三级跳场地器材设施，更换障碍赛水池面层等。详见工程量清单及图纸。 备注： 合同履约期限： 标包1:40日历天 本项目（是/否）接受联合体投标： 标项1:否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "黔发改财金（2020）421号"
+        ],
+        "buyer": "贵州大学",
+        "agency": "贵州万和工程招标代理造价咨询有限责任公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52000020260007T5",
+        "source_notice_id": "1235476740340584448",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "贵州省公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州大学"
+        ],
+        "similarities": {
+          "project_name": 0.242,
+          "project_content": 0.054,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
     {
       "plan_project_key": "锦屏县城生活污水管网改造提升项目",
       "plan": {
@@ -432,7 +656,7 @@
     }
   ],
   "stats": {
-    "total": 3,
-    "projects": 3
+    "total": 5,
+    "projects": 4
   }
 }
