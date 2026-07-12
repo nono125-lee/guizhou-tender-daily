@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-12T06:04:31.529906+08:00",
+  "updated_at": "2026-07-13T01:33:51.994882+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
@@ -13,14 +13,14 @@
   "stats": {
     "total": 1262,
     "merged_total": 1262,
-    "window_items": 36,
-    "source_total": 36,
-    "source_total_pages": 4,
-    "collected_pages": 4,
+    "window_items": 17,
+    "source_total": 17,
+    "source_total_pages": 2,
+    "collected_pages": 2,
     "list_complete": true,
     "mode": "daily",
     "pub_date": "l3d",
-    "detail_cache_hits": 36,
+    "detail_cache_hits": 17,
     "detail_cache_misses": 0,
     "detail_fetch_success": 0,
     "detail_fetch_failed": 0,
@@ -33515,12 +33515,12 @@
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-12T06:04:27.295667+08:00",
+    "updated_at": "2026-07-13T01:24:11.593029+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
-      "total": 1892,
-      "new_today": 0,
+      "total": 2016,
+      "new_today": 124,
       "sources": 11,
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
