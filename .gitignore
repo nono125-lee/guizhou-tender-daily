@@ -11,3 +11,6 @@ logs/
 .site-preview/
 .runtime/
 deploy/logs/
+
+# 误放的前端项目
+sites/
