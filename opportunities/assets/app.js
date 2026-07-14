@@ -1,5 +1,6 @@
+const FUND_KEYWORD_FILTERS = ["国债", "专项", "中央", "省级"];
 const FUND_TAG_ORDER = [
-  "超长期", "政府投资", "财政资金", "上级补助", "国有资金", "专项债",
+  ...FUND_KEYWORD_FILTERS, "超长期", "政府投资", "财政资金", "上级补助", "国有资金", "专项债",
   "地方自筹", "企业自筹", "银行贷款", "社会资本", "其他", "未载明"
 ];
 const PREFECTURE_LABELS = {
@@ -137,6 +138,12 @@ function isUltraLong(item) {
   return /超长期(?:特别)?国债|特别国债/.test(item.fund_source || "");
 }
 
+function matchesFundFilter(item, filter) {
+  if (FUND_KEYWORD_FILTERS.includes(filter)) return (item.fund_source || "").includes(filter);
+  if (filter === "超长期") return isUltraLong(item);
+  return (item.fund_source_tags || []).includes(filter);
+}
+
 function populateConstructionFilters(items) {
   optionList($("#construction-region"), [...new Set(items.map(constructionRegionOf))]);
   optionList($("#construction-source"), [...new Set(items.map((item) => item.source_name))]);
@@ -258,7 +265,7 @@ function filterPlans(items) {
   const plannedMonth = $("#plan-planned-month").value;
   return groupedPlans(items).filter((item) => {
     const passFund = !state.activeFund
-      || (state.activeFund === "超长期" ? isUltraLong(item) : (item.fund_source_tags || []).includes(state.activeFund));
+      || matchesFundFilter(item, state.activeFund);
     return withinDays(item.published_at, days)
       && (!prefecture || prefectureOf(item) === prefecture)
       && (!district || districtOf(item) === district)
@@ -282,6 +289,9 @@ function renderFundStrip(items) {
   const counts = new Map();
   items.forEach((item) => {
     (item.fund_source_tags || ["未载明"]).forEach((tag) => counts.set(tag, (counts.get(tag) || 0) + 1));
+  });
+  FUND_KEYWORD_FILTERS.forEach((keyword) => {
+    counts.set(keyword, items.filter((item) => matchesFundFilter(item, keyword)).length);
   });
   counts.set("超长期", items.filter(isUltraLong).length);
   [...new Set([...FUND_TAG_ORDER, ...counts.keys()])]

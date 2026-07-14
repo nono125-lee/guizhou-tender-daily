@@ -1,4 +1,6 @@
+const FUND_KEYWORD_FILTERS = ["国债", "专项", "中央", "省级"];
 const FUND_TAG_ORDER = [
+  ...FUND_KEYWORD_FILTERS,
   "超长期",
   "政府投资",
   "财政资金",
@@ -131,6 +133,12 @@ function isUltraLongBond(item) {
   return /超长期(?:特别)?国债|特别国债/.test(item.fund_source || "");
 }
 
+function matchesFundFilter(item, filter) {
+  if (FUND_KEYWORD_FILTERS.includes(filter)) return (item.fund_source || "").includes(filter);
+  if (filter === "超长期") return isUltraLongBond(item);
+  return (item.fund_source_tags || []).includes(filter);
+}
+
 function populateFilters(items) {
   optionList($("#prefecture"), [...new Set(items.map(prefectureOf))]);
   updateDistrictOptions();
@@ -196,8 +204,8 @@ function renderPrioritySection() {
     title.href = notice.url;
     title.textContent = notice.project_name || notice.title;
     template.querySelector(".priority-plan-name").textContent = candidates.length > 1
-      ? `可能关联 ${candidates.length} 个超长期计划；首要候选：${plan.project_name || plan.title || "未载明"}`
-      : `关联超长期计划：${plan.project_name || plan.title || "未载明"}`;
+      ? `可能关联 ${candidates.length} 个重点资金计划；首要候选：${plan.project_name || plan.title || "未载明"}`
+      : `关联重点资金计划：${plan.project_name || plan.title || "未载明"}`;
     template.querySelector(".priority-review-note").textContent = valueOrBlank(match.review_note);
     template.querySelector(".priority-buyer").textContent = valueOrBlank(notice.buyer);
     template.querySelector(".priority-code").textContent = valueOrBlank(notice.project_code);
@@ -252,7 +260,7 @@ function passFilters(item) {
   const passDate = dateRange === "all" || (published && published >= daysAgo(dateRange));
   const passPlanned = !plannedMonth || (item.planned_bid_time || "").startsWith(plannedMonth);
   const passButton = !button
-    || (button === "超长期" ? isUltraLongBond(item) : (item.fund_source_tags || []).includes(button));
+    || matchesFundFilter(item, button);
   return (!query || haystack.includes(query))
     && (!prefecture || prefectureOf(item) === prefecture)
     && (!district || districtOf(item) === district)
@@ -267,6 +275,9 @@ function renderFundStrip() {
   const latestItems = state.projects.map((project) => project.latest);
   latestItems.forEach((item) => {
     (item.fund_source_tags || ["未载明"]).forEach((tag) => counts.set(tag, (counts.get(tag) || 0) + 1));
+  });
+  FUND_KEYWORD_FILTERS.forEach((keyword) => {
+    counts.set(keyword, latestItems.filter((item) => matchesFundFilter(item, keyword)).length);
   });
   counts.set("超长期", latestItems.filter(isUltraLongBond).length);
   const strip = $("#fund-strip");
