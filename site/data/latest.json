@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T23:24:28.997179+08:00",
+  "updated_at": "2026-07-14T23:44:39.484682+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -119,6 +119,37 @@
         ]
       },
       "first_seen_at": "2026-07-14T23:24:28.997179+08:00",
+      "new_on_date": "2026-07-14",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-14",
+      "date_basis": "official",
+      "title": "河南省驻马店市新家园房地产开发有限公司B楼东3单元第4层415、第5层504(七次挂牌)（国务院国资委监测编号：GR2024GZ1000470-7）",
+      "project_name": "河南省驻马店市新家园房地产开发有限公司B楼东3单元第4层415、第5层504(七次挂牌)（国务院国资委监测编号：GR2024GZ1000470-7）",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1237033420580851712",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "国有产权",
+      "buyer": "让方： 自主报价 信息公告期满后若征集到两个或以上符合条件的意向受让方： 网络竞价 五、转让方承诺 本转让方现对贵州阳光产权交易所有限公司进行",
+      "agency": "公告未载明",
+      "bid_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "家园"
+      ],
+      "source_name": "贵州省公共资源交易云",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "家园"
+        ]
+      },
+      "first_seen_at": "2026-07-14T23:44:39.484682+08:00",
       "new_on_date": "2026-07-14",
       "is_new": true
     },
@@ -22993,12 +23024,14 @@
     }
   ],
   "stats": {
-    "total": 721,
-    "new_today": 40,
+    "total": 722,
+    "new_today": 41,
     "sources": 11,
     "graphic_advertising": 521,
-    "landscaping": 227,
-    "new_items": 40
+    "landscaping": 228,
+    "new_items": 41
   },
-  "warnings": []
+  "warnings": [
+    "本次未发现新公告编号，已保留上次成功数据"
+  ]
 }
