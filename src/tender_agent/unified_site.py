@@ -109,7 +109,7 @@ def collect_plans() -> dict:
             "--construction-data",
             str(CONSTRUCTION_DATA),
         ],
-        "超长期招标计划",
+        "招标计划与重点资金关联",
     )
 
 
@@ -128,7 +128,7 @@ def run_tests() -> dict:
             "skills/tender-plan-intelligence/tests",
             "-q",
         ],
-        "超长期测试",
+        "招标计划测试",
     )
     unified = run_command(
         [

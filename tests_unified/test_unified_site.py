@@ -160,6 +160,12 @@ class UnifiedSiteTests(unittest.TestCase):
         self.assertIn("用户重点提示", app)
         self.assertIn('$("#construction-source").value === source', app)
         self.assertIn('"政府投资"', app)
+        self.assertIn(
+            'const FUND_KEYWORD_FILTERS = ["国债", "专项", "中央", "省级"];',
+            app,
+        )
+        self.assertIn("matchesFundFilter", app)
+        self.assertLess(app.index('"国债"'), app.index('"超长期"'))
         self.assertNotIn("groupedUltraPlans", app)
 
 

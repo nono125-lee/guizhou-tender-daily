@@ -5,6 +5,7 @@ import argparse
 import json
 import re
 import unicodedata
+from collections.abc import Callable
 from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -19,6 +20,7 @@ DEFAULT_REMOTE_CONSTRUCTION_DATA = (
     "construction/data/latest.json"
 )
 ULTRA_LONG_RE = re.compile(r"超长期(?:特别)?国债|特别国债")
+PRIORITY_FUND_KEYWORDS = ("国债", "专项", "中央", "省级")
 PUNCTUATION_RE = re.compile(r"[\s\-—_·,，。:：;；()（）\[\]【】“”\"'、/\\]+")
 TEXT_PUNCTUATION_RE = re.compile(r"[^\u4e00-\u9fff0-9a-z]+")
 LOCATION_TOKEN_RE = re.compile(
@@ -135,6 +137,13 @@ def notice_match_text(notice: dict) -> str:
 def is_ultra_long_plan(item: dict) -> bool:
     return "超长期" in item.get("fund_source_tags", []) or bool(
         ULTRA_LONG_RE.search(str(item.get("fund_source") or ""))
+    )
+
+
+def is_priority_fund_plan(item: dict) -> bool:
+    fund_source = str(item.get("fund_source") or "")
+    return is_ultra_long_plan(item) or any(
+        keyword in fund_source for keyword in PRIORITY_FUND_KEYWORDS
     )
 
 
@@ -301,7 +310,9 @@ def project_group_key(item: dict) -> str:
     )
 
 
-def latest_ultra_long_plans(items: list[dict]) -> list[dict]:
+def _latest_plans_matching(
+    items: list[dict], predicate: Callable[[dict], bool]
+) -> list[dict]:
     groups: dict[str, list[dict]] = {}
     for item in items:
         groups.setdefault(project_group_key(item), []).append(item)
@@ -315,12 +326,20 @@ def latest_ultra_long_plans(items: list[dict]) -> list[dict]:
             ),
             reverse=True,
         )
-        if not is_ultra_long_plan(versions[0]):
+        if not predicate(versions[0]):
             continue
         selected = dict(versions[0])
         selected["plan_version_count"] = len(versions)
         latest.append(selected)
     return latest
+
+
+def latest_ultra_long_plans(items: list[dict]) -> list[dict]:
+    return _latest_plans_matching(items, is_ultra_long_plan)
+
+
+def latest_priority_fund_plans(items: list[dict]) -> list[dict]:
+    return _latest_plans_matching(items, is_priority_fund_plan)
 
 
 def public_notice_fields(notice: dict) -> dict:
@@ -369,7 +388,7 @@ def public_plan_fields(plan: dict) -> dict:
 
 
 def build_priority_notices(plan_items: list[dict], notice_items: list[dict]) -> list[dict]:
-    plans = latest_ultra_long_plans(plan_items)
+    plans = latest_priority_fund_plans(plan_items)
     matches: list[dict] = []
 
     for notice in notice_items:
@@ -410,7 +429,7 @@ def build_priority_notices(plan_items: list[dict], notice_items: list[dict]) -> 
             match["review_required"] = True
             match["match_level"] = "candidate"
             match["review_note"] = (
-                f"该施工公告对应 {len(candidate_plans)} 个相近的超长期计划候选，需人工确认。"
+                f"该施工公告对应 {len(candidate_plans)} 个相近的重点资金计划候选，需人工确认。"
             )
         matches.append(
             {
@@ -501,7 +520,7 @@ def write_json(path: Path, payload: dict) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Match construction notices to ultra-long bond tender plans."
+        description="Match construction notices to priority-funded tender plans."
     )
     parser.add_argument("--plan-data", type=Path, required=True)
     parser.add_argument("--construction-data", default="auto")

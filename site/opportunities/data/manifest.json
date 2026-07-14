@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-14T06:05:22.551985+08:00",
+  "updated_at": "2026-07-14T23:16:12.429281+08:00",
   "datasets": {
     "industries": "../data/latest.json",
     "construction": "../construction/data/latest.json",
@@ -14,8 +14,8 @@
     "construction_items": 2078,
     "plan_notices": 1276,
     "ultra_long_projects": 28,
-    "priority_notices": 9,
-    "priority_projects": 4,
+    "priority_notices": 152,
+    "priority_projects": 80,
     "watched_projects": 0,
     "watched_notices": 0
   }

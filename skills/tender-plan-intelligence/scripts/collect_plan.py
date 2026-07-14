@@ -775,7 +775,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument(
         "--no-construction-match",
         action="store_true",
-        help="跳过超长期计划与施工标讯关联。",
+        help="跳过重点资金计划与施工标讯关联。",
     )
     return parser.parse_args(argv)
 

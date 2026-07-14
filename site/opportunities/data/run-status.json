@@ -1,64 +1,14 @@
 {
-  "started_at": "2026-07-14T06:03:03.045179+08:00",
-  "collection": {
-    "industries": {
-      "label": "图文广告与园林绿化",
-      "ok": true,
-      "returncode": 0,
-      "started_at": "2026-07-14T06:03:03.045334+08:00",
-      "completed_at": "2026-07-14T06:04:36.680216+08:00",
-      "duration_seconds": 93.63
-    },
-    "construction": {
-      "label": "施工标讯粗筛",
-      "ok": true,
-      "returncode": 0,
-      "started_at": "2026-07-14T06:04:36.680262+08:00",
-      "completed_at": "2026-07-14T06:04:50.779269+08:00",
-      "duration_seconds": 14.1
-    },
-    "tender_plans": {
-      "label": "超长期招标计划",
-      "ok": true,
-      "returncode": 0,
-      "started_at": "2026-07-14T06:04:50.779345+08:00",
-      "completed_at": "2026-07-14T06:05:22.247960+08:00",
-      "duration_seconds": 31.47
-    }
-  },
+  "started_at": "2026-07-14T23:16:12.403779+08:00",
+  "collection": {},
   "tests": {
-    "ok": true,
-    "suites": [
-      {
-        "label": "施工标讯测试",
-        "ok": true,
-        "returncode": 0,
-        "started_at": "2026-07-14T06:05:22.248016+08:00",
-        "completed_at": "2026-07-14T06:05:22.410065+08:00",
-        "duration_seconds": 0.16
-      },
-      {
-        "label": "超长期测试",
-        "ok": true,
-        "returncode": 0,
-        "started_at": "2026-07-14T06:05:22.410417+08:00",
-        "completed_at": "2026-07-14T06:05:22.476975+08:00",
-        "duration_seconds": 0.07
-      },
-      {
-        "label": "统一工作台测试",
-        "ok": true,
-        "returncode": 0,
-        "started_at": "2026-07-14T06:05:22.477035+08:00",
-        "completed_at": "2026-07-14T06:05:22.528921+08:00",
-        "duration_seconds": 0.05
-      }
-    ]
+    "ok": null,
+    "suites": []
   },
   "publish": {
-    "requested": true
+    "requested": false
   },
-  "completed_at": "2026-07-14T06:05:22.551985+08:00",
+  "completed_at": "2026-07-14T23:16:12.429281+08:00",
   "datasets": {
     "industries": {
       "url": "../data/latest.json",
@@ -118,8 +68,8 @@
         "fund_source_tags": 11,
         "detail_cache_seeded": 0,
         "ultra_long_projects": 28,
-        "priority_notices": 9,
-        "priority_projects": 6,
+        "priority_notices": 152,
+        "priority_projects": 95,
         "priority_new_today": 0
       },
       "warning_count": 0,
@@ -132,8 +82,8 @@
     "construction_items": 2078,
     "plan_notices": 1276,
     "ultra_long_projects": 28,
-    "priority_notices": 9,
-    "priority_projects": 4,
+    "priority_notices": 152,
+    "priority_projects": 80,
     "watched_projects": 0,
     "watched_notices": 0
   }

@@ -152,6 +152,25 @@ class PriorityMatchTests(unittest.TestCase):
         )
         self.assertEqual(build_priority_notices([older, newer], [notice()]), [])
 
+    def test_named_fund_sources_are_included_in_priority_matches(self):
+        fund_sources = (
+            "一般国债资金",
+            "水利专项资金",
+            "中央预算内投资",
+            "省级财政资金",
+        )
+        for index, fund_source in enumerate(fund_sources, start=1):
+            with self.subTest(fund_source=fund_source):
+                candidate = plan(
+                    source_notice_id=f"plan-{index}",
+                    fund_source=fund_source,
+                    fund_source_tags=[],
+                )
+                self.assertEqual(
+                    len(build_priority_notices([candidate], [notice()])),
+                    1,
+                )
+
     def test_merge_adds_relation_and_stats_without_mutating_plan_items(self):
         original_plan = plan()
         payload = {"schema_version": 1, "items": [dict(original_plan)], "stats": {}}

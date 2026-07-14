@@ -276,5 +276,19 @@ class MainWorkflowTests(unittest.TestCase):
             self.assertEqual(fetch_detail_mock.call_count, 1)
 
 
+class PageAssetTests(unittest.TestCase):
+    def test_priority_fund_shortcuts_precede_ultra_long(self):
+        skill = Path(__file__).resolve().parents[1] / "assets/site"
+        app = (skill / "assets/app.js").read_text(encoding="utf-8")
+        html = (skill / "index.html").read_text(encoding="utf-8")
+        self.assertIn(
+            'const FUND_KEYWORD_FILTERS = ["国债", "专项", "中央", "省级"];',
+            app,
+        )
+        self.assertIn("matchesFundFilter", app)
+        self.assertLess(app.index('"国债"'), app.index('"超长期"'))
+        self.assertIn("重点资金项目已出施工公告", html)
+
+
 if __name__ == "__main__":
     unittest.main()

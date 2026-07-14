@@ -8,11 +8,11 @@
 PYTHONPATH=src python3 -m tender_agent.unified_site update --publish
 ```
 
-该命令依次完成图文广告与园林绿化采集、施工增量采集、招标计划智能窗口采集、超长期及用户重点项目关联、统一页面生成、测试、提交和 GitHub Pages 发布。统一页面位于：
+该命令依次完成图文广告与园林绿化采集、施工增量采集、招标计划智能窗口采集、国债/专项/中央/省级/超长期及用户重点项目关联、统一页面生成、测试、提交和 GitHub Pages 发布。统一页面位于：
 
 <https://nono125-lee.github.io/guizhou-tender-daily/opportunities/>
 
-页面标题为“标讯雷达”，按“重点关联、图文广告、园林绿化、施工粗筛、招标计划、运行状态”排列。重点关联对用户指定的项目强提示，同时保留超长期项目自动关联；图文广告和园林绿化共用采集但独立分类；施工粗筛和招标计划保留原有筛选与详细页。
+页面标题为“标讯雷达”，按“重点关联、图文广告、园林绿化、施工粗筛、招标计划、运行状态”排列。重点关联对用户指定的项目强提示，同时自动关联资金来源原文命中“国债”“专项”“中央”“省级”或超长期的项目；招标计划页最前提供这五类快捷筛选；图文广告和园林绿化共用采集但独立分类；施工粗筛和招标计划保留原有筛选与详细页。
 
 这是一个面向多省份、多行业、多信息源的标讯采集项目。当前首期范围：
 
@@ -97,7 +97,7 @@ PYTHONPATH=src python3 -m tender_agent.site seed
 每次施工粗筛运行后，公开结果同时覆盖更新到
 `/Users/nonolee/Desktop/共享win/标讯/施工粗筛/`，便于 Windows 共享查看。
 
-超长期招标计划详细页面：
+重点资金招标计划详细页面：
 <https://nono125-lee.github.io/guizhou-tender-daily/tender-plan/>
 
 GitHub 仓库：<https://github.com/nono125-lee/guizhou-tender-daily>
