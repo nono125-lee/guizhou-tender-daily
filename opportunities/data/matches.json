@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-16T20:42:52.225632+08:00",
+  "updated_at": "2026-07-17T06:04:25.581309+08:00",
   "items": [
     {
       "plan_project_key": "贵州大学科研楼建设项目",
@@ -89,7 +89,7 @@
           "建筑工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -200,7 +200,7 @@
           "建筑工程施工总承包"
         ],
         "location": "贵州省公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -312,7 +312,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "贵阳市公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -421,7 +421,7 @@
           "建筑工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -530,7 +530,7 @@
           "建筑工程施工总承包"
         ],
         "location": "贵州省福泉市马场坪小河口高速公路北侧",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -642,7 +642,7 @@
           "建筑工程施工总承包"
         ],
         "location": "黔东南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -754,7 +754,7 @@
           "建筑工程施工总承包"
         ],
         "location": "黔东南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -871,7 +871,7 @@
           "建筑工程施工总承包"
         ],
         "location": "铜仁市公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -988,7 +988,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "黔南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "approval+project_name+buyer",
@@ -1101,7 +1101,7 @@
           "水利水电工程施工总承包"
         ],
         "location": "毕节市公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -1218,7 +1218,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "黔南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "approval+project_name+buyer",
@@ -1339,7 +1339,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "黔南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "approval+project_name+buyer",
@@ -4289,118 +4289,6 @@
       }
     },
     {
-      "plan_project_key": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-      "plan": {
-        "published_at": "2026-04-16 15:34:08",
-        "title": "贵州交通职业大学低空经济产教融合实训基地建设项目项目招标计划",
-        "project_name": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863253",
-        "buyer": "贵州交通职业大学",
-        "budget": "11759.45万元",
-        "fund_source": "中央预算资金和自筹资金",
-        "fund_source_tags": [
-          "财政资金",
-          "地方自筹"
-        ],
-        "fixed_asset_code": "2511-520000-04-01-223594",
-        "approval": "2511-520000-04-01-223594",
-        "project_content": "总建筑面积21299.95平方米。其中，计容建筑面积18762.95平方米，不计容建筑面积2537.00平方米。",
-        "project_location": "贵州省-贵阳市-清镇市",
-        "source_notice_id": "863253",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-          "plan": {
-            "published_at": "2026-04-16 15:34:08",
-            "title": "贵州交通职业大学低空经济产教融合实训基地建设项目项目招标计划",
-            "project_name": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863253",
-            "buyer": "贵州交通职业大学",
-            "budget": "11759.45万元",
-            "fund_source": "中央预算资金和自筹资金",
-            "fund_source_tags": [
-              "财政资金",
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2511-520000-04-01-223594",
-            "approval": "2511-520000-04-01-223594",
-            "project_content": "总建筑面积21299.95平方米。其中，计容建筑面积18762.95平方米，不计容建筑面积2537.00平方米。",
-            "project_location": "贵州省-贵阳市-清镇市",
-            "source_notice_id": "863253",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：贵州交通职业大学"
-            ],
-            "similarities": {
-              "project_name": 0.372,
-              "project_content": 0.046,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "贵州交通职业大学新生宿舍楼墙面维修翻新竞争性谈判公告",
-        "project_name": "贵州交通职业大学新生宿舍楼墙面维修翻新竞争性谈判公告",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=905072",
-        "budget": "279000.00元",
-        "project_content": "贵州交通职业大学新生宿舍楼墙面维修翻新 的潜在供应商应在贵州铭典项目管理有限公司 获取竞争性谈判文件，并于 2026年 7 月 17 日 9 时 30 分 (北京时间)前递交响应文件。 一、项目基本情况 1.项目名称： 贵州交通职业大学新生宿舍楼墙面维修翻新 2.项目编号： GZMD2026-P349 3.采购方式：竞争性谈判 4. 预算金额： 279000.00元 5.最高限价： 279000.00元 6.采购内容及范围： 贵州交通职业大学新生宿舍楼墙面维修翻新，具体内容详见第六章采购需求 。 7.本项目不接受联合体投标",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "贵州交通职业大学",
-        "agency": "贵州铭典项目管理有限公司",
-        "bid_deadline": "2026-07-17 09:30",
-        "source_name": "贵州省招标投标公共服务平台",
-        "project_code": null,
-        "source_notice_id": "905072",
-        "matched_keywords": [
-          "建筑工程施工总承包",
-          "建筑装修装饰工程专业"
-        ],
-        "location": "贵州省",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：贵州交通职业大学"
-        ],
-        "similarities": {
-          "project_name": 0.372,
-          "project_content": 0.046,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
       "plan": {
         "published_at": "2026-04-17 16:30:30",
@@ -6493,117 +6381,6 @@
         "similarities": {
           "project_name": 0.444,
           "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-      "plan": {
-        "published_at": "2026-04-16 15:34:08",
-        "title": "贵州交通职业大学低空经济产教融合实训基地建设项目项目招标计划",
-        "project_name": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863253",
-        "buyer": "贵州交通职业大学",
-        "budget": "11759.45万元",
-        "fund_source": "中央预算资金和自筹资金",
-        "fund_source_tags": [
-          "财政资金",
-          "地方自筹"
-        ],
-        "fixed_asset_code": "2511-520000-04-01-223594",
-        "approval": "2511-520000-04-01-223594",
-        "project_content": "总建筑面积21299.95平方米。其中，计容建筑面积18762.95平方米，不计容建筑面积2537.00平方米。",
-        "project_location": "贵州省-贵阳市-清镇市",
-        "source_notice_id": "863253",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-          "plan": {
-            "published_at": "2026-04-16 15:34:08",
-            "title": "贵州交通职业大学低空经济产教融合实训基地建设项目项目招标计划",
-            "project_name": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863253",
-            "buyer": "贵州交通职业大学",
-            "budget": "11759.45万元",
-            "fund_source": "中央预算资金和自筹资金",
-            "fund_source_tags": [
-              "财政资金",
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2511-520000-04-01-223594",
-            "approval": "2511-520000-04-01-223594",
-            "project_content": "总建筑面积21299.95平方米。其中，计容建筑面积18762.95平方米，不计容建筑面积2537.00平方米。",
-            "project_location": "贵州省-贵阳市-清镇市",
-            "source_notice_id": "863253",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：贵州省公路工程集团有限公司贵州交通职业大学校园内二三期连接段 项目经理部 ，并由 贵州黔通招标代理有限公司"
-            ],
-            "similarities": {
-              "project_name": 0.263,
-              "project_content": 0.017,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-09",
-        "title": "贵州省公路工程集团有限公司贵州交通职业大学校园内二三期连接段项目土建水电施工劳务合作（JZYDLGC-001）询比采购公告",
-        "project_name": "贵州省公路工程集团有限公司贵州交通职业大学校园内二三期连接段项目土建水电施工劳务合作（JZYDLGC-001）询比采购公告",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=904078",
-        "budget": "",
-        "project_content": "具体为：道路、电力、给排水、交通、路灯、通信工程涉及的土建水电劳务施工。暂定工程量详见劳务工程量清单，实际施工范围可根据项目部调度调整，按合同单价据实结算",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "贵州省公路工程集团有限公司贵州交通职业大学校园内二三期连接段 项目经理部 ，并由 贵州黔通招标代理有限公司",
-        "agency": "贵州黔通招标代理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省招标投标公共服务平台",
-        "project_code": null,
-        "source_notice_id": "904078",
-        "matched_keywords": [
-          "施工劳务"
-        ],
-        "location": "贵州省",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：贵州省公路工程集团有限公司贵州交通职业大学校园内二三期连接段 项目经理部 ，并由 贵州黔通招标代理有限公司"
-        ],
-        "similarities": {
-          "project_name": 0.263,
-          "project_content": 0.017,
           "buyer_equal": true,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
@@ -16715,118 +16492,6 @@
       }
     },
     {
-      "plan_project_key": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-      "plan": {
-        "published_at": "2026-04-16 15:34:08",
-        "title": "贵州交通职业大学低空经济产教融合实训基地建设项目项目招标计划",
-        "project_name": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863253",
-        "buyer": "贵州交通职业大学",
-        "budget": "11759.45万元",
-        "fund_source": "中央预算资金和自筹资金",
-        "fund_source_tags": [
-          "财政资金",
-          "地方自筹"
-        ],
-        "fixed_asset_code": "2511-520000-04-01-223594",
-        "approval": "2511-520000-04-01-223594",
-        "project_content": "总建筑面积21299.95平方米。其中，计容建筑面积18762.95平方米，不计容建筑面积2537.00平方米。",
-        "project_location": "贵州省-贵阳市-清镇市",
-        "source_notice_id": "863253",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-          "plan": {
-            "published_at": "2026-04-16 15:34:08",
-            "title": "贵州交通职业大学低空经济产教融合实训基地建设项目项目招标计划",
-            "project_name": "贵州交通职业大学低空经济产教融合实训基地建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863253",
-            "buyer": "贵州交通职业大学",
-            "budget": "11759.45万元",
-            "fund_source": "中央预算资金和自筹资金",
-            "fund_source_tags": [
-              "财政资金",
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2511-520000-04-01-223594",
-            "approval": "2511-520000-04-01-223594",
-            "project_content": "总建筑面积21299.95平方米。其中，计容建筑面积18762.95平方米，不计容建筑面积2537.00平方米。",
-            "project_location": "贵州省-贵阳市-清镇市",
-            "source_notice_id": "863253",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：贵州交通职业大学"
-            ],
-            "similarities": {
-              "project_name": 0.512,
-              "project_content": 0.03,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-16",
-        "title": "贵州交通职业大学教室维修改造施工项目的竞争性磋商公告",
-        "project_name": "贵州交通职业大学教室维修改造施工项目的竞争性磋商公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1226704122141609984",
-        "budget": "",
-        "project_content": "贵州交通职业大学教室维修改造施工项目 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年06月29日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： GZWH-2026-4633 项目名称： 贵州交通职业大学教室维修改造施工项目 采购方式： 竞争性磋商 交易项目序列号： P52000020260006FA 预算金额（元）： 1783700.00 最高限价（元）： 标包1:1783700.00 采购需求： 标项1 标项名称: 贵州交通职业大学教室维修改造施工项目 数量: 不限 预算金额（元）: 1783700.00 简要规格描述： 详见附件 备注： 合同履约期限： 标包1:合同签订后，接采购人通知5个日历日内进场施工，进场后30个日历日内施工完毕并达到验收标准。 本项目（是/否）接受联合体投标： 标项1:否",
-        "fixed_asset_code": null,
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": null,
-        "buyer": "贵州交通职业大学",
-        "agency": "贵州卫虹招标有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52000020260006FA",
-        "source_notice_id": "1226704122141609984",
-        "matched_keywords": [
-          "建筑工程施工总承包",
-          "建筑装修装饰工程专业"
-        ],
-        "location": "贵州省公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：贵州交通职业大学"
-        ],
-        "similarities": {
-          "project_name": 0.512,
-          "project_content": 0.03,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "毕节威宁省级储备粮仓储物流设施建设项目",
       "plan": {
         "published_at": "2026-06-05 18:32:46",
@@ -19981,131 +19646,10 @@
           "location_conflict": false
         }
       }
-    },
-    {
-      "plan_project_key": "黔西市观音洞镇黄泥村等6个村社区2026年度机耕道以工代赈建设项目",
-      "plan": {
-        "published_at": "2026-04-20 14:34:11",
-        "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目项目招标计划",
-        "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864450",
-        "buyer": "黔西市观音洞镇人民政府",
-        "budget": "454.84万元",
-        "fund_source": "中央财政衔接资金",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2604-520522-04-01-525123",
-        "approval": "黔市农复〔2026〕63号",
-        "project_content": "本工程属农村机耕道建设项目，为黔西市观音洞镇以工代赈项目。项目涉及9 个村，合计13 条机耕道。",
-        "project_location": "贵州省-毕节市-黔西市",
-        "source_notice_id": "864450",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔西市观音洞镇黄泥村等6个村社区2026年度机耕道以工代赈建设项目",
-          "plan": {
-            "published_at": "2026-04-20 14:34:11",
-            "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目项目招标计划",
-            "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864450",
-            "buyer": "黔西市观音洞镇人民政府",
-            "budget": "454.84万元",
-            "fund_source": "中央财政衔接资金",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2604-520522-04-01-525123",
-            "approval": "黔市农复〔2026〕63号",
-            "project_content": "本工程属农村机耕道建设项目，为黔西市观音洞镇以工代赈项目。项目涉及9 个村，合计13 条机耕道。",
-            "project_location": "贵州省-毕节市-黔西市",
-            "source_notice_id": "864450",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "fixed_asset_code+approval+project_name",
-            "methods": [
-              "fixed_asset_code",
-              "approval",
-              "project_name"
-            ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "投资项目代码一致：2604-520522-04-01-525123",
-              "批复文件编号一致：黔市农复202663号",
-              "标准化项目名称完全一致（100%）"
-            ],
-            "similarities": {
-              "project_name": 1.0,
-              "project_content": 0.119,
-              "buyer_equal": false,
-              "fixed_asset_code_equal": true,
-              "approval_equal": true,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-01",
-        "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目招标公告",
-        "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221347656638746624",
-        "budget": "4192000.00元",
-        "project_content": "本项目工程量清单、招标文件及其他补充资料所示全部内容",
-        "fixed_asset_code": "2604-520522-04-01-525123",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔市农复(2026)56号",
-          "黔市农复(2026)63号"
-        ],
-        "buyer": "公告未载明",
-        "agency": "中奕佳筑建设发展有限公司",
-        "bid_deadline": "2026年6月24日09：30分2026年6月26日09：3",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E5205812026000257001",
-        "source_notice_id": "1221347656638746624",
-        "matched_keywords": [
-          "市政公用工程施工总承包",
-          "公路工程施工总承包"
-        ],
-        "location": "毕节市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "fixed_asset_code+approval+project_name",
-        "methods": [
-          "fixed_asset_code",
-          "approval",
-          "project_name"
-        ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "投资项目代码一致：2604-520522-04-01-525123",
-          "批复文件编号一致：黔市农复202663号",
-          "标准化项目名称完全一致（100%）"
-        ],
-        "similarities": {
-          "project_name": 1.0,
-          "project_content": 0.119,
-          "buyer_equal": false,
-          "fixed_asset_code_equal": true,
-          "approval_equal": true,
-          "location_conflict": false
-        }
-      }
     }
   ],
   "stats": {
-    "total": 167,
-    "projects": 81
+    "total": 163,
+    "projects": 80
   }
 }
