@@ -1,7 +1,229 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-16T14:55:34.041056+08:00",
+  "updated_at": "2026-07-16T20:42:52.225632+08:00",
   "items": [
+    {
+      "plan_project_key": "贵州大学科研楼建设项目",
+      "plan": {
+        "published_at": "2026-07-01 17:31:04",
+        "title": "贵州大学科研楼建设项目项目招标计划",
+        "project_name": "贵州大学科研楼建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+        "buyer": "贵州大学",
+        "budget": "12856.61万元",
+        "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+        "fund_source_tags": [
+          "超长期",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2601-520000-04-01-829223",
+        "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+        "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+        "project_location": "贵州省-贵阳市-花溪区",
+        "source_notice_id": "900025",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州大学科研楼建设项目",
+          "plan": {
+            "published_at": "2026-07-01 17:31:04",
+            "title": "贵州大学科研楼建设项目项目招标计划",
+            "project_name": "贵州大学科研楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+            "buyer": "贵州大学",
+            "budget": "12856.61万元",
+            "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+            "fund_source_tags": [
+              "超长期",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2601-520000-04-01-829223",
+            "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+            "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+            "project_location": "贵州省-贵阳市-花溪区",
+            "source_notice_id": "900025",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州大学"
+            ],
+            "similarities": {
+              "project_name": 0.242,
+              "project_content": 0.056,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-16",
+        "title": "贵州大学西校区天然草坪足球场、篮排球场修缮工程采购公告",
+        "project_name": "贵州大学西校区天然草坪足球场、篮排球场修缮工程采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=907928",
+        "budget": "",
+        "project_content": "贵州大学西校区天然草坪足球场、篮排球场修缮工程 招标项目的潜在供应商应在贵州省公共资源交易中心网上获取（交易中心网址： http：//ggzy.guizhou.gov.cn/）获取采购文件，并于2026年0 7 月 28 日 09 时 30 分（北京时间）前递交 响应 文件。 一、项目基本信息 项目编号： BLJT092026099 项目名称： 贵州大学西校区天然草坪足球场、篮排球场修缮工程 采购方式： 竞争性磋商 交易 项目序列号： P520000202600089S 预算金额 （元） ： 贰佰伍拾伍万元整（ ¥2550000.00元） 最高限价 （元） ： 贰佰伍拾壹万捌仟叁佰捌拾肆元伍角（ ¥2518384.50元） 简要规格描述 ：为提升校园体育基础条件，建设美丽校园，打造住宿运动一体生活圈，对西校区原天然草坪足球场、篮排球场进行修缮。工程主要包含： 1、拆除天然草坪足球场种植土层及新建人工草坪足球场（含跑道）；2、拆除篮排球场塑胶面层及新建塑胶地面；3、足球场地排水系统及围护设施维护；4、新建足球场地照明设施,篮排球场地排水系统及围护设施维护；5、新建足球场及篮排球场主、次入口安全防护栏杆及地面铺装修复等。（具体详见采购文件、工程量清单、图纸及相关附件）。 工期 ： 60 日历天。 本项目 不 接受 联合体投标",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州大学",
+        "agency": "佰利建设管理（集团）有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "907928",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州大学"
+        ],
+        "similarities": {
+          "project_name": 0.242,
+          "project_content": 0.056,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "贵州大学科研楼建设项目",
+      "plan": {
+        "published_at": "2026-07-01 17:31:04",
+        "title": "贵州大学科研楼建设项目项目招标计划",
+        "project_name": "贵州大学科研楼建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+        "buyer": "贵州大学",
+        "budget": "12856.61万元",
+        "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+        "fund_source_tags": [
+          "超长期",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2601-520000-04-01-829223",
+        "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+        "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+        "project_location": "贵州省-贵阳市-花溪区",
+        "source_notice_id": "900025",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州大学科研楼建设项目",
+          "plan": {
+            "published_at": "2026-07-01 17:31:04",
+            "title": "贵州大学科研楼建设项目项目招标计划",
+            "project_name": "贵州大学科研楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+            "buyer": "贵州大学",
+            "budget": "12856.61万元",
+            "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+            "fund_source_tags": [
+              "超长期",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2601-520000-04-01-829223",
+            "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+            "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+            "project_location": "贵州省-贵阳市-花溪区",
+            "source_notice_id": "900025",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州大学"
+            ],
+            "similarities": {
+              "project_name": 0.235,
+              "project_content": 0.058,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-16",
+        "title": "贵州大学西校区天然草坪足球场、篮排球场修缮工程的竞争性磋商公告",
+        "project_name": "贵州大学西校区天然草坪足球场、篮排球场修缮工程的竞争性磋商公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1237649681413181440",
+        "budget": "",
+        "project_content": "贵州大学西校区天然草坪足球场、篮排球场修缮工程 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月28日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： BLJT092026099 项目名称： 贵州大学西校区天然草坪足球场、篮排球场修缮工程 采购方式： 竞争性磋商 交易项目序列号： P520000202600089S 预算金额（元）： 2550000.00 最高限价（元）： 标包1:2518384.50 采购需求： 标项1 标项名称: 贵州大学西校区天然草坪足球场、篮排球场修缮工程 数量: 不限 预算金额（元）: 2550000.00 简要规格描述： 为提升校园体育基础条件，建设美丽校园，打造住宿运动一体生活圈，对西校区原天然草坪足球场、篮排球场进行修缮。工程主要包含：1、拆除天然草坪足球场种植土层及新建人工草坪足球场（含跑道）；2、拆除篮排球场塑胶面层及新建塑胶地面；3、足球场地排水系统及围护设施维护；4、新建足球场地照明设施,篮排球场地排水系统及围护设施维护；5、新建足球场及篮排球场主、次入口安全防护栏杆及地面铺装修复等。（具体详见采购文件、工程量清单、图纸及相关附件）。 备注： 合同履约期限： 标包1:60日历天 本项目（是/否）接受联合体投标： 标项1:否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州大学",
+        "agency": "佰利建设管理（集团）有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P520000202600089S",
+        "source_notice_id": "1237649681413181440",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "贵州省公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州大学"
+        ],
+        "similarities": {
+          "project_name": 0.235,
+          "project_content": 0.058,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
     {
       "plan_project_key": "修文县谷堡镇平滩村移民美丽家园建设项目",
       "plan": {
@@ -11733,122 +11955,6 @@
       }
     },
     {
-      "plan_project_key": "贵州医科大学第三附属医院病房改造建设项目",
-      "plan": {
-        "published_at": "2026-05-14 15:37:00",
-        "title": "贵州医科大学第三附属医院病房改造建设项目项目招标计划",
-        "project_name": "贵州医科大学第三附属医院病房改造建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875739",
-        "buyer": "贵州医科大学第三附属医院",
-        "budget": "6350万元",
-        "fund_source": "拟申请中央预算内投资、医院自筹资金",
-        "fund_source_tags": [
-          "财政资金",
-          "地方自筹"
-        ],
-        "fixed_asset_code": "2405-520000-04-05-637069",
-        "approval": "关于贵州医科大学第三附属医院病房改造建设项目可行性研究报告的批复（黔发改社会[2026]136号）",
-        "project_content": "项目总建筑面积14974平方米，改造床位351张，主要将4人(间)及以上病房改造为2-3人间，改造病房卫生间232间、改造公共卫生间17间，配套实施供电、消防、无障碍、适老化等相关附属设施改造。",
-        "project_location": "贵州省-黔南布依族苗族自治州-都匀市",
-        "source_notice_id": "875739",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "贵州医科大学第三附属医院病房改造建设项目",
-          "plan": {
-            "published_at": "2026-05-14 15:37:00",
-            "title": "贵州医科大学第三附属医院病房改造建设项目项目招标计划",
-            "project_name": "贵州医科大学第三附属医院病房改造建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875739",
-            "buyer": "贵州医科大学第三附属医院",
-            "budget": "6350万元",
-            "fund_source": "拟申请中央预算内投资、医院自筹资金",
-            "fund_source_tags": [
-              "财政资金",
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2405-520000-04-05-637069",
-            "approval": "关于贵州医科大学第三附属医院病房改造建设项目可行性研究报告的批复（黔发改社会[2026]136号）",
-            "project_content": "项目总建筑面积14974平方米，改造床位351张，主要将4人(间)及以上病房改造为2-3人间，改造病房卫生间232间、改造公共卫生间17间，配套实施供电、消防、无障碍、适老化等相关附属设施改造。",
-            "project_location": "贵州省-黔南布依族苗族自治州-都匀市",
-            "source_notice_id": "875739",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.93,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 66.7%",
-              "招标人/采购人名称一致：贵州医科大学第三附属医院"
-            ],
-            "similarities": {
-              "project_name": 0.8,
-              "project_content": 0.038,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-30",
-        "title": "采购贵州医科大学第三附属医院病房改造建设项目管理公司服务 比选公告",
-        "project_name": "采购贵州医科大学第三附属医院病房改造建设项目管理公司服务 比选公告",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=899271",
-        "budget": "",
-        "project_content": "本次项目建设管理将贯穿项目设计阶段、施工建设阶段、质量缺陷责任期全流程，为项目提供全链条、专业化、合规化的项目管理咨询与落地服务。服务范围涵盖政策合规解读、招标流程、施工进度管控、建设流程优化、专项政策申报、施工现场统筹指导、工程资料规整归档（严格依照行业档案管理规范，同步完成纸质、电子档案标准化建档留存）等全方位技术支撑与管理保障工作，全面保障项目合法合规、高效有序推进 ， 具体内容详见《比选文件》",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "贵州医科大学第三附属医院",
-        "agency": "贵州省新皓腾项目管理咨询有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省招标投标公共服务平台",
-        "project_code": null,
-        "source_notice_id": "899271",
-        "matched_keywords": [
-          "建筑工程施工总承包",
-          "建筑装修装饰工程专业"
-        ],
-        "location": "贵州省",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.93,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 66.7%",
-          "招标人/采购人名称一致：贵州医科大学第三附属医院"
-        ],
-        "similarities": {
-          "project_name": 0.8,
-          "project_content": 0.038,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "桐梓县九坝官仓等镇2026年高粱方竹产业路建设项目",
       "plan": {
         "published_at": "2026-06-11 10:00:25",
@@ -16009,49 +16115,6 @@
               "location_conflict": true
             }
           }
-        },
-        {
-          "plan_project_key": "贵州医科大学第三附属医院病房改造建设项目",
-          "plan": {
-            "published_at": "2026-05-14 15:37:00",
-            "title": "贵州医科大学第三附属医院病房改造建设项目项目招标计划",
-            "project_name": "贵州医科大学第三附属医院病房改造建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875739",
-            "buyer": "贵州医科大学第三附属医院",
-            "budget": "6350万元",
-            "fund_source": "拟申请中央预算内投资、医院自筹资金",
-            "fund_source_tags": [
-              "财政资金",
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2405-520000-04-05-637069",
-            "approval": "关于贵州医科大学第三附属医院病房改造建设项目可行性研究报告的批复（黔发改社会[2026]136号）",
-            "project_content": "项目总建筑面积14974平方米，改造床位351张，主要将4人(间)及以上病房改造为2-3人间，改造病房卫生间232间、改造公共卫生间17间，配套实施供电、消防、无障碍、适老化等相关附属设施改造。",
-            "project_location": "贵州省-黔南布依族苗族自治州-都匀市",
-            "source_notice_id": "875739",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：贵州医科大学"
-            ],
-            "similarities": {
-              "project_name": 0.392,
-              "project_content": 0.038,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
         }
       ],
       "notice": {
@@ -16085,7 +16148,7 @@
         "confidence": 0.72,
         "match_level": "candidate",
         "review_required": true,
-        "review_note": "该施工公告对应 2 个相近的重点资金计划候选，需人工确认。",
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
         "evidence": [
           "招标人/采购人名称一致：贵州医科大学",
           "项目名称地域存在差异：黔东南州 / 贵州医科大学云漫湖校区，名称相似项未计入"
@@ -20042,7 +20105,7 @@
     }
   ],
   "stats": {
-    "total": 166,
-    "projects": 82
+    "total": 167,
+    "projects": 81
   }
 }
