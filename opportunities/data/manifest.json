@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-16T14:59:54.360663+08:00",
+  "updated_at": "2026-07-16T20:47:07.537789+08:00",
   "datasets": {
     "industries": "../data/latest.json",
     "construction": "../construction/data/latest.json",
@@ -9,13 +9,13 @@
     "status": "./data/run-status.json"
   },
   "summary": {
-    "graphic_items": 545,
-    "landscaping_items": 242,
-    "construction_items": 2271,
-    "plan_notices": 1286,
+    "graphic_items": 562,
+    "landscaping_items": 251,
+    "construction_items": 2316,
+    "plan_notices": 1301,
     "ultra_long_projects": 27,
-    "priority_notices": 166,
-    "priority_projects": 82,
+    "priority_notices": 167,
+    "priority_projects": 81,
     "watched_projects": 0,
     "watched_notices": 0
   }
