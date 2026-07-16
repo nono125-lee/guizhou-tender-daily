@@ -5135,9 +5135,581 @@
     "https://cgjy.tobacco.com.cn/jzfwzb/49171.jhtml": {
       "published_at": "2026-07-14",
       "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49848.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49841.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49772.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49734.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49682.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49599.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49586.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49582.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49886.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49885.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49884.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49883.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49882.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49877.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49870.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49869.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49868.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49866.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49860.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49857.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49850.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49847.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49838.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49834.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49831.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49813.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49801.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49799.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49791.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49787.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49785.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49783.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49778.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49776.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49774.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49769.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49767.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49760.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49754.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49749.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49748.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49745.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49733.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49731.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49728.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49723.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49719.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49716.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49709.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49702.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49700.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49693.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49686.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49679.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49678.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49677.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49672.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49670.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49657.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49646.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49645.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49642.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49631.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49629.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49622.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49619.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49617.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49603.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49587.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49572.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49567.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49559.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49538.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49480.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49436.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49367.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49318.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49255.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49189.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49846.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49837.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49836.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49832.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49829.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49779.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49771.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/49756.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49740.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzgczb/49726.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzgczb/49692.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49685.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49674.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49669.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49663.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49621.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49612.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49611.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49606.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzgczb/49552.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49546.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49544.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49955.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49924.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49864.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/49413.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "result_notice"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/50053.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/50048.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/50039.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/50030.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/50029.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/50028.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/50026.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49998.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49992.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49983.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49968.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49959.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49957.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49932.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49925.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49906.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcgczb/49890.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49887.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49862.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49794.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49759.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zchwzb/49710.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49661.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/zcfwzb/49597.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/50022.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/50021.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/50017.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/49990.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/49964.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49923.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49917.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49897.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49891.jhtml": {
+      "published_at": "2026-07-16",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49763.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzhwzb/49650.jhtml": {
+      "published_at": "2026-07-15",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49541.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49327.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
+    },
+    "https://cgjy.tobacco.com.cn/jzfwzb/49169.jhtml": {
+      "published_at": "2026-07-14",
+      "status": "not_matched"
     }
   },
   "failed_urls": [],
   "keyword_signature": "3c42bd68c991f912e7802ab0eaa70d8f02f83fc80f6768531e230b9919b05edc",
-  "last_run_at": "2026-07-15T06:03:53.535372+08:00"
+  "last_run_at": "2026-07-16T14:47:15.410585+08:00"
 }
