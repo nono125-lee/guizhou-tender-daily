@@ -181,7 +181,10 @@ function industryItems(items, view = state.view) {
 }
 
 function populateIndustryFilters(items) {
-  optionList($("#industry-source"), [...new Set(items.map((item) => item.source_name))]);
+  optionList($("#industry-source"), [...new Set([
+    ...(state.matches.available_sources || []),
+    ...items.map((item) => item.source_name)
+  ])]);
 }
 
 function updatePlanDistricts() {
@@ -566,6 +569,7 @@ function updateFilterVisibility() {
   const isStatus = state.view === "status";
   $("#filters").hidden = isStatus;
   $("#match-source-strip").hidden = state.view !== "matches";
+  $("#industry-source-strip").hidden = !["graphic", "landscaping"].includes(state.view);
   $("#source-strip").hidden = state.view !== "construction";
   $("#fund-strip").hidden = state.view !== "plans";
   document.querySelectorAll("[data-views]").forEach((element) => {
@@ -604,7 +608,14 @@ async function render() {
     renderer = renderMatch;
   } else if (state.view === "graphic" || state.view === "landscaping") {
     const payload = await ensureDataset("industries");
-    populateIndustryFilters(industryItems(payload.items || []));
+    const items = industryItems(payload.items || []);
+    populateIndustryFilters(items);
+    renderSourceStrip(
+      items,
+      "#industry-source-strip",
+      "#industry-source",
+      state.matches.available_sources || []
+    );
     records = filterIndustry(payload.items);
     renderer = renderIndustry;
     showWarning(payload.warnings);

@@ -167,6 +167,7 @@ class UnifiedSiteTests(unittest.TestCase):
             "plan-planned-month",
             "source-strip",
             "match-source-strip",
+            "industry-source-strip",
             "fund-strip",
             "industry-date-range",
             "industry-source",
@@ -196,6 +197,9 @@ class UnifiedSiteTests(unittest.TestCase):
         self.assertIn('passesNoticeFilters(notice, "match")', app)
         self.assertIn('"#match-source-strip"', app)
         self.assertIn('"#match-source"', app)
+        self.assertIn('"#industry-source-strip"', app)
+        self.assertIn('"#industry-source"', app)
+        self.assertIn('state.matches.available_sources || []', app)
         self.assertIn('"政府投资"', app)
         self.assertIn(
             'const FUND_KEYWORD_FILTERS = ["国债", "专项", "中央", "省级"];',
