@@ -93,7 +93,7 @@ def item_from_listing(
         return None
     published_at = _published_at(listing)
     buyer, agency = _parties(text, "")
-    return normalize_public_item(
+    item = normalize_public_item(
         {
             "published_at": published_at,
             "date_basis": "official",
@@ -113,6 +113,8 @@ def item_from_listing(
             "source_name": source["name"],
         }
     )
+    item["source_name"] = source["name"]
+    return item
 
 
 def collect(

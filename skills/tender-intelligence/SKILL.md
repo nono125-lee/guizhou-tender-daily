@@ -1,10 +1,11 @@
 ---
 name: tender-intelligence
 description: 贵州省图文广告与园林绿化标讯的配置化采集、筛选、分类、去重和整理规则。用户提到图文广告、绿化、园林、公园、苗木、景观等项目，或要调整这两类行业关键词、信息源和误报规则时必须使用。用户级的“查标讯/跑标讯/查公告”同时使用 guizhou-construction-opportunity-intelligence 统一全量运行并部署，不单独只跑本行业。
-compatibility: 需要联网时使用 web-access；处理 xlsx 时使用 Spreadsheets；本地执行入口为 tender-agent。
 ---
 
 # 标讯情报 Skill
+
+需要联网时使用 `web-access`；处理 xlsx 时使用 Spreadsheets；本地执行入口为 `tender-agent`。
 
 ## 目标
 
@@ -44,6 +45,7 @@ compatibility: 需要联网时使用 web-access；处理 xlsx 时使用 Spreadsh
 
 新增或更新信息源时：
 
+- 将贵州省公共资源交易云的工程建设、政府采购、其他交易三个栏目同时作为图文广告和园林绿化的共享来源，分别使用 `https://ggzy.guizhou.gov.cn/xxfw/gcjs/`、`https://ggzy.guizhou.gov.cn/xxfw/zfcg/`、`https://ggzy.guizhou.gov.cn/xxfw/qttzjy/`；公开数据保留三个栏目各自的正式名称，不合并成笼统的“贵州省公共资源交易云”。
 - 先更新用户维护的源表，再运行导入，不直接手改数据库。
 - 一个网站可有多个公司账号，每个账号保留独立状态。
 - 记录登录是否有效、最后验证时间、验证码类型、可查询地区、适配器状态。

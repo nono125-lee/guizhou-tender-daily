@@ -84,7 +84,7 @@
 | 贵阳市公共资源交易国有企业招标采购平台 | `src/tender_agent/collectors/ygzc.py` |
 | 中烟电子采购平台 | `src/tender_agent/collectors/tobacco.py` |
 | 中国南方电网供应链统一服务平台 | `src/tender_agent/collectors/csg.py` |
-| 贵州省公共资源交易云（图文广告） | `src/tender_agent/collectors/ggzy_graphic.py` |
+| 贵州省公共资源交易云工程建设、政府采购、其他交易（图文广告与园林绿化共享） | `src/tender_agent/collectors/ggzy_graphic.py` |
 | 贵州省公共资源交易云（施工） | `src/tender_agent/collectors/ggzy_construction.py` |
 | “黔顺云采”集采平台 | `src/tender_agent/collectors/asgq.py` |
 | 军队采购网 | `src/tender_agent/collectors/plap.py` |
