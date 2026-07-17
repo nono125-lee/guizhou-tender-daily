@@ -37,7 +37,7 @@
 | 私密信息源数据库 | `data/private/tenders.sqlite3` | 含账号资料，不上传GitHub |
 | 公开网页文件 | `site/` | 发布到GitHub Pages |
 | 施工独立网页 | `site/construction/` | 与图文广告数据和反馈状态隔离 |
-| 统一标讯雷达网页 | `site/opportunities/` | 重点关联、图文广告、园林绿化、施工粗筛、全部招标计划和运行状态 |
+| 统一标讯雷达网页 | `site/opportunities/` | 重点关联、图文广告、园林绿化、施工粗筛、全部招标计划和运行状态；重点关联复用施工粗筛的完整检索与筛选控件 |
 | 招标计划详细网页 | `site/tender-plan/` | AP1 招标计划、资金来源和历史版本 |
 | 统一编排模块 | `src/tender_agent/unified_site.py` | 一次运行、测试门禁和发布 |
 | 统一入口 Skill | `skills/guizhou-construction-opportunity-intelligence/` | 日常默认入口 |

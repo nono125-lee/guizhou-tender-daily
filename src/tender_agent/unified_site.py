@@ -193,6 +193,27 @@ def build_unified_site(run_status: dict | None = None) -> dict:
         if identity not in identities:
             matches.append(item)
             identities.add(identity)
+    construction_items = construction.get("items", [])
+    construction_by_url = {
+        item.get("url"): item for item in construction_items if item.get("url")
+    }
+    construction_by_notice_id = {
+        str(item.get("source_notice_id")): item
+        for item in construction_items
+        if item.get("source_notice_id")
+    }
+    for match in matches:
+        notice = dict(match.get("notice") or {})
+        authoritative = construction_by_url.get(notice.get("url"))
+        if authoritative is None and notice.get("source_notice_id"):
+            authoritative = construction_by_notice_id.get(
+                str(notice.get("source_notice_id"))
+            )
+        if authoritative:
+            for field in ("registration_period", "qualification_requirement"):
+                if not notice.get(field) and authoritative.get(field):
+                    notice[field] = authoritative[field]
+            match["notice"] = notice
     matches.sort(
         key=lambda item: str(item.get("notice", {}).get("published_at") or ""),
         reverse=True,
@@ -236,6 +257,13 @@ def build_unified_site(run_status: dict | None = None) -> dict:
     matches_payload = {
         "schema_version": 1,
         "updated_at": plans.get("updated_at"),
+        "available_sources": sorted(
+            {
+                str(item.get("source_name")).strip()
+                for item in construction_items
+                if str(item.get("source_name") or "").strip()
+            }
+        ),
         "items": matches,
         "stats": {
             "total": len(matches),

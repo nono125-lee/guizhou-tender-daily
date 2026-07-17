@@ -58,7 +58,16 @@ class UnifiedSiteTests(unittest.TestCase):
                         "coverage": "施工",
                         "stats": {"total": 2},
                         "warnings": [],
-                        "items": [{"title": "A"}, {"title": "B"}],
+                        "items": [
+                            {
+                                "title": "A",
+                                "url": "https://example.test/a",
+                                "source_name": "军队采购网",
+                                "registration_period": "2026-06-30至2026-07-02",
+                                "qualification_requirement": "建筑工程施工总承包二级",
+                            },
+                            {"title": "B", "source_name": "省招标平台"},
+                        ],
                     }
                 ),
                 encoding="utf-8",
@@ -87,7 +96,14 @@ class UnifiedSiteTests(unittest.TestCase):
                         "stats": {"total": 3, "ultra_long_projects": 1, "priority_projects": 1},
                         "warnings": [],
                         "items": [{"title": "P"}],
-                        "priority_notices": [{"notice": {"title": "N"}}],
+                        "priority_notices": [
+                            {
+                                "notice": {
+                                    "title": "N",
+                                    "url": "https://example.test/a",
+                                }
+                            }
+                        ],
                     }
                 ),
                 encoding="utf-8",
@@ -109,6 +125,15 @@ class UnifiedSiteTests(unittest.TestCase):
             self.assertEqual(result["summary"]["landscaping_items"], 2)
             self.assertEqual(manifest["summary"]["ultra_long_projects"], 1)
             self.assertEqual(matches["stats"]["total"], 1)
+            self.assertEqual(matches["available_sources"], ["军队采购网", "省招标平台"])
+            self.assertEqual(
+                matches["items"][0]["notice"]["registration_period"],
+                "2026-06-30至2026-07-02",
+            )
+            self.assertEqual(
+                matches["items"][0]["notice"]["qualification_requirement"],
+                "建筑工程施工总承包二级",
+            )
             self.assertTrue((unified / "assets/app.js").exists())
 
     def test_page_has_requested_views_and_business_filters(self):
@@ -124,6 +149,12 @@ class UnifiedSiteTests(unittest.TestCase):
         self.assertNotIn("今日待看", html)
         self.assertIn("<h1>标讯雷达</h1>", html)
         for control in (
+            "match-region",
+            "match-date-range",
+            "match-source",
+            "match-reg-date",
+            "match-cutoff-date",
+            "match-qualification",
             "construction-region",
             "construction-date-range",
             "construction-source",
@@ -135,12 +166,16 @@ class UnifiedSiteTests(unittest.TestCase):
             "plan-date-range",
             "plan-planned-month",
             "source-strip",
+            "match-source-strip",
             "fund-strip",
             "industry-date-range",
             "industry-source",
         ):
             self.assertIn(f'id="{control}"', html)
         self.assertIn('<select id="construction-qualification">', html)
+        self.assertIn('<select id="match-qualification">', html)
+        for days in ("1", "3", "7"):
+            self.assertIn(f'<option value="{days}"', html)
         self.assertNotIn('id="review-filter"', html)
         for label in ("项目名称", "招标人/采购人", "投资项目代码", "批复文件", "建设内容"):
             self.assertIn(label, app)
@@ -158,7 +193,9 @@ class UnifiedSiteTests(unittest.TestCase):
         self.assertIn("renderSourceStrip", app)
         self.assertIn("industry_categories", app)
         self.assertIn("用户重点提示", app)
-        self.assertIn('$("#construction-source").value === source', app)
+        self.assertIn('passesNoticeFilters(notice, "match")', app)
+        self.assertIn('"#match-source-strip"', app)
+        self.assertIn('"#match-source"', app)
         self.assertIn('"政府投资"', app)
         self.assertIn(
             'const FUND_KEYWORD_FILTERS = ["国债", "专项", "中央", "省级"];',
