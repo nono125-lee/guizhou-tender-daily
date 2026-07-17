@@ -1,7 +1,691 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-17T06:04:25.581309+08:00",
+  "updated_at": "2026-07-18T00:12:49.874915+08:00",
   "items": [
+    {
+      "plan_project_key": "黔西市观音洞镇黄泥村等6个村社区2026年度机耕道以工代赈建设项目",
+      "plan": {
+        "published_at": "2026-04-20 14:34:11",
+        "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目项目招标计划",
+        "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864450",
+        "buyer": "黔西市观音洞镇人民政府",
+        "budget": "454.84万元",
+        "fund_source": "中央财政衔接资金",
+        "fund_source_tags": [
+          "财政资金"
+        ],
+        "fixed_asset_code": "2604-520522-04-01-525123",
+        "approval": "黔市农复〔2026〕63号",
+        "project_content": "本工程属农村机耕道建设项目，为黔西市观音洞镇以工代赈项目。项目涉及9 个村，合计13 条机耕道。",
+        "project_location": "贵州省-毕节市-黔西市",
+        "source_notice_id": "864450",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "黔西市观音洞镇黄泥村等6个村社区2026年度机耕道以工代赈建设项目",
+          "plan": {
+            "published_at": "2026-04-20 14:34:11",
+            "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目项目招标计划",
+            "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864450",
+            "buyer": "黔西市观音洞镇人民政府",
+            "budget": "454.84万元",
+            "fund_source": "中央财政衔接资金",
+            "fund_source_tags": [
+              "财政资金"
+            ],
+            "fixed_asset_code": "2604-520522-04-01-525123",
+            "approval": "黔市农复〔2026〕63号",
+            "project_content": "本工程属农村机耕道建设项目，为黔西市观音洞镇以工代赈项目。项目涉及9 个村，合计13 条机耕道。",
+            "project_location": "贵州省-毕节市-黔西市",
+            "source_notice_id": "864450",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：黔西市观音洞镇人民政府"
+            ],
+            "similarities": {
+              "project_name": 0.615,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-17",
+        "title": "观音洞镇青岩村2026年度三角坪子至甘树桩机耕道建设以工代赈项目竞争性磋商公告",
+        "project_name": "观音洞镇青岩村2026年度三角坪子至甘树桩机耕道建设以工代赈项目竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=908797",
+        "budget": "44.88 万元",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "黔西市观音洞镇人民政府",
+        "agency": "贵州建瓴工程咨询有限公司",
+        "bid_deadline": "2026-07-27 15:30",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "908797",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：黔西市观音洞镇人民政府"
+        ],
+        "similarities": {
+          "project_name": 0.615,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "黔西市观音洞镇黄泥村等6个村社区2026年度机耕道以工代赈建设项目",
+      "plan": {
+        "published_at": "2026-04-20 14:34:11",
+        "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目项目招标计划",
+        "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864450",
+        "buyer": "黔西市观音洞镇人民政府",
+        "budget": "454.84万元",
+        "fund_source": "中央财政衔接资金",
+        "fund_source_tags": [
+          "财政资金"
+        ],
+        "fixed_asset_code": "2604-520522-04-01-525123",
+        "approval": "黔市农复〔2026〕63号",
+        "project_content": "本工程属农村机耕道建设项目，为黔西市观音洞镇以工代赈项目。项目涉及9 个村，合计13 条机耕道。",
+        "project_location": "贵州省-毕节市-黔西市",
+        "source_notice_id": "864450",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "黔西市观音洞镇黄泥村等6个村社区2026年度机耕道以工代赈建设项目",
+          "plan": {
+            "published_at": "2026-04-20 14:34:11",
+            "title": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目项目招标计划",
+            "project_name": "黔西市观音洞镇黄泥村等6个村（社区）2026年度机耕道以工代赈建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864450",
+            "buyer": "黔西市观音洞镇人民政府",
+            "budget": "454.84万元",
+            "fund_source": "中央财政衔接资金",
+            "fund_source_tags": [
+              "财政资金"
+            ],
+            "fixed_asset_code": "2604-520522-04-01-525123",
+            "approval": "黔市农复〔2026〕63号",
+            "project_content": "本工程属农村机耕道建设项目，为黔西市观音洞镇以工代赈项目。项目涉及9 个村，合计13 条机耕道。",
+            "project_location": "贵州省-毕节市-黔西市",
+            "source_notice_id": "864450",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name+buyer",
+            "methods": [
+              "project_name",
+              "buyer"
+            ],
+            "confidence": 0.855,
+            "match_level": "high",
+            "review_required": false,
+            "review_note": "存在强标识或多项证据，可优先核对原公告。",
+            "evidence": [
+              "项目名称相似度 82.5%",
+              "招标人/采购人名称一致：黔西市观音洞镇人民政府"
+            ],
+            "similarities": {
+              "project_name": 0.825,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-17",
+        "title": "黔西市观音洞镇民丰村、中大村2026年度机耕道以工代赈建设项目竞争性磋商公告",
+        "project_name": "黔西市观音洞镇民丰村、中大村2026年度机耕道以工代赈建设项目竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=908796",
+        "budget": "41.76万元",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "黔西市观音洞镇人民政府",
+        "agency": "贵州建瓴工程咨询有限公司",
+        "bid_deadline": "2026-07-27 14:30",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "908796",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "project_name+buyer",
+        "methods": [
+          "project_name",
+          "buyer"
+        ],
+        "confidence": 0.855,
+        "match_level": "high",
+        "review_required": false,
+        "review_note": "存在强标识或多项证据，可优先核对原公告。",
+        "evidence": [
+          "项目名称相似度 82.5%",
+          "招标人/采购人名称一致：黔西市观音洞镇人民政府"
+        ],
+        "similarities": {
+          "project_name": 0.825,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "贵州民族大学学生宿舍建设项目",
+      "plan": {
+        "published_at": "2026-06-12 19:15:45",
+        "title": "贵州民族大学学生宿舍建设项目项目招标计划",
+        "project_name": "贵州民族大学学生宿舍建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890840",
+        "buyer": "贵州民族大学",
+        "budget": "15941万元",
+        "fund_source": "申请中央预算内投资及学校自筹资金",
+        "fund_source_tags": [
+          "财政资金",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2512-520000-04-01-518117",
+        "approval": "省发展改革委关于贵州民族大学学生宿舍建设项目初步设计的批复（黔发改建设〔2026〕296号）",
+        "project_content": "主要建设内容及规模:总用地面积20728.1㎡，总建筑面积35738.1㎡，其中:计容建筑面积31438.1㎡，不计容面积建筑面积4300㎡(含人防建筑面积2756㎡)。主要建设内容为新建学生宿舍1栋及人防工程、相关配套用房(服务活动用房、设备间、师生活动用房、公共盥洗室兼公共卫生间等)、室外道路、绿化、停车场等附属工程，购置电梯、充电桩等。本次招标内容为施工招标，招标范围为完成招标人提供的施工图和工程量清单，招标期间所发生的澄清答疑文件，补充通知等所有工程的全部施工直至竣工验收、调试及整体移交、质量缺陷责任期内的缺陷修复等相关工作。",
+        "project_location": "贵州省-贵阳市-花溪区",
+        "source_notice_id": "890840",
+        "plan_version_count": 2
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州民族大学学生宿舍建设项目",
+          "plan": {
+            "published_at": "2026-06-12 19:15:45",
+            "title": "贵州民族大学学生宿舍建设项目项目招标计划",
+            "project_name": "贵州民族大学学生宿舍建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=890840",
+            "buyer": "贵州民族大学",
+            "budget": "15941万元",
+            "fund_source": "申请中央预算内投资及学校自筹资金",
+            "fund_source_tags": [
+              "财政资金",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2512-520000-04-01-518117",
+            "approval": "省发展改革委关于贵州民族大学学生宿舍建设项目初步设计的批复（黔发改建设〔2026〕296号）",
+            "project_content": "主要建设内容及规模:总用地面积20728.1㎡，总建筑面积35738.1㎡，其中:计容建筑面积31438.1㎡，不计容面积建筑面积4300㎡(含人防建筑面积2756㎡)。主要建设内容为新建学生宿舍1栋及人防工程、相关配套用房(服务活动用房、设备间、师生活动用房、公共盥洗室兼公共卫生间等)、室外道路、绿化、停车场等附属工程，购置电梯、充电桩等。本次招标内容为施工招标，招标范围为完成招标人提供的施工图和工程量清单，招标期间所发生的澄清答疑文件，补充通知等所有工程的全部施工直至竣工验收、调试及整体移交、质量缺陷责任期内的缺陷修复等相关工作。",
+            "project_location": "贵州省-贵阳市-花溪区",
+            "source_notice_id": "890840",
+            "plan_version_count": 2
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州民族大学"
+            ],
+            "similarities": {
+              "project_name": 0.343,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-17",
+        "title": "贵州民族大学2026年度第二批水电维修单位竞争性磋商公告",
+        "project_name": "贵州民族大学2026年度第二批水电维修单位竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=908466",
+        "budget": "60万元",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "财库〔2020〕46号",
+          "财库〔2014〕68号",
+          "财库〔2017〕141号"
+        ],
+        "buyer": "贵州民族大学",
+        "agency": "贵州欣盛建设工程咨询有限公司",
+        "bid_deadline": "2026-07-28",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "908466",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州民族大学"
+        ],
+        "similarities": {
+          "project_name": 0.343,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+      "plan": {
+        "published_at": "2026-06-01 09:53:50",
+        "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+        "project_name": "盘州市 2026 年巩固提升农村供水工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "budget": "661.6万元",
+        "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+        "fund_source_tags": [
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2605-520222-04-05-835439",
+        "approval": "盘州水务复[2026]13号",
+        "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+        "project_location": "贵州省-六盘水市-盘州市",
+        "source_notice_id": "883770",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+          "plan": {
+            "published_at": "2026-06-01 09:53:50",
+            "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+            "project_name": "盘州市 2026 年巩固提升农村供水工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+            "buyer": "贵州水投水务盘州市有限责任公司",
+            "budget": "661.6万元",
+            "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+            "fund_source_tags": [
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2605-520222-04-05-835439",
+            "approval": "盘州水务复[2026]13号",
+            "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+            "project_location": "贵州省-六盘水市-盘州市",
+            "source_notice_id": "883770",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司",
+              "项目名称地域存在差异：盘州市 / 贵州水投水务盘州，名称相似项未计入"
+            ],
+            "similarities": {
+              "project_name": 0.103,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": true
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-17",
+        "title": "贵州水投水务盘州市有限责任公司中心城区及乡镇片区专电线路、台变维护巡检采购项目(二次)询比采购公告",
+        "project_name": "贵州水投水务盘州市有限责任公司中心城区及乡镇片区专电线路、台变维护巡检采购项目(二次)询比采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1238036058239799296",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "agency": "公告未载明",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-其他交易",
+        "project_code": "GQST-XB2026070041-1",
+        "source_notice_id": "1238036058239799296",
+        "matched_keywords": [
+          "承装（修、试）"
+        ],
+        "location": "国有企业生产资料",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司",
+          "项目名称地域存在差异：盘州市 / 贵州水投水务盘州，名称相似项未计入"
+        ],
+        "similarities": {
+          "project_name": 0.103,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": true
+        }
+      }
+    },
+    {
+      "plan_project_key": "兴义市捧乍镇捧乍中学综合楼建设项目",
+      "plan": {
+        "published_at": "2026-04-20 17:28:14",
+        "title": "兴义市捧乍镇捧乍中学综合楼建设项目项目招标计划",
+        "project_name": "兴义市捧乍镇捧乍中学综合楼建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864862",
+        "buyer": "兴义市教育局",
+        "budget": "577.87万元",
+        "fund_source": "中央补助资金",
+        "fund_source_tags": [
+          "上级补助"
+        ],
+        "fixed_asset_code": "2604-522301-04-01-823703",
+        "approval": "关于兴义市捧乍镇捧乍中学综合楼建设项目可行性研究报告的批复，兴市发改字[2026]11号",
+        "project_content": "扩建综合楼2499平方米及附属工程。",
+        "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
+        "source_notice_id": "864862",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "兴义市捧乍镇捧乍中学综合楼建设项目",
+          "plan": {
+            "published_at": "2026-04-20 17:28:14",
+            "title": "兴义市捧乍镇捧乍中学综合楼建设项目项目招标计划",
+            "project_name": "兴义市捧乍镇捧乍中学综合楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864862",
+            "buyer": "兴义市教育局",
+            "budget": "577.87万元",
+            "fund_source": "中央补助资金",
+            "fund_source_tags": [
+              "上级补助"
+            ],
+            "fixed_asset_code": "2604-522301-04-01-823703",
+            "approval": "关于兴义市捧乍镇捧乍中学综合楼建设项目可行性研究报告的批复，兴市发改字[2026]11号",
+            "project_content": "扩建综合楼2499平方米及附属工程。",
+            "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
+            "source_notice_id": "864862",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "fixed_asset_code+project_name+buyer",
+            "methods": [
+              "fixed_asset_code",
+              "project_name",
+              "buyer"
+            ],
+            "confidence": 1.0,
+            "match_level": "high",
+            "review_required": false,
+            "review_note": "存在强标识或多项证据，可优先核对原公告。",
+            "evidence": [
+              "投资项目代码一致：2604-522301-04-01-823703",
+              "标准化项目名称完全一致（100%）",
+              "招标人/采购人名称一致：名称): 兴义市教育局"
+            ],
+            "similarities": {
+              "project_name": 1.0,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": true,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-17",
+        "title": "兴义市捧乍镇捧乍中学综合楼建设项目",
+        "project_name": "兴义市捧乍镇捧乍中学综合楼建设项目",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1238019502491439104",
+        "budget": "577.87万元",
+        "project_content": "本项目招标文件、施工设计图及工程量清单所示全部内容 ； 标段划分",
+        "fixed_asset_code": "2604-522301-04-01-823703",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "名称): 兴义市教育局",
+        "agency": "贵州瀚阳管理有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52230120260002UN001",
+        "source_notice_id": "1238019502491439104",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "黔西南州公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "fixed_asset_code+project_name+buyer",
+        "methods": [
+          "fixed_asset_code",
+          "project_name",
+          "buyer"
+        ],
+        "confidence": 1.0,
+        "match_level": "high",
+        "review_required": false,
+        "review_note": "存在强标识或多项证据，可优先核对原公告。",
+        "evidence": [
+          "投资项目代码一致：2604-522301-04-01-823703",
+          "标准化项目名称完全一致（100%）",
+          "招标人/采购人名称一致：名称): 兴义市教育局"
+        ],
+        "similarities": {
+          "project_name": 1.0,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": true,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "西秀区杨武乡雨棚水厂农村规模化供水工程一期",
+      "plan": {
+        "published_at": "2026-05-18 10:49:27",
+        "title": "西秀区杨武乡雨棚水厂农村规模化供水工程（一期）项目招标计划",
+        "project_name": "西秀区杨武乡雨棚水厂农村规模化供水工程（一期）",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=876775",
+        "buyer": "安顺市西秀区农业发展投资（集团）有限责任公司",
+        "budget": "980万元",
+        "fund_source": "中央财政衔接推进乡村振兴补助资金",
+        "fund_source_tags": [
+          "财政资金",
+          "上级补助"
+        ],
+        "fixed_asset_code": "2605-520402-04-01-351788",
+        "approval": "2605-520402-04-01-351788",
+        "project_content": "(1)新建取水泵站1座:装机3*7.5kW(两用一备)，建筑面积32.7㎡;建设配套的机电及金属结构设备;(2)水厂净水设备设施及附属工程:续建网格絮凝沉淀池1座:完善隔墙、池壁防水处理等土建工作，建设絮凝网格、排泥管件阀门、沉淀斜管等金属结构设备(最大处理能力4000m³/d(166.7m³/h))。续建重力式无阀滤池1座:完善隔墙、池壁混凝土等土建工作，建设管件阀门、过滤滤料填充等金属结构设备，最大处理能力4000m³/d(166.7m³/h)。续建清水池1座:完善隔墙、池壁防水处理等土建工作，建设管件阀门等金属结构设备。清水池容积600m³。新建综合混凝土排泥池1座(11.5m*5.5m*3m)。提升泵站设备:泵站装机2*30kW(G1方向)+2*2.2kW(自用+消防)。自动控制及监控系统:建设取水泵站、提升泵站水力量测、远程控制系统;净水设备控制系统及水源、水厂、高位水池的监控系统;建设信息自动化控制室。配套完善附属设施等:次氯酸钠发生器(消毒系统)和PAC加药装置2台(套);配电设施及照明工程;水质分析、常规检修设备;厂区围墙、门禁、通道、排水等附属设施。(3)高位及调蓄水池1座。新建G1高位水池:建设钢筋混凝土结构土建工程;建设管件阀门等金属结构设备。水池容积500m³，(4)输配水设施:新建白虎山加压泵站1座:恒压变频供水设备一套;泵房建筑面积22.0m;配电、监控、消防等配套设施设备。新建输、配水管网16.00km。建设输水用钢丝骨架PE管(dn140，PE100级2.5MPa)2540m;建设配水用钢丝骨架PE管(dn200、dn160,PE100级1.6MPa)2433m, PE 管(dn125,dn75,PE100级 1.25MPa )1031m,PE管(dn63、dn50、dn40,PE100级1.6MPa)7930m; 建设配水用支管PE管(dn75、dn63、dn50、dn40、dn32,PE100级1.6MPa)2066m。",
+        "project_location": "贵州省-安顺市-西秀区",
+        "source_notice_id": "876775",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "西秀区杨武乡雨棚水厂农村规模化供水工程一期",
+          "plan": {
+            "published_at": "2026-05-18 10:49:27",
+            "title": "西秀区杨武乡雨棚水厂农村规模化供水工程（一期）项目招标计划",
+            "project_name": "西秀区杨武乡雨棚水厂农村规模化供水工程（一期）",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=876775",
+            "buyer": "安顺市西秀区农业发展投资（集团）有限责任公司",
+            "budget": "980万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-520402-04-01-351788",
+            "approval": "2605-520402-04-01-351788",
+            "project_content": "(1)新建取水泵站1座:装机3*7.5kW(两用一备)，建筑面积32.7㎡;建设配套的机电及金属结构设备;(2)水厂净水设备设施及附属工程:续建网格絮凝沉淀池1座:完善隔墙、池壁防水处理等土建工作，建设絮凝网格、排泥管件阀门、沉淀斜管等金属结构设备(最大处理能力4000m³/d(166.7m³/h))。续建重力式无阀滤池1座:完善隔墙、池壁混凝土等土建工作，建设管件阀门、过滤滤料填充等金属结构设备，最大处理能力4000m³/d(166.7m³/h)。续建清水池1座:完善隔墙、池壁防水处理等土建工作，建设管件阀门等金属结构设备。清水池容积600m³。新建综合混凝土排泥池1座(11.5m*5.5m*3m)。提升泵站设备:泵站装机2*30kW(G1方向)+2*2.2kW(自用+消防)。自动控制及监控系统:建设取水泵站、提升泵站水力量测、远程控制系统;净水设备控制系统及水源、水厂、高位水池的监控系统;建设信息自动化控制室。配套完善附属设施等:次氯酸钠发生器(消毒系统)和PAC加药装置2台(套);配电设施及照明工程;水质分析、常规检修设备;厂区围墙、门禁、通道、排水等附属设施。(3)高位及调蓄水池1座。新建G1高位水池:建设钢筋混凝土结构土建工程;建设管件阀门等金属结构设备。水池容积500m³，(4)输配水设施:新建白虎山加压泵站1座:恒压变频供水设备一套;泵房建筑面积22.0m;配电、监控、消防等配套设施设备。新建输、配水管网16.00km。建设输水用钢丝骨架PE管(dn140，PE100级2.5MPa)2540m;建设配水用钢丝骨架PE管(dn200、dn160,PE100级1.6MPa)2433m, PE 管(dn125,dn75,PE100级 1.25MPa )1031m,PE管(dn63、dn50、dn40,PE100级1.6MPa)7930m; 建设配水用支管PE管(dn75、dn63、dn50、dn40、dn32,PE100级1.6MPa)2066m。",
+            "project_location": "贵州省-安顺市-西秀区",
+            "source_notice_id": "876775",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "fixed_asset_code+project_name+buyer",
+            "methods": [
+              "fixed_asset_code",
+              "project_name",
+              "buyer"
+            ],
+            "confidence": 1.0,
+            "match_level": "high",
+            "review_required": false,
+            "review_note": "存在强标识或多项证据，可优先核对原公告。",
+            "evidence": [
+              "投资项目代码一致：2605-520402-04-01-351788",
+              "项目名称为包含关系，长度重合度 91.3%",
+              "招标人/采购人名称一致：安顺市西秀区农业发展投资（集团）有限责任公司"
+            ],
+            "similarities": {
+              "project_name": 0.955,
+              "project_content": 0.014,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": true,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-17",
+        "title": "西秀区杨武乡雨棚水厂农村规模化供水工程（一期）项目招标公告",
+        "project_name": "西秀区杨武乡雨棚水厂农村规模化供水工程（一期）项目招标公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1237999071063576576",
+        "budget": "980 万元",
+        "project_content": "工程量清单、招标文件以及补充文件、答疑纪要所示的 全部内容",
+        "fixed_asset_code": "2605-520402-04-01-351788",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "安顺市西秀区农业发展投资（集团）有限责任公司",
+        "agency": "贵州正达项目管理有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52040220260002TL001",
+        "source_notice_id": "1237999071063576576",
+        "matched_keywords": [
+          "水利水电工程施工总承包"
+        ],
+        "location": "安顺市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "fixed_asset_code+project_name+buyer",
+        "methods": [
+          "fixed_asset_code",
+          "project_name",
+          "buyer"
+        ],
+        "confidence": 1.0,
+        "match_level": "high",
+        "review_required": false,
+        "review_note": "存在强标识或多项证据，可优先核对原公告。",
+        "evidence": [
+          "投资项目代码一致：2605-520402-04-01-351788",
+          "项目名称为包含关系，长度重合度 91.3%",
+          "招标人/采购人名称一致：安顺市西秀区农业发展投资（集团）有限责任公司"
+        ],
+        "similarities": {
+          "project_name": 0.955,
+          "project_content": 0.014,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": true,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
     {
       "plan_project_key": "贵州大学科研楼建设项目",
       "plan": {
@@ -329,115 +1013,6 @@
         "similarities": {
           "project_name": 0.164,
           "project_content": 0.062,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "六盘水市第二十三中学教学楼运动场建设项目",
-      "plan": {
-        "published_at": "2026-04-17 10:45:52",
-        "title": "六盘水市第二十三中学教学楼、运动场建设项目项目招标计划",
-        "project_name": "六盘水市第二十三中学教学楼、运动场建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863586",
-        "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-        "budget": "6000万元",
-        "fund_source": "中央资金及地方财政资金",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2405-520221-04-01-773746",
-        "approval": "关于六盘水市第二十三中学教学楼、运动场建设项目可行性研究报告批复水发改社会【2026】15号",
-        "project_content": "新建教学楼10094平方米、运动场21000平方米及附属设施",
-        "project_location": "贵州省-六盘水市-水城区",
-        "source_notice_id": "863586",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "六盘水市第二十三中学教学楼运动场建设项目",
-          "plan": {
-            "published_at": "2026-04-17 10:45:52",
-            "title": "六盘水市第二十三中学教学楼、运动场建设项目项目招标计划",
-            "project_name": "六盘水市第二十三中学教学楼、运动场建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863586",
-            "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-            "budget": "6000万元",
-            "fund_source": "中央资金及地方财政资金",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2405-520221-04-01-773746",
-            "approval": "关于六盘水市第二十三中学教学楼、运动场建设项目可行性研究报告批复水发改社会【2026】15号",
-            "project_content": "新建教学楼10094平方米、运动场21000平方米及附属设施",
-            "project_location": "贵州省-六盘水市-水城区",
-            "source_notice_id": "863586",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：六盘水领航未来教育投资（集团）有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.5,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-15",
-        "title": "金竹林初级中学室内运动场建设项目竞争性磋商公告",
-        "project_name": "金竹林初级中学室内运动场建设项目竞争性磋商公告",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=906997",
-        "budget": "",
-        "project_content": "",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-        "agency": "中岐能工程项目管理有限公司",
-        "bid_deadline": "2026-07-26 14:30",
-        "source_name": "贵州省招标投标公共服务平台",
-        "project_code": null,
-        "source_notice_id": "906997",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "贵州省",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：六盘水领航未来教育投资（集团）有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.5,
-          "project_content": 0.0,
           "buyer_equal": true,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
@@ -3714,117 +4289,6 @@
       }
     },
     {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.14,
-              "project_content": 0.035,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-13",
-        "title": "施洞镇中心幼儿园、老屯乡报效幼儿园、老屯乡坝场村幼儿园、萃文街道南省村幼儿园维修改造项目",
-        "project_name": "施洞镇中心幼儿园、老屯乡报效幼儿园、老屯乡坝场村幼儿园、萃文街道南省村幼儿园维修改造项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1236532867618705408",
-        "budget": "",
-        "project_content": "施洞镇中心幼儿园、老屯乡报效幼儿园、老屯乡坝场村幼儿园、萃文街道南省村幼儿园维修改造项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月27日 10时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260007W7 项目名称 : 施洞镇中心幼儿园、老屯乡报效幼儿园、老屯乡坝场村幼儿园、萃文街道南省村幼儿园维修改造项目 项目序列号 : ZFCG20260709020 采购方式 : 竞争性磋商 预算金额(元) : 775889.76元 最高限价(元) : 775889.76元 采购需求 : 详见磋商文件 标项 标项名称 : 施洞镇中心幼儿园、老屯乡报效幼儿园、老屯乡坝场村幼儿园、萃文街道南省村幼儿园维修改造项目 数量 : 批 预算金额（元） : 775889.76 简要规格描述或项目基本概况介绍、用途 : 施洞镇中心幼儿园、老屯乡报效幼儿园、老屯乡坝场村幼儿园、萃文街道南省村幼儿园维修改造 备注 : 合同履约期限 : 45天 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔东南财采〔2022〕8号"
-        ],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "中岐能工程项目管理有限公司",
-        "bid_deadline": "2026-07-27 10:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260007W7",
-        "source_notice_id": "1236532867618705408",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.14,
-          "project_content": 0.035,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "贵州大学科研楼建设项目",
       "plan": {
         "published_at": "2026-07-01 17:31:04",
@@ -4289,226 +4753,6 @@
       }
     },
     {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司",
-              "项目名称地域存在差异：黔东南州 / 台江县，名称相似项未计入"
-            ],
-            "similarities": {
-              "project_name": 0.133,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": true
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "台江县城关第五小学挡土墙项目采购公告",
-        "project_name": "台江县城关第五小学挡土墙项目采购公告",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=904407",
-        "budget": "349566.19元",
-        "project_content": "",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州瑞翔达项目管理咨询有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省招标投标公共服务平台",
-        "project_code": null,
-        "source_notice_id": "904407",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "贵州省",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司",
-          "项目名称地域存在差异：黔东南州 / 台江县，名称相似项未计入"
-        ],
-        "similarities": {
-          "project_name": 0.133,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": true
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.235,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "台盘乡中心小学学生宿舍楼维修改造项目采购公告",
-        "project_name": "台盘乡中心小学学生宿舍楼维修改造项目采购公告",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=904331",
-        "budget": "499424.07元",
-        "project_content": "",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州瑞翔达项目管理咨询有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省招标投标公共服务平台",
-        "project_code": null,
-        "source_notice_id": "904331",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "贵州省",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.235,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "盘州市2026年巩固提升农村供水工程",
       "plan": {
         "published_at": "2026-06-01 09:53:50",
@@ -4883,454 +5127,6 @@
           "fixed_asset_code_equal": false,
           "approval_equal": false,
           "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.154,
-              "project_content": 0.028,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目",
-        "project_name": "老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235484992608538624",
-        "budget": "",
-        "project_content": "老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月27日 10时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260007UK 项目名称 : 老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目 项目序列号 : ZFCG20260709004 采购方式 : 竞争性磋商 预算金额(元) : 1029032.04元 最高限价(元) : 1016000.01元 采购需求 : 老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目 标项 标项名称 : 老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目 数量 : 批 预算金额（元） : 1029032.04 简要规格描述或项目基本概况介绍、用途 : 老屯乡中心小学综合楼及学生宿舍楼、老屯乡报效小学学生宿舍及食堂维修改造项目 备注 : 合同履约期限 : 45日历天内 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔东南财采〔2022〕8号"
-        ],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州智尚工程项目管理有限公司",
-        "bid_deadline": "2026-07-27 10:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260007UK",
-        "source_notice_id": "1235484992608538624",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.154,
-          "project_content": 0.028,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.174,
-              "project_content": 0.021,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目",
-        "project_name": "排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235484987151749120",
-        "budget": "",
-        "project_content": "排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月27日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260007UL 项目名称 : 排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目 项目序列号 : ZFCG20260709005 采购方式 : 竞争性磋商 预算金额(元) : 839189.20元 最高限价(元) : 837378.44元 采购需求 : 排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目 标项 标项名称 : 排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目 数量 : 批 预算金额（元） : 839189.20 简要规格描述或项目基本概况介绍、用途 : 排羊乡中心小学学生食堂、学生宿舍楼及南刀小学教学楼维修改造项目 备注 : 合同履约期限 : 45日历天 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔东南财采〔2022〕8号"
-        ],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州智尚工程项目管理有限公司",
-        "bid_deadline": "2026-07-27 09:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260007UL",
-        "source_notice_id": "1235484987151749120",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.174,
-          "project_content": 0.021,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司",
-              "项目名称地域存在差异：黔东南州 / 台江县，名称相似项未计入"
-            ],
-            "similarities": {
-              "project_name": 0.095,
-              "project_content": 0.029,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": true
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "台江县城关第三幼儿园、台江县城关第二幼儿园维修改造项目",
-        "project_name": "台江县城关第三幼儿园、台江县城关第二幼儿园维修改造项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235484976401747968",
-        "budget": "",
-        "project_content": "台江县城关第三幼儿园、台江县城关第二幼儿园维修改造项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月22日 11时00分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260007VX 项目名称 : 台江县城关第三幼儿园、台江县城关第二幼儿园维修改造项目 项目序列号 : ZFCG20260709019 采购方式 : 竞争性磋商 预算金额(元) : 1507946.68元 最高限价(元) : 1507946.68元 采购需求 : 详见磋商文件 标项 标项名称 : 台江县城关第三幼儿园、台江县城关第二幼儿园维修改造项目 数量 : 批 预算金额（元） : 1507946.68 简要规格描述或项目基本概况介绍、用途 : 台江县城关第三幼儿园、台江县城关第二幼儿园维修改造 备注 : 合同履约期限 : 45天 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔东南财采〔2022〕8号"
-        ],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "中岐能工程项目管理有限公司",
-        "bid_deadline": "2026-07-22 11:00",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260007VX",
-        "source_notice_id": "1235484976401747968",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司",
-          "项目名称地域存在差异：黔东南州 / 台江县，名称相似项未计入"
-        ],
-        "similarities": {
-          "project_name": 0.095,
-          "project_content": 0.029,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": true
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司",
-              "项目名称地域存在差异：黔东南州 / 台江县，名称相似项未计入"
-            ],
-            "similarities": {
-              "project_name": 0.125,
-              "project_content": 0.043,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": true
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "台江县城关一小教学楼维修改造项目",
-        "project_name": "台江县城关一小教学楼维修改造项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235483471758102528",
-        "budget": "",
-        "project_content": "台江县城关一小教学楼维修改造项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月22日 10时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260007UM 项目名称 : 台江县城关一小教学楼维修改造项目 项目序列号 : ZFCG20260709008 采购方式 : 竞争性磋商 预算金额(元) : 1197849.79元 最高限价(元) : 1166975.58元 采购需求 : 台江县城关一小教学楼维修改造项目 标项 标项名称 : 台江县城关一小教学楼维修改造项目 数量 : 批 预算金额（元） : 1197849.79 简要规格描述或项目基本概况介绍、用途 : 台江县城关一小教学楼维修改造项目 备注 : 合同履约期限 : 45日历天 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔东南财采〔2022〕8号"
-        ],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州智尚工程项目管理有限公司",
-        "bid_deadline": "2026-07-22 10:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260007UM",
-        "source_notice_id": "1235483471758102528",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司",
-          "项目名称地域存在差异：黔东南州 / 台江县，名称相似项未计入"
-        ],
-        "similarities": {
-          "project_name": 0.125,
-          "project_content": 0.043,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": true
         }
       }
     },
@@ -5782,117 +5578,6 @@
         "similarities": {
           "project_name": 0.462,
           "project_content": 0.03,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.211,
-              "project_content": 0.035,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-07-10",
-        "title": "台盘乡中心幼儿园、革一镇中心幼儿园维修改造项目",
-        "project_name": "台盘乡中心幼儿园、革一镇中心幼儿园维修改造项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1235462313407025152",
-        "budget": "",
-        "project_content": "台盘乡中心幼儿园、革一镇中心幼儿园维修改造项目 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月21日 10时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260007UY 项目名称 : 台盘乡中心幼儿园、革一镇中心幼儿园维修改造项目 项目序列号 : ZFCG20260709012 采购方式 : 竞争性磋商 预算金额(元) : 947011.72元 最高限价(元) : 914427.25元 采购需求 : 详见磋商文件 标项 标项名称 : 台盘乡中心幼儿园、革一镇中心幼儿园维修改造项目 数量 : 批 预算金额（元） : 947011.72 简要规格描述或项目基本概况介绍、用途 : 台盘乡中心幼儿园、革一镇中心幼儿园维修改造项目 备注 : 合同履约期限 : 通知书发出之日起30日历天 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "黔东南财采〔2022〕8号"
-        ],
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州海之悦项目咨询有限公司",
-        "bid_deadline": "2026-07-21 10:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260007UY",
-        "source_notice_id": "1235462313407025152",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.211,
-          "project_content": 0.035,
           "buyer_equal": true,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
@@ -8060,69 +7745,63 @@
       }
     },
     {
-      "plan_project_key": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目",
+      "plan_project_key": "2026年六枝特区农村地区供水保障水质提升及应急供水工程",
       "plan": {
-        "published_at": "2026-04-17 17:29:42",
-        "title": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目项目招标计划",
-        "project_name": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864166",
+        "published_at": "2026-05-09 15:49:11",
+        "title": "2026年六枝特区农村地区供水保障水质提升及应急供水工程项目招标计划",
+        "project_name": "2026年六枝特区农村地区供水保障水质提升及应急供水工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=873067",
         "buyer": "六枝特区农村供水保障服务中心",
-        "budget": "229万元",
-        "fund_source": "中央水利发展资金、运行管护单位自筹",
+        "budget": "180万元",
+        "fund_source": "2026年省级水利发展资金",
         "fund_source_tags": [
-          "地方自筹",
-          "企业自筹"
+          "其他"
         ],
-        "fixed_asset_code": "2602-520203-04-01-930165",
-        "approval": "六特水批字〔2026〕7 号",
-        "project_content": "（1）中寨乡：改扩建 100m³蓄水池 1 座、5m³取水池 1 座， 更换铺设供水管网 PE100 级 DE50 管 2200m，PE32 管道 3500m。 安装变频控制柜（自带防雷）3 台，实现泵站运行可远程操作。 （2）关寨镇：维修 PE100 级 DN25 管 130m，安装变频控制 柜（自带防雷）1 台，实现泵站运行可远程操作。维修 PE100 级 DN110 管 200m，更换 DN125 铸铁闸阀（1.6MPa）1 个。 （3）九龙社区：扬丰村更换不锈钢立式多级离心泵 1 台。 更换缓闭式铸铁止回阀螺纹连接 DN80（2.5Mpa）1 个，铸铁止 回阀螺纹连接 DN80（2.5Mpa）1 个。 （4）龙河镇：更换 DN80 的加密闸阀 4 个，DN50 的加密闸 阀 12 个，更换 DN200 的加密闸阀 1 个，更换 DN280 的加密闸 阀 1 个。 （5）岩脚镇：维修 PE100 级 DN50 管 100m，维修 PE100 级 DN25 管 960m，维修 PE100 级 DN32 管 350m，及相应管件。 安装变频控制柜（自带防雷）1 台，实现泵站运行可远程操作。 （6）新窑镇：改建 PE100 级 DN25 管的输水管网 2000m， 改造户表 600 户（含表前阀、表后阀、水表、水表箱），改扩建 50 ㎥不锈钢水池 1 座，改建 PE100 级 DE50 管 4000m。（7）新场乡：改建 PE100 级 DN180 管(1.6Mpa)的输水管道 2000m,维修 PE100 级 DN32 管 2000m,维修改建 PE100 级 DN25 管 2200m,及相应管件。维修 300QJ150/240 潜水泵 1 台，改造户 表 600 户（含表前阀、表后阀、水表、水表箱）。 （8）梭戛乡：改建 PE100 级 DN25 管输水管网 1000m，改 造户表 400 户（含表前阀、表后阀、水表、水表箱）。",
+        "fixed_asset_code": "2603-520203-04-01-726572",
+        "approval": "六特水批字[2026]8号",
+        "project_content": "(一)提水工程:1.新建管道泵房一座，泵房为砖混结构，建筑尺寸为:4.5mx3.5mx3m(长x宽x高)，建筑面积15.75㎡。2.安装管道增压泵2台/套(型号ISG100-250A)(一用一备)，控制柜(30KW、一控二)。3.新建上水管1根，dn160PE100级1.6Mpa长1100m。4.新建80KVA变压器一台，380V供电线路200m。5.闸阀及其附属设施。(二)水池工程:1.新建200m³不锈钢高位水箱1座(含基础底板建设)。2.管件及其附属设施。(三)配水工程:1.新建配水管5条，dn40PE100级管(1.6Mpa)长285m，dn25PE100级管(1.6Mpa)长303m,D48.3x3.5无缝钢管长1378m，D42.4x3.5无缝钢管长794m，D33.7x3.2无缝钢管长337m。2.闸阀及其附属设施;(四)水厂工程:1.更换2000m³/d钢制一体化净水器(网格絮凝反应池、斜管沉淀池+单阀滤池)1套。2.新增90㎡一体化净水器彩钢棚;(五)入户工程:1.新增PE管de25/2.3-1.6MPa 长1400m，DN15水表(铜质接口)70个，定型金属水表箱(500x300x150mm)70个。",
         "project_location": "贵州省-六盘水市-六枝特区",
-        "source_notice_id": "864166",
-        "plan_version_count": 2
+        "source_notice_id": "873067",
+        "plan_version_count": 1
       },
       "candidate_plans": [
         {
-          "plan_project_key": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目",
+          "plan_project_key": "2026年六枝特区农村地区供水保障水质提升及应急供水工程",
           "plan": {
-            "published_at": "2026-04-17 17:29:42",
-            "title": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目项目招标计划",
-            "project_name": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864166",
+            "published_at": "2026-05-09 15:49:11",
+            "title": "2026年六枝特区农村地区供水保障水质提升及应急供水工程项目招标计划",
+            "project_name": "2026年六枝特区农村地区供水保障水质提升及应急供水工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=873067",
             "buyer": "六枝特区农村供水保障服务中心",
-            "budget": "229万元",
-            "fund_source": "中央水利发展资金、运行管护单位自筹",
+            "budget": "180万元",
+            "fund_source": "2026年省级水利发展资金",
             "fund_source_tags": [
-              "地方自筹",
-              "企业自筹"
+              "其他"
             ],
-            "fixed_asset_code": "2602-520203-04-01-930165",
-            "approval": "六特水批字〔2026〕7 号",
-            "project_content": "（1）中寨乡：改扩建 100m³蓄水池 1 座、5m³取水池 1 座， 更换铺设供水管网 PE100 级 DE50 管 2200m，PE32 管道 3500m。 安装变频控制柜（自带防雷）3 台，实现泵站运行可远程操作。 （2）关寨镇：维修 PE100 级 DN25 管 130m，安装变频控制 柜（自带防雷）1 台，实现泵站运行可远程操作。维修 PE100 级 DN110 管 200m，更换 DN125 铸铁闸阀（1.6MPa）1 个。 （3）九龙社区：扬丰村更换不锈钢立式多级离心泵 1 台。 更换缓闭式铸铁止回阀螺纹连接 DN80（2.5Mpa）1 个，铸铁止 回阀螺纹连接 DN80（2.5Mpa）1 个。 （4）龙河镇：更换 DN80 的加密闸阀 4 个，DN50 的加密闸 阀 12 个，更换 DN200 的加密闸阀 1 个，更换 DN280 的加密闸 阀 1 个。 （5）岩脚镇：维修 PE100 级 DN50 管 100m，维修 PE100 级 DN25 管 960m，维修 PE100 级 DN32 管 350m，及相应管件。 安装变频控制柜（自带防雷）1 台，实现泵站运行可远程操作。 （6）新窑镇：改建 PE100 级 DN25 管的输水管网 2000m， 改造户表 600 户（含表前阀、表后阀、水表、水表箱），改扩建 50 ㎥不锈钢水池 1 座，改建 PE100 级 DE50 管 4000m。（7）新场乡：改建 PE100 级 DN180 管(1.6Mpa)的输水管道 2000m,维修 PE100 级 DN32 管 2000m,维修改建 PE100 级 DN25 管 2200m,及相应管件。维修 300QJ150/240 潜水泵 1 台，改造户 表 600 户（含表前阀、表后阀、水表、水表箱）。 （8）梭戛乡：改建 PE100 级 DN25 管输水管网 1000m，改 造户表 400 户（含表前阀、表后阀、水表、水表箱）。",
+            "fixed_asset_code": "2603-520203-04-01-726572",
+            "approval": "六特水批字[2026]8号",
+            "project_content": "(一)提水工程:1.新建管道泵房一座，泵房为砖混结构，建筑尺寸为:4.5mx3.5mx3m(长x宽x高)，建筑面积15.75㎡。2.安装管道增压泵2台/套(型号ISG100-250A)(一用一备)，控制柜(30KW、一控二)。3.新建上水管1根，dn160PE100级1.6Mpa长1100m。4.新建80KVA变压器一台，380V供电线路200m。5.闸阀及其附属设施。(二)水池工程:1.新建200m³不锈钢高位水箱1座(含基础底板建设)。2.管件及其附属设施。(三)配水工程:1.新建配水管5条，dn40PE100级管(1.6Mpa)长285m，dn25PE100级管(1.6Mpa)长303m,D48.3x3.5无缝钢管长1378m，D42.4x3.5无缝钢管长794m，D33.7x3.2无缝钢管长337m。2.闸阀及其附属设施;(四)水厂工程:1.更换2000m³/d钢制一体化净水器(网格絮凝反应池、斜管沉淀池+单阀滤池)1套。2.新增90㎡一体化净水器彩钢棚;(五)入户工程:1.新增PE管de25/2.3-1.6MPa 长1400m，DN15水表(铜质接口)70个，定型金属水表箱(500x300x150mm)70个。",
             "project_location": "贵州省-六盘水市-六枝特区",
-            "source_notice_id": "864166",
-            "plan_version_count": 2
+            "source_notice_id": "873067",
+            "plan_version_count": 1
           },
           "match": {
-            "method": "fixed_asset_code+project_name+buyer",
+            "method": "buyer",
             "methods": [
-              "fixed_asset_code",
-              "project_name",
               "buyer"
             ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
             "evidence": [
-              "投资项目代码一致：2602-520203-04-01-930165",
-              "标准化项目名称完全一致（100%）",
               "招标人/采购人名称一致：六枝特区农村供水保障服务中心"
             ],
             "similarities": {
-              "project_name": 1.0,
+              "project_name": 0.407,
               "project_content": 0.0,
               "buyer_equal": true,
-              "fixed_asset_code_equal": true,
+              "fixed_asset_code_equal": false,
               "approval_equal": false,
               "location_conflict": false
             }
@@ -8155,26 +7834,22 @@
         "is_new": false
       },
       "match": {
-        "method": "fixed_asset_code+project_name+buyer",
+        "method": "buyer",
         "methods": [
-          "fixed_asset_code",
-          "project_name",
           "buyer"
         ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
         "evidence": [
-          "投资项目代码一致：2602-520203-04-01-930165",
-          "标准化项目名称完全一致（100%）",
           "招标人/采购人名称一致：六枝特区农村供水保障服务中心"
         ],
         "similarities": {
-          "project_name": 1.0,
+          "project_name": 0.407,
           "project_content": 0.0,
           "buyer_equal": true,
-          "fixed_asset_code_equal": true,
+          "fixed_asset_code_equal": false,
           "approval_equal": false,
           "location_conflict": false
         }
@@ -14049,115 +13724,6 @@
       }
     },
     {
-      "plan_project_key": "格林中心学校综合楼等3所学校维修改造项目",
-      "plan": {
-        "published_at": "2026-04-17 12:04:01",
-        "title": "格林中心学校综合楼等3所学校维修改造项目项目招标计划",
-        "project_name": "格林中心学校综合楼等3所学校维修改造项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863675",
-        "buyer": "正安县教育体育局",
-        "budget": "568.04万元",
-        "fund_source": "申请中央、省级教育专项资金及县级自筹资金",
-        "fund_source_tags": [
-          "地方自筹"
-        ],
-        "fixed_asset_code": "2604-520324-04-01-908886",
-        "approval": "正发改审批〔2026〕8号",
-        "project_content": "本项目涉及正安县格林中心学校、正安县正安县第一完全小学及正安县市坪中学3所学校，主要建设内容为:1.正安县格林中心学校:女生宿舍和男生宿舍维修改造1450平方米，主要涉及更换门窗、地面铺设地胶、厕所及盥洗间吊顶、盥洗间改造浴室等。新建综合楼819.64平方米。2.正安县第一小学:原有教学楼地面铺设地胶约2980平方米;墙裙砖约950平方米;线路改造约2980平方米。3.正安县市坪中学:原有足球场剔除人工草坪2500.00平方米后从新铺设人工草坪;剔除原有跑道及周边塑胶后重新铺设塑胶面积约为1900平方米。",
-        "project_location": "贵州省-遵义市-正安县",
-        "source_notice_id": "863675",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "格林中心学校综合楼等3所学校维修改造项目",
-          "plan": {
-            "published_at": "2026-04-17 12:04:01",
-            "title": "格林中心学校综合楼等3所学校维修改造项目项目招标计划",
-            "project_name": "格林中心学校综合楼等3所学校维修改造项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863675",
-            "buyer": "正安县教育体育局",
-            "budget": "568.04万元",
-            "fund_source": "申请中央、省级教育专项资金及县级自筹资金",
-            "fund_source_tags": [
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2604-520324-04-01-908886",
-            "approval": "正发改审批〔2026〕8号",
-            "project_content": "本项目涉及正安县格林中心学校、正安县正安县第一完全小学及正安县市坪中学3所学校，主要建设内容为:1.正安县格林中心学校:女生宿舍和男生宿舍维修改造1450平方米，主要涉及更换门窗、地面铺设地胶、厕所及盥洗间吊顶、盥洗间改造浴室等。新建综合楼819.64平方米。2.正安县第一小学:原有教学楼地面铺设地胶约2980平方米;墙裙砖约950平方米;线路改造约2980平方米。3.正安县市坪中学:原有足球场剔除人工草坪2500.00平方米后从新铺设人工草坪;剔除原有跑道及周边塑胶后重新铺设塑胶面积约为1900平方米。",
-            "project_location": "贵州省-遵义市-正安县",
-            "source_notice_id": "863675",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name",
-            "methods": [
-              "project_name"
-            ],
-            "confidence": 0.909,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 74.1%"
-            ],
-            "similarities": {
-              "project_name": 0.851,
-              "project_content": 0.015,
-              "buyer_equal": false,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-24",
-        "title": "正安县格林中心学校综合楼等3所学校维修改造项目施工招标招标公告",
-        "project_name": "正安县格林中心学校综合楼等3所学校维修改造项目施工招标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1229595494163025920",
-        "budget": "4907970.97元",
-        "project_content": "施工图纸和相应工程量清单所表达的范围（工程量清单与施工图不一致时，以工程量清单为准）",
-        "fixed_asset_code": null,
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": null,
-        "buyer": "公告未载明",
-        "agency": "贵州鹏远工程咨询管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E52032420260002I3001",
-        "source_notice_id": "1229595494163025920",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name",
-        "methods": [
-          "project_name"
-        ],
-        "confidence": 0.909,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 74.1%"
-        ],
-        "similarities": {
-          "project_name": 0.851,
-          "project_content": 0.015,
-          "buyer_equal": false,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "榕江县示范幼儿园扩建项目",
       "plan": {
         "published_at": "2026-04-23 14:42:01",
@@ -14373,224 +13939,6 @@
           "project_name": 0.357,
           "project_content": 0.038,
           "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "岑巩县客楼镇客楼河重点山洪沟续建工程",
-      "plan": {
-        "published_at": "2026-04-17 09:29:02",
-        "title": "岑巩县客楼镇客楼河重点山洪沟续建工程项目招标计划",
-        "project_name": "岑巩县客楼镇客楼河重点山洪沟续建工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863492",
-        "buyer": "岑巩县水务局",
-        "budget": "800万元",
-        "fund_source": "中央+省级",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-522626-04-01-158131",
-        "approval": "岑府专议〔2026〕53号",
-        "project_content": "综合治理长度为2.901km，河道清淤长度为2.697km，新建护岸总长度为2.138km.",
-        "project_location": "贵州省-黔东南苗族侗族自治州-岑巩县",
-        "source_notice_id": "863492",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "岑巩县客楼镇客楼河重点山洪沟续建工程",
-          "plan": {
-            "published_at": "2026-04-17 09:29:02",
-            "title": "岑巩县客楼镇客楼河重点山洪沟续建工程项目招标计划",
-            "project_name": "岑巩县客楼镇客楼河重点山洪沟续建工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863492",
-            "buyer": "岑巩县水务局",
-            "budget": "800万元",
-            "fund_source": "中央+省级",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-522626-04-01-158131",
-            "approval": "岑府专议〔2026〕53号",
-            "project_content": "综合治理长度为2.901km，河道清淤长度为2.697km，新建护岸总长度为2.138km.",
-            "project_location": "贵州省-黔东南苗族侗族自治州-岑巩县",
-            "source_notice_id": "863492",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：岑巩县水务局"
-            ],
-            "similarities": {
-              "project_name": 0.2,
-              "project_content": 0.059,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-23",
-        "title": "岑巩县2026年农村供水管网建设工程项目（二次）岑巩县2026年农村供水管网建设工程项目",
-        "project_name": "岑巩县2026年农村供水管网建设工程项目（二次）岑巩县2026年农村供水管网建设工程项目",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1229330431858577408",
-        "budget": "",
-        "project_content": "岑巩县2026年农村供水管网建设工程项目（二次） 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月20日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52262620260006J2 项目名称 : 岑巩县2026年农村供水管网建设工程项目（二次） 项目序列号 : ZFCG20260616001 预算金额(元) : 2914147.16元 最高限价(元) : 2914147.16元 采购需求 : 1.新建农村供水主管7.08km，新建农村供水支管33.44km。 2.安装水表760套。 标项 标项名称 : 岑巩县2026年农村供水管网建设工程项目 数量 : -批 预算金额（元） : 2914147.16 简要规格描述或项目基本概况介绍、用途 : 新建农村供水主管，供水支管，安装水表等。 备注 : 合同履约期限 : 6个月 本项目（是 / 否）接受联合体投标 : 是",
-        "fixed_asset_code": null,
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": null,
-        "buyer": "岑巩县水务局",
-        "agency": "贵州中祁项目管理有限公司",
-        "bid_deadline": "2026-07-20 09:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52262620260006J2",
-        "source_notice_id": "1229330431858577408",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：岑巩县水务局"
-        ],
-        "similarities": {
-          "project_name": 0.2,
-          "project_content": 0.059,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "正安县尹珍实验学校维修改造项目",
-      "plan": {
-        "published_at": "2026-04-17 12:03:38",
-        "title": "正安县尹珍实验学校维修改造项目项目招标计划",
-        "project_name": "正安县尹珍实验学校维修改造项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863674",
-        "buyer": "正安县教育体育局",
-        "budget": "561.58万元",
-        "fund_source": "申请教育专项资金、东西部协作资金、国开行专项资金及县级自筹资金",
-        "fund_source_tags": [
-          "地方自筹"
-        ],
-        "fixed_asset_code": "2604-520324-04-01-427910",
-        "approval": "正发改审批〔2026〕9号",
-        "project_content": "本项目主要线路更换面积约9500平方米;门窗更换约5000平方米;地胶铺设约9000平方米;墙面刮瓷约15000平方米;卫生间改造12间.",
-        "project_location": "贵州省-遵义市-正安县",
-        "source_notice_id": "863674",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "正安县尹珍实验学校维修改造项目",
-          "plan": {
-            "published_at": "2026-04-17 12:03:38",
-            "title": "正安县尹珍实验学校维修改造项目项目招标计划",
-            "project_name": "正安县尹珍实验学校维修改造项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863674",
-            "buyer": "正安县教育体育局",
-            "budget": "561.58万元",
-            "fund_source": "申请教育专项资金、东西部协作资金、国开行专项资金及县级自筹资金",
-            "fund_source_tags": [
-              "地方自筹"
-            ],
-            "fixed_asset_code": "2604-520324-04-01-427910",
-            "approval": "正发改审批〔2026〕9号",
-            "project_content": "本项目主要线路更换面积约9500平方米;门窗更换约5000平方米;地胶铺设约9000平方米;墙面刮瓷约15000平方米;卫生间改造12间.",
-            "project_location": "贵州省-遵义市-正安县",
-            "source_notice_id": "863674",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name",
-            "methods": [
-              "project_name"
-            ],
-            "confidence": 0.98,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "标准化项目名称完全一致（100%）"
-            ],
-            "similarities": {
-              "project_name": 1.0,
-              "project_content": 0.0,
-              "buyer_equal": false,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-23",
-        "title": "正安县尹珍实验学校维修改造项目招标公告",
-        "project_name": "正安县尹珍实验学校维修改造项目招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1229327497833877504",
-        "budget": "",
-        "project_content": "工程量清单及施工图所示全部内容",
-        "fixed_asset_code": null,
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": null,
-        "buyer": "公告未载明",
-        "agency": "贵州煜辉工程管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E52032420260002HP001",
-        "source_notice_id": "1229327497833877504",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name",
-        "methods": [
-          "project_name"
-        ],
-        "confidence": 0.98,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "标准化项目名称完全一致（100%）"
-        ],
-        "similarities": {
-          "project_name": 1.0,
-          "project_content": 0.0,
-          "buyer_equal": false,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
           "location_conflict": false
@@ -15269,115 +14617,6 @@
           "fixed_asset_code_equal": false,
           "approval_equal": false,
           "location_conflict": true
-        }
-      }
-    },
-    {
-      "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-      "plan": {
-        "published_at": "2026-04-17 16:30:30",
-        "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-        "project_name": "黔东南州苗疆全民健身中心建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "budget": "2500万元",
-        "fund_source": "申请中央预算内投资及地方政府匹配",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2310-522630-04-01-755255",
-        "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-        "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-        "source_notice_id": "863997",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黔东南州苗疆全民健身中心建设项目",
-          "plan": {
-            "published_at": "2026-04-17 16:30:30",
-            "title": "黔东南州苗疆全民健身中心建设项目项目招标计划",
-            "project_name": "黔东南州苗疆全民健身中心建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863997",
-            "buyer": "台江县文体旅开发投资集团有限责任公司",
-            "budget": "2500万元",
-            "fund_source": "申请中央预算内投资及地方政府匹配",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2310-522630-04-01-755255",
-            "approval": "关于黔东南州苗疆全民健身中心建设项目立项的批复 台发改投资〔2025〕18号",
-            "project_content": "规划用地面积9000㎡，总建筑面积8500㎡，其中：计容面积8100㎡，建设内容为室内健身场地5580㎡、羽毛球场420㎡、乒乓球场200㎡、举重馆400㎡、健身操房500㎡、室内篮球场1000㎡等；不计容面积400㎡，建设内容为消防水池。同时配套建设其他相关附属设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-台江县",
-            "source_notice_id": "863997",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.068,
-              "project_content": 0.041,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-18",
-        "title": "台江职校2026年现代职业教育质量提升采购项目（A包消防设施改造、广场维修及鼓伴楼维修改造）",
-        "project_name": "台江职校2026年现代职业教育质量提升采购项目（A包消防设施改造、广场维修及鼓伴楼维修改造）",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1227422116597600256",
-        "budget": "",
-        "project_content": "台江职校2026年现代职业教育质量提升采购项目（A包消防设施改造、广场维修及鼓伴楼维修改造） 招标项目的潜在投标人应在 黔东南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年07月13日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52263020260006N0 项目名称 : 台江职校2026年现代职业教育质量提升采购项目（A包消防设施改造、广场维修及鼓伴楼维修改造） 项目序列号 : ZFCG20260617010 预算金额(元) : 1499860.09元 最高限价(元) : 1490251.07元 采购需求 : 详见招标文件 标项 标项名称 : 台江职校2026年现代职业教育质量提升采购项目（A包消防设施改造、广场维修及鼓伴楼维修改造） 数量 : 批 预算金额（元） : 1499860.09 简要规格描述或项目基本概况介绍、用途 : 消防设施改造、广场维修及鼓伴楼维修改造 备注 : 合同履约期限 : 通知书发出之日起30日历天 本项目（是 / 否）接受联合体投标 : 否",
-        "fixed_asset_code": null,
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": null,
-        "buyer": "台江县文体旅开发投资集团有限责任公司",
-        "agency": "贵州海之悦项目咨询有限公司",
-        "bid_deadline": "2026-07-13 09:30",
-        "source_name": "贵州省公共资源交易云-政府采购",
-        "project_code": "P52263020260006N0",
-        "source_notice_id": "1227422116597600256",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：台江县文体旅开发投资集团有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.068,
-          "project_content": 0.041,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
         }
       }
     },
@@ -17925,115 +17164,6 @@
       }
     },
     {
-      "plan_project_key": "六盘水市第二十三中学教学楼运动场建设项目",
-      "plan": {
-        "published_at": "2026-04-17 10:45:52",
-        "title": "六盘水市第二十三中学教学楼、运动场建设项目项目招标计划",
-        "project_name": "六盘水市第二十三中学教学楼、运动场建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863586",
-        "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-        "budget": "6000万元",
-        "fund_source": "中央资金及地方财政资金",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2405-520221-04-01-773746",
-        "approval": "关于六盘水市第二十三中学教学楼、运动场建设项目可行性研究报告批复水发改社会【2026】15号",
-        "project_content": "新建教学楼10094平方米、运动场21000平方米及附属设施",
-        "project_location": "贵州省-六盘水市-水城区",
-        "source_notice_id": "863586",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "六盘水市第二十三中学教学楼运动场建设项目",
-          "plan": {
-            "published_at": "2026-04-17 10:45:52",
-            "title": "六盘水市第二十三中学教学楼、运动场建设项目项目招标计划",
-            "project_name": "六盘水市第二十三中学教学楼、运动场建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863586",
-            "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-            "budget": "6000万元",
-            "fund_source": "中央资金及地方财政资金",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2405-520221-04-01-773746",
-            "approval": "关于六盘水市第二十三中学教学楼、运动场建设项目可行性研究报告批复水发改社会【2026】15号",
-            "project_content": "新建教学楼10094平方米、运动场21000平方米及附属设施",
-            "project_location": "贵州省-六盘水市-水城区",
-            "source_notice_id": "863586",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：六盘水领航未来教育投资（集团）有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.39,
-              "project_content": 0.05,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "六盘水市水城区发耳镇发耳小学改扩建项目（二次）招标公告",
-        "project_name": "六盘水市水城区发耳镇发耳小学改扩建项目（二次）招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222074689408815104",
-        "budget": "20004923.82 元",
-        "project_content": "本工程施工图、工程量清单、招标文件及补充文件所示的全部内容，包括但不限于完成本项目建设范围内（施工图设计和设计变更范围内）的全部施工工作，直至竣工验收、整体移交、质量缺陷责任期内的缺陷修复等相关工作",
-        "fixed_asset_code": "2501-520221-04-01-632361",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-        "agency": "中正信合项目管理有限公司",
-        "bid_deadline": "2026-06-29 09:30",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520204202600028R001",
-        "source_notice_id": "1222074689408815104",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "六盘水市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：六盘水领航未来教育投资（集团）有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.39,
-          "project_content": 0.05,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
       "plan_project_key": "瓮安县2026年中央水利发展资金水库维修养护工程",
       "plan": {
         "published_at": "2026-04-26 13:59:12",
@@ -18141,115 +17271,6 @@
         "similarities": {
           "project_name": 1.0,
           "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "六盘水市第二十三中学教学楼运动场建设项目",
-      "plan": {
-        "published_at": "2026-04-17 10:45:52",
-        "title": "六盘水市第二十三中学教学楼、运动场建设项目项目招标计划",
-        "project_name": "六盘水市第二十三中学教学楼、运动场建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863586",
-        "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-        "budget": "6000万元",
-        "fund_source": "中央资金及地方财政资金",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2405-520221-04-01-773746",
-        "approval": "关于六盘水市第二十三中学教学楼、运动场建设项目可行性研究报告批复水发改社会【2026】15号",
-        "project_content": "新建教学楼10094平方米、运动场21000平方米及附属设施",
-        "project_location": "贵州省-六盘水市-水城区",
-        "source_notice_id": "863586",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "六盘水市第二十三中学教学楼运动场建设项目",
-          "plan": {
-            "published_at": "2026-04-17 10:45:52",
-            "title": "六盘水市第二十三中学教学楼、运动场建设项目项目招标计划",
-            "project_name": "六盘水市第二十三中学教学楼、运动场建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=863586",
-            "buyer": "六盘水领航未来教育投资（集团）有限责任公司",
-            "budget": "6000万元",
-            "fund_source": "中央资金及地方财政资金",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2405-520221-04-01-773746",
-            "approval": "关于六盘水市第二十三中学教学楼、运动场建设项目可行性研究报告批复水发改社会【2026】15号",
-            "project_content": "新建教学楼10094平方米、运动场21000平方米及附属设施",
-            "project_location": "贵州省-六盘水市-水城区",
-            "source_notice_id": "863586",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：六盘水领航未来教育投资(集团)有限责任公司"
-            ],
-            "similarities": {
-              "project_name": 0.409,
-              "project_content": 0.111,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "六盘水市水城区玉舍镇玉舍中学改扩建项目（食堂宿舍楼）招标公告",
-        "project_name": "六盘水市水城区玉舍镇玉舍中学改扩建项目（食堂宿舍楼）招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222046723131920384",
-        "budget": "10616588.51 元",
-        "project_content": "该项目的工程量清单及施工图所示范围等工程及相关附属工程的施工和有关部门的验收、移交工作等",
-        "fixed_asset_code": "2501-520221-04-01-516777",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "六盘水领航未来教育投资(集团)有限责任公司",
-        "agency": "贵州贵瀚咨询有限公司",
-        "bid_deadline": "2026-06-30",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E5202042026000281001",
-        "source_notice_id": "1222046723131920384",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "六盘水市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：六盘水领航未来教育投资(集团)有限责任公司"
-        ],
-        "similarities": {
-          "project_name": 0.409,
-          "project_content": 0.111,
           "buyer_equal": true,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
@@ -18956,700 +17977,10 @@
           "location_conflict": false
         }
       }
-    },
-    {
-      "plan_project_key": "凤冈县2026年小型水利建设工程",
-      "plan": {
-        "published_at": "2026-04-21 10:10:40",
-        "title": "凤冈县2026年小型水利建设工程项目招标计划",
-        "project_name": "凤冈县2026年小型水利建设工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "812万元",
-        "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-167962",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-        "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864929",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年小型水利建设工程",
-          "plan": {
-            "published_at": "2026-04-21 10:10:40",
-            "title": "凤冈县2026年小型水利建设工程项目招标计划",
-            "project_name": "凤冈县2026年小型水利建设工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "812万元",
-            "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-167962",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-            "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864929",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.951,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 84.2%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.914,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-02",
-        "title": "凤冈县2026年小型水利建设工程Ⅳ标招标公告",
-        "project_name": "凤冈县2026年小型水利建设工程Ⅳ标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221665454598475776",
-        "budget": "6765741.83元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年小型水利建设工程实施方案的批复凤水复〔2026〕4号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600027T001",
-        "source_notice_id": "1221665454598475776",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.951,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 84.2%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.914,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年小型水利建设工程",
-      "plan": {
-        "published_at": "2026-04-21 10:10:40",
-        "title": "凤冈县2026年小型水利建设工程项目招标计划",
-        "project_name": "凤冈县2026年小型水利建设工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "812万元",
-        "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-167962",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-        "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864929",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年小型水利建设工程",
-          "plan": {
-            "published_at": "2026-04-21 10:10:40",
-            "title": "凤冈县2026年小型水利建设工程项目招标计划",
-            "project_name": "凤冈县2026年小型水利建设工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "812万元",
-            "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-167962",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-            "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864929",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.951,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 84.2%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.914,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-02",
-        "title": "凤冈县2026年小型水利建设工程Ⅱ标招标公告",
-        "project_name": "凤冈县2026年小型水利建设工程Ⅱ标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221665453566676992",
-        "budget": "6765741.83元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年小型水利建设工程实施方案的批复凤水复〔2026〕4号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600027T001",
-        "source_notice_id": "1221665453566676992",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.951,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 84.2%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.914,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年小型水利建设工程",
-      "plan": {
-        "published_at": "2026-04-21 10:10:40",
-        "title": "凤冈县2026年小型水利建设工程项目招标计划",
-        "project_name": "凤冈县2026年小型水利建设工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "812万元",
-        "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-167962",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-        "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864929",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年小型水利建设工程",
-          "plan": {
-            "published_at": "2026-04-21 10:10:40",
-            "title": "凤冈县2026年小型水利建设工程项目招标计划",
-            "project_name": "凤冈县2026年小型水利建设工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "812万元",
-            "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-167962",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-            "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864929",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.957,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 88.9%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.941,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-02",
-        "title": "凤冈县2026年小型水利建设工程Ⅴ标招标公告",
-        "project_name": "凤冈县2026年小型水利建设工程Ⅴ标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221665434063163392",
-        "budget": "6765741.83元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年小型水利建设工程实施方案的批复凤水复〔2026〕4号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600027T001",
-        "source_notice_id": "1221665434063163392",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.957,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 88.9%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.941,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年小型水利建设工程",
-      "plan": {
-        "published_at": "2026-04-21 10:10:40",
-        "title": "凤冈县2026年小型水利建设工程项目招标计划",
-        "project_name": "凤冈县2026年小型水利建设工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "812万元",
-        "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-167962",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-        "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864929",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年小型水利建设工程",
-          "plan": {
-            "published_at": "2026-04-21 10:10:40",
-            "title": "凤冈县2026年小型水利建设工程项目招标计划",
-            "project_name": "凤冈县2026年小型水利建设工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "812万元",
-            "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-167962",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-            "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864929",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.957,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 88.9%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.941,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-02",
-        "title": "凤冈县2026年小型水利建设工程Ⅰ标招标公告",
-        "project_name": "凤冈县2026年小型水利建设工程Ⅰ标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221665423845838848",
-        "budget": "6765741.83元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年小型水利建设工程实施方案的批复凤水复〔2026〕4号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600027T001",
-        "source_notice_id": "1221665423845838848",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.957,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 88.9%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.941,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年小型水利建设工程",
-      "plan": {
-        "published_at": "2026-04-21 10:10:40",
-        "title": "凤冈县2026年小型水利建设工程项目招标计划",
-        "project_name": "凤冈县2026年小型水利建设工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "812万元",
-        "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-167962",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-        "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864929",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年小型水利建设工程",
-          "plan": {
-            "published_at": "2026-04-21 10:10:40",
-            "title": "凤冈县2026年小型水利建设工程项目招标计划",
-            "project_name": "凤冈县2026年小型水利建设工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "812万元",
-            "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-167962",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-            "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864929",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.951,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 84.2%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.914,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-02",
-        "title": "凤冈县2026年小型水利建设工程Ⅵ标招标公告",
-        "project_name": "凤冈县2026年小型水利建设工程Ⅵ标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221665422725959680",
-        "budget": "6765741.83元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年小型水利建设工程实施方案的批复凤水复〔2026〕4号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600027T001",
-        "source_notice_id": "1221665422725959680",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.951,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 84.2%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.914,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年小型水利建设工程",
-      "plan": {
-        "published_at": "2026-04-21 10:10:40",
-        "title": "凤冈县2026年小型水利建设工程项目招标计划",
-        "project_name": "凤冈县2026年小型水利建设工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "812万元",
-        "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-167962",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-        "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864929",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年小型水利建设工程",
-          "plan": {
-            "published_at": "2026-04-21 10:10:40",
-            "title": "凤冈县2026年小型水利建设工程项目招标计划",
-            "project_name": "凤冈县2026年小型水利建设工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864929",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "812万元",
-            "fund_source": "项目资金来源为中央水利发展资金为320万元，省级水利发展资金592万元。",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-167962",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]13号",
-            "project_content": "该工程根据资金来源共分为6个标段。Ⅰ标：凤冈县2026年小型水利建设工程（凤冈县土溪镇鞍山村自然能提水配套建设工程），工程总投资126万元。建设内容为：（1）新建一体化净水设备（330t/d）1套；（2）新建输水管道3739m。其中，新建1.6Mpa PE100级DN63输水管595m，新建D32×3mm无缝钢管（内外防腐）1586m、新建D63.5×3.5mm无缝钢管（内外防腐）1558m。Ⅱ标：凤冈县2026年小型水利建设工程（农村供水工程维修养护部分），工程总投资153万元。工程主要建设内容：共计维修养护项目点22处。维修高位水池水池4座（其中维修20m³水池2座，维修40m³水池2座，），新建高位水池7座（配备6m2消毒房7间）（其中新建20m³高位水池4座，新建30m³高位水池2座，新建50m³高位水池1座），新建20m³集水池3座，更换及新建水泵6台，新建及更换上水管4110m，新建及更换配套供水管网22185m（含入户管）。Ⅲ标：凤冈县2026年小型水利建设工程（凤冈县绥阳河集镇段清淤疏浚治理工程），工程总投资50万元。主要建设内容为：绥阳河清淤疏浚长0.266km，本次设计堤型采用重力式格宾石笼堤防，新建堤防总长0.11km，DN400污水管道疏通220m，DN400污水管损坏更换长20m。Ⅳ标：凤冈县2026年小型水利建设工程（凤冈县琊川镇烟水配套工程），工程总投资316万元，主要建设内容为：干坝山塘、大陆井山塘、雄狮关山塘进行维修加固和改造升级，包括干坝山塘坝体整治、溢洪道及取放水设施改造，大陆井山塘坝体整治、溢洪道及取放水设施改造，雄狮关山塘坝体整治、灌溉泵站建设及灌溉渠道维修改造等。Ⅴ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。Ⅵ标：凤冈县2026年小型水利建设工程（小型水库维修养护部分），工程总投资80万元，工程建设内容为：本标段项目点涉及凤冈县龙泉街道、花坪街道、何坝街道、永和镇、绥阳镇、永安镇、土溪镇、进化镇、蜂岩镇、王寨镇、琊川镇和天桥镇共计12个乡镇（街道）的西山水库、向阳水库、东笋湾水库、堰塘湾水库、沙井沟水库、穿家坪水库、香沟水库、黄泥塘水库、后山水库、双庆水库、崇新水库、土地岩水库、杜氏堰水库、猫猫沟水库、老木垭水库、赶子园水库、木兰寺水库、梁家湾水库、水鸭子水库、九龙水库、人民水库、艾坝水库、滩阳水库、洋蛟溪水库、蜂岩香沟水库、大塘口水库、关堰水库、龙洞湾水库、朝阳水库、响滩子水库、岩鹰坪水库、洪江水库和茨菇田水库共计33座水库的维修养护。主要建设内容为：水库管理房维修、放水设施维修养护、安装隔离网、更换水库安全标识牌和三个责任人公示牌，以及大坝附属设施。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864929",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.946,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 80.0%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.889,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-02",
-        "title": "凤冈县2026年小型水利建设工程Ⅲ标招标公告",
-        "project_name": "凤冈县2026年小型水利建设工程Ⅲ标招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221665421178261504",
-        "budget": "6765741.83元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年小型水利建设工程实施方案的批复凤水复〔2026〕4号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600027T001",
-        "source_notice_id": "1221665421178261504",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.946,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 80.0%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.889,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
     }
   ],
   "stats": {
-    "total": 163,
-    "projects": 80
+    "total": 148,
+    "projects": 75
   }
 }
