@@ -37,6 +37,7 @@ const state = {
   view: "matches",
   shown: 50,
   activeFund: "",
+  matchFiltersReady: false,
   constructionFiltersReady: false,
   planFiltersReady: false
 };
@@ -144,14 +145,30 @@ function matchesFundFilter(item, filter) {
   return (item.fund_source_tags || []).includes(filter);
 }
 
-function populateConstructionFilters(items) {
-  optionList($("#construction-region"), [...new Set(items.map(constructionRegionOf))]);
-  optionList($("#construction-source"), [...new Set(items.map((item) => item.source_name))]);
-  optionList($("#construction-qualification"), [...new Set([
+function populateNoticeFilters(items, prefix, availableSources = []) {
+  optionList($(`#${prefix}-region`), [...new Set(items.map(constructionRegionOf))]);
+  optionList($(`#${prefix}-source`), [...new Set([
+    ...availableSources,
+    ...items.map((item) => item.source_name)
+  ])]);
+  optionList($(`#${prefix}-qualification`), [...new Set([
     ...CORE_QUALIFICATIONS,
     ...items.flatMap((item) => item.matched_keywords || [])
   ])]);
+}
+
+function populateConstructionFilters(items) {
+  populateNoticeFilters(items, "construction");
   state.constructionFiltersReady = true;
+}
+
+function populateMatchFilters(entries) {
+  populateNoticeFilters(
+    entries.map((entry) => entry.notice || {}),
+    "match",
+    state.matches.available_sources || []
+  );
+  state.matchFiltersReady = true;
 }
 
 function industryCategory(view) {
@@ -192,18 +209,38 @@ function includesQuery(values) {
   return values.filter(Boolean).join(" ").toLowerCase().includes(query);
 }
 
+function passesNoticeFilters(item, prefix) {
+  const days = $(`#${prefix}-date-range`).value;
+  const region = $(`#${prefix}-region`).value;
+  const source = $(`#${prefix}-source`).value;
+  const registrationDate = $(`#${prefix}-reg-date`).value.trim();
+  const cutoffDate = $(`#${prefix}-cutoff-date`).value;
+  const qualification = $(`#${prefix}-qualification`).value.trim().toLowerCase();
+  const passQualification = !qualification || [
+    item.qualification_requirement || "",
+    ...(item.matched_keywords || [])
+  ].join(" ").toLowerCase().includes(qualification);
+  return withinDays(item.published_at, days)
+    && (!region || constructionRegionOf(item) === region)
+    && (!source || item.source_name === source)
+    && (!registrationDate || (item.registration_period || "").includes(registrationDate))
+    && (!cutoffDate || (item.bid_deadline || "").startsWith(cutoffDate))
+    && passQualification;
+}
+
 function filterMatches(items) {
-  const days = $("#match-date-range").value;
   return (items || []).filter((entry) => {
     const notice = entry.notice || {};
     const plan = entry.plan || {};
-    return withinDays(notice.published_at, days)
+    return passesNoticeFilters(notice, "match")
       && includesQuery([
         notice.title,
         notice.project_name,
         notice.buyer,
+        notice.agency,
         notice.project_code,
         notice.project_content,
+        ...(notice.matched_keywords || []),
         plan.project_name,
         plan.buyer,
         plan.fixed_asset_code,
@@ -213,23 +250,8 @@ function filterMatches(items) {
 }
 
 function filterConstruction(items) {
-  const days = $("#construction-date-range").value;
-  const region = $("#construction-region").value;
-  const source = $("#construction-source").value;
-  const registrationDate = $("#construction-reg-date").value.trim();
-  const cutoffDate = $("#construction-cutoff-date").value;
-  const qualification = $("#construction-qualification").value.trim().toLowerCase();
   return (items || []).filter((item) => {
-    const passQualification = !qualification || [
-      item.qualification_requirement || "",
-      ...(item.matched_keywords || [])
-    ].join(" ").toLowerCase().includes(qualification);
-    return withinDays(item.published_at, days)
-      && (!region || constructionRegionOf(item) === region)
-      && (!source || item.source_name === source)
-      && (!registrationDate || (item.registration_period || "").includes(registrationDate))
-      && (!cutoffDate || (item.bid_deadline || "").startsWith(cutoffDate))
-      && passQualification
+    return passesNoticeFilters(item, "construction")
       && includesQuery([
         item.title,
         item.project_name,
@@ -315,23 +337,24 @@ function renderFundStrip(items) {
     });
 }
 
-function renderSourceStrip(items) {
-  const strip = $("#source-strip");
+function renderSourceStrip(items, stripSelector, selectSelector, availableSources = []) {
+  const strip = $(stripSelector);
+  const select = $(selectSelector);
   strip.replaceChildren();
   const counts = new Map();
   items.forEach((item) => {
     const source = text(item.source_name);
     counts.set(source, (counts.get(source) || 0) + 1);
   });
-  [...counts.entries()]
+  [...new Set([...availableSources, ...counts.keys()])]
+    .map((source) => [source, counts.get(source) || 0])
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"))
     .forEach(([source, count]) => {
       const button = document.createElement("button");
       button.type = "button";
-      button.className = $("#construction-source").value === source ? "active" : "";
+      button.className = select.value === source ? "active" : "";
       button.innerHTML = `<span>${source}</span><strong>${count}</strong>`;
       button.addEventListener("click", () => {
-        const select = $("#construction-source");
         select.value = select.value === source ? "" : source;
         state.shown = 50;
         render();
@@ -542,6 +565,7 @@ function showWarning(messages) {
 function updateFilterVisibility() {
   const isStatus = state.view === "status";
   $("#filters").hidden = isStatus;
+  $("#match-source-strip").hidden = state.view !== "matches";
   $("#source-strip").hidden = state.view !== "construction";
   $("#fund-strip").hidden = state.view !== "plans";
   document.querySelectorAll("[data-views]").forEach((element) => {
@@ -569,6 +593,13 @@ async function render() {
   let records = [];
   let renderer;
   if (state.view === "matches") {
+    if (!state.matchFiltersReady) populateMatchFilters(state.matches.items || []);
+    renderSourceStrip(
+      (state.matches.items || []).map((entry) => entry.notice || {}),
+      "#match-source-strip",
+      "#match-source",
+      state.matches.available_sources || []
+    );
     records = filterMatches(state.matches.items);
     renderer = renderMatch;
   } else if (state.view === "graphic" || state.view === "landscaping") {
@@ -580,7 +611,7 @@ async function render() {
   } else if (state.view === "construction") {
     const payload = await ensureDataset("construction");
     if (!state.constructionFiltersReady) populateConstructionFilters(payload.items || []);
-    renderSourceStrip(payload.items || []);
+    renderSourceStrip(payload.items || [], "#source-strip", "#construction-source");
     records = filterConstruction(payload.items);
     renderer = renderConstruction;
     showWarning(payload.warnings);
@@ -652,7 +683,8 @@ document.querySelectorAll(".desk-tabs button").forEach((button) => {
 });
 
 [
-  "search", "match-date-range", "construction-region", "construction-date-range",
+  "search", "match-region", "match-date-range", "match-source", "match-reg-date",
+  "match-cutoff-date", "match-qualification", "construction-region", "construction-date-range",
   "construction-source", "construction-reg-date", "construction-cutoff-date",
   "construction-qualification", "plan-district", "plan-date-range", "plan-planned-month",
   "industry-date-range", "industry-source"
@@ -673,6 +705,8 @@ $("#plan-prefecture").addEventListener("change", () => {
 $("#reset").addEventListener("click", () => {
   $("#search").value = "";
   if (state.view === "matches") {
+    ["match-region", "match-source", "match-reg-date", "match-cutoff-date", "match-qualification"]
+      .forEach((id) => { $(`#${id}`).value = ""; });
     $("#match-date-range").value = "7";
   } else if (state.view === "graphic" || state.view === "landscaping") {
     $("#industry-date-range").value = "7";
