@@ -270,12 +270,20 @@ def update(args: argparse.Namespace) -> int:
             f"黔云招采采集异常：{type(error).__name__}"
         )
     try:
-        new_items = collect_ggzy_graphic(
+        ggzy_state_path = ROOT / "site/data/ggzy-state.json"
+        new_items, scan_report = collect_ggzy_graphic(
             keywords,
             payload.get("items", []),
             _graphic_sources("ggzy"),
+            state_path=ggzy_state_path,
         )
         _merge_by_url(payload, new_items)
+        if scan_report.get("warnings"):
+            payload.setdefault("warnings", []).extend(scan_report["warnings"])
+        if not scan_report.get("scan_complete", True):
+            payload.setdefault("warnings", []).append(
+                "贵州省公共资源交易云：本轮扫描不完整，存在未扫完的分页或配额截断"
+            )
     except Exception as error:
         payload.setdefault("warnings", []).append(
             f"贵州省公共资源交易云采集异常：{type(error).__name__}"

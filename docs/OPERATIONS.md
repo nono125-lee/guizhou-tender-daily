@@ -43,6 +43,7 @@
 | 统一入口 Skill | `skills/guizhou-construction-opportunity-intelligence/` | 日常默认入口 |
 | 招标计划内部 Skill | `skills/tender-plan-intelligence/` | 计划采集器、缓存和关联算法 |
 | 施工增量采集状态 | `site/construction/data/collector-state.json` | 各来源游标、公告ID、失败重试和项目编码 |
+| 图文/绿化 ggzy 采集状态 | `site/data/ggzy-state.json` | 贵州省公共资源交易云三栏目公告ID、游标、重试队列和扫描完整性 |
 | 最新公开数据 | `site/data/latest.json` | 网页读取的数据 |
 | 施工最新公开数据 | `site/construction/data/latest.json` | 施工网页读取的数据 |
 | 施工粗筛共享副本 | `/Users/nonolee/Desktop/共享win/标讯/施工粗筛/` | 每次施工粗筛后覆盖更新，仅包含公开页面与 `latest.json` |
@@ -176,6 +177,11 @@ PYTHONPATH=src python3 -m unittest discover -s tests -q
 
 上述任一字段命中一个关键词即可收录。采购人、招标人、代理机构、资格条件、
 报名要求、公告发布媒介及公告其他正文中的关键词均不参与匹配。
+
+贵州省公共资源交易云采用列表层标题命中优先队列：项目名称（标题）已命中关键词
+的公告进入优先队列，不受普通正文详情探索配额截断。标题未命中的候选项仍只允许
+在以上四个字段中匹配。每个栏目独立维护公告 ID 状态、成功游标、重叠回看窗口
+和详情失败重试队列；每次扫描输出 `scan_complete` 和截断 warnings。
 
 用户明确指出的误报标题保存于 `config/excluded_notices.json`，即使旧公开数据
 或来源网站再次返回这些公告，也会在发布前删除。
