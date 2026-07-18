@@ -41,7 +41,7 @@ def _page_listings(
     source: dict,
     start: datetime,
     end: datetime,
-    page_size: int = 20,
+    page_size: int = 100,
     max_pages: int | None = None,
 ):
     page_num = 1
@@ -121,9 +121,9 @@ def collect(
     keywords: list[str],
     existing_items: list[dict],
     sources: list[dict],
-    lookback_days: int = 2,
-    max_pages: int = 2,
-    max_details_per_source: int = 30,
+    lookback_days: int = 30,
+    max_pages: int | None = None,
+    max_details_per_source: int = 300,
 ) -> list[dict]:
     now = datetime.now(PLATFORM_TIMEZONE)
     start = now - timedelta(days=lookback_days)

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-18T06:04:17.086489+08:00",
+  "updated_at": "2026-07-18T17:17:42.668012+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
@@ -11,22 +11,22 @@
   },
   "warnings": [],
   "stats": {
-    "total": 1282,
-    "merged_total": 1282,
-    "window_items": 0,
-    "source_total": 0,
-    "source_total_pages": 0,
-    "collected_pages": 0,
+    "total": 1283,
+    "merged_total": 1283,
+    "window_items": 1,
+    "source_total": 1,
+    "source_total_pages": 1,
+    "collected_pages": 1,
     "list_complete": true,
     "mode": "daily",
     "pub_date": "td",
     "detail_cache_hits": 0,
-    "detail_cache_misses": 0,
-    "detail_fetch_success": 0,
+    "detail_cache_misses": 1,
+    "detail_fetch_success": 1,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
     "pruned_items": 0,
-    "new_today": 0,
+    "new_today": 1,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
@@ -36,6 +36,32 @@
     "priority_new_today": 6
   },
   "items": [
+    {
+      "source_notice_id": "908891",
+      "title": "惠水县2026年第二批省级农村综合改革转移支付预算（农村公路提质改造）资金项目项目招标计划",
+      "published_at": "2026-07-18 13:17:35",
+      "region": "惠水县",
+      "buyer": "惠水县公路建设养护发展中心",
+      "agency": "贵州鼎信咨询服务有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=908891",
+      "project_name": "惠水县2026年第二批省级农村综合改革转移支付预算（农村公路提质改造）资金项目",
+      "fixed_asset_code": "2607-522731-04-01-786560",
+      "approval": "2607-522731-04-01-786560",
+      "budget": "580.6048万元",
+      "fund_source": "省级资金",
+      "fund_source_tags": [
+        "其他"
+      ],
+      "project_content": "惠水县 2026 年第二批省级农村综合改革转移支付预算（农村公路提质改造）资金项目，项目总里程 9.97 公里，主要建设内容为新建（扩建）7.39 公里，路面宽度 3-4.5 米，18cmC30 水泥混凝土路面 26855 ㎡；增设错车道 16 个，18cmC30 水泥混凝土路面 640 ㎡；Gr-C-4E 护栏 2.1 公里。（建安工程费为531.4031万元）",
+      "planned_bid_time": "2026-08-20 12:54:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "黔南州公共资源交易中心",
+      "project_location": "贵州省-黔南布依族苗族自治州-惠水县",
+      "supervisor": "惠水县交通运输局",
+      "is_new": true
+    },
     {
       "source_notice_id": "908888",
       "title": "威宁自治县2025年朝阳新城安置点农贸市场建设项目（二期）项目招标计划",
@@ -34065,7 +34091,7 @@
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-18T06:04:10.323087+08:00",
+    "updated_at": "2026-07-18T17:15:57.871312+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {

@@ -82,7 +82,7 @@ def normalize_public_item(
         if published and registration_end
         else registration_end
     )
-    result["source_name"] = source_name_for_url(
+    result["source_name"] = result.get("source_name") or source_name_for_url(
         result.get("url", ""), source_names
     )
     result["project_content"] = (
