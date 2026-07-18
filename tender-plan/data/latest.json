@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-18T21:44:56.457966+08:00",
+  "updated_at": "2026-07-19T06:06:27.034693+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
-    "pub_date": "td",
+    "pub_date": "l3d",
     "keywords": "",
     "all_pages": false,
     "max_pages": null
@@ -13,27 +13,27 @@
   "stats": {
     "total": 1283,
     "merged_total": 1283,
-    "window_items": 1,
-    "source_total": 1,
-    "source_total_pages": 1,
-    "collected_pages": 1,
+    "window_items": 52,
+    "source_total": 52,
+    "source_total_pages": 6,
+    "collected_pages": 6,
     "list_complete": true,
     "mode": "daily",
-    "pub_date": "td",
-    "detail_cache_hits": 1,
+    "pub_date": "l3d",
+    "detail_cache_hits": 52,
     "detail_cache_misses": 0,
     "detail_fetch_success": 0,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
     "pruned_items": 0,
-    "new_today": 1,
+    "new_today": 0,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
     "ultra_long_projects": 27,
-    "priority_notices": 148,
-    "priority_projects": 87,
-    "priority_new_today": 6
+    "priority_notices": 141,
+    "priority_projects": 83,
+    "priority_new_today": 0
   },
   "items": [
     {
@@ -60,7 +60,7 @@
       "planned_trade_place": "黔南州公共资源交易中心",
       "project_location": "贵州省-黔南布依族苗族自治州-惠水县",
       "supervisor": "惠水县交通运输局",
-      "is_new": true
+      "is_new": false
     },
     {
       "source_notice_id": "908888",
@@ -34091,12 +34091,12 @@
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-18T21:44:52.193088+08:00",
+    "updated_at": "2026-07-19T06:06:22.875990+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
-      "total": 2397,
-      "new_today": 108,
+      "total": 2371,
+      "new_today": 0,
       "sources": 11,
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
@@ -34190,7 +34190,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -34301,7 +34301,7 @@
           "市政公用工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "project_name+buyer",
@@ -34418,7 +34418,7 @@
           "建筑工程施工总承包"
         ],
         "location": "贵州省",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -34528,7 +34528,7 @@
           "承装（修、试）"
         ],
         "location": "国有企业生产资料",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "buyer",
@@ -34642,7 +34642,7 @@
           "建筑工程施工总承包"
         ],
         "location": "黔西南州公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "fixed_asset_code+project_name+buyer",
@@ -34761,7 +34761,7 @@
           "水利水电工程施工总承包"
         ],
         "location": "安顺市公共资源交易中心",
-        "is_new": true
+        "is_new": false
       },
       "match": {
         "method": "fixed_asset_code+project_name+buyer",
@@ -51260,821 +51260,6 @@
           "project_name": 0.513,
           "project_content": 0.112,
           "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "瓮安县2026年中央水利发展资金水库维修养护工程",
-      "plan": {
-        "published_at": "2026-04-26 13:59:12",
-        "title": "瓮安县2026年中央水利发展资金水库维修养护工程项目招标计划",
-        "project_name": "瓮安县2026年中央水利发展资金水库维修养护工程",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=867499",
-        "buyer": "瓮安县骨干水源工程建设服务中心",
-        "budget": "130万元",
-        "fund_source": "中央水利发展资金",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-522725-04-02-490030",
-        "approval": "瓮安县2026年中央水利发展资金水库维修养护工程实施方案的批复，黔南水管〔2026〕4 号",
-        "project_content": "（一）白茨湾水库：维修坝顶排水沟和巡坝步道。（二）大岩水库：维修安全防护设施。（三）车地水库：维修大坝下游坝面及坝脚排水沟，增设溢洪道边墙防护栏杆和坝脚量水堰，更换闸阀室门。（四）毛家湾水库：维修引洪渠。（五）牛坡水库：维修放水设施。（六）鸭宝田水库：维修大坝坝顶、溢洪道和防汛值班室。（七）下司水库：维修安全防护设施。（八）王家磨水库：维修消力池护坦。（九）东王庙水库：维修大坝坝顶、大坝下游坝面排水沟和巡坝步道。（十）周家塘水库：维修溢洪道进口底板和边墙。（十一）力思沟水库：维修安全防护设施，更换流量计1 个。（十二）九洞水水库：维修安全防护设施。（十三）简家塘水库：整治大坝坝顶，维修防浪墙、溢洪道进口和安全防护设施，更换DN300 闸阀2套。",
-        "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
-        "source_notice_id": "867499",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "瓮安县2026年中央水利发展资金水库维修养护工程",
-          "plan": {
-            "published_at": "2026-04-26 13:59:12",
-            "title": "瓮安县2026年中央水利发展资金水库维修养护工程项目招标计划",
-            "project_name": "瓮安县2026年中央水利发展资金水库维修养护工程",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=867499",
-            "buyer": "瓮安县骨干水源工程建设服务中心",
-            "budget": "130万元",
-            "fund_source": "中央水利发展资金",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-522725-04-02-490030",
-            "approval": "瓮安县2026年中央水利发展资金水库维修养护工程实施方案的批复，黔南水管〔2026〕4 号",
-            "project_content": "（一）白茨湾水库：维修坝顶排水沟和巡坝步道。（二）大岩水库：维修安全防护设施。（三）车地水库：维修大坝下游坝面及坝脚排水沟，增设溢洪道边墙防护栏杆和坝脚量水堰，更换闸阀室门。（四）毛家湾水库：维修引洪渠。（五）牛坡水库：维修放水设施。（六）鸭宝田水库：维修大坝坝顶、溢洪道和防汛值班室。（七）下司水库：维修安全防护设施。（八）王家磨水库：维修消力池护坦。（九）东王庙水库：维修大坝坝顶、大坝下游坝面排水沟和巡坝步道。（十）周家塘水库：维修溢洪道进口底板和边墙。（十一）力思沟水库：维修安全防护设施，更换流量计1 个。（十二）九洞水水库：维修安全防护设施。（十三）简家塘水库：整治大坝坝顶，维修防浪墙、溢洪道进口和安全防护设施，更换DN300 闸阀2套。",
-            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
-            "source_notice_id": "867499",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "标准化项目名称完全一致（100%）",
-              "招标人/采购人名称一致：瓮安县骨干水源工程建设服务中心"
-            ],
-            "similarities": {
-              "project_name": 1.0,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "瓮安县2026年中央水利发展资金水库维修养护工程招标公告",
-        "project_name": "瓮安县2026年中央水利发展资金水库维修养护工程招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222067095474622464",
-        "budget": "1300000元",
-        "project_content": "建设地点：瓮安县境内",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "南水管[2026]4号"
-        ],
-        "buyer": "瓮安县骨干水源工程建设服务中心",
-        "agency": "国兴致诚工程项目管理咨询（集团）有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E522725202600026S001",
-        "source_notice_id": "1222067095474622464",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "黔南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "标准化项目名称完全一致（100%）",
-          "招标人/采购人名称一致：瓮安县骨干水源工程建设服务中心"
-        ],
-        "similarities": {
-          "project_name": 1.0,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-      "plan": {
-        "published_at": "2026-04-21 09:38:03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "600万元",
-        "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-807252",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-        "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864895",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-          "plan": {
-            "published_at": "2026-04-21 09:38:03",
-            "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-            "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "600万元",
-            "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-807252",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-            "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864895",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.946,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 80.0%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.889,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目Ⅲ标段招标公告",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目Ⅲ标段招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222034633834975232",
-        "budget": "5408339.41 元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年农村饮水安全维修养护项目实施方案的批复凤水复〔2026〕5号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600028G001",
-        "source_notice_id": "1222034633834975232",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.946,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 80.0%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.889,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-      "plan": {
-        "published_at": "2026-04-21 09:38:03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "600万元",
-        "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-807252",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-        "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864895",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-          "plan": {
-            "published_at": "2026-04-21 09:38:03",
-            "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-            "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "600万元",
-            "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-807252",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-            "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864895",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.95,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 83.3%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.909,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目Ⅳ标段招标公告",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目Ⅳ标段招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222034632861896704",
-        "budget": "5408339.41 元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年农村饮水安全维修养护项目实施方案的批复凤水复〔2026〕5号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600028G001",
-        "source_notice_id": "1222034632861896704",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.95,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 83.3%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.909,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-      "plan": {
-        "published_at": "2026-04-21 09:38:03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "600万元",
-        "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-807252",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-        "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864895",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-          "plan": {
-            "published_at": "2026-04-21 09:38:03",
-            "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-            "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "600万元",
-            "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-807252",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-            "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864895",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.95,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 83.3%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.909,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目Ⅱ标段招标公告",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目Ⅱ标段招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222034608954363904",
-        "budget": "5408339.41 元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年农村饮水安全维修养护项目实施方案的批复凤水复〔2026〕5号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600028G001",
-        "source_notice_id": "1222034608954363904",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.95,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 83.3%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.909,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-      "plan": {
-        "published_at": "2026-04-21 09:38:03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-        "buyer": "凤冈县水资源服务中心",
-        "budget": "600万元",
-        "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2604-520327-04-05-807252",
-        "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-        "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-        "project_location": "贵州省-遵义市-凤冈县",
-        "source_notice_id": "864895",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "凤冈县2026年农村饮水安全维修养护项目",
-          "plan": {
-            "published_at": "2026-04-21 09:38:03",
-            "title": "凤冈县2026年农村饮水安全维修养护项目项目招标计划",
-            "project_name": "凤冈县2026年农村饮水安全维修养护项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864895",
-            "buyer": "凤冈县水资源服务中心",
-            "budget": "600万元",
-            "fund_source": "项目资金来源为中央衔接资金400万元，省级水利发展资金69万元，县级财政预算资金131万元。",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2604-520327-04-05-807252",
-            "approval": "凤冈县发展和改革局文件凤发改审批[2026]12号",
-            "project_content": "项目涉及天桥镇、新建镇、绥阳镇以及王寨镇4个乡镇，建设内容为：新建2m3减压调节池2座，新建提水泵站1座（含20m3集水池、深井泵、控制室、缓释消毒器等），新建管道加压泵站1座，改建提水泵站1座（主要为更换泵站上水钢管D114×4.5mm无缝钢管（双面防腐）730m等），新建YXYS-30型一体化净水设备(处理能力30m3/h）1套，新建闸阀井63座，新建输配水管网19189m，新建入户管网12200m。",
-            "project_location": "贵州省-遵义市-凤冈县",
-            "source_notice_id": "864895",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 0.954,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "项目名称为包含关系，长度重合度 87.0%",
-              "招标人/采购人名称一致：凤冈县水资源服务中心"
-            ],
-            "similarities": {
-              "project_name": 0.93,
-              "project_content": 0.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "凤冈县2026年农村饮水安全维修养护项目Ⅰ标段招标公告",
-        "project_name": "凤冈县2026年农村饮水安全维修养护项目Ⅰ标段招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222034608841117696",
-        "budget": "5408339.41 元",
-        "project_content": "工程量清单、图纸所包含的全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "年农村饮水安全维修养护项目实施方案的批复凤水复〔2026〕5号"
-        ],
-        "buyer": "凤冈县水资源服务中心",
-        "agency": "中轩项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520327202600028G001",
-        "source_notice_id": "1222034608841117696",
-        "matched_keywords": [
-          "水利水电工程施工总承包"
-        ],
-        "location": "遵义市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 0.954,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "项目名称为包含关系，长度重合度 87.0%",
-          "招标人/采购人名称一致：凤冈县水资源服务中心"
-        ],
-        "similarities": {
-          "project_name": 0.93,
-          "project_content": 0.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "黄平县2026年中药材精深加工厂房建设项目",
-      "plan": {
-        "published_at": "2026-04-30 09:57:43",
-        "title": "黄 平县2026年中药材精深加工厂房建设项目项目招标计划",
-        "project_name": "黄 平县2026年中药材精深加工厂房建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=869766",
-        "buyer": "黄平工业园区管理委员会",
-        "budget": "600万元",
-        "fund_source": "2026年中央第一批财政衔接推进乡村振兴补助资金",
-        "fund_source_tags": [
-          "财政资金",
-          "上级补助"
-        ],
-        "fixed_asset_code": "2604-522622-04-01-891338",
-        "approval": "关于黄平县2026年中药材精深加工厂房建设项目招标方案核准的批复黄发改审批(2026)24号",
-        "project_content": "新建框架结构中药材精深加工厂房一栋，项目占地面积约1200平方米，建筑面积约3224.18平方米，同时配套修建供水管网、排水管沟等相关设施。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-黄平县",
-        "source_notice_id": "869766",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黄平县2026年中药材精深加工厂房建设项目",
-          "plan": {
-            "published_at": "2026-04-30 09:57:43",
-            "title": "黄 平县2026年中药材精深加工厂房建设项目项目招标计划",
-            "project_name": "黄 平县2026年中药材精深加工厂房建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=869766",
-            "buyer": "黄平工业园区管理委员会",
-            "budget": "600万元",
-            "fund_source": "2026年中央第一批财政衔接推进乡村振兴补助资金",
-            "fund_source_tags": [
-              "财政资金",
-              "上级补助"
-            ],
-            "fixed_asset_code": "2604-522622-04-01-891338",
-            "approval": "关于黄平县2026年中药材精深加工厂房建设项目招标方案核准的批复黄发改审批(2026)24号",
-            "project_content": "新建框架结构中药材精深加工厂房一栋，项目占地面积约1200平方米，建筑面积约3224.18平方米，同时配套修建供水管网、排水管沟等相关设施。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-黄平县",
-            "source_notice_id": "869766",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "approval+project_name+buyer+project_content",
-            "methods": [
-              "approval",
-              "project_name",
-              "buyer",
-              "project_content"
-            ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "批复文件编号一致：精深加工厂房建设项目招标方案核准的批复黄发改审批202624号",
-              "项目名称为包含关系，长度重合度 90.5%",
-              "招标人/采购人名称一致：黄平工业园区管理委员会",
-              "项目建设内容相似度 100.0%"
-            ],
-            "similarities": {
-              "project_name": 0.95,
-              "project_content": 1.0,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": true,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "黄平县2026年中药材精深加工厂房建设公告",
-        "project_name": "黄平县2026年中药材精深加工厂房建设公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222000756269600768",
-        "budget": "5997947.25元",
-        "project_content": "新建框架结构中药材精深加工厂房一栋，项目占地面积约1200平方米，建筑面积约3224.18平方米，同时配套修建供水管网、排水管沟等相关设施",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "精深加工厂房建设项目招标方案核准的批复黄发改审批[2026]24号"
-        ],
-        "buyer": "黄平工业园区管理委员会",
-        "agency": "贵州瑞翔达项目管理咨询有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E522622202600027L001",
-        "source_notice_id": "1222000756269600768",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "approval+project_name+buyer+project_content",
-        "methods": [
-          "approval",
-          "project_name",
-          "buyer",
-          "project_content"
-        ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "批复文件编号一致：精深加工厂房建设项目招标方案核准的批复黄发改审批202624号",
-          "项目名称为包含关系，长度重合度 90.5%",
-          "招标人/采购人名称一致：黄平工业园区管理委员会",
-          "项目建设内容相似度 100.0%"
-        ],
-        "similarities": {
-          "project_name": 0.95,
-          "project_content": 1.0,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": true,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "黄平县2026年牛肉加工厂房建设项目",
-      "plan": {
-        "published_at": "2026-04-30 10:11:44",
-        "title": "黄 平县2026年牛肉加工厂房建设项目项目招标计划",
-        "project_name": "黄 平县2026年牛肉加工厂房建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=869833",
-        "buyer": "黄平县工业园区管理委员会",
-        "budget": "1440万元",
-        "fund_source": "中央衔接资金",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-522622-04-01-467785",
-        "approval": "黄发改审批〔2026〕25号",
-        "project_content": "1、新建成品仓库1000平方米、原料仓库1500平方米:2、新建生产车间两栋共5650平方米。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-黄平县",
-        "source_notice_id": "869833",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "黄平县2026年牛肉加工厂房建设项目",
-          "plan": {
-            "published_at": "2026-04-30 10:11:44",
-            "title": "黄 平县2026年牛肉加工厂房建设项目项目招标计划",
-            "project_name": "黄 平县2026年牛肉加工厂房建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=869833",
-            "buyer": "黄平县工业园区管理委员会",
-            "budget": "1440万元",
-            "fund_source": "中央衔接资金",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-522622-04-01-467785",
-            "approval": "黄发改审批〔2026〕25号",
-            "project_content": "1、新建成品仓库1000平方米、原料仓库1500平方米:2、新建生产车间两栋共5650平方米。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-黄平县",
-            "source_notice_id": "869833",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+project_content",
-            "methods": [
-              "project_name",
-              "project_content"
-            ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "标准化项目名称完全一致（100%）",
-              "项目建设内容相似度 63.6%"
-            ],
-            "similarities": {
-              "project_name": 1.0,
-              "project_content": 0.636,
-              "buyer_equal": false,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-03",
-        "title": "黄平县2026年牛肉加工厂房建设项目公告",
-        "project_name": "黄平县2026年牛肉加工厂房建设项目公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1221993902810419200",
-        "budget": "14396595.09元",
-        "project_content": "新建成品仓库1080平方米、原料仓库1830平方米",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "牛肉加工厂房建设项目招标方案核准的批复黄发改审批〔2026〕25号"
-        ],
-        "buyer": "黄平工业园区管理委员会",
-        "agency": "贵州裕芳豪工程项目管理咨询有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E522622202600027Y001",
-        "source_notice_id": "1221993902810419200",
-        "matched_keywords": [
-          "建筑工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+project_content",
-        "methods": [
-          "project_name",
-          "project_content"
-        ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "标准化项目名称完全一致（100%）",
-          "项目建设内容相似度 63.6%"
-        ],
-        "similarities": {
-          "project_name": 1.0,
-          "project_content": 0.636,
-          "buyer_equal": false,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
           "location_conflict": false
