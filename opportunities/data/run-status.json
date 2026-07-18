@@ -1,35 +1,89 @@
 {
-  "started_at": "2026-07-18T17:33:55.718811+08:00",
-  "collection": {},
+  "started_at": "2026-07-18T21:40:09.039042+08:00",
+  "collection": {
+    "industries": {
+      "label": "图文广告与园林绿化",
+      "ok": true,
+      "returncode": 0,
+      "started_at": "2026-07-18T21:40:09.039163+08:00",
+      "completed_at": "2026-07-18T21:44:52.139628+08:00",
+      "duration_seconds": 283.1
+    },
+    "construction": {
+      "label": "施工标讯粗筛",
+      "ok": true,
+      "returncode": 0,
+      "started_at": "2026-07-18T21:44:52.139702+08:00",
+      "completed_at": "2026-07-18T21:44:56.411034+08:00",
+      "duration_seconds": 4.27
+    },
+    "tender_plans": {
+      "label": "招标计划与重点资金关联",
+      "ok": true,
+      "returncode": 0,
+      "started_at": "2026-07-18T21:44:56.411108+08:00",
+      "completed_at": "2026-07-18T21:49:07.491200+08:00",
+      "duration_seconds": 251.08
+    }
+  },
   "tests": {
-    "ok": null,
-    "suites": []
+    "ok": true,
+    "suites": [
+      {
+        "label": "施工标讯测试",
+        "ok": true,
+        "returncode": 0,
+        "started_at": "2026-07-18T21:49:07.491267+08:00",
+        "completed_at": "2026-07-18T21:49:07.632996+08:00",
+        "duration_seconds": 0.14
+      },
+      {
+        "label": "招标计划测试",
+        "ok": true,
+        "returncode": 0,
+        "started_at": "2026-07-18T21:49:07.633097+08:00",
+        "completed_at": "2026-07-18T21:49:07.704049+08:00",
+        "duration_seconds": 0.07
+      },
+      {
+        "label": "统一工作台测试",
+        "ok": true,
+        "returncode": 0,
+        "started_at": "2026-07-18T21:49:07.704118+08:00",
+        "completed_at": "2026-07-18T21:49:07.759421+08:00",
+        "duration_seconds": 0.06
+      }
+    ]
   },
   "publish": {
-    "requested": false
+    "requested": true
   },
-  "completed_at": "2026-07-18T17:33:55.748201+08:00",
+  "completed_at": "2026-07-18T21:49:07.791100+08:00",
   "datasets": {
     "industries": {
       "url": "../data/latest.json",
-      "updated_at": "2026-07-18T17:26:27.735358+08:00",
+      "updated_at": "2026-07-18T21:40:43.931896+08:00",
       "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
       "stats": {
-        "total": 868,
+        "total": 1136,
         "new_today": 0,
-        "sources": 14,
-        "graphic_advertising": 601,
-        "landscaping": 296,
-        "new_items": 85
+        "sources": 13,
+        "graphic_advertising": 689,
+        "landscaping": 480,
+        "new_items": 353
       },
-      "warning_count": 1,
+      "warning_count": 5,
       "warnings": [
-        "本次未发现新公告编号，已保留上次成功数据"
+        "本次未发现新公告编号，已保留上次成功数据",
+        "贵州省公共资源交易云-工程建设：正文探索配额已用尽（300条），仍有 336 条未检查",
+        "贵州省公共资源交易云-政府采购：正文探索配额已用尽（300条），仍有 2040 条未检查",
+        "贵州省公共资源交易云-其他交易：正文探索配额已用尽（300条），仍有 3402 条未检查",
+        "贵州省公共资源交易云：本轮扫描不完整，存在未扫完的分页或配额截断"
       ]
     },
     "construction": {
       "url": "../construction/data/latest.json",
-      "updated_at": "2026-07-18T17:15:57.871312+08:00",
+      "updated_at": "2026-07-18T21:44:52.193088+08:00",
       "coverage": "贵州省施工类标讯资格条件专项筛选",
       "stats": {
         "total": 2397,
@@ -45,7 +99,7 @@
     },
     "tender_plans": {
       "url": "../tender-plan/data/latest.json",
-      "updated_at": "2026-07-18T17:17:42.668012+08:00",
+      "updated_at": "2026-07-18T21:44:56.457966+08:00",
       "coverage": "贵州省工程建设招标计划",
       "stats": {
         "total": 1283,
@@ -57,9 +111,9 @@
         "list_complete": true,
         "mode": "daily",
         "pub_date": "td",
-        "detail_cache_hits": 0,
-        "detail_cache_misses": 1,
-        "detail_fetch_success": 1,
+        "detail_cache_hits": 1,
+        "detail_cache_misses": 0,
+        "detail_fetch_success": 0,
         "detail_fetch_failed": 0,
         "stale_cache_used": 0,
         "pruned_items": 0,
@@ -77,8 +131,8 @@
     }
   },
   "summary": {
-    "graphic_items": 601,
-    "landscaping_items": 296,
+    "graphic_items": 689,
+    "landscaping_items": 480,
     "construction_items": 2397,
     "plan_notices": 1283,
     "ultra_long_projects": 27,
