@@ -1,29 +1,29 @@
 {
-  "started_at": "2026-07-19T06:03:00.926963+08:00",
+  "started_at": "2026-07-20T06:03:03.300823+08:00",
   "collection": {
     "industries": {
       "label": "图文广告与园林绿化",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-19T06:03:00.927110+08:00",
-      "completed_at": "2026-07-19T06:06:22.823764+08:00",
-      "duration_seconds": 201.9
+      "started_at": "2026-07-20T06:03:03.300977+08:00",
+      "completed_at": "2026-07-20T06:07:54.894011+08:00",
+      "duration_seconds": 291.59
     },
     "construction": {
       "label": "施工标讯粗筛",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-19T06:06:22.823820+08:00",
-      "completed_at": "2026-07-19T06:06:26.985586+08:00",
-      "duration_seconds": 4.16
+      "started_at": "2026-07-20T06:07:54.894068+08:00",
+      "completed_at": "2026-07-20T06:08:06.585493+08:00",
+      "duration_seconds": 11.69
     },
     "tender_plans": {
       "label": "招标计划与重点资金关联",
       "ok": true,
       "returncode": 0,
-      "started_at": "2026-07-19T06:06:26.985647+08:00",
-      "completed_at": "2026-07-19T06:10:35.715149+08:00",
-      "duration_seconds": 248.73
+      "started_at": "2026-07-20T06:08:06.585557+08:00",
+      "completed_at": "2026-07-20T06:12:15.539120+08:00",
+      "duration_seconds": 248.95
     }
   },
   "tests": {
@@ -33,24 +33,24 @@
         "label": "施工标讯测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-19T06:10:35.715197+08:00",
-        "completed_at": "2026-07-19T06:10:35.888634+08:00",
-        "duration_seconds": 0.17
+        "started_at": "2026-07-20T06:12:15.539170+08:00",
+        "completed_at": "2026-07-20T06:12:15.698489+08:00",
+        "duration_seconds": 0.16
       },
       {
         "label": "招标计划测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-19T06:10:35.888950+08:00",
-        "completed_at": "2026-07-19T06:10:35.956792+08:00",
+        "started_at": "2026-07-20T06:12:15.698790+08:00",
+        "completed_at": "2026-07-20T06:12:15.769004+08:00",
         "duration_seconds": 0.07
       },
       {
         "label": "统一工作台测试",
         "ok": true,
         "returncode": 0,
-        "started_at": "2026-07-19T06:10:35.956852+08:00",
-        "completed_at": "2026-07-19T06:10:36.009628+08:00",
+        "started_at": "2026-07-20T06:12:15.769069+08:00",
+        "completed_at": "2026-07-20T06:12:15.821936+08:00",
         "duration_seconds": 0.05
       }
     ]
@@ -58,35 +58,34 @@
   "publish": {
     "requested": true
   },
-  "completed_at": "2026-07-19T06:10:36.041262+08:00",
+  "completed_at": "2026-07-20T06:12:15.851730+08:00",
   "datasets": {
     "industries": {
       "url": "../data/latest.json",
-      "updated_at": "2026-07-19T06:03:25.232811+08:00",
+      "updated_at": "2026-07-20T06:03:35.570379+08:00",
       "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
       "stats": {
-        "total": 1152,
+        "total": 1159,
         "new_today": 0,
         "sources": 12,
-        "graphic_advertising": 697,
-        "landscaping": 491,
-        "new_items": 17
+        "graphic_advertising": 698,
+        "landscaping": 497,
+        "new_items": 10
       },
-      "warning_count": 5,
+      "warning_count": 4,
       "warnings": [
         "本次未发现新公告编号，已保留上次成功数据",
-        "贵州省公共资源交易云-工程建设：正文探索配额已用尽（300条），仍有 14 条未检查",
-        "贵州省公共资源交易云-政府采购：正文探索配额已用尽（300条），仍有 1687 条未检查",
-        "贵州省公共资源交易云-其他交易：正文探索配额已用尽（300条），仍有 3015 条未检查",
+        "贵州省公共资源交易云-政府采购：正文探索配额已用尽（300条），仍有 1387 条未检查",
+        "贵州省公共资源交易云-其他交易：正文探索配额已用尽（300条），仍有 2717 条未检查",
         "贵州省公共资源交易云：本轮扫描不完整，存在未扫完的分页或配额截断"
       ]
     },
     "construction": {
       "url": "../construction/data/latest.json",
-      "updated_at": "2026-07-19T06:06:22.875990+08:00",
+      "updated_at": "2026-07-20T06:07:54.946652+08:00",
       "coverage": "贵州省施工类标讯资格条件专项筛选",
       "stats": {
-        "total": 2371,
+        "total": 2352,
         "new_today": 0,
         "sources": 11,
         "feedback_confirmed": 0,
@@ -99,31 +98,31 @@
     },
     "tender_plans": {
       "url": "../tender-plan/data/latest.json",
-      "updated_at": "2026-07-19T06:06:27.034693+08:00",
+      "updated_at": "2026-07-20T06:08:06.632438+08:00",
       "coverage": "贵州省工程建设招标计划",
       "stats": {
-        "total": 1283,
-        "merged_total": 1283,
-        "window_items": 52,
-        "source_total": 52,
-        "source_total_pages": 6,
-        "collected_pages": 6,
+        "total": 1280,
+        "merged_total": 1280,
+        "window_items": 23,
+        "source_total": 23,
+        "source_total_pages": 3,
+        "collected_pages": 3,
         "list_complete": true,
         "mode": "daily",
         "pub_date": "l3d",
-        "detail_cache_hits": 52,
+        "detail_cache_hits": 23,
         "detail_cache_misses": 0,
         "detail_fetch_success": 0,
         "detail_fetch_failed": 0,
         "stale_cache_used": 0,
-        "pruned_items": 0,
+        "pruned_items": 3,
         "new_today": 0,
         "regions": 101,
         "fund_source_tags": 11,
         "detail_cache_seeded": 0,
         "ultra_long_projects": 27,
-        "priority_notices": 141,
-        "priority_projects": 83,
+        "priority_notices": 138,
+        "priority_projects": 82,
         "priority_new_today": 0
       },
       "warning_count": 0,
@@ -131,13 +130,13 @@
     }
   },
   "summary": {
-    "graphic_items": 697,
-    "landscaping_items": 491,
-    "construction_items": 2371,
-    "plan_notices": 1283,
+    "graphic_items": 698,
+    "landscaping_items": 497,
+    "construction_items": 2352,
+    "plan_notices": 1280,
     "ultra_long_projects": 27,
-    "priority_notices": 141,
-    "priority_projects": 71,
+    "priority_notices": 138,
+    "priority_projects": 70,
     "watched_projects": 0,
     "watched_notices": 0
   }
