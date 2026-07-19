@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-19T06:06:27.034693+08:00",
+  "updated_at": "2026-07-20T06:08:06.632438+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
@@ -11,28 +11,28 @@
   },
   "warnings": [],
   "stats": {
-    "total": 1283,
-    "merged_total": 1283,
-    "window_items": 52,
-    "source_total": 52,
-    "source_total_pages": 6,
-    "collected_pages": 6,
+    "total": 1280,
+    "merged_total": 1280,
+    "window_items": 23,
+    "source_total": 23,
+    "source_total_pages": 3,
+    "collected_pages": 3,
     "list_complete": true,
     "mode": "daily",
     "pub_date": "l3d",
-    "detail_cache_hits": 52,
+    "detail_cache_hits": 23,
     "detail_cache_misses": 0,
     "detail_fetch_success": 0,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
-    "pruned_items": 0,
+    "pruned_items": 3,
     "new_today": 0,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
     "ultra_long_projects": 27,
-    "priority_notices": 141,
-    "priority_projects": 83,
+    "priority_notices": 138,
+    "priority_projects": 82,
     "priority_new_today": 0
   },
   "items": [
@@ -34007,95 +34007,15 @@
       "project_location": "贵州省-贵阳市-修文县",
       "supervisor": "修文县自然资源局",
       "is_new": false
-    },
-    {
-      "source_notice_id": "864200",
-      "title": "清镇市滨湖街道条子场村移民美丽家园建设项目项目招标计划",
-      "published_at": "2026-04-19 19:04:51",
-      "region": "清镇市",
-      "buyer": "清镇市农业农村局",
-      "agency": "普迈项目管理集团有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864200",
-      "project_name": "清镇市滨湖街道条子场村移民美丽家园建设项目",
-      "fixed_asset_code": "2604-520181-04-01-973080",
-      "approval": "筑农复〔2025〕38号-关于对清镇市滨湖街道条子场村移民美丽家园建设项目《实施方案》的批复",
-      "budget": "405.667026万元",
-      "fund_source": "财政资金",
-      "fund_source_tags": [
-        "财政资金"
-      ],
-      "project_content": "土建部分：条子场村派出所后篮球场改造556㎡，三组晒谷坝硬化315㎡，四组晒谷坝硬化415㎡；条子场村村寨太阳能路灯安装共164盏；六祖村寨污水管网新建723m、入户管840m，检查井36座，新建污水终端1个15T/d。 公路部分：村组路及串户路改造路线共4972m，共27条路线，其中改建10条通组及串户路路线合计全长3314m，改造路面设计为沥青混凝土路面共16762㎡；17条串户路修复路线合计全长1504m，改造路面设计为水泥混凝土路面共3513㎡；村公路边沟改造3378m。",
-      "planned_bid_time": "2026-05-19 19:01:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵阳市公共资源交易中心",
-      "project_location": "贵州省-贵阳市-清镇市",
-      "supervisor": "清镇市农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "864199",
-      "title": "清镇市滨湖街道条子场村移民美丽家园建设项目项目招标计划",
-      "published_at": "2026-04-19 18:36:01",
-      "region": "清镇市",
-      "buyer": "清镇市农业农村局(农田水利建设服务中心)",
-      "agency": "普迈项目管理集团有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864199",
-      "project_name": "清镇市滨湖街道条子场村移民美丽家园建设项目",
-      "fixed_asset_code": "2604-520181-04-01-973080",
-      "approval": "筑农复〔2025〕38号-关于对清镇市滨湖街道条子场村移民美丽家园建设项目《实施方案》的批复",
-      "budget": "405.667026万元",
-      "fund_source": "财政资金",
-      "fund_source_tags": [
-        "财政资金"
-      ],
-      "project_content": "老旧石板房拆除5户，拆除石墙约计207立方米。拆除居民户老旧轻钢雨篷15平方米。清除村寨建筑垃圾63立方米。新建混凝土沟盖板道路排水沟26米。新建0.6米高毛石挡土墙堡坎87.5米；新建1米高毛石挡土墙堡坎135.2米；新建1.5米高毛石挡土墙堡坎23.3米；新建2米高毛石挡土墙堡坎75.9米；新建3米高毛石挡土墙堡坎6米；新建4米高毛石挡土墙堡坎12.7米。村寨公共场地硬化254.9平方米。新建三格式化粪池厕所6个。局部串户路硬化50.8平方米。村民房前屋后环境治理1项。村寨垃圾治理1项。",
-      "planned_bid_time": "2026-05-18 09:30:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "贵阳市公共资源交易中心",
-      "project_location": "贵州省-贵阳市-清镇市",
-      "supervisor": "清镇市农业农村局",
-      "is_new": false
-    },
-    {
-      "source_notice_id": "864198",
-      "title": "黄百铁路普定段房屋拆迁集中安置点建设项目项目招标计划",
-      "published_at": "2026-04-19 10:59:32",
-      "region": "普定县",
-      "buyer": "普定县民生扶贫开发有限责任公司",
-      "agency": "贵州筑黔城项目管理有限公司",
-      "source_name": "贵州省招标投标公共服务平台",
-      "notice_type": "招标计划",
-      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=864198",
-      "project_name": "黄百铁路普定段房屋拆迁集中安置点建设项目",
-      "fixed_asset_code": "2604-520422-04-01-988152",
-      "approval": "2604-520422-04-01-988152",
-      "budget": "1300万元",
-      "fund_source": "银行贷款及企业自筹",
-      "fund_source_tags": [
-        "地方自筹",
-        "企业自筹",
-        "银行贷款"
-      ],
-      "project_content": "场地平整、土石方开挖、回填、电力安装、给排水安装、挡墙、道路等基础设施建设。",
-      "planned_bid_time": "2026-05-19 10:53:00",
-      "planned_tender_content": "施工",
-      "planned_trade_place": "安顺市公共资源交易中心",
-      "project_location": "贵州省-安顺市-普定县",
-      "supervisor": "普定县住房和城乡建设局",
-      "is_new": false
     }
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-19T06:06:22.875990+08:00",
+    "updated_at": "2026-07-20T06:07:54.946652+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
-      "total": 2371,
+      "total": 2352,
       "new_today": 0,
       "sources": 11,
       "feedback_confirmed": 0,
@@ -50909,356 +50829,6 @@
         "similarities": {
           "project_name": 0.606,
           "project_content": 0.069,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "观山湖区朱昌镇高寨村村内产业道路完善提升项目",
-      "plan": {
-        "published_at": "2026-04-27 14:53:28",
-        "title": "观山湖区朱昌镇高寨村村内产业道路完善提升项目项目招标计划",
-        "project_name": "观山湖区朱昌镇高寨村村内产业道路完善提升项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=867865",
-        "buyer": "贵阳市观山湖区朱昌镇人民政府",
-        "budget": "466万元",
-        "fund_source": "中央财政衔接资金",
-        "fund_source_tags": [
-          "财政资金"
-        ],
-        "fixed_asset_code": "2604-520115-04-01-853315",
-        "approval": "项目立项批复「筑观农领批〔2026〕1号」",
-        "project_content": "新建道路总长1442.187m，采用四级公路标准，设计速度15km/h，路基宽度5.5m，路面均宽4.5m，沥青混凝土路面，同步实施防护、排水及交安设施。",
-        "project_location": "贵州省-贵阳市-观山湖区",
-        "source_notice_id": "867865",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "观山湖区朱昌镇高寨村村内产业道路完善提升项目",
-          "plan": {
-            "published_at": "2026-04-27 14:53:28",
-            "title": "观山湖区朱昌镇高寨村村内产业道路完善提升项目项目招标计划",
-            "project_name": "观山湖区朱昌镇高寨村村内产业道路完善提升项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=867865",
-            "buyer": "贵阳市观山湖区朱昌镇人民政府",
-            "budget": "466万元",
-            "fund_source": "中央财政衔接资金",
-            "fund_source_tags": [
-              "财政资金"
-            ],
-            "fixed_asset_code": "2604-520115-04-01-853315",
-            "approval": "项目立项批复「筑观农领批〔2026〕1号」",
-            "project_content": "新建道路总长1442.187m，采用四级公路标准，设计速度15km/h，路基宽度5.5m，路面均宽4.5m，沥青混凝土路面，同步实施防护、排水及交安设施。",
-            "project_location": "贵州省-贵阳市-观山湖区",
-            "source_notice_id": "867865",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "project_name+buyer",
-            "methods": [
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "标准化项目名称完全一致（100%）",
-              "招标人/采购人名称一致：贵阳市观山湖区朱昌镇人民政府"
-            ],
-            "similarities": {
-              "project_name": 1.0,
-              "project_content": 0.023,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-04",
-        "title": "观山湖区朱昌镇高寨村村内产业道路完善提升项目招标公告",
-        "project_name": "观山湖区朱昌镇高寨村村内产业道路完善提升项目招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222453692980350976",
-        "budget": "",
-        "project_content": "本项目施工图纸、工程量清单及招标文件所示全部内容",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "筑公资告(2026)建字第0999号",
-          "筑观乡振批[2026]2号"
-        ],
-        "buyer": "贵阳市观山湖区朱昌镇人民政府",
-        "agency": "贵州毅元工程咨询有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520115202600029B001",
-        "source_notice_id": "1222453692980350976",
-        "matched_keywords": [
-          "公路工程施工总承包"
-        ],
-        "location": "贵阳市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "project_name+buyer",
-        "methods": [
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "标准化项目名称完全一致（100%）",
-          "招标人/采购人名称一致：贵阳市观山湖区朱昌镇人民政府"
-        ],
-        "similarities": {
-          "project_name": 1.0,
-          "project_content": 0.023,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": false,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "钟山区2026年青林乡人居环境整治项目",
-      "plan": {
-        "published_at": "2026-04-28 17:00:42",
-        "title": "钟山区2026年青林乡人居环境整治项目项目招标计划",
-        "project_name": "钟山区2026年青林乡人居环境整治项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=868928",
-        "buyer": "六盘水市钟山区青林苗族彝族乡人民政府",
-        "budget": "450万元",
-        "fund_source": "中央衔接资金",
-        "fund_source_tags": [
-          "其他"
-        ],
-        "fixed_asset_code": "2604-520201-04-01-323412",
-        "approval": "钟财农〔2026〕1 号",
-        "project_content": "一、海发村：1.修建排污管道1000m，检查井50个，污水处理池1个30m³；2.修建干粪棚25个；3.修建井水沟500m，预计投入资金120万元。二、二寨村：1.修建排污主管1180m；2.修建排污分管970m；3.修建沉淀池3座/20m³；4.修建污水管道检查井50座；5.化粪池38个/3m³，预计投入资金110万元。三、灰依村：1.修建集中型化粪池（4至10户）28座；2.修建单户型堆肥池11座；3.修建污水管道1250m；4.修建检查井50座。投入资金120万元。四、田坝村：1.修建田坝村五组粪污管道1600m；2.修建化粪池20m³3个；3.修建化粪池3m³26个；4.修建检查井50个，预计投入资金100万元。",
-        "project_location": "贵州省-六盘水市-钟山区",
-        "source_notice_id": "868928",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "钟山区2026年青林乡人居环境整治项目",
-          "plan": {
-            "published_at": "2026-04-28 17:00:42",
-            "title": "钟山区2026年青林乡人居环境整治项目项目招标计划",
-            "project_name": "钟山区2026年青林乡人居环境整治项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=868928",
-            "buyer": "六盘水市钟山区青林苗族彝族乡人民政府",
-            "budget": "450万元",
-            "fund_source": "中央衔接资金",
-            "fund_source_tags": [
-              "其他"
-            ],
-            "fixed_asset_code": "2604-520201-04-01-323412",
-            "approval": "钟财农〔2026〕1 号",
-            "project_content": "一、海发村：1.修建排污管道1000m，检查井50个，污水处理池1个30m³；2.修建干粪棚25个；3.修建井水沟500m，预计投入资金120万元。二、二寨村：1.修建排污主管1180m；2.修建排污分管970m；3.修建沉淀池3座/20m³；4.修建污水管道检查井50座；5.化粪池38个/3m³，预计投入资金110万元。三、灰依村：1.修建集中型化粪池（4至10户）28座；2.修建单户型堆肥池11座；3.修建污水管道1250m；4.修建检查井50座。投入资金120万元。四、田坝村：1.修建田坝村五组粪污管道1600m；2.修建化粪池20m³3个；3.修建化粪池3m³26个；4.修建检查井50个，预计投入资金100万元。",
-            "project_location": "贵州省-六盘水市-钟山区",
-            "source_notice_id": "868928",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "fixed_asset_code+project_name+buyer",
-            "methods": [
-              "fixed_asset_code",
-              "project_name",
-              "buyer"
-            ],
-            "confidence": 1.0,
-            "match_level": "high",
-            "review_required": false,
-            "review_note": "存在强标识或多项证据，可优先核对原公告。",
-            "evidence": [
-              "投资项目代码一致：2604-520201-04-01-323412",
-              "标准化项目名称完全一致（100%）",
-              "招标人/采购人名称一致：六盘水市钟山区青林苗族彝族乡人民政府"
-            ],
-            "similarities": {
-              "project_name": 1.0,
-              "project_content": 0.007,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": true,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-04",
-        "title": "钟山区2026年青林乡人居环境整治项目招标公告",
-        "project_name": "钟山区2026年青林乡人居环境整治项目招标公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222442322540974080",
-        "budget": "",
-        "project_content": "招标文件、答疑文件、补遗书、工程量清单及设计施工图纸所包含的全部内容",
-        "fixed_asset_code": "2604-520201-04-01-323412",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [],
-        "buyer": "六盘水市钟山区青林苗族彝族乡人民政府",
-        "agency": "贵州江枫工程项目管理有限公司",
-        "bid_deadline": "2026-06-30 09:30",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E520201202600027Q001",
-        "source_notice_id": "1222442322540974080",
-        "matched_keywords": [
-          "市政公用工程施工总承包"
-        ],
-        "location": "六盘水市公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "fixed_asset_code+project_name+buyer",
-        "methods": [
-          "fixed_asset_code",
-          "project_name",
-          "buyer"
-        ],
-        "confidence": 1.0,
-        "match_level": "high",
-        "review_required": false,
-        "review_note": "存在强标识或多项证据，可优先核对原公告。",
-        "evidence": [
-          "投资项目代码一致：2604-520201-04-01-323412",
-          "标准化项目名称完全一致（100%）",
-          "招标人/采购人名称一致：六盘水市钟山区青林苗族彝族乡人民政府"
-        ],
-        "similarities": {
-          "project_name": 1.0,
-          "project_content": 0.007,
-          "buyer_equal": true,
-          "fixed_asset_code_equal": true,
-          "approval_equal": false,
-          "location_conflict": false
-        }
-      }
-    },
-    {
-      "plan_project_key": "麻江县2026年高标准农田建设项目",
-      "plan": {
-        "published_at": "2026-05-27 16:19:04",
-        "title": "麻江县2026年高标准农田建设项目项目招标计划",
-        "project_name": "麻江县2026年高标准农田建设项目",
-        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=882177",
-        "buyer": "麻江县农业农村局",
-        "budget": "2880万元",
-        "fund_source": "中央、省级财政补助资金及单位自筹资金",
-        "fund_source_tags": [
-          "财政资金",
-          "上级补助",
-          "地方自筹",
-          "企业自筹"
-        ],
-        "fixed_asset_code": "2507-522635-04-01-498343",
-        "approval": "/",
-        "project_content": "本项目计划建设高标准农田1万亩，其中新建面积7000亩、改造提升3000亩、高效节水1000亩。其中包含田块整治、灌溉与排水工程、田间道路工程。具体以设计图纸和工程量清单为准。",
-        "project_location": "贵州省-黔东南苗族侗族自治州-麻江县",
-        "source_notice_id": "882177",
-        "plan_version_count": 1
-      },
-      "candidate_plans": [
-        {
-          "plan_project_key": "麻江县2026年高标准农田建设项目",
-          "plan": {
-            "published_at": "2026-05-27 16:19:04",
-            "title": "麻江县2026年高标准农田建设项目项目招标计划",
-            "project_name": "麻江县2026年高标准农田建设项目",
-            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=882177",
-            "buyer": "麻江县农业农村局",
-            "budget": "2880万元",
-            "fund_source": "中央、省级财政补助资金及单位自筹资金",
-            "fund_source_tags": [
-              "财政资金",
-              "上级补助",
-              "地方自筹",
-              "企业自筹"
-            ],
-            "fixed_asset_code": "2507-522635-04-01-498343",
-            "approval": "/",
-            "project_content": "本项目计划建设高标准农田1万亩，其中新建面积7000亩、改造提升3000亩、高效节水1000亩。其中包含田块整治、灌溉与排水工程、田间道路工程。具体以设计图纸和工程量清单为准。",
-            "project_location": "贵州省-黔东南苗族侗族自治州-麻江县",
-            "source_notice_id": "882177",
-            "plan_version_count": 1
-          },
-          "match": {
-            "method": "buyer",
-            "methods": [
-              "buyer"
-            ],
-            "confidence": 0.72,
-            "match_level": "candidate",
-            "review_required": true,
-            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-            "evidence": [
-              "招标人/采购人名称一致：麻江县农业农村局"
-            ],
-            "similarities": {
-              "project_name": 0.513,
-              "project_content": 0.112,
-              "buyer_equal": true,
-              "fixed_asset_code_equal": false,
-              "approval_equal": false,
-              "location_conflict": false
-            }
-          }
-        }
-      ],
-      "notice": {
-        "published_at": "2026-06-04",
-        "title": "麻江县2026年蓝莓种植示范基地提质改造项目公告",
-        "project_name": "麻江县2026年蓝莓种植示范基地提质改造项目公告",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1222437027982954496",
-        "budget": "5280000元",
-        "project_content": "招标人提供的工程量清单所示全部内容，直至竣工验收、整体移交、质量缺陷责任期内的缺陷修复等相关工作",
-        "fixed_asset_code": "",
-        "investment_project_code": null,
-        "approval": null,
-        "approval_refs": [
-          "种植示范基地提质改造项目实施方案的批复麻发改农经[2026]22号"
-        ],
-        "buyer": "麻江县农业农村局",
-        "agency": "中纳恒业项目管理有限公司",
-        "bid_deadline": "",
-        "source_name": "贵州省公共资源交易云-工程建设",
-        "project_code": "E5226352026000289001",
-        "source_notice_id": "1222437027982954496",
-        "matched_keywords": [
-          "市政公用工程施工总承包"
-        ],
-        "location": "黔东南州公共资源交易中心",
-        "is_new": false
-      },
-      "match": {
-        "method": "buyer",
-        "methods": [
-          "buyer"
-        ],
-        "confidence": 0.72,
-        "match_level": "candidate",
-        "review_required": true,
-        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
-        "evidence": [
-          "招标人/采购人名称一致：麻江县农业农村局"
-        ],
-        "similarities": {
-          "project_name": 0.513,
-          "project_content": 0.112,
           "buyer_equal": true,
           "fixed_asset_code_equal": false,
           "approval_equal": false,
