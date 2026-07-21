@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T00:58:51.158222+08:00",
+  "updated_at": "2026-07-22T06:05:25.053060+08:00",
   "coverage": "贵州省招标投标公共服务平台公开公告；其他信息源持续接入",
   "items": [
     {
@@ -616,6 +616,855 @@
         ]
       },
       "first_seen_at": "2026-07-22T00:58:51.158222+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵州大学校园网核心、数据中心网络及日志设备采购公开招标公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910427",
+      "budget": "3000000.00元",
+      "summary": "贵州大学校园网核心、数据中心网络及日志设备采购 采购项目的潜在供应商应在贵州省公共资源交易云上获取（网址： http :// ggzy . guizhou . gov . cn /） 获取采购文件，并于 2026年 08 月 11 日 09时30分（北京时间）前递交投标文件 。 一、项目基本信息 项目名称：贵州大学校园网核心、数据中心网络及日志设备采购 项目编号： BLJT092026098 采购方式：公开招标 交易项目编号： P52000020260008JE 采购主要内容： 1、主要功能： 校园网及数据中心网络设备：实现 N*100G主干互联互通 校园网核心出口及日志设备：拦截非法访问，支持 IPv4/IPv6双栈，适配智慧校园及升级需求隔离业务数据防泄露，实时监控告警故障。日志设备：采集留存日志（不少于180天），预警安全及设备故障，支持查询追溯，生成报表支撑决策。 2、应用范围：核心出口及日志设备设备协同覆盖校园全场景，支撑教学科研、校园管理、师生日常使用及安全管控，安全管控场景覆盖校园重点区域，实现全方位安全保障。 采购数量： 1批。 预算金额： 3000000.00元（其中A包（校园网核心、区域核心及数据中心交换机）：1450000.00元；B包（校园网出口防火墙、负载均衡设备及网络管理与日志分析平台）：1550000.00元）。 最高限价： 3000000.00元（其中A包（校园网核心、区域核心及数据中心交换机）：1450000.00元；B包（校园网出口防火墙、负载均衡设备及网络管理与日志分析平台）：1550000.00元）。 本项目（否）接受联合体投标：否",
+      "project_content": "贵州大学校园网核心、数据中心网络及日志设备采购 采购项目的潜在供应商应在贵州省公共资源交易云上获取（网址： http :// ggzy . guizhou . gov . cn /） 获取采购文件，并于 2026年 08 月 11 日 09时30分（北京时间）前递交投标文件 。 一、项目基本信息 项目名称：贵州大学校园网核心、数据中心网络及日志设备采购 项目编号： BLJT092026098 采购方式：公开招标 交易项目编号： P52000020260008JE 采购主要内容： 1、主要功能： 校园网及数据中心网络设备：实现 N*100G主干互联互通 校园网核心出口及日志设备：拦截非法访问，支持 IPv4/IPv6双栈，适配智慧校园及升级需求隔离业务数据防泄露，实时监控告警故障。日志设备：采集留存日志（不少于180天），预警安全及设备故障，支持查询追溯，生成报表支撑决策。 2、应用范围：核心出口及日志设备设备协同覆盖校园全场景，支撑教学科研、校园管理、师生日常使用及安全管控，安全管控场景覆盖校园重点区域，实现全方位安全保障。 采购数量： 1批。 预算金额： 3000000.00元（其中A包（校园网核心、区域核心及数据中心交换机）：1450000.00元；B包（校园网出口防火墙、负载均衡设备及网络管理与日志分析平台）：1550000.00元）。 最高限价： 3000000.00元（其中A包（校园网核心、区域核心及数据中心交换机）：1450000.00元；B包（校园网出口防火墙、负载均衡设备及网络管理与日志分析平台）：1550000.00元）。 本项目（否）接受联合体投标：否",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州大学",
+      "agency": "佰利建设管理（集团）有限公司",
+      "bid_deadline": "2026-08-11 09:30",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "场景"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "场景"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "2026年园林绿化日常养护耗材（三次）采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910324",
+      "budget": "",
+      "summary": "26年园林绿化日常养护耗材（三次）采购 。 合同履约 期限 ： 自采购合同签订之日起，按采购人需求分批次供货。 交货 地点： 采购人指定地点。 本项目 （是 /否） 接受联合体竞谈： 否",
+      "project_content": "26年园林绿化日常养护耗材（三次）采购 。 合同履约 期限 ： 自采购合同签订之日起，按采购人需求分批次供货。 交货 地点： 采购人指定地点。 本项目 （是 /否） 接受联合体竞谈： 否",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "六盘水市钟山区城市管理综合行政执法局",
+      "agency": "贵州众合同诚项目管理有限公司",
+      "bid_deadline": "2026-07-31",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "绿化",
+        "园林",
+        "养护"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿化",
+          "园林",
+          "养护"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "剑河县柳川镇镇江村红色美丽村庄建设项目-附属部分 市场询价公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910304",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "委托人剑河县苗乡圣水酒店管理有限责任公司的",
+      "agency": "贵州数峰项目管理咨询有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "美丽"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "美丽"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵阳市观山湖区文化馆、区图书馆场馆责任险（二次）采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910300",
+      "budget": "10000.00 元",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵阳市观山湖区文体广电旅游局",
+      "agency": "贵州融创智联招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "文化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "山西兆丰铝电新材料有限公司新建39.4万吨/年电解铝项目（一期29.4万吨/年）EPC总承包建安工程220kV配电装置附属钢材及楼承板等材料竞价采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910248",
+      "budget": "",
+      "summary": "山西兆丰铝电新材料有限公司新建39.4万吨/年电解铝项目（一期29.4万吨/年）EPC总承包建安工程220kV配电装置附属钢材及楼承板等材料。具体物资名称、规格型号、数量、执行标准等详见竞价采购公告。 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 山西兆丰铝电新材料有限公司新建39.4万吨/年电解铝项目（一期29.4万吨/年）EPC总承包建安工程220kV配电装置附属钢材及楼承板等材料 4.2 标段编号： GQQY-JJ2026070090-001 招标文件获取： 4.3 凡有意参加投标者，请于 至 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： 1.具备法人资格，生产或经营本次竞价采购所需材料必须同时具备相关资格证书的厂家。2.符合投标人资格的投标人应承担投标及履约中应承担的全部责任与义务。 4.6 其他事项： 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-07-25 10:00 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 其他事项说明 6. 联系方式 招标人： 七冶安装工程有限责任公司 联系地址： 贵州省贵阳市白云区白云北路9号 联系人： 张健 联系电话： 18275363465 项目监督： 联系电话： 招标代理： 联系地址： 联系人： 联系电话： 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+      "project_content": "山西兆丰铝电新材料有限公司新建39.4万吨/年电解铝项目（一期29.4万吨/年）EPC总承包建安工程220kV配电装置附属钢材及楼承板等材料。具体物资名称、规格型号、数量、执行标准等详见竞价采购公告。 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 山西兆丰铝电新材料有限公司新建39.4万吨/年电解铝项目（一期29.4万吨/年）EPC总承包建安工程220kV配电装置附属钢材及楼承板等材料 4.2 标段编号： GQQY-JJ2026070090-001 招标文件获取： 4.3 凡有意参加投标者，请于 至 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： 1.具备法人资格，生产或经营本次竞价采购所需材料必须同时具备相关资格证书的厂家。2.符合投标人资格的投标人应承担投标及履约中应承担的全部责任与义务。 4.6 其他事项： 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-07-25 10:00 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 其他事项说明 6. 联系方式 招标人： 七冶安装工程有限责任公司 联系地址： 贵州省贵阳市白云区白云北路9号 联系人： 张健 联系电话： 18275363465 项目监督： 联系电话： 招标代理： 联系地址： 联系人： 联系电话： 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "七冶安装工程有限责任公司",
+      "agency": "七冶安装工程有限责任公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "证书"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "证书"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵阳市女子职业学校学前教育部幼儿保育优质专业校园文化建设项目 竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910205",
+      "budget": "",
+      "summary": "学前教育部幼儿保育优质专业校园文化建设",
+      "project_content": "学前教育部幼儿保育优质专业校园文化建设",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵阳市女子职业学校 2、",
+      "agency": "贵州中泰项目管理有限公司",
+      "bid_deadline": "2026-08-03 10:30",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "文化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "体育彩票宣传服务--其他媒体宣传服务更正公告Ⅱ",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910179",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州省体育彩票管理中心",
+      "agency": "明诚汇采项目管理有限公司",
+      "bid_deadline": "2026-07-23 09:30",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "宣传"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵州双龙航空港置业有限公司关于柯柏松苗圃场搬迁补偿相关审计 服务单位竞争性谈判公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910158",
+      "budget": "",
+      "summary": "（1）服务内容：因项目建设需要对柯柏松苗圃场进行搬迁补偿，根据相关审核依据进行资金的审核。 （2）服务地点：采购人指定地点。 （3）项目预算：无。 （4）服务期：资料提交之日起3个日历天内完成。 4、供应商资质与合格条件要求： A.供应商提供法人或其他组织的营业执照。 B.供应商具备有效的《会计师事务所执业证书》。 C.供应商近三年无无重大违法违规、行政处罚记录，未被列入失信被执行人名单，提供承诺书（格式自拟）。 D.供应商提供2026年01月至今任意一个月税收及社保缴纳凭证。 E.供应商具备两个与项目有关的类似服务业绩，提供合同复印件加盖公章。 5、拒绝供应商组成联合体投标； 6、现场踏勘时间及地点：不组织踏勘； 7、竞争性谈判文件获取要求： A.供应商于2026年07月21日09时00分至2026年07月24日17时00分前，到采购人获取竞争性谈判文件；获取竞争性谈判文件时须提供以下资料：营业执照复印件、执业证书复印件、法定代表人授权委托书原件及被委托人身份证原件。 B.获取方式：线上获取，提供营业执照复印件、执业证书复印件、法定代表人授权委托书原件及被委托人身份证原件加盖单位公章（必须包含联系人及联系电话）扫描件发送至邮箱 673268610@qq.com ，完成线上获取竞争性谈判文件。 注：仅支持公对公转账，不支持私对公转账。 8、谈判时间：2026年07月27日10时30分。 9、谈判地点：贵州双龙航空港置业有限公司（地址：贵州省贵阳市南明区机场路9号太升国际A2栋17楼会议室）。 10、公告媒介 贵州省招标投标公共服务平台 11、采购人信息 采购人：贵州双龙航空港置业有限公司 地址：贵州双龙航空港经济区龙洞堡电子商务港A栋2单元17层3号 联系人：朱老师 电话：15885021497 贵州双龙航空港置业有限公司 2026年07月21日",
+      "project_content": "（1）服务内容：因项目建设需要对柯柏松苗圃场进行搬迁补偿，根据相关审核依据进行资金的审核。 （2）服务地点：采购人指定地点。 （3）项目预算：无。 （4）服务期：资料提交之日起3个日历天内完成。 4、供应商资质与合格条件要求： A.供应商提供法人或其他组织的营业执照。 B.供应商具备有效的《会计师事务所执业证书》。 C.供应商近三年无无重大违法违规、行政处罚记录，未被列入失信被执行人名单，提供承诺书（格式自拟）。 D.供应商提供2026年01月至今任意一个月税收及社保缴纳凭证。 E.供应商具备两个与项目有关的类似服务业绩，提供合同复印件加盖公章。 5、拒绝供应商组成联合体投标； 6、现场踏勘时间及地点：不组织踏勘； 7、竞争性谈判文件获取要求： A.供应商于2026年07月21日09时00分至2026年07月24日17时00分前，到采购人获取竞争性谈判文件；获取竞争性谈判文件时须提供以下资料：营业执照复印件、执业证书复印件、法定代表人授权委托书原件及被委托人身份证原件。 B.获取方式：线上获取，提供营业执照复印件、执业证书复印件、法定代表人授权委托书原件及被委托人身份证原件加盖单位公章（必须包含联系人及联系电话）扫描件发送至邮箱 673268610@qq.com ，完成线上获取竞争性谈判文件。 注：仅支持公对公转账，不支持私对公转账。 8、谈判时间：2026年07月27日10时30分。 9、谈判地点：贵州双龙航空港置业有限公司（地址：贵州省贵阳市南明区机场路9号太升国际A2栋17楼会议室）。 10、公告媒介 贵州省招标投标公共服务平台 11、采购人信息 采购人：贵州双龙航空港置业有限公司 地址：贵州双龙航空港经济区龙洞堡电子商务港A栋2单元17层3号 联系人：朱老师 电话：15885021497 贵州双龙航空港置业有限公司 2026年07月21日",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州双龙航空港置业有限公司",
+      "agency": "贵州双龙航空港置业有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "证书"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "证书"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "马依西一井瓦斯发电站改造项目询比采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910118",
+      "budget": "",
+      "summary": "马依西一井瓦斯发电站改造，具体要求详见采购文件。 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 马依西一井瓦斯发电站改造项目 4.2 标段编号： GQQY-XB2026070584-001 招标文件获取： 4.3 凡有意参加投标者，请于 2026-07-21 17:00 至 2026-07-29 17:00 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： 1.供应商必须具备独立法人资格，并持有效的工商营业执照。（复印件加盖供应商单位公章）； 2.具备建筑机电安装工程专业承包叁级及以上资质，并具备有效的安全生产许可证。（提供证书复印件或扫描件，并加盖公章）； 3. 2024年1月1日起至今，未在“信用中国”网站（https://www.creditchina.gov.cn/）中被列入失信被执行人名单（提供企业信用报告或自行承诺，承诺格式自拟）； 4.本次询比不接受联合体竞标。 4.6 其他事项： 4.7 是否接受联合体投标： 否 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-07-30 09:30 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 / 6. 联系方式 招标人： 贵州贵宸清洁能源有限责任公司 联系地址： 贵州省六盘水市盘州市翰林街道盘江西路 联系人： 王先生 联系电话： 0851-88688219 项目监督： 联系电话： 招标代理： 贵州鹏业国际机电设备招标有限公司 联系地址： 贵州省贵阳市云岩区北京路27号鑫都财富大厦16楼 联系人： 杨州 联系电话： 18085002331 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+      "project_content": "马依西一井瓦斯发电站改造，具体要求详见采购文件。 4. 招标文件获取及递交投标文件 任何未在《黔云招采电子招标采购交易平台》(www.e-qyzc.com)下载招标文件的法人或其它组织均不得参加本项目的投标。 标段1 4.1 标段名称： 马依西一井瓦斯发电站改造项目 4.2 标段编号： GQQY-XB2026070584-001 招标文件获取： 4.3 凡有意参加投标者，请于 2026-07-21 17:00 至 2026-07-29 17:00 (北京时间，下同)，登录《黔云招采电子招标采购交易平台》（www.e-qyzc.com）下载电子招标文件，相关平台操作事宜可参考黔云招采电子招标采购交易平台帮助中心。 4.4 招标文件售价： 免费获取 ，售后不退。（招标文件费用不含邮寄费用、平台服务费） 4.5 资格要求： 1.供应商必须具备独立法人资格，并持有效的工商营业执照。（复印件加盖供应商单位公章）； 2.具备建筑机电安装工程专业承包叁级及以上资质，并具备有效的安全生产许可证。（提供证书复印件或扫描件，并加盖公章）； 3. 2024年1月1日起至今，未在“信用中国”网站（https://www.creditchina.gov.cn/）中被列入失信被执行人名单（提供企业信用报告或自行承诺，承诺格式自拟）； 4.本次询比不接受联合体竞标。 4.6 其他事项： 4.7 是否接受联合体投标： 否 投标文件递交： 4.8 投标文件递交的截止时间 (投标截止时间 ，下同 ) 为 2026-07-30 09:30 ，投标人应在截止时间前通过《黔云招采电子招标采购交易平台》（www.e-qyzc.com）递交电子投标文件。 4.9 逾期送达的投标文件 ，电子招标投标交易平台将予以拒收。 5. 其他 / 6. 联系方式 招标人： 贵州贵宸清洁能源有限责任公司 联系地址： 贵州省六盘水市盘州市翰林街道盘江西路 联系人： 王先生 联系电话： 0851-88688219 项目监督： 联系电话： 招标代理： 贵州鹏业国际机电设备招标有限公司 联系地址： 贵州省贵阳市云岩区北京路27号鑫都财富大厦16楼 联系人： 杨州 联系电话： 18085002331 招标人或其招标代理机构主要负责人(项目负责人)： (签名) 招标人或其招标代理机构： (签章)",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州贵宸清洁能源有限责任公司",
+      "agency": "贵州鹏业国际机电设备招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "证书"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "证书"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵阳贵安2026年高质量发展主题宣传采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910092",
+      "budget": "487000.00元",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "中共贵阳市委宣传部",
+      "agency": "贵州融创智联招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "宣传"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "“爽爽贵阳城·暖暖贵阳人”体育文化宣传项目采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910084",
+      "budget": "188000.00元",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "中共贵阳市委宣传部",
+      "agency": "贵州融创智联招标有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传",
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "宣传",
+          "文化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "新蒲新区新舟镇2026年中央水利发展资金农村供水工程维修养护",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910082",
+      "budget": "270900.00元",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "采购人 遵义市红花岗区新舟镇人民政府",
+      "agency": "贵州屹鑫工程管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "养护"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "养护"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵州印象贵大文化传播有限公司物业物资采购",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910014",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州印象贵大文化传播有限公司",
+      "agency": "贵州拓迈电子招投标服务有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "2026-07-15至2026-07-21",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "文化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "2026年采购健康科普公益广告制作服务（二次）竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909979",
+      "budget": "12万元",
+      "summary": "主题科普公益广告制作",
+      "project_content": "主题科普公益广告制作",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州省疾病预防控制中心",
+      "agency": "贵州采虹招标咨询有限公司",
+      "bid_deadline": "2026-08-03 09:30",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "广告"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "广告"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵州生态能源职业学院2026年度林地+中药材复合种植示范项目（三次）延期公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909977",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "明诚汇采项目管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "种植"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "种植"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "铜仁市民族中学文印室服务采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909940",
+      "budget": "2100000.00 元",
+      "summary": "铜仁市民族中学文印室服务 招标项目的潜在投标人应在 江苏万源工程咨询有限公司 获取招标文件，并于 2026 年 8 月 11 日 10 点 00 分（北京时间）前递交投标文件 。 一、项目基本情况 项目编号： JSWY2026-029CG 项目名称： 铜仁市民族中学文印室服务 采购方式： 公开招标 预算金额： 2100000.00 元 最高限价： A4（70g）：0.32元/张；8k（70g）:0.43元/张；A3（70g）：0.53元/张；4k（70g）：0.8元/张；答题卡彩色A3（120g）：2元/张；答题卡彩色A4（120g）：0.7元/张） 。 采购需求： 详见 招标 文件 合同履行期限： 本次招标服务周期为三年，设置一个月试用期，合同一年一签，学校每年对服务质量进行考核，考核不合格可终止合作。 本项目（ ¨ 是 / þ 否）接受联合体投标",
+      "project_content": "铜仁市民族中学文印室服务 招标项目的潜在投标人应在 江苏万源工程咨询有限公司 获取招标文件，并于 2026 年 8 月 11 日 10 点 00 分（北京时间）前递交投标文件 。 一、项目基本情况 项目编号： JSWY2026-029CG 项目名称： 铜仁市民族中学文印室服务 采购方式： 公开招标 预算金额： 2100000.00 元 最高限价： A4（70g）：0.32元/张；8k（70g）:0.43元/张；A3（70g）：0.53元/张；4k（70g）：0.8元/张；答题卡彩色A3（120g）：2元/张；答题卡彩色A4（120g）：0.7元/张） 。 采购需求： 详见 招标 文件 合同履行期限： 本次招标服务周期为三年，设置一个月试用期，合同一年一签，学校每年对服务质量进行考核，考核不合格可终止合作。 本项目（ ¨ 是 / þ 否）接受联合体投标",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "江苏万源工程咨询有限公司",
+      "bid_deadline": "2026-08-11",
+      "registration_deadline": "",
+      "registration_period": "2026-07-21至2026-07-28",
+      "matched_keywords": [
+        "文印"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "文印"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "中国建设银行贵州省分行绿地集团（贵阳绿强）房地产开发有限公司、贵州锦盛置业有限公司风险化解项目外聘律师代理服务采购项目供应商征集公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909856",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "建银工程咨询有限责任公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "绿地"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿地"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "六盘水师范学院工程实训中心实验室标识与安全建设项目（二次）采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909852",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州瑞泰鸿招标造价咨询有限公司",
+      "bid_deadline": "2026-07-27 15:00",
+      "registration_deadline": "",
+      "registration_period": "2026-07-22至2026-07-24",
+      "matched_keywords": [
+        "标识"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "标识"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "黄埔小镇公园里二期项目项目招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909816",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "‌贵州科匀康养置业有限公司",
+      "agency": "华联世纪工程咨询股份有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "公园"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "公园"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "《贵州省基层传染病诊疗口袋手册》设计印制项目竞争性磋商公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909810",
+      "budget": "",
+      "summary": "《贵州省基层传染病诊疗口袋手册》设计印制项目的潜在供应商应在贵州天信招标有限公司获取（地址：贵州省贵阳市南明区花果园中央商务区一号楼二单元 42 层 4208 号）获取 竞争性磋商 文件，并于 2026 年 08 月 04 日 10: 3 0 （北京时间）前递交竞争性磋商响应文件。 一、项目基本情况 项目编号： TXZB4208-26C 3 8 项目名称：《贵州省基层传染病诊疗口袋手册》设计印制项目 预算金额（元）： 3 0 0000.00 最高限价（元）： 30 0 000.00 采购需求： 标项名称：《贵州省基层传染病诊疗口袋手册》设计印制项目 数量 ： 1 预算金额（元） ： 3 0 0000.00 简要规格描述或项目基本概况介绍、用途： 详见第二章第一节参数要求。 合同履约期限： 自合同签订之日起 20 日历天 。 本项目 （否） 接受联合体投标",
+      "project_content": "《贵州省基层传染病诊疗口袋手册》设计印制项目的潜在供应商应在贵州天信招标有限公司获取（地址：贵州省贵阳市南明区花果园中央商务区一号楼二单元 42 层 4208 号）获取 竞争性磋商 文件，并于 2026 年 08 月 04 日 10: 3 0 （北京时间）前递交竞争性磋商响应文件。 一、项目基本情况 项目编号： TXZB4208-26C 3 8 项目名称：《贵州省基层传染病诊疗口袋手册》设计印制项目 预算金额（元）： 3 0 0000.00 最高限价（元）： 30 0 000.00 采购需求： 标项名称：《贵州省基层传染病诊疗口袋手册》设计印制项目 数量 ： 1 预算金额（元） ： 3 0 0000.00 简要规格描述或项目基本概况介绍、用途： 详见第二章第一节参数要求。 合同履约期限： 自合同签订之日起 20 日历天 。 本项目 （否） 接受联合体投标",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州省疾病预防控制局",
+      "agency": "贵州天信招标有限公司",
+      "bid_deadline": "2026-08-04 10:00",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "印制"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "印制"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "毕威高速公路杉木Ⅰ号大桥等29座桥梁修复养护工程项目招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909778",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州毕节高速发展有限公司",
+      "agency": "贵州黔通安达工程咨询有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "养护"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "养护"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "毕威高速公路K57+450-K57+710上行等17处边坡修复养护工程项目招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909765",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州毕节高速发展有限公司",
+      "agency": "贵州黔通安达工程咨询有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "养护"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "养护"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "“贵水黔鱼”区域公用品牌宣传推广更正公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909755",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "贵州省水利厅",
+      "agency": "贵州新山水建设咨询（集团）有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "宣传"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "宣传"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "修文县六桶镇海马孔村美丽家园建设项目项目招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909716",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "修文县六桶镇人民政府",
+      "agency": "贵州鼎盛鑫项目管理有限公司",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "美丽",
+        "家园"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "美丽",
+          "家园"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "六盘水师范学院工程实训中心实验室标识与安全建设项目（二次）采购公告",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909699",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "公告未载明",
+      "agency": "贵州瑞泰鸿招标造价咨询有限公司",
+      "bid_deadline": "2026-07-27 15:00",
+      "registration_deadline": "",
+      "registration_period": "2026-07-22至2026-07-24",
+      "matched_keywords": [
+        "标识"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "标识"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵州省安顺市2026年度中央财政国土绿化项目项目招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909695",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "安顺市森林植物检疫站",
+      "agency": "安顺市森林植物检疫站",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "绿化",
+        "国土"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿化",
+          "国土"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-21",
+      "date_basis": "official",
+      "title": "贵州省安顺市2026年度中央财政国土绿化项目项目招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909693",
+      "budget": "",
+      "summary": "",
+      "project_content": "",
+      "project_content_basis": "section-v3",
+      "location": "贵州省",
+      "buyer": "安顺市森林植物检疫站",
+      "agency": "安顺市森林植物检疫站",
+      "bid_deadline": "",
+      "registration_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "绿化",
+        "国土"
+      ],
+      "source_name": "贵州省招标投标公共服务平台",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿化",
+          "国土"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
       "new_on_date": "2026-07-22",
       "is_new": true
     },
@@ -17153,6 +18002,37 @@
     {
       "published_at": "2026-07-07",
       "date_basis": "official",
+      "title": "采购大诚大厦项目供水工程施工服务谈判采购公告",
+      "project_name": "采购大诚大厦项目供水工程施工服务谈判采购公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1234417430185512960",
+      "budget": "",
+      "summary": "该项目供水管总长约650米，管径200mm，管材为K9球墨铸铁管（过街管采用钢管并设钢套管保护），埋深不小于1米，从云潭南路市政给水管接入，途经同源路，接至大诚大厦项目用地指定处，指定处设置一路DN150压力远传型电磁水表组消防用水、一路DN100压力远传型电磁水表组生活用水、一路DN50压力远传型电磁水表组绿化用水。主要施工内容为管沟开挖、给水管道及相关的阀门配件、计量表、设置检查井、土石方弃置、破市政道路及市政路面恢复原样，以及文明安全措施防护等内容，并负责完成所有相关供水手续、负责相关部门验收通过，搭接并通水，满足建设单位直接用水条件",
+      "project_content": "该项目供水管总长约650米，管径200mm，管材为K9球墨铸铁管（过街管采用钢管并设钢套管保护），埋深不小于1米，从云潭南路市政给水管接入，途经同源路，接至大诚大厦项目用地指定处，指定处设置一路DN150压力远传型电磁水表组消防用水、一路DN100压力远传型电磁水表组生活用水、一路DN50压力远传型电磁水表组绿化用水。主要施工内容为管沟开挖、给水管道及相关的阀门配件、计量表、设置检查井、土石方弃置、破市政道路及市政路面恢复原样，以及文明安全措施防护等内容，并负责完成所有相关供水手续、负责相关部门验收通过，搭接并通水，满足建设单位直接用水条件",
+      "project_content_basis": "section-v3",
+      "location": "国有企业生产资料",
+      "buyer": "贵州大诚建筑发展有限责任公司",
+      "agency": "公告未载明",
+      "bid_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "绿化"
+      ],
+      "source_name": "贵州省公共资源交易云-其他交易",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-07-07",
+      "date_basis": "official",
       "title": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目招标公告",
       "project_name": "六枝特区2026年农村地区供水设施中央水利发展资金维修养护项目招标公告",
       "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1234409135638974464",
@@ -17180,6 +18060,37 @@
       "first_seen_at": "2026-07-07T21:17:44.686814+08:00",
       "new_on_date": "2026-07-07",
       "is_new": false
+    },
+    {
+      "published_at": "2026-07-07",
+      "date_basis": "official",
+      "title": "远大生态二期9栋公寓修缮提升改造项目(二次)竞争性磋商公告",
+      "project_name": "远大生态二期9栋公寓修缮提升改造项目(二次)竞争性磋商公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1234406857754415106",
+      "budget": "",
+      "summary": "按照项目修缮提升改造统计表及现场实际情况，一是对全部40套房屋进行修缮改造；二是对损坏的家电家具进行采购安装；三是完成公寓整体氛围营造的设计施工",
+      "project_content": "按照项目修缮提升改造统计表及现场实际情况，一是对全部40套房屋进行修缮改造；二是对损坏的家电家具进行采购安装；三是完成公寓整体氛围营造的设计施工",
+      "project_content_basis": "section-v3",
+      "location": "国有企业生产资料",
+      "buyer": "贵阳高新智慧运营管理有限公司",
+      "agency": "公告未载明",
+      "bid_deadline": "",
+      "registration_period": "",
+      "matched_keywords": [
+        "氛围"
+      ],
+      "source_name": "贵州省公共资源交易云-其他交易",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "氛围"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
     },
     {
       "published_at": "2026-07-07",
@@ -25496,6 +26407,37 @@
     {
       "published_at": "2026-06-30",
       "date_basis": "official",
+      "title": "清镇体育训练基地装配式宿舍采购及安装项目的公开招标公告",
+      "project_name": "清镇体育训练基地装配式宿舍采购及安装项目的公开招标公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231868723003002880",
+      "budget": "",
+      "summary": "清镇体育训练基地装配式宿舍采购及安装项目 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月21日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： CQSJ（ZFCG）-26-009 项目名称： 清镇体育训练基地装配式宿舍采购及安装项目 交易项目编号： P5200002026000780 预算金额（元）： 4507800.00 最高限价（元）： 标包1:4507790.89 采购需求： 标项1 标项名称: 清镇体育训练基地装配式宿舍采购及安装项目 数量: 1 预算金额（元）: 4507800.00 简要规格描述： 装配式宿舍工程（标准箱124个、走道箱78个、楼梯6个、厕所10个、淋浴间10个、洗衣房10个、晾衣房10个、门卫室2个、不锈钢扶手210m）、绿化工程、铺装工程、水电安装工程等。 备注： 投标总报价最高投标限价：4507790.89元。其中货物部分总报价最高投标限价：2908911.38元，施工部分总报价最高投标限价：1598879.51元。 合同履约期限： 标包1:①货物部分：在签订合同之日起30个日历日内完成供货安装并验收；②工程部分：货物部分验收合格之日起60日历天内完成并验收。 本项目（是/否）接受联合体投标： 标项1:是 联合体投标应满足以下条件: （1）联合体成员家数不得大于 2 家，且均须满足采购文件“一般资格要求”，均应按采购文件要求提供中小企业声明函； （2）联合体牵头人为本项目货物供应单位，施工单位应满足采购文件“特殊资格要求”； （3）联合体各方应按采购文件提供的格式签订联合体协议书，明确联合体牵头人和各方权利义务，并承诺就中标项目向采购人承担连带责任； （4）联合体各方不得再以自己名义单独或参加其他联合体在同一标段中投标； （5）联合体各方应分别在人员、设备、资金等方面具有承担本项目联合体协议书分工职责范围内的履约能力； （6）除联合体协议书、中小企业声明函、一般资格要求外，其他要求投标人盖章或填写投标人/投标单位信息的，由联合体牵头人盖章或填写联合体牵头人信息即可",
+      "project_content": "清镇体育训练基地装配式宿舍采购及安装项目 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月21日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： CQSJ（ZFCG）-26-009 项目名称： 清镇体育训练基地装配式宿舍采购及安装项目 交易项目编号： P5200002026000780 预算金额（元）： 4507800.00 最高限价（元）： 标包1:4507790.89 采购需求： 标项1 标项名称: 清镇体育训练基地装配式宿舍采购及安装项目 数量: 1 预算金额（元）: 4507800.00 简要规格描述： 装配式宿舍工程（标准箱124个、走道箱78个、楼梯6个、厕所10个、淋浴间10个、洗衣房10个、晾衣房10个、门卫室2个、不锈钢扶手210m）、绿化工程、铺装工程、水电安装工程等。 备注： 投标总报价最高投标限价：4507790.89元。其中货物部分总报价最高投标限价：2908911.38元，施工部分总报价最高投标限价：1598879.51元。 合同履约期限： 标包1:①货物部分：在签订合同之日起30个日历日内完成供货安装并验收；②工程部分：货物部分验收合格之日起60日历天内完成并验收。 本项目（是/否）接受联合体投标： 标项1:是 联合体投标应满足以下条件: （1）联合体成员家数不得大于 2 家，且均须满足采购文件“一般资格要求”，均应按采购文件要求提供中小企业声明函； （2）联合体牵头人为本项目货物供应单位，施工单位应满足采购文件“特殊资格要求”； （3）联合体各方应按采购文件提供的格式签订联合体协议书，明确联合体牵头人和各方权利义务，并承诺就中标项目向采购人承担连带责任； （4）联合体各方不得再以自己名义单独或参加其他联合体在同一标段中投标； （5）联合体各方应分别在人员、设备、资金等方面具有承担本项目联合体协议书分工职责范围内的履约能力； （6）除联合体协议书、中小企业声明函、一般资格要求外，其他要求投标人盖章或填写投标人/投标单位信息的，由联合体牵头人盖章或填写联合体牵头人信息即可",
+      "project_content_basis": "section-v3",
+      "location": "贵州省公共资源交易中心",
+      "buyer": "贵州省体育场地建设管理中心",
+      "agency": "重庆市市建工程建设咨询有限公司",
+      "bid_deadline": "2026-07-21 09:30",
+      "registration_period": "2026-07-01至2026-07-08",
+      "matched_keywords": [
+        "绿化"
+      ],
+      "source_name": "贵州省公共资源交易云-政府采购",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-30",
+      "date_basis": "official",
       "title": "孔学堂2026年至2028年绿化养护项目（24个月）采购公告",
       "project_name": "孔学堂2026年至2028年绿化养护项目（24个月）采购公告",
       "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231867271413108736",
@@ -25618,6 +26560,37 @@
       "first_seen_at": "2026-07-18T21:40:43.931896+08:00",
       "new_on_date": "2026-07-18",
       "is_new": false
+    },
+    {
+      "published_at": "2026-06-30",
+      "date_basis": "official",
+      "title": "楼下镇小河村老鬼山至小箐产业路项目",
+      "project_name": "楼下镇小河村老鬼山至小箐产业路项目",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231859067241238528",
+      "budget": "",
+      "summary": "楼下镇小河村老鬼山至小箐产业路项目 招标项目的潜在投标人应在 贵州省公共资源交易一张网（https://ggzy.guizhou.gov.cn/hallweb/#/tradinghall） 下载 获取招标文件，并于 ( 北京时间2026年07月16日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52232320260006WU 项目名称 : 楼下镇小河村老鬼山至小箐产业路项目 项目序列号 : ZFCG20260624001 预算金额(元) : 980000.00元 采购需求 : 建设内容：新建产业道路 1.639 公里，宽度 3.5m（不含加宽）。其中含土石方、M7.5 浆砌片石挡墙、路基路面铺设、涵洞、边沟、标志牌等。 标项一 标项名称 : 楼下镇小河村老鬼山至小箐产业路项目 数量 : 批 预算金额（元） : 980000.00 最高限价(元) : 980000 简要规格描述或项目基本概况介绍、用途 : 建设内容：新建产业道路 1.639 公里，宽度 3.5m（不含加宽）。其中含土石方、M7.5 浆砌片石挡墙、路基路面铺设、涵洞、边沟、标志牌等。 备注 : 合同履约期限 : 270日历天 本项目（是 / 否）接受联合体投标 : 否",
+      "project_content": "楼下镇小河村老鬼山至小箐产业路项目 招标项目的潜在投标人应在 贵州省公共资源交易一张网（https://ggzy.guizhou.gov.cn/hallweb/#/tradinghall） 下载 获取招标文件，并于 ( 北京时间2026年07月16日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52232320260006WU 项目名称 : 楼下镇小河村老鬼山至小箐产业路项目 项目序列号 : ZFCG20260624001 预算金额(元) : 980000.00元 采购需求 : 建设内容：新建产业道路 1.639 公里，宽度 3.5m（不含加宽）。其中含土石方、M7.5 浆砌片石挡墙、路基路面铺设、涵洞、边沟、标志牌等。 标项一 标项名称 : 楼下镇小河村老鬼山至小箐产业路项目 数量 : 批 预算金额（元） : 980000.00 最高限价(元) : 980000 简要规格描述或项目基本概况介绍、用途 : 建设内容：新建产业道路 1.639 公里，宽度 3.5m（不含加宽）。其中含土石方、M7.5 浆砌片石挡墙、路基路面铺设、涵洞、边沟、标志牌等。 备注 : 合同履约期限 : 270日历天 本项目（是 / 否）接受联合体投标 : 否",
+      "project_content_basis": "section-v3",
+      "location": "黔西南州公共资源交易中心",
+      "buyer": "普安县楼下镇人民政府",
+      "agency": "贵州鲁班招标代理有限公司",
+      "bid_deadline": "2026-07-16 09:30",
+      "registration_period": "2026-07-01至2026-07-08",
+      "matched_keywords": [
+        "标志"
+      ],
+      "source_name": "贵州省公共资源交易云-政府采购",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "标志"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
     },
     {
       "published_at": "2026-06-30",
@@ -26864,6 +27837,37 @@
     {
       "published_at": "2026-06-29",
       "date_basis": "official",
+      "title": "上坝乡八一社区集体经济项目(包装设备购安)项目采购公告",
+      "project_name": "上坝乡八一社区集体经济项目(包装设备购安)项目采购公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231489195936190464",
+      "budget": "",
+      "summary": "上坝乡八一社区集体经济项目(包装设备购安)项目 招标项目的潜在投标人应在 全国公共资源交易平台（贵州省•遵义市） 获取招标文件，并于 2026年07月20日 09时30分 ( 北京时间) ) 前递交投标文件。 一、项目基本信息 项目编号 : P5203252026000767 项目名称 : 上坝乡八一社区集体经济项目(包装设备购安)项目 采购方式 : 公开招标 项目序列号 : ZYB-20260629-000052-4 预算金额(元) : 2800000.00元 采购需求 : 购置安装外包装纸箱生产设备:五色免压前缘印刷模切机1台、全自动粘钉一体2800型1台、分纸机1台、打钉机1台、30吨打包机1台、全程吸双龙门碰线机1台。具体内容详以采购清单为准。 标项一 标项名称 : 上坝乡八一社区集体经济项目(包装设备购安)项目 数量 : 批 预算金额（元） : 2800000.00 最高限价（元） : 2571266.00 保证金金额（元） : 0.00 简要规格描述或项目基本概况介绍、用途 : 购置安装外包装纸箱生产设备:五色免压前缘印刷模切机1台、全自动粘钉一体2800型1台、分纸机1台、打钉机1台、30吨打包机1台、全程吸双龙门碰线机1台。具体内容详以采购清单为准。 备注 : 合同履约期限 : / 本项目（是 / 否）接受联合体投标 : 否",
+      "project_content": "上坝乡八一社区集体经济项目(包装设备购安)项目 招标项目的潜在投标人应在 全国公共资源交易平台（贵州省•遵义市） 获取招标文件，并于 2026年07月20日 09时30分 ( 北京时间) ) 前递交投标文件。 一、项目基本信息 项目编号 : P5203252026000767 项目名称 : 上坝乡八一社区集体经济项目(包装设备购安)项目 采购方式 : 公开招标 项目序列号 : ZYB-20260629-000052-4 预算金额(元) : 2800000.00元 采购需求 : 购置安装外包装纸箱生产设备:五色免压前缘印刷模切机1台、全自动粘钉一体2800型1台、分纸机1台、打钉机1台、30吨打包机1台、全程吸双龙门碰线机1台。具体内容详以采购清单为准。 标项一 标项名称 : 上坝乡八一社区集体经济项目(包装设备购安)项目 数量 : 批 预算金额（元） : 2800000.00 最高限价（元） : 2571266.00 保证金金额（元） : 0.00 简要规格描述或项目基本概况介绍、用途 : 购置安装外包装纸箱生产设备:五色免压前缘印刷模切机1台、全自动粘钉一体2800型1台、分纸机1台、打钉机1台、30吨打包机1台、全程吸双龙门碰线机1台。具体内容详以采购清单为准。 备注 : 合同履约期限 : / 本项目（是 / 否）接受联合体投标 : 否",
+      "project_content_basis": "section-v3",
+      "location": "遵义市公共资源交易中心",
+      "buyer": "道真仡佬族苗族自治县上坝土家族乡人民政府",
+      "agency": "贵州瑞通工程建设管理有限公司",
+      "bid_deadline": "2026-07-20 09:30",
+      "registration_period": "2026-06-30至2026-07-14",
+      "matched_keywords": [
+        "印刷"
+      ],
+      "source_name": "贵州省公共资源交易云-政府采购",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "印刷"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-29",
+      "date_basis": "official",
       "title": "榕江县城北新区景观大道与南岳交叉口东南侧商业用房建设项目公告",
       "project_name": "榕江县城北新区景观大道与南岳交叉口东南侧商业用房建设项目公告",
       "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231487514976587776",
@@ -26953,6 +27957,68 @@
       "first_seen_at": "2026-07-18T21:40:43.931896+08:00",
       "new_on_date": "2026-07-18",
       "is_new": false
+    },
+    {
+      "published_at": "2026-06-29",
+      "date_basis": "official",
+      "title": "2026年观山湖区“生态季”系列活动项目采购公告",
+      "project_name": "2026年观山湖区“生态季”系列活动项目采购公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231467244085710848",
+      "budget": "",
+      "summary": "2026年观山湖区“生态季”系列活动项目的潜在供应商应在全国公共资源交易平台（贵州省·贵阳市）网站下载（系统使用咨询电话：0851-84839751、编标工具咨询电话：0851-84839751）获取采购文件，并于2026年07月10日 09:30(北京时间)前提交响应文件。 一、项目基本信息 项目编号：BLJT092026074 项目名称：2026年观山湖区“生态季”系列活动项目 采购方式：竞争性磋商 预算金额（元）：704980元 最高限价（元）：704980元 采购需求： 标项一 标项名称：2026年观山湖区“生态季”系列活动项目 数量：不限 预算金额（元）：704980.00 简要规格描述或项目基本概况介绍、用途：本项目为开展2026年观山湖区“生态季”系列活动，在此期间围绕“生态+教育”“生态+音乐”“生态双城记”等开展一系列活动，打响“享在观山湖”的生态文化品牌。 备注： 合同履约期限：合同正式签订之日起计算，服务周期为3个月，至活动结束。 本项目(是/否)接受联合体投标：否",
+      "project_content": "2026年观山湖区“生态季”系列活动项目的潜在供应商应在全国公共资源交易平台（贵州省·贵阳市）网站下载（系统使用咨询电话：0851-84839751、编标工具咨询电话：0851-84839751）获取采购文件，并于2026年07月10日 09:30(北京时间)前提交响应文件。 一、项目基本信息 项目编号：BLJT092026074 项目名称：2026年观山湖区“生态季”系列活动项目 采购方式：竞争性磋商 预算金额（元）：704980元 最高限价（元）：704980元 采购需求： 标项一 标项名称：2026年观山湖区“生态季”系列活动项目 数量：不限 预算金额（元）：704980.00 简要规格描述或项目基本概况介绍、用途：本项目为开展2026年观山湖区“生态季”系列活动，在此期间围绕“生态+教育”“生态+音乐”“生态双城记”等开展一系列活动，打响“享在观山湖”的生态文化品牌。 备注： 合同履约期限：合同正式签订之日起计算，服务周期为3个月，至活动结束。 本项目(是/否)接受联合体投标：否",
+      "project_content_basis": "section-v3",
+      "location": "贵阳市公共资源交易中心",
+      "buyer": "贵阳市生态环境局观山湖分局",
+      "agency": "佰利建设管理（集团）有限公司",
+      "bid_deadline": "2026-07-10 09:30",
+      "registration_period": "2026-06-30至2026-07-09",
+      "matched_keywords": [
+        "文化"
+      ],
+      "source_name": "贵州省公共资源交易云-政府采购",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "文化"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
+    },
+    {
+      "published_at": "2026-06-29",
+      "date_basis": "official",
+      "title": "桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目采购公告",
+      "project_name": "桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目采购公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1231467242378629120",
+      "budget": "",
+      "summary": "桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目 招标项目的潜在投标人应在 全国公共资源交易平台（贵州省•遵义市） 获取招标文件，并于 2026年07月10日 09时30分 ( 北京时间) ) 前递交投标文件。 一、项目基本信息 项目编号 : P520322202600075N 项目名称 : 桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目 采购方式 : 竞争性磋商 项目序列号 : ZYB-20260629-000012-6 预算金额(元) : 1986860.79元 采购需求 : 包括粪污收集储罐、基础工程、附属防护设施及管网配套设施，具体如下： 1. 粪污收集储罐安装：共计安装卧式5T粪污收集储罐175座，分布于各乡镇，其中官仓镇50座、马鬃苗族乡40座、茅石镇20座、小水乡20座、新站镇10座、羊磴镇15座、夜郎镇10座、大河镇10座。 2. 基础工程施工：配套浇筑卧式5m³粪污收集储罐混凝土基础，总浇筑面积1161.3㎡，单座基础尺寸为长3.16m、宽2.1m，确保储罐安装稳固。 3. 附属防护设施安装：安装不锈钢安全栏杆总长1771m，用于储罐周边安全防护；设置安全警示牌875块，规范警示标识，保障作业及周边人员安全。 4. 管网及配套设施安装：铺设PE材质DN63排污管道8280m，配套安装闸阀50个，完善粪污收集输送管网，保障粪污收集、输送顺畅（以工程量清单为主）。 标项一 标项名称 : 桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目 数量 : 批 预算金额（元） : 1986860.79 最高限价（元） : 1986860.79 保证金金额（元） : 0.00 简要规格描述或项目基本概况介绍、用途 : 包括粪污收集储罐、基础工程、附属防护设施及管网配套设施，具体如下： 1.粪污收集储罐安装：共计安装卧式5T粪污收集储罐175座，分布于各乡镇，其 中官仓镇50座、马鬃苗族乡40座、茅石镇20座、小水乡20座、新站镇10座、羊磴镇15座、夜郎镇10座、大河镇10座。 2. 基础工程施工：配套浇筑卧式5m³粪污收集储罐混凝土基础，总浇筑面积1161.3㎡，单座基础尺寸为长3.16m、宽2.1m，确保储罐安装稳固。 3. 附属防护设施安装：安装不锈钢安全栏杆总长1771m，用于储罐周边安全防护；设置安全警示牌875块，规范警示标识，保障作业及周边人员安全。 4. 管网及配套设施安装：铺设PE材质DN63排污管道8280m，配套安装闸阀50个，完善粪污收集输送管网，保障粪污收集、输送顺畅（以工程量清单为主）。 备注 : 合同履约期限 : 4个月（120日历天） 本项目（是 / 否）接受联合体投标 : 否",
+      "project_content": "桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目 招标项目的潜在投标人应在 全国公共资源交易平台（贵州省•遵义市） 获取招标文件，并于 2026年07月10日 09时30分 ( 北京时间) ) 前递交投标文件。 一、项目基本信息 项目编号 : P520322202600075N 项目名称 : 桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目 采购方式 : 竞争性磋商 项目序列号 : ZYB-20260629-000012-6 预算金额(元) : 1986860.79元 采购需求 : 包括粪污收集储罐、基础工程、附属防护设施及管网配套设施，具体如下： 1. 粪污收集储罐安装：共计安装卧式5T粪污收集储罐175座，分布于各乡镇，其中官仓镇50座、马鬃苗族乡40座、茅石镇20座、小水乡20座、新站镇10座、羊磴镇15座、夜郎镇10座、大河镇10座。 2. 基础工程施工：配套浇筑卧式5m³粪污收集储罐混凝土基础，总浇筑面积1161.3㎡，单座基础尺寸为长3.16m、宽2.1m，确保储罐安装稳固。 3. 附属防护设施安装：安装不锈钢安全栏杆总长1771m，用于储罐周边安全防护；设置安全警示牌875块，规范警示标识，保障作业及周边人员安全。 4. 管网及配套设施安装：铺设PE材质DN63排污管道8280m，配套安装闸阀50个，完善粪污收集输送管网，保障粪污收集、输送顺畅（以工程量清单为主）。 标项一 标项名称 : 桐梓县农业农村局关于桐梓县2026年畜牧产业粪污治理资源化利用建设项目 数量 : 批 预算金额（元） : 1986860.79 最高限价（元） : 1986860.79 保证金金额（元） : 0.00 简要规格描述或项目基本概况介绍、用途 : 包括粪污收集储罐、基础工程、附属防护设施及管网配套设施，具体如下： 1.粪污收集储罐安装：共计安装卧式5T粪污收集储罐175座，分布于各乡镇，其 中官仓镇50座、马鬃苗族乡40座、茅石镇20座、小水乡20座、新站镇10座、羊磴镇15座、夜郎镇10座、大河镇10座。 2. 基础工程施工：配套浇筑卧式5m³粪污收集储罐混凝土基础，总浇筑面积1161.3㎡，单座基础尺寸为长3.16m、宽2.1m，确保储罐安装稳固。 3. 附属防护设施安装：安装不锈钢安全栏杆总长1771m，用于储罐周边安全防护；设置安全警示牌875块，规范警示标识，保障作业及周边人员安全。 4. 管网及配套设施安装：铺设PE材质DN63排污管道8280m，配套安装闸阀50个，完善粪污收集输送管网，保障粪污收集、输送顺畅（以工程量清单为主）。 备注 : 合同履约期限 : 4个月（120日历天） 本项目（是 / 否）接受联合体投标 : 否",
+      "project_content_basis": "section-v3",
+      "location": "遵义市公共资源交易中心",
+      "buyer": "桐梓县农业农村局",
+      "agency": "中瀛国际工程管理有限公司",
+      "bid_deadline": "2026-07-10 09:30",
+      "registration_period": "2026-06-30至2026-07-07",
+      "matched_keywords": [
+        "标识"
+      ],
+      "source_name": "贵州省公共资源交易云-政府采购",
+      "industry_categories": [
+        "graphic-advertising"
+      ],
+      "category_keyword_matches": {
+        "graphic-advertising": [
+          "标识"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
     },
     {
       "published_at": "2026-06-29",
@@ -27980,6 +29046,39 @@
       "first_seen_at": "2026-07-18T21:40:43.931896+08:00",
       "new_on_date": "2026-07-18",
       "is_new": false
+    },
+    {
+      "published_at": "2026-06-26",
+      "date_basis": "official",
+      "title": "贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目的竞争性磋商公告",
+      "project_name": "贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目的竞争性磋商公告",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1230400263983075328",
+      "budget": "",
+      "summary": "贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月07日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： PRJD2026-059GC 项目名称： 贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目 采购方式： 竞争性磋商 交易项目序列号： P520181202600073P 预算金额（元）： 1489092.84 最高限价（元）： 标包1:1304673.89 ， 标包2:184418.95 采购需求： 标项1 标项名称: 贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目标包1（工程施工） 数量: 不限 预算金额（元）: 1304673.89 简要规格描述： 主要对以下区域进行改造：室外场地部分：室外入口大门通道、室外地面、室外景观绿化、篮球场等区域修缮改造。地上建筑部分：主楼、辅楼屋顶防水、房间电路、房间顶面、房间墙面、房间地面、破旧家具等区域修缮改造。 备注： 标项2 标项名称: 贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目标包2（采购及安装） 数量: 不限 预算金额（元）: 184418.95 简要规格描述： 电视、空调、洗衣机、抽油烟机等采购及安装（详见采购清单）。 备注： 合同履约期限： 标包1:工期60日历天 ， 标包2:合同签订后，接采购人通知，10个日历天内交付并安装完毕。 本项目（是/否）接受联合体投标： 标项1:否 标项2:否",
+      "project_content": "贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目 招标项目的潜在供应商应在 贵州省公共资源交易中心网上获取(交易中心网址:http://ggzy.guizhou.gov.cn/ )获取采购文件，并于 2026年07月07日 09时30分 （北京时间）前递交投标文件。 一、项目基本情况 采购项目编号(财政)： PRJD2026-059GC 项目名称： 贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目 采购方式： 竞争性磋商 交易项目序列号： P520181202600073P 预算金额（元）： 1489092.84 最高限价（元）： 标包1:1304673.89 ， 标包2:184418.95 采购需求： 标项1 标项名称: 贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目标包1（工程施工） 数量: 不限 预算金额（元）: 1304673.89 简要规格描述： 主要对以下区域进行改造：室外场地部分：室外入口大门通道、室外地面、室外景观绿化、篮球场等区域修缮改造。地上建筑部分：主楼、辅楼屋顶防水、房间电路、房间顶面、房间墙面、房间地面、破旧家具等区域修缮改造。 备注： 标项2 标项名称: 贵州省贵阳市清镇市消防救援大队云岭路消防救援站老旧营房修缮改造项目标包2（采购及安装） 数量: 不限 预算金额（元）: 184418.95 简要规格描述： 电视、空调、洗衣机、抽油烟机等采购及安装（详见采购清单）。 备注： 合同履约期限： 标包1:工期60日历天 ， 标包2:合同签订后，接采购人通知，10个日历天内交付并安装完毕。 本项目（是/否）接受联合体投标： 标项1:否 标项2:否",
+      "project_content_basis": "section-v3",
+      "location": "贵州省公共资源交易中心",
+      "buyer": "清镇市消防救援大队",
+      "agency": "贵州普瑞君德工程咨询有限公司",
+      "bid_deadline": "",
+      "registration_period": "2026-06-27至2026-07-06",
+      "matched_keywords": [
+        "绿化",
+        "景观"
+      ],
+      "source_name": "贵州省公共资源交易云-政府采购",
+      "industry_categories": [
+        "landscaping"
+      ],
+      "category_keyword_matches": {
+        "landscaping": [
+          "绿化",
+          "景观"
+        ]
+      },
+      "first_seen_at": "2026-07-22T06:05:25.053060+08:00",
+      "new_on_date": "2026-07-22",
+      "is_new": true
     },
     {
       "published_at": "2026-06-26",
@@ -39586,16 +40685,16 @@
     }
   ],
   "stats": {
-    "total": 1247,
+    "total": 1282,
     "new_today": 0,
     "sources": 12,
-    "graphic_advertising": 731,
-    "landscaping": 555,
-    "new_items": 50
+    "graphic_advertising": 751,
+    "landscaping": 570,
+    "new_items": 85
   },
   "warnings": [
-    "贵州省公共资源交易云-政府采购：正文探索配额已用尽（300条），仍有 717 条未检查",
-    "贵州省公共资源交易云-其他交易：正文探索配额已用尽（300条），仍有 2189 条未检查",
+    "贵州省公共资源交易云-政府采购：正文探索配额已用尽（300条），仍有 417 条未检查",
+    "贵州省公共资源交易云-其他交易：正文探索配额已用尽（300条），仍有 1879 条未检查",
     "贵州省公共资源交易云：本轮扫描不完整，存在未扫完的分页或配额截断"
   ]
 }
