@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-07-23T09:00:44.914369+08:00",
+  "updated_at": "2026-07-23T23:12:17.598397+08:00",
   "coverage": "贵州省工程建设招标计划",
   "source_url": "http://ztb.guizhou.gov.cn/trade/?prjtype=A&category=AP1",
   "query": {
@@ -11,31 +11,323 @@
   },
   "warnings": [],
   "stats": {
-    "total": 1263,
-    "merged_total": 1263,
-    "window_items": 0,
-    "source_total": 0,
-    "source_total_pages": 0,
-    "collected_pages": 0,
+    "total": 1274,
+    "merged_total": 1274,
+    "window_items": 11,
+    "source_total": 11,
+    "source_total_pages": 2,
+    "collected_pages": 2,
     "list_complete": true,
     "mode": "daily",
     "pub_date": "td",
     "detail_cache_hits": 0,
-    "detail_cache_misses": 0,
-    "detail_fetch_success": 0,
+    "detail_cache_misses": 11,
+    "detail_fetch_success": 11,
     "detail_fetch_failed": 0,
     "stale_cache_used": 0,
     "pruned_items": 0,
-    "new_today": 0,
+    "new_today": 11,
     "regions": 101,
     "fund_source_tags": 11,
     "detail_cache_seeded": 0,
     "ultra_long_projects": 26,
-    "priority_notices": 160,
-    "priority_projects": 91,
-    "priority_new_today": 16
+    "priority_notices": 171,
+    "priority_projects": 95,
+    "priority_new_today": 27
   },
   "items": [
+    {
+      "source_notice_id": "911672",
+      "title": "赫章县2026年粤黔东西部协作资金产业帮扶天麻、核桃等特色农产品全产业链厂房建设项目（一期）项目招标计划",
+      "published_at": "2026-07-23 16:56:17",
+      "region": "赫章县",
+      "buyer": "贵州赫章经济开发区管理委员会",
+      "agency": "/",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911672",
+      "project_name": "赫章县2026年粤黔东西部协作资金产业帮扶天麻、核桃等特色农产品全产业链厂房建设项目（一期）",
+      "fixed_asset_code": "2607-520527-04-01-119557",
+      "approval": "赫发改〔2026〕109号",
+      "budget": "1725.85万元",
+      "fund_source": "粤黔东西部协作资金",
+      "fund_source_tags": [
+        "其他"
+      ],
+      "project_content": "新建1栋(-1+5)层框架结构生产车间，总建筑面积8032.61㎡，占地面积1523.16㎡;地上5层，局部地下1层，建筑总高度25.50米;配套建设消防工程(含消火栓系统、报警系统等)、给排水管网系统、强弱电工程、照明系统等基础设施。",
+      "planned_bid_time": "2026-09-01 09:30:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "毕节市公共资源交易中心",
+      "project_location": "贵州省-毕节市-赫章县",
+      "supervisor": "赫章县农业农村局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911543",
+      "title": "三都县2026年度粤黔东西部协作资金“村马”产业基础设施配套建设项目项目招标计划",
+      "published_at": "2026-07-23 16:07:31",
+      "region": "三都水族自治县",
+      "buyer": "三都水族自治县凤羽街道办事处",
+      "agency": "贵州鼎信咨询服务有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911543",
+      "project_name": "三都县2026年度粤黔东西部协作资金“村马”产业基础设施配套建设项目",
+      "fixed_asset_code": "2607-522732-04-01-669481",
+      "approval": "2607-522732-04-01-669481",
+      "budget": "430万元",
+      "fund_source": "2026年度粤黔东西部协作资金",
+      "fund_source_tags": [
+        "其他"
+      ],
+      "project_content": "1.修建钢架棚洗马区、验马区、马匹检疫区、称重区约400平方米及相关配套设施等；2.完善马厩进出口通道，路面铺设20公分厚河沙道路需宽4—5米、长约250米，进出口加装海绵垫、防滑垫等约1000平方米；3.新建马房68间，并配套建设草料间、鞍具间以及堆粪棚、化粪池、散水沟以及排污设施等配套设施；4.提质改造老马房72间，加装通风、饮水等基础保障设施，改善马匹居住环境；5.马房周边场地平整约600平方米及安装围挡等相关配套设施约60米等。",
+      "planned_bid_time": "2026-08-25 09:10:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "黔南州公共资源交易中心",
+      "project_location": "贵州省-黔南布依族苗族自治州-三都水族自治县",
+      "supervisor": "三都水族自治县农业农村局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911537",
+      "title": "纳雍县2026年乐治至沙包等8个安全提升工程项目招标计划",
+      "published_at": "2026-07-23 16:01:40",
+      "region": "纳雍县",
+      "buyer": "纳雍县农村公路养护中心",
+      "agency": "贵州黔通招标代理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911537",
+      "project_name": "纳雍县2026年乐治至沙包等8个安全提升工程",
+      "fixed_asset_code": "2607-520525-04-01-599286",
+      "approval": "纳雍县马场至拥护安全提升工程等七个项目施工图设计的批复（纳交复〔2026〕2号）等两个批复",
+      "budget": "1038.7万元",
+      "fund_source": "中央及省级财政补助资金",
+      "fund_source_tags": [
+        "财政资金",
+        "上级补助"
+      ],
+      "project_content": "纳雍县2026年乐治至沙包等8个安全提升工程，包括纳雍县乐治至沙包安全提升工程、牛场坝至河溪安全提升工程、海子至胡家寨安全提升工程、马场至拥护安全提升工程、同心至马场安全提升工程、汪家坝至泥奢期安全提升工程、麦子沟至高家大坡安全提升工程、猫场至下木空安全提升工程。",
+      "planned_bid_time": "2026-08-24 09:30:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "毕节市公共资源交易中心",
+      "project_location": "贵州省-毕节市-纳雍县",
+      "supervisor": "纳雍县交通运输局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911520",
+      "title": "桐梓县中等职业学校2026年现代职业教育质量提升计划项目项目招标计划",
+      "published_at": "2026-07-23 15:53:30",
+      "region": "桐梓县",
+      "buyer": "桐梓县中等职业学校",
+      "agency": "贵州鲁班招标代理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911520",
+      "project_name": "桐梓县中等职业学校2026年现代职业教育质量提升计划项目",
+      "fixed_asset_code": "2607-520322-04-01-734163",
+      "approval": "关于桐梓县中等职业学校2026年现代职业教育质量提升计划项目建议书的批复桐发改审批〔2026〕93号",
+      "budget": "1610万元",
+      "fund_source": "2026年现代职业教育质量提升计划中央专项资金",
+      "fund_source_tags": [
+        "其他"
+      ],
+      "project_content": "改建标准运动场17000平方米，学生宿舍15000平方米，教学楼8000平方米，实训室600平方米，食堂10000平方米及配套设备200套。",
+      "planned_bid_time": "2026-08-24 09:30:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "遵义市公共资源交易中心",
+      "project_location": "贵州省-遵义市-桐梓县",
+      "supervisor": "桐梓县教育体育局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911507",
+      "title": "普安县县域充换电基础设施补短板试点项目项目招标计划",
+      "published_at": "2026-07-23 15:42:28",
+      "region": "普安县",
+      "buyer": "普安县博胜煤炭贸易有限公司",
+      "agency": "贵州省黔迈工程咨询服务有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911507",
+      "project_name": "普安县县域充换电基础设施补短板试点项目",
+      "fixed_asset_code": "2607-522323-60-01-222668",
+      "approval": "贵州省企业投资项目备案证明",
+      "budget": "13298.17万元",
+      "fund_source": "企业自筹",
+      "fund_source_tags": [
+        "地方自筹",
+        "企业自筹"
+      ],
+      "project_content": "（1）充电系统：26个建设点共配置71台480kW智能直流充电堆，总充电功率达34,080kW，配备142把快充充电枪。（2）光伏系统：26个建设点根据屋顶及车棚可利用面积，单点配置20-50kWp分布式光伏组件，合计装机容量约1180.4kWp，年均发电量约94.43万kWh。（3）储能系统：26个建设点每处配置1套400kWh磷酸铁锂储能电池柜，总储能容量10400kWh。（4）配套服务设施，（5）智慧能源平台。",
+      "planned_bid_time": "2026-08-24 15:18:00",
+      "planned_tender_content": "工程总承包",
+      "planned_trade_place": "贵州省公共资源交易中心",
+      "project_location": "贵州省-黔西南布依族苗族自治州-普安县",
+      "supervisor": "普安县能源局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911506",
+      "title": "百里杜鹃管理区2026年寄宿制学校基础设施补短板项目项目招标计划",
+      "published_at": "2026-07-23 15:39:04",
+      "region": "百里杜鹃管理区",
+      "buyer": "贵州百里杜鹃管理区教育局",
+      "agency": "贵州多采云丰项目管理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911506",
+      "project_name": "百里杜鹃管理区2026年寄宿制学校基础设施补短板项目",
+      "fixed_asset_code": "2607-522429-04-05-367703",
+      "approval": "贵百发改综合[2026]36号",
+      "budget": "1032万元",
+      "fund_source": "教育专项资金956万元，地方配套资金76万元",
+      "fund_source_tags": [
+        "其他"
+      ],
+      "project_content": "1.新建百纳二小学生宿舍楼，建筑面积2569.6平方米，配套建设室外绿化、室外铺装、室外供电、给排水等工程;2.新建沙厂小学食堂及餐厅，建筑面积654.06平方米，配套建设室外绿化、室外铺装、室外供电、给排水等工程。",
+      "planned_bid_time": "2026-08-24 15:19:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "毕节市公共资源交易中心",
+      "project_location": "贵州省-毕节市-百里杜鹃管理区",
+      "supervisor": "贵州百里杜鹃管理区住房和城乡建设局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911486",
+      "title": "2026年赫章县重点流域农业面源污染综合治理项目项目招标计划",
+      "published_at": "2026-07-23 15:26:34",
+      "region": "赫章县",
+      "buyer": "赫章农业农村局",
+      "agency": "贵州盛憬源工程项目管理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911486",
+      "project_name": "2026年赫章县重点流域农业面源污染综合治理项目",
+      "fixed_asset_code": "2511-520527-04-01-125745",
+      "approval": "黔农计财〔2026〕56号",
+      "budget": "10426.4万元",
+      "fund_source": "中央投资、地方配套、企业自筹资金",
+      "fund_source_tags": [
+        "地方自筹",
+        "企业自筹"
+      ],
+      "project_content": "通过实施种植业污染防治工程、 畜禽养殖污染治理工程及监测评估工程等，使赫章县种养结合、 循环发展更加紧密顺畅，产业模式更加生态低碳，农田氮磷污染 负荷削减20%以上，畜禽粪污等农业废弃物处理能力增加5万吨 以上，农业面源污染得到有效控制。",
+      "planned_bid_time": "2026-08-24 09:30:00",
+      "planned_tender_content": "勘察",
+      "planned_trade_place": "毕节市公共资源交易中心",
+      "project_location": "贵州省-毕节市-赫章县",
+      "supervisor": "毕节市农业农村局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911468",
+      "title": "贵州省桐梓县狮溪镇狮溪区块前期页岩气勘探开发及配套基础设施建设项目项目招标计划",
+      "published_at": "2026-07-23 15:18:02",
+      "region": "桐梓县",
+      "buyer": "乌江能源桐梓有限责任公司",
+      "agency": "贵州省招标有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911468",
+      "project_name": "贵州省桐梓县狮溪镇狮溪区块前期页岩气勘探开发及配套基础设施建设项目",
+      "fixed_asset_code": "2303-520322-04-01-429126",
+      "approval": "贵州省企业投资项目备案证明2303-520322-04-01-429126",
+      "budget": "366800万元",
+      "fund_source": "企业自筹",
+      "fund_source_tags": [
+        "地方自筹",
+        "企业自筹"
+      ],
+      "project_content": "本项目主要在桐梓县狮溪镇狮溪区块建设14个钻井平台共76口井(狮溪1平台-狮溪14平台)及配套建设平台间集输管道、LNG液化装置、网电架设等地面工程，用于页岩气前期勘探开发。",
+      "planned_bid_time": "2026-08-23 09:30:00",
+      "planned_tender_content": "设计",
+      "planned_trade_place": "遵义市公共资源交易中心",
+      "project_location": "贵州省-遵义市-桐梓县",
+      "supervisor": "桐梓县工业能源和科学技术局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911221",
+      "title": "荔波县景城融合交通综合枢纽及配套建设项目项目招标计划",
+      "published_at": "2026-07-23 10:07:42",
+      "region": "荔波县",
+      "buyer": "贵州富荔环保科技有限公司",
+      "agency": "贵州元卿项目管理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911221",
+      "project_name": "荔波县景城融合交通综合枢纽及配套建设项目",
+      "fixed_asset_code": "2606-522722-04-01-711477",
+      "approval": "2606-522722-04-01-711477",
+      "budget": "5412.26万元",
+      "fund_source": "银行贷款及企业自筹",
+      "fund_source_tags": [
+        "地方自筹",
+        "企业自筹",
+        "银行贷款"
+      ],
+      "project_content": "本项目建设内容为智慧旅游集散中心B栋23606.09㎡房屋资产实施改造；完成室外附属设施改造，场地道 路修复、给排水管网、电气照明、安防智能化等，建设28台充电桩及配套设备。",
+      "planned_bid_time": "2026-08-24 09:30:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "黔南州公共资源交易中心",
+      "project_location": "贵州省-黔南布依族苗族自治州-荔波县",
+      "supervisor": "荔波县住房和城乡建设局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911219",
+      "title": "石阡县中坝街道第二幼儿园建设项目项目招标计划",
+      "published_at": "2026-07-23 10:01:33",
+      "region": "石阡县",
+      "buyer": "石阡县教育局",
+      "agency": "铜仁腾杰招标造价咨询服务有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911219",
+      "project_name": "石阡县中坝街道第二幼儿园建设项目",
+      "fixed_asset_code": "2604-520623-04-01-301572",
+      "approval": "石发改复〔2026］35号",
+      "budget": "1720.72万元",
+      "fund_source": "申请上级投资补助和地方自筹",
+      "fund_source_tags": [
+        "地方自筹"
+      ],
+      "project_content": "本项目建设规模为9班(270人)标准，项目总用地面积5324.62平方米，总建筑面积3462.09平方米。其中：新建幼儿园建筑面积2399.60平方米，新建办公楼建筑面积821.85平方米，新建消防设备用房130.20平方米，新建发电机房42平方米，新建门卫室68.44平方米。主要工程内容如下：土建及装饰装修工程、安装工程、室外给排水管网工程、室外电气工程、绿化工程、围墙工程、场平工程、边坡防护工程、室外铺装、室外道路等配套设施工程。",
+      "planned_bid_time": "2026-08-23 09:58:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "铜仁市公共资源交易中心",
+      "project_location": "贵州省-铜仁市-石阡县",
+      "supervisor": "石阡县住房和城乡建设局",
+      "is_new": true
+    },
+    {
+      "source_notice_id": "911208",
+      "title": "石阡县中坝街道第二幼儿园建设项目项目招标计划",
+      "published_at": "2026-07-23 09:47:57",
+      "region": "石阡县",
+      "buyer": "石阡县教育局",
+      "agency": "广轩项目管理有限公司",
+      "source_name": "贵州省招标投标公共服务平台",
+      "notice_type": "招标计划",
+      "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911208",
+      "project_name": "石阡县中坝街道第二幼儿园建设项目",
+      "fixed_asset_code": "2604-520623-04-01-301572",
+      "approval": "石发改复〔2026］35号",
+      "budget": "1720.72万元",
+      "fund_source": "申请上级投资补助和地方自筹",
+      "fund_source_tags": [
+        "地方自筹"
+      ],
+      "project_content": "本项目建设规模为9班(270人)标准，项目总用地面积5324.62平方米，总建筑面积3462.09平方米。其中：新建幼儿园建筑面积2399.60平方米，新建办公楼建筑面积821.85平方米，新建消防设备用房130.20平方米，新建发电机房42平方米，新建门卫室68.44平方米。主要工程内容如下：土建及装饰装修工程、安装工程、室外给排水管网工程、室外电气工程、绿化工程、围墙工程、场平工程、边坡防护工程、室外铺装、室外道路等配套设施工程。",
+      "planned_bid_time": "2026-08-23 09:37:00",
+      "planned_tender_content": "施工",
+      "planned_trade_place": "铜仁市公共资源交易中心",
+      "project_location": "贵州省-铜仁市-石阡县",
+      "supervisor": "石阡县住房和城乡建设局",
+      "is_new": true
+    },
     {
       "source_notice_id": "911104",
       "title": "印江自治县峨岭街道小型消防站建设项目项目招标计划",
@@ -33567,12 +33859,12 @@
   ],
   "construction_feed": {
     "source": "site/construction/data/latest.json",
-    "updated_at": "2026-07-23T09:00:34.728633+08:00",
+    "updated_at": "2026-07-23T23:10:18.513126+08:00",
     "coverage": "贵州省施工类标讯资格条件专项筛选",
     "warnings": [],
     "stats": {
-      "total": 2596,
-      "new_today": 78,
+      "total": 2668,
+      "new_today": 150,
       "sources": 11,
       "feedback_confirmed": 0,
       "feedback_excluded": 0,
@@ -33581,6 +33873,1630 @@
     }
   },
   "priority_notices": [
+    {
+      "plan_project_key": "大方县第一中学扩建项目",
+      "plan": {
+        "published_at": "2026-07-16 11:38:58",
+        "title": "大方县第一中学扩建项目项目招标计划",
+        "project_name": "大方县第一中学扩建项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=907510",
+        "buyer": "大方县教育局",
+        "budget": "6250万元",
+        "fund_source": "争取中央预算内资金及地方配套资金",
+        "fund_source_tags": [
+          "财政资金"
+        ],
+        "fixed_asset_code": "2509-520521-04-01-269968",
+        "approval": "大方县发展和改革局关于毕节市大方县第一中学扩建项目可行性研究报告的批复、方发改发【2026】19号",
+        "project_content": "总建筑面积15130.72平方米1900学位。其中，教学楼6414.54平方米、综合楼798.18平方米、学生宿舍6744平方米、食堂1174平方米，室外运动场22771.9平方米，并完善相关配套基础设施",
+        "project_location": "贵州省-毕节市-大方县",
+        "source_notice_id": "907510",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "大方县第一中学扩建项目",
+          "plan": {
+            "published_at": "2026-07-16 11:38:58",
+            "title": "大方县第一中学扩建项目项目招标计划",
+            "project_name": "大方县第一中学扩建项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=907510",
+            "buyer": "大方县教育局",
+            "budget": "6250万元",
+            "fund_source": "争取中央预算内资金及地方配套资金",
+            "fund_source_tags": [
+              "财政资金"
+            ],
+            "fixed_asset_code": "2509-520521-04-01-269968",
+            "approval": "大方县发展和改革局关于毕节市大方县第一中学扩建项目可行性研究报告的批复、方发改发【2026】19号",
+            "project_content": "总建筑面积15130.72平方米1900学位。其中，教学楼6414.54平方米、综合楼798.18平方米、学生宿舍6744平方米、食堂1174平方米，室外运动场22771.9平方米，并完善相关配套基础设施",
+            "project_location": "贵州省-毕节市-大方县",
+            "source_notice_id": "907510",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：大方县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.452,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "大方县牛场乡牛场中学学生宿舍建设项目",
+          "plan": {
+            "published_at": "2026-07-14 17:27:04",
+            "title": "大方县牛场乡牛场中学学生宿舍建设项目项目招标计划",
+            "project_name": "大方县牛场乡牛场中学学生宿舍建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=906511",
+            "buyer": "大方县教育局",
+            "budget": "660万元",
+            "fund_source": "中央资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2607-520521-04-01-781379",
+            "approval": "大方县发展和改革局关于大方县牛场乡牛场中学学生宿舍建设项目建议书的批复方发改发(2026)47号",
+            "project_content": "新建学生宿舍2200平方米，并完善相关配套基础设施。",
+            "project_location": "贵州省-毕节市-大方县",
+            "source_notice_id": "906511",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：大方县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.526,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "大方县长石镇长石小学学生食堂、浴室建设项目竞争性磋商公告",
+        "project_name": "大方县长石镇长石小学学生食堂、浴室建设项目竞争性磋商公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911814",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "大方县教育局",
+        "agency": "贵州天鉴麟云项目管理有限公司",
+        "bid_deadline": "2026-08-03 14:30",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "911814",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "该施工公告对应 2 个相近的重点资金计划候选，需人工确认。",
+        "evidence": [
+          "招标人/采购人名称一致：大方县教育局"
+        ],
+        "similarities": {
+          "project_name": 0.452,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "贵州轻工职业大学智能制造产教融合实训基地建设项目",
+      "plan": {
+        "published_at": "2026-06-25 17:28:02",
+        "title": "贵州轻工职业大学智能制造产教融合实训基地建设项目项目招标计划",
+        "project_name": "贵州轻工职业大学智能制造产教融合实训基地建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=897098",
+        "buyer": "贵州轻工职业大学",
+        "budget": "11735万元",
+        "fund_source": "中央预算、自筹资金",
+        "fund_source_tags": [
+          "财政资金",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2511-520000-04-01-583888",
+        "approval": "省发展改革委关于贵州轻工职业大学智能制造产教融合实训基地建设项目初步设计的批复",
+        "project_content": "规划总用地面积约21937.10㎡，总建筑面积约28934.99㎡，其中：计容面积约25088.31㎡，不计容面积约3846.68㎡（含人防面积约1505.30㎡）。建设内容包括用地红线内的主体工程（含人防地下室）及室外场平、道路、绿化、给排水、围墙等附属工程。本次招标内容为监理招标。",
+        "project_location": "贵州省-贵安新区-贵安综合保税区",
+        "source_notice_id": "897098",
+        "plan_version_count": 3
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州轻工职业大学智能制造产教融合实训基地建设项目",
+          "plan": {
+            "published_at": "2026-06-25 17:28:02",
+            "title": "贵州轻工职业大学智能制造产教融合实训基地建设项目项目招标计划",
+            "project_name": "贵州轻工职业大学智能制造产教融合实训基地建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=897098",
+            "buyer": "贵州轻工职业大学",
+            "budget": "11735万元",
+            "fund_source": "中央预算、自筹资金",
+            "fund_source_tags": [
+              "财政资金",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2511-520000-04-01-583888",
+            "approval": "省发展改革委关于贵州轻工职业大学智能制造产教融合实训基地建设项目初步设计的批复",
+            "project_content": "规划总用地面积约21937.10㎡，总建筑面积约28934.99㎡，其中：计容面积约25088.31㎡，不计容面积约3846.68㎡（含人防面积约1505.30㎡）。建设内容包括用地红线内的主体工程（含人防地下室）及室外场平、道路、绿化、给排水、围墙等附属工程。本次招标内容为监理招标。",
+            "project_location": "贵州省-贵安新区-贵安综合保税区",
+            "source_notice_id": "897098",
+            "plan_version_count": 3
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州轻工职业大学"
+            ],
+            "similarities": {
+              "project_name": 0.68,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "贵州轻工职业大学智能制造技术教研空间建设项目（工程部分）采购公告",
+        "project_name": "贵州轻工职业大学智能制造技术教研空间建设项目（工程部分）采购公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911579",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州轻工职业大学",
+        "agency": "重庆市市建工程建设咨询有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "911579",
+        "matched_keywords": [
+          "建筑工程施工总承包",
+          "建筑装修装饰工程专业"
+        ],
+        "location": "贵州省",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州轻工职业大学"
+        ],
+        "similarities": {
+          "project_name": 0.68,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+      "plan": {
+        "published_at": "2026-06-01 09:53:50",
+        "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+        "project_name": "盘州市 2026 年巩固提升农村供水工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "budget": "661.6万元",
+        "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+        "fund_source_tags": [
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2605-520222-04-05-835439",
+        "approval": "盘州水务复[2026]13号",
+        "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+        "project_location": "贵州省-六盘水市-盘州市",
+        "source_notice_id": "883770",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+          "plan": {
+            "published_at": "2026-06-01 09:53:50",
+            "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+            "project_name": "盘州市 2026 年巩固提升农村供水工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+            "buyer": "贵州水投水务盘州市有限责任公司",
+            "budget": "661.6万元",
+            "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+            "fund_source_tags": [
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2605-520222-04-05-835439",
+            "approval": "盘州水务复[2026]13号",
+            "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+            "project_location": "贵州省-六盘水市-盘州市",
+            "source_notice_id": "883770",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "fixed_asset_code+project_name+buyer",
+            "methods": [
+              "fixed_asset_code",
+              "project_name",
+              "buyer"
+            ],
+            "confidence": 1.0,
+            "match_level": "high",
+            "review_required": false,
+            "review_note": "存在强标识或多项证据，可优先核对原公告。",
+            "evidence": [
+              "投资项目代码一致：2605-520222-04-05-835439",
+              "标准化项目名称完全一致（100%）",
+              "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司"
+            ],
+            "similarities": {
+              "project_name": 1.0,
+              "project_content": 0.034,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": true,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "盘州市 2026 年巩固提升农村供水工程施工招标公告",
+        "project_name": "盘州市 2026 年巩固提升农村供水工程施工招标公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240203720017448960",
+        "budget": "",
+        "project_content": "包括但不限于完成本 标段 建设范围内施工图纸及工程量清单所示全部工程内容，直至竣工验收、整体移交、质量缺陷责任期内的缺陷修复等相关工作",
+        "fixed_asset_code": "2605-520222-04-05-835439",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "黔财农〔2025〕151号",
+          "黔财农〔2026〕22号"
+        ],
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "agency": "佰利建设管理（集团）有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52028120260002X5001",
+        "source_notice_id": "1240203720017448960",
+        "matched_keywords": [
+          "水利水电工程施工总承包"
+        ],
+        "location": "六盘水市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "fixed_asset_code+project_name+buyer",
+        "methods": [
+          "fixed_asset_code",
+          "project_name",
+          "buyer"
+        ],
+        "confidence": 1.0,
+        "match_level": "high",
+        "review_required": false,
+        "review_note": "存在强标识或多项证据，可优先核对原公告。",
+        "evidence": [
+          "投资项目代码一致：2605-520222-04-05-835439",
+          "标准化项目名称完全一致（100%）",
+          "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司"
+        ],
+        "similarities": {
+          "project_name": 1.0,
+          "project_content": 0.034,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": true,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "镇宁自治县2026年农村供水改造工程",
+      "plan": {
+        "published_at": "2026-06-03 16:44:36",
+        "title": "镇宁自治县2026年农村供水改造工程项目招标计划",
+        "project_name": "镇宁自治县2026年农村供水改造工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=885801",
+        "buyer": "镇宁布依族苗族自治县自来水有限责任公司",
+        "budget": "473万元",
+        "fund_source": "中央财政衔接补助资金",
+        "fund_source_tags": [
+          "财政资金",
+          "上级补助"
+        ],
+        "fixed_asset_code": "2606-520423-04-01-687487",
+        "approval": "镇农领【2026】32号",
+        "project_content": "1.管线布置工程总共26660m，其中新建管线25810m，提质改造管线850m;2.新建提水泵站1座，提质更换机泵1套;3.新建高位水池7座;",
+        "project_location": "贵州省-安顺市-镇宁布依族苗族自治县",
+        "source_notice_id": "885801",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "镇宁自治县2026年农村供水改造工程",
+          "plan": {
+            "published_at": "2026-06-03 16:44:36",
+            "title": "镇宁自治县2026年农村供水改造工程项目招标计划",
+            "project_name": "镇宁自治县2026年农村供水改造工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=885801",
+            "buyer": "镇宁布依族苗族自治县自来水有限责任公司",
+            "budget": "473万元",
+            "fund_source": "中央财政衔接补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2606-520423-04-01-687487",
+            "approval": "镇农领【2026】32号",
+            "project_content": "1.管线布置工程总共26660m，其中新建管线25810m，提质改造管线850m;2.新建提水泵站1座，提质更换机泵1套;3.新建高位水池7座;",
+            "project_location": "贵州省-安顺市-镇宁布依族苗族自治县",
+            "source_notice_id": "885801",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "fixed_asset_code+project_name+buyer",
+            "methods": [
+              "fixed_asset_code",
+              "project_name",
+              "buyer"
+            ],
+            "confidence": 1.0,
+            "match_level": "high",
+            "review_required": false,
+            "review_note": "存在强标识或多项证据，可优先核对原公告。",
+            "evidence": [
+              "投资项目代码一致：2606-520423-04-01-687487",
+              "标准化项目名称完全一致（100%）",
+              "招标人/采购人名称一致：镇宁布依族苗族自治县自来水有限责任公司 ，招 标"
+            ],
+            "similarities": {
+              "project_name": 1.0,
+              "project_content": 0.045,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": true,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "镇宁自治县2026年农村供水改造工程",
+        "project_name": "镇宁自治县2026年农村供水改造工程",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240195303177588736",
+        "budget": "",
+        "project_content": "工程量清单、招标文件以及补充文件、答疑纪要所示的全部内容",
+        "fixed_asset_code": "2606-520423-04-01-687487",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "镇宁布依族苗族自治县自来水有限责任公司 ，招 标",
+        "agency": "安顺汇丰招标采购有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52042320260002W8001",
+        "source_notice_id": "1240195303177588736",
+        "matched_keywords": [
+          "水利水电工程施工总承包"
+        ],
+        "location": "安顺市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "fixed_asset_code+project_name+buyer",
+        "methods": [
+          "fixed_asset_code",
+          "project_name",
+          "buyer"
+        ],
+        "confidence": 1.0,
+        "match_level": "high",
+        "review_required": false,
+        "review_note": "存在强标识或多项证据，可优先核对原公告。",
+        "evidence": [
+          "投资项目代码一致：2606-520423-04-01-687487",
+          "标准化项目名称完全一致（100%）",
+          "招标人/采购人名称一致：镇宁布依族苗族自治县自来水有限责任公司 ，招 标"
+        ],
+        "similarities": {
+          "project_name": 1.0,
+          "project_content": 0.045,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": true,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "兴义市红星路小学运动场建设项目",
+      "plan": {
+        "published_at": "2026-04-23 17:25:41",
+        "title": "兴义市红星路小学运动场建设项目项目招标计划",
+        "project_name": "兴义市红星路小学运动场建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=866742",
+        "buyer": "兴义市教育局",
+        "budget": "800万元",
+        "fund_source": "2026年义务教育薄弱环节改善与能力提升中央补助资金(第一批)800万元。",
+        "fund_source_tags": [
+          "上级补助"
+        ],
+        "fixed_asset_code": "2604-522301-04-01-448750",
+        "approval": "兴市发改字[2026]12号",
+        "project_content": "新建运动场7500平方米及附属工程、设施设备等。",
+        "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
+        "source_notice_id": "866742",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "兴义市红星路小学运动场建设项目",
+          "plan": {
+            "published_at": "2026-04-23 17:25:41",
+            "title": "兴义市红星路小学运动场建设项目项目招标计划",
+            "project_name": "兴义市红星路小学运动场建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=866742",
+            "buyer": "兴义市教育局",
+            "budget": "800万元",
+            "fund_source": "2026年义务教育薄弱环节改善与能力提升中央补助资金(第一批)800万元。",
+            "fund_source_tags": [
+              "上级补助"
+            ],
+            "fixed_asset_code": "2604-522301-04-01-448750",
+            "approval": "兴市发改字[2026]12号",
+            "project_content": "新建运动场7500平方米及附属工程、设施设备等。",
+            "project_location": "贵州省-黔西南布依族苗族自治州-兴义市",
+            "source_notice_id": "866742",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：兴义市教育局"
+            ],
+            "similarities": {
+              "project_name": 0.378,
+              "project_content": 0.026,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "兴义市丰都街道办事处丰都中心小学维修改造项目",
+        "project_name": "兴义市丰都街道办事处丰都中心小学维修改造项目",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240192232821231616",
+        "budget": "",
+        "project_content": "兴义市丰都街道办事处丰都中心小学维修改造项目 招标项目的潜在投标人应在 贵州省公共资源交易一张网（https://ggzy.guizhou.gov.cn/hallweb/#/tradinghall） 下载 获取招标文件，并于 ( 北京时间2026年08月17日 09时30分 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52230120260008RP 项目名称 : 兴义市丰都街道办事处丰都中心小学维修改造项目 项目序列号 : ZFCG20260723003 预算金额(元) : 860000.00元 采购需求 : 详见采购文件“第三章 工程量清单及商务要求”内容 标项一 标项名称 : 兴义市丰都街道办事处丰都中心小学维修改造项目 数量 : -批 预算金额（元） : 860000.00 最高限价(元) : 858835.92 简要规格描述或项目基本概况介绍、用途 : 详见竞争性磋商文件 备注 : 合同履约期限 : 中标（成交）供应商与采购人签订施工合同后90日历天内施工完成 本项目（是 / 否）接受联合体投标 : 否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "兴义市教育局",
+        "agency": "贵州东旭建设工程咨询有限公司",
+        "bid_deadline": "2026-08-17 09:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52230120260008RP",
+        "source_notice_id": "1240192232821231616",
+        "matched_keywords": [
+          "建筑工程施工总承包",
+          "建筑装修装饰工程专业"
+        ],
+        "location": "黔西南州公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：兴义市教育局"
+        ],
+        "similarities": {
+          "project_name": 0.378,
+          "project_content": 0.026,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "瓮安县银盏镇新华村2026年衔接资金产业配套设施建设项目",
+      "plan": {
+        "published_at": "2026-05-25 11:36:26",
+        "title": "瓮安县银盏镇新华村2026年衔接资金产业配套设施建设项目项目招标计划",
+        "project_name": "瓮安县银盏镇新华村2026年衔接资金产业配套设施建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=880427",
+        "buyer": "瓮安县银盏镇人民政府",
+        "budget": "194万元",
+        "fund_source": "中央财政衔接推进乡村振兴补助资金",
+        "fund_source_tags": [
+          "财政资金",
+          "上级补助"
+        ],
+        "fixed_asset_code": "2605-522725-04-01-636859",
+        "approval": "瓮农领复〔2026〕13号",
+        "project_content": "1.新建产业路长6456米，宽3米。错车道22个。农产品转 运站4个。采用C25 混凝土硬化厚15厘米，渣石垫层厚10厘 米。每隔5-8米割1条伸缩缝。2.水泥涵管9.5米。3.项目公示牌 1座。",
+        "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+        "source_notice_id": "880427",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "瓮安县银盏镇新华村2026年衔接资金产业配套设施建设项目",
+          "plan": {
+            "published_at": "2026-05-25 11:36:26",
+            "title": "瓮安县银盏镇新华村2026年衔接资金产业配套设施建设项目项目招标计划",
+            "project_name": "瓮安县银盏镇新华村2026年衔接资金产业配套设施建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=880427",
+            "buyer": "瓮安县银盏镇人民政府",
+            "budget": "194万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-522725-04-01-636859",
+            "approval": "瓮农领复〔2026〕13号",
+            "project_content": "1.新建产业路长6456米，宽3米。错车道22个。农产品转 运站4个。采用C25 混凝土硬化厚15厘米，渣石垫层厚10厘 米。每隔5-8米割1条伸缩缝。2.水泥涵管9.5米。3.项目公示牌 1座。",
+            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+            "source_notice_id": "880427",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.842,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 84.2%"
+            ],
+            "similarities": {
+              "project_name": 0.842,
+              "project_content": 0.0,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "瓮安县永和镇2026年衔接资金产业配套基础设施建设项目",
+          "plan": {
+            "published_at": "2026-05-14 09:31:44",
+            "title": "瓮安县永和镇2026年衔接资金产业配套基础设施建设项目项目招标计划",
+            "project_name": "瓮安县永和镇2026年衔接资金产业配套基础设施建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875467",
+            "buyer": "瓮安县永和镇人民政府",
+            "budget": "238万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-522725-04-01-319342",
+            "approval": "瓮农领复〔2026〕17号",
+            "project_content": "1.在木孔片区修建水池7个。其中：水池200立方米的1个； 水池50立方米的1个；水池30立方米的3个；水池20立方米 的2个。采购及安装PE 给水管23790米，配套浮球阀、阀门井、 管沟槽开挖、砼包封及路面恢复，安装提水泵1台及配套供电线 路。2.在垛丁片区新建集水池1座，容积60立方米，拆除原有 损毁设施，新建设备房35平方米；采购及安排PE 给水管3150米；配套管沟槽开挖、砼包封、路面恢复、阀门井及遥感浮球阀； 安装一用一备潜水泵2台(含变频柜)。3.采购砂石4492立方米， 水泥1572吨，按户发放给有入户路建设的群众自行投工投劳建设入户路。3.项目公示牌1座。",
+            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+            "source_notice_id": "875467",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.821,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 82.1%"
+            ],
+            "similarities": {
+              "project_name": 0.821,
+              "project_content": 0.0,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "瓮安县江界河镇樱桃村2026年度衔接资金产业配套基础设施建设项目",
+          "plan": {
+            "published_at": "2026-05-20 09:21:18",
+            "title": "瓮安县江界河镇樱桃村2026年度衔接资金产业配套基础设施建设项目项目招标计划",
+            "project_name": "瓮安县江界河镇樱桃村2026年度衔接资金产业配套基础设施建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=878194",
+            "buyer": "瓮安县江界河镇人民政府",
+            "budget": "140万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-522725-04-01-820605",
+            "approval": "瓮农领复〔2026〕6号",
+            "project_content": "1.修建产业道路长4650米。其中：产业道路长4420米*宽3 米；产业道路长230米*宽2.5米。错车道8个，农产品转运点4 个。采用C25 混凝土硬化厚15厘米，渣石垫层厚10厘米，每 6-8米割一条伸缩缝。2.新建项目永久性标识牌1座。",
+            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+            "source_notice_id": "878194",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.82,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 82.0%"
+            ],
+            "similarities": {
+              "project_name": 0.82,
+              "project_content": 0.0,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "瓮安县岚关乡茶海村2026年衔接资金产业配套基础设施建设项目",
+          "plan": {
+            "published_at": "2026-05-15 10:10:29",
+            "title": "瓮安县岚关乡茶海村2026年衔接资金产业配套基础设施建设项目项目招标计划",
+            "project_name": "瓮安县岚关乡茶海村2026年衔接资金产业配套基础设施建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=876138",
+            "buyer": "瓮安县岚关乡人民政府",
+            "budget": "240万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-522725-04-01-536156",
+            "approval": "瓮农领复〔2026〕8号",
+            "project_content": "1.新建产业路长4250米。其中产业路长2920米*宽3.5米、产业路长1330米*宽4.5米，采用C25混凝土硬化厚15厘米，渣石垫层厚10厘米。2.新建产业配套沟渠长1150米*宽80厘米*高80厘米，三面护渠，采取C25混凝土硬化底板厚25厘米、边墙厚30厘米，渣石垫层厚10厘米，伸缩缝间隔10米，缝宽2厘米。3.新建堡坎200立方米。4.新建项目公示牌1座。项目建成后，可有效完善茶海村产业基础设施，资产归村集体所有。项目覆盖水稻、玉米等产业400余亩。项目受益农户126户490人，其中脱贫户、监测户16户46人。",
+            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+            "source_notice_id": "876138",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.814,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 81.4%"
+            ],
+            "similarities": {
+              "project_name": 0.814,
+              "project_content": 0.0,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "瓮安县永和镇长岭村2026年衔接资金产业配套基础设施建设项目",
+          "plan": {
+            "published_at": "2026-05-14 09:35:28",
+            "title": "瓮安县永和镇长岭村2026年衔接资金产业配套基础设施建设项目项目招标计划",
+            "project_name": "瓮安县永和镇长岭村2026年衔接资金产业配套基础设施建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=875468",
+            "buyer": "瓮安县永和镇人民政府",
+            "budget": "271万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-522725-04-01-535006",
+            "approval": "瓮农领复〔2026〕15号",
+            "project_content": "1.新建产业路长2282 米，宽3 米；错车道13个。 采用C25混凝土硬化厚15厘米，渣石垫层厚10厘米，每5米长设置横向缝一个。2.便民通道1座。3.修建水池4个。 其中：水池30立方米的3个；水池200立方米的1个。修建设备房28平方米。4.采购及安装给水管23800米。其中PE管21800米；镀钵管2000米。 管沟槽挖埋17200米，赴包封2000米，浮球阀11套、阀门井12座。 4.潜水泵2 台， 一体化水处理设备 1套（10t/h），输电线路400米，电杆5根。 5. 项目永久性标识牌1座。",
+            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+            "source_notice_id": "875468",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.814,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 81.4%"
+            ],
+            "similarities": {
+              "project_name": 0.814,
+              "project_content": 0.0,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "瓮安县中坪镇茶店村2026年度衔接资金产业配套设施建设项目招标公告",
+        "project_name": "瓮安县中坪镇茶店村2026年度衔接资金产业配套设施建设项目招标公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240178659998961664",
+        "budget": "800000元",
+        "project_content": "招标工程量清单所示全部内容",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "瓮民宗复[2026]2号"
+        ],
+        "buyer": "瓮安县中坪镇人民政府",
+        "agency": "贵州宏达盈逸项目管理有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52272520260002W4001",
+        "source_notice_id": "1240178659998961664",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "黔南州公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "project_name",
+        "methods": [
+          "project_name"
+        ],
+        "confidence": 0.842,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "该施工公告对应 5 个相近的重点资金计划候选，需人工确认。",
+        "evidence": [
+          "项目名称相似度 84.2%"
+        ],
+        "similarities": {
+          "project_name": 0.842,
+          "project_content": 0.0,
+          "buyer_equal": false,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "瓮安县玉山镇深溪村2026年衔接资金人居环境整治提升补短项目",
+      "plan": {
+        "published_at": "2026-05-09 10:26:11",
+        "title": "瓮安县玉山镇深溪村2026年衔接资金人居环境整治提升补短项目项目招标计划",
+        "project_name": "瓮安县玉山镇深溪村2026年衔接资金人居环境整治提升补短项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=872708",
+        "buyer": "瓮安县玉山镇人民政府",
+        "budget": "60万元",
+        "fund_source": "中央财政衔接推进乡村振兴补助资金",
+        "fund_source_tags": [
+          "财政资金",
+          "上级补助"
+        ],
+        "fixed_asset_code": "2605-522725-04-01-791883",
+        "approval": "瓮农领复〔2026〕21号",
+        "project_content": "1、新建φ300双壁波纹管600米，2、硬化路面600平方米；3、新建检查井40套；4、新建三格式化粪池15套；5、新建集中式污水处理设施5套；6、新建项目公示牌1座。",
+        "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+        "source_notice_id": "872708",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "瓮安县玉山镇深溪村2026年衔接资金人居环境整治提升补短项目",
+          "plan": {
+            "published_at": "2026-05-09 10:26:11",
+            "title": "瓮安县玉山镇深溪村2026年衔接资金人居环境整治提升补短项目项目招标计划",
+            "project_name": "瓮安县玉山镇深溪村2026年衔接资金人居环境整治提升补短项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=872708",
+            "buyer": "瓮安县玉山镇人民政府",
+            "budget": "60万元",
+            "fund_source": "中央财政衔接推进乡村振兴补助资金",
+            "fund_source_tags": [
+              "财政资金",
+              "上级补助"
+            ],
+            "fixed_asset_code": "2605-522725-04-01-791883",
+            "approval": "瓮农领复〔2026〕21号",
+            "project_content": "1、新建φ300双壁波纹管600米，2、硬化路面600平方米；3、新建检查井40套；4、新建三格式化粪池15套；5、新建集中式污水处理设施5套；6、新建项目公示牌1座。",
+            "project_location": "贵州省-黔南布依族苗族自治州-瓮安县",
+            "source_notice_id": "872708",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.786,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 78.6%"
+            ],
+            "similarities": {
+              "project_name": 0.786,
+              "project_content": 0.042,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "瓮安县中坪镇艾州村2026年衔接资金人居环境提升项目招标公告",
+        "project_name": "瓮安县中坪镇艾州村2026年衔接资金人居环境提升项目招标公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240178655867572224",
+        "budget": "1000000元",
+        "project_content": "招标人提供的工程量清单及施工图范围内所示全部内容",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "瓮农领复[2026]22号"
+        ],
+        "buyer": "瓮安县中坪镇人民政府",
+        "agency": "贵州宏达盈逸项目管理有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52272520260002WB001",
+        "source_notice_id": "1240178655867572224",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "黔南州公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "project_name",
+        "methods": [
+          "project_name"
+        ],
+        "confidence": 0.786,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "项目名称相似度 78.6%"
+        ],
+        "similarities": {
+          "project_name": 0.786,
+          "project_content": 0.042,
+          "buyer_equal": false,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "茅天镇同兴村产业配套排涝渠建设项目",
+      "plan": {
+        "published_at": "2026-07-17 17:20:20",
+        "title": "茅天镇同兴村产业配套排涝渠建设项目项目招标计划",
+        "project_name": "茅天镇同兴村产业配套排涝渠建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=908788",
+        "buyer": "务川仡佬族苗族自治县茅天镇人民政府",
+        "budget": "510万元",
+        "fund_source": "2026年中央财政常态化帮扶(开发式帮 扶任务)资金",
+        "fund_source_tags": [
+          "财政资金"
+        ],
+        "fixed_asset_code": "2607-520326-04-01-965346",
+        "approval": "务水复〔2026〕6 号",
+        "project_content": "本次修建排涝渠共计2455m（其中93m为已经利用现状段，实际实施长度为2362m）。其中三溪组修建排涝渠共计1680m（其中70m为已经利用现状段，实际实施长度为1610m）；上坝组修建排涝渠共计775m（其中23m为已经利用现状段，实际实施长度为752m）。新建排涝渠均采用矩形断面，沟渠宽度结合现场实际地形、原沟渠线型综合确定，设计净宽1.8m~6.0m，净高2.0m；两岸侧墙结构设计为M7.5浆砌毛石，侧墙高度2m，基础埋深0.6m，侧墙顶宽0.5m，底宽0.9m，基础宽度1.5m（墙底左侧拓展20cm，墙底右侧拓展40cm）;侧墙顶用C20混凝土压顶(抹光找坡2%，坡向墙外侧)，压顶厚度10cm。",
+        "project_location": "贵州省-遵义市-务川仡佬族苗族自治县",
+        "source_notice_id": "908788",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "茅天镇同兴村产业配套排涝渠建设项目",
+          "plan": {
+            "published_at": "2026-07-17 17:20:20",
+            "title": "茅天镇同兴村产业配套排涝渠建设项目项目招标计划",
+            "project_name": "茅天镇同兴村产业配套排涝渠建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=908788",
+            "buyer": "务川仡佬族苗族自治县茅天镇人民政府",
+            "budget": "510万元",
+            "fund_source": "2026年中央财政常态化帮扶(开发式帮 扶任务)资金",
+            "fund_source_tags": [
+              "财政资金"
+            ],
+            "fixed_asset_code": "2607-520326-04-01-965346",
+            "approval": "务水复〔2026〕6 号",
+            "project_content": "本次修建排涝渠共计2455m（其中93m为已经利用现状段，实际实施长度为2362m）。其中三溪组修建排涝渠共计1680m（其中70m为已经利用现状段，实际实施长度为1610m）；上坝组修建排涝渠共计775m（其中23m为已经利用现状段，实际实施长度为752m）。新建排涝渠均采用矩形断面，沟渠宽度结合现场实际地形、原沟渠线型综合确定，设计净宽1.8m~6.0m，净高2.0m；两岸侧墙结构设计为M7.5浆砌毛石，侧墙高度2m，基础埋深0.6m，侧墙顶宽0.5m，底宽0.9m，基础宽度1.5m（墙底左侧拓展20cm，墙底右侧拓展40cm）;侧墙顶用C20混凝土压顶(抹光找坡2%，坡向墙外侧)，压顶厚度10cm。",
+            "project_location": "贵州省-遵义市-务川仡佬族苗族自治县",
+            "source_notice_id": "908788",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：务川仡佬族苗族自治县茅天镇人民政府"
+            ],
+            "similarities": {
+              "project_name": 0.474,
+              "project_content": 0.067,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "茅天镇红心社区大水溪基础设施产业路建设项目采购公告",
+        "project_name": "茅天镇红心社区大水溪基础设施产业路建设项目采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240168225136840704",
+        "budget": "",
+        "project_content": "茅天镇红心社区大水溪基础设施产业路建设项目 招标项目的潜在投标人应在 全国公共资源交易平台（贵州省•遵义市） 获取招标文件，并于 2026年08月05日 13时30分 ( 北京时间) ) 前递交投标文件。 一、项目基本信息 项目编号 : P52032620260008SB 项目名称 : 茅天镇红心社区大水溪基础设施产业路建设项目 采购方式 : 竞争性磋商 项目序列号 : ZYB-20260723-000061-7 预算金额(元) : 952100.00元 采购需求 : 硬化大水溪3.5米宽产业路2.16公里7560平方米 标项一 标项名称 : 茅天镇红心社区大水溪基础设施产业路建设项目 数量 : -项 预算金额（元） : 952100.00 最高限价（元） : 952100.00 保证金金额（元） : 0.00 简要规格描述或项目基本概况介绍、用途 : 硬化大水溪3.5米宽产业路2.16公里7560平方米 备注 : 合同履约期限 : 5个月（150日历天） 本项目（是 / 否）接受联合体投标 : 否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "务川仡佬族苗族自治县茅天镇人民政府",
+        "agency": "贵州华信水投工程咨询有限公司",
+        "bid_deadline": "2026-08-05 13:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52032620260008SB",
+        "source_notice_id": "1240168225136840704",
+        "matched_keywords": [
+          "公路工程施工总承包"
+        ],
+        "location": "遵义市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：务川仡佬族苗族自治县茅天镇人民政府"
+        ],
+        "similarities": {
+          "project_name": 0.474,
+          "project_content": 0.067,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "沿河土家族自治县后坪乡完小改扩建项目",
+      "plan": {
+        "published_at": "2026-07-22 16:06:47",
+        "title": "沿河土家族自治县后坪乡完小改扩建项目项目招标计划",
+        "project_name": "沿河土家族自治县后坪乡完小改扩建项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910838",
+        "buyer": "沿河土家族自治县教育局",
+        "budget": "1366.18万元",
+        "fund_source": "申请上级专项资金和地方自筹",
+        "fund_source_tags": [
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2602-520627-04-01-857988",
+        "approval": "沿发改社发〔2026〕5号",
+        "project_content": "新建5层教学楼一栋，建筑面积为3371.21平方米，新建升旗广场1350平方米，篮球场519.44 平方米，五人制足球场550平方米，以及学校大门、值班室、 人行入口、50米跑道和乒乓球区等室外附属工程。",
+        "project_location": "贵州省-铜仁市-沿河土家族自治县",
+        "source_notice_id": "910838",
+        "plan_version_count": 2
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "沿河土家族自治县后坪乡完小改扩建项目",
+          "plan": {
+            "published_at": "2026-07-22 16:06:47",
+            "title": "沿河土家族自治县后坪乡完小改扩建项目项目招标计划",
+            "project_name": "沿河土家族自治县后坪乡完小改扩建项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=910838",
+            "buyer": "沿河土家族自治县教育局",
+            "budget": "1366.18万元",
+            "fund_source": "申请上级专项资金和地方自筹",
+            "fund_source_tags": [
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2602-520627-04-01-857988",
+            "approval": "沿发改社发〔2026〕5号",
+            "project_content": "新建5层教学楼一栋，建筑面积为3371.21平方米，新建升旗广场1350平方米，篮球场519.44 平方米，五人制足球场550平方米，以及学校大门、值班室、 人行入口、50米跑道和乒乓球区等室外附属工程。",
+            "project_location": "贵州省-铜仁市-沿河土家族自治县",
+            "source_notice_id": "910838",
+            "plan_version_count": 2
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：沿河土家族自治县教育局",
+              "项目名称地域存在差异：沿河土家族自治县 / 沿河县，名称相似项未计入"
+            ],
+            "similarities": {
+              "project_name": 0.229,
+              "project_content": 0.02,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": true
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "沿河县民族中学学生宿舍维修改造工程",
+        "project_name": "沿河县民族中学学生宿舍维修改造工程",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240161291008610304",
+        "budget": "",
+        "project_content": "沿河县民族中学学生宿舍维修改造工程招标项目的潜在投标人应在全国公共资源交易平台（贵州省·铜仁市）网上交易大厅（https://ggzy.guizhou.gov.cn/hallweb/#/login）获取招标文件，并于(北京时间2026年08月04日09时30分)前递交投标文件。 一、项目基本信息 项目编号:GZML-Z(2026)-053 项目名称:沿河县民族中学学生宿舍维修改造工程 采购方式:竞争性磋商 项目序列号:P52062720260008RX 预算金额(元):2188050.09元 最高限价(元):标项【沿河县民族中学学生宿舍维修改造工程】:2188050.09; 采购需求:详见磋商文件 标项一: 标项名称:沿河县民族中学学生宿舍维修改造工程 数量:1 项 预算金额（元）:2188050.09 简要规格描述或项目基本概况介绍、用途:详见磋商文件 备注:无 合同履约期限:详见磋商文件 本项目（否）接受联合体投标",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "按财库〔2014〕68号",
+          "财库〔2017〕141号",
+          "财库〔2019〕9号",
+          "财库〔2020〕46号",
+          "财库〔2022〕19号"
+        ],
+        "buyer": "沿河土家族自治县教育局",
+        "agency": "贵州勉励工程咨询服务有限公司",
+        "bid_deadline": "2026-08-04 09:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52062720260008RX",
+        "source_notice_id": "1240161291008610304",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "铜仁市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：沿河土家族自治县教育局",
+          "项目名称地域存在差异：沿河土家族自治县 / 沿河县，名称相似项未计入"
+        ],
+        "similarities": {
+          "project_name": 0.229,
+          "project_content": 0.02,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": true
+        }
+      }
+    },
+    {
+      "plan_project_key": "赫章县特殊教育学校教学楼项目",
+      "plan": {
+        "published_at": "2026-07-21 14:54:32",
+        "title": "赫章县特殊教育学校教学楼项目项目招标计划",
+        "project_name": "赫章县特殊教育学校教学楼项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909943",
+        "buyer": "赫章县教育局",
+        "budget": "510万元",
+        "fund_source": "中央资金",
+        "fund_source_tags": [
+          "其他"
+        ],
+        "fixed_asset_code": "2607-520527-04-01-721133",
+        "approval": "赫发改【2026】93号",
+        "project_content": "新建1#教学楼1500平方米以及室外附属工程",
+        "project_location": "贵州省-毕节市-赫章县",
+        "source_notice_id": "909943",
+        "plan_version_count": 2
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "赫章县特殊教育学校教学楼项目",
+          "plan": {
+            "published_at": "2026-07-21 14:54:32",
+            "title": "赫章县特殊教育学校教学楼项目项目招标计划",
+            "project_name": "赫章县特殊教育学校教学楼项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909943",
+            "buyer": "赫章县教育局",
+            "budget": "510万元",
+            "fund_source": "中央资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2607-520527-04-01-721133",
+            "approval": "赫发改【2026】93号",
+            "project_content": "新建1#教学楼1500平方米以及室外附属工程",
+            "project_location": "贵州省-毕节市-赫章县",
+            "source_notice_id": "909943",
+            "plan_version_count": 2
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：赫章县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.28,
+              "project_content": 0.028,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "赫章县思源实验学校教学综合楼建设项目",
+          "plan": {
+            "published_at": "2026-07-21 14:41:38",
+            "title": "赫章县思源实验学校教学综合楼建设项目项目招标计划",
+            "project_name": "赫章县思源实验学校教学综合楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909937",
+            "buyer": "赫章县教育局",
+            "budget": "1000万元",
+            "fund_source": "中央资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2607-520527-04-01-674035",
+            "approval": "赫发改【2026】94号】",
+            "project_content": "新建教学综合楼3434.93平方米及室外附属工程。",
+            "project_location": "贵州省-毕节市-赫章县",
+            "source_notice_id": "909937",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：赫章县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.259,
+              "project_content": 0.033,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "赫章县第三小学教学综合楼项目",
+          "plan": {
+            "published_at": "2026-07-21 14:34:24",
+            "title": "赫章县第三小学教学综合楼项目项目招标计划",
+            "project_name": "赫章县第三小学教学综合楼项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909934",
+            "buyer": "赫章县教育局",
+            "budget": "1042万元",
+            "fund_source": "中央补助资金",
+            "fund_source_tags": [
+              "上级补助"
+            ],
+            "fixed_asset_code": "2607-520527-04-01-495149",
+            "approval": "赫发改【2026】95号】",
+            "project_content": "新建教学综合楼3500平方米以及室外附属工程。",
+            "project_location": "贵州省-毕节市-赫章县",
+            "source_notice_id": "909934",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：赫章县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.24,
+              "project_content": 0.027,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "赫章县 2026 年罗州镇、财神镇、达依乡、哲庄 镇共 7 个学校宿舍及食堂维修改造项目采购公告",
+        "project_name": "赫章县 2026 年罗州镇、财神镇、达依乡、哲庄 镇共 7 个学校宿舍及食堂维修改造项目采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240107141998710784",
+        "budget": "",
+        "project_content": "赫章县 2026 年罗州镇、财神镇、达依乡、哲庄 镇共 7 个学校宿舍及食堂维修改造项目 招标项目的潜在投标人应在毕节市公共资源交易中心业务系统中获取招标文件，并于 2026年08月05日09时30分 （北京时间）前递交投标文件。 一、项目基本情况 项目编号 ： P52052720260008Q7 项目名称： 赫章县 2026 年罗州镇、财神镇、达依乡、哲庄 镇共 7 个学校宿舍及食堂维修改造项目 预算金额( 元) ： 2553733.04 最高限价（如有）( 元 )： 2553733.04； 采购需求: 详见附件，工程量清单所示的全部内容； 合同履行期限： 合同签订后90日历天内完成； 本项目（是/否）接受联合体投标： 不接受 标项名称：赫章县 2026 年罗州镇、财神镇、达依乡、哲庄 镇共 7 个学校宿舍及食堂维修改造项目 数量：1 预算金额（元）：2553733.04 简要规格描述或项目基本概况介绍、用途：详见附件，工程量清单所示的全部内容",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "财库【2020】46号"
+        ],
+        "buyer": "赫章县教育局",
+        "agency": "公告未载明",
+        "bid_deadline": "2026-08-05 09:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52052720260008Q7",
+        "source_notice_id": "1240107141998710784",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "毕节市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "该施工公告对应 3 个相近的重点资金计划候选，需人工确认。",
+        "evidence": [
+          "招标人/采购人名称一致：赫章县教育局"
+        ],
+        "similarities": {
+          "project_name": 0.28,
+          "project_content": 0.028,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "赫章县特殊教育学校教学楼项目",
+      "plan": {
+        "published_at": "2026-07-21 14:54:32",
+        "title": "赫章县特殊教育学校教学楼项目项目招标计划",
+        "project_name": "赫章县特殊教育学校教学楼项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909943",
+        "buyer": "赫章县教育局",
+        "budget": "510万元",
+        "fund_source": "中央资金",
+        "fund_source_tags": [
+          "其他"
+        ],
+        "fixed_asset_code": "2607-520527-04-01-721133",
+        "approval": "赫发改【2026】93号",
+        "project_content": "新建1#教学楼1500平方米以及室外附属工程",
+        "project_location": "贵州省-毕节市-赫章县",
+        "source_notice_id": "909943",
+        "plan_version_count": 2
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "赫章县特殊教育学校教学楼项目",
+          "plan": {
+            "published_at": "2026-07-21 14:54:32",
+            "title": "赫章县特殊教育学校教学楼项目项目招标计划",
+            "project_name": "赫章县特殊教育学校教学楼项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909943",
+            "buyer": "赫章县教育局",
+            "budget": "510万元",
+            "fund_source": "中央资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2607-520527-04-01-721133",
+            "approval": "赫发改【2026】93号",
+            "project_content": "新建1#教学楼1500平方米以及室外附属工程",
+            "project_location": "贵州省-毕节市-赫章县",
+            "source_notice_id": "909943",
+            "plan_version_count": 2
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：赫章县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.292,
+              "project_content": 0.027,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "赫章县思源实验学校教学综合楼建设项目",
+          "plan": {
+            "published_at": "2026-07-21 14:41:38",
+            "title": "赫章县思源实验学校教学综合楼建设项目项目招标计划",
+            "project_name": "赫章县思源实验学校教学综合楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909937",
+            "buyer": "赫章县教育局",
+            "budget": "1000万元",
+            "fund_source": "中央资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2607-520527-04-01-674035",
+            "approval": "赫发改【2026】94号】",
+            "project_content": "新建教学综合楼3434.93平方米及室外附属工程。",
+            "project_location": "贵州省-毕节市-赫章县",
+            "source_notice_id": "909937",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：赫章县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.269,
+              "project_content": 0.026,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        },
+        {
+          "plan_project_key": "赫章县第三小学教学综合楼项目",
+          "plan": {
+            "published_at": "2026-07-21 14:34:24",
+            "title": "赫章县第三小学教学综合楼项目项目招标计划",
+            "project_name": "赫章县第三小学教学综合楼项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=909934",
+            "buyer": "赫章县教育局",
+            "budget": "1042万元",
+            "fund_source": "中央补助资金",
+            "fund_source_tags": [
+              "上级补助"
+            ],
+            "fixed_asset_code": "2607-520527-04-01-495149",
+            "approval": "赫发改【2026】95号】",
+            "project_content": "新建教学综合楼3500平方米以及室外附属工程。",
+            "project_location": "贵州省-毕节市-赫章县",
+            "source_notice_id": "909934",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：赫章县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.25,
+              "project_content": 0.027,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-23",
+        "title": "赫章县2026年河镇乡、安乐溪乡和德卓镇6个学校宿舍及食堂维修改造项目采购公告",
+        "project_name": "赫章县2026年河镇乡、安乐溪乡和德卓镇6个学校宿舍及食堂维修改造项目采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240107047052251136",
+        "budget": "3384826.41元",
+        "project_content": "赫章县2026年河镇乡、安乐溪乡和德卓镇6个学校宿舍及食堂维修改造项目 招标项目的潜在投标人应在毕节市公共资源交易中心业务系统中获取招标文件，并于 2026年08月03日09时30分 （北京时间）前递交投标文件。 一、项目基本情况 项目编号 ： P52052720260008QD 项目名称： 赫章县2026年河镇乡、安乐溪乡和德卓镇6个学校宿舍及食堂维修改造项目 预算金额( 元) ： 3384826.41 最高限价（如有）( 元 )： 3384826.41； 采购需求: / 合同履行期限： 工期：8月30日前必须完工。； 本项目（是/否）接受联合体投标： 不接受 标项名称：赫章县2026年河镇乡、安乐溪乡和德卓镇6个学校宿舍及食堂维修改造项目 数量：1 预算金额（元）：3384826.41 简要规格描述或项目基本概况介绍、用途：项目名称：赫章县2026年河镇乡、安乐溪乡和德卓镇6个学校宿舍及食堂维修改造项目 采购方式：□竞争性磋商 √竞争性磋商 □询价 预算金额：3384826.41元。 最高限价：3384826.41元。 采购需求：采购文件及招标工程量清单所示全部内容。 工期：8月30日前必须完工。 本项目不接受联合体投标",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "赫章县教育局",
+        "agency": "公告未载明",
+        "bid_deadline": "2026-08-03 09:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52052720260008QD",
+        "source_notice_id": "1240107047052251136",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "毕节市公共资源交易中心",
+        "is_new": true
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "该施工公告对应 3 个相近的重点资金计划候选，需人工确认。",
+        "evidence": [
+          "招标人/采购人名称一致：赫章县教育局"
+        ],
+        "similarities": {
+          "project_name": 0.292,
+          "project_content": 0.027,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
     {
       "plan_project_key": "贵州师范大学二期学生宿舍建设项目",
       "plan": {
