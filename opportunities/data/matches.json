@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-24T06:07:03.120798+08:00",
+  "updated_at": "2026-07-24T19:19:19.680179+08:00",
   "available_sources": [
     "“黔顺云采”集采平台",
     "中烟电子采购平台",
@@ -15,6 +15,836 @@
     "黔云招采电子招标采购交易平台"
   ],
   "items": [
+    {
+      "plan_project_key": "贵州大学科研楼建设项目",
+      "plan": {
+        "published_at": "2026-07-01 17:31:04",
+        "title": "贵州大学科研楼建设项目项目招标计划",
+        "project_name": "贵州大学科研楼建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+        "buyer": "贵州大学",
+        "budget": "12856.61万元",
+        "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+        "fund_source_tags": [
+          "超长期",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2601-520000-04-01-829223",
+        "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+        "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+        "project_location": "贵州省-贵阳市-花溪区",
+        "source_notice_id": "900025",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "贵州大学科研楼建设项目",
+          "plan": {
+            "published_at": "2026-07-01 17:31:04",
+            "title": "贵州大学科研楼建设项目项目招标计划",
+            "project_name": "贵州大学科研楼建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900025",
+            "buyer": "贵州大学",
+            "budget": "12856.61万元",
+            "fund_source": "申请超长期特别国债等上级资金及自筹资金",
+            "fund_source_tags": [
+              "超长期",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2601-520000-04-01-829223",
+            "approval": "省发展改革委关于贵州大学科研楼建设项目初步设计的批复，黔发改建设[2026]278号",
+            "project_content": "包括科研楼(含生物智造、生物育种、合成生物学、定向化学合成、新药物研发等科研用房及相关科研配套设施设备)以及室外道路、绿化、管网、停车场等附属工程。注：本项目经发改委批复将立项时“贵州大学绿色农药全国重点实验室建设项目”项目名称变更为“贵州大学科研楼建设项目”。",
+            "project_location": "贵州省-贵阳市-花溪区",
+            "source_notice_id": "900025",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州大学的"
+            ],
+            "similarities": {
+              "project_name": 0.25,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "贵州大学“一站式”学生社区辅导员工作室修缮工程竞争性谈判公告",
+        "project_name": "贵州大学“一站式”学生社区辅导员工作室修缮工程竞争性谈判公告",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=912399",
+        "budget": "59000",
+        "project_content": "采购 文件 、图纸及工程量清单所示范围 。 （",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州大学的",
+        "agency": "贵州弘典建设咨询有限公司",
+        "bid_deadline": "2026-07-30 15:00",
+        "source_name": "贵州省招标投标公共服务平台",
+        "project_code": null,
+        "source_notice_id": "912399",
+        "matched_keywords": [
+          "建筑装修装饰工程专业"
+        ],
+        "location": "贵州省",
+        "is_new": true,
+        "qualification_requirement": "3.1一般资格要求 （1） 具有独立承担民事责任的能力：提供法人或者其他组织的营业执照等证明文件，自然人投标的提供身份证明 。 （2） 具有良好的商业信誉和健全的财务会计制度：提供 “经合法审计机构出具的2025年度财务审计报告”（包括三表一注，资产负债表、利润表、现金流量表及其附注，财务审计报告应盖有会计师事务所单位章和注册会计师的执业专用章，并附会计师事务所的营业执照及执业证书复印件）或“2026年1月至今任意月份银行出具的资信证明”（复印件加盖公章） 。 （3） 具有履行合同所必需的设备和专业技术能力：提供具备履行合同所必需的设备和专业技术能力的证明材料或承诺函 。 （4） 具有依法缴纳税收和社会保障资金的良好记录：提供 2026年1月至今任意1个月依法缴纳税收和社会保障资金的有效证明材料。免税、零申报的供应商提供加盖税务机关章的证明材料或不需要缴纳社会保障资金的供应商，应提供相应证明文件）。供应商仅提供无欠税证明的，视为无效证明材料 (复印件加盖供应商公章)。 （5） 参加本次采购活动前三年内，在经营活动中没有违法违规记录：提供参加本次采购活动前三年内未因违法经营受到刑事处罚或者责令停产停业、吊销许可证或者执照、较大数额罚款等行政处罚的书面声明（自行声明）。 （6） 法律、行政法规规定的其他条件： a.供应商须承诺在 “信用中国” 网站(www.creditchina.gov.cn) 或中国执行信息公开网（http://zxgk.court.gov.cn/）、中国政府采购网(www.ccgp.gov.cn) 等渠道查询中未被列入失信被执行人名单、重大税收违法失信主体、政府采购严重违法失信行为记录名单中，如被列入失信被执行人、重大税收违法失信主体、政府采购严重违法失信行为记录名单中的供应商取消其投标资格，并承担由此造成的一切法律责任及后果 ； 3.2特殊资格要求： 3.2.1 具备建设行政主管部门颁发的建筑装修装饰工程专业承包资质二级及以上资质；具有建设行政主管部门颁发的，且在有效期内的安全生产许可证； 3.3.2 项目负责人（项目经理）资格要求：须同时具备： ①建筑工程专业贰级及以上注册建造师资格；②有效的建筑施工企业项目负责人安全生产考核合格证书（B证），且未担任其他在建建设工程项目的项目经理 。 3.3本项目不接受联合体投标。 3.4 本项目是专门面向中小企业采购。具体内容为：参与本项目的投标供应商需提供《中小企业声明函》（符合条件的监狱企业、戒毒企业以及残疾人福利企业视同小微企业）。所属行业：建筑业。"
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州大学的"
+        ],
+        "similarities": {
+          "project_name": 0.25,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+      "plan": {
+        "published_at": "2026-06-01 09:53:50",
+        "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+        "project_name": "盘州市 2026 年巩固提升农村供水工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "budget": "661.6万元",
+        "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+        "fund_source_tags": [
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2605-520222-04-05-835439",
+        "approval": "盘州水务复[2026]13号",
+        "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+        "project_location": "贵州省-六盘水市-盘州市",
+        "source_notice_id": "883770",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+          "plan": {
+            "published_at": "2026-06-01 09:53:50",
+            "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+            "project_name": "盘州市 2026 年巩固提升农村供水工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+            "buyer": "贵州水投水务盘州市有限责任公司",
+            "budget": "661.6万元",
+            "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+            "fund_source_tags": [
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2605-520222-04-05-835439",
+            "approval": "盘州水务复[2026]13号",
+            "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+            "project_location": "贵州省-六盘水市-盘州市",
+            "source_notice_id": "883770",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司",
+              "项目名称地域存在差异：盘州市 / 贵州水投水务盘州，名称相似项未计入"
+            ],
+            "similarities": {
+              "project_name": 0.103,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": true
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "贵州水投水务盘州市有限责任公司中心城区及乡镇片区专电线路、台变维护巡检采购项目(三次)询比采购公告",
+        "project_name": "贵州水投水务盘州市有限责任公司中心城区及乡镇片区专电线路、台变维护巡检采购项目(三次)询比采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240572734606544896",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "agency": "公告未载明",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-其他交易",
+        "project_code": "GQST-XB2026070041-2",
+        "source_notice_id": "1240572734606544896",
+        "matched_keywords": [
+          "承装（修、试）"
+        ],
+        "location": "国有企业生产资料",
+        "is_new": true,
+        "qualification_requirement": "（1）必须有合法有效的工商营业执照、税务登记证、组织机构代码证本或多证合一的营业执照。 （2）具有良好的商业信誉和健全的财务会计制度：提供2024或2025年度由会计师事务所出具的财务审计报告或2026年1月至今任意三个月的财务报表（包括资产负债表、利润表、现金流量表)，成立不满一年的企业，可提供开户银行出具的资信证明。 （3）具有履行合同所必需的设备和专业技术能力：提供具备履行合同所必需的设备和专业技术能力的证明材料或提供承诺函（格式自拟）； （4）单位负责人为同一人或者存在控股、管理关系的不同单位，不能同时参加同一标段或不分标段的同一项目的投标。 （5）若是法定代表人参与投标的需提供法定代表人身份证明，若是法定代表人授权代表参与投标的需提供法定代表人身份证明和法人授权委托书(包含被授权人身份,身份证正反两面)； 2、特殊资格要求：供应商同时具有电力施工总承包三级及以上资质和承装类、承修类四级及以上、承试类五级及以上承装（修、试）电力设施许可证的施工企业。 3.供应商的信誉要求 3.1、提供参加本次采购活动前3年在经营活动中未被行政或行业相关主管部门限制投标、承接业务的情况的书面声明(格式自拟)。 3.2、提供参加本次采购活动前3年供应商、供应商法定代表人均无行贿犯罪记录的书面承诺(格式自拟) 。 3.3、供应商须承诺未被“信用中国(www.creditchina.gov.cn)”网站列入“税收违法黑名单”和“政府采购严重违法失信行为记录名单”、未被“中国执行信息公开网(http://zxgk.court.gov.cn/shixin)”列入“失信被执行人”且还在执行期(格式自拟)。 4.本次采购内容不允许转包、分包，不接受联合体投标。"
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司",
+          "项目名称地域存在差异：盘州市 / 贵州水投水务盘州，名称相似项未计入"
+        ],
+        "similarities": {
+          "project_name": 0.103,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": true
+        }
+      }
+    },
+    {
+      "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+      "plan": {
+        "published_at": "2026-06-01 09:53:50",
+        "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+        "project_name": "盘州市 2026 年巩固提升农村供水工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "budget": "661.6万元",
+        "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+        "fund_source_tags": [
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2605-520222-04-05-835439",
+        "approval": "盘州水务复[2026]13号",
+        "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+        "project_location": "贵州省-六盘水市-盘州市",
+        "source_notice_id": "883770",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "盘州市2026年巩固提升农村供水工程",
+          "plan": {
+            "published_at": "2026-06-01 09:53:50",
+            "title": "盘州市 2026 年巩固提升农村供水工程项目招标计划",
+            "project_name": "盘州市 2026 年巩固提升农村供水工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=883770",
+            "buyer": "贵州水投水务盘州市有限责任公司",
+            "budget": "661.6万元",
+            "fund_source": "2026年中央水利发展资金以及2026年省级水利发展资金，其余资金自筹。",
+            "fund_source_tags": [
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2605-520222-04-05-835439",
+            "approval": "盘州水务复[2026]13号",
+            "project_content": "主要建设内容为农村饮水工程维修养护42处，农村供水保障工程2处，涉及铺设管网81.611km，改造泵站3座、改造水厂1座，具体建设内容如下：（一）管网工程：新建及更换管网总长81.611km。其中维修养护部分铺设管网53.869km（其中DN20管7.52km、DN25管12.69km、DN40管12.678km、DN50管4.395km、DN65管3.646km、DN80管6.154km、DN100管6.786km）;供水保障部分铺设管网27.742km（其中DN20 管4.19km、DN25管6.285km、DN40管7.361km、DN50 管3.185km、DN80 管2.414km、DN100 管1.732km、DN150管2.575km）。（二）改造泵站3座（安装水泵设施4台），总装机104.4Kw。（三）改造水厂1座（水处理能力3000m3/d），加药设备1套，次氣酸钠发生器消毒设备1套，自动化系统1套。",
+            "project_location": "贵州省-六盘水市-盘州市",
+            "source_notice_id": "883770",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司"
+            ],
+            "similarities": {
+              "project_name": 0.077,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "马依水厂改造项目询比采购公告",
+        "project_name": "马依水厂改造项目询比采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240572732953989120",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "贵州水投水务盘州市有限责任公司",
+        "agency": "公告未载明",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-其他交易",
+        "project_code": "GQST-XB2026070095",
+        "source_notice_id": "1240572732953989120",
+        "matched_keywords": [
+          "水利水电工程施工总承包"
+        ],
+        "location": "国有企业生产资料",
+        "is_new": true,
+        "qualification_requirement": "3.1 在中国境内注册并具有独立法人资格，有能力独立承担民事责任的能力，提供法人或其他组织的营业执照等证明文件（提供有效的统一社会信用代码的营业执照）； 3.2 投标人具有履行合同所必备的设备和技术能力（提供承诺函）； 3.3 提供参加采购活动前3年内在经营活动中没有重大违法记录的书面声明（提供承诺函）； 3.4 供应商须承诺：供应商未被“信用中国”网站（www.creditchina.gov.cn）列入“失信被执行人”“重大税收违法失信主体”“政府采购严重违法失信行为记录名单”中任意一项或多项记录名单及信用报告；同时，供应商未处于中国政府采购网（www.ccgp.gov.cn）“政府采购严重违法失信行为记录名单信息记录”中的禁止参加政府采购活动期间，信用查询时间为采购公告发出时间至响应截止时间止任意时间节点，提供承诺函及“信用中国”“中国政府采购网”网页查询截图。 3.5投标人须投标人须具备水利水电工程施工总承包乙级及以上资质（原三级/二级/一级资质有效），具备有效的安全生产许可证，并在人员、设备、资金等方面具有相应的能力；其中，投标人拟派项目负责人须具备水利水电专业二级及以上注册建造师资格，具备有效的安全生产考核合格证书（B证），在投标截止日有在其他在建建设工程（含已经获得中标通知书未开工）担任项目负责人（包括工程总承包中的施工负责人）的，不得以拟派项目负责人（项目经理）的身份参加本次投标。 3.6 本项目不接受联合体投标，不允许分包、转包。 4.6 其他事项： 4.7 是否接受联合体投标： 否"
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：贵州水投水务盘州市有限责任公司"
+        ],
+        "similarities": {
+          "project_name": 0.077,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "罗甸县2026年度龙坪凤亭等乡镇供水管网及配套设施改造工程",
+      "plan": {
+        "published_at": "2026-07-24 10:24:22",
+        "title": "罗甸县2026年度龙坪、凤亭等乡镇供水管网及配套设施改造工程项目招标计划",
+        "project_name": "罗甸县2026年度龙坪、凤亭等乡镇供水管网及配套设施改造工程",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911870",
+        "buyer": "罗甸县水务工程建设站",
+        "budget": "572.4万元",
+        "fund_source": "中央帮扶资金540万，其他资金32.4万元",
+        "fund_source_tags": [
+          "其他"
+        ],
+        "fixed_asset_code": "2607-522728-04-01-625239",
+        "approval": "罗农复【2026】81号",
+        "project_content": "1. 新建泵站 2座，新建50m3清水池1个，新建30m3 清水池1个，新建20m3减压池1个，新建10m3清水池1个，新建输配水管网 38.53km，安装入户管9.64km 及配套设施。2.六一村，新建配水管网12.01km，安装入户管5.69km及配套设施。",
+        "project_location": "贵州省-黔南布依族苗族自治州-罗甸县",
+        "source_notice_id": "911870",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "罗甸县2026年度龙坪凤亭等乡镇供水管网及配套设施改造工程",
+          "plan": {
+            "published_at": "2026-07-24 10:24:22",
+            "title": "罗甸县2026年度龙坪、凤亭等乡镇供水管网及配套设施改造工程项目招标计划",
+            "project_name": "罗甸县2026年度龙坪、凤亭等乡镇供水管网及配套设施改造工程",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=911870",
+            "buyer": "罗甸县水务工程建设站",
+            "budget": "572.4万元",
+            "fund_source": "中央帮扶资金540万，其他资金32.4万元",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2607-522728-04-01-625239",
+            "approval": "罗农复【2026】81号",
+            "project_content": "1. 新建泵站 2座，新建50m3清水池1个，新建30m3 清水池1个，新建20m3减压池1个，新建10m3清水池1个，新建输配水管网 38.53km，安装入户管9.64km 及配套设施。2.六一村，新建配水管网12.01km，安装入户管5.69km及配套设施。",
+            "project_location": "贵州省-黔南布依族苗族自治州-罗甸县",
+            "source_notice_id": "911870",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：罗甸县水务工程建设站"
+            ],
+            "similarities": {
+              "project_name": 0.409,
+              "project_content": 0.044,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "罗甸县县城供水管网漏损治理工程招标公告",
+        "project_name": "罗甸县县城供水管网漏损治理工程招标公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240559957842202624",
+        "budget": "51210900元",
+        "project_content": "本项目招标人提供的工程量清单及施工图纸所示的全部内容",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "罗发改投资〔2026〕1号"
+        ],
+        "buyer": "罗甸县水务工程建设站",
+        "agency": "贵州东锦项目管理有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-工程建设",
+        "project_code": "E52272820260002Y6001",
+        "source_notice_id": "1240559957842202624",
+        "matched_keywords": [
+          "市政公用工程施工总承包"
+        ],
+        "location": "黔南州公共资源交易中心",
+        "is_new": true,
+        "qualification_requirement": "3.1 本次招标要求投标人须具备：市政公用工程施工总承包贰级及以上资质、/业绩，并在人员、设备、资金等方面具有相应的施工能力，其中,投标人拟派项目负责人须具备市政公用工程专业壹级及以上注册建造师,具备有效的安全生产考核合格证书,且未担任其他在建建设工程的项目负责人。 3.2 本次招标不接受联合体投标。"
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：罗甸县水务工程建设站"
+        ],
+        "similarities": {
+          "project_name": 0.409,
+          "project_content": 0.044,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "独山县第六幼儿园建设项目",
+      "plan": {
+        "published_at": "2026-07-16 15:35:26",
+        "title": "独山县第六幼儿园建设项目项目招标计划",
+        "project_name": "独山县第六幼儿园建设项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=907703",
+        "buyer": "独山县教育局",
+        "budget": "1447.54万元",
+        "fund_source": "教育专项资金",
+        "fund_source_tags": [
+          "其他"
+        ],
+        "fixed_asset_code": "2110-522726-04-01-361859",
+        "approval": "2110-522726-04-01-361859",
+        "project_content": "总建筑面积 5604.03 ㎡， 其中幼儿园主体建筑面积 5534.37 ㎡，门卫值班室区域建筑面积 69.66 ㎡，建 筑占地面积 1870.41 ㎡",
+        "project_location": "贵州省-黔南布依族苗族自治州-独山县",
+        "source_notice_id": "907703",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "独山县第六幼儿园建设项目",
+          "plan": {
+            "published_at": "2026-07-16 15:35:26",
+            "title": "独山县第六幼儿园建设项目项目招标计划",
+            "project_name": "独山县第六幼儿园建设项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=907703",
+            "buyer": "独山县教育局",
+            "budget": "1447.54万元",
+            "fund_source": "教育专项资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2110-522726-04-01-361859",
+            "approval": "2110-522726-04-01-361859",
+            "project_content": "总建筑面积 5604.03 ㎡， 其中幼儿园主体建筑面积 5534.37 ㎡，门卫值班室区域建筑面积 69.66 ㎡，建 筑占地面积 1870.41 ㎡",
+            "project_location": "贵州省-黔南布依族苗族自治州-独山县",
+            "source_notice_id": "907703",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：独山县教育局"
+            ],
+            "similarities": {
+              "project_name": 0.429,
+              "project_content": 0.04,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "独山县第三中学教学楼维修改造项目",
+        "project_name": "独山县第三中学教学楼维修改造项目",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240554621173370880",
+        "budget": "",
+        "project_content": "招标项目的潜在投标人应在 黔南州公共资源网上交易系统下载 获取招标文件，并于 ( 北京时间2026年08月07日 10时00分 ) 前递交投标文件。 一、项目基本信息 项目名称 : 独山县第三中学教学楼维修改造项目 项目编号 : P52272620260008W4 项目序列号 : ZFCG20260724005 预算金额(元) : 1690000.00元 最高限价(元) : 1686670.98元 采购需求 : 完成独山县第三中学教学楼维修改造总计4680平方米。具体详见《竞争性磋商文件》 标项 一 : 标项名称 : 独山县第三中学教学楼维修改造项目 数量 : 1 预算金额（元） : 1690000.00 简要规格描述或项目基本概况介绍、用途 : 完成独山县第三中学教学楼维修改造总计4680平方米。 备注 : 合同履约期限 : 120天 本项目（是 / 否）接受联合体投标 : 否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [
+          "国发〔2009〕36号"
+        ],
+        "buyer": "独山县教育局",
+        "agency": "贵州黔铭项目管理咨询有限公司",
+        "bid_deadline": "2026-08-07 10:00",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52272620260008W4",
+        "source_notice_id": "1240554621173370880",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "黔南州公共资源交易中心",
+        "is_new": true,
+        "registration_period": "2026-07-27至2026-08-03",
+        "qualification_requirement": "1.满足《中华人民共和国政府采购法》第二十二条规定； 2.落实政府采购政策需满足的资格要求： ①本项目为专门面向中小企业采购的采购项目，预留比例为项目预算总额的100.00%（预留金额为：壹佰陆拾捌万陆仟陆佰柒拾元玖角捌分（￥：1686670.98元））②本项目的中小企业所属行业“根据《中华人民共和国中小企业促进法》和《国务院关于进一步促进中小企业发展的若干意见》(国发〔2009〕36号)”划分为：《建筑业》。投标供应商为中小企业或残疾人福利性单位或监狱企业。（1）符合条件的中小企业投标提供中小企业声明函（格式以“响应文件格式 ”中《中小企业声明函》为准）；（2）符合条件的监狱企业投标提供由省级以上监狱管理局、戒毒管理局(含新疆生产建设兵团)出具的属于监狱企业的证明文件；（3）符合条件的残疾人福利性单位投标提供残疾人福利性单位声明函（格式以“响应文件格式”中《残疾人福利性单位声明函》为准）。注：声明函或证明文件提供其中一项即可，投标供应商按照规定提供声明函或证明文件内容不实的，属于提供虚假材料谋取中标，按照《中华人民共和国政府采购法》等国家有关规定追究相应责任。,供应商为中小企业/小微企业 3.本项目的特定资格要求： 1）本项目供应商须具备建设行政主管部门核发的有效的建筑工程施工总承包二级（含以上）资质及有效的安全生产许可证，并在人员、设备、资金等方面具有相应的施工能力。其中，拟派项目经理须具备建筑工程专业二级及以上注册建造师资格，具备合格有效的安全生产考核合格证书（B类），且未担任其他在建建设工程项目经理【项目经理提供无在建项目承诺函，格式自拟】 4.申请人资格要求： 1）符合《中华人民共和国政府采购法》第二十二条及《中华人民共和国政府采购法实施条例》第十七条之规定： ①具有独立承担民事责任的能力。 【提供法人或其他组织的营业执照等证明文件、自然人提供身份证明（符合中小企业划分标准的个体工商户，在政府采购活动中视同中小企业）】； ②具有良好的商业信誉和健全的财务会计制度。 【提供2025年度财务审计报告或基本开户银行出具的资信证明（资信证明开具日期为磋商公告发布之日后）（注：审计报告应盖有会计师事务所单位公章和注册会计师的执业专用章，并附会计师事务所的营业执照及执业证书复印件）】； ③有依法缴纳税收和社会保障资金的良好记录。 【提供2026年1月至响应文件递交截止时间前任意3个月依法缴纳税收和社保的相关凭证；依法免税或不需要缴纳社保的，须提供有效的证明材料】； ④具有履行合同所必需的设备和专业技术能力。【提供承诺函，格式自拟】； ⑤参加本次政府采购活动前三年内，在经营活动中没有重大违法记录及法律、行政法规规定的其他条件。【提供承诺函，格式自拟】； ⑥单位负责人为同一人或者存在直接控股、管理关系的不同供应商，不得同时参加本采购项目投标。【提供承诺函，格式自拟】； ⑦供应商须承诺：在“信用中国”网站（https://www.creditchina.gov.cn/）、中国政府采购网（http://www.ccgp.gov.cn/）等渠道查询中未被列入失信被执行人名单、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单中，如被列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单中的供应商取消其投标资格，并承担由此造成的一切法律责任及后果。 【提供承诺函，格式自拟】 ⑧提供本项目非联合体投标承诺函【提供承诺函，格式自拟】。"
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "招标人/采购人名称一致：独山县教育局"
+        ],
+        "similarities": {
+          "project_name": 0.429,
+          "project_content": 0.04,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用项目",
+      "plan": {
+        "published_at": "2026-05-06 09:41:48",
+        "title": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用项目项目招标计划",
+        "project_name": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=870682",
+        "buyer": "贵州黄果树寰瀑旅游发展集团有限公司",
+        "budget": "800万元",
+        "fund_source": "省级资金",
+        "fund_source_tags": [
+          "其他"
+        ],
+        "fixed_asset_code": "2604-520492-04-01-200068",
+        "approval": "2604-520492-04-01-200068",
+        "project_content": "1.对20栋传统风貌突出的古建筑、特色石木结构民居开展重点保护与修缮。2.保护历史遗存，梳理民族民俗文化，优化提升村内重要公共空间。3.对65栋民居进行围护结构修缮、室内功能提升、庭院环境整治等，确保与村落整体风貌协调。4.沿河道建设特色旅游步道，串联周边景区、河流水系、森林等自然景观和传统村落、古桥、古道、古营盘等文化景观。5.开展传统工匠培育工程。6.开展标识系统建设，覆盖所有核心区域和关键节点。",
+        "project_location": "贵州省-安顺市-黄果树风景名胜区",
+        "source_notice_id": "870682",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用项目",
+          "plan": {
+            "published_at": "2026-05-06 09:41:48",
+            "title": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用项目项目招标计划",
+            "project_name": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=870682",
+            "buyer": "贵州黄果树寰瀑旅游发展集团有限公司",
+            "budget": "800万元",
+            "fund_source": "省级资金",
+            "fund_source_tags": [
+              "其他"
+            ],
+            "fixed_asset_code": "2604-520492-04-01-200068",
+            "approval": "2604-520492-04-01-200068",
+            "project_content": "1.对20栋传统风貌突出的古建筑、特色石木结构民居开展重点保护与修缮。2.保护历史遗存，梳理民族民俗文化，优化提升村内重要公共空间。3.对65栋民居进行围护结构修缮、室内功能提升、庭院环境整治等，确保与村落整体风貌协调。4.沿河道建设特色旅游步道，串联周边景区、河流水系、森林等自然景观和传统村落、古桥、古道、古营盘等文化景观。5.开展传统工匠培育工程。6.开展标识系统建设，覆盖所有核心区域和关键节点。",
+            "project_location": "贵州省-安顺市-黄果树风景名胜区",
+            "source_notice_id": "870682",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "project_name",
+            "methods": [
+              "project_name"
+            ],
+            "confidence": 0.921,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "项目名称相似度 92.1%"
+            ],
+            "similarities": {
+              "project_name": 0.921,
+              "project_content": 0.156,
+              "buyer_equal": false,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": false
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用建设项目(镇宁段)",
+        "project_name": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用建设项目(镇宁段)",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240545005572067328",
+        "budget": "",
+        "project_content": "黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用建设项目(镇宁段) 招标项目的潜在投标人应在 全国公共资源交易平台（贵州省·安顺市） 获取招标文件，并于 2026-08-04 09:30:00 ( 北京时间 ) 前递交投标文件。 一、项目基本信息 项目编号 : P52042320260008UQ 项目名称 : 黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用建设项目(镇宁段) 项目序列号 : ZFCG202607112 预算金额(元) : 1859668.86元 最高限价(元) : 1859668.86元 采购需求 : 传统建筑重点保护与修缮；文化遗产保护与公共空间品质提升；民居风貌协调提升；传统村落展示连接步道建设；设标识系统等（详见采购文件）。 标项1 标项名称 : 黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用建设项目(镇宁段) 数量 : 1 预算金额（元） : 1859668.86 简要规格描述或项目基本概况介绍、用途 : 黄果树世界级旅游景区延伸传统村落整体保护与综合开发利用建设项目(镇宁段)。 备注 : 合同履约期限 : 5个月 本项目（是 / 否）接受联合体投标 : 否",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "镇宁布依族苗族自治县住房和城乡建设局",
+        "agency": "安顺正盛招标有限公司",
+        "bid_deadline": "",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52042320260008UQ",
+        "source_notice_id": "1240545005572067328",
+        "matched_keywords": [
+          "建筑工程施工总承包"
+        ],
+        "location": "安顺市公共资源交易中心",
+        "is_new": true,
+        "registration_period": "2026-07-25至2026-08-01",
+        "qualification_requirement": "1.满足《中华人民共和国政府采购法》第二十二条规定 2.落实政府采购政策需满足的资格要求： （1）具有独立承担民事责任的能力：提供有效的三证合一的营业执照；或有效的其他法人证书证明材料；或其他组织证明文件；或自然人的身份证明等。 （2）具有良好的商业信誉和健全的财务会计制度：提供2025年度经会计师事务所或审计机构审计的财务审计报告，或提供2025年度的财务报表或2026年度任意一个月的财务报表【财务报表至少须包含资产负债表、利润表（或损益表）、现金流量表，三大报表缺一不可。】，或提供基本开户银行对本项目出具的资信证明。（注：部分其他组织和自然人，没有经审计的财务报告，可以提供银行对本项目出具的资信证明）。 (3)具有履行合同所必需的设备和专业技术能力：提供具有履行合同所必需的设备和专业技术能力的承诺函（自拟或参考附件模板）； (4)具有依法缴纳税收和社会保障资金的良好记录：提供2026年1月至投标截至时间止任意1个月的完税证明和社保的证明材料（注:不需缴纳税收和社保的应提供相关证明材料或情况说明资料）； (5)参加政府采购活动近三年，在经营活动中无重大违法记录：提供投标人近三年内未发生骗取中标、严重违约等不良行为的声明函（格式自拟）； （6）法律、行政法规规定的其他条件： ①提供本项目获取招标文件开始时间至投标文件递交的截止时间期间内投标人在“信用中国”网站或中国政府采购网等查询渠道无不良信用记录 (投标时供应商需提供查询结果的网页截图作为资格证明材料，若有不良信用记录，该投标供应商作无效投标处理) ； ②投标代表为法定代表人的提供法定代表人证明书 ；投标代表为非法定代表人的提供法定代表人授权委托书、法定代表人身份证复印件、被授权代表人身份证复印件。 ③《中小企业声明函》 注：1.根据安市财采〔2023〕3 号规定，供应商投标时提供《安顺市政府采购供应商资格信用承诺函》（模板详见附件），则无需提交以上（1）-（6）项资格证明材料，待确定中标人后，中标人应在领取中标通知书前向采购人提交以上（1）-（6）项资料进行核验（供应商应对信用承诺内容的真实性、合法性、有效性负责，如发现供应商虚假信用承诺，视为“提供虚假材料谋取中标、成交”行为，将按照《中华人民共和国政府采购法》第七十七条之规定进行处罚）。 2.以上（1）-（6）项材料或《安顺市政府采购供应商资格信用承诺函》及特殊资格要求材料投标人须通过投标工具在资格核验模块上传，开标现场由招标人及监督通过系统在线核验。提供资料不齐或未通过资格审查的，投标无效。 3.本项目的特定资格要求： 提供有效的《建筑业企业资质证书》建筑工程施工总承包二级及以上资质；有效的《安全生产许可证》；拟派无在建项目的项目负责人（项目经理）须持有建筑工程专业二级（含以上级别）注册建造师（项目经理须承诺无在建项目）。"
+      },
+      "match": {
+        "method": "project_name",
+        "methods": [
+          "project_name"
+        ],
+        "confidence": 0.921,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+        "evidence": [
+          "项目名称相似度 92.1%"
+        ],
+        "similarities": {
+          "project_name": 0.921,
+          "project_content": 0.156,
+          "buyer_equal": false,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": false
+        }
+      }
+    },
+    {
+      "plan_project_key": "遵义市红花岗区老城片区及忠庄片区城镇燃气瓶改管项目",
+      "plan": {
+        "published_at": "2026-07-02 15:23:41",
+        "title": "遵义市红花岗区老城片区及忠庄片区城镇燃气瓶改管项目项目招标计划",
+        "project_name": "遵义市红花岗区老城片区及忠庄片区城镇燃气瓶改管项目",
+        "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900251",
+        "buyer": "遵义市红花岗区综合行政执法局",
+        "budget": "17000万元",
+        "fund_source": "上级专项补助资金和地方自筹",
+        "fund_source_tags": [
+          "上级补助",
+          "地方自筹"
+        ],
+        "fixed_asset_code": "2502-520302-04-01-826519",
+        "approval": "区发改建设【2025】90号",
+        "project_content": "建设居民“瓶改管”户数约36044户:住宅庭院中低压埋地管道新建dn63-dn110共计约39648m(其中:dn63中压管道4361m，dn90中压管道3269m;dn63 低压管道 17610m，dnl10 低压管道 14408m),采用 PE燃气管;住宅庭院中低压架空管道新建DN40-DN80共计约32440m(其中DN50中压管道 6488m,DN40 低压管道5190m，DN50 低压管道 11419m，DN80低压管道9343m)，采用无缝钢管;民用立管道新建约108132m(其中DN25不锈钢管道70285m，DN40无缝钢管37847m);水平入户DN15支管64879米，采用镀锌钢管和不锈钢管;智能燃气表36044块、DN40法兰球阀约1545个、DN25不锈钢螺纹球阀约3604 个、表前DN15锁闭球阀约36044个、埋地PE球阀约121个、调压箱约361个，燃气自闭阀约36044个，DN15带座丝扣球阀约72088个，室内DN15不锈钢管道约 360440米、不锈钢波纹管约108132米、360144 套智能远传燃气泄漏报警器(含紧急切断电磁阀)等进行加装。",
+        "project_location": "贵州省-遵义市-红花岗区",
+        "source_notice_id": "900251",
+        "plan_version_count": 1
+      },
+      "candidate_plans": [
+        {
+          "plan_project_key": "遵义市红花岗区老城片区及忠庄片区城镇燃气瓶改管项目",
+          "plan": {
+            "published_at": "2026-07-02 15:23:41",
+            "title": "遵义市红花岗区老城片区及忠庄片区城镇燃气瓶改管项目项目招标计划",
+            "project_name": "遵义市红花岗区老城片区及忠庄片区城镇燃气瓶改管项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900251",
+            "buyer": "遵义市红花岗区综合行政执法局",
+            "budget": "17000万元",
+            "fund_source": "上级专项补助资金和地方自筹",
+            "fund_source_tags": [
+              "上级补助",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2502-520302-04-01-826519",
+            "approval": "区发改建设【2025】90号",
+            "project_content": "建设居民“瓶改管”户数约36044户:住宅庭院中低压埋地管道新建dn63-dn110共计约39648m(其中:dn63中压管道4361m，dn90中压管道3269m;dn63 低压管道 17610m，dnl10 低压管道 14408m),采用 PE燃气管;住宅庭院中低压架空管道新建DN40-DN80共计约32440m(其中DN50中压管道 6488m,DN40 低压管道5190m，DN50 低压管道 11419m，DN80低压管道9343m)，采用无缝钢管;民用立管道新建约108132m(其中DN25不锈钢管道70285m，DN40无缝钢管37847m);水平入户DN15支管64879米，采用镀锌钢管和不锈钢管;智能燃气表36044块、DN40法兰球阀约1545个、DN25不锈钢螺纹球阀约3604 个、表前DN15锁闭球阀约36044个、埋地PE球阀约121个、调压箱约361个，燃气自闭阀约36044个，DN15带座丝扣球阀约72088个，室内DN15不锈钢管道约 360440米、不锈钢波纹管约108132米、360144 套智能远传燃气泄漏报警器(含紧急切断电磁阀)等进行加装。",
+            "project_location": "贵州省-遵义市-红花岗区",
+            "source_notice_id": "900251",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：遵义市红花岗区综合行政执法局",
+              "项目名称地域存在差异：遵义市 / 红花岗区，名称相似项未计入"
+            ],
+            "similarities": {
+              "project_name": 0.255,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": true
+            }
+          }
+        },
+        {
+          "plan_project_key": "遵义市红花岗区外环路片区城镇燃气瓶改管项目",
+          "plan": {
+            "published_at": "2026-07-02 15:23:26",
+            "title": "遵义市红花岗区外环路片区城镇燃气瓶改管项目项目招标计划",
+            "project_name": "遵义市红花岗区外环路片区城镇燃气瓶改管项目",
+            "url": "http://ztb.guizhou.gov.cn/trade/bulletin/?id=900249",
+            "buyer": "遵义市红花岗区综合行政执法局",
+            "budget": "12000万元",
+            "fund_source": "上级专项补助资金和地方自筹",
+            "fund_source_tags": [
+              "上级补助",
+              "地方自筹"
+            ],
+            "fixed_asset_code": "2502-520302-04-01-935940",
+            "approval": "区发改投资【2025】89号",
+            "project_content": "建设居民“瓶改管”户数约30559户:住宅庭院中低压埋地管道新建dn63-dn110共计约33615m(其中:dn63中压管道3698m，dn90中压管道3025m;dn63 低压管道 14791m,dnl10 低压管道 12101m),采用 PE燃气管;住宅庭院中低压架空管道新建DN40一DN80共计约27503m(其中 DN50中压管道5500m,DN40 低压管道4400m，DN50低压管道 9681m，DN80低压管道7922m)，采用无缝钢管;民用立管道新建约 91677m(其中 DN25不锈钢管道59590m，DN40 无缝钢管 32087m);水平入户DN15支管 55006米，采用镀锌钢管和不锈钢管;智能燃气表30559块、DN40法兰球阀约1310个、DN25不锈钢螺纹球阀约 3056个、表前DN15锁闭球阀约30559个、埋地PE球阀约102个、调压箱约306个，燃气自闭阀约30559个，DN15带座丝扣球阀约61118个，室内DN15 不锈钢管道约 305590米、不锈钢波纹管约91677米、30559套智能远传燃气泄漏报警器(含紧急切断 电磁阀)等进行加装。",
+            "project_location": "贵州省-遵义市-红花岗区",
+            "source_notice_id": "900249",
+            "plan_version_count": 1
+          },
+          "match": {
+            "method": "buyer",
+            "methods": [
+              "buyer"
+            ],
+            "confidence": 0.72,
+            "match_level": "candidate",
+            "review_required": true,
+            "review_note": "当前为单项相似候选，需人工核对是否为同一项目。",
+            "evidence": [
+              "招标人/采购人名称一致：遵义市红花岗区综合行政执法局",
+              "项目名称地域存在差异：遵义市 / 红花岗区，名称相似项未计入"
+            ],
+            "similarities": {
+              "project_name": 0.326,
+              "project_content": 0.0,
+              "buyer_equal": true,
+              "fixed_asset_code_equal": false,
+              "approval_equal": false,
+              "location_conflict": true
+            }
+          }
+        }
+      ],
+      "notice": {
+        "published_at": "2026-07-24",
+        "title": "红花岗区市政道路重大安全隐患整治一期建设项目采购公告",
+        "project_name": "红花岗区市政道路重大安全隐患整治一期建设项目采购公告",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1240481040708014080",
+        "budget": "",
+        "project_content": "",
+        "fixed_asset_code": "",
+        "investment_project_code": null,
+        "approval": null,
+        "approval_refs": [],
+        "buyer": "遵义市红花岗区综合行政执法局",
+        "agency": "贵州通慧工程项目管理咨询有限公司",
+        "bid_deadline": "2026-08-06 09:30",
+        "source_name": "贵州省公共资源交易云-政府采购",
+        "project_code": "P52030220260008TA",
+        "source_notice_id": "1240481040708014080",
+        "matched_keywords": [
+          "市政公用工程施工总承包",
+          "公路工程施工总承包"
+        ],
+        "location": "遵义市公共资源交易中心",
+        "is_new": true,
+        "registration_period": "2026-07-26至2026-08-03",
+        "qualification_requirement": "1.满足《中华人民共和国政府采购法》第二十二条规定 2.落实政府采购政策需满足的资格要求： 供应商为中小企业/小微企业 3.本项目的特定资格要求： 具备建设行政主管部门核发的市政公用工程施工总承包二级或公路工程施工总承包二级及以上资质，以及有效的安全生产许可证。"
+      },
+      "match": {
+        "method": "buyer",
+        "methods": [
+          "buyer"
+        ],
+        "confidence": 0.72,
+        "match_level": "candidate",
+        "review_required": true,
+        "review_note": "该施工公告对应 2 个相近的重点资金计划候选，需人工确认。",
+        "evidence": [
+          "招标人/采购人名称一致：遵义市红花岗区综合行政执法局",
+          "项目名称地域存在差异：遵义市 / 红花岗区，名称相似项未计入"
+        ],
+        "similarities": {
+          "project_name": 0.255,
+          "project_content": 0.0,
+          "buyer_equal": true,
+          "fixed_asset_code_equal": false,
+          "approval_equal": false,
+          "location_conflict": true
+        }
+      }
+    },
     {
       "plan_project_key": "大方县第一中学扩建项目",
       "plan": {
@@ -17226,7 +18056,7 @@
         "approval_refs": null,
         "buyer": "福泉市第一人民医院",
         "agency": "贵州同川项目咨询有限公司",
-        "bid_deadline": "2026年7月28日上午 9 :30时 澄清日期： 2026",
+        "bid_deadline": "2026年8月24日上午 9 :30时",
         "source_name": "贵州省公共资源交易云-工程建设",
         "project_code": "E52270220260002J6001",
         "source_notice_id": "1230409449290731520",
@@ -20165,7 +20995,7 @@
     }
   ],
   "stats": {
-    "total": 157,
-    "projects": 77
+    "total": 164,
+    "projects": 80
   }
 }
