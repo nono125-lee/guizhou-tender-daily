@@ -32,7 +32,7 @@ PYTHONPATH=src python3 -m tender_agent.unified_site build
 4. 识别资金来源原文命中“国债”“专项”“中央”“省级”或超长期的项目，并将 `config/priority_projects.json` 中的用户重点项目与图文、绿化、施工公告统一关联。
 5. 生成 `/site/opportunities/` 标讯雷达和运行状态。
 6. 运行图文/绿化、施工、招标计划和统一工作台测试。
-7. 测试通过且工作树没有非 `site/` 改动时，提交 `site/`、推送 `main`、更新 `gh-pages`。
+7. 测试通过且工作树没有非 `site/` 改动时，提交 `site/`、推送 `main`、更新 `gh-pages`。若并发部署导致 `gh-pages` 推送报告 `cannot lock ref`，重新获取远端分支；远端 SHA 与本轮 `site` 子树 SHA 一致时按已发布处理，不一致才报错，禁止盲目破坏性重试。
 
 任一采集来源失败时保留原有公开数据并在运行状态中标红。部署成功不能代替采集成功；最后分别核对数据更新时间、`warnings` 和线上页面。
 

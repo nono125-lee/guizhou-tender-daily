@@ -34,6 +34,37 @@ class UnifiedSiteTests(unittest.TestCase):
 
         self.assertEqual(result, " M site/data/latest.json")
 
+    def test_publish_gh_pages_accepts_concurrent_matching_update(self):
+        split_sha = "a" * 40
+
+        def fake_git_output(arguments):
+            if arguments[0] == "push":
+                raise RuntimeError("cannot lock ref")
+            if arguments == ["rev-parse", "origin/gh-pages"]:
+                return split_sha
+            return ""
+
+        with patch.object(unified_site, "git_output", side_effect=fake_git_output):
+            result = unified_site.publish_gh_pages(split_sha)
+
+        self.assertEqual(result, "already_current")
+
+    def test_publish_gh_pages_rejects_concurrent_different_update(self):
+        split_sha = "a" * 40
+
+        def fake_git_output(arguments):
+            if arguments[0] == "push":
+                raise RuntimeError("cannot lock ref")
+            if arguments == ["rev-parse", "origin/gh-pages"]:
+                return "b" * 40
+            return ""
+
+        with (
+            patch.object(unified_site, "git_output", side_effect=fake_git_output),
+            self.assertRaisesRegex(RuntimeError, "cannot lock ref"),
+        ):
+            unified_site.publish_gh_pages(split_sha)
+
     def test_build_writes_manifest_matches_status_and_assets(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

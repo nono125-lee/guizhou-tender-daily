@@ -246,6 +246,11 @@ PYTHONPATH=src python3 -m tender_agent.unified_site build
 GitHub Actions **不再重新采集**。采集只在本机执行，Actions 只负责将
 `site/` 目录部署到 GitHub Pages。
 
+若本机直推 `gh-pages` 时遇到 `cannot lock ref`，先执行 `git fetch origin gh-pages`
+并比较 `git subtree split --prefix=site main` 与 `origin/gh-pages`。两者一致表示并发
+部署已经发布了同一份页面，不再重推；只有 SHA 不一致时才继续排查，禁止未核对就
+反复强推。
+
 ### 完整发布流程
 
 ```bash

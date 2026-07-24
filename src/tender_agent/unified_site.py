@@ -298,6 +298,17 @@ def git_output(arguments: list[str]) -> str:
     return process.stdout.rstrip()
 
 
+def publish_gh_pages(split_sha: str) -> str:
+    try:
+        git_output(["push", "origin", f"{split_sha}:gh-pages", "--force"])
+        return "pushed"
+    except RuntimeError:
+        git_output(["fetch", "origin", "gh-pages"])
+        if git_output(["rev-parse", "origin/gh-pages"]) == split_sha:
+            return "already_current"
+        raise
+
+
 def publish_site() -> dict:
     status_lines = git_output(["status", "--porcelain"]).splitlines()
     non_site_changes = [
@@ -313,8 +324,13 @@ def publish_site() -> dict:
     git_output(["commit", "-m", f"update: 统一施工机会数据 - {date_text}"])
     git_output(["push", "origin", "main"])
     split_sha = git_output(["subtree", "split", "--prefix=site", "main"])
-    git_output(["push", "origin", f"{split_sha}:gh-pages", "--force"])
-    return {"published": True, "commit": git_output(["rev-parse", "HEAD"])}
+    gh_pages = publish_gh_pages(split_sha)
+    return {
+        "published": True,
+        "commit": git_output(["rev-parse", "HEAD"]),
+        "site_commit": split_sha,
+        "gh_pages": gh_pages,
+    }
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
